@@ -1,0 +1,189 @@
+{
+  "units": "mm",
+  "status": "BENCH PRINT CANDIDATES; PEN ENVELOPE STUDY ONLY",
+  "parts": {
+    "Base": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 53263.35935458625,
+      "bbox_mm": [
+        100.0,
+        90.0,
+        6.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 4060
+    },
+    "Upright": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 56977.71509505036,
+      "bbox_mm": [
+        80.0,
+        28.0,
+        106.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 3100
+    },
+    "Carrier": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 21671.304454048124,
+      "bbox_mm": [
+        76.0,
+        50.0,
+        24.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 3092
+    },
+    "Adapter_SC035HGS_candidate": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3485.0983092410443,
+      "bbox_mm": [
+        40.0,
+        35.0,
+        3.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 3608
+    },
+    "Nose_guide_coupon": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1354.4872006197274,
+      "bbox_mm": [
+        18.0,
+        18.0,
+        12.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 2268
+    },
+    "Paper_wedge_30": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 849.5041722813603,
+      "bbox_mm": [
+        20.0,
+        8.0,
+        7.618802153517006
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 12
+    },
+    "Paper_wedge_45": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1120.0,
+      "bbox_mm": [
+        20.0,
+        8.000000000000002,
+        11.0
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 12
+    },
+    "Paper_wedge_60": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1588.512516844081,
+      "bbox_mm": [
+        20.0,
+        8.0,
+        16.856406460551014
+      ],
+      "mesh_closed": true,
+      "mesh_facets": 12
+    }
+  },
+  "bench_interferences": [],
+  "hardware_vs_print_interferences": [],
+  "slider_swept_checks": [
+    {
+      "delta_z": -26,
+      "upright_collision_mm3": 0.0,
+      "base_collision_mm3": 0.0
+    },
+    {
+      "delta_z": 44,
+      "upright_collision_mm3": 0.0,
+      "base_collision_mm3": 0.0
+    }
+  ],
+  "moving_assembly_sampled_collisions": [],
+  "moving_assembly_min_base_clearance_mm": 1.0,
+  "pen_containment": {
+    "Refill_D1_nominal": 0.0,
+    "Refill_service_sweep": 111.18881799217674,
+    "Camera_candidate8x8x8": 215.84144930807264,
+    "Contact_stack_budget": 0.0,
+    "Controller_populated_candidate": 92.73200870945256,
+    "PICO_narrowPCB_alternative": 0.0,
+    "Protected10440_cell_alternative": 0.0,
+    "Battery_complete_budget": 0.0,
+    "Battery_expansion_reserve": 3.723986350457517,
+    "USB_tail_budget": 0.0,
+    "Antenna_keepout_placeholder": 0.0,
+    "FPC_route_placeholder": 0.0
+  },
+  "pen_physical_collisions": [],
+  "controller_min_enclosing_diameter_mm": 16.316862443496913,
+  "controller_min_outer_diameter_at_1p5_wall_mm": 19.316862443496913,
+  "pen_solids": {
+    "Shell_d18_wall1p5": {
+      "valid": true,
+      "solids": 1
+    },
+    "Refill_D1_nominal": {
+      "valid": true,
+      "solids": 1
+    },
+    "Refill_service_sweep": {
+      "valid": true,
+      "solids": 1
+    },
+    "Camera_candidate8x8x8": {
+      "valid": true,
+      "solids": 1
+    },
+    "Contact_stack_budget": {
+      "valid": true,
+      "solids": 1
+    },
+    "Controller_populated_candidate": {
+      "valid": true,
+      "solids": 1
+    },
+    "PICO_narrowPCB_alternative": {
+      "valid": true,
+      "solids": 1
+    },
+    "Protected10440_cell_alternative": {
+      "valid": true,
+      "solids": 1
+    },
+    "Battery_complete_budget": {
+      "valid": true,
+      "solids": 1
+    },
+    "Battery_expansion_reserve": {
+      "valid": true,
+      "solids": 1
+    },
+    "USB_tail_budget": {
+      "valid": true,
+      "solids": 1
+    },
+    "Antenna_keepout_placeholder": {
+      "valid": true,
+      "solids": 1
+    },
+    "FPC_route_placeholder": {
+      "valid": true,
+      "solids": 1
+    }
+  }
+}
