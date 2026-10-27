@@ -1,0 +1,17 @@
+menu "SYNTHETIC BENCH ONLY - not camera firmware"
+config PEN_SYNTHETIC_BENCH
+    bool "Explicitly enable synthetic BLE bench data"
+    default n
+    help
+        Never deploy as real handwriting firmware. VALID and CONTACT stay clear.
+config PEN_APPROVED_PEER
+    string "Approved central identity address (AA:BB:CC:DD:EE:FF)"
+    default ""
+    help
+        Empty or invalid disables transmission and ACK. Provision manually using
+        a trusted console; OTA random addresses are not stable identities.
+config PEN_APPROVED_PEER_TYPE
+    int "Approved identity address type: 0 public, 1 random static"
+    range 0 1
+    default 0
+endmenu
