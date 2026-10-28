@@ -35,3 +35,10 @@ MCU 引脚分配以新提交的 `mcu_usb/gpio_assignment.json` 为准，不保�
 ## 摄像头资料依据更新（2026-10-28）
 
 旧30针订购表不是实物已验证线序，后续接口不锁死该表。摄像头逻辑接口仍未制造放行；不等待厂家无法提供的新资料，先使用既有PDF、原厂参考与公开代码推进。见[PDF页码索引](../docs/research/pdf_page_index.md)、[线序/厂家声明证据](../docs/research/custom_pin_evidence.md)及[驱动核对](../docs/research/public_driver_evidence.md)。这次只更新设计依据，不改变已有三模块原理图/PCB，不声称新增相机电气验证。
+
+## 新增电路（2026-10-28 后续设计）
+
+- [独立补光驱动](../docs/electronics/illumination_driver.md)：新增原理图、默认开路调试桥、MOS控制和串联电阻限流；没有PCB或光学安全放行。
+- [相机电源门控](../docs/electronics/power_safety.md)：新增原理图、默认OFF与物理开路负载隔离；不是限流/反灌保护器，不能连接未知模组。
+
+这些是新绘制并检查的电路，不代表相机接口、整机主板或实物联调已经完成。
