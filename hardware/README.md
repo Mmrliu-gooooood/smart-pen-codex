@@ -42,3 +42,5 @@ MCU 引脚分配以新提交的 `mcu_usb/gpio_assignment.json` 为准，不保�
 - [相机电源门控](../docs/electronics/power_safety.md)：新增原理图、默认OFF与物理开路负载隔离；不是限流/反灌保护器，不能连接未知模组。
 
 这些是新绘制并检查的电路，不代表相机接口、整机主板或实物联调已经完成。
+
+- [相机隔离与电平转换](../docs/electronics/camera_isolation.md)：新增三子页元件级电路，固定方向DVP、SCCB转换及默认断开控制；仍无相机PCB，不能按旧30针表直接接。新三个模块的[独立审阅](../docs/verification/NEW_ELECTRICAL_REVIEW_20261028.md)不替代带载电平、时钟和相机实测。
