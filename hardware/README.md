@@ -31,3 +31,7 @@
 MCU 引脚分配以新提交的 `mcu_usb/gpio_assignment.json` 为准，不保证与遗失工作副本或旧程序相同。既有合成 BLE 测试固件不是本硬件的完整驱动，摄像头固件、隔离控制、上电时序尚未联调，不可直接套用旧引脚表。
 
 本次三模块独立审阅见 [检查报告](../docs/verification/ELECTRICAL_REVIEW_20261028.md)。跨模块名称核对不等于物理集成，见 [接口约束](../docs/electronics/integration_contract.md)。
+
+## 摄像头资料依据更新（2026-10-28）
+
+旧30针订购表不是实物已验证线序，后续接口不锁死该表。摄像头逻辑接口仍未制造放行；不等待厂家无法提供的新资料，先使用既有PDF、原厂参考与公开代码推进。见[PDF页码索引](../docs/research/pdf_page_index.md)、[线序/厂家声明证据](../docs/research/custom_pin_evidence.md)及[驱动核对](../docs/research/public_driver_evidence.md)。这次只更新设计依据，不改变已有三模块原理图/PCB，不声称新增相机电气验证。
