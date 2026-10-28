@@ -1,0 +1,290 @@
+{
+  "scope": "Synthetic Gray8; orthogonal anisotropic model, NOT tilt/projective or MCU benchmark",
+  "timing_scope": "C decode call only; excludes independent Python renderer; NOT target timing",
+  "host": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cases": 16,
+  "correct_cold": 16,
+  "correct_warm": 16,
+  "false_success": 0,
+  "cold_median_ms": 91.88395,
+  "warm_median_ms": 0.39905,
+  "records": [
+    {
+      "vector": 0,
+      "angle": -56,
+      "y_scale": 0.6,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 87.9541,
+      "warm_ms": 0.2734
+    },
+    {
+      "vector": 7,
+      "angle": -36,
+      "y_scale": 0.8,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 91.2519,
+      "warm_ms": 0.3978
+    },
+    {
+      "vector": 15,
+      "angle": 32,
+      "y_scale": 1.2,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 90.2748,
+      "warm_ms": 0.3858
+    },
+    {
+      "vector": 25,
+      "angle": 48,
+      "y_scale": 1.4,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 100.1908,
+      "warm_ms": 0.85
+    },
+    {
+      "vector": 32,
+      "angle": -56,
+      "y_scale": 0.6,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 91.7658,
+      "warm_ms": 0.3641
+    },
+    {
+      "vector": 39,
+      "angle": -36,
+      "y_scale": 0.8,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 92.0021,
+      "warm_ms": 0.5065
+    },
+    {
+      "vector": 47,
+      "angle": 32,
+      "y_scale": 1.2,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 89.8032,
+      "warm_ms": 0.4411
+    },
+    {
+      "vector": 57,
+      "angle": 48,
+      "y_scale": 1.4,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 95.715,
+      "warm_ms": 0.4024
+    },
+    {
+      "vector": 64,
+      "angle": -56,
+      "y_scale": 0.6,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 84.5287,
+      "warm_ms": 0.2826
+    },
+    {
+      "vector": 71,
+      "angle": -36,
+      "y_scale": 0.8,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 92.8321,
+      "warm_ms": 0.6699
+    },
+    {
+      "vector": 79,
+      "angle": 32,
+      "y_scale": 1.2,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 94.7949,
+      "warm_ms": 0.3998
+    },
+    {
+      "vector": 89,
+      "angle": 48,
+      "y_scale": 1.4,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 95.5032,
+      "warm_ms": 0.3422
+    },
+    {
+      "vector": 96,
+      "angle": -56,
+      "y_scale": 0.6,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 86.5638,
+      "warm_ms": 0.3983
+    },
+    {
+      "vector": 103,
+      "angle": -36,
+      "y_scale": 0.8,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 94.0327,
+      "warm_ms": 0.3647
+    },
+    {
+      "vector": 111,
+      "angle": 32,
+      "y_scale": 1.2,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 27,
+      "cold_ms": 89.3115,
+      "warm_ms": 0.4078
+    },
+    {
+      "vector": 121,
+      "angle": 48,
+      "y_scale": 1.4,
+      "cold_status": 0,
+      "warm_status": 0,
+      "cold_candidates": 26901,
+      "warm_candidates": 18,
+      "cold_ms": 94.6571,
+      "warm_ms": 0.7307
+    }
+  ],
+  "unsupported_probe_records": [
+    {
+      "kind": "projective",
+      "vector": 5,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "projective",
+      "vector": 37,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "projective",
+      "vector": 69,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "projective",
+      "vector": 101,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "shear",
+      "vector": 5,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "shear",
+      "vector": 37,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "shear",
+      "vector": 69,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "shear",
+      "vector": 101,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_rotation",
+      "vector": 5,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_rotation",
+      "vector": 37,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_rotation",
+      "vector": 69,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_rotation",
+      "vector": 101,
+      "status": -3,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_scale",
+      "vector": 5,
+      "status": -2,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_scale",
+      "vector": 37,
+      "status": -2,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_scale",
+      "vector": 69,
+      "status": -2,
+      "result": "rejected"
+    },
+    {
+      "kind": "outside_scale",
+      "vector": 101,
+      "status": -2,
+      "result": "rejected"
+    }
+  ],
+  "unsupported_probe_rejected": 16,
+  "unsupported_probe_exact": 0,
+  "unsupported_probe_false_success": 0
+}

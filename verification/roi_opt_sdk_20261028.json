@@ -1,0 +1,61 @@
+{
+  "status": "REAL_ESP32S3_SDK_COMPILE_LINK_PASS_NOT_HARDWARE_EXECUTION",
+  "sdk": "ESP-IDF v5.4 commit67c1de1eebe095d554d281952fde63c16ee2dca0",
+  "compiler": "Xtensa GCC14.2.0 esp-14.2.0_20241119",
+  "target": "esp32s3",
+  "retained_symbols": [
+    "420074c4 00000106 T pen_anoto_decode",
+    "420069c8 00000829 T pen_roi_decode_opt",
+    "3fc93cd8 00005580 B pen_vision_compile_workspace"
+  ],
+  "workspace_bytes": 21888,
+  "roi_object_undefined_symbols": [
+    "         U __adddf3",
+    "         U __divdf3",
+    "         U __extendsfdf2",
+    "         U __fixdfsi",
+    "         U __floatsidf",
+    "         U __floatunsidf",
+    "         U __gtdf2",
+    "         U __ltdf2",
+    "         U __muldf3",
+    "         U __subdf3",
+    "         U __truncdfsf2",
+    "         U atan2",
+    "         U cos",
+    "         U fmax",
+    "         U fmin",
+    "         U memcpy",
+    "         U memset",
+    "         U pen_anoto_decode",
+    "         U round",
+    "         U sin",
+    "         U sqrt"
+  ],
+  "no_heap_calls_in_roi_object": true,
+  "target_stack_usage": {
+    "vision_compile_main.c.su": "<workspace>/smart_pen_vision_opt_20261028/firmware/vision_idf/main/vision_compile_main.c:7:6:app_main\t32\tstatic\n",
+    "roi_opt.c.su": "<workspace>/smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:57:15:phase\t48\tstatic\n<workspace>/smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:64:12:candidate\t256\tstatic\n<workspace>/smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:132:5:pen_roi_decode_opt\t368\tstatic\n",
+    "anoto.c.su": "<workspace>/smart_pen_vision_opt_20261028/firmware/codec/anoto.c:19:17:integral\t32\tstatic\n<workspace>/smart_pen_vision_opt_20261028/firmware/codec/anoto.c:11:12:axis\t128\tstatic\n<workspace>/smart_pen_vision_opt_20261028/firmware/codec/anoto.c:20:5:pen_anoto_decode\t64\tstatic\n"
+  },
+  "stack_caveat": "Compiler static frames only; libm/SDK/interrupt call stacks and runtime high-water not measured. Do not assume default small task stack sufficient.",
+  "artifact_sha256": {
+    "smartpen_vision_compile.elf": "d32816851a98361d9a609a5afddd6124c4d55eda646a65e33cfc9ab3c1a1bead",
+    "smartpen_vision_compile.bin": "2d94d6cf6fd3403aacff39d15012c02b5de2e1f9009be5e78f8b0fa9aecdbefb"
+  },
+  "source_sha256": {
+    "firmware/vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "firmware/vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e",
+    "firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "firmware/vision_idf/main/vision_compile_main.c": "f3bd166a307211a81156b0cdb03228e04a6e61da5ac7fbbf6dcb812674859795",
+    "firmware/vision_idf/main/CMakeLists.txt": "34587a1ca1b1f632cef70a183b3259d6198cd7e15cd69ea2c68a4c3d45fdbf4f"
+  },
+  "hardware_actions": "NONE; app_main only prints warning and returns; no flash command executed",
+  "not_verified": [
+    "target frame latency",
+    "real camera RAW",
+    "perspective tilt correctness",
+    "runtime peak stack"
+  ],
+  "independent_review": "No memory/bitset/stale-result blocking issue. Warm local-only ambiguity scope explicitly disclosed; not equivalent to full cold global search."
+}

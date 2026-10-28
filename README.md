@@ -32,3 +32,9 @@
 - `firmware/`, `software/`, `tests/`, `docs/software/`：嵌入式核心、Windows 桥接与验证。
 
 各子目录的状态说明具有约束力。标为候选、夹具、未布线、未实测的文件不能替代最终整机。
+
+## 小视场软件实验进展
+
+新增 [Gray8 ROI获取/网格搜索/严格解码](docs/software/roi_vision.md)，不再仅靠已对齐的合成cell输入。它输出窗口原点而非物理笔尖；当前仅合成变换测试，真实相机RAW、目标MCU性能和整机书写均未验收。
+
+独立下一版 [ROI工作区/warm-start候选](docs/software/roi_vision_candidate.md) 保留参考实现，新增无每帧heap分配与有限非均匀尺度获取，并通过真实S3 SDK编译；仍不是握笔透视/实物实时性验收。

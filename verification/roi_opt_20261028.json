@@ -1,0 +1,48 @@
+{
+  "reference_commit": "a225ed29d68c134228c3683a73f293d5a854cdee",
+  "status": "EXPERIMENTAL_OPT_CANDIDATE_NOT_REAL_PEN_ACCEPTANCE",
+  "full_host_gate": {
+    "tests": 72,
+    "failures": 0,
+    "skips": 0,
+    "portable_c": "PASS",
+    "log": "verification/roi_opt_hostgate_20261028.log"
+  },
+  "opt_tests": 9,
+  "workspace_bytes": 21888,
+  "heap_calls_in_opt_object": 0,
+  "target_sdk": "PASS: real ESP32S3 link and retained decoder/workspace; see roi_opt_sdk_20261028.json",
+  "target_compiler_frame_bytes": {
+    "pen_roi_decode_opt": 368,
+    "candidate": 256,
+    "phase": 48
+  },
+  "target_runtime_stack_high_water": "NOT_MEASURED",
+  "sanitizers": {
+    "address": "PASS",
+    "undefined_behavior": "PASS",
+    "leak": "NOT_RUN: disabled for ptrace sandbox",
+    "coverage": "opt current pixels, warm/cold, stale hints, buffer arguments, bit65535, non-byte-aligned dimensions"
+  },
+  "benchmark": {
+    "cases": 16,
+    "correct_cold": 16,
+    "correct_warm": 16,
+    "false_success": 0,
+    "cold_median_ms": 91.88395,
+    "warm_median_ms": 0.39905
+  },
+  "limitations": [
+    "not general affine/shear/homography",
+    "image rotation is not grip tilt",
+    "cold search not realtime optimized",
+    "no real RAW or tip pose",
+    "no target timing; software double arithmetic still present",
+    "warm checks local candidates only, may miss distant conflicting model; not safety-equivalent to full cold search"
+  ],
+  "source_sha256": {
+    "firmware/vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "firmware/vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e"
+  },
+  "independent_review": "No memory/bitset/stale-result blocking issue. Warm local-only ambiguity scope explicitly disclosed; not equivalent to full cold global search."
+}

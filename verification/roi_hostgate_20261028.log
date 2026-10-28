@@ -1,0 +1,88 @@
+test_empty_not_pass (test_acceptance.TestEvidence.test_empty_not_pass) ... ok
+test_error (test_acceptance.TestEvidence.test_error) ... ok
+test_false_contact (test_acceptance.TestEvidence.test_false_contact) ... ok
+test_invalid_bit (test_acceptance.TestEvidence.test_invalid_bit) ... ok
+test_invalid_not_zero (test_acceptance.TestEvidence.test_invalid_not_zero) ... ok
+test_no_contact (test_acceptance.TestEvidence.test_no_contact) ... ok
+test_reject_nan (test_acceptance.TestEvidence.test_reject_nan) ... ok
+test_reject_reverse_time (test_acceptance.TestEvidence.test_reject_reverse_time) ... ok
+test_ack_security_boundaries (test_bench_wire.BenchWireTests.test_ack_security_boundaries) ... ok
+test_fragment_crosswire (test_bench_wire.BenchWireTests.test_fragment_crosswire) ... ok
+test_corrupt_and_transfer (test_ble.BleTests.test_corrupt_and_transfer) ... ok
+test_loss_reorder_timeout_reconnect (test_ble.BleTests.test_loss_reorder_timeout_reconnect) ... ok
+test_roundtrip_and_ack (test_ble.BleTests.test_roundtrip_and_ack) ... ok
+test_front (test_calibration_geometry.CalibrationGeometry.test_front) ... ok
+test_nan (test_calibration_geometry.CalibrationGeometry.test_nan) ... ok
+test_negative_depth (test_calibration_geometry.CalibrationGeometry.test_negative_depth) ... ok
+test_no_contact (test_calibration_geometry.CalibrationGeometry.test_no_contact) ... ok
+test_plane_error (test_calibration_geometry.CalibrationGeometry.test_plane_error) ... ok
+test_reflection (test_calibration_geometry.CalibrationGeometry.test_reflection) ... ok
+test_scale_not_rotation (test_calibration_geometry.CalibrationGeometry.test_scale_not_rotation) ... ok
+test_tilted (test_calibration_geometry.CalibrationGeometry.test_tilted) ... ok
+test_fail_closed (test_codec.Codec.test_fail_closed) ... ok
+test_reference (test_codec.Codec.test_reference) ... ok
+test_c_state_machine (test_contact_power.ContactPower.test_c_state_machine) ... contact_power: buffered edges, gaps, readiness, release, sleep guards, stuck faults, clock recovery PASS
+ok
+test_512_deterministic_random_vectors (test_crosswire.CrosswireTests.test_512_deterministic_random_vectors) ... ok
+test_corruption_and_semantics_fail_closed_in_both (test_crosswire.CrosswireTests.test_corruption_and_semantics_fail_closed_in_both) ... ok
+test_signed_unsigned_edges (test_crosswire.CrosswireTests.test_signed_unsigned_edges) ... ok
+test_commit_failure_has_no_ack_or_row (test_host.HostTests.test_commit_failure_has_no_ack_or_row) ... ok
+test_continuity_and_duplicate (test_host.HostTests.test_continuity_and_duplicate) ... ok
+test_durable_contiguous_reconnect (test_host.HostTests.test_durable_contiguous_reconnect) ... ok
+test_reserved_fields_with_valid_crc (test_host.HostTests.test_reserved_fields_with_valid_crc) ... ok
+test_roundtrip_and_crc (test_host.HostTests.test_roundtrip_and_crc) ... ok
+test_safe_boundaries (test_host.HostTests.test_safe_boundaries) ... ok
+test_semantics (test_host.HostTests.test_semantics) ... ok
+test_sequence_rollover_and_clock_reset_are_boundaries (test_host.HostTests.test_sequence_rollover_and_clock_reset_are_boundaries) ... ok
+test_browser_reconnect_retains_open_process_restart_splits (test_live_web.LiveTests.test_browser_reconnect_retains_open_process_restart_splits) ... /workspace/scratch/fe148e758944/smart_pen_host_venv_20261028/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+ok
+test_finish_and_start_fence (test_live_web.LiveTests.test_finish_and_start_fence) ... ok
+test_invalid_bench_and_backpressure (test_live_web.LiveTests.test_invalid_bench_and_backpressure) ... ok
+test_live_order_undo_clear_restart_and_page (test_live_web.LiveTests.test_live_order_undo_clear_restart_and_page) ... ok
+test_view_lease_and_timeout_loss (test_live_web.LiveTests.test_view_lease_and_timeout_loss) ... ok
+test_integrated_actual_c_modules (test_recorder.RecorderTests.test_integrated_actual_c_modules) ... recorder pipeline: raw edge -> debounce -> durable sequence -> replay ACK + midburst FULL latch PASS
+ok
+test_capacity (test_registry.RegistryTests.test_capacity) ... ok
+test_duplicate_alias_invalid (test_registry.RegistryTests.test_duplicate_alias_invalid) ... ok
+test_unique_and_unknown (test_registry.RegistryTests.test_unique_and_unknown) ... ok
+test_overlapping_windows (test_roi_consensus.Consensus.test_overlapping_windows) ... ok
+test_native (test_roi_safety.RoiSafety.test_native) ... ROI native safety and positive fixture passed
+ok
+test_adversarial_geometry_and_section (test_roi_vision.RoiVision.test_adversarial_geometry_and_section) ... ok
+test_missing_dots_fail_closed (test_roi_vision.RoiVision.test_missing_dots_fail_closed) ... ok
+test_negative_images (test_roi_vision.RoiVision.test_negative_images) ... ok
+test_padded_stride (test_roi_vision.RoiVision.test_padded_stride) ... ok
+test_perspective_and_other_offsets_never_false_success (test_roi_vision.RoiVision.test_perspective_and_other_offsets_never_false_success) ... ok
+test_translation_rotation_scale_and_noise (test_roi_vision.RoiVision.test_translation_rotation_scale_and_noise) ... ok
+test_truncated_input (test_roi_vision.RoiVision.test_truncated_input) ... ok
+test_actual_c_fault_injection (test_storage.StorageTests.test_actual_c_fault_injection) ... storage: restart/replay/authACK/full/corruption +52 data cuts +12 ACK cuts +512 erase cuts PASS
+ok
+test_actual_adapter_disabled_and_enabled (test_storage_idf_mock.StorageIdfTests.test_actual_adapter_disabled_and_enabled) ... storage IDF disabled: zero writes PASS
+storage actual IDF adapter mocked APIs: disabled/security/NVS/epoch/readback/ACK/reclaim PASS
+ok
+test_image_to_coordinate (test_synthetic_image.Synthetic.test_image_to_coordinate) ... ok
+test_configuration_never_silently_downgrades_security (test_update_idf_mock.UpdateAdapterTests.test_configuration_never_silently_downgrades_security) ... disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+ok
+test_sdk_fault_call_order (test_update_idf_mock.UpdateAdapterTests.test_sdk_fault_call_order) ... SDK mock: inactive slot, digest/signature/descriptor rejection, truncation, write fault, durable floor before health commit, explicit rollback PASS
+ok
+test_portable_policy (test_update_policy.UpdatePolicyTests.test_portable_policy) ... update policy: gates, ranges, anti-downgrade, partial/corrupt image, ordering, boot diagnostics PASS
+ok
+test_actual_rest_websocket_export (test_upstream_web.UpstreamTests.test_actual_rest_websocket_export) ... ok
+test_mock_radio_ack_after_durable_commit (test_windows_ble.WindowsBleTests.test_mock_radio_ack_after_durable_commit) ... ROI synthetic calls=64 host median_ms=18.244 max_ms=46.869 (not MCU timing)
+{"synthetic_bench": true, "session": "123", "through_seq": 0}
+ok
+test_old_replay_ack_is_exact_even_when_host_frontier_ahead (test_windows_ble.WindowsBleTests.test_old_replay_ack_is_exact_even_when_host_frontier_ahead) ... {"synthetic_bench": true, "session": "123", "through_seq": 2}
+ok
+test_synthetic_optin_required (test_windows_ble.WindowsBleTests.test_synthetic_optin_required) ... ok
+
+----------------------------------------------------------------------
+Ran 63 tests in 8.629s
+
+OK
+portable: CRC, all-byte corruption, contact, calibration, torn write, sync failure, reboot, full PASS
+FULL HOST GATE PASS: no skipped tests. Radio/camera/physical flash remain untested.

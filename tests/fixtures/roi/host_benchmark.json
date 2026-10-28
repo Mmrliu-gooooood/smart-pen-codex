@@ -1,0 +1,1806 @@
+{
+  "scope": "synthetic Gray8, upstream independent a4_fixed vectors; NOT real camera or MCU",
+  "host": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "compiler_flags": "-std=c11 -O2 -Wall -Wextra -Werror -pedantic -shared -fPIC",
+  "samples": 256,
+  "exact_success": 256,
+  "rejected": 0,
+  "false_success": 0,
+  "median_ms": 14.3925,
+  "max_ms": 156.8794,
+  "records": [
+    {
+      "vector": 0,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6028
+    },
+    {
+      "vector": 0,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8137
+    },
+    {
+      "vector": 1,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8314
+    },
+    {
+      "vector": 1,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.4035
+    },
+    {
+      "vector": 2,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5481
+    },
+    {
+      "vector": 2,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.8172
+    },
+    {
+      "vector": 3,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.3332
+    },
+    {
+      "vector": 3,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3703
+    },
+    {
+      "vector": 4,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.6314
+    },
+    {
+      "vector": 4,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6339
+    },
+    {
+      "vector": 5,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5129
+    },
+    {
+      "vector": 5,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8348
+    },
+    {
+      "vector": 6,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.1055
+    },
+    {
+      "vector": 6,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.9845
+    },
+    {
+      "vector": 7,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6305
+    },
+    {
+      "vector": 7,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.2321
+    },
+    {
+      "vector": 8,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.7032
+    },
+    {
+      "vector": 8,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.8354
+    },
+    {
+      "vector": 9,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6623
+    },
+    {
+      "vector": 9,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.666
+    },
+    {
+      "vector": 10,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.306
+    },
+    {
+      "vector": 10,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.3393
+    },
+    {
+      "vector": 11,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.1435
+    },
+    {
+      "vector": 11,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.0328
+    },
+    {
+      "vector": 12,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6745
+    },
+    {
+      "vector": 12,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 11.8391
+    },
+    {
+      "vector": 13,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6055
+    },
+    {
+      "vector": 13,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.4788
+    },
+    {
+      "vector": 14,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.4936
+    },
+    {
+      "vector": 14,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.3887
+    },
+    {
+      "vector": 15,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4747
+    },
+    {
+      "vector": 15,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.0472
+    },
+    {
+      "vector": 16,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3313
+    },
+    {
+      "vector": 16,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.9138
+    },
+    {
+      "vector": 17,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.6415
+    },
+    {
+      "vector": 17,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8763
+    },
+    {
+      "vector": 18,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.1561
+    },
+    {
+      "vector": 18,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.2855
+    },
+    {
+      "vector": 19,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9711
+    },
+    {
+      "vector": 19,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.118
+    },
+    {
+      "vector": 20,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.1093
+    },
+    {
+      "vector": 20,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.874
+    },
+    {
+      "vector": 21,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8685
+    },
+    {
+      "vector": 21,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.3911
+    },
+    {
+      "vector": 22,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.7756
+    },
+    {
+      "vector": 22,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1441
+    },
+    {
+      "vector": 23,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4819
+    },
+    {
+      "vector": 23,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.9359
+    },
+    {
+      "vector": 24,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.0107
+    },
+    {
+      "vector": 24,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3105
+    },
+    {
+      "vector": 25,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6945
+    },
+    {
+      "vector": 25,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3639
+    },
+    {
+      "vector": 26,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3467
+    },
+    {
+      "vector": 26,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8944
+    },
+    {
+      "vector": 27,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.9939
+    },
+    {
+      "vector": 27,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.7589
+    },
+    {
+      "vector": 28,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 27.964
+    },
+    {
+      "vector": 28,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.2352
+    },
+    {
+      "vector": 29,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.4937
+    },
+    {
+      "vector": 29,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.8001
+    },
+    {
+      "vector": 30,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0294
+    },
+    {
+      "vector": 30,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3203
+    },
+    {
+      "vector": 31,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 18.8513
+    },
+    {
+      "vector": 31,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.7063
+    },
+    {
+      "vector": 32,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.3839
+    },
+    {
+      "vector": 32,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 22.6056
+    },
+    {
+      "vector": 33,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 24.6325
+    },
+    {
+      "vector": 33,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.5817
+    },
+    {
+      "vector": 34,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.6562
+    },
+    {
+      "vector": 34,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 20.6469
+    },
+    {
+      "vector": 35,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 19.7679
+    },
+    {
+      "vector": 35,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0889
+    },
+    {
+      "vector": 36,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 22.6707
+    },
+    {
+      "vector": 36,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.8957
+    },
+    {
+      "vector": 37,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.1476
+    },
+    {
+      "vector": 37,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7158
+    },
+    {
+      "vector": 38,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.2526
+    },
+    {
+      "vector": 38,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.9476
+    },
+    {
+      "vector": 39,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.7248
+    },
+    {
+      "vector": 39,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 24.9159
+    },
+    {
+      "vector": 40,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1224
+    },
+    {
+      "vector": 40,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 118.6262
+    },
+    {
+      "vector": 41,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.6279
+    },
+    {
+      "vector": 41,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.3952
+    },
+    {
+      "vector": 42,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 31.6958
+    },
+    {
+      "vector": 42,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.3409
+    },
+    {
+      "vector": 43,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.2317
+    },
+    {
+      "vector": 43,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.5476
+    },
+    {
+      "vector": 44,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.5437
+    },
+    {
+      "vector": 44,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8744
+    },
+    {
+      "vector": 45,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.6306
+    },
+    {
+      "vector": 45,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.2226
+    },
+    {
+      "vector": 46,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 18.9071
+    },
+    {
+      "vector": 46,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.3594
+    },
+    {
+      "vector": 47,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.4531
+    },
+    {
+      "vector": 47,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.1472
+    },
+    {
+      "vector": 48,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.2402
+    },
+    {
+      "vector": 48,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9608
+    },
+    {
+      "vector": 49,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.7382
+    },
+    {
+      "vector": 49,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.465
+    },
+    {
+      "vector": 50,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3353
+    },
+    {
+      "vector": 50,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.4618
+    },
+    {
+      "vector": 51,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.6467
+    },
+    {
+      "vector": 51,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3915
+    },
+    {
+      "vector": 52,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.1027
+    },
+    {
+      "vector": 52,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.2164
+    },
+    {
+      "vector": 53,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.8174
+    },
+    {
+      "vector": 53,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4617
+    },
+    {
+      "vector": 54,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 19.8003
+    },
+    {
+      "vector": 54,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8246
+    },
+    {
+      "vector": 55,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6282
+    },
+    {
+      "vector": 55,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0365
+    },
+    {
+      "vector": 56,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.2572
+    },
+    {
+      "vector": 56,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5412
+    },
+    {
+      "vector": 57,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.0444
+    },
+    {
+      "vector": 57,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9948
+    },
+    {
+      "vector": 58,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.8102
+    },
+    {
+      "vector": 58,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.0371
+    },
+    {
+      "vector": 59,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.2016
+    },
+    {
+      "vector": 59,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5087
+    },
+    {
+      "vector": 60,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.6185
+    },
+    {
+      "vector": 60,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3333
+    },
+    {
+      "vector": 61,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8728
+    },
+    {
+      "vector": 61,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.3351
+    },
+    {
+      "vector": 62,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 19.9707
+    },
+    {
+      "vector": 62,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 21.707
+    },
+    {
+      "vector": 63,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 17.719
+    },
+    {
+      "vector": 63,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.6152
+    },
+    {
+      "vector": 64,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.1777
+    },
+    {
+      "vector": 64,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9654
+    },
+    {
+      "vector": 65,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6999
+    },
+    {
+      "vector": 65,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.0875
+    },
+    {
+      "vector": 66,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.2411
+    },
+    {
+      "vector": 66,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3504
+    },
+    {
+      "vector": 67,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0571
+    },
+    {
+      "vector": 67,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8014
+    },
+    {
+      "vector": 68,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8164
+    },
+    {
+      "vector": 68,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6501
+    },
+    {
+      "vector": 69,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.1691
+    },
+    {
+      "vector": 69,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.4485
+    },
+    {
+      "vector": 70,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.8276
+    },
+    {
+      "vector": 70,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1221
+    },
+    {
+      "vector": 71,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9667
+    },
+    {
+      "vector": 71,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.9533
+    },
+    {
+      "vector": 72,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.5936
+    },
+    {
+      "vector": 72,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8485
+    },
+    {
+      "vector": 73,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7473
+    },
+    {
+      "vector": 73,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.1868
+    },
+    {
+      "vector": 74,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.4781
+    },
+    {
+      "vector": 74,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.3537
+    },
+    {
+      "vector": 75,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.5847
+    },
+    {
+      "vector": 75,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.5775
+    },
+    {
+      "vector": 76,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 20.0464
+    },
+    {
+      "vector": 76,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1191
+    },
+    {
+      "vector": 77,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7731
+    },
+    {
+      "vector": 77,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0972
+    },
+    {
+      "vector": 78,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6828
+    },
+    {
+      "vector": 78,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1816
+    },
+    {
+      "vector": 79,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8423
+    },
+    {
+      "vector": 79,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.5538
+    },
+    {
+      "vector": 80,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.5875
+    },
+    {
+      "vector": 80,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.9786
+    },
+    {
+      "vector": 81,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.8327
+    },
+    {
+      "vector": 81,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0547
+    },
+    {
+      "vector": 82,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.2581
+    },
+    {
+      "vector": 82,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.846
+    },
+    {
+      "vector": 83,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.4218
+    },
+    {
+      "vector": 83,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3935
+    },
+    {
+      "vector": 84,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.1139
+    },
+    {
+      "vector": 84,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6521
+    },
+    {
+      "vector": 85,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.8832
+    },
+    {
+      "vector": 85,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.7744
+    },
+    {
+      "vector": 86,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.498
+    },
+    {
+      "vector": 86,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.2225
+    },
+    {
+      "vector": 87,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3561
+    },
+    {
+      "vector": 87,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.4677
+    },
+    {
+      "vector": 88,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 19.0505
+    },
+    {
+      "vector": 88,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.1736
+    },
+    {
+      "vector": 89,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.0146
+    },
+    {
+      "vector": 89,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4983
+    },
+    {
+      "vector": 90,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.2293
+    },
+    {
+      "vector": 90,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.5391
+    },
+    {
+      "vector": 91,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.7596
+    },
+    {
+      "vector": 91,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5257
+    },
+    {
+      "vector": 92,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.3013
+    },
+    {
+      "vector": 92,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.774
+    },
+    {
+      "vector": 93,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.9941
+    },
+    {
+      "vector": 93,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.7052
+    },
+    {
+      "vector": 94,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0031
+    },
+    {
+      "vector": 94,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0475
+    },
+    {
+      "vector": 95,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.2985
+    },
+    {
+      "vector": 95,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.9081
+    },
+    {
+      "vector": 96,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 15.6769
+    },
+    {
+      "vector": 96,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7298
+    },
+    {
+      "vector": 97,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.636
+    },
+    {
+      "vector": 97,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 21.693
+    },
+    {
+      "vector": 98,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 18.9211
+    },
+    {
+      "vector": 98,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 21.0944
+    },
+    {
+      "vector": 99,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 19.4142
+    },
+    {
+      "vector": 99,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.0893
+    },
+    {
+      "vector": 100,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.8194
+    },
+    {
+      "vector": 100,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.1302
+    },
+    {
+      "vector": 101,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6134
+    },
+    {
+      "vector": 101,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.8191
+    },
+    {
+      "vector": 102,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3484
+    },
+    {
+      "vector": 102,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 17.8495
+    },
+    {
+      "vector": 103,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 18.8875
+    },
+    {
+      "vector": 103,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6743
+    },
+    {
+      "vector": 104,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 18.0455
+    },
+    {
+      "vector": 104,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.5997
+    },
+    {
+      "vector": 105,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.4227
+    },
+    {
+      "vector": 105,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.2162
+    },
+    {
+      "vector": 106,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.7776
+    },
+    {
+      "vector": 106,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 16.7672
+    },
+    {
+      "vector": 107,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.5733
+    },
+    {
+      "vector": 107,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.2145
+    },
+    {
+      "vector": 108,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.1514
+    },
+    {
+      "vector": 108,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.1718
+    },
+    {
+      "vector": 109,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.727
+    },
+    {
+      "vector": 109,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.0145
+    },
+    {
+      "vector": 110,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 156.8794
+    },
+    {
+      "vector": 110,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.529
+    },
+    {
+      "vector": 111,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.864
+    },
+    {
+      "vector": 111,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.5211
+    },
+    {
+      "vector": 112,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 125.548
+    },
+    {
+      "vector": 112,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.5114
+    },
+    {
+      "vector": 113,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.4007
+    },
+    {
+      "vector": 113,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6934
+    },
+    {
+      "vector": 114,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.3084
+    },
+    {
+      "vector": 114,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.5777
+    },
+    {
+      "vector": 115,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.6699
+    },
+    {
+      "vector": 115,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 19.0782
+    },
+    {
+      "vector": 116,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.5845
+    },
+    {
+      "vector": 116,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 18.2767
+    },
+    {
+      "vector": 117,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.325
+    },
+    {
+      "vector": 117,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9295
+    },
+    {
+      "vector": 118,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 23.9923
+    },
+    {
+      "vector": 118,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3386
+    },
+    {
+      "vector": 119,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.021
+    },
+    {
+      "vector": 119,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.845
+    },
+    {
+      "vector": 120,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 12.7302
+    },
+    {
+      "vector": 120,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7189
+    },
+    {
+      "vector": 121,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 14.7404
+    },
+    {
+      "vector": 121,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.9294
+    },
+    {
+      "vector": 122,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4659
+    },
+    {
+      "vector": 122,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 15.3278
+    },
+    {
+      "vector": 123,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.764
+    },
+    {
+      "vector": 123,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.588
+    },
+    {
+      "vector": 124,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 16.9203
+    },
+    {
+      "vector": 124,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.663
+    },
+    {
+      "vector": 125,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.7363
+    },
+    {
+      "vector": 125,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 13.4832
+    },
+    {
+      "vector": 126,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.5811
+    },
+    {
+      "vector": 126,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 14.939
+    },
+    {
+      "vector": 127,
+      "transform": 0,
+      "status": 0,
+      "correct": true,
+      "ms": 13.3608
+    },
+    {
+      "vector": 127,
+      "transform": 1,
+      "status": 0,
+      "correct": true,
+      "ms": 12.6116
+    }
+  ]
+}
