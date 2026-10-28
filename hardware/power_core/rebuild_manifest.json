@@ -73,16 +73,6 @@
       "sha256": "b2cff92b70505e8600ae0c057f5ee42cce424365870bd7c14b71fb28c3a686bb"
     },
     {
-      "path": "sources/bq24074.pdf",
-      "bytes": 3739103,
-      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
-    },
-    {
-      "path": "sources/tps63802.pdf",
-      "bytes": 2466159,
-      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6"
-    },
-    {
       "path": "sources_manifest.json",
       "bytes": 560,
       "sha256": "3fe27e8307f2885fc26dbbe3370ee7756b331fbd727c099313ae9e228dddc785"
@@ -92,5 +82,18 @@
       "bytes": 175,
       "sha256": "fb1490bcb5e9216bc4323caee19997d474eb2bc91e91fbbb15042d57a5d2df8d"
     }
-  ]
+  ],
+  "not_bundled_sources": [
+    {
+      "path": "sources/bq24074.pdf",
+      "bytes": 3739103,
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    {
+      "path": "sources/tps63802.pdf",
+      "bytes": 2466159,
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6"
+    }
+  ],
+  "distribution_note": "Original vendor PDFs are not bundled. See sources_manifest.json for official URLs and hashes."
 }

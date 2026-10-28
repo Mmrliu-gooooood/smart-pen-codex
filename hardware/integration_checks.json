@@ -1,0 +1,90 @@
+{
+  "date_utc": "2026-10-28T03:53:11.107839+00:00",
+  "checks": [
+    {
+      "peer": "power",
+      "net": "VBUS_5V",
+      "mcu_nodes": 6,
+      "peer_nodes": 3,
+      "pass": true
+    },
+    {
+      "peer": "power",
+      "net": "3V3_AON",
+      "mcu_nodes": 15,
+      "peer_nodes": 4,
+      "pass": true
+    },
+    {
+      "peer": "power",
+      "net": "GND",
+      "mcu_nodes": 32,
+      "peer_nodes": 19,
+      "pass": true
+    },
+    {
+      "peer": "power",
+      "net": "USB_EN1",
+      "mcu_nodes": 2,
+      "peer_nodes": 2,
+      "pass": true
+    },
+    {
+      "peer": "power",
+      "net": "USB_EN2",
+      "mcu_nodes": 2,
+      "peer_nodes": 2,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "3V3_AON",
+      "mcu_nodes": 15,
+      "peer_nodes": 11,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "GND",
+      "mcu_nodes": 32,
+      "peer_nodes": 10,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "AON_I2C_SCL",
+      "mcu_nodes": 2,
+      "peer_nodes": 3,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "AON_I2C_SDA",
+      "mcu_nodes": 2,
+      "peer_nodes": 3,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "PICKUP_INT_N",
+      "mcu_nodes": 2,
+      "peer_nodes": 2,
+      "pass": true
+    },
+    {
+      "peer": "pickup",
+      "net": "NIB_CONTACT_N",
+      "mcu_nodes": 2,
+      "peer_nodes": 4,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "physical_interconnect_verified": false,
+  "complete_merged_system_netlist": false,
+  "sha256": {
+    "mcu": "cca978939ea75be1c24bdae2a2ccc0c420090881835abfa87e943351861ccf52",
+    "power": "578a6d286b60dec5de3250ec52f9a406b4c6916b40856eb31ba3f3ef63de3a6c",
+    "pickup": "a27a8c5a2c61ba9dbf6dcd5e4fe0bc559e7c0a25c06b6363bfcb0e93cce32dac"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "rebuild_date": "2026-10-28",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "LIS2DW12TR",
+      "pins": {
+        "1": "AON_I2C_SCL",
+        "2": "3V3_AON",
+        "3": "3V3_AON",
+        "4": "AON_I2C_SDA",
+        "5": "GND",
+        "6": "GND",
+        "7": "GND",
+        "8": "GND",
+        "9": "3V3_AON",
+        "10": "3V3_AON",
+        "11": null,
+        "12": "PICKUP_INT_N"
+      },
+      "xy": [
+        110,
+        75
+      ],
+      "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm",
+      "names": {
+        "1": "SCL",
+        "2": "CS",
+        "3": "SA0",
+        "4": "SDA",
+        "5": "NC",
+        "6": "GND",
+        "7": "RES",
+        "8": "GND",
+        "9": "VDD",
+        "10": "VDDIO",
+        "11": "INT2",
+        "12": "INT1"
+      },
+      "types": {
+        "1": "input",
+        "2": "input",
+        "3": "input",
+        "4": "bidirectional",
+        "5": "passive",
+        "6": "power_in",
+        "7": "passive",
+        "8": "power_in",
+        "9": "power_in",
+        "10": "power_in",
+        "11": "output",
+        "12": "output"
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "10k 1%",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "AON_I2C_SCL"
+      },
+      "xy": [
+        65,
+        100
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "R2",
+      "value": "10k 1%",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "AON_I2C_SDA"
+      },
+      "xy": [
+        185,
+        100
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "R3",
+      "value": "100k 1%",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "NIB_CONTACT_N"
+      },
+      "xy": [
+        65,
+        125
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "R4",
+      "value": "1k 1%",
+      "pins": {
+        "1": "NIB_CONTACT_N",
+        "2": "CONTACT"
+      },
+      "xy": [
+        185,
+        125
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "C1",
+      "value": "100n X7R",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "xy": [
+        65,
+        150
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "C2",
+      "value": "100n X7R",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "xy": [
+        185,
+        140
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "C3",
+      "value": "1u X7R",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "xy": [
+        65,
+        175
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "C4",
+      "value": "1n C0G",
+      "pins": {
+        "1": "NIB_CONTACT_N",
+        "2": "GND"
+      },
+      "xy": [
+        185,
+        160
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "J1",
+      "value": "HOST INTERNAL PADS",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "GND",
+        "3": "AON_I2C_SCL",
+        "4": "AON_I2C_SDA",
+        "5": "PICKUP_INT_N",
+        "6": "NIB_CONTACT_N"
+      },
+      "xy": [
+        45,
+        65
+      ],
+      "footprint": "Pen:Host_6",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "J2",
+      "value": "DRY CONTACT PADS",
+      "pins": {
+        "1": "CONTACT",
+        "2": "GND"
+      },
+      "xy": [
+        220,
+        65
+      ],
+      "footprint": "Pen:Contact_2",
+      "names": {},
+      "types": {}
+    },
+    {
+      "ref": "#FLG01",
+      "value": "PWR_FLAG",
+      "pins": {
+        "1": "3V3_AON"
+      },
+      "xy": [
+        175,
+        65
+      ],
+      "footprint": "",
+      "names": {},
+      "types": {
+        "1": "power_out"
+      }
+    },
+    {
+      "ref": "#FLG02",
+      "value": "PWR_FLAG",
+      "pins": {
+        "1": "GND"
+      },
+      "xy": [
+        175,
+        85
+      ],
+      "footprint": "",
+      "names": {},
+      "types": {
+        "1": "power_out"
+      }
+    }
+  ]
+}
