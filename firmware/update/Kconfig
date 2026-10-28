@@ -1,0 +1,14 @@
+menu "Pen controlled update adapter"
+config PEN_OTA_ALLOW_INSTALL
+    bool "Allow authenticated signed image installation (requires integration review)"
+    default n
+    help
+        Default off. Runtime also requires signed OTA validation and rollback.
+        Does not enable secure boot, provision keys, burn eFuses or expose a server.
+config PEN_OTA_PROJECT
+    string "Signed image project name (must uniquely bind hardware revision)"
+    default "smartpen-unqualified"
+config PEN_OTA_HARDWARE
+    string "Hardware profile: must exactly equal signed project identifier"
+    default "UNQUALIFIED"
+endmenu

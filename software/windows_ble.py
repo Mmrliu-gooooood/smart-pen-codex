@@ -35,8 +35,10 @@ async def receive(address, device, db, allow_synthetic=False, client_factory=Non
                     p=Packet.decode(raw)
                     if p.device!=device:raise ValueError('unapproved device identity')
                     through=journal.accept(raw) # durable FULL commit precedes ACK
+                    # Stop-and-wait device expects its exact offered record. A
+                    # restored/replayed older record may be below host frontier.
                     if through is not None:
-                        await client.write_gatt_char(ACK,encode_ack(p.session,through),response=True)
+                        await client.write_gatt_char(ACK,encode_ack(p.session,min(through,p.seq)),response=True)
                     print(json.dumps({'synthetic_bench':True,'session':str(p.session),'through_seq':through}),flush=True)
             finally:
                 reassembly.reset()

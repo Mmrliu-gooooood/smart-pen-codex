@@ -1,0 +1,9 @@
+menu "Pen persistent recording - disabled until storage layout approved"
+config PEN_FLASH_RECORDING
+    bool "Enable explicit pen_records partition adapter (no automatic formatting)"
+    default n
+    help
+        Requires approved non-encrypted raw data partition pen_records. Writes
+        and erase-intent recovery occur only after explicit runtime opt-in.
+        This is not approval to flash hardware or provision production keys.
+endmenu

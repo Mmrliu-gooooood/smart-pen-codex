@@ -33,6 +33,25 @@ class WindowsBleTests(unittest.TestCase):
     async def stop_notify(self,_):pass
    asyncio.run(receive('explicit-approved-address',p.device,db,True,Client))
    self.assertEqual(seen,[(123,0)])
+ def test_old_replay_ack_is_exact_even_when_host_frontier_ahead(self):
+  with tempfile.TemporaryDirectory() as t:
+   db=Path(t)/'pen.sqlite';packets=[Packet(4,0x42454e43,123,n,100+n,0xffffffff,0,0,0) for n in range(3)]
+   with Journal(db) as j:
+    for packet in packets:j.accept(packet.encode())
+   seen=[]
+   class Client:
+    def __init__(self,address,**kw):self.disconnect=kw['disconnected_callback'];self.is_connected=True
+    async def __aenter__(self):return self
+    async def __aexit__(self,*args):self.is_connected=False
+    async def read_gatt_char(self,_):return b'SYNTHETIC BENCH ONLY'
+    async def start_notify(self,_,cb):
+     for f in fragment(packets[0].encode(),0):cb(None,f)
+    async def write_gatt_char(self,_,raw,response):
+     with Journal(db) as j:assert j.ack(packets[0].device,123)==2
+     seen.append(decode_ack(raw));self.disconnect(self)
+    async def stop_notify(self,_):pass
+   asyncio.run(receive('approved',packets[0].device,db,True,Client))
+   self.assertEqual(seen,[(123,0)])
  def test_synthetic_optin_required(self):
   with self.assertRaises(ValueError):asyncio.run(receive('a',42,'unused',False))
 if __name__=='__main__':unittest.main()
