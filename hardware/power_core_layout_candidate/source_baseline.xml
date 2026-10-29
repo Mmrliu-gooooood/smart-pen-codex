@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/fe148e758944/smart_pen_rebuild_20261028/hardware/power_core/power_core_NOFAB.kicad_sch</source>
+    <date>2026-10-28T12:44:59+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>电源核心重建稿 / NO FAB</title>
+        <company/>
+        <rev>REBUILD-P0</rev>
+        <date>2026-10-28</date>
+        <source>power_core_NOFAB.kicad_sch</source>
+        <comment number="1" value="非原件恢复；充电禁用；未批准生产"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2.2uF 16V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42f198f-28dc-42a7-967f-0f011d1dc4c8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 10V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cc89bbd-f8ba-4c7b-9141-f16813b73941</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 10V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96847796-85f8-445f-8355-9f73461ab097</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF 10V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03bf5ed0-093e-4978-bbfc-2d123632ad78</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF 6.3V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f81253c5-1902-48f9-8262-5661d8e0f7ab</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF 6.3V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="Device_C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9d10b31-c793-4032-9021-02b8f88e696c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>NTC WIRES / MPN TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Connector_Generic_Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa83aa5e-134d-4382-b43d-61e3c9662e50</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>OPEN / DO NOT BRIDGE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Jumper_Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68848b91-8722-4dee-9c5c-2f63a0fcbb09</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>0.47uH / MPN TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>998edf75-eebf-4ccd-8cd1-ac2398fdda6f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8.66k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2396e45-4811-4b14-a58f-0b738055e9bc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3.24k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b7d748c-cf98-425e-b37b-eac80c57b3f6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>68k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfa13628-fe33-4a4a-8f30-d8098f784804</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0da637b7-7443-41a8-8f8f-08ecbf23fcfe</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eba71890-c860-4122-868c-c5400c6e1cee</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcf66934-6ee5-4ddc-898d-628ee228cfe8</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>511k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8bc06f4-426b-47e7-a8d8-491a8d61dd70</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>91k 1%</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Device_R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="Device_R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a760dd-2cf0-4303-b782-4c55abad1990</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24074RGTR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="Battery_Management_BQ24074RGT" description="USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <property name="ki_keywords" value="USB Charger"/>
+      <property name="ki_fp_filters" value="VQFN*1EP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f8eb0be-2f36-47f6-b884-8903c012a9fe</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS63802DLAR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PowerCore" part="TPS63802" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="power_core_NOFAB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b36c39a-a831-4170-ba4b-b7f0cf32af1d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PowerCore" part="Battery_Management_BQ24074RGT">
+      <description>USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq24074.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Battery_Management_BQ24074RGT</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq24074.pdf</field>
+        <field name="Description">USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="passive"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="passive"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="Connector_Generic_Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Generic_Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="Device_C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Device_C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Device_C</field>
+        <field name="Value">Device_C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="Device_L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Device_L</field>
+        <field name="Value">Device_L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="Device_R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Device_R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Device_R</field>
+        <field name="Value">Device_R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="Jumper_Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_Jumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PowerCore" part="TPS63802">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63802</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MODE" type="input"/>
+        <pin num="3" name="AGND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="PG" type="open_collector"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="L2" type="passive"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="L1" type="passive"/>
+        <pin num="10" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PowerCore">
+      <uri>/workspace/scratch/fe148e758944/smart_pen_rebuild_20261028/hardware/power_core/PowerCore.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3_AON" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="/CHARGE_DISABLE" class="Default">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{CE}" pintype="input"/>
+    </net>
+    <net code="3" name="/CHG_ILIM" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="4" name="/CHG_ISET" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="5" name="/CHG_TMR" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="TMR" pintype="input"/>
+    </net>
+    <net code="6" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="MODE" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="7" name="/PACK_NTC" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="8" name="/PACK_PLUS_PROTECTED" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="9" name="/REG_FB" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="10" name="/SW_L1" class="Default">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="L1" pintype="passive"/>
+    </net>
+    <net code="11" name="/SW_L2" class="Default">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="L2" pintype="passive"/>
+    </net>
+    <net code="12" name="/SYS_RAW" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U1" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="13" name="/USB_EN1" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="EN1" pintype="input"/>
+    </net>
+    <net code="14" name="/USB_EN2" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="15" name="/VBUS_5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="16" name="unconnected-(U1-ITERM-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="ITERM" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-~{CHG}-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="~{CHG}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-~{PGOOD}-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="~{PGOOD}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U2-PG-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="PG" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

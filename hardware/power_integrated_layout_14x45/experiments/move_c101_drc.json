@@ -1,0 +1,119 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T14:57:31+0000",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "power_integrated_study.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [VBUS_5V] of C101 on B.Cu",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 21.475
+                    },
+                    "uuid": "ff8d7a6d-446a-4f65-a587-4b042cc7e171"
+                },
+                {
+                    "description": "Track [VBUS_5V] on B.Cu, length 0.5657 mm",
+                    "pos": {
+                        "x": 10.15,
+                        "y": 21.675
+                    },
+                    "uuid": "331a2234-2cc6-4781-8cb1-5e6a63e72e80"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1c049117-22a4-4deb-abf3-295118f0b1ba"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1c049117-22a4-4deb-abf3-295118f0b1ba"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1c049117-22a4-4deb-abf3-295118f0b1ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [VBUS_5V] of C101 on B.Cu",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 21.475
+                    },
+                    "uuid": "ff8d7a6d-446a-4f65-a587-4b042cc7e171"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1c049117-22a4-4deb-abf3-295118f0b1ba"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [VBUS_5V] of C101 on B.Cu",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 21.475
+                    },
+                    "uuid": "ff8d7a6d-446a-4f65-a587-4b042cc7e171"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1c049117-22a4-4deb-abf3-295118f0b1ba"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

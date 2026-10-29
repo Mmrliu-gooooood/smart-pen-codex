@@ -1,0 +1,556 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T15:00:46+0000",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "power_integrated_study.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on F.Cu, length 0.1768 mm",
+                    "pos": {
+                        "x": 11.75,
+                        "y": 18.575
+                    },
+                    "uuid": "08a208a0-5229-4867-9ab3-8e7f5b3172a2"
+                },
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 12.325,
+                        "y": 13.075
+                    },
+                    "uuid": "8f2b3bd8-20c8-4dad-9ea2-846a41fd8e13"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 12.325,
+                        "y": 13.075
+                    },
+                    "uuid": "8f2b3bd8-20c8-4dad-9ea2-846a41fd8e13"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1104 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 2.7250 mm",
+                    "pos": {
+                        "x": 12.175,
+                        "y": 18.3
+                    },
+                    "uuid": "866d6aff-2525-4ce8-853d-34d3eaf83868"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0033 mm)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on F.Cu, length 0.7750 mm",
+                    "pos": {
+                        "x": 11.75,
+                        "y": 19.35
+                    },
+                    "uuid": "4a8e9bfa-c9fc-4d16-be41-0a49ddc206e5"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0074 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 12.075,
+                        "y": 18.1
+                    },
+                    "uuid": "d3da553d-0734-4858-ae80-f705896e86c0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and CE_PERMISSION_INTERNAL)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 11.4,
+                        "y": 17.6
+                    },
+                    "uuid": "d818d682-7a31-45bc-8ca3-4521b6ebf475"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0074 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 12.075,
+                        "y": 18.125
+                    },
+                    "uuid": "ecf928dd-2333-4ecb-a98b-9531c72d7f9b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and CE_PERMISSION_INTERNAL)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 11.8,
+                        "y": 17.925
+                    },
+                    "uuid": "f8a9e3ca-b4fa-44b9-814a-ecf1c3727573"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /thermal/THERM_OK)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Via [/thermal/THERM_OK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.625,
+                        "y": 18.45
+                    },
+                    "uuid": "da47a2fa-42aa-48b1-8918-6c991b2ed922"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and /thermal/THERM_OK)",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 1.1000 mm",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 17.1
+                    },
+                    "uuid": "23f0131c-3ec3-4018-9056-6a35c671aa12"
+                },
+                {
+                    "description": "Via [/thermal/THERM_OK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.625,
+                        "y": 18.45
+                    },
+                    "uuid": "da47a2fa-42aa-48b1-8918-6c991b2ed922"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 11.775,
+                        "y": 17.9
+                    },
+                    "uuid": "1deb7633-6852-449e-befb-b667f37e12d1"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [/thermal/CE_MID] on B.Cu, length 1.3250 mm",
+                    "pos": {
+                        "x": 12.175,
+                        "y": 18.6
+                    },
+                    "uuid": "a465e40a-f945-4168-95ab-63fd3ab73362"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0812 mm)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 12.15,
+                        "y": 18.275
+                    },
+                    "uuid": "0824d09c-914d-40de-8751-de590be5dac3"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0757 mm)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 12.15,
+                        "y": 18.225
+                    },
+                    "uuid": "0e0cc530-3865-4f63-abc3-9acf2f935183"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.95,
+                        "y": 18.0
+                    },
+                    "uuid": "19506139-faa0-40e6-bf44-e17d5bd54f95"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 11.9,
+                        "y": 17.95
+                    },
+                    "uuid": "295f8877-0203-4733-8258-091d135698d9"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 11.85,
+                        "y": 17.925
+                    },
+                    "uuid": "57e7ce42-ef2a-4236-93df-33f4b23c2b6f"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.875,
+                        "y": 17.95
+                    },
+                    "uuid": "6260e490-b165-4a30-b97c-62536e818925"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets CE_PERMISSION_INTERNAL and GND)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0750 mm",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 17.9
+                    },
+                    "uuid": "62a26589-b8d3-44b7-b66a-09c369c7aa50"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 12.125,
+                        "y": 18.2
+                    },
+                    "uuid": "73ffb38a-e956-44a4-9781-37c8e66bb39e"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 12.125,
+                        "y": 18.175
+                    },
+                    "uuid": "813851ef-fbb7-4cb3-b2f3-3bea87f166d4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and CE_PERMISSION_INTERNAL)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Track [CE_PERMISSION_INTERNAL] on F.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 11.975,
+                        "y": 18.0
+                    },
+                    "uuid": "824ad27c-4c00-4b58-8dc0-038a1e603f70"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and GND)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on F.Cu, length 0.1768 mm",
+                    "pos": {
+                        "x": 11.75,
+                        "y": 18.575
+                    },
+                    "uuid": "08a208a0-5229-4867-9ab3-8e7f5b3172a2"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 18.2
+                    },
+                    "uuid": "74df0904-3054-4749-8919-a9778d6a4d7a"
+                },
+                {
+                    "description": "Via [/thermal/THERM_OK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 11.625,
+                        "y": 18.45
+                    },
+                    "uuid": "da47a2fa-42aa-48b1-8918-6c991b2ed922"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+PASS official copper readback plus explicit assembly gates 5
+REBUILT new files; new UUIDs; no old check results reused
+Checking sheet names...
+Checking bus conflicts...
+Checking conflicts...
+Checking units...
+Checking footprints...
+Checking pins...
+Checking similar labels...
+Checking local and global labels...
+Checking for unresolved variables...
+Checking no connect pins for connections...
+Checking for library symbol issues...
+Checking for footprint link issues...
+Checking for off grid pins and wires...
+Checking for labels on more than one wire...
+Checking for undefined netclasses...
+Found 0 violations
+Saved ERC Report to erc.rpt
+Placed 23 parts; 71 pad shapes
+Found 0 violations
+Found 51 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to placement_drc.rpt
+11:41:38: Debug: Adding duplicate image handler for 'PNG file'
+11:41:38: Debug: Adding duplicate image handler for 'JPEG file'
+11:41:38: Debug: Adding duplicate image handler for 'TIFF file'
+11:41:38: Debug: Adding duplicate image handler for 'GIF file'
+11:41:38: Debug: Adding duplicate image handler for 'PNM file'
+11:41:38: Debug: Adding duplicate image handler for 'PCX file'
+11:41:38: Debug: Adding duplicate image handler for 'IFF file'
+11:41:38: Debug: Adding duplicate image handler for 'Windows icon file'
+11:41:38: Debug: Adding duplicate image handler for 'Windows cursor file'
+11:41:38: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+11:41:38: Debug: Adding duplicate image handler for 'TGA file'
+11:41:38: Debug: Adding duplicate image handler for 'XPM file'
+Routed 73 explicit paths; filled planes; fresh DRC still required
+Found 0 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to routed_drc.rpt
+PASS 280 checks, actual copper graph 16 multi-pad nets; source delta and all pads verified
+Plotted to '/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/power_core_layout_candidate/preview/schematic/power_core_NOFAB.svg'.
+Done.
+Plotted to 'preview/front.svg'.
+Done.
+Plotted to 'preview/back.svg'.
+Done.
+PASS actual filled-plane screen; conditional resistive/load model, SW boundary 6.006 mm2

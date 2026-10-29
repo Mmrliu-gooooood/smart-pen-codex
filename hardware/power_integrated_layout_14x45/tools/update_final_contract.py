@@ -1,0 +1,3 @@
+from pathlib import Path
+import pcbnew as p,json
+D=Path(__file__).resolve().parents[1];b=p.LoadBoard(str(D/'power_integrated_study.kicad_pcb'));f=D/'placement_contract.json';c=json.loads(f.read_text());c['back_placements']={a.GetReference():[p.ToMM(a.GetPosition().x),p.ToMM(a.GetPosition().y),a.GetOrientationDegrees()] for a in b.GetFootprints() if a.GetLayer()==p.B_Cu};assert len(c['removed_only_exposed_CE_branch'])==8;c['core_track_via_items_retained']=182;c['filled_polygon_warning']='Only retained track/via geometry is invariant. Zone outlines and regenerated filled copper differ.';f.write_text(json.dumps(c,indent=2));(D/'back_placements.json').write_text(json.dumps(c['back_placements'],indent=2))

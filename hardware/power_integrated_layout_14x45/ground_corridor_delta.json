@@ -1,0 +1,65 @@
+{
+  "reason": "Reroute new THERM_OK bus away from local decoupling/GND-return pocket, not hide disconnected GND",
+  "removed_only_new_segments": [
+    {
+      "uuid": "4e6526fa-b329-4118-9592-d9c386c98685",
+      "net": "/thermal/THERM_OK",
+      "start_mm": [
+        11.25,
+        17.825
+      ],
+      "end_mm": [
+        11.25,
+        16.375
+      ]
+    },
+    {
+      "uuid": "6f18bc78-bb02-44a5-b955-25ba846175ed",
+      "net": "/thermal/THERM_OK",
+      "start_mm": [
+        11.625,
+        18.45
+      ],
+      "end_mm": [
+        11.55,
+        18.375
+      ]
+    },
+    {
+      "uuid": "962440cd-8fcf-492a-a87c-85850d6d7e6d",
+      "net": "/thermal/THERM_OK",
+      "start_mm": [
+        11.55,
+        18.125
+      ],
+      "end_mm": [
+        11.25,
+        17.825
+      ]
+    },
+    {
+      "uuid": "ae7a5640-fe06-45ec-85d9-12e6f92e1763",
+      "net": "/thermal/THERM_OK",
+      "start_mm": [
+        11.25,
+        16.375
+      ],
+      "end_mm": [
+        11.35,
+        16.275
+      ]
+    },
+    {
+      "uuid": "ff83708d-bd4d-49f7-bbc3-15be3cc6fa14",
+      "net": "/thermal/THERM_OK",
+      "start_mm": [
+        11.55,
+        18.375
+      ],
+      "end_mm": [
+        11.55,
+        18.125
+      ]
+    }
+  ]
+}

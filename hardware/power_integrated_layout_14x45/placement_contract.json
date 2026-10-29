@@ -1,0 +1,276 @@
+{
+  "source_core_pcb_sha256": "7a7013b4371401595b2ffcc8569bbe2b2bf0ce828f567d530ec3ab6a0b755b1f",
+  "back_placements": {
+    "U106": [
+      9.0,
+      40.8,
+      0.0
+    ],
+    "U103": [
+      2.4,
+      42.0,
+      90.0
+    ],
+    "R109": [
+      2.1,
+      33.6,
+      90.0
+    ],
+    "C103": [
+      5.4,
+      42.0,
+      0.0
+    ],
+    "R101": [
+      9.6,
+      32.1,
+      90.0
+    ],
+    "R106": [
+      3.9,
+      13.2,
+      0.0
+    ],
+    "R114": [
+      9.9,
+      8.1,
+      0.0
+    ],
+    "U105": [
+      5.7,
+      34.8,
+      0.0
+    ],
+    "C107": [
+      9.0,
+      43.7,
+      0.0
+    ],
+    "R102": [
+      10.2,
+      28.5,
+      90.0
+    ],
+    "R105": [
+      12.5,
+      4.5,
+      90.0
+    ],
+    "U102": [
+      2.4,
+      27.9,
+      90.0
+    ],
+    "U101": [
+      9.6,
+      23.7,
+      90.0
+    ],
+    "C101": [
+      12.5,
+      20.7,
+      90.0
+    ],
+    "U104": [
+      12.35,
+      16.0,
+      90.0
+    ],
+    "R104": [
+      8.1,
+      27.6,
+      90.0
+    ],
+    "R113": [
+      9.6,
+      35.4,
+      0.0
+    ],
+    "R107": [
+      2.1,
+      8.1,
+      0.0
+    ],
+    "R112": [
+      5.4,
+      37.8,
+      0.0
+    ],
+    "R103": [
+      12.5,
+      30.0,
+      90.0
+    ],
+    "C106": [
+      9.0,
+      37.8,
+      0.0
+    ],
+    "C102": [
+      2.1,
+      25.2,
+      0.0
+    ],
+    "C104": [
+      9.6,
+      12.0,
+      90.0
+    ],
+    "R111": [
+      5.7,
+      27.0,
+      90.0
+    ],
+    "R110": [
+      2.1,
+      37.2,
+      90.0
+    ],
+    "C105": [
+      6.6,
+      32.1,
+      0.0
+    ]
+  },
+  "removed_only_exposed_CE_branch": [
+    {
+      "uuid": "0c9fb5f5-81fe-4524-9fe8-522f59e9b87d",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        6.3,
+        31.5
+      ],
+      "end": [
+        7.25,
+        33.1
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "d9094fc7-6e40-4f0a-a6a5-33d6088a8b31",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        6.3,
+        31.5
+      ],
+      "end": [
+        6.3,
+        31.5
+      ],
+      "type": "PCB_VIA"
+    },
+    {
+      "uuid": "90dee281-e4c9-4e55-aa0f-a938a25a1fdb",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        6.3,
+        30.0
+      ],
+      "end": [
+        6.3,
+        31.5
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "c71980c0-a296-45b6-a3c7-b12f8da5556b",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        9.5,
+        30.0
+      ],
+      "end": [
+        6.3,
+        30.0
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "de445139-aa70-473b-8cb6-ab01e7c5bd3a",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        9.1,
+        17.05
+      ],
+      "end": [
+        9.1,
+        20.4
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "deb48221-9d01-4138-9a6e-99865cfdd2ee",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        9.5,
+        20.8
+      ],
+      "end": [
+        9.5,
+        30.0
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "eab4a587-021b-4b11-8860-e52451c61157",
+      "net": "/CE_PERMISSION_EXTERNAL",
+      "start": [
+        9.1,
+        20.4
+      ],
+      "end": [
+        9.5,
+        20.8
+      ],
+      "type": "PCB_TRACK"
+    },
+    {
+      "uuid": "a61457ec-77ef-46b4-b3bb-7ba406f19e67",
+      "net": "CE_PERMISSION_INTERNAL",
+      "start": [
+        9.1,
+        17.05
+      ],
+      "end": [
+        9.1,
+        17.05
+      ],
+      "type": "PCB_VIA",
+      "reason": "Parent approved removal of unused former external CE escape via; functional pad partitions unchanged"
+    }
+  ],
+  "net_rename": {
+    "/3V3_AON": "/core/3V3_AON",
+    "/CE_PERMISSION_EXTERNAL": "CE_PERMISSION_INTERNAL",
+    "/CHARGE_DISABLE": "/core/CHARGE_DISABLE",
+    "/CHG_ILIM": "/core/CHG_ILIM",
+    "/CHG_ISET": "/core/CHG_ISET",
+    "/CHG_TMR": "/core/CHG_TMR",
+    "/GND": "GND",
+    "/PACK_NTC": "/core/PACK_NTC",
+    "/PACK_PLUS_PROTECTED": "/core/PACK_PLUS_PROTECTED",
+    "/REG_FB": "/core/REG_FB",
+    "/SW_L1": "/core/SW_L1",
+    "/SW_L2": "/core/SW_L2",
+    "/SYS_RAW": "/core/SYS_RAW",
+    "/USB_EN1": "/core/USB_EN1",
+    "/USB_EN2": "/core/USB_EN2",
+    "/VBUS_5V": "VBUS_5V",
+    "unconnected-(U1-ITERM-Pad15)": "unconnected-(U1-ITERM-Pad15)",
+    "unconnected-(U1-~{CHG}-Pad9)": "unconnected-(U1-~{CHG}-Pad9)",
+    "unconnected-(U1-~{PGOOD}-Pad7)": "unconnected-(U1-~{PGOOD}-Pad7)",
+    "unconnected-(U2-PG-Pad5)": "unconnected-(U2-PG-Pad5)"
+  },
+  "offboard_only": [
+    "RT101",
+    "RT102"
+  ],
+  "outline_mm": [
+    14,
+    45,
+    0.8
+  ],
+  "stage": "14x45 independent routed comparison, NOFAB; unchanged source circuit; physical validation pending",
+  "core_track_via_items_retained": 182,
+  "filled_polygon_warning": "Only retained track/via geometry is invariant. Zone outlines and regenerated filled copper differ."
+}

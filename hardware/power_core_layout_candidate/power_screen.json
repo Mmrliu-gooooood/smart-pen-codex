@@ -1,0 +1,194 @@
+{
+  "status": "CONDITIONAL SCREEN, no measured load or current/temperature certification",
+  "actual_planes": [
+    {
+      "net": "/GND",
+      "layer": "In1.Cu",
+      "actual_filled_outlines": 1,
+      "raster_connected_components": 1,
+      "raster_pitch_mm": 0.025,
+      "erosion_screen": [
+        {
+          "erosion_mm": 0.1,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.15,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.2,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.25,
+          "regions_over_0p05mm2": 1
+        }
+      ]
+    },
+    {
+      "net": "/SYS_RAW",
+      "layer": "In2.Cu",
+      "actual_filled_outlines": 1,
+      "raster_connected_components": 1,
+      "raster_pitch_mm": 0.025,
+      "erosion_screen": [
+        {
+          "erosion_mm": 0.1,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.15,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.2,
+          "regions_over_0p05mm2": 1
+        },
+        {
+          "erosion_mm": 0.25,
+          "regions_over_0p05mm2": 1
+        }
+      ],
+      "widest_raster_path_min_width_mm": 0.7,
+      "path_endpoints_mm": [
+        [
+          9.05,
+          9.2
+        ],
+        [
+          3,
+          24
+        ]
+      ]
+    }
+  ],
+  "copper_resistance_models": [
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 31.5,
+      "width_mm": 0.3,
+      "length_mm": 10,
+      "R_mohm": 22.903659259259264,
+      "at_1A_drop_mV": 22.903659259259264,
+      "at_1A_loss_mW": 22.903659259259264
+    },
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 31.5,
+      "width_mm": 0.5,
+      "length_mm": 10,
+      "R_mohm": 13.742195555555558,
+      "at_1A_drop_mV": 13.742195555555558,
+      "at_1A_loss_mW": 13.742195555555558
+    },
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 31.5,
+      "width_mm": 0.6,
+      "length_mm": 10,
+      "R_mohm": 11.451829629629632,
+      "at_1A_drop_mV": 11.451829629629632,
+      "at_1A_loss_mW": 11.451829629629632
+    },
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 18,
+      "width_mm": 0.3,
+      "length_mm": 10,
+      "R_mohm": 40.08140370370371,
+      "at_1A_drop_mV": 40.08140370370371,
+      "at_1A_loss_mW": 40.08140370370371
+    },
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 18,
+      "width_mm": 0.5,
+      "length_mm": 10,
+      "R_mohm": 24.04884222222222,
+      "at_1A_drop_mV": 24.04884222222222,
+      "at_1A_loss_mW": 24.04884222222222
+    },
+    {
+      "temperature_C": 85,
+      "assumed_copper_um": 18,
+      "width_mm": 0.6,
+      "length_mm": 10,
+      "R_mohm": 20.040701851851853,
+      "at_1A_drop_mV": 20.040701851851853,
+      "at_1A_loss_mW": 20.040701851851853
+    }
+  ],
+  "actual_power_trace_neck_mm": 0.3,
+  "exceptions": "SYS_RAW 0.15mm track is EN-only high-Z branch; VBUS0.2mm branch only feeds CE pull-up. Official DLA pad itself is0.25mm wide. Do not confuse control widths with power trunk.",
+  "assumed_3V3_load_A": 0.75,
+  "assumed_vin_V": 2.8,
+  "assumed_efficiency": 0.8,
+  "input_average_A": 1.1049107142857142,
+  "peak_sweep": [
+    {
+      "assumed_f_MHz": 0.5,
+      "L_low_uH": 0.376,
+      "Ipeak_A": 2.2332150340793957,
+      "recommended_20pct_margin_A": 2.6798580408952746
+    },
+    {
+      "assumed_f_MHz": 1,
+      "L_low_uH": 0.376,
+      "Ipeak_A": 1.6690628741825548,
+      "recommended_20pct_margin_A": 2.002875449019066
+    },
+    {
+      "assumed_f_MHz": 1.4,
+      "L_low_uH": 0.376,
+      "Ipeak_A": 1.5078765427834573,
+      "recommended_20pct_margin_A": 1.8094518513401487
+    },
+    {
+      "assumed_f_MHz": 2.1,
+      "L_low_uH": 0.376,
+      "Ipeak_A": 1.3735545999508765,
+      "recommended_20pct_margin_A": 1.6482655199410516
+    }
+  ],
+  "frequency_warning": "TPS63802 fSW table is typical/operating-condition dependent, not a guaranteed min; sweep is not a worst-case proof. Mode is PFM.",
+  "inductor_limits": "XFL4015-471MEC Isat25C3.5A@10%drop,5.4A@20%,6.6A@30%; TPS63802 boost current-limit max5.75A can exceed20%drop threshold. Not all-temperature fault qualification.",
+  "loop_boundary_mm2": 6.005775,
+  "loop_polygon_mm": [
+    [
+      5.5,
+      22.25
+    ],
+    [
+      5.5,
+      21.7
+    ],
+    [
+      4.815,
+      21.015
+    ],
+    [
+      4.815,
+      19.2
+    ],
+    [
+      7.185,
+      19.2
+    ],
+    [
+      7.185,
+      21.015
+    ],
+    [
+      6.5,
+      21.7
+    ],
+    [
+      6.5,
+      22.25
+    ]
+  ],
+  "loop_warning": "Boundary approximation closes inside package/inductor with straight lines; not true magnetic loop/EMI certification.",
+  "capacitor_gate": "6 MLCC MPNs not selected. VIN effective>=4uF and VOUT effective>=7uF at3.3V must include DC-bias/temp/tolerance. Nominal values are not a proof.",
+  "thermal_gate": "No pen enclosure thermal model or test. BQ dissipation, via fill/stencil, cell/NTC placement and skin temperature unqualified."
+}

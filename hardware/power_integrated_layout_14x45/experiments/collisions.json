@@ -1,0 +1,706 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T14:28:31+0000",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "power_integrated_study.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 5 [VBUS_5V] of U104 on B.Cu",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 14.9
+                    },
+                    "uuid": "ac65a6db-79c7-4f0f-be82-599044755021"
+                },
+                {
+                    "description": "Track [VBUS_5V] on B.Cu, length 0.9000 mm",
+                    "pos": {
+                        "x": 10.225,
+                        "y": 13.9
+                    },
+                    "uuid": "883a53d7-9fb5-4c2c-a87c-dbbf75fad4a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/thermal/REF_EXC] of R103 on B.Cu",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 30.9125
+                    },
+                    "uuid": "13b072ba-fb8a-4fd1-b3f2-a0090c60104f"
+                },
+                {
+                    "description": "Track [/thermal/REF_EXC] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 9.75,
+                        "y": 33.15
+                    },
+                    "uuid": "7d86fcec-349d-4656-9033-f020d11d0d09"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 10.95,
+                        "y": 22.6
+                    },
+                    "uuid": "2987dbbe-e0da-4115-bf7d-f0c710a857bb"
+                },
+                {
+                    "description": "Pad 2 [GND] of C101 on B.Cu",
+                    "pos": {
+                        "x": 10.675,
+                        "y": 20.7
+                    },
+                    "uuid": "ed18ba22-57d4-496c-98b0-ce04d6842738"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                },
+                {
+                    "description": "Track [/thermal/REF_VALID] on B.Cu, length 0.6718 mm",
+                    "pos": {
+                        "x": 9.5,
+                        "y": 14.425
+                    },
+                    "uuid": "22a72b05-aedf-498d-926c-198eb5e2c497"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/thermal/REF_SENSE_FAST] on B.Cu, length 0.5000 mm",
+                    "pos": {
+                        "x": 8.475,
+                        "y": 29.375
+                    },
+                    "uuid": "02324251-479d-443e-ada9-23042999c35d"
+                },
+                {
+                    "description": "Pad 2 [/thermal/REF_SENSE_FAST] of R103 on B.Cu",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 29.0875
+                    },
+                    "uuid": "0dff4ff9-55f7-4afc-8522-fe57284f43fd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [/thermal/CE_MID] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 15.475
+                    },
+                    "uuid": "4ab00fbb-5fb9-4239-8fed-dd9dbcaa7f6f"
+                },
+                {
+                    "description": "Pad 2 [/thermal/CE_MID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 12.35,
+                        "y": 17.1
+                    },
+                    "uuid": "5ac686e7-3307-4b28-bd71-35615cfcd224"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [/thermal/CE_MID] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.025,
+                        "y": 42.15
+                    },
+                    "uuid": "c853d897-2d19-4ca0-84b1-d08cf626182e"
+                },
+                {
+                    "description": "Pad 2 [/thermal/CE_MID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 12.35,
+                        "y": 17.1
+                    },
+                    "uuid": "5ac686e7-3307-4b28-bd71-35615cfcd224"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [CE_PERMISSION_INTERNAL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 9.1,
+                        "y": 17.05
+                    },
+                    "uuid": "a61457ec-77ef-46b4-b3bb-7ba406f19e67"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [VBUS_5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.8,
+                        "y": 42.0
+                    },
+                    "uuid": "bfc3c96e-8392-42fc-a377-5d6b239a7252"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/REF_EXC] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.525,
+                        "y": 33.025
+                    },
+                    "uuid": "0179c420-4309-44ce-a3d1-1ce32a770ba4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/thermal/REF_EXC] on B.Cu, length 0.0125 mm",
+                    "pos": {
+                        "x": 4.4875,
+                        "y": 29.7
+                    },
+                    "uuid": "c255510f-80e4-4705-8591-a65a28422466"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/THERM_OK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 2.3,
+                        "y": 40.9
+                    },
+                    "uuid": "0dfa5a37-9afa-4728-ae5b-ec68aefd3bee"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/THERM_OK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 0.8,
+                        "y": 6.3
+                    },
+                    "uuid": "cc7cd97c-0a11-4554-86e7-552b8d98fe67"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/REF_SENSE_SLOW] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 9.6,
+                        "y": 30.3
+                    },
+                    "uuid": "ad722dbe-f4c7-4752-9bc9-812df2aca295"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/REF_SENSE_SLOW] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 9.6,
+                        "y": 23.8
+                    },
+                    "uuid": "dac2258a-36d1-420d-9d98-b49a2a91b98b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/CE_MID] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 15.475
+                    },
+                    "uuid": "4ab00fbb-5fb9-4239-8fed-dd9dbcaa7f6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/thermal/CE_MID] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.025,
+                        "y": 42.15
+                    },
+                    "uuid": "c853d897-2d19-4ca0-84b1-d08cf626182e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/thermal/CE_MID] on B.Cu, length 0.4750 mm",
+                    "pos": {
+                        "x": 7.3,
+                        "y": 15.0
+                    },
+                    "uuid": "1e0bf5b0-e748-4f93-9e52-59d4a62792aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and /thermal/REF_VALID)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.1061 mm",
+                    "pos": {
+                        "x": 11.45,
+                        "y": 15.35
+                    },
+                    "uuid": "51116180-6522-4a99-b777-92062501ec74"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and /thermal/REF_VALID)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 15.425
+                    },
+                    "uuid": "7072b490-bd22-4cce-9782-242e1ce7e260"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0766 mm)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 11.55,
+                        "y": 15.55
+                    },
+                    "uuid": "892f5024-faa1-4911-9701-4d6b6901f2fa"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and GND)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 2.8250 mm",
+                    "pos": {
+                        "x": 11.55,
+                        "y": 18.375
+                    },
+                    "uuid": "8b07fcec-4e2e-463d-a9ba-4a7d6b2159e5"
+                },
+                {
+                    "description": "Pad 3 [GND] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 17.1
+                    },
+                    "uuid": "97f68437-d3aa-4af4-9343-c806ccf26007"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0096 mm)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 11.525,
+                        "y": 15.475
+                    },
+                    "uuid": "aee8b1ff-8e8b-465b-9787-a2fb3f50dc78"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 3.2250 mm",
+                    "pos": {
+                        "x": 11.375,
+                        "y": 15.275
+                    },
+                    "uuid": "45d1815c-82c5-4e96-8579-417cfc413da2"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0271 mm)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 11.525,
+                        "y": 15.525
+                    },
+                    "uuid": "4c6a78c9-03e1-427a-9707-ed5a0f5adfe1"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and /thermal/REF_VALID)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.45,
+                        "y": 15.375
+                    },
+                    "uuid": "cfcf4767-a431-4c8b-ac69-6f55db7081de"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets /thermal/THERM_OK and /thermal/REF_VALID)",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 15.45
+                    },
+                    "uuid": "e4b73655-05ae-4f0e-bf86-ae9a92ac5b2e"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 11.525,
+                        "y": 15.525
+                    },
+                    "uuid": "4c6a78c9-03e1-427a-9707-ed5a0f5adfe1"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.1061 mm",
+                    "pos": {
+                        "x": 11.45,
+                        "y": 15.35
+                    },
+                    "uuid": "51116180-6522-4a99-b777-92062501ec74"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 15.425
+                    },
+                    "uuid": "7072b490-bd22-4cce-9782-242e1ce7e260"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 2.8250 mm",
+                    "pos": {
+                        "x": 11.55,
+                        "y": 18.375
+                    },
+                    "uuid": "8b07fcec-4e2e-463d-a9ba-4a7d6b2159e5"
+                },
+                {
+                    "description": "Pad 3 [GND] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 17.1
+                    },
+                    "uuid": "97f68437-d3aa-4af4-9343-c806ccf26007"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 11.525,
+                        "y": 15.475
+                    },
+                    "uuid": "aee8b1ff-8e8b-465b-9787-a2fb3f50dc78"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.45,
+                        "y": 15.375
+                    },
+                    "uuid": "cfcf4767-a431-4c8b-ac69-6f55db7081de"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/thermal/THERM_OK] on B.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 15.45
+                    },
+                    "uuid": "e4b73655-05ae-4f0e-bf86-ae9a92ac5b2e"
+                },
+                {
+                    "description": "Pad 4 [/thermal/REF_VALID] of U104 on B.Cu",
+                    "pos": {
+                        "x": 11.7,
+                        "y": 14.9
+                    },
+                    "uuid": "ed727823-6fc5-4903-b9f4-57d8b56758bf"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}
