@@ -1,0 +1,113 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T05:50:32+0900",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [
+        {
+            "description": "Missing footprint SW101 (RESET)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint SW102 (BOOT)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint D101 (TPD1E10B06DYAR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J101 (USB4105-GF-A16P)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J102 (LOGICAL_CAMERA_ONLY_NOT_FPC)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J103 (PICKUP_INTERNAL)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J104 (UART_TEST_CAMERA_OFF_ONLY)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J105 (ADC_SAFE_EXTERNAL_ONLY)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint R110 (5.1k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint R111 (5.1k 1%)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint U102 (TPD4E05U06DQAR)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J201 (HOST_3V3_SEMANTIC)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        },
+        {
+            "description": "Missing footprint J202 (SENSOR_1V8_SEMANTIC_NOT_FPC)",
+            "items": [],
+            "severity": "warning",
+            "type": "missing_footprint"
+        }
+    ],
+    "source": "mainboard_revD.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 90.5
+                    },
+                    "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+                },
+                {
+                    "description": "Pad 24 [USB_EN1] of U101 on F.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 13.425
+                    },
+                    "uuid": "644b2d17-4751-442b-946c-d5a053aa8ada"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}
