@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_mainhref_trial_1844/validate_expected.py", line 29, in <module>
+    if __name__=='__main__':validate(Path(sys.argv[1]),Path(sys.argv[2]))
+                            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_mainhref_trial_1844/validate_expected.py", line 27, in validate
+    if bad:raise RuntimeError('STOP: missing UUID or literal expected-net mismatch after load')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STOP: missing UUID or literal expected-net mismatch after load

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/validate_expected.py", line 29, in <module>
+    if __name__=='__main__':validate(Path(sys.argv[1]),Path(sys.argv[2]))
+                            ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/validate_expected.py", line 10, in validate
+    j=json.loads(Path(contract_path).read_text(),object_pairs_hook=unique_object)
+  File "/usr/lib/python3.13/json/__init__.py", line 359, in loads
+    return cls(**kw).decode(s)
+           ~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/json/decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/validate_expected.py", line 6, in unique_object
+    if k in d:raise RuntimeError('Duplicate JSON key/UUID: '+k)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Duplicate JSON key/UUID: a8e4dc8d-7263-426b-8c82-3ac84c5754f6

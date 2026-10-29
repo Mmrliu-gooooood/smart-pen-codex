@@ -1,0 +1,72 @@
+[
+  {
+    "case": "good_normal",
+    "guard_exit": 0,
+    "drc_exit": 5,
+    "after_guard_marker": true,
+    "expected_result": true
+  },
+  {
+    "case": "bad_net_normal",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "empty_normal",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "missing_normal",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "duplicate_normal",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "good_O",
+    "guard_exit": 0,
+    "drc_exit": 5,
+    "after_guard_marker": true,
+    "expected_result": true
+  },
+  {
+    "case": "bad_net_O",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "empty_O",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "missing_O",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  },
+  {
+    "case": "duplicate_O",
+    "guard_exit": 1,
+    "drc_exit": null,
+    "after_guard_marker": false,
+    "expected_result": true
+  }
+]

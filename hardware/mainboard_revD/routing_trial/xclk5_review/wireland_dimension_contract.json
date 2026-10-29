@@ -1,0 +1,86 @@
+{
+  "footprint": "SmartPenIO:PowerWireLands3_KeyGap_NOFAB",
+  "classification": "PCB copper feature, no standalone purchased connector or fabricated MPN",
+  "pads": {
+    "1": {
+      "local_xy_mm": [
+        -3,
+        0
+      ],
+      "size_mm": [
+        1.5,
+        2
+      ],
+      "shape": "rect",
+      "net": "VBUS_5V"
+    },
+    "2": {
+      "local_xy_mm": [
+        0.5,
+        0
+      ],
+      "size_mm": [
+        1.5,
+        2
+      ],
+      "shape": "roundrect",
+      "radius_mm": 0.05,
+      "net": "3V3_AON"
+    },
+    "3": {
+      "local_xy_mm": [
+        3,
+        0
+      ],
+      "size_mm": [
+        1.5,
+        2
+      ],
+      "shape": "roundrect",
+      "radius_mm": 0.05,
+      "net": "GND"
+    }
+  },
+  "copper_and_mask_layers": [
+    "F.Cu",
+    "F.Mask"
+  ],
+  "paste_layers": [],
+  "solder_mask_expansion_mm": 0.04,
+  "pad_center_gaps_mm": [
+    3.5,
+    2.5
+  ],
+  "copper_edge_gaps_mm": [
+    2,
+    1
+  ],
+  "mask_edge_gaps_mm": [
+    1.92,
+    0.92
+  ],
+  "courtyard_bounds_mm": [
+    -4.25,
+    -1.75,
+    4.25,
+    1.75
+  ],
+  "candidate_board_origin_mm": [
+    6,
+    84
+  ],
+  "candidate_orientation_deg": 0,
+  "same_pad_geometry_reference": {
+    "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/power_core_layout_candidate/SmartPenPower.pretty/WireLands_4_P2.5_AssemblyUnqualified.kicad_mod",
+    "sha256": "b76efe476481e36cdc98a68a05328a48f00c262b1f4a8cd3106decb7042fa017"
+  },
+  "qualification_gates": [
+    "wire conductor/insulation diameter",
+    "stripping length and strand containment",
+    "solder fillet and protrusion height",
+    "pull/strain-relief fixture",
+    "VBUS-vs-AON polarity and short prevention",
+    "assembly/cost/mechanical fit"
+  ],
+  "nonuniform_pitch_is_not_a_keyed_connector": true
+}

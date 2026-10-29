@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "status": "NOFAB logical contract only; mainboard J107 physical footprint absent",
+  "mainboard": {
+    "reference": "J107",
+    "files": [
+      {
+        "path": "hardware/mainboard_resume_20261028/mainboard_revD.kicad_pcb",
+        "sha256": "0796d092b4775e314f9b5f43b62b0a7ba153c9b4e8804fb02c6f0ea8cdeae5cc"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/mainboard_revD.kicad_sch",
+        "sha256": "802118fe50cd78e144e63b0390ec66c3f17d7a436023abdb75f9d766974c1956"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/mainboard_revD.xml",
+        "sha256": "db81641b1108d630fdf7a4c54d26819775e0765831da3dd699f2dcfd8ae7fa0d"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/schematic/mcu_core.kicad_sch",
+        "sha256": "0049fd4c486a886283f8778a4295cf3e657afbe175756a1245ccdfc8755b6a5f"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/schematic/usb_entry.kicad_sch",
+        "sha256": "7734bdd63520297f4591b8f2cfd374ccb19e0ea9d41e76d68b90f43a0abb3f97"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/schematic/dvp_translation.kicad_sch",
+        "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/schematic/controls_sccb.kicad_sch",
+        "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e"
+      },
+      {
+        "path": "hardware/mainboard_resume_20261028/schematic/safe_bias_interfaces.kicad_sch",
+        "sha256": "f6cbfd948bd8c061acca0798a3b14b4197866f0e1ace27bedda273b8a12467e2"
+      }
+    ],
+    "xml": "hardware/mainboard_resume_20261028/mainboard_revD.xml",
+    "pins": {
+      "3": "GND",
+      "1": "USB_EN1",
+      "2": "USB_EN2"
+    }
+  },
+  "target": {
+    "reference": "J5",
+    "files": [
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.kicad_pcb",
+        "sha256": "5c5764e7576c9461464c12da3531410e63ef4db32a28a67a5fa6125ef0b92014"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.kicad_sch",
+        "sha256": "1e33f1d9abb23fb61ff87ee79845f510516047652f6aa1e0a92585676b1ea226"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.xml",
+        "sha256": "9fc2f0b4f5cefafc1d055c0f4f6b9a7566a99f6ed172386e2b6feddfbf89a3aa"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/core.kicad_sch",
+        "sha256": "03930125f3e31dc172715e67595943a4731c8bf39c1b3f30fc2cac1a2801e3ff"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/thermal.kicad_sch",
+        "sha256": "cc023dec1d6207eaff9041520866470625a52a3ba1a60919c529ea774443763d"
+      }
+    ],
+    "xml": "hardware/power_integrated_layout_14x45/power_integrated_study.xml",
+    "pins": {
+      "1": "/core/USB_EN1",
+      "2": "/core/USB_EN2",
+      "3": "GND"
+    }
+  },
+  "explicitly_incompatible_legacy": {
+    "reference": "J5",
+    "files": [
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.kicad_pcb",
+        "sha256": "7a7013b4371401595b2ffcc8569bbe2b2bf0ce828f567d530ec3ab6a0b755b1f"
+      },
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.kicad_sch",
+        "sha256": "356916b1e9921ecfbf6b54ba78e5ca577d62d543f8115103628848c00510ee18"
+      },
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.xml",
+        "sha256": "3f7dbf1eea64ac1ab00d6d4435c16374343ddacba7073cb52f8a021912504117"
+      }
+    ],
+    "xml": "hardware/power_core_layout_candidate/power_core_NOFAB.xml",
+    "pins": {
+      "3": "/CE_PERMISSION_EXTERNAL",
+      "4": "/GND",
+      "1": "/USB_EN1",
+      "2": "/USB_EN2"
+    }
+  },
+  "wires": [
+    {
+      "signal": "USB_EN1",
+      "source": {
+        "ref": "J107",
+        "pin": "1",
+        "net": "USB_EN1"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "1",
+        "net": "/core/USB_EN1"
+      }
+    },
+    {
+      "signal": "USB_EN2",
+      "source": {
+        "ref": "J107",
+        "pin": "2",
+        "net": "USB_EN2"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "2",
+        "net": "/core/USB_EN2"
+      }
+    },
+    {
+      "signal": "GND",
+      "source": {
+        "ref": "J107",
+        "pin": "3",
+        "net": "GND"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "3",
+        "net": "GND"
+      }
+    }
+  ],
+  "requirements": [
+    "No external CE pin exists on this integrated target",
+    "No charge permission is conveyed by this 3-wire interface",
+    "Mainboard physical lands/connector, return path, strain relief, default/brownout behavior still required",
+    "No battery, camera or commissioning bridge is authorized by contract success"
+  ]
+}

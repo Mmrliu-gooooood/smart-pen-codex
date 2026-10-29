@@ -1,0 +1,46 @@
+03:40:51: Debug: Adding duplicate image handler for 'PNG file'
+03:40:51: Debug: Adding duplicate image handler for 'JPEG file'
+03:40:51: Debug: Adding duplicate image handler for 'TIFF file'
+03:40:51: Debug: Adding duplicate image handler for 'GIF file'
+03:40:51: Debug: Adding duplicate image handler for 'PNM file'
+03:40:51: Debug: Adding duplicate image handler for 'PCX file'
+03:40:51: Debug: Adding duplicate image handler for 'IFF file'
+03:40:51: Debug: Adding duplicate image handler for 'Windows icon file'
+03:40:51: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:40:51: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:40:51: Debug: Adding duplicate image handler for 'TGA file'
+03:40:51: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "source_entities": 90,
+  "source_pin_endpoints": 374,
+  "source_unchanged": true,
+  "retained_copper": 3287,
+  "new_copper": 41,
+  "new_counts": {
+    "CAM_HREF": 36,
+    "GND": 5
+  },
+  "length_mm": {
+    "GND": 2.033147545195113,
+    "CAM_HREF": 3.2220562748477115
+  },
+  "vias": [
+    {
+      "net": "GND",
+      "x_mm": 1.925,
+      "y_mm": 43.35
+    },
+    {
+      "net": "CAM_HREF",
+      "x_mm": 1.95,
+      "y_mm": 46.525
+    }
+  ],
+  "other_footprints_unchanged": 73,
+  "R220_side": "B.Cu",
+  "remaining_net_components": {
+    "CAM_HREF": 2,
+    "CAM_PWDN_UART_RX": 2,
+    "RF_SIP": 2
+  }
+}

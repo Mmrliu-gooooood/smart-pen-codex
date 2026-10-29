@@ -1,0 +1,77 @@
+{
+  "candidate_sha256": "f00d85c7eea8e8abdbf89eb83720fa7aeca564e939f0b6b5f89d548881cb7815",
+  "validator_sha256": "30b51b1cc822fe1b1b564881268571a5c786b0e2b47e6279537bb10ad9a6c11f",
+  "cases": [
+    {
+      "case": "good_normal",
+      "exit": 5,
+      "post_guard_marker": true,
+      "fresh_drc": true,
+      "expected_outcome": true
+    },
+    {
+      "case": "bad_normal",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "empty_normal",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "missing_normal",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "duplicate_normal",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "good_optimized",
+      "exit": 5,
+      "post_guard_marker": true,
+      "fresh_drc": true,
+      "expected_outcome": true
+    },
+    {
+      "case": "bad_optimized",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "empty_optimized",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "missing_optimized",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    },
+    {
+      "case": "duplicate_optimized",
+      "exit": 1,
+      "post_guard_marker": false,
+      "fresh_drc": false,
+      "expected_outcome": true
+    }
+  ],
+  "all_expected": true
+}

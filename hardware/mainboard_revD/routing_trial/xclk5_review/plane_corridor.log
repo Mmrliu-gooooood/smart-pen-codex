@@ -1,0 +1,74 @@
+{
+  "method": "25um filled In2 raster, 4-connected region labels after isotropic erosion; endpoint contact within 0.45mm neighborhoods. Not exact polygon neck width, DC resistance, or full path PI proof. No copper added by analysis.",
+  "input_vias_mm": [
+    [
+      6.1,
+      82.4
+    ],
+    [
+      6.9,
+      82.4
+    ]
+  ],
+  "bridge_zone2_via_mm": [
+    [
+      9.35,
+      22.95
+    ]
+  ],
+  "minimum_axial_span_mm": 59.45,
+  "erosion_screen": [
+    {
+      "erosion_radius_mm": 0,
+      "remaining_regions": 3,
+      "input_to_bridge_zone2": true
+    },
+    {
+      "erosion_radius_mm": 0.05,
+      "remaining_regions": 3,
+      "input_to_bridge_zone2": true
+    },
+    {
+      "erosion_radius_mm": 0.075,
+      "remaining_regions": 4,
+      "input_to_bridge_zone2": true
+    },
+    {
+      "erosion_radius_mm": 0.1,
+      "remaining_regions": 8,
+      "input_to_bridge_zone2": true
+    },
+    {
+      "erosion_radius_mm": 0.125,
+      "remaining_regions": 11,
+      "input_to_bridge_zone2": false
+    },
+    {
+      "erosion_radius_mm": 0.15,
+      "remaining_regions": 44,
+      "input_to_bridge_zone2": false
+    },
+    {
+      "erosion_radius_mm": 0.2,
+      "remaining_regions": 39,
+      "input_to_bridge_zone2": false
+    },
+    {
+      "erosion_radius_mm": 0.25,
+      "remaining_regions": 33,
+      "input_to_bridge_zone2": false
+    },
+    {
+      "erosion_radius_mm": 0.3,
+      "remaining_regions": 49,
+      "input_to_bridge_zone2": false
+    },
+    {
+      "erosion_radius_mm": 0.4,
+      "remaining_regions": 58,
+      "input_to_bridge_zone2": false
+    }
+  ],
+  "important": "Input to bridge is about 59.45mm axial plane span, not merely the 7.039mm bridge. Width/current distribution/neck/via/wire resistance and transients remain unqualified."
+}
+narrow samples 985 bounds [6.425, 23.225] [10.1, 78.55]

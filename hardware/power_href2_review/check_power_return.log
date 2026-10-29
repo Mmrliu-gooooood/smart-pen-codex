@@ -1,0 +1,115 @@
+03:55:13: Debug: Adding duplicate image handler for 'PNG file'
+03:55:13: Debug: Adding duplicate image handler for 'JPEG file'
+03:55:13: Debug: Adding duplicate image handler for 'TIFF file'
+03:55:13: Debug: Adding duplicate image handler for 'GIF file'
+03:55:13: Debug: Adding duplicate image handler for 'PNM file'
+03:55:13: Debug: Adding duplicate image handler for 'PCX file'
+03:55:13: Debug: Adding duplicate image handler for 'IFF file'
+03:55:13: Debug: Adding duplicate image handler for 'Windows icon file'
+03:55:13: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:55:13: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:55:13: Debug: Adding duplicate image handler for 'TGA file'
+03:55:13: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "regional_plane_changes": {
+    "3V3_AON": [
+      {
+        "region": "existing_SCL_SDA_neck",
+        "bbox_mm": [
+          0,
+          51.7,
+          12,
+          56.8
+        ],
+        "lost_copper_pixels": 0,
+        "gained_copper_pixels": 0,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": true
+      },
+      {
+        "region": "new_inner_HREF_corridor",
+        "bbox_mm": [
+          0,
+          37.8,
+          12,
+          43
+        ],
+        "lost_copper_pixels": 9576,
+        "gained_copper_pixels": 12,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": false
+      },
+      {
+        "region": "C201_region",
+        "bbox_mm": [
+          0,
+          30.5,
+          3.5,
+          35.5
+        ],
+        "lost_copper_pixels": 724,
+        "gained_copper_pixels": 722,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": false
+      }
+    ],
+    "GND": [
+      {
+        "region": "existing_SCL_SDA_neck",
+        "bbox_mm": [
+          0,
+          51.7,
+          12,
+          56.8
+        ],
+        "lost_copper_pixels": 0,
+        "gained_copper_pixels": 0,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": true
+      },
+      {
+        "region": "new_inner_HREF_corridor",
+        "bbox_mm": [
+          0,
+          37.8,
+          12,
+          43
+        ],
+        "lost_copper_pixels": 1172,
+        "gained_copper_pixels": 3,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": false
+      },
+      {
+        "region": "C201_region",
+        "bbox_mm": [
+          0,
+          30.5,
+          3.5,
+          35.5
+        ],
+        "lost_copper_pixels": 1084,
+        "gained_copper_pixels": 1061,
+        "pixel_area_mm2": 0.000625,
+        "identical_at_25um": false
+      }
+    ]
+  },
+  "conditional_resistance_screen": {
+    "rho_85C_ohm_m": 2.1643958e-08,
+    "thickness_um": 17,
+    "current_assumption_A": 0.5,
+    "C201_width_mm": 0.15,
+    "old_length_mm": 0.825,
+    "new_length_mm": 1.4735281374238571,
+    "old_mOhm": 7.002457000000001,
+    "new_mOhm": 12.507051418909882,
+    "delta_mOhm": 5.504594418909881,
+    "new_drop_mV_at_assumed_500mA": 6.253525709454941,
+    "delta_drop_mV_at_assumed_500mA": 2.7522972094549405,
+    "legacy_neck_5p15mm_0p2mm_drop_mV_at_assumed_500mA": 16.39211525,
+    "qualification": "Sensitivity screen only: excludes vias, spreading, AC inductance, effective capacitor ESR/ESL and actual load/current partition. Not a measured current or PI approval."
+  }
+}
+new route In1 missing by net {'CAM_HREF': 139, 'CHIP_EN': 0, '3V3_AON': 19, 'CAM_VSYNC': 38, 'CAM_D7': 54}
+AON erosion [('HREF3', [{'radius_mm': 0, 'regions': 3, 'input_to_upper_bridge': True}, {'radius_mm': 0.05, 'regions': 3, 'input_to_upper_bridge': True}, {'radius_mm': 0.075, 'regions': 4, 'input_to_upper_bridge': True}, {'radius_mm': 0.1, 'regions': 11, 'input_to_upper_bridge': True}, {'radius_mm': 0.125, 'regions': 13, 'input_to_upper_bridge': False}, {'radius_mm': 0.15, 'regions': 44, 'input_to_upper_bridge': False}, {'radius_mm': 0.2, 'regions': 39, 'input_to_upper_bridge': False}, {'radius_mm': 0.25, 'regions': 33, 'input_to_upper_bridge': False}]), ('HREF2', [{'radius_mm': 0, 'regions': 3, 'input_to_upper_bridge': True}, {'radius_mm': 0.05, 'regions': 3, 'input_to_upper_bridge': True}, {'radius_mm': 0.075, 'regions': 4, 'input_to_upper_bridge': True}, {'radius_mm': 0.1, 'regions': 8, 'input_to_upper_bridge': True}, {'radius_mm': 0.125, 'regions': 11, 'input_to_upper_bridge': False}, {'radius_mm': 0.15, 'regions': 43, 'input_to_upper_bridge': False}, {'radius_mm': 0.2, 'regions': 41, 'input_to_upper_bridge': False}, {'radius_mm': 0.25, 'regions': 36, 'input_to_upper_bridge': False}])]

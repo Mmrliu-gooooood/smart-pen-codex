@@ -1,0 +1,72 @@
+[
+  {
+    "name": "export",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/fresh.xml",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "erc",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/erc.rpt",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "drc",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--all-track-errors",
+      "--schematic-parity",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/drc.rpt",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mainboard_resume_20261028/mainboard_revD.kicad_pcb"
+    ],
+    "exit": 5
+  },
+  {
+    "name": "audit",
+    "command": [
+      "/usr/bin/python3",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/audit_native.py"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "audit_optimized",
+    "command": [
+      "/usr/bin/python3",
+      "-O",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/audit_native.py"
+    ],
+    "exit": 0
+  },
+  {
+    "name": "guards",
+    "command": [
+      "/usr/bin/python3",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/bias4_recovery_review_20261028_1833/recheck_guards.py"
+    ],
+    "exit": 0
+  }
+]

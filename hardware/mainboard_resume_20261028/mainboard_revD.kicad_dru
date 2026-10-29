@@ -1,0 +1,13 @@
+(version 1)
+(rule "Fine signal copper spacing - separate process study"
+ (condition "A.NetClass == 'FineSignal127' && B.NetClass == 'FineSignal127'")
+ (constraint clearance (min 0.127)))
+(rule "Other and mixed copper spacing retained"
+ (condition "A.NetClass != 'FineSignal127' || B.NetClass != 'FineSignal127'")
+ (constraint clearance (min 0.15)))
+(rule "Fine signal trace width floor"
+ (condition "A.NetClass == 'FineSignal127'")
+ (constraint track_width (min 0.127)))
+(rule "Other trace width floor retained"
+ (condition "A.NetClass != 'FineSignal127'")
+ (constraint track_width (min 0.15)))

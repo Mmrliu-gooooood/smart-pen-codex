@@ -1,0 +1,556 @@
+{
+  "board": "mainboard_revD",
+  "method": "Actual pcbnew physical track/via/pad graph, no routing-success log. Power/ground uses separate filled-zone endpoint checks. Includesallpresentpassive/DNPpadswithoutassumingopenjumpersshorted.",
+  "native_unconnected_nets": [
+    "CAM_PWDN_UART_RX",
+    "RF_SIP"
+  ],
+  "graph_unconnected_nets": [
+    "CAM_PWDN_UART_RX",
+    "RF_SIP"
+  ],
+  "unexpected_graph_failures": [],
+  "native_missing_not_seen_by_graph": [],
+  "per_signal_net": [
+    {
+      "net": "ISO_GATE",
+      "physical_components": [
+        [
+          "Q201.1",
+          "R201.2",
+          "R202.1"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_ISO_OE_N",
+      "physical_components": [
+        [
+          "Q201.3",
+          "R203.1",
+          "U201.22",
+          "U202.14",
+          "U202.15",
+          "U203.14",
+          "U203.15"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "physical_components": [
+        [
+          "R222.1",
+          "U101.49",
+          "U203.5"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_BUS_EN",
+      "physical_components": [
+        [
+          "JP202.1",
+          "R108.1",
+          "U101.37"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "physical_components": [
+        [
+          "JP202.2",
+          "R204.1"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "physical_components": [
+        [
+          "R204.2",
+          "R205.1",
+          "U204.5"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_XCLK",
+      "physical_components": [
+        [
+          "R221.1",
+          "U101.43",
+          "U203.4"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_IO_EN",
+      "physical_components": [
+        [
+          "JP201.1",
+          "R107.1",
+          "U101.48"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "IO_ENABLE_LINK",
+      "physical_components": [
+        [
+          "JP201.2",
+          "R201.1"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_SDA",
+      "physical_components": [
+        [
+          "R241.1",
+          "U101.45",
+          "U204.6"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D5",
+      "physical_components": [
+        [
+          "R229.1",
+          "U201.16"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D7",
+      "physical_components": [
+        [
+          "R217.1",
+          "U101.19",
+          "U201.10"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "RF_SIP",
+      "physical_components": [
+        [
+          "U101.1"
+        ],
+        [
+          "C106.1"
+        ]
+      ],
+      "missing_connections": 1
+    },
+    {
+      "net": "CHIP_EN",
+      "physical_components": [
+        [
+          "C101.1",
+          "R101.1",
+          "U101.4"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "BOOT_N",
+      "physical_components": [
+        [
+          "R102.1",
+          "U101.5"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "physical_components": [
+        [
+          "R103.1",
+          "U101.8"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D0",
+      "physical_components": [
+        [
+          "R210.1",
+          "U101.12",
+          "U201.3"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D1",
+      "physical_components": [
+        [
+          "R211.1",
+          "U101.13",
+          "U201.4"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D2",
+      "physical_components": [
+        [
+          "R212.1",
+          "U101.14",
+          "U201.5"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D3",
+      "physical_components": [
+        [
+          "R213.1",
+          "U101.15",
+          "U201.6"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D4",
+      "physical_components": [
+        [
+          "R214.1",
+          "U101.16",
+          "U201.7"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D5",
+      "physical_components": [
+        [
+          "R215.1",
+          "U101.17",
+          "U201.8"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_D6",
+      "physical_components": [
+        [
+          "R216.1",
+          "U101.18",
+          "U201.9"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_PCLK",
+      "physical_components": [
+        [
+          "R218.1",
+          "U101.21",
+          "U202.4"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_VSYNC",
+      "physical_components": [
+        [
+          "R219.1",
+          "U101.22",
+          "U202.5"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_HREF",
+      "physical_components": [
+        [
+          "R220.1",
+          "U101.23",
+          "U202.6"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "USB_DM_MCU",
+      "physical_components": [
+        [
+          "R113.2",
+          "U101.25"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "USB_DP_MCU",
+      "physical_components": [
+        [
+          "R112.2",
+          "U101.26"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "physical_components": [
+        [
+          "R109.1",
+          "U101.36"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_SCL",
+      "physical_components": [
+        [
+          "R240.1",
+          "U101.44",
+          "U204.7"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_PWR_EN",
+      "physical_components": [
+        [
+          "R106.1",
+          "U101.47"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "physical_components": [
+        [
+          "U101.50"
+        ],
+        [
+          "R223.1",
+          "U203.6"
+        ]
+      ],
+      "missing_connections": 1
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "physical_components": [
+        [
+          "R104.1",
+          "U101.51"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "physical_components": [
+        [
+          "R105.1",
+          "U101.52"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D7",
+      "physical_components": [
+        [
+          "R231.1",
+          "U201.14"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D0",
+      "physical_components": [
+        [
+          "R224.1",
+          "U201.21"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_TRIG_IN",
+      "physical_components": [
+        [
+          "R237.1",
+          "U203.11"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_VSYNC",
+      "physical_components": [
+        [
+          "R233.1",
+          "U202.12"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D2",
+      "physical_components": [
+        [
+          "R226.1",
+          "U201.19"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D6",
+      "physical_components": [
+        [
+          "R230.1",
+          "U201.15"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D4",
+      "physical_components": [
+        [
+          "R228.1",
+          "U201.17"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D3",
+      "physical_components": [
+        [
+          "R227.1",
+          "U201.18"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_D1",
+      "physical_components": [
+        [
+          "R225.1",
+          "U201.20"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "UNUSED_B_INPUT",
+      "physical_components": [
+        [
+          "R206.1",
+          "U202.10"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_SDA",
+      "physical_components": [
+        [
+          "R243.1",
+          "U204.3"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "physical_components": [
+        [
+          "R235.1",
+          "U203.13"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "UNUSED_A_INPUT",
+      "physical_components": [
+        [
+          "R207.1",
+          "U203.7"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_SCL",
+      "physical_components": [
+        [
+          "R242.1",
+          "U204.2"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_XSHUTDN_N",
+      "physical_components": [
+        [
+          "R236.1",
+          "U203.12"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_HREF",
+      "physical_components": [
+        [
+          "R234.1",
+          "U202.11"
+        ]
+      ],
+      "missing_connections": 0
+    },
+    {
+      "net": "SENS_PCLK",
+      "physical_components": [
+        [
+          "R232.1",
+          "U202.13"
+        ]
+      ],
+      "missing_connections": 0
+    }
+  ]
+}

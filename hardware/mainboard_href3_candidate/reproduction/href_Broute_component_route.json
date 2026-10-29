@@ -1,0 +1,48 @@
+[
+  {
+    "net": "CAM_HREF",
+    "before_components": [
+      [
+        "U202.6"
+      ],
+      [
+        "U101.23"
+      ],
+      [
+        "R220.1"
+      ]
+    ],
+    "source_anchors": 1,
+    "target_anchors": 1,
+    "search": "3417",
+    "seconds": 0.141,
+    "path_found": true,
+    "after_components": [
+      [
+        "U202.6",
+        "R220.1"
+      ],
+      [
+        "U101.23"
+      ]
+    ],
+    "actual_component_reduction": 1
+  },
+  {
+    "net": "CAM_HREF",
+    "before_components": [
+      [
+        "U202.6",
+        "R220.1"
+      ],
+      [
+        "U101.23"
+      ]
+    ],
+    "source_anchors": 81,
+    "target_anchors": 35,
+    "search": "no physical-copper-to-copper path",
+    "seconds": 0.818,
+    "path_found": false
+  }
+]

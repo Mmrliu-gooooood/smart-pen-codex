@@ -1,0 +1,59 @@
+{
+  "mode": "normal",
+  "cases": [
+    {
+      "case": "latest_exact_three_wire_mapping",
+      "expected_accept": true,
+      "passed": true,
+      "detail": {
+        "logical_mapping": "PASS",
+        "physical_harness_released": false,
+        "charge_permission_released": false,
+        "target": "14x45 integrated J5, three-pin NO CE PORT"
+      }
+    },
+    {
+      "case": "legacy_four_pin_one_to_one_target_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "target version mismatch: legacy 4-pin J5 is not this 3-pin NO CE interface"
+    },
+    {
+      "case": "ground_miswire_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "duplicate wire endpoint"
+    },
+    {
+      "case": "duplicate_wire_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "duplicate wire endpoint"
+    },
+    {
+      "case": "changed_source_hash_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "version hash mismatch hardware/mainboard_resume_20261028/mainboard_revD.kicad_pcb"
+    },
+    {
+      "case": "injected_ce_semantics_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "native pin/net mismatch J5"
+    },
+    {
+      "case": "missing_ground_rejected",
+      "expected_accept": false,
+      "passed": true,
+      "detail": "wire count must be exactly three"
+    }
+  ],
+  "legacy_native_J5": {
+    "3": "/CE_PERMISSION_EXTERNAL",
+    "4": "/GND",
+    "1": "/USB_EN1",
+    "2": "/USB_EN2"
+  },
+  "NOFAB": true
+}

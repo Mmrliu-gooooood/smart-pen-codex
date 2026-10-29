@@ -1,0 +1,76 @@
+{
+  "validator_sha256": "30b51b1cc822fe1b1b564881268571a5c786b0e2b47e6279537bb10ad9a6c11f",
+  "board_sha256": "0796d092b4775e314f9b5f43b62b0a7ba153c9b4e8804fb02c6f0ea8cdeae5cc",
+  "cases": [
+    {
+      "case": "bad_normal",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "bad_optimized",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "duplicate_normal",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "duplicate_optimized",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "empty_normal",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "empty_optimized",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "good_normal",
+      "exit": 0,
+      "marker": true,
+      "fresh_drc": true,
+      "expected": true
+    },
+    {
+      "case": "good_optimized",
+      "exit": 0,
+      "marker": true,
+      "fresh_drc": true,
+      "expected": true
+    },
+    {
+      "case": "missing_normal",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    },
+    {
+      "case": "missing_optimized",
+      "exit": 1,
+      "marker": false,
+      "fresh_drc": false,
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "mainboard",
+    "fresh_pins": {
+      "3": "GND",
+      "1": "USB_EN1",
+      "2": "USB_EN2"
+    },
+    "footprint_present": false,
+    "physical_harness_blocker": "J107 mainboard footprint still absent"
+  },
+  {
+    "label": "integrated_target",
+    "fresh_pins": {
+      "1": "/core/USB_EN1",
+      "2": "/core/USB_EN2",
+      "3": "GND"
+    },
+    "footprint_present": true,
+    "actual_pad_nets": {
+      "1": "/core/USB_EN1",
+      "2": "/core/USB_EN2",
+      "3": "GND"
+    },
+    "footprint": "SmartPenThermal:WireLands_Mode3_KeyGap_NOFAB"
+  },
+  {
+    "label": "legacy_incompatible",
+    "fresh_pins": {
+      "3": "/CE_PERMISSION_EXTERNAL",
+      "4": "/GND",
+      "1": "/USB_EN1",
+      "2": "/USB_EN2"
+    },
+    "footprint_present": true,
+    "actual_pad_nets": {
+      "1": "/USB_EN1",
+      "2": "/USB_EN2",
+      "3": "/CE_PERMISSION_EXTERNAL",
+      "4": "/GND"
+    },
+    "footprint": "SmartPenPower:WireLands_4_P2.5_AssemblyUnqualified"
+  }
+]
