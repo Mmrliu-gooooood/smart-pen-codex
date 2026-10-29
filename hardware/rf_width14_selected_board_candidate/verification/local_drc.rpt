@@ -1,0 +1,66 @@
+** Drc report for mainboard_revD.kicad_pcb **
+** Created on 2026-10-29T06:31:21+0900 **
+
+** Found 2 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(7.6000 mm, 15.2750 mm): Track [USB_DM_MCU] on F.Cu, length 0.7000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(10.2000 mm, 13.1750 mm): Track [USB_DP_MCU] on F.Cu, length 0.6000 mm
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.3250 mm, 24.0000 mm): Track [GND] on F.Cu, length 0.5250 mm
+    @(12.0000 mm, 24.0000 mm): Pad 3 [GND] of J109 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(3.0000 mm, 90.5000 mm): Pad 1 [USB_EN1] of J107 on F.Cu
+    @(7.0000 mm, 13.4250 mm): Pad 24 [USB_EN1] of U101 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.6000 mm, 15.2750 mm): Track [USB_DM_MCU] on F.Cu, length 0.7000 mm
+    @(10.9750 mm, 16.0000 mm): Pad 2 [USB_DM_MCU] of R113 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(10.9750 mm, 14.0000 mm): Pad 2 [USB_DP_MCU] of R112 on F.Cu
+    @(10.2000 mm, 13.1750 mm): Track [USB_DP_MCU] on F.Cu, length 0.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.0000 mm, 19.2000 mm): Pad 1 [USB_DP] of J109 on F.Cu
+    @(12.6250 mm, 14.0000 mm): Pad 1 [USB_DP] of R112 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(12.0000 mm, 21.6000 mm): Pad 2 [USB_DM] of J109 on F.Cu
+    @(12.6250 mm, 16.0000 mm): Pad 1 [USB_DM] of R113 on F.Cu
+
+** Found 13 Footprint errors **
+[missing_footprint]: Missing footprint SW101 (RESET)
+    Local override; warning
+[missing_footprint]: Missing footprint SW102 (BOOT)
+    Local override; warning
+[missing_footprint]: Missing footprint D101 (TPD1E10B06DYAR)
+    Local override; warning
+[missing_footprint]: Missing footprint J101 (USB4105-GF-A16P)
+    Local override; warning
+[missing_footprint]: Missing footprint J102 (LOGICAL_CAMERA_ONLY_NOT_FPC)
+    Local override; warning
+[missing_footprint]: Missing footprint J103 (PICKUP_INTERNAL)
+    Local override; warning
+[missing_footprint]: Missing footprint J104 (UART_TEST_CAMERA_OFF_ONLY)
+    Local override; warning
+[missing_footprint]: Missing footprint J105 (ADC_SAFE_EXTERNAL_ONLY)
+    Local override; warning
+[missing_footprint]: Missing footprint R110 (5.1k 1%)
+    Local override; warning
+[missing_footprint]: Missing footprint R111 (5.1k 1%)
+    Local override; warning
+[missing_footprint]: Missing footprint U102 (TPD4E05U06DQAR)
+    Local override; warning
+[missing_footprint]: Missing footprint J201 (HOST_3V3_SEMANTIC)
+    Local override; warning
+[missing_footprint]: Missing footprint J202 (SENSOR_1V8_SEMANTIC_NOT_FPC)
+    Local override; warning
+
+** End of Report **

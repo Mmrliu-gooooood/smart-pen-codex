@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/selected14_independent_review/source_v3/fixture_projection/mainboard_revD.kicad_sch</source>
+    <date>2026-10-29T06:45:19+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/recovery_fixture/" tstamps="/4ceae2fb-5df3-4bfb-9df9-0a256cda9ee5/">
+      <title_block>
+        <title>SELECTED PASSIVE RECOVERY FIXTURE / IMPLEMENTATION CANDIDATE NOFAB</title>
+        <company/>
+        <rev>F1_ALLOCATION_ONLY</rev>
+        <date/>
+        <source>recovery_fixture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/" tstamps="/">
+      <title_block>
+        <title>Unified MCU and semantic camera isolation / NO FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date/>
+        <source>mainboard_revD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="JF1">
+      <value>J108_PASSIVE_PROBE_MATE_UNQUALIFIED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU" part="PORT3" description=""/>
+      <property name="Sheetname" value="recovery_fixture"/>
+      <property name="Sheetfile" value="schematic/recovery_fixture.kicad_sch"/>
+      <sheetpath names="/recovery_fixture/" tstamps="/4ceae2fb-5df3-4bfb-9df9-0a256cda9ee5/"/>
+      <tstamps>138af033-4a16-40c3-9296-dcbb90e68abc</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>RESET</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU" part="SW_NO" description=""/>
+      <property name="Sheetname" value="recovery_fixture"/>
+      <property name="Sheetfile" value="schematic/recovery_fixture.kicad_sch"/>
+      <sheetpath names="/recovery_fixture/" tstamps="/4ceae2fb-5df3-4bfb-9df9-0a256cda9ee5/"/>
+      <tstamps>5fbdd881-a601-438c-b153-3f1ba25da602</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>BOOT</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU" part="SW_NO" description=""/>
+      <property name="Sheetname" value="recovery_fixture"/>
+      <property name="Sheetfile" value="schematic/recovery_fixture.kicad_sch"/>
+      <sheetpath names="/recovery_fixture/" tstamps="/4ceae2fb-5df3-4bfb-9df9-0a256cda9ee5/"/>
+      <tstamps>d1e99aec-cd11-4784-8273-662664f7bdf4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MCU" part="PORT3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PORT3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU" part="SW_NO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SW_NO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MCU">
+      <uri>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/selected14_independent_review/source_v3/fixture_projection/schematic/MCU.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BOOT_N" class="Default">
+      <node ref="JF1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="CHIP_EN" class="Default">
+      <node ref="JF1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="JF1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

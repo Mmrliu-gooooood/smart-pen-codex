@@ -1,0 +1,36 @@
+{
+  "decision": "Root selected prototype option B: J108 mainboard probes + external passive fixture",
+  "parent_v2_manifest_sha256": "7f9f6818345c05921a043ffae8b3a9039adb47e8cd94b09e30708878b7eb250e",
+  "root_uuid_preserved": "cebe562b-54ce-58d7-a4f0-094e70dd7d0a",
+  "fixture_sheet_uuid": "4ceae2fb-5df3-4bfb-9df9-0a256cda9ee5",
+  "moved_refs": [
+    "SW101",
+    "SW102"
+  ],
+  "moved_symbol_uuids_preserved": [
+    "5fbdd881-a601-438c-b153-3f1ba25da602",
+    "d1e99aec-cd11-4784-8273-662664f7bdf4"
+  ],
+  "new_ref": "JF1",
+  "no_PCB_or_copper_modified": true,
+  "mainboard_remove_only_allocated": {
+    "usb_entry.kicad_sch": [
+      "J101",
+      "U102",
+      "R110",
+      "R111",
+      "D101",
+      "J102"
+    ],
+    "safe_bias_interfaces.kicad_sch": [
+      "J201"
+    ]
+  },
+  "remaining_physical_handoffs": [
+    "J103",
+    "J104",
+    "J105",
+    "J202"
+  ],
+  "fixture_status": "selected allocation; switch/probe MPN, mechanics, ESD and assembly/test still unqualified"
+}

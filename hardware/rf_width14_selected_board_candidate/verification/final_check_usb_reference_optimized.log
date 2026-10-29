@@ -1,0 +1,37 @@
+{
+  "USB_DP_MCU": {
+    "length_mm": 4.1449747468305835,
+    "segments": 4
+  },
+  "USB_DM_MCU": {
+    "length_mm": 4.963782756698999,
+    "segments": 4
+  },
+  "USB_DP": {
+    "length_mm": 6.100914498161481,
+    "segments": 3
+  },
+  "USB_DM": {
+    "length_mm": 6.915128060535312,
+    "segments": 4
+  },
+  "USB_DP_MCU/USB_DM_MCU": {
+    "length_mismatch_mm": 0.8188080098684152,
+    "uniform_pair_spacing": false,
+    "sampled_trace_edge_gap_min_mm": 0.15052057842289615,
+    "sampled_nearest_opposite_trace_edge_gap_max_mm": 1.2642135623730952,
+    "spacing_scope": "Nearest opposite-net track edge at <=.025 mm sample intervals; excludes pads; nonuniform geometry, not an impedance result."
+  },
+  "USB_DP/USB_DM": {
+    "length_mismatch_mm": 0.8142135623738307,
+    "uniform_pair_spacing": false,
+    "sampled_trace_edge_gap_min_mm": 0.35000000000099996,
+    "sampled_nearest_opposite_trace_edge_gap_max_mm": 1.85,
+    "spacing_scope": "Nearest opposite-net track edge at <=.025 mm sample intervals; excludes pads; nonuniform geometry, not an impedance result."
+  },
+  "complete_DP_trace_only_mm": 10.245889244992064,
+  "complete_DM_trace_only_mm": 11.87891081723431,
+  "complete_trace_only_mismatch_mm": 1.6330215722422459,
+  "length_scope": "Sum of actual native track centerline lengths only. U101 pad, R112/R113 pad/body/internal path, and J109 land traversal contributions are not included; external harness/tail PCB excluded. This is not full end-to-end electrical length."
+}
+unsupported 0

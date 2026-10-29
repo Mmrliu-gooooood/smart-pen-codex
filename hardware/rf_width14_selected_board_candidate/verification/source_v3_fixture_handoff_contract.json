@@ -1,0 +1,79 @@
+{
+  "status": "OPTION_B_SELECTED_SOURCE_ALLOCATION_NOT_MECHANICAL_OR_ELECTRICAL_RELEASE",
+  "mainboard_source_version": "c2687211f6085fb0a4ca409a26983ed62a124c91ae4243455eccdd9a72bf6854",
+  "fixture_source_version": "848aa5b0da7a69d56f48cef667227946e8b9d0e0d0bcdf490537f8297dd7aa31",
+  "reference_prelayout_board_sha256": "11ae9484ca7e1eae90a63498ceef6a218a5ac68d6c2d5f542f838b4349e5ac8c",
+  "geometry_status": "old captured prelayout only; any pad move requires new fixture geometry contract",
+  "reference_J108_pads": [
+    {
+      "pin": "1",
+      "net": "CHIP_EN",
+      "x_mm": 1.675,
+      "y_mm": 18.5,
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "size_mm": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pin": "2",
+      "net": "BOOT_N",
+      "x_mm": 2.5,
+      "y_mm": 16.975,
+      "copper_layers": [
+        "B.Cu"
+      ],
+      "size_mm": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "pin": "3",
+      "net": "GND",
+      "x_mm": 4.95,
+      "y_mm": 22.5,
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "size_mm": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "pins": {
+    "1": {
+      "main": "J108.1",
+      "fixture": "JF1.1",
+      "net": "CHIP_EN",
+      "switch": "SW101 short toGND only"
+    },
+    "2": {
+      "main": "J108.2",
+      "fixture": "JF1.2",
+      "net": "BOOT_N",
+      "switch": "SW102 short toGND only"
+    },
+    "3": {
+      "main": "J108.3",
+      "fixture": "JF1.3",
+      "net": "GND",
+      "connection_order": "first make, last break; physical jig unverified"
+    }
+  },
+  "prohibited": [
+    "external supply pin",
+    "push-pull output drive",
+    "CE/charge permission bridge",
+    "unverified camera connection",
+    "live probe sliding across copper",
+    "assuming pin number order proves physical orientation"
+  ],
+  "power_state": "unpowered alignment and continuity first; only separately qualified power path afterward; no hotmate iffirstgroundcannotbeguaranteed",
+  "reset_gate": "GPIO0low atENrelease andGPIO46 low; source R10510k pulldown retained; actuallevels/timing stillrequiremeasurement",
+  "hardware_status": "switch/probe parts, ESD protection, wiring/jig,assembly,test unqualified"
+}

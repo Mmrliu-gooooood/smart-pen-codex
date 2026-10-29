@@ -1,0 +1,18 @@
+{'net': 'USB_EN1', 'before_components': [['U101.24'], ['J107.1']], 'source_anchors': 1, 'target_anchors': 1, 'search': 'component search budget1000000', 'seconds': 16.705, 'path_found': False}
+06:33:29: Debug: Adding duplicate image handler for 'PNG file'
+06:33:29: Debug: Adding duplicate image handler for 'JPEG file'
+06:33:29: Debug: Adding duplicate image handler for 'TIFF file'
+06:33:29: Debug: Adding duplicate image handler for 'GIF file'
+06:33:29: Debug: Adding duplicate image handler for 'PNM file'
+06:33:29: Debug: Adding duplicate image handler for 'PCX file'
+06:33:29: Debug: Adding duplicate image handler for 'IFF file'
+06:33:29: Debug: Adding duplicate image handler for 'Windows icon file'
+06:33:29: Debug: Adding duplicate image handler for 'Windows cursor file'
+06:33:29: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+06:33:29: Debug: Adding duplicate image handler for 'TGA file'
+06:33:29: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/rf_width14_usb_integrated_candidate/route_three.py", line 100, in <module>
+    if not expected_new:raise RuntimeError('no new route; not a successful candidate')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no new route; not a successful candidate

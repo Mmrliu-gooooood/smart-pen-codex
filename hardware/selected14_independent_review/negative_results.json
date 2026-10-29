@@ -1,0 +1,86 @@
+[
+  {
+    "case": "remove_usb",
+    "optimized": false,
+    "exit": 1,
+    "error": "Disconnected actual pads {'USB_DP_MCU': [['R112.2'], ['U101.26']]}"
+  },
+  {
+    "case": "remove_usb",
+    "optimized": true,
+    "exit": 1,
+    "error": "Disconnected actual pads {'USB_DP_MCU': [['R112.2'], ['U101.26']]}"
+  },
+  {
+    "case": "remove_en1",
+    "optimized": false,
+    "exit": 1,
+    "error": "Disconnected actual pads {'USB_EN1': [['J107.1'], ['U101.24']]}"
+  },
+  {
+    "case": "remove_en1",
+    "optimized": true,
+    "exit": 1,
+    "error": "Disconnected actual pads {'USB_EN1': [['J107.1'], ['U101.24']]}"
+  },
+  {
+    "case": "remove_rf",
+    "optimized": false,
+    "exit": 1,
+    "error": "Disconnected actual pads {'RF_SIP': [['C106.1', 'L101.1'], ['U101.1']]}"
+  },
+  {
+    "case": "remove_rf",
+    "optimized": true,
+    "exit": 1,
+    "error": "Disconnected actual pads {'RF_SIP': [['C106.1', 'L101.1'], ['U101.1']]}"
+  },
+  {
+    "case": "bad_width",
+    "optimized": false,
+    "exit": 1,
+    "error": "RF width mismatch"
+  },
+  {
+    "case": "bad_width",
+    "optimized": true,
+    "exit": 1,
+    "error": "RF width mismatch"
+  },
+  {
+    "case": "keepout_intrusion",
+    "optimized": false,
+    "exit": 1,
+    "error": "Unexpected finite copper in keepout [['GND', '179217f0-78a2-4497-94cd-d133c328dc14', 8, 0.231329155242]]"
+  },
+  {
+    "case": "keepout_intrusion",
+    "optimized": true,
+    "exit": 1,
+    "error": "Unexpected finite copper in keepout [['GND', '179217f0-78a2-4497-94cd-d133c328dc14', 8, 0.231329155242]]"
+  },
+  {
+    "case": "strap_wrong_net",
+    "optimized": false,
+    "exit": 1,
+    "error": "Disconnected actual pads {'GND': [['C101.2', 'C102.2', 'C103.2', 'C104.2', 'C105.2', 'C106.2', 'C107.2', 'C201.2', 'C202.2', 'C203.2', 'C204.2', 'C205.2', 'C206.2', 'C207.2', 'C208.2', 'J106.3', 'J107.3', 'J108.3', 'J109.3', 'Q201.2', 'R104.2', 'R105.2', 'R106.2', 'R107.2', 'R108.2', 'R109.2', 'R202.2', 'R205.2', 'R206.2', 'R207.2', 'R210.2', 'R211.2', 'R212.2', 'R213.2', 'R214.2', 'R215.2', 'R216.2', 'R217.2', 'R218.2', 'R219.2', 'R220.2', 'R221.2', 'R222.2', 'R223.2', 'R224.2', 'R225.2', 'R226.2', 'R227.2', 'R228.2', 'R229.2', 'R230.2', 'R231.2', 'R232.2', 'R233.2', 'R234.2', 'R235.2', 'R236.2', 'R237.2', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U201.11', 'U201.12', 'U201.13', 'U201.2', 'U202.2', 'U202.3', 'U202.8', 'U202.9', 'U203.8', 'U203.9', 'U204.4'], ['R104.1']]}"
+  },
+  {
+    "case": "strap_wrong_net",
+    "optimized": true,
+    "exit": 1,
+    "error": "Disconnected actual pads {'GND': [['C101.2', 'C102.2', 'C103.2', 'C104.2', 'C105.2', 'C106.2', 'C107.2', 'C201.2', 'C202.2', 'C203.2', 'C204.2', 'C205.2', 'C206.2', 'C207.2', 'C208.2', 'J106.3', 'J107.3', 'J108.3', 'J109.3', 'Q201.2', 'R104.2', 'R105.2', 'R106.2', 'R107.2', 'R108.2', 'R109.2', 'R202.2', 'R205.2', 'R206.2', 'R207.2', 'R210.2', 'R211.2', 'R212.2', 'R213.2', 'R214.2', 'R215.2', 'R216.2', 'R217.2', 'R218.2', 'R219.2', 'R220.2', 'R221.2', 'R222.2', 'R223.2', 'R224.2', 'R225.2', 'R226.2', 'R227.2', 'R228.2', 'R229.2', 'R230.2', 'R231.2', 'R232.2', 'R233.2', 'R234.2', 'R235.2', 'R236.2', 'R237.2', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U101.57', 'U201.11', 'U201.12', 'U201.13', 'U201.2', 'U202.2', 'U202.3', 'U202.8', 'U202.9', 'U203.8', 'U203.9', 'U204.4'], ['R104.1']]}"
+  },
+  {
+    "case": "reference_hole",
+    "optimized": false,
+    "exit": 1,
+    "error": "Missing actual reference RF_SIP"
+  },
+  {
+    "case": "reference_hole",
+    "optimized": true,
+    "exit": 1,
+    "error": "Missing actual reference RF_SIP"
+  }
+]

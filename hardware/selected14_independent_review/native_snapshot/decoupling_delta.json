@@ -1,0 +1,165 @@
+{
+  "status": "LOCAL_GEOMETRY_EVIDENCE_NOT_LOOP_INDUCTANCE_QUALIFICATION",
+  "old_power_vias_and_trunks_preserved": true,
+  "changed_terminal_branches": [
+    {
+      "uuid": "0e136be1-15b9-4ced-9e32-0c019545ff4b",
+      "net": "GND",
+      "before_mm": [
+        1.0,
+        54.725,
+        1.0,
+        53.9
+      ],
+      "after_mm": [
+        1.15,
+        54.725,
+        1.0,
+        53.9
+      ],
+      "before_length_mm": 0.825,
+      "after_length_mm": 0.8385254915624211,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "625d9951-8088-4e31-a0c0-68020b513e7b",
+      "net": "GND",
+      "before_mm": [
+        1.05,
+        6.25,
+        1.05,
+        5.3
+      ],
+      "after_mm": [
+        1.2,
+        6.25,
+        1.05,
+        5.3
+      ],
+      "before_length_mm": 0.95,
+      "after_length_mm": 0.9617692030835672,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "94bc4825-386b-4325-b590-1202df574adc",
+      "net": "GND",
+      "before_mm": [
+        1.0,
+        44.725,
+        1.0,
+        43.9
+      ],
+      "after_mm": [
+        1.1,
+        44.725,
+        1.0,
+        43.9
+      ],
+      "before_length_mm": 0.825,
+      "after_length_mm": 0.8310385069297331,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "fd8df794-f68d-43d2-b37e-16617f77bceb",
+      "net": "GND",
+      "before_mm": [
+        1.0,
+        31.225,
+        1.0,
+        31.2
+      ],
+      "after_mm": [
+        1.15,
+        31.225,
+        1.0,
+        31.2
+      ],
+      "before_length_mm": 0.025,
+      "after_length_mm": 0.1520690632574555,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "0639595d-5faa-41ec-ab75-d1d81390d26e",
+      "net": "3V3_AON",
+      "before_mm": [
+        1.0,
+        56.275,
+        1.0,
+        57.1
+      ],
+      "after_mm": [
+        1.15,
+        56.275,
+        1.0,
+        57.1
+      ],
+      "before_length_mm": 0.825,
+      "after_length_mm": 0.8385254915624211,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "30a0704b-3059-4235-8d80-1d373cc28948",
+      "net": "3V3_AON",
+      "before_mm": [
+        1.0,
+        32.775,
+        1.0,
+        33.4
+      ],
+      "after_mm": [
+        1.15,
+        32.775,
+        1.0,
+        33.4
+      ],
+      "before_length_mm": 0.625,
+      "after_length_mm": 0.642748006609122,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "db3b69e9-261e-4b26-84cc-dabbd1ad1af5",
+      "net": "3V3_AON",
+      "before_mm": [
+        1.0,
+        46.275,
+        1.0,
+        47.1
+      ],
+      "after_mm": [
+        1.1,
+        46.275,
+        1.0,
+        47.1
+      ],
+      "before_length_mm": 0.825,
+      "after_length_mm": 0.8310385069297331,
+      "width_mm": 0.15
+    },
+    {
+      "uuid": "e0fce60f-0a06-4d94-9740-14a8efd758dc",
+      "net": "3V3_AON",
+      "before_mm": [
+        1.05,
+        7.8,
+        1.85,
+        7.8
+      ],
+      "after_mm": [
+        1.2,
+        7.8,
+        1.85,
+        7.8
+      ],
+      "before_length_mm": 0.8,
+      "after_length_mm": 0.65,
+      "width_mm": 0.15
+    }
+  ],
+  "C104_local_unchanged_UUIDs": [
+    "47b32f57-9185-4b15-9749-eae864f977ff",
+    "39c7d991-8635-4232-90dd-155b6366eb15",
+    "4b070c1d-13f5-48c3-a7dc-442af935bad8",
+    "6938faac-6324-49cf-90da-fc988559d16b"
+  ],
+  "note": "These are decoupling terminal branches, not a justified total MCU rail current model; no fabricated DC current penalty."
+}

@@ -1,0 +1,164 @@
+{
+  "status": "FINITE_REFERENCE_GEOMETRY_ONLY_NOT_IMPEDANCE_OR_USB_COMPLIANCE",
+  "pcb_sha256": "016d963f764430b6122da29039a5573792e3f0c78078180b18582af69b044c7e",
+  "summary": {
+    "USB_DP_MCU": {
+      "length_mm": 4.1449747468305835,
+      "segments": 4
+    },
+    "USB_DM_MCU": {
+      "length_mm": 4.963782756698999,
+      "segments": 4
+    },
+    "USB_DP": {
+      "length_mm": 6.100914498161481,
+      "segments": 3
+    },
+    "USB_DM": {
+      "length_mm": 6.915128060535312,
+      "segments": 4
+    },
+    "USB_DP_MCU/USB_DM_MCU": {
+      "length_mismatch_mm": 0.8188080098684152,
+      "uniform_pair_spacing": false,
+      "sampled_trace_edge_gap_min_mm": 0.15052057842289615,
+      "sampled_nearest_opposite_trace_edge_gap_max_mm": 1.2642135623730952,
+      "spacing_scope": "Nearest opposite-net track edge at <=.025 mm sample intervals; excludes pads; nonuniform geometry, not an impedance result."
+    },
+    "USB_DP/USB_DM": {
+      "length_mismatch_mm": 0.8142135623738307,
+      "uniform_pair_spacing": false,
+      "sampled_trace_edge_gap_min_mm": 0.35000000000099996,
+      "sampled_nearest_opposite_trace_edge_gap_max_mm": 1.85,
+      "spacing_scope": "Nearest opposite-net track edge at <=.025 mm sample intervals; excludes pads; nonuniform geometry, not an impedance result."
+    },
+    "complete_DP_trace_only_mm": 10.245889244992064,
+    "complete_DM_trace_only_mm": 11.87891081723431,
+    "complete_trace_only_mismatch_mm": 1.6330215722422459,
+    "length_scope": "Sum of actual native track centerline lengths only. U101 pad, R112/R113 pad/body/internal path, and J109 land traversal contributions are not included; external harness/tail PCB excluded. This is not full end-to-end electrical length."
+  },
+  "rows": [
+    {
+      "net": "USB_DP_MCU",
+      "uuid": "487d0754-a589-4950-b0ac-20286c846d3b",
+      "width_mm": 0.15,
+      "length_mm": 0.4949747468305833,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DP_MCU",
+      "uuid": "549f652c-f5db-45f0-a915-6defa996eb27",
+      "width_mm": 0.15,
+      "length_mm": 0.525,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DP_MCU",
+      "uuid": "98975e06-81ec-4fc6-9f18-5e81056dfaed",
+      "width_mm": 0.15,
+      "length_mm": 0.3,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DP_MCU",
+      "uuid": "f5f1fb61-c809-4db3-915a-16b9befb12d0",
+      "width_mm": 0.15,
+      "length_mm": 2.825,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DM_MCU",
+      "uuid": "29e3b50c-3c6a-4902-bcb7-f150104b7fa9",
+      "width_mm": 0.15,
+      "length_mm": 0.55,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DM_MCU",
+      "uuid": "990b5305-bcbb-468c-8a84-d81edd231630",
+      "width_mm": 0.15,
+      "length_mm": 1.550001,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DM_MCU",
+      "uuid": "a10909c3-bcc1-4410-9909-1b3732154b32",
+      "width_mm": 0.15,
+      "length_mm": 0.9545934474953199,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DM_MCU",
+      "uuid": "b868f247-abd1-4249-ad8c-b4034153ed59",
+      "width_mm": 0.15,
+      "length_mm": 1.9091883092036785,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    },
+    {
+      "net": "USB_DP",
+      "uuid": "0a76bb91-a6a4-47df-9042-f41dd9b28567",
+      "width_mm": 0.15,
+      "length_mm": 3.025,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.429853817891
+    },
+    {
+      "net": "USB_DP",
+      "uuid": "bdf6f8a6-3984-494a-99a8-6ed1dd17dde2",
+      "width_mm": 0.15,
+      "length_mm": 1.0960155108391487,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.051729005155
+    },
+    {
+      "net": "USB_DP",
+      "uuid": "db36d39d-117a-4915-92d3-a7b55c2fcb72",
+      "width_mm": 0.15,
+      "length_mm": 1.9798989873223332,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.051728872508
+    },
+    {
+      "net": "USB_DM",
+      "uuid": "32b91d05-361d-4dab-a6a9-58bf604459b5",
+      "width_mm": 0.15,
+      "length_mm": 2.6870064756157546,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.1805707596665
+    },
+    {
+      "net": "USB_DM",
+      "uuid": "3a3287b4-5d96-468d-9805-52d9c62d3daf",
+      "width_mm": 0.15,
+      "length_mm": 2.425,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.024270618416
+    },
+    {
+      "net": "USB_DM",
+      "uuid": "a96db5be-37ad-4103-a18c-bd458cfc0f92",
+      "width_mm": 0.15,
+      "length_mm": 1.4142135623730951,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.024702620278
+    },
+    {
+      "net": "USB_DM",
+      "uuid": "d747d4e1-d80e-4d8a-ab52-300fa56c8407",
+      "width_mm": 0.15,
+      "length_mm": 0.3889080225464628,
+      "unreferenced_trace_area_mm2": 0.0,
+      "unreferenced_0p35_guard_area_mm2": 0.0
+    }
+  ],
+  "unsupported_trace_segments": 0,
+  "guard_note": "0.35 mm side envelope is screening only, not approved USB impedance model"
+}
