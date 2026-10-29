@@ -1,0 +1,287 @@
+{
+  "status": "PASS circuit unchanged and exact 16 pad-net/value/DNP checks",
+  "components": 7,
+  "pins": 16,
+  "footprints": [
+    {
+      "ref": "Q1",
+      "FPID": "SOT-23",
+      "DNP": false,
+      "position_mm": [
+        5.0,
+        8.0
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/LED_GATE",
+          "center_mm": [
+            4.0625,
+            7.05
+          ],
+          "size_mm": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/GND",
+          "center_mm": [
+            4.0625,
+            8.95
+          ],
+          "size_mm": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "number": "3",
+          "net": "/LED_K",
+          "center_mm": [
+            5.9375,
+            8.0
+          ],
+          "size_mm": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "FPID": "R_0603_1608Metric",
+      "DNP": false,
+      "position_mm": [
+        5.5,
+        4.5
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/ILLUM_STROBE",
+          "center_mm": [
+            6.325,
+            4.5
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/LED_GATE",
+          "center_mm": [
+            4.675,
+            4.5
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "FPID": "WireLands_2_P2.5_AssemblyUnqualified",
+      "DNP": false,
+      "position_mm": [
+        4.0,
+        13.5
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/LED_A",
+          "center_mm": [
+            2.75,
+            13.5
+          ],
+          "size_mm": [
+            1.4,
+            2.0
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/LED_K",
+          "center_mm": [
+            5.25,
+            13.5
+          ],
+          "size_mm": [
+            1.4,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "FPID": "R_0603_1608Metric",
+      "DNP": false,
+      "position_mm": [
+        1.8,
+        10.0
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/LED_COMMISSIONED",
+          "center_mm": [
+            1.8,
+            9.175
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/LED_A",
+          "center_mm": [
+            1.8,
+            10.825
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "JP1",
+      "FPID": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+      "DNP": true,
+      "position_mm": [
+        1.8,
+        4.5
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/3V3_AON",
+          "center_mm": [
+            1.8,
+            3.85
+          ],
+          "size_mm": [
+            1.0,
+            1.5
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/LED_COMMISSIONED",
+          "center_mm": [
+            1.8,
+            5.15
+          ],
+          "size_mm": [
+            1.0,
+            1.5
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "FPID": "WireLands_3_P2.5_AssemblyUnqualified",
+      "DNP": false,
+      "position_mm": [
+        4.0,
+        1.5
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/3V3_AON",
+          "center_mm": [
+            1.5,
+            1.5
+          ],
+          "size_mm": [
+            1.4,
+            2.0
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/GND",
+          "center_mm": [
+            4.0,
+            1.5
+          ],
+          "size_mm": [
+            1.4,
+            2.0
+          ]
+        },
+        {
+          "number": "3",
+          "net": "/ILLUM_STROBE",
+          "center_mm": [
+            6.5,
+            1.5
+          ],
+          "size_mm": [
+            1.4,
+            2.0
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "FPID": "R_0603_1608Metric",
+      "DNP": false,
+      "position_mm": [
+        4.2,
+        11.2
+      ],
+      "pad_geometry": [
+        {
+          "number": "1",
+          "net": "/LED_GATE",
+          "center_mm": [
+            3.375,
+            11.2
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "number": "2",
+          "net": "/GND",
+          "center_mm": [
+            5.025,
+            11.2
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    }
+  ],
+  "board_mm": [
+    8,
+    15,
+    0.8
+  ],
+  "layers": 2,
+  "I_short_max_mA_conditional": 11.019283746556475,
+  "R1_max_mW_conditional": 39.66942148760331,
+  "Q1_max_static_mW_load_line_bound_conditional": 9.917355371900827,
+  "conditions": "Vrail<=3.6V; actual resistor>=326.7ohm; no bypass; static passive LED load with nonnegative Vf; excludes switching loss, TCR/aging, R1 short, optic safety. Not normal LED operating current.",
+  "pcb_sha256": "6ee6b9c71af987a6a7019f6a9be24666c72e85bf6cc23ef39682ad40bce178ba"
+}

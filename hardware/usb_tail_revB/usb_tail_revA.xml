@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/usb_tail_revB/usb_tail_revA.kicad_sch</source>
+    <date>2026-10-28T19:37:10+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/">
+      <title_block>
+        <title>2026-10-28 REBUILD / NO FAB</title>
+        <company/>
+        <rev>R0</rev>
+        <date/>
+        <source>usb_entry.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>usb_tail_revA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D101">
+      <value>TPD1E10B06DYAR</value>
+      <footprint>SmartPen:TI_DYA0002A_SOD523_OfficialLandpattern</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:TI_DYA0002A_SOD523_OfficialLandpattern</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="TPD1E10B06DYAR" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>baedd21a-a728-4033-af13-7f04c62e4623</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>USB4105-GF-A-120</value>
+      <footprint>SmartPen:USB4105_GroundHeelTrim80um_AssemblyUnqualified</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:USB4105_GroundHeelTrim80um_AssemblyUnqualified</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="USB4105_GF_A" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>44536bdc-7f9b-4a9b-ab76-9fbdfba24ae2</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>8363ea31-54c8-41a3-b99a-c336b6f3d00d</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>5.1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>b17c40aa-b8a2-4695-ba94-7b3e9f7eb891</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>USB_DP_INTERNAL_WIRE</value>
+      <footprint>SmartPen:WireLand_1.5x2_NoPaste</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:WireLand_1.5x2_NoPaste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="WIRE_LAND" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>36b87157-fa9e-495a-ae52-8ed245c17c4e</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>USB_DM_INTERNAL_WIRE</value>
+      <footprint>SmartPen:WireLand_1.5x2_NoPaste</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:WireLand_1.5x2_NoPaste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="WIRE_LAND" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>d4213d62-23ce-469b-9ecf-36ee796ece01</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>VBUS_5V_INTERNAL_WIRE</value>
+      <footprint>SmartPen:WireLand_1.5x2_NoPaste</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:WireLand_1.5x2_NoPaste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="WIRE_LAND" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>f3690d07-a86a-4b73-bfaa-df637cc9edd8</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>GND_INTERNAL_WIRE</value>
+      <footprint>SmartPen:WireLand_1.5x2_NoPaste</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:WireLand_1.5x2_NoPaste</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="WIRE_LAND" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>a115108b-46bd-4ea9-9c86-6d05fe4dd694</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>TPD4E05U06DQAR</value>
+      <footprint>SmartPen:TI_DQA0010A_USON10_OfficialLandpattern</footprint>
+      <fields>
+        <field name="Footprint">SmartPen:TI_DQA0010A_USON10_OfficialLandpattern</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="TPD4E05U06DQAR" description=""/>
+      <property name="Sheetname" value="usb_entry"/>
+      <property name="Sheetfile" value="usb_entry.kicad_sch"/>
+      <sheetpath names="/usb_entry/" tstamps="/d1d77b65-b772-4b84-9600-71150e2a4f6d/"/>
+      <tstamps>9f3b5f22-e80c-4629-af05-f111daa30bc4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Pen" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="TPD1E10B06DYAR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD1E10B06DYAR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IO" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="TPD4E05U06DQAR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4E05U06DQAR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D1+" type="passive"/>
+        <pin num="2" name="D1-" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="D2+" type="passive"/>
+        <pin num="5" name="D2-" type="passive"/>
+        <pin num="6" name="NC_ROUTE" type="passive"/>
+        <pin num="7" name="NC_ROUTE" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="NC_ROUTE" type="passive"/>
+        <pin num="10" name="NC_ROUTE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="USB4105_GF_A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB4105_GF_A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="D+" type="passive"/>
+        <pin num="A7" name="D-" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="D+" type="passive"/>
+        <pin num="B7" name="D-" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="WIRE_LAND">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WIRE_LAND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="WIRE" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Pen">
+      <uri>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/usb_tail_revB/Pen.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="D101" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J101" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R110" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R111" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="WIRE" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U102" pin="8" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="2" name="USB_CC1" class="Default">
+      <node ref="J101" pin="A5" pinfunction="CC1" pintype="passive"/>
+      <node ref="R110" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="4" pinfunction="D2+" pintype="passive"/>
+      <node ref="U102" pin="7" pinfunction="NC_ROUTE" pintype="passive"/>
+    </net>
+    <net code="3" name="USB_CC2" class="Default">
+      <node ref="J101" pin="B5" pinfunction="CC2" pintype="passive"/>
+      <node ref="R111" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="5" pinfunction="D2-" pintype="passive"/>
+      <node ref="U102" pin="6" pinfunction="NC_ROUTE" pintype="passive"/>
+    </net>
+    <net code="4" name="USB_DM" class="Default">
+      <node ref="J101" pin="A7" pinfunction="D-" pintype="passive"/>
+      <node ref="J101" pin="B7" pinfunction="D-" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="WIRE" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="D1-" pintype="passive"/>
+      <node ref="U102" pin="9" pinfunction="NC_ROUTE" pintype="passive"/>
+    </net>
+    <net code="5" name="USB_DP" class="Default">
+      <node ref="J101" pin="A6" pinfunction="D+" pintype="passive"/>
+      <node ref="J101" pin="B6" pinfunction="D+" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="WIRE" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="D1+" pintype="passive"/>
+      <node ref="U102" pin="10" pinfunction="NC_ROUTE" pintype="passive"/>
+    </net>
+    <net code="6" name="VBUS_5V" class="Default">
+      <node ref="D101" pin="1" pinfunction="IO" pintype="passive"/>
+      <node ref="J101" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J101" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J101" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J101" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="TP103" pin="1" pinfunction="WIRE" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(J101-SBU1-PadA8)" class="Default">
+      <node ref="J101" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(J101-SBU2-PadB8)" class="Default">
+      <node ref="J101" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

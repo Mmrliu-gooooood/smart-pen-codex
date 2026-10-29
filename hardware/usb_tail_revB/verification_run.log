@@ -1,0 +1,61 @@
+Checking sheet names...
+Checking bus conflicts...
+Checking conflicts...
+Checking units...
+Checking footprints...
+Checking pins...
+Checking similar labels...
+Checking local and global labels...
+Checking for unresolved variables...
+Checking no connect pins for connections...
+Checking for library symbol issues...
+Checking for footprint link issues...
+Checking for off grid pins and wires...
+Checking for labels on more than one wire...
+Checking for undefined netclasses...
+Found 0 violations
+Saved ERC Report to erc.rpt
+Found 0 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to drc.rpt
+19:37:12: Debug: Adding duplicate image handler for 'PNG file'
+19:37:12: Debug: Adding duplicate image handler for 'JPEG file'
+19:37:12: Debug: Adding duplicate image handler for 'TIFF file'
+19:37:12: Debug: Adding duplicate image handler for 'GIF file'
+19:37:12: Debug: Adding duplicate image handler for 'PNM file'
+19:37:12: Debug: Adding duplicate image handler for 'PCX file'
+19:37:12: Debug: Adding duplicate image handler for 'IFF file'
+19:37:12: Debug: Adding duplicate image handler for 'Windows icon file'
+19:37:12: Debug: Adding duplicate image handler for 'Windows cursor file'
+19:37:12: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+19:37:12: Debug: Adding duplicate image handler for 'TGA file'
+19:37:12: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "changed_copper_pads": [
+    [
+      "J101",
+      "A1"
+    ],
+    [
+      "J101",
+      "A12"
+    ],
+    [
+      "J101",
+      "B1"
+    ],
+    [
+      "J101",
+      "B12"
+    ]
+  ],
+  "all_pad_net_drill_layer_checks": "PASS",
+  "symbol_pin_net_map_unchanged": true,
+  "project_rules_byte_identical": true,
+  "minimum_clearance_mm": 0.27232857566133517,
+  "bounding_rectangle_area_reduction_percent": 6.9565217391304355,
+  "rounded_copper_area_reduction_percent": 7.156853107097094,
+  "board_sha256": "4f2caad6090440be76f4ba7226e81b05118164bc3271e52690596e6329fa4d94",
+  "status": "ASSEMBLY-UNQUALIFIED GEOMETRY CANDIDATE; NO FAB"
+}

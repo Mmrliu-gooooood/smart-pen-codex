@@ -1,0 +1,27 @@
+{
+  "upstream_schematic_sha256": "e0c0f5c44932a2d684ae45144d9941cc010fa4666c59686cd5c015618ed8f3f6",
+  "only_changes": [
+    {
+      "ref": "J1",
+      "before": "",
+      "after": "SmartPenIllum:WireLands_3_P2.5_AssemblyUnqualified"
+    },
+    {
+      "ref": "JP1",
+      "before": "",
+      "after": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+    },
+    {
+      "ref": "J2",
+      "before": "",
+      "after": "SmartPenIllum:WireLands_2_P2.5_AssemblyUnqualified"
+    },
+    {
+      "ref": "Q1",
+      "before": "Package_TO_SOT_SMD:SOT-23",
+      "after": "Package_TO_SOT_SMD:SOT-23"
+    }
+  ],
+  "circuit_values_and_pins_unchanged": true,
+  "unqualified": "SOT23 library candidate not exact official landpattern; wire lands no connector/strain qualification"
+}

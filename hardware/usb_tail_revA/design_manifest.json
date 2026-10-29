@@ -1,0 +1,129 @@
+[
+  {
+    "sheet": "usb_entry",
+    "ref": "J101",
+    "value": "USB4105-GF-A-120",
+    "lib": "USB4105_GF_A",
+    "nets": {
+      "A1": "GND",
+      "A4": "VBUS_5V",
+      "A5": "USB_CC1",
+      "A6": "USB_DP",
+      "A7": "USB_DM",
+      "A8": null,
+      "A9": "VBUS_5V",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "VBUS_5V",
+      "B5": "USB_CC2",
+      "B6": "USB_DP",
+      "B7": "USB_DM",
+      "B8": null,
+      "B9": "VBUS_5V",
+      "B12": "GND",
+      "S1": "GND"
+    },
+    "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "U102",
+    "value": "TPD4E05U06DQAR",
+    "lib": "TPD4E05U06DQAR",
+    "nets": {
+      "1": "USB_DP",
+      "2": "USB_DM",
+      "3": "GND",
+      "4": "USB_CC1",
+      "5": "USB_CC2",
+      "6": "USB_CC2",
+      "7": "USB_CC1",
+      "8": "GND",
+      "9": "USB_DM",
+      "10": "USB_DP"
+    },
+    "footprint": "SmartPen:TI_DQA0010A_USON10_OfficialLandpattern",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "D101",
+    "value": "TPD1E10B06DYAR",
+    "lib": "TPD1E10B06DYAR",
+    "nets": {
+      "1": "VBUS_5V",
+      "2": "GND"
+    },
+    "footprint": "SmartPen:TI_DYA0002A_SOD523_OfficialLandpattern",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R110",
+    "value": "5.1k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R111",
+    "value": "5.1k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "TP101",
+    "value": "USB_DP_INTERNAL_WIRE",
+    "lib": "WIRE_LAND",
+    "nets": {
+      "1": "USB_DP"
+    },
+    "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "TP102",
+    "value": "USB_DM_INTERNAL_WIRE",
+    "lib": "WIRE_LAND",
+    "nets": {
+      "1": "USB_DM"
+    },
+    "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "TP103",
+    "value": "VBUS_5V_INTERNAL_WIRE",
+    "lib": "WIRE_LAND",
+    "nets": {
+      "1": "VBUS_5V"
+    },
+    "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "TP104",
+    "value": "GND_INTERNAL_WIRE",
+    "lib": "WIRE_LAND",
+    "nets": {
+      "1": "GND"
+    },
+    "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+    "dnp": false
+  }
+]

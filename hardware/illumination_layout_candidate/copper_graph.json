@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "actual_copper_graph": [
+    {
+      "net": "3V3_AON",
+      "pad_nodes": [
+        "J1.1",
+        "JP1.1"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 2,
+      "vias": 0
+    },
+    {
+      "net": "GND",
+      "pad_nodes": [
+        "J1.2",
+        "Q1.2",
+        "R3.2"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 4,
+      "vias": 2
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "pad_nodes": [
+        "J1.3",
+        "R2.1"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 2,
+      "vias": 0
+    },
+    {
+      "net": "LED_A",
+      "pad_nodes": [
+        "J2.1",
+        "R1.2"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 2,
+      "vias": 0
+    },
+    {
+      "net": "LED_COMMISSIONED",
+      "pad_nodes": [
+        "JP1.2",
+        "R1.1"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 3,
+      "vias": 0
+    },
+    {
+      "net": "LED_GATE",
+      "pad_nodes": [
+        "Q1.1",
+        "R2.2",
+        "R3.1"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 7,
+      "vias": 0
+    },
+    {
+      "net": "LED_K",
+      "pad_nodes": [
+        "J2.2",
+        "Q1.3"
+      ],
+      "connected": true,
+      "core_pad_subset_connected": true,
+      "track_segments": 3,
+      "vias": 0
+    }
+  ],
+  "plane_contacts": [
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "actual_filled_polygons": 1,
+      "area_mm2": 97.963523120362,
+      "actual_contact_points": 2
+    }
+  ],
+  "checks": [
+    {
+      "check": "actual copper contacts connected 3V3_AON",
+      "pass": true
+    },
+    {
+      "check": "actual filled GND B.Cu",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected GND",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected ILLUM_STROBE",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected LED_A",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected LED_COMMISSIONED",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected LED_GATE",
+      "pass": true
+    },
+    {
+      "check": "actual copper contacts connected LED_K",
+      "pass": true
+    }
+  ],
+  "pcb_sha256": "6ee6b9c71af987a6a7019f6a9be24666c72e85bf6cc23ef39682ad40bce178ba"
+}

@@ -1,0 +1,77 @@
+(footprint "WireLands_3_P2.5_AssemblyUnqualified"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a474fd6-f5ff-45e9-a482-0ca611485cf4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WireLands_3_P2.5_AssemblyUnqualified"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80fe7bef-b1c5-4538-8973-57031e28a4c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dab8b563-995c-4536-817a-cdfc75b447bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26672dd-5f1d-4575-9c74-df43f2c7fa5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -2.5 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "44558059-7954-4d34-94ba-5008c4f31b37")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "95c77d1d-3232-4848-91a7-cb52714b94ba")
+	)
+	(pad "3" smd rect
+		(at 2.5 0)
+		(size 1.4 2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d0d824b3-14ec-4d7c-a59a-e26175062186")
+	)
+	(embedded_fonts no)
+)
