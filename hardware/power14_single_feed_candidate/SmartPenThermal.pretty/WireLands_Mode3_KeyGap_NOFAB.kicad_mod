@@ -1,0 +1,105 @@
+(footprint "WireLands_Mode3_KeyGap_NOFAB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afb7b5ed-3ea2-4235-99fc-4e19696dce3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WireLands_Mode3_KeyGap_NOFAB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa06ffc9-406d-43b5-8e93-0583cba9f6c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2413a8c-fe5c-4248-bdd9-212942e6814c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5203beb3-ad49-4229-84e5-0be5a5c0fdeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.25 -1.75)
+		(end 5.25 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2d3ecbf4-5aad-4231-a5f1-e6820ebf4c71")
+	)
+	(fp_rect
+		(start -5 -1.5)
+		(end 5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c052283a-a4b4-4406-9ec5-a849eb749bbb")
+	)
+	(pad "1" smd roundrect
+		(at -3.75 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(solder_mask_margin 0.04)
+		(thermal_bridge_angle 45)
+		(uuid "4d1fad2e-a591-436e-a2ee-9de3102dccd2")
+	)
+	(pad "2" smd roundrect
+		(at -1.25 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(solder_mask_margin 0.04)
+		(thermal_bridge_angle 45)
+		(uuid "81f3a45c-0262-4dac-8f69-b9f3ba648bc1")
+	)
+	(pad "3" smd roundrect
+		(at 3.75 0)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(solder_mask_margin 0.04)
+		(thermal_bridge_angle 45)
+		(uuid "c7a2d723-8561-4b39-960d-35b2344c1ca9")
+	)
+	(embedded_fonts no)
+)

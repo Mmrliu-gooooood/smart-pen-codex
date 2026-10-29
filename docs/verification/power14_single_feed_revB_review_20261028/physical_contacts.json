@@ -1,0 +1,182 @@
+{
+  "pcb_sha256": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc",
+  "method": "Native track/pad polygon expansion (0.5um inward approximation), explicit via drill removal, each actual filled island independent node; positive-area same-layer copper contact. Same-net labels alone do not join. Not electromagnetic simulation.",
+  "node_count": 1493,
+  "physical_edges": 4577,
+  "nets": [
+    {
+      "net": "/core/3V3_AON",
+      "pads": 5,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/CHARGE_DISABLE",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/CHG_ILIM",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/CHG_ISET",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/CHG_TMR",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/PACK_NTC",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/PACK_PLUS_PROTECTED",
+      "pads": 4,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/REG_FB",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/SW_L1",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/SW_L2",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/SYS_RAW",
+      "pads": 6,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/USB_EN1",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/core/USB_EN2",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/CE_MID",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/COLD_SENSE",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/HOT_SENSE",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/NTC_NODE",
+      "pads": 4,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/REF_EXC",
+      "pads": 6,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/REF_SENSE_FAST",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/REF_SENSE_SLOW",
+      "pads": 3,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/REF_VALID",
+      "pads": 5,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "/thermal/THERM_OK",
+      "pads": 5,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "CE_PERMISSION_INTERNAL",
+      "pads": 2,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "pads": 44,
+      "components": 1,
+      "connected": true
+    },
+    {
+      "net": "VBUS_5V",
+      "pads": 20,
+      "components": 1,
+      "connected": true
+    }
+  ],
+  "VBUS_core_added_contacts": [
+    {
+      "a": "a7087aa7-79bc-4eee-ac73-a761f6565164",
+      "b": "C1.1",
+      "layer": "F.Cu",
+      "intersection_mm2": 0.252703217036,
+      "outside_C1_pad_mm2": 0.0
+    },
+    {
+      "a": "a7087aa7-79bc-4eee-ac73-a761f6565164",
+      "b": "07c6b9f2-6e94-45e7-a4fd-834fefb8a202",
+      "layer": "F.Cu",
+      "intersection_mm2": 0.141269417036,
+      "outside_C1_pad_mm2": 0.0
+    },
+    {
+      "a": "a7087aa7-79bc-4eee-ac73-a761f6565164",
+      "b": "1df89ef1-fe32-448a-8d4a-f25cc22e10db",
+      "layer": "F.Cu",
+      "intersection_mm2": 0.070406434072,
+      "outside_C1_pad_mm2": 0.0
+    }
+  ],
+  "all_core_added_contacts_confined_to_C1_pad": true
+}

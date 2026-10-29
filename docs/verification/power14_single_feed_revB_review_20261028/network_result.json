@@ -1,0 +1,157 @@
+{
+  "pcb_sha256": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc",
+  "assumptions": "85C; outer31.5um inner18um copper; ideal zero-ohm pads/vias; centerline splitting within2nm; no source/return/pad spreading R, L, heating, or device models. Independent implementation; lumped geometric approximation only.",
+  "tracks": 246,
+  "vias": 14,
+  "nodes_after_ideal_junction_collapse": 214,
+  "scenarios": [
+    {
+      "sink": "U1.13",
+      "current_A": 1,
+      "drop_mV": 9.47862815144403,
+      "max_added_current_A": 6.962316088011349e-14,
+      "max_KCL_residual_A": 2.1316282072803006e-14,
+      "total_trace_loss_W": 0.009478628151444273,
+      "added_top": [
+        {
+          "uuid": "16bd7559-e5b8-4ad1-9732-9d9c39cd66f8",
+          "length_mm": 0.07071067811865477,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.962316088011349e-14
+        },
+        {
+          "uuid": "18b2596d-0643-471e-9510-829c3409e63c",
+          "length_mm": 0.07071067811865477,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.962316088011349e-14
+        },
+        {
+          "uuid": "d2f005aa-7a49-4e50-a4b7-613ac33dba35",
+          "length_mm": 0.03535533905932738,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.962316088011349e-14
+        },
+        {
+          "uuid": "1ba69511-d145-4b03-96b3-52c536824059",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.816601271903568e-14
+        },
+        {
+          "uuid": "2998c79a-ddc0-4dc1-82b1-c88b83627ace",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.816601271903568e-14
+        },
+        {
+          "uuid": "84013e71-ea71-4906-87d0-7b7307513394",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.816601271903568e-14
+        },
+        {
+          "uuid": "b31318ef-acab-4bd1-aef7-8cb946edd53f",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.816601271903568e-14
+        },
+        {
+          "uuid": "bf1baeac-41bd-4996-868b-777efd0ac864",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 6.816601271903568e-14
+        }
+      ]
+    },
+    {
+      "sink": "U102.4",
+      "current_A": 0.025,
+      "drop_mV": 9.800580402954658,
+      "max_added_current_A": 0.025000000000066525,
+      "max_KCL_residual_A": 2.1316282072803006e-14,
+      "total_trace_loss_W": 0.00024501451007424147,
+      "added_top": [
+        {
+          "uuid": "84013e71-ea71-4906-87d0-7b7307513394",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000066525
+        },
+        {
+          "uuid": "bf1baeac-41bd-4996-868b-777efd0ac864",
+          "length_mm": 0.025,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000066525
+        },
+        {
+          "uuid": "16bd7559-e5b8-4ad1-9732-9d9c39cd66f8",
+          "length_mm": 0.07071067811865477,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000066087
+        },
+        {
+          "uuid": "18b2596d-0643-471e-9510-829c3409e63c",
+          "length_mm": 0.07071067811865477,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000066087
+        },
+        {
+          "uuid": "101bc070-6db1-4284-963d-5bbb715613c1",
+          "length_mm": 0.03535533905932738,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000064748
+        },
+        {
+          "uuid": "47af5b7d-1593-4852-861b-8f27976ed1ac",
+          "length_mm": 0.03535533905932738,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000064748
+        },
+        {
+          "uuid": "b0b9eae4-50dd-45f4-bb0b-9eb1e860e86c",
+          "length_mm": 0.03535533905932738,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000064748
+        },
+        {
+          "uuid": "d2f005aa-7a49-4e50-a4b7-613ac33dba35",
+          "length_mm": 0.03535533905932738,
+          "width_mm": 0.15,
+          "layer": "B.Cu",
+          "added": true,
+          "current_A": 0.025000000000064748
+        }
+      ]
+    }
+  ]
+}

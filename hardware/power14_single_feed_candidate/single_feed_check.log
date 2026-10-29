@@ -1,0 +1,52 @@
+{
+  "status": "PASS candidate delta/source/DC branch checks; NOFAB",
+  "pcb_sha256": "12818a951266bab52128cfe8f00fb52283754e5e2d24390ebba96489c8f8b2ca",
+  "removed_tracks": [
+    "174e62ed-1e66-4399-a9de-ab6b5cfd5a4c",
+    "2ed5de36-fc66-4c5f-b1f9-481c80239f06",
+    "5861a9b2-5b80-42fc-b6e6-084cf70c7d2c",
+    "78498a5e-0ad8-4a74-9ab9-6093e1834da4",
+    "85a5fbe7-f1ea-44dc-9b60-e9e0c0b7ab78",
+    "a187ea52-25cd-4175-9249-5a0a776e7793",
+    "df0299b4-1439-4e05-a850-1d5d052061b2"
+  ],
+  "added_tracks": {
+    "0081a9a2-51b6-431b-ae9a-5d74451c8c33": [
+      "PCB_TRACK",
+      8100000,
+      5825000,
+      7500000,
+      6425000,
+      300000,
+      0,
+      null,
+      "VBUS_5V"
+    ],
+    "7ae8887e-b569-4c5b-8eb7-a13f234c2ecf": [
+      "PCB_TRACK",
+      7750000,
+      4800000,
+      8100000,
+      5150000,
+      300000,
+      0,
+      null,
+      "VBUS_5V"
+    ],
+    "cef2c896-99aa-4e7e-9da9-b380d4df78e5": [
+      "PCB_TRACK",
+      8100000,
+      5150000,
+      8100000,
+      5825000,
+      300000,
+      0,
+      null,
+      "VBUS_5V"
+    ]
+  },
+  "unchanged_track_via_count": 1312,
+  "footprints_unchanged": 50,
+  "frozen104hashes_unchanged": true,
+  "remaining": "Conditional DC model, no finite-element pad spreading/return/dynamic/assembly qualification; original downstream .15mm routes not all widened; candidate is not globally tree-routed."
+}

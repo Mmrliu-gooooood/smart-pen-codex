@@ -1,0 +1,436 @@
+{
+  "published_conditional": {
+    "parameter_corners": 1024,
+    "cases": {
+      "cold_recover20": {
+        "margin_V": 0.001167450282401894,
+        "worst_corner": {
+          "v": 2.53,
+          "rs": [
+            9980.0,
+            110220.0,
+            100200.0,
+            254490.0,
+            100200.0
+          ],
+          "ia": -2.5e-08,
+          "ib": -1.5e-08,
+          "r": 1,
+          "b": 1,
+          "temp": 20,
+          "pin": 2,
+          "sign": -1,
+          "threshold": 0.387
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.15206705522574637,
+            "margin_erasing_extra_magnitude": 0.007677207141736205,
+            "harmful_sign": 1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.11894202711637547,
+            "margin_erasing_extra_magnitude": 0.009815288260218024,
+            "harmful_sign": 1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.0072123809702340225,
+            "margin_erasing_extra_magnitude": 0.16186752852075328,
+            "harmful_sign": 1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.721778536771911,
+            "margin_erasing_extra_magnitude": 0.0016174632839918038,
+            "harmful_sign": 1
+          },
+          "extra_input_A_A": {
+            "input_gain": -722.6805820437221,
+            "margin_erasing_extra_magnitude": 1.6154443766848897e-06,
+            "harmful_sign": -1
+          },
+          "extra_input_B_A": {
+            "input_gain": -72322.20944342061,
+            "margin_erasing_extra_magnitude": 1.614234813048982e-08,
+            "harmful_sign": -1
+          }
+        }
+      },
+      "hot_recover30": {
+        "margin_V": 0.06846997305047736,
+        "worst_corner": {
+          "v": 2.34,
+          "rs": [
+            10020.0,
+            110220.0,
+            99800.0,
+            254490.0,
+            99800.0
+          ],
+          "ia": 2.5e-08,
+          "ib": 1.5e-08,
+          "r": -1,
+          "b": -1,
+          "temp": 30,
+          "pin": 1,
+          "sign": 1,
+          "threshold": 0.404
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.20248377891052272,
+            "margin_erasing_extra_magnitude": 0.3381504109558037,
+            "harmful_sign": -1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.25732198194461375,
+            "margin_erasing_extra_magnitude": 0.2660867623241566,
+            "harmful_sign": -1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.5344676100027534,
+            "margin_erasing_extra_magnitude": 0.12810874180032092,
+            "harmful_sign": -1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.005726629170865749,
+            "margin_erasing_extra_magnitude": 11.956418166347953,
+            "harmful_sign": -1
+          },
+          "extra_input_A_A": {
+            "input_gain": -53339.867467361306,
+            "margin_erasing_extra_magnitude": 1.283654727720765e-06,
+            "harmful_sign": 1
+          },
+          "extra_input_B_A": {
+            "input_gain": -571.5175555032204,
+            "margin_erasing_extra_magnitude": 0.00011980379673584943,
+            "harmful_sign": 1
+          }
+        }
+      },
+      "cold_inhibit10": {
+        "margin_V": 0.007423240278888521,
+        "worst_corner": {
+          "v": 2.34,
+          "rs": [
+            10020.0,
+            109780.0,
+            99800.0,
+            255510.0,
+            99800.0
+          ],
+          "ia": 2.5e-08,
+          "ib": 1.5e-08,
+          "r": -1,
+          "b": -1,
+          "temp": 10,
+          "pin": 2,
+          "sign": 1,
+          "threshold": 0.404
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.17629411658282024,
+            "margin_erasing_extra_magnitude": 0.042107135636606445,
+            "harmful_sign": -1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.09118714017208873,
+            "margin_erasing_extra_magnitude": 0.08140665739576164,
+            "harmful_sign": -1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.008428605036137071,
+            "margin_erasing_extra_magnitude": 0.8807199111907467,
+            "harmful_sign": -1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.7240901383487319,
+            "margin_erasing_extra_magnitude": 0.010251817951584068,
+            "harmful_sign": -1
+          },
+          "extra_input_A_A": {
+            "input_gain": -841.1747964842675,
+            "margin_erasing_extra_magnitude": 8.82484866393326e-06,
+            "harmful_sign": 1
+          },
+          "extra_input_B_A": {
+            "input_gain": -72264.19579398069,
+            "margin_erasing_extra_magnitude": 1.027236267881756e-07,
+            "harmful_sign": 1
+          }
+        }
+      },
+      "hot_inhibit45": {
+        "margin_V": 0.01978073461160257,
+        "worst_corner": {
+          "v": 2.53,
+          "rs": [
+            9980.0,
+            109780.0,
+            100200.0,
+            255510.0,
+            100200.0
+          ],
+          "ia": -2.5e-08,
+          "ib": -1.5e-08,
+          "r": 1,
+          "b": 1,
+          "temp": 45,
+          "pin": 1,
+          "sign": -1,
+          "threshold": 0.387
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.14461909314533727,
+            "margin_erasing_extra_magnitude": 0.13677816795409997,
+            "harmful_sign": 1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.32163819102537516,
+            "margin_erasing_extra_magnitude": 0.06149995604857135,
+            "harmful_sign": 1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.5296852012004472,
+            "margin_erasing_extra_magnitude": 0.037344321809959356,
+            "harmful_sign": 1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.004057514657596073,
+            "margin_erasing_extra_magnitude": 4.875086421332097,
+            "harmful_sign": 1
+          },
+          "extra_input_A_A": {
+            "input_gain": -53074.45716251635,
+            "margin_erasing_extra_magnitude": 3.726978224390139e-07,
+            "harmful_sign": -1
+          },
+          "extra_input_B_A": {
+            "input_gain": -406.56300548391755,
+            "margin_erasing_extra_magnitude": 4.865355269611474e-05,
+            "harmful_sign": -1
+          }
+        }
+      }
+    }
+  },
+  "specified_REF_DC_terms_only": {
+    "parameter_corners": 1024,
+    "cases": {
+      "cold_recover20": {
+        "margin_V": 0.005139786858158524,
+        "worst_corner": {
+          "v": 2.5038777306399562,
+          "rs": [
+            9980.0,
+            110220.0,
+            100200.0,
+            254490.0,
+            100200.0
+          ],
+          "ia": -2.5e-08,
+          "ib": -1.5e-08,
+          "r": 1,
+          "b": 1,
+          "temp": 20,
+          "pin": 2,
+          "sign": -1,
+          "threshold": 0.387
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.15206705511472407,
+            "margin_erasing_extra_magnitude": 0.03379947651567863,
+            "harmful_sign": 1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.11894202706086432,
+            "margin_erasing_extra_magnitude": 0.043212537949503936,
+            "harmful_sign": 1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.0072123809702340225,
+            "margin_erasing_extra_magnitude": 0.7126338555008072,
+            "harmful_sign": 1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.721778536771911,
+            "margin_erasing_extra_magnitude": 0.007121002629346329,
+            "harmful_sign": 1
+          },
+          "extra_input_A_A": {
+            "input_gain": -722.6805820437221,
+            "margin_erasing_extra_magnitude": 7.112114239493385e-06,
+            "harmful_sign": -1
+          },
+          "extra_input_B_A": {
+            "input_gain": -72322.20938790946,
+            "margin_erasing_extra_magnitude": 7.106789050913277e-08,
+            "harmful_sign": -1
+          }
+        }
+      },
+      "hot_recover30": {
+        "margin_V": 0.10008220011263624,
+        "worst_corner": {
+          "v": 2.4961222693600433,
+          "rs": [
+            10020.0,
+            110220.0,
+            99800.0,
+            254490.0,
+            99800.0
+          ],
+          "ia": 2.5e-08,
+          "ib": 1.5e-08,
+          "r": -1,
+          "b": -1,
+          "temp": 30,
+          "pin": 1,
+          "sign": 1,
+          "threshold": 0.404
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.20248377885501156,
+            "margin_erasing_extra_magnitude": 0.49427268040221667,
+            "harmful_sign": -1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.25732198183359145,
+            "margin_erasing_extra_magnitude": 0.38893762359314793,
+            "harmful_sign": -1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.5344676100582646,
+            "margin_erasing_extra_magnitude": 0.18725587524700674,
+            "harmful_sign": -1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.0057266292818880515,
+            "margin_erasing_extra_magnitude": 17.476633318865623,
+            "harmful_sign": -1
+          },
+          "extra_input_A_A": {
+            "input_gain": -53339.86741185015,
+            "margin_erasing_extra_magnitude": 1.8763113777519753e-06,
+            "harmful_sign": 1
+          },
+          "extra_input_B_A": {
+            "input_gain": -571.5176110143716,
+            "margin_erasing_extra_magnitude": 0.00017511656366109695,
+            "harmful_sign": 1
+          }
+        }
+      },
+      "cold_inhibit10": {
+        "margin_V": 0.03494667782006228,
+        "worst_corner": {
+          "v": 2.4961222693600433,
+          "rs": [
+            10020.0,
+            109780.0,
+            99800.0,
+            255510.0,
+            99800.0
+          ],
+          "ia": 2.5e-08,
+          "ib": 1.5e-08,
+          "r": -1,
+          "b": -1,
+          "temp": 10,
+          "pin": 2,
+          "sign": 1,
+          "threshold": 0.404
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.17629411647179793,
+            "margin_erasing_extra_magnitude": 0.19822940503889563,
+            "harmful_sign": -1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.09118714011657758,
+            "margin_erasing_extra_magnitude": 0.3832412966936449,
+            "harmful_sign": -1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.008428605091648222,
+            "margin_erasing_extra_magnitude": 4.146199452942743,
+            "harmful_sign": -1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.7240901383487319,
+            "margin_erasing_extra_magnitude": 0.04826288326444721,
+            "harmful_sign": -1
+          },
+          "extra_input_A_A": {
+            "input_gain": -841.1747964842675,
+            "margin_erasing_extra_magnitude": 4.154508428702771e-05,
+            "harmful_sign": 1
+          },
+          "extra_input_B_A": {
+            "input_gain": -72264.19579398069,
+            "margin_erasing_extra_magnitude": 4.835960247823473e-07,
+            "harmful_sign": 1
+          }
+        }
+      },
+      "hot_inhibit45": {
+        "margin_V": 0.0235585135158749,
+        "worst_corner": {
+          "v": 2.5038777306399562,
+          "rs": [
+            9980.0,
+            109780.0,
+            100200.0,
+            255510.0,
+            100200.0
+          ],
+          "ia": -2.5e-08,
+          "ib": -1.5e-08,
+          "r": 1,
+          "b": 1,
+          "temp": 45,
+          "pin": 1,
+          "sign": -1,
+          "threshold": 0.387
+        },
+        "sensitivities": {
+          "reference_V": {
+            "input_gain": 0.14461909314533727,
+            "margin_erasing_extra_magnitude": 0.16290043730394158,
+            "harmful_sign": 1
+          },
+          "ntc_return_V": {
+            "input_gain": 0.3216381910808863,
+            "margin_erasing_extra_magnitude": 0.0732453861797474,
+            "harmful_sign": 1
+          },
+          "divider_A_return_V": {
+            "input_gain": 0.5296852012004472,
+            "margin_erasing_extra_magnitude": 0.044476442729536866,
+            "harmful_sign": 1
+          },
+          "divider_B_return_V": {
+            "input_gain": 0.004057514713107224,
+            "margin_erasing_extra_magnitude": 5.806143706582868,
+            "harmful_sign": 1
+          },
+          "extra_input_A_A": {
+            "input_gain": -53074.457107005204,
+            "margin_erasing_extra_magnitude": 4.438766743930661e-07,
+            "harmful_sign": -1
+          },
+          "extra_input_B_A": {
+            "input_gain": -406.5628944616151,
+            "margin_erasing_extra_magnitude": 5.794555734623032e-05,
+            "harmful_sign": -1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "NOFAB; static mathematical comparison only, not physical sensor qualification",
+  "NTC": "NTCLE100E3103GB0, R25 +/-2%; material9 curve and B tolerance table",
+  "parts": {
+    "BQ24074": {
+      "cold_trip_C": [
+        0.673490712508368,
+        5.304551544487339
+      ],
+      "hot_trip_C": [
+        43.1365876854932,
+        51.815101828625274
+      ],
+      "cold_inhibit_at_0C_margin_V": 0.07593642912909448,
+      "cold_inhibit_at_10C_margin_V": -0.8052240786046783,
+      "hot_inhibit_at_45C_margin_V": -0.0800121875051476,
+      "static_0_45_endpoint_pass": false
+    },
+    "BQ25170": {
+      "cold_trip_C": [
+        1.130109228057421,
+        5.764353210638461
+      ],
+      "hot_trip_C": [
+        38.70446758995743,
+        45.182423674825
+      ],
+      "cold_inhibit_at_0C_margin_V": 0.06377332865572138,
+      "cold_inhibit_at_10C_margin_V": -0.38292609540376055,
+      "hot_inhibit_at_45C_margin_V": -0.0012497616211965545,
+      "static_0_45_endpoint_pass": false
+    },
+    "BQ25185": {
+      "cold_trip_C": [
+        1.7350068237957146,
+        6.4401438884138145
+      ],
+      "hot_trip_C": [
+        50.613987711814076,
+        59.01994953704511
+      ],
+      "cold_inhibit_at_0C_margin_V": 0.09627332865572136,
+      "cold_inhibit_at_10C_margin_V": -0.3504260954037606,
+      "hot_inhibit_at_45C_margin_V": -0.07224976162119655,
+      "static_0_45_endpoint_pass": false
+    }
+  }
+}

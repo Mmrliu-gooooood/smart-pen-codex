@@ -1,0 +1,93 @@
+(footprint "Coilcraft_XFL4015_Official_NOFAB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "cd8b43df-8c18-4c30-9ed5-b7a644801c7e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coilcraft_XFL4015_Official_NOFAB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345f2173-e7aa-4640-a36b-64f79165ed08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0012ba33-f78c-4b0b-a04d-c1ee6044bf99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "980ef880-6b41-4344-bc38-629e4ac08b4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b06aa39-cdf3-469f-992b-6446ea1f67b9")
+	)
+	(fp_rect
+		(start -2.15 -2.15)
+		(end 2.15 2.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "716fdeb1-b040-4ce4-9323-bd4d680c9582")
+	)
+	(pad "1" smd rect
+		(at -1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(thermal_bridge_angle 45)
+		(uuid "b3ea5f97-a565-436a-8331-ef5e4d1f89b2")
+	)
+	(pad "2" smd rect
+		(at 1.185 0)
+		(size 0.98 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.04)
+		(thermal_bridge_angle 45)
+		(uuid "3acf250c-c357-400a-88cc-762a435597f3")
+	)
+	(embedded_fonts no)
+)
