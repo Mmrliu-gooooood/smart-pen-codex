@@ -1,0 +1,38 @@
+{
+  "existing_custom_camera": {
+    "PCB_nominal_square": 13,
+    "PCB_max_square": 13.2,
+    "ear_span_nominal": 21.82,
+    "wall": 1.2,
+    "body_aligned_OD_lower_bound_nominal": 20.784776310850237,
+    "body_aligned_OD_lower_bound_max": 21.067619023324852,
+    "ear_span_OD_lower_bound_nominal": 24.22,
+    "qualification": "Necessary bounds for board transverse to barrel; ears full shape and tolerances unknown. Tilting board changes optics/FPC and is NOT excluded globally."
+  },
+  "power_pack_side_by_side": {
+    "power_width": 14,
+    "power_total_thickness_budget": 4.15,
+    "complete_pack_D": 12.2,
+    "gap": 0.3,
+    "best_simple_cross_section": {
+      "cell_y": -3.7,
+      "power_bottom_y": 2.6999999999999993,
+      "required_inner_radius": 9.8,
+      "outer_dia_with_wall1p2": 22.0
+    }
+  },
+  "stacked_board_ideal_screen": {
+    "power_width": 14,
+    "power_thickness_budget": 4.15,
+    "main_width": 12,
+    "main_thickness_assumed": 2.15,
+    "gap": 0.3,
+    "best": {
+      "y": -2.3200000000000003,
+      "r": 7.374442351798542,
+      "OD": 17.148884703597084,
+      "margin_ID15p6": 0.42555764820145825
+    },
+    "status": "Ideal constant rectangles only. Actual latest mainboard has back parts; 2.15 thickness invalid as whole-board max at overlapping back parts. Actual-component CAD supersedes this screen;16parts remain missing."
+  }
+}

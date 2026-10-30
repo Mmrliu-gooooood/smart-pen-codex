@@ -1,0 +1,2036 @@
+{
+  "mainboard": {
+    "source": "hardware/mainboard_revD/routing_trial/xclk5_review/mainboard_revD.kicad_pcb",
+    "sha256": "9f9937d894fa52d63c5edebd29d10a9396d6f8463819d4a3714fa2724c9bed49",
+    "outline": [
+      0.0,
+      0.0,
+      12.0,
+      95.0
+    ],
+    "thickness": 0.8,
+    "parts": [
+      {
+        "ref": "Q201",
+        "value": "PMV30UN2",
+        "footprint": "SOT-23",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.825,
+          67.5,
+          4.175,
+          70.5
+        ],
+        "height": 1.1,
+        "height_basis": "Nexperia package max"
+      },
+      {
+        "ref": "R222",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          59.525,
+          5.725,
+          60.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "JP202",
+        "value": "DNP_SCCB_COMMISSION",
+        "footprint": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+        "dnp": true,
+        "back": false,
+        "bounds": [
+          6.85,
+          77.25,
+          9.15,
+          78.75
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R205",
+        "value": "4.7k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          73.525,
+          7.225,
+          74.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R221",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          59.525,
+          2.725,
+          60.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R202",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          71.525,
+          7.225,
+          72.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C104",
+        "value": "100n",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          15.325,
+          7.225,
+          16.275
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "JP201",
+        "value": "DNP_IO_COMMISSION",
+        "footprint": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+        "dnp": true,
+        "back": false,
+        "bounds": [
+          2.85,
+          77.25,
+          5.15,
+          78.75
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R241",
+        "value": "10k 1% INITIAL_100kHz",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          75.525,
+          5.725,
+          76.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R229",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          41.525,
+          5.725,
+          42.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J106",
+        "value": "POWER_CORE",
+        "footprint": "PowerWireLands3_KeyGap_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.95,
+          82.45,
+          10.05,
+          85.55
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U101",
+        "value": "ESP32-S3-PICO-1-N8R8",
+        "footprint": "ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          2.25,
+          6.25,
+          9.75,
+          13.75
+        ],
+        "height": 1.06,
+        "height_basis": "Espressif source max"
+      },
+      {
+        "ref": "C103",
+        "value": "100n",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.575,
+          5.8,
+          1.525,
+          8.25
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R231",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          41.525,
+          11.725,
+          42.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C203",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.525,
+          44.275,
+          1.475,
+          46.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R224",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          39.525,
+          2.725,
+          40.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R213",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.275,
+          23.525,
+          3.725,
+          24.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R215",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          27.525,
+          5.725,
+          28.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C101",
+        "value": "1u",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.275,
+          16.525,
+          3.725,
+          17.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R237",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          61.525,
+          5.725,
+          62.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R233",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          51.525,
+          2.725,
+          52.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R102",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          19.525,
+          7.225,
+          20.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C208",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.525,
+          63.775,
+          10.475,
+          66.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C204",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          10.325,
+          43.175,
+          11.275,
+          45.625
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R226",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          39.525,
+          8.725,
+          40.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R104",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.525,
+          2.175,
+          1.475,
+          4.625
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R230",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          41.525,
+          8.725,
+          42.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U201",
+        "value": "SN74AXC8T245PWR",
+        "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          2.4,
+          30.05,
+          9.6,
+          37.95
+        ],
+        "height": 1.2,
+        "height_basis": "TI package max"
+      },
+      {
+        "ref": "R206",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          51.525,
+          8.725,
+          52.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R223",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          59.525,
+          8.725,
+          60.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R201",
+        "value": "1k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.275,
+          71.525,
+          3.725,
+          72.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R109",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.275,
+          23.525,
+          10.725,
+          24.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R218",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          49.525,
+          2.725,
+          50.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R243",
+        "value": "10k 1% INITIAL_100kHz",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          75.525,
+          11.725,
+          76.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C106",
+        "value": "DNP RF_TUNE",
+        "footprint": "C_0603_1608Metric",
+        "dnp": true,
+        "back": false,
+        "bounds": [
+          1.275,
+          0.525,
+          3.725,
+          1.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R101",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.275,
+          19.525,
+          3.725,
+          20.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R227",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          39.525,
+          11.725,
+          40.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R210",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          25.525,
+          2.725,
+          26.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R219",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          49.525,
+          5.725,
+          50.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R113",
+        "value": "22R SI_TBD",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          7.825,
+          14.875,
+          8.775,
+          17.325
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C107",
+        "value": "DNP RF_TUNE",
+        "footprint": "C_0603_1608Metric",
+        "dnp": true,
+        "back": false,
+        "bounds": [
+          4.775,
+          0.525,
+          7.225,
+          1.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R204",
+        "value": "100R 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.275,
+          73.525,
+          3.725,
+          74.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R106",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.275,
+          21.525,
+          10.725,
+          22.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R235",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          59.525,
+          11.725,
+          60.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R207",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          61.525,
+          8.725,
+          62.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R212",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          25.525,
+          8.725,
+          26.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C105",
+        "value": "100n",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          7.275,
+          3.525,
+          9.725,
+          4.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C102",
+        "value": "22u",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          17.525,
+          7.225,
+          18.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R112",
+        "value": "22R SI_TBD",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          10.325,
+          12.775,
+          11.275,
+          15.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U204",
+        "value": "TCA9517DGKR",
+        "footprint": "VSSOP-8_3x3mm_P0.65mm",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.075,
+          63.45,
+          8.925,
+          66.55
+        ],
+        "height": 1.1,
+        "height_basis": "TI DGK package max"
+      },
+      {
+        "ref": "R228",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          41.525,
+          2.725,
+          42.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C202",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          10.325,
+          29.575,
+          11.275,
+          32.025
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U203",
+        "value": "SN74AXC4T245PWR",
+        "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          2.4,
+          53.45,
+          9.6,
+          58.55
+        ],
+        "height": 1.2,
+        "height_basis": "TI package max"
+      },
+      {
+        "ref": "R103",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.275,
+          19.525,
+          10.725,
+          20.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R216",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          27.525,
+          8.725,
+          28.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R203",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.275,
+          71.525,
+          10.725,
+          72.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R234",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          51.525,
+          5.725,
+          52.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R211",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          25.525,
+          5.725,
+          26.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C201",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.525,
+          30.775,
+          1.475,
+          33.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R220",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          49.525,
+          8.725,
+          50.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R236",
+        "value": "4.7k 1% RESET_CANDIDATE",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          61.525,
+          2.725,
+          62.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R242",
+        "value": "10k 1% INITIAL_100kHz",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.275,
+          75.525,
+          8.725,
+          76.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C207",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.525,
+          63.775,
+          2.475,
+          66.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R240",
+        "value": "10k 1% INITIAL_100kHz",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.275,
+          75.525,
+          2.725,
+          76.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C205",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.525,
+          54.275,
+          1.475,
+          56.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R217",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          27.525,
+          11.725,
+          28.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R232",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.275,
+          49.525,
+          11.725,
+          50.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R107",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          10.325,
+          1.475,
+          11.275,
+          3.925
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R108",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.775,
+          23.525,
+          7.225,
+          24.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C206",
+        "value": "100n X7R",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          10.325,
+          52.775,
+          11.275,
+          55.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U202",
+        "value": "SN74AXC4T245PWR",
+        "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          2.4,
+          43.45,
+          9.6,
+          48.55
+        ],
+        "height": 1.2,
+        "height_basis": "TI package max"
+      },
+      {
+        "ref": "R225",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.275,
+          39.525,
+          5.725,
+          40.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R105",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          3.275,
+          3.525,
+          5.725,
+          4.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R214",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          2.425,
+          31.675,
+          3.375,
+          34.125
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      }
+    ]
+  },
+  "power": {
+    "source": "hardware/power_integrated_layout_14x45/power_integrated_study.kicad_pcb",
+    "sha256": "5c5764e7576c9461464c12da3531410e63ef4db32a28a67a5fa6125ef0b92014",
+    "outline": [
+      0.0,
+      0.0,
+      14.0,
+      45.0
+    ],
+    "thickness": 0.8,
+    "parts": [
+      {
+        "ref": "R4",
+        "value": "100k",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          5.075,
+          10.725,
+          7.525,
+          11.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U2",
+        "value": "TPS63802DLAR",
+        "footprint": "TI_DLA0010A_Official_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.4,
+          21.8,
+          7.6,
+          24.2
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J1",
+        "value": "NTC WIRES / MPN TBD",
+        "footprint": "WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.45,
+          12.45,
+          11.55,
+          15.55
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C2",
+        "value": "10uF 10V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.55,
+          7.275,
+          3.45,
+          8.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J4",
+        "value": "PROTECTED PACK ONLY",
+        "footprint": "WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.45,
+          12.45,
+          5.55,
+          15.55
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J104",
+        "value": "CELL NTC2 TWO WIRES",
+        "footprint": "WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.45,
+          41.95,
+          5.55,
+          45.05
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "JP1",
+        "value": "OPEN / DO NOT BRIDGE",
+        "footprint": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+        "dnp": true,
+        "back": false,
+        "bounds": [
+          9.65,
+          16.55,
+          11.15,
+          18.85
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C3",
+        "value": "10uF 10V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.55,
+          7.275,
+          11.45,
+          8.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R8",
+        "value": "91k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.125,
+          24.775,
+          5.075,
+          27.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J3",
+        "value": "3V3 OUT",
+        "footprint": "WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.45,
+          27.85,
+          8.55,
+          30.95
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C6",
+        "value": "22uF 6.3V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.55,
+          24.275,
+          11.45,
+          25.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "L1",
+        "value": "XFL4015-471MEC 0.47uH",
+        "footprint": "Coilcraft_XFL4015_Official_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.8,
+          17.0,
+          8.2,
+          21.4
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C5",
+        "value": "22uF 6.3V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.55,
+          21.875,
+          11.45,
+          23.325
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R1",
+        "value": "8.66k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.975,
+          4.325,
+          3.425,
+          5.275
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R5",
+        "value": "100k",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.975,
+          10.725,
+          4.425,
+          11.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J5",
+        "value": "MCU USB MODE / NO CE PORT",
+        "footprint": "WireLands_Mode3_KeyGap_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.95,
+          31.55,
+          11.05,
+          34.65
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R7",
+        "value": "511k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          6.925,
+          24.775,
+          7.875,
+          27.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C4",
+        "value": "10uF 10V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.55,
+          21.875,
+          3.45,
+          23.325
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R3",
+        "value": "68k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.975,
+          4.325,
+          6.425,
+          5.275
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R2",
+        "value": "3.24k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          8.775,
+          10.725,
+          11.225,
+          11.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J2",
+        "value": "VBUS IN",
+        "footprint": "WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          5.95,
+          0.25,
+          11.05,
+          3.35
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C1",
+        "value": "2.2uF 16V",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          7.25,
+          4.075,
+          10.15,
+          5.525
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U1",
+        "value": "BQ24074RGTR",
+        "footprint": "TI_RGT0016B_Official_NOFAB",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.3,
+          6.3,
+          7.7,
+          9.7
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R6",
+        "value": "10k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          0.975,
+          2.725,
+          3.425,
+          3.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U106",
+        "value": "REF3425IDBVR",
+        "footprint": "TI_DBV0006A_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          7.15,
+          39.225,
+          10.85,
+          42.375
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U103",
+        "value": "TMUX1101DCKR",
+        "footprint": "TI_DCK0005A_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          1.275,
+          40.425,
+          3.525,
+          43.575
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R109",
+        "value": "10k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          1.4,
+          32.175,
+          2.8,
+          35.025
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C103",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          4.175,
+          41.525,
+          6.625,
+          42.475
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R101",
+        "value": "200R 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          8.9,
+          30.675,
+          10.3,
+          33.525
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R106",
+        "value": "1M 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          2.675,
+          12.725,
+          5.125,
+          13.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R114",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          8.675,
+          7.625,
+          11.125,
+          8.575
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U105",
+        "value": "TPS3700DDCR",
+        "footprint": "TI_DDC0006A_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          3.8,
+          33.225,
+          7.6,
+          36.375
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C107",
+        "value": "4.7uF / effective0.1..10uF TBD",
+        "footprint": "C_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          7.55,
+          42.975,
+          10.45,
+          44.425
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R102",
+        "value": "10k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          9.5,
+          27.075,
+          10.9,
+          29.925
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R105",
+        "value": "100k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          12.025,
+          3.275,
+          12.975,
+          5.725
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U102",
+        "value": "TPS3899DL01DSER",
+        "footprint": "TI_DSE0006A_SMDleft_ExposedDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          1.55,
+          26.95,
+          3.25,
+          28.9
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U101",
+        "value": "TPS3808G25DBVR",
+        "footprint": "TI_DBV0006A_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          8.025,
+          21.85,
+          11.175,
+          25.55
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C101",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          12.025,
+          19.475,
+          12.975,
+          21.925
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "U104",
+        "value": "TMUX1101DCKR",
+        "footprint": "TI_DCK0005A_OfficialDerived_NOFAB",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          11.225,
+          14.425,
+          13.475,
+          17.575
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R104",
+        "value": "10k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          7.4,
+          26.175,
+          8.8,
+          29.025
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R113",
+        "value": "100k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          8.175,
+          34.7,
+          11.025,
+          36.1
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R107",
+        "value": "1M 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          0.875,
+          7.625,
+          3.325,
+          8.575
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R112",
+        "value": "255k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          3.975,
+          37.1,
+          6.825,
+          38.5
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R103",
+        "value": "34k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          11.8,
+          28.575,
+          13.2,
+          31.425
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C106",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          7.775,
+          37.325,
+          10.225,
+          38.275
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C102",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          0.875,
+          24.725,
+          3.325,
+          25.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C104",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          9.125,
+          10.775,
+          10.075,
+          13.225
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R111",
+        "value": "100k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          5.0,
+          25.575,
+          6.4,
+          28.425
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R110",
+        "value": "110k 0.1% / total0.2%",
+        "footprint": "R_0805_2012Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          1.4,
+          35.775,
+          2.8,
+          38.625
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "C105",
+        "value": "100nF 16V",
+        "footprint": "C_0603_1608Metric",
+        "dnp": false,
+        "back": true,
+        "bounds": [
+          5.375,
+          31.625,
+          7.825,
+          32.575
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      }
+    ]
+  },
+  "usb": {
+    "source": "hardware/usb_tail_revB/usb_tail_revA.kicad_pcb",
+    "sha256": "4f2caad6090440be76f4ba7226e81b05118164bc3271e52690596e6329fa4d94",
+    "outline": [
+      0.0,
+      0.0,
+      12.0,
+      20.0
+    ],
+    "thickness": 0.8,
+    "parts": [
+      {
+        "ref": "U102",
+        "value": "TPD4E05U06DQAR",
+        "footprint": "TI_DQA0010A_USON10_OfficialLandpattern",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          4.7,
+          9.8,
+          7.3,
+          11.2
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "D101",
+        "value": "TPD1E10B06DYAR",
+        "footprint": "TI_DYA0002A_SOD523_OfficialLandpattern",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          2.55,
+          8.925,
+          3.45,
+          11.075
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "TP104",
+        "value": "GND_INTERNAL_WIRE",
+        "footprint": "WireLand_1.5x2_NoPaste",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          9.25,
+          17.0,
+          10.75,
+          19.0
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "TP102",
+        "value": "USB_DM_INTERNAL_WIRE",
+        "footprint": "WireLand_1.5x2_NoPaste",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          5.75,
+          17.0,
+          7.25,
+          19.0
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "TP103",
+        "value": "VBUS_5V_INTERNAL_WIRE",
+        "footprint": "WireLand_1.5x2_NoPaste",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.25,
+          17.0,
+          2.75,
+          19.0
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "TP101",
+        "value": "USB_DP_INTERNAL_WIRE",
+        "footprint": "WireLand_1.5x2_NoPaste",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          3.75,
+          17.0,
+          5.25,
+          19.0
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R110",
+        "value": "5.1k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          7.525,
+          14.325,
+          9.975,
+          15.275
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "J101",
+        "value": "USB4105-GF-A-120",
+        "footprint": "USB4105_GroundHeelTrim80um_AssemblyUnqualified",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          1.18,
+          -0.05,
+          10.82,
+          7.93
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      },
+      {
+        "ref": "R111",
+        "value": "5.1k 1%",
+        "footprint": "R_0603_1608Metric",
+        "dnp": false,
+        "back": false,
+        "bounds": [
+          7.525,
+          11.725,
+          9.975,
+          12.675
+        ],
+        "height": 1.0,
+        "height_basis": "ASSUMED passive maximum; actual MPN not frozen"
+      }
+    ]
+  }
+}

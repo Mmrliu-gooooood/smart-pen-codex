@@ -1,0 +1,1329 @@
+{
+  "source": "smart_pen_next_20261028/hardware/mainboard_revC/mainboard_revC_localroutes.kicad_pcb",
+  "source_sha256": "1909840417275d3e3aa6795ffc6d65b58361635617fd25ca21f727d7f2a5b9db",
+  "outline_box_mm": [
+    0.0,
+    0.0,
+    12.0,
+    95.0
+  ],
+  "board_mm": [
+    12.0,
+    95.0,
+    0.8
+  ],
+  "method": "Actual F.Fab shape + pad AABB, conservative solid prisms; no courtyard/text. NOT exact component STEP.",
+  "components": [
+    {
+      "ref": "C101",
+      "value": "1u",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        17.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        16.525,
+        3.725,
+        17.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C102",
+      "value": "22u",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        18.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        17.525,
+        7.225,
+        18.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C103",
+      "value": "100n",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        1.05,
+        7.025
+      ],
+      "angle": 90.0,
+      "bounds": [
+        0.575,
+        5.8,
+        1.525,
+        8.25
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C104",
+      "value": "100n",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        15.8
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        15.325,
+        7.225,
+        16.275
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C105",
+      "value": "100n",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        8.5,
+        4.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        7.275,
+        3.525,
+        9.725,
+        4.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C106",
+      "value": "DNP RF_TUNE",
+      "footprint": "C_0603_1608Metric",
+      "dnp": true,
+      "xy": [
+        2.5,
+        4.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        3.525,
+        3.725,
+        4.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C107",
+      "value": "DNP RF_TUNE",
+      "footprint": "C_0603_1608Metric",
+      "dnp": true,
+      "xy": [
+        6.0,
+        2.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        1.525,
+        7.225,
+        2.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C201",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        1.0,
+        32.0
+      ],
+      "angle": 90.0,
+      "bounds": [
+        0.525,
+        30.775,
+        1.475,
+        33.225
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C202",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        10.8,
+        30.8
+      ],
+      "angle": 90.0,
+      "bounds": [
+        10.325,
+        29.575,
+        11.275,
+        32.025
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C203",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        1.0,
+        45.5
+      ],
+      "angle": 90.0,
+      "bounds": [
+        0.525,
+        44.275,
+        1.475,
+        46.725
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C204",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        10.8,
+        44.0
+      ],
+      "angle": 90.0,
+      "bounds": [
+        10.325,
+        42.775,
+        11.275,
+        45.225
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C205",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        1.0,
+        55.5
+      ],
+      "angle": 90.0,
+      "bounds": [
+        0.525,
+        54.275,
+        1.475,
+        56.725
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C206",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        10.8,
+        54.0
+      ],
+      "angle": 90.0,
+      "bounds": [
+        10.325,
+        52.775,
+        11.275,
+        55.225
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C207",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.0,
+        65.0
+      ],
+      "angle": 90.0,
+      "bounds": [
+        1.525,
+        63.775,
+        2.475,
+        66.225
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "C208",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        10.0,
+        65.0
+      ],
+      "angle": 90.0,
+      "bounds": [
+        9.525,
+        63.775,
+        10.475,
+        66.225
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "Q201",
+      "value": "PMV30UN2",
+      "footprint": "SOT-23",
+      "dnp": false,
+      "xy": [
+        2.5,
+        69.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        0.825,
+        67.5,
+        4.175,
+        70.5
+      ],
+      "height_max": 1.1,
+      "height_basis": "Nexperia Fig18 max from electronics source"
+    },
+    {
+      "ref": "R101",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        20.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        19.525,
+        3.725,
+        20.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R102",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        20.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        19.525,
+        7.225,
+        20.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R103",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        20.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        19.525,
+        10.725,
+        20.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R104",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        22.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        21.525,
+        3.725,
+        22.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R105",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        22.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        21.525,
+        7.225,
+        22.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R106",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        22.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        21.525,
+        10.725,
+        22.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R107",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        24.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        23.525,
+        3.725,
+        24.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R108",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        24.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        23.525,
+        7.225,
+        24.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R109",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        24.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        23.525,
+        10.725,
+        24.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R201",
+      "value": "1k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        26.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        25.525,
+        3.725,
+        26.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R202",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        26.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        25.525,
+        7.225,
+        26.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R203",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        26.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        25.525,
+        10.725,
+        26.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R204",
+      "value": "100R 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        28.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        27.525,
+        3.725,
+        28.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R205",
+      "value": "4.7k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        28.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        27.525,
+        7.225,
+        28.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R206",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        28.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        27.525,
+        10.725,
+        28.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R207",
+      "value": "10k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        69.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        68.525,
+        10.725,
+        69.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R210",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        73.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        72.525,
+        3.725,
+        73.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R211",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        73.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        72.525,
+        7.225,
+        73.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R212",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        73.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        72.525,
+        10.725,
+        73.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R213",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        75.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        74.525,
+        3.725,
+        75.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R214",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        75.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        74.525,
+        7.225,
+        75.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R215",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        75.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        74.525,
+        10.725,
+        75.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R216",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        77.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        76.525,
+        3.725,
+        77.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R217",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        77.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        76.525,
+        7.225,
+        77.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R218",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        77.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        76.525,
+        10.725,
+        77.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R219",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        79.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        78.525,
+        3.725,
+        79.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R220",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        79.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        78.525,
+        7.225,
+        79.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R221",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        79.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        78.525,
+        10.725,
+        79.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R222",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        81.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        80.525,
+        3.725,
+        81.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R223",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        81.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        80.525,
+        7.225,
+        81.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R224",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        81.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        80.525,
+        10.725,
+        81.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R225",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        83.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        82.525,
+        3.725,
+        83.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R226",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        83.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        82.525,
+        7.225,
+        83.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R227",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        83.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        82.525,
+        10.725,
+        83.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R228",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        85.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        84.525,
+        3.725,
+        85.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R229",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        85.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        84.525,
+        7.225,
+        85.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R230",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        85.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        84.525,
+        10.725,
+        85.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R231",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        87.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        86.525,
+        3.725,
+        87.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R232",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        87.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        86.525,
+        7.225,
+        87.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R233",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        87.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        86.525,
+        10.725,
+        87.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R234",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        89.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        88.525,
+        3.725,
+        89.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R235",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        89.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        88.525,
+        7.225,
+        89.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R236",
+      "value": "4.7k 1% RESET_CANDIDATE",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        89.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        88.525,
+        10.725,
+        89.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R237",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        91.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        90.525,
+        3.725,
+        91.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R240",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        91.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        90.525,
+        7.225,
+        91.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R241",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        9.5,
+        91.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        8.275,
+        90.525,
+        10.725,
+        91.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R242",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        2.5,
+        93.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        1.275,
+        92.525,
+        3.725,
+        93.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "R243",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric",
+      "dnp": false,
+      "xy": [
+        6.0,
+        93.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        4.775,
+        92.525,
+        7.225,
+        93.475
+      ],
+      "height_max": 1.0,
+      "height_basis": "ASSUMED; actual passive MPN and capacitor heights not frozen"
+    },
+    {
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "footprint": "ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB",
+      "dnp": false,
+      "xy": [
+        6.0,
+        10.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        2.25,
+        6.25,
+        9.75,
+        13.75
+      ],
+      "height_max": 1.06,
+      "height_basis": "Espressif max from electronics source"
+    },
+    {
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm",
+      "dnp": false,
+      "xy": [
+        6.0,
+        34.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        2.4,
+        30.05,
+        9.6,
+        37.95
+      ],
+      "height_max": 1.2,
+      "height_basis": "TI package max from electronics source"
+    },
+    {
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+      "dnp": false,
+      "xy": [
+        6.0,
+        46.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        2.4,
+        43.45,
+        9.6,
+        48.55
+      ],
+      "height_max": 1.2,
+      "height_basis": "TI package max from electronics source"
+    },
+    {
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+      "dnp": false,
+      "xy": [
+        6.0,
+        56.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        2.4,
+        53.45,
+        9.6,
+        58.55
+      ],
+      "height_max": 1.2,
+      "height_basis": "TI package max from electronics source"
+    },
+    {
+      "ref": "U204",
+      "value": "TCA9517DGKR",
+      "footprint": "VSSOP-8_3x3mm_P0.65mm",
+      "dnp": false,
+      "xy": [
+        6.0,
+        65.0
+      ],
+      "angle": 0.0,
+      "bounds": [
+        3.075,
+        63.45,
+        8.925,
+        66.55
+      ],
+      "height_max": 1.1,
+      "height_basis": "TI DGK0008A max from electronics source"
+    }
+  ]
+}

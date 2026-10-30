@@ -1,0 +1,201 @@
+{
+  "status": "NOFAB conditional numerical supplement, not selecting OD",
+  "source_sha256": "f00d85c7eea8e8abdbf89eb83720fa7aeca564e939f0b6b5f89d548881cb7815",
+  "input_file_sha256": "5cfaeb11da4bb4228645cbd8657e01d35c20b07defdd3109d964a8f791081a32",
+  "assumptions": {
+    "wall_nominal": 1.2,
+    "wall_tolerance_plus_minus": 0.1,
+    "radial_assembly_or_bow_allowance": 0.2,
+    "relative_board_spacing_loss": 0.2,
+    "solder_allowance": 0.15,
+    "power_total_thickness_conditional": 4.15,
+    "passive_height_worstcase": 1.3,
+    "OD_tolerance": 0.0,
+    "OD_tolerance_note": "Not specified: swept OD treated exact; this prevents production qualification."
+  },
+  "cases": [
+    {
+      "case": "existing_213_nominal_1p0",
+      "passive_height": 1.0,
+      "nominal_interboard_gap": 0.3,
+      "optimized_position": false,
+      "radius": 7.503207647399877,
+      "power_y": -2.7,
+      "limiting": "R243",
+      "main_y": 2.9,
+      "theoretical_min_OD_radial_only": 18.00641529479975,
+      "rows": [
+        {
+          "OD": 18.0,
+          "nominal_inner_radius": 7.8,
+          "worst_radial_clearance": -0.0032076473998765564,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0,
+          "passes_stated_screen": false
+        },
+        {
+          "OD": 18.5,
+          "nominal_inner_radius": 8.05,
+          "worst_radial_clearance": 0.24679235260012344,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0,
+          "passes_stated_screen": true
+        },
+        {
+          "OD": 19.0,
+          "nominal_inner_radius": 8.3,
+          "worst_radial_clearance": 0.49679235260012256,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0,
+          "passes_stated_screen": true
+        }
+      ],
+      "caveat": "No-overlap at zero clearance is a boundary only, not an assembly recommendation."
+    },
+    {
+      "case": "existing_213_height1p3",
+      "passive_height": 1.3,
+      "nominal_interboard_gap": 0.0,
+      "optimized_position": false,
+      "radius": 7.700527579328575,
+      "power_y": -2.7,
+      "limiting": "R243",
+      "main_y": 2.9,
+      "theoretical_min_OD_radial_only": 18.401055158657147,
+      "rows": [
+        {
+          "OD": 18.0,
+          "nominal_inner_radius": 7.8,
+          "worst_radial_clearance": -0.20052757932857457,
+          "worst_interboard_clearance": -0.2,
+          "required_residual_screen": 0,
+          "passes_stated_screen": false
+        },
+        {
+          "OD": 18.5,
+          "nominal_inner_radius": 8.05,
+          "worst_radial_clearance": 0.04947242067142543,
+          "worst_interboard_clearance": -0.2,
+          "required_residual_screen": 0,
+          "passes_stated_screen": false
+        },
+        {
+          "OD": 19.0,
+          "nominal_inner_radius": 8.3,
+          "worst_radial_clearance": 0.29947242067142454,
+          "worst_interboard_clearance": -0.2,
+          "required_residual_screen": 0,
+          "passes_stated_screen": false
+        }
+      ],
+      "caveat": "No-overlap at zero clearance is a boundary only, not an assembly recommendation."
+    },
+    {
+      "case": "respaced_no_overlap_threshold",
+      "passive_height": 1.3,
+      "nominal_interboard_gap": 0.2,
+      "optimized_position": true,
+      "main_y": 2.7830000000000004,
+      "power_y": -3.017,
+      "radius": 7.622776003530472,
+      "limiting": "R243",
+      "theoretical_min_OD_radial_only": 18.24555200706094,
+      "rows": [
+        {
+          "OD": 18.0,
+          "nominal_inner_radius": 7.8,
+          "worst_radial_clearance": -0.12277600353047191,
+          "worst_interboard_clearance": 0.0,
+          "required_residual_screen": 0,
+          "passes_stated_screen": false
+        },
+        {
+          "OD": 18.5,
+          "nominal_inner_radius": 8.05,
+          "worst_radial_clearance": 0.1272239964695281,
+          "worst_interboard_clearance": 0.0,
+          "required_residual_screen": 0,
+          "passes_stated_screen": true
+        },
+        {
+          "OD": 19.0,
+          "nominal_inner_radius": 8.3,
+          "worst_radial_clearance": 0.3772239964695272,
+          "worst_interboard_clearance": 0.0,
+          "required_residual_screen": 0,
+          "passes_stated_screen": true
+        }
+      ],
+      "caveat": "No-overlap at zero clearance is a boundary only, not an assembly recommendation."
+    },
+    {
+      "case": "respaced_0p1_residual_screen",
+      "passive_height": 1.3,
+      "nominal_interboard_gap": 0.3,
+      "optimized_position": true,
+      "main_y": 2.8200000000000003,
+      "power_y": -3.08,
+      "radius": 7.6476401588986915,
+      "limiting": "power",
+      "theoretical_min_OD_radial_only": 18.49528031779738,
+      "rows": [
+        {
+          "OD": 18.0,
+          "nominal_inner_radius": 7.8,
+          "worst_radial_clearance": -0.14764015889869153,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0.1,
+          "passes_stated_screen": false
+        },
+        {
+          "OD": 18.5,
+          "nominal_inner_radius": 8.05,
+          "worst_radial_clearance": 0.10235984110130847,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0.1,
+          "passes_stated_screen": true
+        },
+        {
+          "OD": 19.0,
+          "nominal_inner_radius": 8.3,
+          "worst_radial_clearance": 0.3523598411013076,
+          "worst_interboard_clearance": 0.09999999999999998,
+          "required_residual_screen": 0.1,
+          "passes_stated_screen": true
+        }
+      ],
+      "caveat": "No-overlap at zero clearance is a boundary only, not an assembly recommendation."
+    }
+  ],
+  "axial_separation": {
+    "length": 260,
+    "compared_213_length_increase": 47,
+    "main_y": 1.0,
+    "power_y": -2.075,
+    "main_radius": 6.583169829193228,
+    "main_limiting": "R243",
+    "power_radius": 7.301070127043022,
+    "max_radius": 7.301070127043022,
+    "rows": [
+      {
+        "OD": 18,
+        "worst_radial_clearance": 0.1989298729569784,
+        "passes_noninterference": true,
+        "passes_0p1_residual": true
+      },
+      {
+        "OD": 18.5,
+        "worst_radial_clearance": 0.4489298729569793,
+        "passes_noninterference": true,
+        "passes_0p1_residual": true
+      },
+      {
+        "OD": 19,
+        "worst_radial_clearance": 0.6989298729569802,
+        "passes_noninterference": true,
+        "passes_0p1_residual": true
+      }
+    ],
+    "note": "No interboard overlap, so no stacked-component gap problem. Board-to-pack/RF axial gaps still placeholders. Electrical wire paths,16missingparts,and complete supports not modeled."
+  }
+}
