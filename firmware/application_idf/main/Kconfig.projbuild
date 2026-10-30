@@ -1,0 +1,19 @@
+menu "Pen application candidate - no camera provider supplied"
+config PEN_APP_RUN_APPROVED_PROVIDER
+    bool "Run separately reviewed board provider and persistence actor"
+    default n
+    depends on PEN_FLASH_RECORDING
+    help
+        Not a qualification switch. A real provider must supply verified board
+        identity, sensor capture, timestamp ordering, pose calibration and link
+        security. This repository supplies none. Without a provider, no GPIO,
+        sensor, radio, Flash/NVS or OTA writes are attempted by app_main.
+config PEN_APP_FLASH8_PROFILE
+    bool "Use exact reviewed 8 MiB candidate partition contract"
+    default n
+    depends on IDF_TARGET_ESP32S3
+    help
+        Explicit profiles/flash8.csv only. Runtime checks actual physical and
+        logical capacity, exact partitions, and running OTA slot.
+        Does not qualify any hardware provider or authorize programming.
+endmenu

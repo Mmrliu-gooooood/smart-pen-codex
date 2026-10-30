@@ -1,0 +1,252 @@
+[
+  {
+    "path": "docs/system/APPLICATION_PIPELINE_CANDIDATE.md",
+    "bytes": 12512,
+    "sha256": "e26f9fae974cc46d383747cc9e9e5c8b570a91ba6db9af0a78d6e02012dbf618"
+  },
+  {
+    "path": "firmware/application/pipeline.c",
+    "bytes": 8642,
+    "sha256": "1653862701fb641f0c915b3a6aac095ac2bcef5282e1a6659d075098cf9f5f02"
+  },
+  {
+    "path": "firmware/application/pipeline.h",
+    "bytes": 5293,
+    "sha256": "792732ebbb1aadfb030fd1d0d37f6528667f29a6eaf227ca50939d2774b34f7e"
+  },
+  {
+    "path": "firmware/application_idf/.gitignore",
+    "bytes": 32,
+    "sha256": "ad0c3d5198b2e91897c3ada04bbd4e345f49829674b382bcf229849f6bcf61d7"
+  },
+  {
+    "path": "firmware/application_idf/CMakeLists.txt",
+    "bytes": 234,
+    "sha256": "b84f2afa04277480d150810659c6c8c20c2cd13eabc20a3d9bca05edbd4ea3f0"
+  },
+  {
+    "path": "firmware/application_idf/main/CMakeLists.txt",
+    "bytes": 888,
+    "sha256": "6dd0dd4b888922954e78e16d515d9a50fb55a093ad424c32a4bc2de0a6db1303"
+  },
+  {
+    "path": "firmware/application_idf/main/Kconfig.projbuild",
+    "bytes": 918,
+    "sha256": "59efcca137182dbfbc3f0a0c42e21fa1632dc34c6a923fe611fad83dd928e4e1"
+  },
+  {
+    "path": "firmware/application_idf/main/application_main.c",
+    "bytes": 9761,
+    "sha256": "6499f3b274bafd5085bcb6755f4cd72c09fae535fab991190125cf71aadc9785"
+  },
+  {
+    "path": "firmware/application_idf/main/board_provider.h",
+    "bytes": 3441,
+    "sha256": "671be4b31dd988cdc5638b18757153bafc169bfef9eec14477a7351f17f22fe1"
+  },
+  {
+    "path": "firmware/application_idf/main/board_provider_absent.c",
+    "bytes": 94,
+    "sha256": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77"
+  },
+  {
+    "path": "firmware/application_idf/main/partition_profile.c",
+    "bytes": 1551,
+    "sha256": "17fadabf4bb1fb13bf874d09a55f81c4119ba22015b69b8cd434f74b38dcd0c5"
+  },
+  {
+    "path": "firmware/application_idf/main/partition_profile.h",
+    "bytes": 878,
+    "sha256": "b85fbff66dff42bc782966340933704caafe207943a8d80afaeb5326a7855a16"
+  },
+  {
+    "path": "firmware/application_idf/main/partition_profile_idf.c",
+    "bytes": 1824,
+    "sha256": "f35b28a9083156ad48a5f712e129fc46b94c083d80748793b9f6ae4bcf592186"
+  },
+  {
+    "path": "firmware/application_idf/main/partition_profile_idf.h",
+    "bytes": 550,
+    "sha256": "105fea4d9fbd86e658f7621aaf5a7d5f10775488d8d85241465150278be06cee"
+  },
+  {
+    "path": "firmware/application_idf/profiles/flash8.csv",
+    "bytes": 318,
+    "sha256": "e12874a5a002e8566b3602b0be01e936d2c67beac822f088ce7deb4b03413427"
+  },
+  {
+    "path": "firmware/application_idf/profiles/sdkconfig.flash8.defaults",
+    "bytes": 356,
+    "sha256": "e99d24b905c75ee4d43c8fe29acfa1a0069f8bce941b3373ca052d57e66f3226"
+  },
+  {
+    "path": "firmware/application_idf/sdkconfig.defaults",
+    "bytes": 191,
+    "sha256": "6c66ad7f6c6590047a96def8cbea50a6aacf5ad27b843389f355710351ed535f"
+  },
+  {
+    "path": "firmware/application_idf/sdkconfig.enabled_compile.defaults",
+    "bytes": 68,
+    "sha256": "bc77c6d020b5db4600464ca19e3d9ee2fb6ae6ef927e3b505e235f9d2418d15b"
+  },
+  {
+    "path": "tests/profile8_stubs/esp_err.h",
+    "bytes": 185,
+    "sha256": "268c7ac952041824f01d579fccbd5945ff1e764753e69e2598bd6b9f5bb1a779"
+  },
+  {
+    "path": "tests/profile8_stubs/esp_flash.h",
+    "bytes": 301,
+    "sha256": "231611fa36b4df0f73612af2c9e21576008dd39cdce3fcea52d6f59170fc3ac5"
+  },
+  {
+    "path": "tests/profile8_stubs/esp_ota_ops.h",
+    "bytes": 87,
+    "sha256": "320bd2f32c6f238e40cc315e9001dcf48997a5a97ee19685190bd0076a0137d8"
+  },
+  {
+    "path": "tests/profile8_stubs/esp_partition.h",
+    "bytes": 811,
+    "sha256": "41329e97a4a36da9867579960906072a2105bcb102e7ce260ae1d0f06f7a559d"
+  },
+  {
+    "path": "tests/profile8_stubs/sdkconfig.h",
+    "bytes": 72,
+    "sha256": "749c47455a2de57e6e5bd3a7bd22df57d4b0837d60e1448ed415b084ca12dcd9"
+  },
+  {
+    "path": "tests/test_application_actor.c",
+    "bytes": 9387,
+    "sha256": "e769eff6c3cb170c0da65ec6cf0561454ea557f8df7c402fc91ac027677f1336"
+  },
+  {
+    "path": "tests/test_application_actor.py",
+    "bytes": 1355,
+    "sha256": "3075e752a43c9ac58463bf68ce87d61e9a3308435264f7a44ac1b3db0a0a3c7f"
+  },
+  {
+    "path": "tests/test_application_maintenance.c",
+    "bytes": 4139,
+    "sha256": "876a6f57ea4f981e416a20fc4a8b81579fef8a6927df9d5a61d9a855e5208f65"
+  },
+  {
+    "path": "tests/test_application_maintenance.py",
+    "bytes": 1286,
+    "sha256": "b437e1261c5b091c3e0395f0243d75b7693cb63b6f1c419475a23339ecf14707"
+  },
+  {
+    "path": "tests/test_application_pipeline.c",
+    "bytes": 9929,
+    "sha256": "8518bfffb41584c210c1acb0023f9b54823f5340d21b37bce96af0b785f1fc1d"
+  },
+  {
+    "path": "tests/test_application_pipeline.py",
+    "bytes": 1358,
+    "sha256": "9a175f2b19d7139854d3d971d515d5863fb404ccb771b4bfa103e9451594462f"
+  },
+  {
+    "path": "tests/test_application_stubs/esp_err.h",
+    "bytes": 105,
+    "sha256": "f2dc88a24fbbef24c3f7e181045b5314c2bdbd9573348b1b63051354c0de80ca"
+  },
+  {
+    "path": "tests/test_application_stubs/esp_log.h",
+    "bytes": 125,
+    "sha256": "eecfa2c0a54bc938c7a951cf895bd62e3a1c140cc0dc03b62e24b82ca8baa391"
+  },
+  {
+    "path": "tests/test_application_stubs/esp_timer.h",
+    "bytes": 54,
+    "sha256": "77539eec139bbeab6471cbe03114aeccd295eccf06b1f083aa26c7db5c0bca71"
+  },
+  {
+    "path": "tests/test_application_stubs/freertos/FreeRTOS.h",
+    "bytes": 29,
+    "sha256": "f885043fa493d8d3eaa44d71286de0319aa3a6b414311f16b3c95935d95e8aa0"
+  },
+  {
+    "path": "tests/test_application_stubs/freertos/task.h",
+    "bytes": 27,
+    "sha256": "96736a43695504f3e0a4583276041e74dd5cec70edb08cc7d147562cd8ce33f2"
+  },
+  {
+    "path": "tests/test_application_stubs/sdkconfig.h",
+    "bytes": 80,
+    "sha256": "487b0d5fe834a7142be5f546fd3194bd11ec905ecaa423c332ce5d1192090f78"
+  },
+  {
+    "path": "tests/test_application_stubs/storage_idf.h",
+    "bytes": 327,
+    "sha256": "5a9419abc712b00f869de1c7bb8943001b3bc0f21ea4166951e54297465cb89e"
+  },
+  {
+    "path": "tests/test_partition_profile8.c",
+    "bytes": 5911,
+    "sha256": "e3c61861df063736be2ef595ef131d477a0501d72d1ca07c3656d0f1019630f8"
+  },
+  {
+    "path": "tests/test_partition_profile8.py",
+    "bytes": 474,
+    "sha256": "f75d8b3ff5db74b0109c516a44dd655762aaeb0e891355ad28dee7e9fb88ec95"
+  },
+  {
+    "path": "tools/validate_flash8_profile.py",
+    "bytes": 5442,
+    "sha256": "c30390571863371ebfd6f86e7cd949ceb1162405d4c9b34ba05a3ca8a77370a2"
+  },
+  {
+    "path": "verification/application_flash8_merged_validation.json",
+    "bytes": 2317,
+    "sha256": "867d34cba69de0925809709249bec12108ac772db922b2672c086038d286b791"
+  },
+  {
+    "path": "verification/application_flash8_merged_validation.log",
+    "bytes": 2318,
+    "sha256": "9a3edf86c5f5b38e657cf12b2d3885b03bfc37d00adfc931c43bd940abeff4ae"
+  },
+  {
+    "path": "verification/application_host_gate_final.log",
+    "bytes": 10807,
+    "sha256": "4c9e4e2d63250a4d9c61e8f47e5c8c838e6bf2244105fe3997bdbe84118cc024"
+  },
+  {
+    "path": "verification/application_optimized_test.log",
+    "bytes": 538,
+    "sha256": "c4602470938835a2e012b5cd682db861805c2aaf606f84e6a962ca2658d6c3c8"
+  },
+  {
+    "path": "verification/application_pipeline_20261028.md",
+    "bytes": 5843,
+    "sha256": "b7712b463c7bd9b5747575b3730586ed215628c7fd116a29d7c8b966a0016518"
+  },
+  {
+    "path": "verification/application_sanitizer_test.log",
+    "bytes": 539,
+    "sha256": "c3ee965caec5b70f170901b50b130874bc846b1643dee7d28f5347e7f1c85efa"
+  },
+  {
+    "path": "verification/application_sdk_builds.json",
+    "bytes": 15036,
+    "sha256": "686e0260a4d0028c8f764559858c4182301682087e93f5185dad2ad775451e53"
+  },
+  {
+    "path": "verification/application_sdk_disabled.log",
+    "bytes": 2780,
+    "sha256": "5e19fe71e003aa1bde5c915fa24b5c2ba5712baf1256ba1f13a1b0f3ac465ee1"
+  },
+  {
+    "path": "verification/application_sdk_enabled.log",
+    "bytes": 2769,
+    "sha256": "382f017391419b76f7d3033beea298fee2623d2096985b472a08df0d9ffca8d9"
+  },
+  {
+    "path": "verification/application_sdk_flash8.log",
+    "bytes": 2910,
+    "sha256": "9e264e212e7277dab5e096fd35e5b7c138dc4ab3e822462875c9f02068d72044"
+  },
+  {
+    "path": "verification/application_source_manifest.json",
+    "bytes": 4467,
+    "sha256": "99ff5c16021f193bc3b3478d3ee73ccf73b336e7ebc3cac512c76a44caeb2e47"
+  }
+]
