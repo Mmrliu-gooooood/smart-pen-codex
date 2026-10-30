@@ -1,0 +1,790 @@
+{
+  "status": "TRUE_REFILLED_20_GROUP_CUTS_NOFAB_NOPOWER",
+  "declaration": {
+    "selection_sha256": "0eff8ad9adbcb5ad77e16f09ebf352cf72d478f4f64df8eed1aacfd687159274",
+    "expected_lost_core_pads": {
+      "J104.3": [
+        "J104.3",
+        "R223.2"
+      ],
+      "R206.2": [
+        "R206.2"
+      ],
+      "R214.2": [
+        "R214.2"
+      ],
+      "R216.2": [
+        "R216.2"
+      ],
+      "R220.2": [
+        "R220.2",
+        "R225.2"
+      ],
+      "R221.2": [
+        "R221.2"
+      ],
+      "R222.2": [
+        "R222.2"
+      ],
+      "R223.2": [
+        "R223.2"
+      ],
+      "R224.2": [
+        "R224.2",
+        "R228.2"
+      ],
+      "R225.2": [
+        "R225.2"
+      ],
+      "R226.2": [
+        "R206.2",
+        "R226.2"
+      ],
+      "R227.2": [
+        "R227.2"
+      ],
+      "R228.2": [
+        "R228.2"
+      ],
+      "R230.2": [
+        "R230.2"
+      ],
+      "R231.2": [
+        "R231.2"
+      ],
+      "R232.2": [
+        "R232.2"
+      ],
+      "R233.2": [
+        "R233.2"
+      ],
+      "R234.2": [
+        "R234.2"
+      ],
+      "R235.2": [
+        "R235.2"
+      ],
+      "R237.2": [
+        "R237.2"
+      ]
+    },
+    "basis": "selected20 directed anchors: R228\u2192R224; R206\u2192proposed R226 via; R223\u2192proposed J104 via; R225\u2192proposed R220 branch; other targets original-core anchor or own via",
+    "no_source_or_positive_native_edits": true
+  },
+  "cases": [
+    {
+      "case": "J104.3",
+      "removed_new_copper": [
+        "a29b32ac-1885-5348-bfd1-32f5f7e458c7",
+        "ed7f4331-b99a-5fe1-85cf-88ea6cdc417d"
+      ],
+      "declared_expected_lost": [
+        "J104.3",
+        "R223.2"
+      ],
+      "actual_lost_pads": [
+        "J104.3",
+        "R223.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 89,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 15,
+      "newly_isolated_components": [
+        [
+          "J104.3"
+        ],
+        [
+          "R223.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        1,
+        78,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 78,
+      "cut_induced_DRC_violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [GND] on B.Cu, length 2.8632 mm",
+              "pos": {
+                "x": 6.825,
+                "y": 58.6
+              },
+              "uuid": "cdb2d666-4371-5179-ae44-aa3855000817"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "dbbe28e5be8781e5b7ee441db82bf549bd460937a97dfa0092be2606f73b4ac1"
+    },
+    {
+      "case": "R206.2",
+      "removed_new_copper": [
+        "34656103-32d7-50c1-8969-acda58cc33c8"
+      ],
+      "declared_expected_lost": [
+        "R206.2"
+      ],
+      "actual_lost_pads": [
+        "R206.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R206.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "a7a6626b11c4fa9be8d0fca9b501c69e49a65f8aca89d5c01159661d5ec74d1f"
+    },
+    {
+      "case": "R214.2",
+      "removed_new_copper": [
+        "b53f590b-3885-5cbb-b7d0-c9d3c7f51887",
+        "ba18b306-28c3-5779-ae4b-c94f55c9ad42"
+      ],
+      "declared_expected_lost": [
+        "R214.2"
+      ],
+      "actual_lost_pads": [
+        "R214.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R214.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "2b6807052a8a319167644ba24e688c79eb6fc9f0c4d1cdc02511270d6afad4f6"
+    },
+    {
+      "case": "R216.2",
+      "removed_new_copper": [
+        "7ff678a7-1c5c-5936-80e5-af6017e6323e"
+      ],
+      "declared_expected_lost": [
+        "R216.2"
+      ],
+      "actual_lost_pads": [
+        "R216.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R216.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "d22cda5ba35835b2369376ac943b146b79229a37f7943728dc5ea55d8ab3fbd2"
+    },
+    {
+      "case": "R220.2",
+      "removed_new_copper": [
+        "f1f84291-21f3-5b86-b168-2bbabd893cf4"
+      ],
+      "declared_expected_lost": [
+        "R220.2",
+        "R225.2"
+      ],
+      "actual_lost_pads": [
+        "R220.2",
+        "R225.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 89,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 15,
+      "newly_isolated_components": [
+        [
+          "R220.2"
+        ],
+        [
+          "R225.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        1,
+        78,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 78,
+      "cut_induced_DRC_violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [GND] on B.Cu, length 1.6850 mm",
+              "pos": {
+                "x": 4.525,
+                "y": 44.1
+              },
+              "uuid": "2fe22296-ef40-56fc-b1f5-e73317369e4b"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "00071e51760092f92eb6564ccbd5d9427100868cf492fd6791f2b0eb98fe0dcb"
+    },
+    {
+      "case": "R221.2",
+      "removed_new_copper": [
+        "a6ea17de-ff4b-58f5-a397-93fecf075bab",
+        "df4d6e41-97a9-5686-bc1f-6dbd43835136"
+      ],
+      "declared_expected_lost": [
+        "R221.2"
+      ],
+      "actual_lost_pads": [
+        "R221.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R221.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "70fe8817d0a8273a29a579de9f23af1cddabd8fcfd6239b03426bc9022cf2932"
+    },
+    {
+      "case": "R222.2",
+      "removed_new_copper": [
+        "f96c5d8e-9d4b-5262-8ec4-4f6b280e5ab9"
+      ],
+      "declared_expected_lost": [
+        "R222.2"
+      ],
+      "actual_lost_pads": [
+        "R222.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R222.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "91a11ada1e8d59b2d2a8dfbcd5486fd45a97bb37cffa892a9ce27d3db9d276a3"
+    },
+    {
+      "case": "R223.2",
+      "removed_new_copper": [
+        "cdb2d666-4371-5179-ae44-aa3855000817"
+      ],
+      "declared_expected_lost": [
+        "R223.2"
+      ],
+      "actual_lost_pads": [
+        "R223.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R223.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "2b2a7dc9c8f6f3e29e412ccc03d119f5426110945bbcd896157143422611b0fb"
+    },
+    {
+      "case": "R224.2",
+      "removed_new_copper": [
+        "53e22dd2-3ea8-5ddd-a5cd-3ae1cbc8ff23"
+      ],
+      "declared_expected_lost": [
+        "R224.2",
+        "R228.2"
+      ],
+      "actual_lost_pads": [
+        "R224.2",
+        "R228.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 89,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R224.2",
+          "R228.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "f79045008b294cf6dce70bfcf95cd3d2b325026eebbd39eb33e1e74747130c86"
+    },
+    {
+      "case": "R225.2",
+      "removed_new_copper": [
+        "2fe22296-ef40-56fc-b1f5-e73317369e4b",
+        "532b85a6-cc98-5f7e-88e0-ff057f6252a9"
+      ],
+      "declared_expected_lost": [
+        "R225.2"
+      ],
+      "actual_lost_pads": [
+        "R225.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R225.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "f7074b6632e1e9c3a3193cc26a2e7e035564559286cbc2bcc4adc89e72f39a59"
+    },
+    {
+      "case": "R226.2",
+      "removed_new_copper": [
+        "d86069e1-6c74-58ed-a1f0-3474706a4fe1",
+        "e7f49dc8-862a-55e7-9f2f-02de85bc0b29"
+      ],
+      "declared_expected_lost": [
+        "R206.2",
+        "R226.2"
+      ],
+      "actual_lost_pads": [
+        "R206.2",
+        "R226.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 89,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 15,
+      "newly_isolated_components": [
+        [
+          "R206.2"
+        ],
+        [
+          "R226.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        1,
+        78,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 78,
+      "cut_induced_DRC_violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [GND] on B.Cu, length 1.1315 mm",
+              "pos": {
+                "x": 9.825,
+                "y": 46.0
+              },
+              "uuid": "34656103-32d7-50c1-8969-acda58cc33c8"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "a9e7e1ab407410f370146075f399649dc18b94ffe422113413f32093314af9da"
+    },
+    {
+      "case": "R227.2",
+      "removed_new_copper": [
+        "ccec7abd-9227-524b-8908-ffe96b70a584"
+      ],
+      "declared_expected_lost": [
+        "R227.2"
+      ],
+      "actual_lost_pads": [
+        "R227.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R227.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "0e6381679482167676946267b57b6176d01741427e3c7f66a75e787fafc173e9"
+    },
+    {
+      "case": "R228.2",
+      "removed_new_copper": [
+        "7052cc48-6ce5-509b-bab1-c960c9fe51d7"
+      ],
+      "declared_expected_lost": [
+        "R228.2"
+      ],
+      "actual_lost_pads": [
+        "R228.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R228.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "3d5724ddb35942b02394cbff089f8d3a1b38f4696b73dde7f956eb1c7c6ee9e6"
+    },
+    {
+      "case": "R230.2",
+      "removed_new_copper": [
+        "5636ceaa-f47e-5261-9b2a-4cf292d02e07",
+        "56c97945-11ae-5d0d-b256-22fda33eb036"
+      ],
+      "declared_expected_lost": [
+        "R230.2"
+      ],
+      "actual_lost_pads": [
+        "R230.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R230.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "5b891bcd807df52a662be03ba3e70a512bfe59f2d9b091c991484c7110f7c061"
+    },
+    {
+      "case": "R231.2",
+      "removed_new_copper": [
+        "b3efcc36-504a-5cc7-8b94-d7de126a54cc"
+      ],
+      "declared_expected_lost": [
+        "R231.2"
+      ],
+      "actual_lost_pads": [
+        "R231.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R231.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "ae10db99d2e5c52db8d56334194f10d90b955055e06c82bbefbb8df041d5d313"
+    },
+    {
+      "case": "R232.2",
+      "removed_new_copper": [
+        "2ba7eefd-53f3-5614-9347-6f6a60389e19"
+      ],
+      "declared_expected_lost": [
+        "R232.2"
+      ],
+      "actual_lost_pads": [
+        "R232.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R232.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "fd0dbcd2761b35efdbe11d158458b4a00e5b95c6c111696ee1e87709bab16bd5"
+    },
+    {
+      "case": "R233.2",
+      "removed_new_copper": [
+        "ca6aa442-755c-577f-83c3-c7a9e006a1f7"
+      ],
+      "declared_expected_lost": [
+        "R233.2"
+      ],
+      "actual_lost_pads": [
+        "R233.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R233.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "b9f1eed8517640239ee7b933653f34001bfab549c9b372cf1aae5cc21ba6e4d0"
+    },
+    {
+      "case": "R234.2",
+      "removed_new_copper": [
+        "0d7e8281-8b5e-59bb-a3f9-352e984ca920",
+        "4685856c-5d5a-5d0f-b720-0d1ac1fe0aa9"
+      ],
+      "declared_expected_lost": [
+        "R234.2"
+      ],
+      "actual_lost_pads": [
+        "R234.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R234.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "0d54663ebaf22fa68c1948131af9ca190984f4c1f6727b9b60fe17d98c3aafb8"
+    },
+    {
+      "case": "R235.2",
+      "removed_new_copper": [
+        "d58423b6-ed27-5e3b-bb81-c8476cafcaac"
+      ],
+      "declared_expected_lost": [
+        "R235.2"
+      ],
+      "actual_lost_pads": [
+        "R235.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R235.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "dc06078b962ee29a98c4d3508d0bb07521fccf4393d5c2b24c77726b539523d8"
+    },
+    {
+      "case": "R237.2",
+      "removed_new_copper": [
+        "228f6530-25d7-5e90-a87c-5a147b425240",
+        "ce8dc3e7-adcf-5997-96d3-2de230c44a49"
+      ],
+      "declared_expected_lost": [
+        "R237.2"
+      ],
+      "actual_lost_pads": [
+        "R237.2"
+      ],
+      "actual_gained_pads": [],
+      "remaining_GND_core_pad_count": 90,
+      "GND_component_count_before": 13,
+      "GND_component_count_after": 14,
+      "newly_isolated_components": [
+        [
+          "R237.2"
+        ]
+      ],
+      "actual_DRC_unconnected_parity": [
+        0,
+        77,
+        0
+      ],
+      "expected_unconnected_from_component_delta": 77,
+      "cut_induced_DRC_violations": [],
+      "all_nonGND_component_graphs_preserved": true,
+      "pressure_STRAP_IMU_I2C_clock_preserved": true,
+      "positive_pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+      "cut_pcb_sha256": "706ad2ca5b0ddfe753af12b14527ad25b496d215011e7b31f2f93982428f5156"
+    }
+  ]
+}

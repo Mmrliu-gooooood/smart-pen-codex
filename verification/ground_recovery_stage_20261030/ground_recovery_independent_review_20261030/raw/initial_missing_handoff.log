@@ -1,0 +1,26 @@
+17:36:03: Debug: Adding duplicate image handler for 'PNG file'
+17:36:03: Debug: Adding duplicate image handler for 'JPEG file'
+17:36:03: Debug: Adding duplicate image handler for 'TIFF file'
+17:36:03: Debug: Adding duplicate image handler for 'GIF file'
+17:36:03: Debug: Adding duplicate image handler for 'PNM file'
+17:36:03: Debug: Adding duplicate image handler for 'PCX file'
+17:36:03: Debug: Adding duplicate image handler for 'IFF file'
+17:36:03: Debug: Adding duplicate image handler for 'Windows icon file'
+17:36:03: Debug: Adding duplicate image handler for 'Windows cursor file'
+17:36:03: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+17:36:03: Debug: Adding duplicate image handler for 'TGA file'
+17:36:03: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/ground_recovery_independent_review_20261030/mirror/smart_pen_next_20261028/hardware/ground_recovery_native_0818/verify.py", line 30, in <module>
+    h=json.loads((R/'hardware/camera_schmitt_source_0744/handoff.json').read_text())[ref];req(bf[ref].GetPath().AsString()==h['path'],'source UUID path')
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 548, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 539, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/scratch/fe148e758944/ground_recovery_independent_review_20261030/mirror/smart_pen_next_20261028/hardware/camera_schmitt_source_0744/handoff.json'

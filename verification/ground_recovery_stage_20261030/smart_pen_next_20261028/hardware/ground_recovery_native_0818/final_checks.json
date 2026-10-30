@@ -1,0 +1,39 @@
+{
+  "pcb_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+  "normal_optimized_results_identical": {
+    "verify": true,
+    "physical": true,
+    "negative_ground": true
+  },
+  "frozen_inputs_rehashed": [
+    {
+      "directory": "hardware/camera_isolation_control_native_0628",
+      "files_rehashed": 799,
+      "manifest_sha256": "be6b0eabfd477ab6c3a932204f4b9f05b9e6cab9f8b7c5a41f79514e745f06c3",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_native_0745",
+      "files_rehashed": 168,
+      "manifest_sha256": "c81b547513a3b815d7c619ec2ae7fc5dcf751d32d8df75333adf205113c5264c",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_source_0744",
+      "files_rehashed": 78,
+      "manifest_sha256": "805a1e8db326a59366f68e574808f12c2b2ca2ce5af6de3dcac33d155ec96c86",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/ground_recovery_plan_0807",
+      "files_rehashed": 23,
+      "manifest_sha256": "55e5d4f5d808040d8e7e26bad29ee14a17b7136f44c1058518952cfaad280c15",
+      "mismatches": []
+    }
+  ],
+  "provider_NULL": true,
+  "provider_sha256": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+  "actual_reverse_patch_and_replay_pass": true,
+  "visual_review": "group_views.png and probe_detail.png inspected; twenty ground paths and shared branches coherent; no TSSOP-body via; only new J104 probe-access courtyard remains",
+  "status": "AUTHOR_VERIFIED_EXPERIMENT_INDEPENDENT_REVIEW_PENDING_NOFAB_NOPOWER"
+}

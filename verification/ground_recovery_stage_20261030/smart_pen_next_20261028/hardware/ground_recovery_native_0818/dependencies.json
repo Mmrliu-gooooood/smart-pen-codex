@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "path": "hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "path": "hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "path": "hardware/pressure_pullup_revision_0318/materialize.py",
+      "sha256": "5fa78b24ab1ed4fd43f545df8a0c5d026b0c55e0fe1781e20b641c2d69eb53cc"
+    },
+    {
+      "path": "hardware/camera_isolation_control_native_0628/geometry_native.py",
+      "sha256": "f62df95d36f088abd27fb443f36eaf8e51228880e3f042ca3b085e224755dce3"
+    },
+    {
+      "path": "hardware/camera_isolation_control_native_0628/materialization.json",
+      "sha256": "6739288b0e8eeac5dedfebb6bca6b71ffd373d51b867a3669a5446c8328909a7"
+    },
+    {
+      "path": "hardware/camera_schmitt_source_0744/handoff.json",
+      "sha256": "58048a1ae7365efc90640edc0e79d7fb7fbf50e582a3f6b629c97e88a20925a8"
+    },
+    {
+      "path": "hardware/camera_schmitt_native_0745/geometry_native.py",
+      "sha256": "f62df95d36f088abd27fb443f36eaf8e51228880e3f042ca3b085e224755dce3"
+    },
+    {
+      "path": "docs/electronics/ground_recovery_plan_0807/selected20_final.json",
+      "sha256": "0eff8ad9adbcb5ad77e16f09ebf352cf72d478f4f64df8eed1aacfd687159274"
+    }
+  ],
+  "frozen_input_manifests": [
+    {
+      "directory": "hardware/camera_isolation_control_native_0628",
+      "files_rehashed": 799,
+      "manifest_sha256": "be6b0eabfd477ab6c3a932204f4b9f05b9e6cab9f8b7c5a41f79514e745f06c3",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_native_0745",
+      "files_rehashed": 168,
+      "manifest_sha256": "c81b547513a3b815d7c619ec2ae7fc5dcf751d32d8df75333adf205113c5264c",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_source_0744",
+      "files_rehashed": 78,
+      "manifest_sha256": "805a1e8db326a59366f68e574808f12c2b2ca2ce5af6de3dcac33d155ec96c86",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/ground_recovery_plan_0807",
+      "files_rehashed": 23,
+      "manifest_sha256": "55e5d4f5d808040d8e7e26bad29ee14a17b7136f44c1058518952cfaad280c15",
+      "mismatches": []
+    }
+  ],
+  "toolchain": "KiCad9 pcbnew via /usr/bin/python3; kicad-cli; GNU patch/diff; local source symbol/footprint sources pinned in their manifests"
+}

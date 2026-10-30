@@ -1,0 +1,41 @@
+{
+  "raw_export": "checks/candidate/bom.csv",
+  "derived_export": "bom_qualification.csv",
+  "rule": "MPN and MPN_candidate exported separately; neither auto-promoted or filled from PCB properties; qualification column is a conservative derived label, not a changed source field",
+  "source_changes": false,
+  "candidate_rows": {
+    "C209": {
+      "Reference": "C209",
+      "Value": "100nF 16V X7R +/-10%",
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "MPN": "",
+      "MPN_candidate": "C0402C104K4RACTU",
+      "Qty": "1",
+      "DNP": "",
+      "qualification_status": "SOURCE_CANDIDATE_NOT_PROCUREMENT_OR_MANUFACTURING_QUALIFIED",
+      "release_status": "NOFAB / NOPOWER"
+    },
+    "R202": {
+      "Reference": "R202",
+      "Value": "10k 1%",
+      "Footprint": "Resistor_SMD:R_0603_1608Metric",
+      "MPN": "",
+      "MPN_candidate": "RC0603FR-0710KL",
+      "Qty": "1",
+      "DNP": "",
+      "qualification_status": "SOURCE_CANDIDATE_NOT_PROCUREMENT_OR_MANUFACTURING_QUALIFIED",
+      "release_status": "NOFAB / NOPOWER"
+    },
+    "U205": {
+      "Reference": "U205",
+      "Value": "SN74LVC1G14DCKR",
+      "Footprint": "SmartPenIO:TI_DCK0005A_Schmitt_OfficialLand",
+      "MPN": "",
+      "MPN_candidate": "SN74LVC1G14DCKR",
+      "Qty": "1",
+      "DNP": "",
+      "qualification_status": "SOURCE_CANDIDATE_NOT_PROCUREMENT_OR_MANUFACTURING_QUALIFIED",
+      "release_status": "NOFAB / NOPOWER"
+    }
+  }
+}

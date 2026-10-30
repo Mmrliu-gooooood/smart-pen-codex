@@ -1,0 +1,4496 @@
+{
+  "status": "LOCAL_GND_GROUP_PLANNING_ONLY_NO_SUCCESSOR_FREEZE",
+  "source_pcb_sha256": "3276f04433c8ee3759f963fdc133200aee0b398ec6009e31a82fd595ab2f4328",
+  "actual_base_core_pads": [
+    "C101.2",
+    "C102.2",
+    "C103.2",
+    "C104.2",
+    "C105.2",
+    "C106.2",
+    "C107.2",
+    "C201.2",
+    "C202.2",
+    "C203.2",
+    "C204.2",
+    "C205.2",
+    "C206.2",
+    "C207.2",
+    "C208.2",
+    "C209.2",
+    "C301.2",
+    "C302.2",
+    "C303.2",
+    "C501.2",
+    "C502.2",
+    "C503.2",
+    "C504.2",
+    "J103.2",
+    "J106.3",
+    "J108.3",
+    "J109.3",
+    "J202.24",
+    "J301.2",
+    "R105.2",
+    "R106.2",
+    "R107.2",
+    "R108.2",
+    "R109.2",
+    "R202.2",
+    "R205.2",
+    "R207.2",
+    "R210.2",
+    "R211.2",
+    "R212.2",
+    "R213.2",
+    "R215.2",
+    "R217.2",
+    "R236.2",
+    "R301.2",
+    "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+    "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+    "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+    "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+    "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+    "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+    "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+    "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+    "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+    "U201.11",
+    "U201.12",
+    "U201.13",
+    "U201.2",
+    "U202.2",
+    "U202.3",
+    "U202.8",
+    "U202.9",
+    "U203.8",
+    "U203.9",
+    "U204.4",
+    "U205.3",
+    "U301.2",
+    "U501.5",
+    "U501.6",
+    "U501.7",
+    "U501.8"
+  ],
+  "actual_base_isolated_pads": [
+    "J104.3",
+    "J105.2",
+    "J107.3",
+    "J202.1",
+    "J202.10",
+    "J202.13",
+    "J202.17",
+    "J202.4",
+    "J202.7",
+    "R104.2",
+    "R206.2",
+    "R214.2",
+    "R216.2",
+    "R218.2",
+    "R219.2",
+    "R220.2",
+    "R221.2",
+    "R222.2",
+    "R223.2",
+    "R224.2",
+    "R225.2",
+    "R226.2",
+    "R227.2",
+    "R228.2",
+    "R229.2",
+    "R230.2",
+    "R231.2",
+    "R232.2",
+    "R233.2",
+    "R234.2",
+    "R235.2",
+    "R237.2"
+  ],
+  "scope": "26 non-J202 singleton pads, nearest <=3mm anchors and <=1.7mm radial via choices; no old edits",
+  "rows": [
+    {
+      "pad": "R104.2",
+      "xy": [
+        4.325,
+        1.7
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          4.325,
+          1.7
+        ],
+        [
+          4.926,
+          1.099
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R216.2",
+      "xy": [
+        8.325,
+        28.0
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "R212.2",
+      "new_via": false,
+      "path": [
+        [
+          8.325,
+          28.0
+        ],
+        [
+          8.325,
+          26.0
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R214.2",
+      "xy": [
+        2.9,
+        33.725
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          2.9,
+          33.725
+        ],
+        [
+          3.501,
+          34.326
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R224.2",
+      "xy": [
+        2.325,
+        39.1
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "U201.13",
+      "new_via": false,
+      "path": [
+        [
+          2.325,
+          39.1
+        ],
+        [
+          2.425,
+          36.8625
+        ]
+      ],
+      "rejected_before_success": 4
+    },
+    {
+      "pad": "R228.2",
+      "xy": [
+        2.325,
+        40.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "R224.2",
+      "new_via": false,
+      "path": [
+        [
+          2.325,
+          40.9
+        ],
+        [
+          2.325,
+          39.1
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R229.2",
+      "xy": [
+        5.325,
+        40.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": false,
+      "tested_candidates": 36,
+      "rejections": [
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.926,
+            41.501
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R218.2",
+              "GND",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.724,
+            41.501
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "via_pad",
+              "R218.2",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.175,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.475,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            41.75
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R218.2",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.425,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.225,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.0
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R218.2",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.103,
+            41.678
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "R219.1",
+              "CAM_VSYNC",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.547,
+            41.678
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.725,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.925,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.315,
+            41.89
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "R219.1",
+              "CAM_VSYNC",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.335,
+            41.89
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "R218.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.8",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "e33c0846-bac0-552b-b96d-b38e684f0465",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.3",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "bed4dd41-0f0f-5368-9c92-cbdc7bac4f81",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "ed18d04c-22e3-5b35-9f4f-63fa32f6bf44",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.527,
+            42.102
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.123,
+            42.102
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.025,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.625,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.6
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.8",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.8",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "e33c0846-bac0-552b-b96d-b38e684f0465",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "e33c0846-bac0-552b-b96d-b38e684f0465",
+          "via": false,
+          "xy": [
+            3.725,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.3",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "U202.3",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "bed4dd41-0f0f-5368-9c92-cbdc7bac4f81",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "bed4dd41-0f0f-5368-9c92-cbdc7bac4f81",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "ed18d04c-22e3-5b35-9f4f-63fa32f6bf44",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "ed18d04c-22e3-5b35-9f4f-63fa32f6bf44",
+          "via": false,
+          "xy": [
+            6.975,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "R228.2",
+          "via": false,
+          "xy": [
+            2.325,
+            40.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "R230.2",
+      "xy": [
+        8.325,
+        40.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "U202.2",
+      "new_via": false,
+      "path": [
+        [
+          8.325,
+          40.9
+        ],
+        [
+          7.625,
+          41.599999999999994
+        ],
+        [
+          7.625,
+          43.1375
+        ]
+      ],
+      "rejected_before_success": 12
+    },
+    {
+      "pad": "R231.2",
+      "xy": [
+        11.325,
+        40.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "ad39d670-7943-58e6-af21-13ac562aa9f7",
+      "new_via": false,
+      "path": [
+        [
+          11.325,
+          40.9
+        ],
+        [
+          11.125,
+          42.2375
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R218.2",
+      "xy": [
+        5.325,
+        41.5
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": false,
+      "tested_candidates": 31,
+      "rejections": [
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.926,
+            42.101
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.724,
+            42.101
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.926,
+            40.899
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R229.2",
+              "GND",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.724,
+            40.899
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.175,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.475,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.35
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.5",
+              "CAM_VSYNC",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            40.65
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R229.2",
+              "GND",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.425,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.225,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "R218.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.6
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.5",
+              "CAM_VSYNC",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            40.4
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R229.2",
+              "GND",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.103,
+            42.278
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.4",
+              "CAM_PCLK",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.103,
+            40.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "R230.1",
+              "SENS_D6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.547,
+            42.278
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_HREF",
+              "U202.6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.547,
+            40.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            42.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.5",
+              "CAM_VSYNC",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.725,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.925,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "R218.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.315,
+            42.49
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.4",
+              "CAM_PCLK",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.335,
+            42.49
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "unconnected-(U202-2A2-Pad7)",
+              "U202.7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.315,
+            40.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "R230.1",
+              "SENS_D6",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.335,
+            40.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "46eae0c7-59e8-5a54-bd79-bdac368958e6",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.527,
+            42.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "U202.4",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.4",
+              "CAM_PCLK",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.123,
+            42.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D1",
+              "R225.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "dd030fe7-50b3-558a-bd0e-d399ce1948ad",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.025,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "R230.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.625,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "R218.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D5",
+              "R229.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.325,
+            43.2
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "U202.5",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.5",
+              "CAM_VSYNC",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "b1f611b5-90da-54b2-8dda-05092e8a1685",
+          "via": false,
+          "xy": [
+            2.825,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D1",
+              "R225.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "b1f611b5-90da-54b2-8dda-05092e8a1685",
+          "via": false,
+          "xy": [
+            2.825,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D1",
+              "R225.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D1",
+              "R225.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "b1f611b5-90da-54b2-8dda-05092e8a1685",
+          "via": false,
+          "xy": [
+            2.825,
+            43.1375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_PCLK",
+              "R218.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D1",
+              "R225.1",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "R219.2",
+      "xy": [
+        8.325,
+        41.5
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": false,
+      "tested_candidates": 26,
+      "rejections": [
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.724,
+            42.101
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.724,
+            40.899
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "eec31296-6f9f-5ee6-9ab8-26d5b664245c",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.926,
+            40.899
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.475,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            42.35
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "U202.1",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.1",
+              "3V3_AON",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            40.65
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R230.2",
+              "GND",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.225,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            42.6
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "U202.1",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.1",
+              "3V3_AON",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            40.4
+          ],
+          "first_errors": [
+            [
+              "via_pad",
+              "R230.2",
+              "GND",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.547,
+            42.278
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.547,
+            40.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "eec31296-6f9f-5ee6-9ab8-26d5b664245c",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            9.103,
+            40.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            42.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "5f38cf07-1998-52a9-94c0-56864f8f8dc1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "U202.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.925,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            9.725,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.335,
+            42.49
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.335,
+            40.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "eec31296-6f9f-5ee6-9ab8-26d5b664245c",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            9.315,
+            40.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "8de58362-e66f-5190-b37a-8b1f6dd5ee3a",
+          "via": false,
+          "xy": [
+            11.125,
+            42.2375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "83834b93-7722-51af-acd4-7cb3b667bb7a",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            7.123,
+            42.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "U202.3",
+              "GND",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            9.527,
+            42.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "83834b93-7722-51af-acd4-7cb3b667bb7a",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.625,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_VSYNC",
+              "R219.1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            10.025,
+            41.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            8.325,
+            43.2
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "5f38cf07-1998-52a9-94c0-56864f8f8dc1",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "U202.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "8de58362-e66f-5190-b37a-8b1f6dd5ee3a",
+          "via": false,
+          "xy": [
+            11.125,
+            42.2375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "83834b93-7722-51af-acd4-7cb3b667bb7a",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "8de58362-e66f-5190-b37a-8b1f6dd5ee3a",
+          "via": false,
+          "xy": [
+            11.125,
+            42.2375
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_ISO_OE_N",
+              "6463f038-f882-566e-ae2e-736403466fb9",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "R225.2",
+      "xy": [
+        5.325,
+        43.3
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          5.325,
+          43.3
+        ],
+        [
+          5.325,
+          44.4
+        ]
+      ],
+      "rejected_before_success": 11
+    },
+    {
+      "pad": "R226.2",
+      "xy": [
+        8.325,
+        44.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          8.325,
+          44.0
+        ],
+        [
+          9.315,
+          44.99
+        ]
+      ],
+      "rejected_before_success": 17
+    },
+    {
+      "pad": "R227.2",
+      "xy": [
+        11.325,
+        44.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "8de58362-e66f-5190-b37a-8b1f6dd5ee3a",
+      "new_via": false,
+      "path": [
+        [
+          11.325,
+          44.0
+        ],
+        [
+          11.125,
+          42.2375
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R220.2",
+      "xy": [
+        2.85,
+        45.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "b1f611b5-90da-54b2-8dda-05092e8a1685",
+      "new_via": false,
+      "path": [
+        [
+          2.85,
+          45.0
+        ],
+        [
+          2.825,
+          43.1375
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R206.2",
+      "xy": [
+        9.825,
+        46.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "proposed_via_for_R226.2",
+      "new_via": false,
+      "path": [
+        [
+          9.825,
+          46.0
+        ],
+        [
+          9.315,
+          44.99
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R233.2",
+      "xy": [
+        2.325,
+        50.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          2.325,
+          50.9
+        ],
+        [
+          2.926,
+          50.299
+        ]
+      ],
+      "rejected_before_success": 1
+    },
+    {
+      "pad": "R234.2",
+      "xy": [
+        8.325,
+        50.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          8.325,
+          50.9
+        ],
+        [
+          8.926,
+          51.501
+        ]
+      ],
+      "rejected_before_success": 2
+    },
+    {
+      "pad": "R232.2",
+      "xy": [
+        11.425,
+        50.9
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "e594ec4b-5c2e-5baf-80be-702a3671bb95",
+      "new_via": false,
+      "path": [
+        [
+          11.425,
+          50.9
+        ],
+        [
+          11.125,
+          52.2375
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R221.2",
+      "xy": [
+        3.825,
+        56.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          3.825,
+          56.0
+        ],
+        [
+          3.224,
+          56.601
+        ]
+      ],
+      "rejected_before_success": 7
+    },
+    {
+      "pad": "R222.2",
+      "xy": [
+        6.825,
+        56.0
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "0fc7939c-7219-5bda-a92f-ff54d751526f",
+      "new_via": false,
+      "path": [
+        [
+          6.825,
+          56.0
+        ],
+        [
+          5.4,
+          55.0
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "J104.3",
+      "xy": [
+        10.0,
+        56.6
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          10.0,
+          56.6
+        ],
+        [
+          9.399,
+          57.201
+        ]
+      ],
+      "rejected_before_success": 1
+    },
+    {
+      "pad": "R223.2",
+      "xy": [
+        6.825,
+        58.6
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          6.825,
+          58.6
+        ],
+        [
+          5.623,
+          57.398
+        ]
+      ],
+      "rejected_before_success": 28
+    },
+    {
+      "pad": "R235.2",
+      "xy": [
+        11.425,
+        60.6
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "C206.2",
+      "new_via": false,
+      "path": [
+        [
+          11.425,
+          60.6
+        ],
+        [
+          11.125,
+          58.8625
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "R237.2",
+      "xy": [
+        5.325,
+        62.0
+      ],
+      "layer": "F.Cu",
+      "accepted_finite_geometry": true,
+      "anchor": "new_plane_via",
+      "new_via": true,
+      "path": [
+        [
+          5.325,
+          62.0
+        ],
+        [
+          5.926,
+          62.601
+        ]
+      ],
+      "rejected_before_success": 0
+    },
+    {
+      "pad": "J105.2",
+      "xy": [
+        4.4,
+        77.5
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": false,
+      "tested_candidates": 32,
+      "rejections": [
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.001,
+            78.101
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "e4c9a65c-3e92-582e-ae85-ec5a0453a251",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "JP201.2",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.001,
+            76.899
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "JP201.2",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "J105.2",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.799,
+            78.101
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "5ea150ef-4801-564d-81c8-992f1930f1bc",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "85f76ad3-dffa-5a6e-8ca7-70205216deaa",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.799,
+            76.899
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "0668336a-3de8-59c8-9f28-80dd3e9bb806",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "2f2593e8-c0e3-56a2-8691-6834ac0883c3",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            78.35
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "b0d6e13b-fe3c-5809-9b33-42a68478c4c0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            76.65
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "096c4043-e2a2-59f2-aa1f-68425f958327",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.25,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "e4c9a65c-3e92-582e-ae85-ec5a0453a251",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "JP201.2",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.55,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "0668336a-3de8-59c8-9f28-80dd3e9bb806",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "16d0642a-e505-56fe-8f71-7eb048d21399",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            78.6
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "b0d6e13b-fe3c-5809-9b33-42a68478c4c0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            76.4
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "096c4043-e2a2-59f2-aa1f-68425f958327",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.5,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "66c08d0b-0264-51d1-8806-5026b281271e",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "e4c9a65c-3e92-582e-ae85-ec5a0453a251",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.3,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "0668336a-3de8-59c8-9f28-80dd3e9bb806",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "16d0642a-e505-56fe-8f71-7eb048d21399",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.178,
+            78.278
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.178,
+            76.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "R241.2",
+              "F.Cu"
+            ],
+            [
+              "via_pad",
+              "J105.2",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.622,
+            78.278
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "5ea150ef-4801-564d-81c8-992f1930f1bc",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "85f76ad3-dffa-5a6e-8ca7-70205216deaa",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.622,
+            76.722
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "bd90db79-b782-5208-a551-42eb78871864",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "f1e84fc9-4d23-5208-a094-55118a151f12",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.8,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "66c08d0b-0264-51d1-8806-5026b281271e",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "ef407149-f25b-531c-87f1-bc8037fcfd57",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.0,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "BATTERY_ADC",
+              "J105.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "JP201.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            78.9
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "b0d6e13b-fe3c-5809-9b33-42a68478c4c0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            76.1
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "096c4043-e2a2-59f2-aa1f-68425f958327",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.39,
+            78.49
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.39,
+            76.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "98b91ac6-cd44-5313-8bd5-d0a9e9f87693",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "98b91ac6-cd44-5313-8bd5-d0a9e9f87693",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.41,
+            78.49
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "JP201.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.41,
+            76.51
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "397ef283-6ada-50ba-ba4a-ae434eb95e93",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.602,
+            78.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "c46dc5bc-a978-50bc-8f87-74a8415f05b7",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.198,
+            78.702
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "c46dc5bc-a978-50bc-8f87-74a8415f05b7",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "PICKUP_INT_N",
+              "ec8e33e8-4462-5e0a-bfda-047b19f674e5",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.602,
+            76.298
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "98b91ac6-cd44-5313-8bd5-d0a9e9f87693",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "363578d3-43ac-4996-bd01-151b0f79c11b",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.198,
+            76.298
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "397ef283-6ada-50ba-ba4a-ae434eb95e93",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "fdd1b7dd-30f1-5029-bc2e-13ff5e7ac3dc",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            6.1,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "IO_ENABLE_LINK",
+              "66c08d0b-0264-51d1-8806-5026b281271e",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.7,
+            77.5
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "BATTERY_ADC",
+              "J105.1",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "JP201.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            79.2
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "794498fd-1d4b-512e-85b8-cb03602f9690",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.4,
+            75.8
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_IO_EN",
+              "096c4043-e2a2-59f2-aa1f-68425f958327",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "pad": "J107.3",
+      "xy": [
+        4.0,
+        86.3
+      ],
+      "layer": "B.Cu",
+      "accepted_finite_geometry": false,
+      "tested_candidates": 22,
+      "rejections": [
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.399,
+            86.901
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "1729f690-f39d-555c-8eb6-9db282e45440",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "9fb02227-e3a4-53cc-86e0-636a1dd4dceb",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.399,
+            85.699
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "R501.2",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.85,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "e3de0dfa-e3f7-5b51-b5f0-47127de8a800",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.15,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "0d0cd4c3-7af3-511c-8d8a-d8292fa454ad",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "1729f690-f39d-555c-8eb6-9db282e45440",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.1,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "e3de0dfa-e3f7-5b51-b5f0-47127de8a800",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.9,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "0d0cd4c3-7af3-511c-8d8a-d8292fa454ad",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.778,
+            85.522
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "3bf70613-a41f-5561-834e-c97abe9c62b9",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "C503.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.222,
+            85.522
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.3",
+              "GND",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.778,
+            87.078
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "e3de0dfa-e3f7-5b51-b5f0-47127de8a800",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.222,
+            87.078
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.6,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SCL",
+              "6e83a279-2b5e-5948-b130-5f70260c1389",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.4,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.99,
+            85.31
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.01,
+            85.31
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            4.99,
+            87.29
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            3.01,
+            87.29
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "603ccde8-34d2-51ed-9247-a4eb8aeeb854",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.202,
+            87.502
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.798,
+            87.502
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "603ccde8-34d2-51ed-9247-a4eb8aeeb854",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.202,
+            85.098
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.798,
+            85.098
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            5.7,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "target": "new_plane_via",
+          "via": true,
+          "xy": [
+            2.3,
+            86.3
+          ],
+          "first_errors": [
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "AON_I2C_SDA",
+              "78759c02-dd5a-5d0d-ad9d-b8f6f08ace77",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "new": [
+    {
+      "target_pad": "R104.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        4.325,
+        1.7
+      ],
+      "b": [
+        4.926,
+        1.099
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R104.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        4.926,
+        1.099
+      ],
+      "b": [
+        4.926,
+        1.099
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R216.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        8.325,
+        28.0
+      ],
+      "b": [
+        8.325,
+        26.0
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R214.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        2.9,
+        33.725
+      ],
+      "b": [
+        3.501,
+        34.326
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R214.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        3.501,
+        34.326
+      ],
+      "b": [
+        3.501,
+        34.326
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R224.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        2.325,
+        39.1
+      ],
+      "b": [
+        2.425,
+        36.8625
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R228.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        2.325,
+        40.9
+      ],
+      "b": [
+        2.325,
+        39.1
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R230.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        8.325,
+        40.9
+      ],
+      "b": [
+        7.625,
+        41.6
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R230.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        7.625,
+        41.6
+      ],
+      "b": [
+        7.625,
+        43.1375
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R231.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        11.325,
+        40.9
+      ],
+      "b": [
+        11.125,
+        42.2375
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R225.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        5.325,
+        43.3
+      ],
+      "b": [
+        5.325,
+        44.4
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R225.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        5.325,
+        44.4
+      ],
+      "b": [
+        5.325,
+        44.4
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R226.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        8.325,
+        44.0
+      ],
+      "b": [
+        9.315,
+        44.99
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R226.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        9.315,
+        44.99
+      ],
+      "b": [
+        9.315,
+        44.99
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R227.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        11.325,
+        44.0
+      ],
+      "b": [
+        11.125,
+        42.2375
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R220.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        2.85,
+        45.0
+      ],
+      "b": [
+        2.825,
+        43.1375
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R206.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        9.825,
+        46.0
+      ],
+      "b": [
+        9.315,
+        44.99
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R233.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        2.325,
+        50.9
+      ],
+      "b": [
+        2.926,
+        50.299
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R233.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        2.926,
+        50.299
+      ],
+      "b": [
+        2.926,
+        50.299
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R234.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        8.325,
+        50.9
+      ],
+      "b": [
+        8.926,
+        51.501
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R234.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        8.926,
+        51.501
+      ],
+      "b": [
+        8.926,
+        51.501
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R232.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        11.425,
+        50.9
+      ],
+      "b": [
+        11.125,
+        52.2375
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R221.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        3.825,
+        56.0
+      ],
+      "b": [
+        3.224,
+        56.601
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R221.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        3.224,
+        56.601
+      ],
+      "b": [
+        3.224,
+        56.601
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R222.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        6.825,
+        56.0
+      ],
+      "b": [
+        5.4,
+        55.0
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "J104.3",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        10.0,
+        56.6
+      ],
+      "b": [
+        9.399,
+        57.201
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "J104.3",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        9.399,
+        57.201
+      ],
+      "b": [
+        9.399,
+        57.201
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R223.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "a": [
+        6.825,
+        58.6
+      ],
+      "b": [
+        5.623,
+        57.398
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R223.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        5.623,
+        57.398
+      ],
+      "b": [
+        5.623,
+        57.398
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "target_pad": "R235.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        11.425,
+        60.6
+      ],
+      "b": [
+        11.125,
+        58.8625
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R237.2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        5.325,
+        62.0
+      ],
+      "b": [
+        5.926,
+        62.601
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "target_pad": "R237.2",
+      "type": "via",
+      "net": "GND",
+      "layer": "F.Cu",
+      "a": [
+        5.926,
+        62.601
+      ],
+      "b": [
+        5.926,
+        62.601
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    }
+  ],
+  "pending": "J202 six targets separately planned; true refilled physical/DRC/courtyard evidence required before considering connections proven"
+}

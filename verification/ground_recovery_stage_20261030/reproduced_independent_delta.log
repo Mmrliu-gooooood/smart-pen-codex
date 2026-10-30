@@ -1,0 +1,203 @@
+{
+  "reference_tests": 836,
+  "additional_old_signal_losses": [],
+  "parts": {
+    "U205": {
+      "value": "SN74LVC1G14DCKR",
+      "footprint": "SmartPenIO:TI_DCK0005A_Schmitt_OfficialLand",
+      "xy_mm": [
+        3.0,
+        69.0
+      ],
+      "rotation": 0.0,
+      "mpn": "",
+      "pads": [
+        {
+          "number": "1",
+          "net": "unconnected-(U205-NC-Pad1)",
+          "xy_mm": [
+            1.9,
+            68.35
+          ],
+          "size_mm": [
+            0.95,
+            0.4
+          ]
+        },
+        {
+          "number": "2",
+          "net": "ISO_GATE",
+          "xy_mm": [
+            1.9,
+            69.0
+          ],
+          "size_mm": [
+            0.95,
+            0.4
+          ]
+        },
+        {
+          "number": "3",
+          "net": "GND",
+          "xy_mm": [
+            1.9,
+            69.65
+          ],
+          "size_mm": [
+            0.95,
+            0.4
+          ]
+        },
+        {
+          "number": "4",
+          "net": "CAM_ISO_OE_N",
+          "xy_mm": [
+            4.1,
+            69.65
+          ],
+          "size_mm": [
+            0.95,
+            0.4
+          ]
+        },
+        {
+          "number": "5",
+          "net": "3V3_AON",
+          "xy_mm": [
+            4.1,
+            68.35
+          ],
+          "size_mm": [
+            0.95,
+            0.4
+          ]
+        }
+      ]
+    },
+    "C209": {
+      "value": "100nF 16V X7R +/-10%",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "xy_mm": [
+        5.55,
+        68.85
+      ],
+      "rotation": -90.0,
+      "mpn": "",
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "xy_mm": [
+            5.55,
+            68.37
+          ],
+          "size_mm": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy_mm": [
+            5.55,
+            69.33
+          ],
+          "size_mm": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R202": {
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "xy_mm": [
+        6.0,
+        72.0
+      ],
+      "rotation": 0.0,
+      "mpn": "",
+      "pads": [
+        {
+          "number": "1",
+          "net": "ISO_GATE",
+          "xy_mm": [
+            5.175,
+            72.0
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy_mm": [
+            6.825,
+            72.0
+          ],
+          "size_mm": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    }
+  },
+  "native_file_delta": [
+    {
+      "path": "mainboard_revD.kicad_pcb",
+      "before": "3276f04433c8ee3759f963fdc133200aee0b398ec6009e31a82fd595ab2f4328",
+      "after": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0"
+    }
+  ],
+  "parent_files": 54,
+  "candidate_files": 54,
+  "removed_copper": [],
+  "added_copper": [
+    "0d7e8281-8b5e-59bb-a3f9-352e984ca920",
+    "228f6530-25d7-5e90-a87c-5a147b425240",
+    "2ba7eefd-53f3-5614-9347-6f6a60389e19",
+    "2fe22296-ef40-56fc-b1f5-e73317369e4b",
+    "34656103-32d7-50c1-8969-acda58cc33c8",
+    "4685856c-5d5a-5d0f-b720-0d1ac1fe0aa9",
+    "532b85a6-cc98-5f7e-88e0-ff057f6252a9",
+    "53e22dd2-3ea8-5ddd-a5cd-3ae1cbc8ff23",
+    "5636ceaa-f47e-5261-9b2a-4cf292d02e07",
+    "56c97945-11ae-5d0d-b256-22fda33eb036",
+    "7052cc48-6ce5-509b-bab1-c960c9fe51d7",
+    "7ff678a7-1c5c-5936-80e5-af6017e6323e",
+    "a29b32ac-1885-5348-bfd1-32f5f7e458c7",
+    "a6ea17de-ff4b-58f5-a397-93fecf075bab",
+    "b3efcc36-504a-5cc7-8b94-d7de126a54cc",
+    "b53f590b-3885-5cbb-b7d0-c9d3c7f51887",
+    "ba18b306-28c3-5779-ae4b-c94f55c9ad42",
+    "ca6aa442-755c-577f-83c3-c7a9e006a1f7",
+    "ccec7abd-9227-524b-8908-ffe96b70a584",
+    "cdb2d666-4371-5179-ae44-aa3855000817",
+    "ce8dc3e7-adcf-5997-96d3-2de230c44a49",
+    "d58423b6-ed27-5e3b-bb81-c8476cafcaac",
+    "d86069e1-6c74-58ed-a1f0-3474706a4fe1",
+    "df4d6e41-97a9-5686-bc1f-6dbd43835136",
+    "e7f49dc8-862a-55e7-9f2f-02de85bc0b29",
+    "ed7f4331-b99a-5fe1-85cf-88ea6cdc417d",
+    "f1f84291-21f3-5b86-b168-2bbabd893cf4",
+    "f96c5d8e-9d4b-5262-8ec4-4f6b280e5ab9"
+  ],
+  "method": "Independently implemented actual polygon comparisons, no masks, one-shot guarded native unfracture; native part geometry extracted directly."
+}
+17:47:40: Debug: Adding duplicate image handler for 'PNG file'
+17:47:40: Debug: Adding duplicate image handler for 'JPEG file'
+17:47:40: Debug: Adding duplicate image handler for 'TIFF file'
+17:47:40: Debug: Adding duplicate image handler for 'GIF file'
+17:47:40: Debug: Adding duplicate image handler for 'PNM file'
+17:47:40: Debug: Adding duplicate image handler for 'PCX file'
+17:47:40: Debug: Adding duplicate image handler for 'IFF file'
+17:47:40: Debug: Adding duplicate image handler for 'Windows icon file'
+17:47:40: Debug: Adding duplicate image handler for 'Windows cursor file'
+17:47:40: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+17:47:40: Debug: Adding duplicate image handler for 'TGA file'
+17:47:40: Debug: Adding duplicate image handler for 'XPM file'

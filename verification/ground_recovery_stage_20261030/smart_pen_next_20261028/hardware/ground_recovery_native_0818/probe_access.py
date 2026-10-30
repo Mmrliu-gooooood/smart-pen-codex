@@ -1,0 +1,10 @@
+from pathlib import Path
+import os,json,math,hashlib
+os.environ['XDG_CONFIG_HOME']='/tmp/groundprobe0818'
+import pcbnew as p
+D=Path(__file__).resolve().parent;b=p.LoadBoard(str(D/'native/mainboard_revD.kicad_pcb'));m=json.loads((D/'materialization.json').read_text());v=next(t for t in b.GetTracks()if t.m_Uuid.AsString()==next(r['uuid']for r in m['mapping']if r['target_pad']=='J104.3'and r['type']=='via'));fp=next(f for f in b.GetFootprints()if f.GetReference()=='J104');pad=next(q for q in fp.Pads()if q.GetNumber()=='3');xy=lambda q:[q.GetPosition().x/1e6,q.GetPosition().y/1e6]
+def req(c,m):
+ if not c:raise RuntimeError(m)
+req(pad.GetSize()==p.VECTOR2I(1000000,1000000)and pad.GetShape()==p.PAD_SHAPE_CIRCLE,'actual circle pad1mm');distance=math.dist(xy(v),xy(pad));edge=distance-.5-v.GetWidth(p.F_Cu)/2e6;req(edge>.19,'probe copper does not touch new annulus')
+r={'status':'PROBE_COPPER_ACCESS_SCREEN_NOT_ASSEMBLY_APPROVAL','pcb_sha256':hashlib.sha256((D/'native/mainboard_revD.kicad_pcb').read_bytes()).hexdigest(),'footprint':fp.GetFPIDAsString(),'pad3':{'xy_mm':xy(pad),'actual_copper_diameter_mm':1,'copper_layer':'B.Cu','no_paste':not pad.IsOnLayer(p.B_Paste)},'new_ground_via':{'uuid':v.m_Uuid.AsString(),'xy_mm':xy(v),'diameter_mm':v.GetWidth(p.F_Cu)/1e6,'drill_mm':v.GetDrillValue()/1e6},'center_distance_mm':distance,'actual_pad_to_via_copper_edge_mm':edge,'pad_to_drill_edge_mm':distance-.5-v.GetDrillValue()/2e6,'courtyard_classification':'Probe3_NoPaste rectangular probe-access envelope; not a selected fitted connector body','physical_short_or_pad_obstruction':False,'remaining_gates':['Probe tip diameter, positioning tolerance, fixture/enclosure access and contact force not qualified','Same-net via still must not be used as alternative probe contact; keep access aim centered on actual pad','Soldermask expansion, via tenting and drill/registration tolerance require manufacturer definition; native geometry is not actual process proof','All other existing probe pad geometry and source nets unchanged']}
+print(json.dumps(r,indent=2))
