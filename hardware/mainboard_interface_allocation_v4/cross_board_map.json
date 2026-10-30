@@ -1,0 +1,395 @@
+{
+  "links": [
+    {
+      "main": [
+        "J103",
+        "1",
+        "3V3_AON"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "1",
+        "3V3_AON"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J103",
+        "2",
+        "GND"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "2",
+        "GND"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J103",
+        "3",
+        "AON_I2C_SCL"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "3",
+        "AON_I2C_SCL"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J103",
+        "4",
+        "AON_I2C_SDA"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "4",
+        "AON_I2C_SDA"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J103",
+        "5",
+        "PICKUP_INT_N"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "5",
+        "PICKUP_INT_N"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J103",
+        "6",
+        "NIB_CONTACT_N"
+      ],
+      "block": [
+        "pickup_contact",
+        "J1",
+        "6",
+        "NIB_CONTACT_N"
+      ],
+      "status": "source identity exact; harness unassembled"
+    },
+    {
+      "main": [
+        "J105",
+        "1",
+        "BATTERY_ADC"
+      ],
+      "block": [
+        "battery_adc_candidate",
+        "J2",
+        "1",
+        "BATTERY_ADC"
+      ],
+      "status": "safe frontend output only; JP1/JP2 remain OPEN, hardware PG unqualified"
+    },
+    {
+      "main": [
+        "J105",
+        "2",
+        "GND"
+      ],
+      "block": [
+        "battery_adc_candidate",
+        "J2",
+        "2",
+        "GND"
+      ],
+      "status": "safe frontend output only; JP1/JP2 remain OPEN, hardware PG unqualified"
+    },
+    {
+      "main": [
+        "J110",
+        "1",
+        "3V3_AON"
+      ],
+      "block": [
+        "camera_power_gate",
+        "U1",
+        "1",
+        "/3V3_AON"
+      ],
+      "status": "semantic receiving net verified; NO physical power-board input landing implemented/approved; cannot wire to unknown module",
+      "explicit_sheet_local_alias": "/3V3_AON = 3V3_AON"
+    },
+    {
+      "main": [
+        "J110",
+        "2",
+        "GND"
+      ],
+      "block": [
+        "camera_power_gate",
+        "U1",
+        "2",
+        "/GND"
+      ],
+      "status": "semantic receiving net verified; NO physical power-board input landing implemented/approved; cannot wire to unknown module",
+      "explicit_sheet_local_alias": "/GND = GND"
+    },
+    {
+      "main": [
+        "J110",
+        "3",
+        "CAM_PWR_EN"
+      ],
+      "block": [
+        "camera_power_gate",
+        "R2",
+        "1",
+        "/CAM_PWR_EN"
+      ],
+      "status": "semantic receiving net verified; NO physical power-board input landing implemented/approved; cannot wire to unknown module",
+      "explicit_sheet_local_alias": "/CAM_PWR_EN = CAM_PWR_EN"
+    }
+  ],
+  "J104": "camera-off UART service only; no external power; probe jig not qualified",
+  "J202": "see pin_contract exact18\u219224 migration and new customflex only; unknown30pin module prohibited",
+  "unresolved_other_block_supplies": [
+    "pickup3V3 fromJ103 candidate must be power-budgeted",
+    "ADC J1 protectedpack/J3AON/J4hardwarePG are existing block dependencies, NOT connected by J105",
+    "power gate lacks physical inputconnector/verified headregulators; JP1 remains OPEN"
+  ],
+  "block_source_versions": {
+    "battery_adc_candidate": {
+      "existing_source": "hardware/battery_adc_candidate/battery_adc_candidate.xml",
+      "sha256": "5eafc0f72bd1968ce186934be5970bba183dcec26ec32d2a3c5a3966e500bd88",
+      "native_components": [
+        {
+          "identity": "battery_adc_candidate:C1",
+          "reference": "C1",
+          "value": "100nF 10% effective capacitance TBD",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:C2",
+          "reference": "C2",
+          "value": "100nF",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:J1",
+          "reference": "J1",
+          "value": "Protected pack / NOT raw cell",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J2",
+          "reference": "J2",
+          "value": "MAIN GPIO4 / pad9",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J3",
+          "reference": "J3",
+          "value": "AON supply",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J4",
+          "reference": "J4",
+          "value": "Hardware PG ONLY / NOT GPIO",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:JP1",
+          "reference": "JP1",
+          "value": "OPEN commissioning bridge",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+        },
+        {
+          "identity": "battery_adc_candidate:JP2",
+          "reference": "JP2",
+          "value": "OPEN commissioning bridge",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+        },
+        {
+          "identity": "battery_adc_candidate:R1",
+          "reference": "R1",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R2",
+          "reference": "R2",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R3",
+          "reference": "R3",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R4",
+          "reference": "R4",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:U1",
+          "reference": "U1",
+          "value": "TMUX1511PWR",
+          "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    },
+    "camera_power_gate": {
+      "existing_source": "hardware/power_safety/power_safety_NOFAB.xml",
+      "sha256": "9cc335daaf15744271e2ce85099805561eda16f204b8b45caaa886bf6c467693",
+      "native_components": [
+        {
+          "identity": "camera_power_gate:C1",
+          "reference": "C1",
+          "value": "10uF 10V X7R",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:C2",
+          "reference": "C2",
+          "value": "1uF 10V X7R",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:C3",
+          "reference": "C3",
+          "value": "1nF 25V C0G",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:J1",
+          "reference": "J1",
+          "value": "APPROVED LOAD / TBD",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:JP1",
+          "reference": "JP1",
+          "value": "OPEN / DO NOT BRIDGE",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R1",
+          "reference": "R1",
+          "value": "100k 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R2",
+          "reference": "R2",
+          "value": "1k 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R3",
+          "reference": "R3",
+          "value": "100R 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:TP1",
+          "reference": "TP1",
+          "value": "ENABLE MEASURE",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:U1",
+          "reference": "U1",
+          "value": "TPS22918DBVR",
+          "footprint": ""
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    },
+    "pickup_contact": {
+      "existing_source": "../smart_pen_rebuild_20261028/hardware/pickup_contact/pickup_contact.xml",
+      "sha256": "a27a8c5a2c61ba9dbf6dcd5e4fe0bc559e7c0a25c06b6363bfcb0e93cce32dac",
+      "native_components": [
+        {
+          "identity": "pickup_contact:C1",
+          "reference": "C1",
+          "value": "100n X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C2",
+          "reference": "C2",
+          "value": "100n X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C3",
+          "reference": "C3",
+          "value": "1u X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C4",
+          "reference": "C4",
+          "value": "1n C0G",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:J1",
+          "reference": "J1",
+          "value": "HOST INTERNAL PADS",
+          "footprint": "Pen:Host_6"
+        },
+        {
+          "identity": "pickup_contact:J2",
+          "reference": "J2",
+          "value": "DRY CONTACT PADS",
+          "footprint": "Pen:Contact_2"
+        },
+        {
+          "identity": "pickup_contact:R1",
+          "reference": "R1",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R2",
+          "reference": "R2",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R3",
+          "reference": "R3",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R4",
+          "reference": "R4",
+          "value": "1k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:U1",
+          "reference": "U1",
+          "value": "LIS2DW12TR",
+          "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm"
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "status": "NOFAB source/footprint study; not integrated or routed",
+  "ports": {
+    "J103": {
+      "value": "PICKUP_INTERNAL_WIRELANDS_CANDIDATE",
+      "fp": "WireLands6_2x3_P2.4",
+      "nets": [
+        "3V3_AON",
+        "GND",
+        "AON_I2C_SCL",
+        "AON_I2C_SDA",
+        "PICKUP_INT_N",
+        "NIB_CONTACT_N"
+      ]
+    },
+    "J104": {
+      "value": "UART_SERVICE_CAMERA_OFF_ONLY",
+      "fp": "Probe3_P1.8_NoPaste",
+      "nets": [
+        "CAM_RESET_UART_TX",
+        "CAM_PWDN_UART_RX",
+        "GND"
+      ]
+    },
+    "J105": {
+      "value": "ADC_SAFE_FRONTEND_LINK_NOT_RAW_BATTERY",
+      "fp": "WireLands2_P2.4",
+      "nets": [
+        "BATTERY_ADC",
+        "GND"
+      ]
+    },
+    "J202": {
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "fp": "Molex_5034802400_24P_P0.5_CANDIDATE",
+      "nets": [
+        "GND",
+        "SENS_D0",
+        "SENS_D1",
+        "GND",
+        "SENS_D2",
+        "SENS_D3",
+        "GND",
+        "SENS_D4",
+        "SENS_D5",
+        "GND",
+        "SENS_D6",
+        "SENS_D7",
+        "GND",
+        "SENS_PCLK",
+        "SENS_VSYNC",
+        "SENS_HREF",
+        "GND",
+        "SENS_EXTCLK",
+        "SENS_XSHUTDN_N",
+        "SENS_TRIG_IN",
+        "SENS_SCL",
+        "SENS_SDA",
+        "SENS_VIO_1V8",
+        "GND"
+      ]
+    },
+    "J110": {
+      "value": "HEAD_POWER_INPUT_TO_GATED_BOARD_ONLY",
+      "fp": "WireLands3_P2.4",
+      "nets": [
+        "3V3_AON",
+        "GND",
+        "CAM_PWR_EN"
+      ]
+    }
+  },
+  "J202_semantic_migration": {
+    "old18": {
+      "1": "SENS_D0",
+      "2": "SENS_D1",
+      "3": "SENS_D2",
+      "4": "SENS_D3",
+      "5": "SENS_D4",
+      "6": "SENS_D5",
+      "7": "SENS_D6",
+      "8": "SENS_D7",
+      "9": "SENS_PCLK",
+      "10": "SENS_VSYNC",
+      "11": "SENS_HREF",
+      "12": "SENS_EXTCLK",
+      "13": "SENS_XSHUTDN_N",
+      "14": "SENS_TRIG_IN",
+      "15": "SENS_SCL",
+      "16": "SENS_SDA",
+      "17": "SENS_VIO_1V8",
+      "18": "GND"
+    },
+    "new24": {
+      "1": "GND",
+      "2": "SENS_D0",
+      "3": "SENS_D1",
+      "4": "GND",
+      "5": "SENS_D2",
+      "6": "SENS_D3",
+      "7": "GND",
+      "8": "SENS_D4",
+      "9": "SENS_D5",
+      "10": "GND",
+      "11": "SENS_D6",
+      "12": "SENS_D7",
+      "13": "GND",
+      "14": "SENS_PCLK",
+      "15": "SENS_VSYNC",
+      "16": "SENS_HREF",
+      "17": "GND",
+      "18": "SENS_EXTCLK",
+      "19": "SENS_XSHUTDN_N",
+      "20": "SENS_TRIG_IN",
+      "21": "SENS_SCL",
+      "22": "SENS_SDA",
+      "23": "SENS_VIO_1V8",
+      "24": "GND"
+    },
+    "old30pin_custom_module": "UNVERIFIED / mechanically and electrically incompatible / no direct connection",
+    "identity_mapping": "by exact net name, never pin number",
+    "explicit_rows": [
+      {
+        "old_ref": "J202",
+        "old_pin": "1",
+        "old_net": "SENS_D0",
+        "new_ref": "J202",
+        "new_pins": [
+          "2"
+        ],
+        "new_net": "SENS_D0",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "2",
+        "old_net": "SENS_D1",
+        "new_ref": "J202",
+        "new_pins": [
+          "3"
+        ],
+        "new_net": "SENS_D1",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "3",
+        "old_net": "SENS_D2",
+        "new_ref": "J202",
+        "new_pins": [
+          "5"
+        ],
+        "new_net": "SENS_D2",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "4",
+        "old_net": "SENS_D3",
+        "new_ref": "J202",
+        "new_pins": [
+          "6"
+        ],
+        "new_net": "SENS_D3",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "5",
+        "old_net": "SENS_D4",
+        "new_ref": "J202",
+        "new_pins": [
+          "8"
+        ],
+        "new_net": "SENS_D4",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "6",
+        "old_net": "SENS_D5",
+        "new_ref": "J202",
+        "new_pins": [
+          "9"
+        ],
+        "new_net": "SENS_D5",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "7",
+        "old_net": "SENS_D6",
+        "new_ref": "J202",
+        "new_pins": [
+          "11"
+        ],
+        "new_net": "SENS_D6",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "8",
+        "old_net": "SENS_D7",
+        "new_ref": "J202",
+        "new_pins": [
+          "12"
+        ],
+        "new_net": "SENS_D7",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "9",
+        "old_net": "SENS_PCLK",
+        "new_ref": "J202",
+        "new_pins": [
+          "14"
+        ],
+        "new_net": "SENS_PCLK",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "10",
+        "old_net": "SENS_VSYNC",
+        "new_ref": "J202",
+        "new_pins": [
+          "15"
+        ],
+        "new_net": "SENS_VSYNC",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "11",
+        "old_net": "SENS_HREF",
+        "new_ref": "J202",
+        "new_pins": [
+          "16"
+        ],
+        "new_net": "SENS_HREF",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "12",
+        "old_net": "SENS_EXTCLK",
+        "new_ref": "J202",
+        "new_pins": [
+          "18"
+        ],
+        "new_net": "SENS_EXTCLK",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "13",
+        "old_net": "SENS_XSHUTDN_N",
+        "new_ref": "J202",
+        "new_pins": [
+          "19"
+        ],
+        "new_net": "SENS_XSHUTDN_N",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "14",
+        "old_net": "SENS_TRIG_IN",
+        "new_ref": "J202",
+        "new_pins": [
+          "20"
+        ],
+        "new_net": "SENS_TRIG_IN",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "15",
+        "old_net": "SENS_SCL",
+        "new_ref": "J202",
+        "new_pins": [
+          "21"
+        ],
+        "new_net": "SENS_SCL",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "16",
+        "old_net": "SENS_SDA",
+        "new_ref": "J202",
+        "new_pins": [
+          "22"
+        ],
+        "new_net": "SENS_SDA",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "17",
+        "old_net": "SENS_VIO_1V8",
+        "new_ref": "J202",
+        "new_pins": [
+          "23"
+        ],
+        "new_net": "SENS_VIO_1V8",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      },
+      {
+        "old_ref": "J202",
+        "old_pin": "18",
+        "old_net": "GND",
+        "new_ref": "J202",
+        "new_pins": [
+          "1",
+          "4",
+          "7",
+          "10",
+          "13",
+          "17",
+          "24"
+        ],
+        "new_net": "GND",
+        "version_change": "18-semantic -> 24-physical; not numerical continuity"
+      }
+    ]
+  },
+  "head_power": {
+    "new_mainboard_J110": {
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "CAM_PWR_EN"
+    },
+    "destination": "separate head power-safety input, TPS22918 + OPEN commissioning JP1; never directly unknown camera",
+    "SENS_VIO_1V8": "return/reference from verified head VIO domain, not a camera power input"
+  },
+  "mechanical_candidate": {
+    "J202_side": "B.Cu",
+    "signal_row_center_mm": [
+      7,
+      89
+    ],
+    "FPC_exit": "toward increasing board y (nib); no RF corner crossing",
+    "nominal_body_mm": [
+      13.7,
+      4,
+      1
+    ],
+    "closed_body_screen_with_margin_mm": [
+      13.9,
+      4.2,
+      1.35
+    ],
+    "open_actuator_height_nominal_mm": 1.87,
+    "open_screen_above_copper_mm": 2.22,
+    "FPC_termination_width_mm": 12.5,
+    "FPC_termination_thickness_mm": ".30 +/- .05",
+    "body_near_edge_gate": "width nearly14; not placed or approved; toe/courtyard and latch access must be checked",
+    "native_B_placement_operation": "add footprint to BOARD, setPosition(7,89), Flip(position,False) gives B.Cu orientation180 with pin1 at(12.75,89), pin24(1.25,89)",
+    "B_native_signal_row_pin1_mm": [
+      12.75,
+      89
+    ],
+    "B_native_signal_row_pin24_mm": [
+      1.25,
+      89
+    ],
+    "body_bbox_board_xy_mm": [
+      0.05,
+      88.5,
+      13.95,
+      92.5
+    ],
+    "conservative_closed_bbox_board_xy_mm": [
+      0.05,
+      88.4,
+      13.95,
+      92.6
+    ],
+    "conservative_open_sweep_bbox_board_xy_mm": [
+      0.05,
+      88,
+      13.95,
+      93.5
+    ],
+    "open_tool_access": "actuator assembled before enclosing shell; tool/finger access not qualified",
+    "B_face_pen_Y_mm": 2.264793,
+    "closed_pen_Y_interval_mm": [
+      0.914793,
+      2.264793
+    ],
+    "open_pen_Y_interval_mm": [
+      0.044793,
+      2.264793
+    ],
+    "pen_Z_transform": "Z=127-PCB_y",
+    "closed_pen_Z_interval_mm": [
+      34.4,
+      38.6
+    ]
+  },
+  "supply_and_adc_gates": [
+    "J105 is unprotected MCU input: no raw battery",
+    "J110 supplies only the known gated-power candidate input; JP1 remains open",
+    "No head regulators/VIO sequence or module pinout assumed"
+  ],
+  "flex_contract": {
+    "status": "UNROUTED_CUSTOM_FLEX_INTERFACE_REQUIREMENT_NOT_PURCHASABLE_GENERIC_FFC",
+    "A": "new mainboard connector only",
+    "B": "future carrier must adopt this defined interface, not existing30pin module",
+    "signal_exposure": "same designated copper face at both ends in unfolded no-twist drawing",
+    "view": "looking at designated exposed copper face; trace columns numbered1..24 left-to-right at both ends",
+    "A_to_B": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21",
+      "22": "22",
+      "23": "23",
+      "24": "24"
+    },
+    "backside_contact_zone": "NO EXPOSED COPPER OR GND; insulating cover/stiffener; dual-contact connector hazard",
+    "ground_reference": "second-layer ground plane connected to7defined grounds; end transition/coverlay/stiffener require flex vendor qualification",
+    "insertion": "0.30+/-0.05mm finished terminal thickness; 2mm minimum exposed length; >=3mm stiffener; inspect pin1 and continuity BEFORE any power",
+    "unknown30pin_adapter": "PROHIBITED unless separately versioned measured mapping and rails approved",
+    "route_length": "not frozen; derived from final actual board/head geometry, no long discrete DVP wires"
+  },
+  "physical_wire_envelopes": {
+    "J103": {
+      "per_wire_xy_mm": [
+        1.8,
+        2.2
+      ],
+      "height_above_copper_mm": 2,
+      "route": "axial; housing strain relief; coordinates pending integrated placement"
+    },
+    "J105": {
+      "per_wire_xy_mm": [
+        1.8,
+        2.2
+      ],
+      "height_above_copper_mm": 2,
+      "route": "axial; housing strain relief; coordinates pending integrated placement"
+    },
+    "J110": {
+      "per_wire_xy_mm": [
+        1.8,
+        2.2
+      ],
+      "height_above_copper_mm": 2,
+      "route": "axial; housing strain relief; coordinates pending integrated placement"
+    }
+  },
+  "physical_probe_envelopes": {
+    "J104": {
+      "pad_diameter_mm": 1,
+      "pitch_mm": 1.8,
+      "assembled_fixture_height": "not fixed; shell opened for service; no resident wire assumed",
+      "power_output_allowed": false
+    }
+  }
+}
