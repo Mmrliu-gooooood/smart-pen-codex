@@ -1,0 +1,11 @@
+{
+  "excluded": [
+    "**/__pycache__/**",
+    "**/*.kicad_prl",
+    "replay/native/** (duplicate exact replay)",
+    "native_negative/*/native/** (script-reproducible counterfactual source copies)",
+    "counterfactual_restore_parent/native/** (exact parent source copy)"
+  ],
+  "status": "NOFAB_NOPOWER_LOCAL_DOMAINS_ONLY",
+  "note": "Root planning models and rejected logs explicitly retained as nonnative planning/tool failure evidence, not successful routes. No SENS external-input connection claimed."
+}

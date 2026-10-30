@@ -1,0 +1,36 @@
+{
+  "source": {
+    "C207": {
+      "value": "100n X7R",
+      "package": "Capacitor_SMD:C_0603_1608Metric",
+      "xy": [
+        2.0,
+        65.0
+      ]
+    },
+    "C208": {
+      "value": "100n X7R",
+      "package": "Capacitor_SMD:C_0603_1608Metric",
+      "xy": [
+        10.0,
+        65.0
+      ]
+    }
+  },
+  "proposed_swap_xy_only": true,
+  "foreign_net_conflicts": [
+    {
+      "pad": "C208.1",
+      "other": "65eab90d-6060-4683-a290-98053d52e2b9",
+      "net": "3V3_AON",
+      "layer": "F.Cu"
+    },
+    {
+      "pad": "C208.1",
+      "other": "4840f47d-9bac-414c-95e5-5f939fd72d28",
+      "net": "3V3_AON",
+      "layer": "F.Cu"
+    }
+  ],
+  "native_saved": false
+}

@@ -1,0 +1,20 @@
+10:49:54: Debug: Adding duplicate image handler for 'PNG file'
+10:49:54: Debug: Adding duplicate image handler for 'JPEG file'
+10:49:54: Debug: Adding duplicate image handler for 'TIFF file'
+10:49:54: Debug: Adding duplicate image handler for 'GIF file'
+10:49:54: Debug: Adding duplicate image handler for 'PNM file'
+10:49:54: Debug: Adding duplicate image handler for 'PCX file'
+10:49:54: Debug: Adding duplicate image handler for 'IFF file'
+10:49:54: Debug: Adding duplicate image handler for 'Windows icon file'
+10:49:54: Debug: Adding duplicate image handler for 'Windows cursor file'
+10:49:54: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+10:49:54: Debug: Adding duplicate image handler for 'TGA file'
+10:49:54: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/translator_domain_independent_review_0149/independent.py", line 54, in <module>
+    pad=next(q for q in fp[ref].Pads()if q.GetNumber()==pin);need(pad.GetNetname()==net,'domain net');need(pad.GetPinFunction()==func,'pin function '+ref+pin);rows.append({'ref':ref,'pin':pin,'function':pad.GetPinFunction(),'net':net})
+                                                                                                      ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/translator_domain_independent_review_0149/independent.py", line 8, in need
+    if not c:raise RuntimeError(m)
+             ^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: pin function U2011
