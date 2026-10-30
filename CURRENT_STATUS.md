@@ -1,44 +1,31 @@
-# 阶段备份与当前选用版本
+# 当前状态：冻结研究快照，不是可制作成品
 
-日期：2026-10-29。**NOFAB：不是最终制造包，不是消费级成品验收。**
+更新日期：2026-10-30。**全产品 NOFAB / NOPOWER；不得据此制板、组装上电或认定消费级验收通过。**
 
-本次备份保存经过身份校验的原生工程、模型、代码、试验和独立审查。历史失败与后继版本并存，是为了可追溯；不得任选某个旧 PCB、BOM、线序或 CAD 混搭制造。以下状态只针对明确列出的快照，未纳入仍在修改的试验目录。
+本页是 r13–r25 本地追加快照的入口。目录中的旧板、旧模型、失败方案和后继版本是可追溯验证证据，**不是多套同时采用的硬件**；不能任选PCB/BOM/规则/库混搭。旧“14未连”等历史数字不是当前状态。
 
-## 从哪里看
+## 本次最新已独立审查硬件
 
-| 内容 | 本批入口 | 已有证据与边界 |
-|---|---|---|
-| 当前主板与 Rev B 电源模式映射 | [J107、BLE 与接收端阶段](verification/ble_pc_and_mode_stage_20261029/README_ZH.md) | J107 三端静态连通、独立审查；完整 DRC **17 finding / 38 unconnected / parity 0**，其中仍有 **4 项 shorting finding**。不是整板通过。 |
-| 相机电源门控及前代差量 | [门控完整静态阶段](verification/gate_full_stage_20261029/README_ZH.md) | 六门控网络、旧 pad 连接、默认下拉与 JP301 物理开路已核；动态、回灌、CT/QOD、真实相机负载和测试工具访问仍未验证。 |
-| 电源、IMU 源与机械台架 | [原生硬件与机械阶段](verification/hardware_mechanical_stage_20261029/README_ZH.md) | 正确源/BOM/布局与局部几何检查；共同基准台架不是笔壳，夹紧、疲劳、材料和实际装配公差未验收。 |
-| 连续点阵解码 v3 | [v3 源与独立试验](verification/continuous_v3_experiments_20261029/README_ZH.md) | 主 340 幅合成试验中 253 次正确接受；20 幅旋转图缺完整窗口继续拒绝。仅合成证据，不是实物准确率或笔尖坐标资格。 |
-| v3 目标性能测试工程 | [目标基准](verification/continuous_v3_target_experiments_20261029/README_ZH.md) | 实际 SDK 构建、目标 ABI、主机错误路径检查；未加载设备，没有 S3 FPS、运行内存余量或功耗实测。 |
-| 实际 BLE 传输候选 | [BLE 源](verification/ble_pc_and_mode_stage_20261029/smart_pen_ble_transport_candidate_20261029/README.md) | GATT、分片、认证会话与授权/持久化分离桥；默认关闭，完整板级 provider 仍未接入，无真实手机互通。 |
-| PC 接收候选 v2 | [PC v2](verification/ble_pc_and_mode_stage_20261029/smart_pen_pc_receiver_v2_candidate_20261029/README.zh-CN.md) | 严格重组、耐久 journal 后 ACK、来源区分与断连隔离；Windows、实际无线安全状态和硬件断电耐久性未验证。NO_SENSOR 不进入正式评分。 |
-| 成本与制造路线 | [成本归档及勘误](docs/research/cost_archive_20261029/README_ZH.md) | 已列小批采购/装配条件与缺项，**尚无已证明满足两支 760 元的完整路线**。报销不自动降低产品成本。 |
+- [5ed5f0ad 原生PCB](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_native_0522/native/mainboard_revD.kicad_pcb)，[作者报告](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_native_0522/README.md)，[独立审查](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_independent_review_0543/REVIEW.md)。同目录工程、规则、源、库必须一起看；仅供研究审查，不是制造选择。
+- 完整原生 DRC **0 violation / 106 unconnected / 0 parity，exit 5**；ERC **0错误 / 1条既有警告**。零DRC violation不等于连接完成。AON **38/39**、GND **70/102**、SENS **12/12**实体pad到相应核心；源R503仍47k/RC0603FR-0747KL。
+- **新发现的时钟参考退化未放行**：EXTCLK在In2和In4各新增 **0.0017414094705 mm²**投影缺口，不能写为零。IRQ最近核心地孔距3.779302mm不证明回流合格；合并孔、小AON侵蚀岛、53条短段、courtyard、EP孔工艺、短供电逃线和MEMS应力等仍待资格验证。
+- 另有较新的 **0/96/0 工作版尚未独立审查，未纳入本次追加**；本页不把它当已审查后继或放行版本。后续若独审并冻结，应另行更新，而非改写历史证据。
 
-当前已归档主板原生文件：
+## 解码软件：保留V3，V4明确未采纳
 
-- [J107 后继 PCB](verification/ble_pc_and_mode_stage_20261029/smart_pen_next_20261028/hardware/j107_mode_port_closure/native/mainboard_revD.kicad_pcb)。请同时使用该阶段的同名工程、规则、库、源绑定和 BOM，不能只拿这一文件生产。
-- 同目录和独立审查目录保存实际命令、原始 finding、逐版本身份和剩余问题。报告中的默认 DRC 枚举与 `--all-track-errors --severity-all` 不同，比较时必须使用相同命令。本页使用完整枚举。
+- [V3冻结研究](verification/continuous_v3_experiments_20261029/README_ZH.md)保持原状；只是既有软件研究基线，不代表实物笔尖或目标FPS资格。
+- [V4投影实验及独审](verification/tilt_projective_experiment_20261030/README_ZH.md)为 **NOT_ADOPTED**，不替换V3、不接入app。旧408回归 **225正确 + 3质量合同违规接受 + 180拒绝**；3例坐标正确但违规接受旧must_reject墨线负例，不能洗成通过，也不能误称坐标错码。
+- 原8图6正确/2拒绝，120保留集37正确/83拒绝；完整复现实际exit1，唯一失败为3违规门。85项旧host零跳过、44cold/12warm、独立数值sanitizer证据不构成SDK/FPS/LSan或真实光学资格。
+- 200原像素=6mm不等于全VGA=6mm；零拷贝裁切不是缩放。全部合成针孔图不替代实际镜头、SC035图像与笔尖标定。
 
-## 仍未完成的关键事项
+## 尚未关闭的产品安全与集成问题
 
-1. **完整电路与 PCB**：剩余压力、IMU、相机及其他接口连接和旧冲突尚未闭合；状态指示、真实电池测量前端、照明及整机互连仍须系统复查。v5 的 GPIO/头部线序提案没有自动成为当前 102 实体原生源。
-2. **真实相机与光学**：用户已购 SC035HGS 定制 30Pin 模块不能按 AI 给出的线序或新 24Pin 候选直接接电。模块接口、电平、光学与 PCLK 必须核实。SC031GS 采集适配器仍在独立修订审查，**不在本批发布候选内**；不能把 SC031 初始化写入 SC035。
-3. **结构**：已归档台架/触点机构的局部碰撞检查不能替代整笔装配。目标 15–18 mm 尚未满足；19/20 mm 等是研究对照，未获得完整结构、握持、强度或制造放行。旧单体壳不是已经具备锁扣和维修入口的成品壳。
-4. **尺寸与预算冲突**：当前 RF 延长研究板长约 101.5 mm，不能继承早期 `<100 × 100 mm` 板块目标或小板优惠。制造路线、最终尺寸及完整报价仍需闭合，不能静默视为约束已满足。
-5. **实际运行与坐标资格**：Gray8 解码窗口原点不等于物理笔尖。真实镜头/笔芯/姿态标定、落笔时序、相机帧时戳含义和整条 provider 接线未实测，不能生成或认可虚假的 VALID 书写。
-6. **存储与续航**：8 MiB 分区候选的记录区约可容 63,488 个固定槽，按 60 Hz 约 17.6 分钟上限，未扣所有实际事件开销；不是 24 小时离线书写承诺。4 小时连续/1000 小时待机均未实测。
-7. **安全与制造**：充电 commissioning 保持开路。电池保护、实际电芯温区/电流、NTC 耦合及故障覆盖、功耗温升、USB 状态/回流、无线与材料等资格未完成。ERC/DRC 或软件测试不构成这些实测的替代。
+相机/板级provider仍为NULL/返回0，未建立可工作的实物采集链；未知SC035HGS定制模块的线序、电平、时钟、镜头和近距成像未资格确认，不能借SC031软件支持替代。JP301与充电commissioning保持开路，未知相机不得接电。
 
-## 软件如何使用这些目录
+电芯选型/保护/充电温度与电流、NTC耦合、热/功耗、回灌、整机接线和电池安全未资格确认。压力触点50k寿命、ESD/去抖/固件采集、J103 B52与虚拟B70.5映射、实际机械装配公差与可靠性仍待解决。完整两支760元预算、尺寸、续航、无线与材料要求均不能因归档或报销而视为满足。
 
-主目录 `firmware/` 和根 CI 是应用/便携核心基线；新的 v3 解码器、BLE 与 PC v2 保持独立候选，**没有偷偷替换整笔运行入口**。各阶段提供最小复现入口与精确来源校验；运行前阅读对应 README 和依赖说明，在临时副本生成测试输出。
+## 归档与使用
 
-- 根主机验证：`python software/verify_host.py --upstream-pc-src <digital_pen固定提交>/digital_pen_ov5640/pc/src`，依赖 `software/requirements-host.txt` 与 C 编译器。
-- 上游基线仍为 `0f8b569176c77dad34aaf83bb008eb118c9f1208`，原仓库未修改。
-- 旧目标基准的 nano printf / 64 位输出问题、PC v1 的三个缺陷均保留独立勘误/失败证据；应选明确修订后的 v3 目标基准与 PC v2，不能把旧编译通过报告当运行批准。
-- SDK 构建、合成图、host mock 与实物测试分开记录。本批没有自动刷机、相机上电、蓝牙扫描/配对、采购或制造操作。
+[IMU控制快照状态](verification/imu_control_stage_20261030/LOCAL_PUBLICATION_STATUS.json)与[V4未采纳状态](verification/tilt_projective_experiment_20261030/LOCAL_PUBLICATION_STATUS.json)分别记录各自冻结边界。每阶段source manifest、精确依赖及失败证据应一并保留。当前冻结文件内“LOCAL_STAGED”描述的是创建时状态，不会为后续上传改写其原始字节。
 
-下一阶段继续关闭实际连接、系统互连与装配问题，并将通过复核的新快照分批备份。最终放行仍以 [RELEASE_GATES](docs/system/RELEASE_GATES.md) 为准。
+本次仅准备独立本地追加树，**不宣称GitHub已更新或CI已通过**。原24批上传由另一流程处理；须待其结束且核对树/CI后，再统一发布这些追加快照。
