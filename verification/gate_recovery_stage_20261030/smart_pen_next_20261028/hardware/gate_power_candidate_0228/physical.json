@@ -1,0 +1,18 @@
+{
+  "all_layer_new_old_clearance_pass": true,
+  "same_net_pad_exclusion_pass": true,
+  "edge_rule_hole_checks_pass": true,
+  "courtyard_overlap": [],
+  "AON_antipad_actual": [
+    {
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "antipad_nominal_overlap_mm2": 0.0,
+      "center_to_copper_mm": 0.5,
+      "nominal_radius_mm": 0.45
+    }
+  ],
+  "limits": [
+    "Nominal geometry only; .05mm margin has no manufacturing tolerance qualification",
+    "No current, thermal, load, battery or IPC qualification"
+  ]
+}

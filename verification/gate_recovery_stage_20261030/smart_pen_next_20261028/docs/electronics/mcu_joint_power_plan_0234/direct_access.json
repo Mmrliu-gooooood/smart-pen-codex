@@ -1,0 +1,208 @@
+{
+  "status": "READ_ONLY_FIXED_LOCATION_OBSTACLE_PROBES_NOT_ROUTE_SEARCH",
+  "locations": [
+    {
+      "center": [
+        1.2,
+        7.8
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "C103.1",
+          "layer": "F.Cu"
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    },
+    {
+      "center": [
+        1.4,
+        7.8
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "C103.1",
+          "layer": "F.Cu"
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    },
+    {
+      "center": [
+        1.6,
+        7.8
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "C103.1",
+          "layer": "F.Cu"
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    },
+    {
+      "center": [
+        1.9,
+        7.8
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "copper",
+          "object": 0,
+          "net": "3V3_AON",
+          "other": "320384e6-70de-4a90-9034-9e5c1855fea9",
+          "other_net": "STRAP_GPIO3",
+          "layer": "In3.Cu",
+          "overlap_mm2": 0.0049630163085
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "C103.1",
+          "layer": "F.Cu"
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    },
+    {
+      "center": [
+        1.2,
+        7.0
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "copper",
+          "object": 0,
+          "net": "3V3_AON",
+          "other": "C103.2",
+          "other_net": "GND",
+          "layer": "F.Cu",
+          "overlap_mm2": 0.068955399969
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    },
+    {
+      "center": [
+        1.9,
+        7.0
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "errors": [
+        {
+          "kind": "copper",
+          "object": 0,
+          "net": "3V3_AON",
+          "other": "a98b5488-d96b-465b-8d00-30599e3d83fb",
+          "other_net": "RF_SIP",
+          "layer": "F.Cu",
+          "overlap_mm2": 0.025281922756
+        },
+        {
+          "kind": "copper",
+          "object": 0,
+          "net": "3V3_AON",
+          "other": "320384e6-70de-4a90-9034-9e5c1855fea9",
+          "other_net": "STRAP_GPIO3",
+          "layer": "In3.Cu",
+          "overlap_mm2": 0.0049630163085
+        },
+        {
+          "kind": "via_pad_including_same_net",
+          "object": 0,
+          "other": "R503.1",
+          "layer": "B.Cu"
+        }
+      ]
+    }
+  ],
+  "physical_pad_bounds": [
+    {
+      "pad": "C103.1",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "position": [
+        1.2,
+        7.8
+      ],
+      "bbox": [
+        0.725,
+        7.35,
+        0.95,
+        0.9
+      ]
+    },
+    {
+      "pad": "C103.2",
+      "net": "GND",
+      "layer": "F.Cu",
+      "position": [
+        1.2,
+        6.25
+      ],
+      "bbox": [
+        0.725,
+        5.8,
+        0.95,
+        0.9
+      ]
+    },
+    {
+      "pad": "R503.1",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "position": [
+        1.675,
+        7.5
+      ],
+      "bbox": [
+        1.275,
+        7.025,
+        0.8,
+        0.95
+      ]
+    }
+  ]
+}

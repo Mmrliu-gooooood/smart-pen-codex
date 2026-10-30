@@ -1,0 +1,45 @@
+{
+  "status": "RESEARCH_SUCCESSOR_AWAITING_INDEPENDENT_REVIEW_NOFAB_NOPOWER",
+  "native": "hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+  "pcb_sha": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141",
+  "candidate_manifest": "hardware/gate_power_candidate_0228/manifest.json",
+  "candidate_manifest_sha": "e9f8a362c5ca924969d7304ed59733635c3d3dcd0adbca972ef83f1f2179263f",
+  "candidate_allowlist_files": 102,
+  "parent_sha": "ca66f962b84eb96367d52a6b6fc400617c9706bfe666cf964638956cd57f4c5a",
+  "native_DRC": [
+    0,
+    137,
+    0
+  ],
+  "core": {
+    "3V3_AON": {
+      "connected": 25,
+      "total": 39
+    },
+    "GND": {
+      "connected": 61,
+      "total": 102
+    },
+    "SENS_VIO_1V8": {
+      "connected": 12,
+      "total": 12
+    }
+  },
+  "new_objects": 7,
+  "preserved_objects": 773,
+  "JP301": "OPEN_DO_NOT_BRIDGE",
+  "independent_review": "pending",
+  "publication": "LOCAL_ONLY_NOT_PUSHED",
+  "remaining": [
+    "137 native unconnected items",
+    "MCU supply+returns and manufacturing constraints",
+    "SENS external reference capability/power sequence/backfeed",
+    "camera interface confirmation",
+    "current/transient/thermal/cell safety/assembly/optics tests"
+  ],
+  "inherited_recovery_index": "docs/electronics/mainboard_recovery_index_0203",
+  "limits": [
+    "Do not replace accepted baseline without review",
+    "Native geometry and DRC are not energized or manufacturing qualification"
+  ]
+}

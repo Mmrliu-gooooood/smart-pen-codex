@@ -1,0 +1,376 @@
+{
+  "source": "mainboard_recovery_index_0203/recovery.json",
+  "base_sha": "ca66f962b84eb96367d52a6b6fc400617c9706bfe666cf964638956cd57f4c5a",
+  "pads": [
+    {
+      "pad": "U101.2",
+      "uuid": "0f5ad13b-1deb-474c-a3cf-a1c8c579a066",
+      "net": "3V3_AON",
+      "source": {
+        "ref": "U101",
+        "pin": "2",
+        "pinfunction": "VDD3P3",
+        "pintype": "power_in",
+        "source_net": "3V3_AON"
+      },
+      "source_sheet": "schematic/mcu_core.kicad_sch",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "position": [
+        2.575,
+        7.8
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "pad": "U101.3",
+      "uuid": "0502dd7d-0547-47c9-8c96-351f65fe878c",
+      "net": "3V3_AON",
+      "source": {
+        "ref": "U101",
+        "pin": "3",
+        "pinfunction": "VDD3P3",
+        "pintype": "power_in",
+        "source_net": "3V3_AON"
+      },
+      "source_sheet": "schematic/mcu_core.kicad_sch",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "position": [
+        2.575,
+        8.2
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "pad": "C103.1",
+      "uuid": "ad279fd5-b0a1-4f0c-a61e-a441f891d81f",
+      "net": "3V3_AON",
+      "source": {
+        "ref": "C103",
+        "pin": "1",
+        "pinfunction": "1",
+        "pintype": "passive",
+        "source_net": "3V3_AON"
+      },
+      "source_sheet": "schematic/mcu_core.kicad_sch",
+      "value": "100n",
+      "position": [
+        1.2,
+        7.8
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "pad": "U301.1",
+      "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a",
+      "net": "3V3_AON",
+      "source": {
+        "ref": "U301",
+        "pin": "1",
+        "pinfunction": "VIN",
+        "pintype": "power_in",
+        "source_net": "3V3_AON"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        10.8,
+        66.05
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C301.1",
+      "uuid": "2eaea25f-1794-41c8-8e8e-cef072746982",
+      "net": "3V3_AON",
+      "source": {
+        "ref": "C301",
+        "pin": "1",
+        "pintype": "passive",
+        "source_net": "3V3_AON"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "10uF 10V X7R",
+      "position": [
+        10.95,
+        64.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "U301.6",
+      "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a",
+      "net": "CAM_3V3_PRELINK",
+      "source": {
+        "ref": "U301",
+        "pin": "6",
+        "pinfunction": "VOUT",
+        "pintype": "power_out",
+        "source_net": "CAM_3V3_PRELINK"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        8.2,
+        66.05
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C302.1",
+      "uuid": "7b1f3ef9-b1f4-44d3-a61b-9c91031cb69a",
+      "net": "CAM_3V3_PRELINK",
+      "source": {
+        "ref": "C302",
+        "pin": "1",
+        "pintype": "passive",
+        "source_net": "CAM_3V3_PRELINK"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "1uF 10V X7R",
+      "position": [
+        10.2,
+        74.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "U301.4",
+      "uuid": "996816b8-acbe-43eb-8e56-ec699bfd7474",
+      "net": "CAM_CT",
+      "source": {
+        "ref": "U301",
+        "pin": "4",
+        "pinfunction": "CT",
+        "pintype": "passive",
+        "source_net": "CAM_CT"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        8.2,
+        67.95
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C303.1",
+      "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd",
+      "net": "CAM_CT",
+      "source": {
+        "ref": "C303",
+        "pin": "1",
+        "pintype": "passive",
+        "source_net": "CAM_CT"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "1nF 25V C0G",
+      "position": [
+        5.2,
+        68.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "U301.3",
+      "uuid": "8f08869c-7172-4594-a917-d13912afcd03",
+      "net": "CAM_ON",
+      "source": {
+        "ref": "U301",
+        "pin": "3",
+        "pinfunction": "ON",
+        "pintype": "input",
+        "source_net": "CAM_ON"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        10.8,
+        67.95
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "R301.1",
+      "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5",
+      "net": "CAM_ON",
+      "source": {
+        "ref": "R301",
+        "pin": "1",
+        "pintype": "passive",
+        "source_net": "CAM_ON"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "100k 1%",
+      "position": [
+        6.55,
+        66.5
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "U301.5",
+      "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d",
+      "net": "CAM_QOD",
+      "source": {
+        "ref": "U301",
+        "pin": "5",
+        "pinfunction": "QOD",
+        "pintype": "passive",
+        "source_net": "CAM_QOD"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        8.2,
+        67.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C103.2",
+      "uuid": "2d03ccb9-ac11-4f8a-917d-cba66a5455de",
+      "net": "GND",
+      "source": {
+        "ref": "C103",
+        "pin": "2",
+        "pinfunction": "2",
+        "pintype": "passive",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/mcu_core.kicad_sch",
+      "value": "100n",
+      "position": [
+        1.2,
+        6.25
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "pad": "U301.2",
+      "uuid": "c0043729-128e-444a-93d3-185a9a95fb81",
+      "net": "GND",
+      "source": {
+        "ref": "U301",
+        "pin": "2",
+        "pinfunction": "GND",
+        "pintype": "power_in",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "TPS22918DBVR",
+      "position": [
+        10.8,
+        67.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C301.2",
+      "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267",
+      "net": "GND",
+      "source": {
+        "ref": "C301",
+        "pin": "2",
+        "pintype": "passive",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "10uF 10V X7R",
+      "position": [
+        9.05,
+        64.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C303.2",
+      "uuid": "e4def123-2362-448f-8c71-c11781060489",
+      "net": "GND",
+      "source": {
+        "ref": "C303",
+        "pin": "2",
+        "pintype": "passive",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "1nF 25V C0G",
+      "position": [
+        3.8,
+        68.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "C302.2",
+      "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03",
+      "net": "GND",
+      "source": {
+        "ref": "C302",
+        "pin": "2",
+        "pintype": "passive",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "1uF 10V X7R",
+      "position": [
+        8.8,
+        74.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "pad": "R301.2",
+      "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6",
+      "net": "GND",
+      "source": {
+        "ref": "R301",
+        "pin": "2",
+        "pintype": "passive",
+        "source_net": "GND"
+      },
+      "source_sheet": "schematic/camera_gate_on_main.kicad_sch",
+      "value": "100k 1%",
+      "position": [
+        4.85,
+        66.5
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    }
+  ]
+}

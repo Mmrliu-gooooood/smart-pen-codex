@@ -1,0 +1,836 @@
+{
+  "status": "FROZEN_RESEARCH_ONLY_NOFAB_NOPOWER",
+  "pcb_sha": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "2d3b3566438b3ac37acd902fa0161412c4cb7ffa5c9a49ee10691ab14fc1d830",
+      "bytes": 3293
+    },
+    {
+      "path": "dependencies.json",
+      "sha256": "3ac4ac97daaffa31b8379cd98df054c13cab63fb99cb3661e15d2f6151b49f85",
+      "bytes": 11655
+    },
+    {
+      "path": "domain_isolation.json",
+      "sha256": "142c102be21dcce911987d1f84db945da33d03eefea61942c18ff600005ed912",
+      "bytes": 315
+    },
+    {
+      "path": "domain_isolation.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "domain_isolation.py",
+      "sha256": "9ad61423ecd30348ce7d9748452efb11024fa966fba1f667c0be4928f01494e9",
+      "bytes": 933
+    },
+    {
+      "path": "draw.log",
+      "sha256": "ac78ab7c60f4dac25d6f6f5b6157475c031349fe1c5d7a73e079d3477662ade8",
+      "bytes": 798
+    },
+    {
+      "path": "draw.py",
+      "sha256": "91926037b1f19e2152a0d25acb303353e51cb63e6b4fa4d4b68adb022a79b381",
+      "bytes": 2110
+    },
+    {
+      "path": "drc.exit",
+      "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06",
+      "bytes": 2
+    },
+    {
+      "path": "drc.json",
+      "sha256": "c5643644a706f2e55431a7d6628361ce4b619eb5344c732b41d1d1224ed1bc5e",
+      "bytes": 108513
+    },
+    {
+      "path": "drc.log",
+      "sha256": "37a098dff9b4dcd2f4be7ed1a8710812811f8ad32c9f40a2a0f538c94fc93996",
+      "bytes": 1183
+    },
+    {
+      "path": "finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee",
+      "bytes": 1793
+    },
+    {
+      "path": "freeze.py",
+      "sha256": "f921fb8e8f3a4d3f4c4657e63f5dba1d5211a7813daca116136a124901e9d20d",
+      "bytes": 2183
+    },
+    {
+      "path": "materialization.json",
+      "sha256": "8938376be1077a962f89e4ed91f657a9f2cba65e05be55ac9c1e8a3a6cb4bf6d",
+      "bytes": 675
+    },
+    {
+      "path": "materialize.log",
+      "sha256": "95bcbd33dfa9d5594b1e7116843db940f6f039cd23ab1d3fe3254add71f1bdf1",
+      "bytes": 2271
+    },
+    {
+      "path": "materialize.py",
+      "sha256": "e72413ebf9423a978892b57a7baa5bef2361144136875b6a4e07e0b660ddec65",
+      "bytes": 1845
+    },
+    {
+      "path": "native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262",
+      "bytes": 662
+    },
+    {
+      "path": "native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584",
+      "bytes": 680
+    },
+    {
+      "path": "native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977",
+      "bytes": 666
+    },
+    {
+      "path": "native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739",
+      "bytes": 666
+    },
+    {
+      "path": "native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19",
+      "bytes": 654
+    },
+    {
+      "path": "native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5",
+      "bytes": 658
+    },
+    {
+      "path": "native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5",
+      "bytes": 571
+    },
+    {
+      "path": "native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca",
+      "bytes": 2767
+    },
+    {
+      "path": "native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5",
+      "bytes": 1853
+    },
+    {
+      "path": "native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73",
+      "bytes": 1855
+    },
+    {
+      "path": "native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434",
+      "bytes": 1402
+    },
+    {
+      "path": "native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902",
+      "bytes": 670
+    },
+    {
+      "path": "native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401",
+      "bytes": 670
+    },
+    {
+      "path": "native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2",
+      "bytes": 670
+    },
+    {
+      "path": "native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32",
+      "bytes": 1006
+    },
+    {
+      "path": "native/Pen.kicad_sym",
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3",
+      "bytes": 9701
+    },
+    {
+      "path": "native/Pen.pretty/Contact_2.kicad_mod",
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa",
+      "bytes": 456
+    },
+    {
+      "path": "native/Pen.pretty/Host_6.kicad_mod",
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50",
+      "bytes": 806
+    },
+    {
+      "path": "native/PowerSafety.kicad_sym",
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b",
+      "bytes": 12054
+    },
+    {
+      "path": "native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572",
+      "bytes": 11664
+    },
+    {
+      "path": "native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e",
+      "bytes": 1619
+    },
+    {
+      "path": "native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55",
+      "bytes": 1619
+    },
+    {
+      "path": "native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24",
+      "bytes": 1432
+    },
+    {
+      "path": "native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04",
+      "bytes": 1068
+    },
+    {
+      "path": "native/SmartPenInterfaces.kicad_sym",
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b",
+      "bytes": 6667
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169",
+      "bytes": 2679
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4",
+      "bytes": 761
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639",
+      "bytes": 775
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd",
+      "bytes": 843
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71",
+      "bytes": 1168
+    },
+    {
+      "path": "native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6",
+      "bytes": 898
+    },
+    {
+      "path": "native/fp-lib-table",
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f",
+      "bytes": 1644
+    },
+    {
+      "path": "native/mainboard_revD.kicad_dru",
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+      "bytes": 595
+    },
+    {
+      "path": "native/mainboard_revD.kicad_pcb",
+      "sha256": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141",
+      "bytes": 768958
+    },
+    {
+      "path": "native/mainboard_revD.kicad_pro",
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "bytes": 10154
+    },
+    {
+      "path": "native/mainboard_revD.kicad_sch",
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+      "bytes": 4223
+    },
+    {
+      "path": "native/schematic/ISO.kicad_sym",
+      "sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "bytes": 19549
+    },
+    {
+      "path": "native/schematic/MCU.kicad_sym",
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+      "bytes": 25519
+    },
+    {
+      "path": "native/schematic/SmartPenUSB.kicad_sym",
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862",
+      "bytes": 831
+    },
+    {
+      "path": "native/schematic/camera_gate_on_main.kicad_sch",
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122",
+      "bytes": 25957
+    },
+    {
+      "path": "native/schematic/controls_sccb.kicad_sch",
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "bytes": 39738
+    },
+    {
+      "path": "native/schematic/dvp_translation.kicad_sch",
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+      "bytes": 40417
+    },
+    {
+      "path": "native/schematic/mainboard_revD.kicad_sch",
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+      "bytes": 2439
+    },
+    {
+      "path": "native/schematic/mcu_core.kicad_sch",
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+      "bytes": 66264
+    },
+    {
+      "path": "native/schematic/physical_interfaces.kicad_sch",
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+      "bytes": 18804
+    },
+    {
+      "path": "native/schematic/pickup_on_main.kicad_sch",
+      "sha256": "0b339a9d9b0a8ddf8a07e3f585a31460c30480f3b75aeb7044bf5c112a7898a0",
+      "bytes": 28542
+    },
+    {
+      "path": "native/schematic/recovery_fixture.kicad_sch",
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+      "bytes": 5662
+    },
+    {
+      "path": "native/schematic/safe_bias_interfaces.kicad_sch",
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+      "bytes": 55609
+    },
+    {
+      "path": "native/schematic/sym-lib-table",
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc",
+      "bytes": 260
+    },
+    {
+      "path": "native/schematic/usb_entry.kicad_sch",
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+      "bytes": 22466
+    },
+    {
+      "path": "native/schematic/usb_main_port.kicad_sch",
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+      "bytes": 2093
+    },
+    {
+      "path": "native/sym-lib-table",
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb",
+      "bytes": 797
+    },
+    {
+      "path": "native_negative/AON/drc.json",
+      "sha256": "6958c5864ddedb8b1c918211d944de77b42f49d872b4fb30dfebcb0707611544",
+      "bytes": 110130
+    },
+    {
+      "path": "native_negative/AON/drc.log",
+      "sha256": "66ccff9c8af181fa531d36830d9a566c32e40b1e9ee6f2d1b3630226e1afc30b",
+      "bytes": 1131
+    },
+    {
+      "path": "native_negative/AON/mainboard_revD.kicad_pcb",
+      "sha256": "2ebc43bb6f5568c0fc8c6f8f0384dfaeb8c5e38df3c87c73d80168056447dafc",
+      "bytes": 768674
+    },
+    {
+      "path": "native_negative/outputcap_ground/drc.json",
+      "sha256": "4351ffa65fb80c65d0595d7a555b096c900145a39405df76d2ad1fe62ffcb85e",
+      "bytes": 109314
+    },
+    {
+      "path": "native_negative/outputcap_ground/drc.log",
+      "sha256": "35ebe8519669d58e833f8ce2d6b5aae1a9d3d33eba0a3db18870956c8c54bc8d",
+      "bytes": 1144
+    },
+    {
+      "path": "native_negative/outputcap_ground/mainboard_revD.kicad_pcb",
+      "sha256": "f5cc60ae67e8e1a551ece28718d8f21f38f52876d5d32733c78c5bd3da26514b",
+      "bytes": 768824
+    },
+    {
+      "path": "native_negative/pulldown_ground/drc.json",
+      "sha256": "4d6f22522fba5f2c023fb6d7551c5231d30d8b2a80c64c6405390f5f870a4bbd",
+      "bytes": 109312
+    },
+    {
+      "path": "native_negative/pulldown_ground/drc.log",
+      "sha256": "cb6ad07d07debeb884469b74cafe5f0fd41deece39e77040eedc6991b2f51ea3",
+      "bytes": 1143
+    },
+    {
+      "path": "native_negative/pulldown_ground/mainboard_revD.kicad_pcb",
+      "sha256": "72bc2964519506a50491ca40b93db77f6a258d3466c083ea3021fde2cca6fa98",
+      "bytes": 768814
+    },
+    {
+      "path": "native_negative/switch_ground/drc.json",
+      "sha256": "78681358eb0be7272fb0bcae967f62e56fed90497f1db8cf6bce29d469ca6293",
+      "bytes": 109819
+    },
+    {
+      "path": "native_negative/switch_ground/drc.log",
+      "sha256": "0666693a1c43a1af25625cd1dec62692daee1a3c9446f7fd5be7e8a1e9ce8370",
+      "bytes": 1141
+    },
+    {
+      "path": "native_negative/switch_ground/mainboard_revD.kicad_pcb",
+      "sha256": "f3443a6cfb43c7835b1a4322c44bac789dace8cd029abd6c61dfe817d2021f42",
+      "bytes": 768809
+    },
+    {
+      "path": "native_negative/timingcap_ground/drc.json",
+      "sha256": "c410ad1e84c25894431b3a5653a6f7e7b6d842815f84e587a66281d3ad4f1a82",
+      "bytes": 109312
+    },
+    {
+      "path": "native_negative/timingcap_ground/drc.log",
+      "sha256": "fbb4e82baa41de39dd793db735340d10681527888cf6a735aadbc3f53755f7a9",
+      "bytes": 1144
+    },
+    {
+      "path": "native_negative/timingcap_ground/mainboard_revD.kicad_pcb",
+      "sha256": "a87f61432e0461b481e15ff1d77cc69c9a6d529863cbfd6bd875ca10e156e4a3",
+      "bytes": 768817
+    },
+    {
+      "path": "native_negative.py",
+      "sha256": "58dab4398cd73c8e2aac7b6208f621556189b420fed43fcf8a9fcb106a2f22bd",
+      "bytes": 1891
+    },
+    {
+      "path": "native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "bytes": 872
+    },
+    {
+      "path": "native_view.png",
+      "sha256": "9d5f3627b1a01f8a52994a474f6910942a52249f24e6aee4d769d93b0fca63d0",
+      "bytes": 128984
+    },
+    {
+      "path": "negative.json",
+      "sha256": "049e3ffddb3ddd924293c56a353f3e08fc5278555e29f5de7376c848cd7f4dc1",
+      "bytes": 1608
+    },
+    {
+      "path": "negative.log",
+      "sha256": "febcb74ddfb44396e45ffc241c5d22377ae52310f0e2bf88a108d188d4ea73d9",
+      "bytes": 3192
+    },
+    {
+      "path": "noncopper.json",
+      "sha256": "3a2526363297aaaae4fb1a8162b57b0dc36de579248c002348ac155735cc7d5e",
+      "bytes": 401
+    },
+    {
+      "path": "noncopper.py",
+      "sha256": "49542d20bb7589c3deaa329d0bdd568cdc8c78971f29789a66f9a936bbb0b8f7",
+      "bytes": 1381
+    },
+    {
+      "path": "physical.json",
+      "sha256": "0d6a1b0d7752090cd1bf6f49b32aaffdca9ec747d77c6c941937a4fe93b1e97b",
+      "bytes": 525
+    },
+    {
+      "path": "physical.log",
+      "sha256": "fcee1f5ba7eedd4858e8503c395a0ee91ee80f2aa1039e805dad62a22d264f72",
+      "bytes": 798
+    },
+    {
+      "path": "physical.py",
+      "sha256": "8ea94cf8d295f0543f81f7975a47a2d9fb55a61691460bfe590b75037c37d828",
+      "bytes": 1631
+    },
+    {
+      "path": "plane_detail.json",
+      "sha256": "67e401e075e962d4164bc10d914c44570735eb677be8b783681c21b22022445c",
+      "bytes": 523
+    },
+    {
+      "path": "plane_detail.log",
+      "sha256": "ce294d478c7eeb1e5067a8f40708c358e77fbf2c76ba15f7247a849e13498953",
+      "bytes": 798
+    },
+    {
+      "path": "plane_detail.py",
+      "sha256": "889bd6fa3a9efaa8e2600713483679fbb8bf2a14891132c168202e6e6be1bff7",
+      "bytes": 933
+    },
+    {
+      "path": "replay/materialization.json",
+      "sha256": "8938376be1077a962f89e4ed91f657a9f2cba65e05be55ac9c1e8a3a6cb4bf6d",
+      "bytes": 675
+    },
+    {
+      "path": "replay.log",
+      "sha256": "e047730629ff33a4a36e89cb06ea5ad79387c3cf8c2f42b7d3b163f26fa48e8c",
+      "bytes": 2271
+    },
+    {
+      "path": "verification.json",
+      "sha256": "827ff8a56c8812ce5f39e30e58f3ea28de20d01226d8bb77dd183f9e576be15b",
+      "bytes": 11950
+    },
+    {
+      "path": "verification_optimized.json",
+      "sha256": "827ff8a56c8812ce5f39e30e58f3ea28de20d01226d8bb77dd183f9e576be15b",
+      "bytes": 11950
+    },
+    {
+      "path": "verify.log",
+      "sha256": "2a445cad289b6806c3e35a8c71f0b7c555a85a2be3029f019105640d99149ab3",
+      "bytes": 798
+    },
+    {
+      "path": "verify.py",
+      "sha256": "96766ace88a599fa9795b002b3c53a029fd435df2bfcea0ac537f27ad060defa",
+      "bytes": 7249
+    },
+    {
+      "path": "verify_optimized.log",
+      "sha256": "feb268842dd09511774ef3468a0ee1391131984d25dcfa96d6e5e4ece241fe1a",
+      "bytes": 798
+    }
+  ],
+  "excluded": [
+    "__pycache__/finite_copper.cpython-313.opt-1.pyc",
+    "__pycache__/finite_copper.cpython-313.pyc",
+    "__pycache__/native_polygon.cpython-313.opt-1.pyc",
+    "__pycache__/native_polygon.cpython-313.pyc",
+    "native/mainboard_revD.kicad_prl",
+    "native_negative/AON/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/AON/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "native_negative/AON/Pen.kicad_sym",
+    "native_negative/AON/Pen.pretty/Contact_2.kicad_mod",
+    "native_negative/AON/Pen.pretty/Host_6.kicad_mod",
+    "native_negative/AON/PowerSafety.kicad_sym",
+    "native_negative/AON/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "native_negative/AON/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/AON/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/AON/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "native_negative/AON/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "native_negative/AON/SmartPenInterfaces.kicad_sym",
+    "native_negative/AON/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "native_negative/AON/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "native_negative/AON/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "native_negative/AON/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "native_negative/AON/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "native_negative/AON/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "native_negative/AON/fp-lib-table",
+    "native_negative/AON/mainboard_revD.kicad_dru",
+    "native_negative/AON/mainboard_revD.kicad_prl",
+    "native_negative/AON/mainboard_revD.kicad_pro",
+    "native_negative/AON/mainboard_revD.kicad_sch",
+    "native_negative/AON/schematic/ISO.kicad_sym",
+    "native_negative/AON/schematic/MCU.kicad_sym",
+    "native_negative/AON/schematic/SmartPenUSB.kicad_sym",
+    "native_negative/AON/schematic/camera_gate_on_main.kicad_sch",
+    "native_negative/AON/schematic/controls_sccb.kicad_sch",
+    "native_negative/AON/schematic/dvp_translation.kicad_sch",
+    "native_negative/AON/schematic/mainboard_revD.kicad_sch",
+    "native_negative/AON/schematic/mcu_core.kicad_sch",
+    "native_negative/AON/schematic/physical_interfaces.kicad_sch",
+    "native_negative/AON/schematic/pickup_on_main.kicad_sch",
+    "native_negative/AON/schematic/recovery_fixture.kicad_sch",
+    "native_negative/AON/schematic/safe_bias_interfaces.kicad_sch",
+    "native_negative/AON/schematic/sym-lib-table",
+    "native_negative/AON/schematic/usb_entry.kicad_sch",
+    "native_negative/AON/schematic/usb_main_port.kicad_sch",
+    "native_negative/AON/sym-lib-table",
+    "native_negative/outputcap_ground/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/outputcap_ground/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "native_negative/outputcap_ground/Pen.kicad_sym",
+    "native_negative/outputcap_ground/Pen.pretty/Contact_2.kicad_mod",
+    "native_negative/outputcap_ground/Pen.pretty/Host_6.kicad_mod",
+    "native_negative/outputcap_ground/PowerSafety.kicad_sym",
+    "native_negative/outputcap_ground/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenInterfaces.kicad_sym",
+    "native_negative/outputcap_ground/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "native_negative/outputcap_ground/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "native_negative/outputcap_ground/fp-lib-table",
+    "native_negative/outputcap_ground/mainboard_revD.kicad_dru",
+    "native_negative/outputcap_ground/mainboard_revD.kicad_prl",
+    "native_negative/outputcap_ground/mainboard_revD.kicad_pro",
+    "native_negative/outputcap_ground/mainboard_revD.kicad_sch",
+    "native_negative/outputcap_ground/schematic/ISO.kicad_sym",
+    "native_negative/outputcap_ground/schematic/MCU.kicad_sym",
+    "native_negative/outputcap_ground/schematic/SmartPenUSB.kicad_sym",
+    "native_negative/outputcap_ground/schematic/camera_gate_on_main.kicad_sch",
+    "native_negative/outputcap_ground/schematic/controls_sccb.kicad_sch",
+    "native_negative/outputcap_ground/schematic/dvp_translation.kicad_sch",
+    "native_negative/outputcap_ground/schematic/mainboard_revD.kicad_sch",
+    "native_negative/outputcap_ground/schematic/mcu_core.kicad_sch",
+    "native_negative/outputcap_ground/schematic/physical_interfaces.kicad_sch",
+    "native_negative/outputcap_ground/schematic/pickup_on_main.kicad_sch",
+    "native_negative/outputcap_ground/schematic/recovery_fixture.kicad_sch",
+    "native_negative/outputcap_ground/schematic/safe_bias_interfaces.kicad_sch",
+    "native_negative/outputcap_ground/schematic/sym-lib-table",
+    "native_negative/outputcap_ground/schematic/usb_entry.kicad_sch",
+    "native_negative/outputcap_ground/schematic/usb_main_port.kicad_sch",
+    "native_negative/outputcap_ground/sym-lib-table",
+    "native_negative/pulldown_ground/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/pulldown_ground/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "native_negative/pulldown_ground/Pen.kicad_sym",
+    "native_negative/pulldown_ground/Pen.pretty/Contact_2.kicad_mod",
+    "native_negative/pulldown_ground/Pen.pretty/Host_6.kicad_mod",
+    "native_negative/pulldown_ground/PowerSafety.kicad_sym",
+    "native_negative/pulldown_ground/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenInterfaces.kicad_sym",
+    "native_negative/pulldown_ground/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "native_negative/pulldown_ground/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "native_negative/pulldown_ground/fp-lib-table",
+    "native_negative/pulldown_ground/mainboard_revD.kicad_dru",
+    "native_negative/pulldown_ground/mainboard_revD.kicad_prl",
+    "native_negative/pulldown_ground/mainboard_revD.kicad_pro",
+    "native_negative/pulldown_ground/mainboard_revD.kicad_sch",
+    "native_negative/pulldown_ground/schematic/ISO.kicad_sym",
+    "native_negative/pulldown_ground/schematic/MCU.kicad_sym",
+    "native_negative/pulldown_ground/schematic/SmartPenUSB.kicad_sym",
+    "native_negative/pulldown_ground/schematic/camera_gate_on_main.kicad_sch",
+    "native_negative/pulldown_ground/schematic/controls_sccb.kicad_sch",
+    "native_negative/pulldown_ground/schematic/dvp_translation.kicad_sch",
+    "native_negative/pulldown_ground/schematic/mainboard_revD.kicad_sch",
+    "native_negative/pulldown_ground/schematic/mcu_core.kicad_sch",
+    "native_negative/pulldown_ground/schematic/physical_interfaces.kicad_sch",
+    "native_negative/pulldown_ground/schematic/pickup_on_main.kicad_sch",
+    "native_negative/pulldown_ground/schematic/recovery_fixture.kicad_sch",
+    "native_negative/pulldown_ground/schematic/safe_bias_interfaces.kicad_sch",
+    "native_negative/pulldown_ground/schematic/sym-lib-table",
+    "native_negative/pulldown_ground/schematic/usb_entry.kicad_sch",
+    "native_negative/pulldown_ground/schematic/usb_main_port.kicad_sch",
+    "native_negative/pulldown_ground/sym-lib-table",
+    "native_negative/switch_ground/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/switch_ground/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "native_negative/switch_ground/Pen.kicad_sym",
+    "native_negative/switch_ground/Pen.pretty/Contact_2.kicad_mod",
+    "native_negative/switch_ground/Pen.pretty/Host_6.kicad_mod",
+    "native_negative/switch_ground/PowerSafety.kicad_sym",
+    "native_negative/switch_ground/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "native_negative/switch_ground/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/switch_ground/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/switch_ground/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "native_negative/switch_ground/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "native_negative/switch_ground/SmartPenInterfaces.kicad_sym",
+    "native_negative/switch_ground/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "native_negative/switch_ground/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "native_negative/switch_ground/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "native_negative/switch_ground/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "native_negative/switch_ground/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "native_negative/switch_ground/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "native_negative/switch_ground/fp-lib-table",
+    "native_negative/switch_ground/mainboard_revD.kicad_dru",
+    "native_negative/switch_ground/mainboard_revD.kicad_prl",
+    "native_negative/switch_ground/mainboard_revD.kicad_pro",
+    "native_negative/switch_ground/mainboard_revD.kicad_sch",
+    "native_negative/switch_ground/schematic/ISO.kicad_sym",
+    "native_negative/switch_ground/schematic/MCU.kicad_sym",
+    "native_negative/switch_ground/schematic/SmartPenUSB.kicad_sym",
+    "native_negative/switch_ground/schematic/camera_gate_on_main.kicad_sch",
+    "native_negative/switch_ground/schematic/controls_sccb.kicad_sch",
+    "native_negative/switch_ground/schematic/dvp_translation.kicad_sch",
+    "native_negative/switch_ground/schematic/mainboard_revD.kicad_sch",
+    "native_negative/switch_ground/schematic/mcu_core.kicad_sch",
+    "native_negative/switch_ground/schematic/physical_interfaces.kicad_sch",
+    "native_negative/switch_ground/schematic/pickup_on_main.kicad_sch",
+    "native_negative/switch_ground/schematic/recovery_fixture.kicad_sch",
+    "native_negative/switch_ground/schematic/safe_bias_interfaces.kicad_sch",
+    "native_negative/switch_ground/schematic/sym-lib-table",
+    "native_negative/switch_ground/schematic/usb_entry.kicad_sch",
+    "native_negative/switch_ground/schematic/usb_main_port.kicad_sch",
+    "native_negative/switch_ground/sym-lib-table",
+    "native_negative/timingcap_ground/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "native_negative/timingcap_ground/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "native_negative/timingcap_ground/Pen.kicad_sym",
+    "native_negative/timingcap_ground/Pen.pretty/Contact_2.kicad_mod",
+    "native_negative/timingcap_ground/Pen.pretty/Host_6.kicad_mod",
+    "native_negative/timingcap_ground/PowerSafety.kicad_sym",
+    "native_negative/timingcap_ground/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenInterfaces.kicad_sym",
+    "native_negative/timingcap_ground/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "native_negative/timingcap_ground/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "native_negative/timingcap_ground/fp-lib-table",
+    "native_negative/timingcap_ground/mainboard_revD.kicad_dru",
+    "native_negative/timingcap_ground/mainboard_revD.kicad_prl",
+    "native_negative/timingcap_ground/mainboard_revD.kicad_pro",
+    "native_negative/timingcap_ground/mainboard_revD.kicad_sch",
+    "native_negative/timingcap_ground/schematic/ISO.kicad_sym",
+    "native_negative/timingcap_ground/schematic/MCU.kicad_sym",
+    "native_negative/timingcap_ground/schematic/SmartPenUSB.kicad_sym",
+    "native_negative/timingcap_ground/schematic/camera_gate_on_main.kicad_sch",
+    "native_negative/timingcap_ground/schematic/controls_sccb.kicad_sch",
+    "native_negative/timingcap_ground/schematic/dvp_translation.kicad_sch",
+    "native_negative/timingcap_ground/schematic/mainboard_revD.kicad_sch",
+    "native_negative/timingcap_ground/schematic/mcu_core.kicad_sch",
+    "native_negative/timingcap_ground/schematic/physical_interfaces.kicad_sch",
+    "native_negative/timingcap_ground/schematic/pickup_on_main.kicad_sch",
+    "native_negative/timingcap_ground/schematic/recovery_fixture.kicad_sch",
+    "native_negative/timingcap_ground/schematic/safe_bias_interfaces.kicad_sch",
+    "native_negative/timingcap_ground/schematic/sym-lib-table",
+    "native_negative/timingcap_ground/schematic/usb_entry.kicad_sch",
+    "native_negative/timingcap_ground/schematic/usb_main_port.kicad_sch",
+    "native_negative/timingcap_ground/sym-lib-table",
+    "replay/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+    "replay/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+    "replay/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+    "replay/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+    "replay/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+    "replay/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+    "replay/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+    "replay/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+    "replay/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+    "replay/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+    "replay/native/Pen.kicad_sym",
+    "replay/native/Pen.pretty/Contact_2.kicad_mod",
+    "replay/native/Pen.pretty/Host_6.kicad_mod",
+    "replay/native/PowerSafety.kicad_sym",
+    "replay/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+    "replay/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+    "replay/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+    "replay/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+    "replay/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+    "replay/native/SmartPenInterfaces.kicad_sym",
+    "replay/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+    "replay/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+    "replay/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+    "replay/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+    "replay/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+    "replay/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+    "replay/native/fp-lib-table",
+    "replay/native/mainboard_revD.kicad_dru",
+    "replay/native/mainboard_revD.kicad_pcb",
+    "replay/native/mainboard_revD.kicad_prl",
+    "replay/native/mainboard_revD.kicad_pro",
+    "replay/native/mainboard_revD.kicad_sch",
+    "replay/native/schematic/ISO.kicad_sym",
+    "replay/native/schematic/MCU.kicad_sym",
+    "replay/native/schematic/SmartPenUSB.kicad_sym",
+    "replay/native/schematic/camera_gate_on_main.kicad_sch",
+    "replay/native/schematic/controls_sccb.kicad_sch",
+    "replay/native/schematic/dvp_translation.kicad_sch",
+    "replay/native/schematic/mainboard_revD.kicad_sch",
+    "replay/native/schematic/mcu_core.kicad_sch",
+    "replay/native/schematic/physical_interfaces.kicad_sch",
+    "replay/native/schematic/pickup_on_main.kicad_sch",
+    "replay/native/schematic/recovery_fixture.kicad_sch",
+    "replay/native/schematic/safe_bias_interfaces.kicad_sch",
+    "replay/native/schematic/sym-lib-table",
+    "replay/native/schematic/usb_entry.kicad_sch",
+    "replay/native/schematic/usb_main_port.kicad_sch",
+    "replay/native/sym-lib-table"
+  ]
+}

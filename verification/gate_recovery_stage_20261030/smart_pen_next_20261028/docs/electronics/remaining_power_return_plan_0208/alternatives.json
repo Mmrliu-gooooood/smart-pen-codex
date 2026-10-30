@@ -1,0 +1,490 @@
+[
+  {
+    "pad": "C302.2",
+    "via": [
+      7.6,
+      75.2
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          8.8,
+          74.0
+        ],
+        "end": [
+          7.6,
+          75.2
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          7.6,
+          75.2
+        ],
+        "end": [
+          7.6,
+          75.2
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 0,
+        "net": "GND",
+        "other": "28d75908-37cc-59b9-9077-d1c5488ad219",
+        "other_net": "SENS_VIO_1V8",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.0990505061145
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "0c8f6c85-ca54-5e59-9ab9-a0d80b4cea62",
+        "other_net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "overlap_mm2": 0.0005291883795
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "1bdf06d7-4f52-55e6-be0c-d22123b9b131",
+        "other_net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "overlap_mm2": 0.087009543309
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "c5cec6b2-4b3d-57d5-ad62-a7dc2fa4ac26",
+        "other_net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "overlap_mm2": 0.0005291822495
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "36b767fd-d71a-4ca2-8eaa-928441c956a8",
+        "other_net": "SCCB_EN_SAFE",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0794125881045
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "f0e7fede-7869-458b-8244-0270358c060b",
+        "other_net": "SCCB_EN_SAFE",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0805798869985
+      }
+    ]
+  },
+  {
+    "pad": "C302.2",
+    "via": [
+      9.8,
+      75.2
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          8.8,
+          74.0
+        ],
+        "end": [
+          9.8,
+          75.2
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          9.8,
+          75.2
+        ],
+        "end": [
+          9.8,
+          75.2
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "R243.1",
+        "other_net": "SENS_SDA",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0473851621255
+      }
+    ]
+  },
+  {
+    "pad": "C302.2",
+    "via": [
+      8.8,
+      72.8
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          8.8,
+          74.0
+        ],
+        "end": [
+          8.8,
+          72.8
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          8.8,
+          72.8
+        ],
+        "end": [
+          8.8,
+          72.8
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 0,
+        "net": "GND",
+        "other": "3e5ec8ea-970e-4965-84ab-833f30f42ab3",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.000612731726
+      },
+      {
+        "kind": "copper",
+        "object": 0,
+        "net": "GND",
+        "other": "JP301.2",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.120624574752
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "42137b7e-3150-40c4-b5b6-c5547851a728",
+        "other_net": "SCCB_EN_SAFE",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.080539179906
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "06aa27c6-e38d-4285-abe0-e347880f5304",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.003391881999
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "3e5ec8ea-970e-4965-84ab-833f30f42ab3",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.045602656871
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "c443cecb-d8c3-45cc-a674-4a65584b4aa1",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.019766128464
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "R203.1",
+        "other_net": "CAM_ISO_OE_N",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0473847753635
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "JP301.2",
+        "other_net": "CAM_3V3_SW",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.231137600323
+      },
+      {
+        "kind": "via_pad_including_same_net",
+        "object": 1,
+        "other": "JP301.2",
+        "layer": "B.Cu"
+      }
+    ]
+  },
+  {
+    "pad": "C303.2",
+    "via": [
+      2.8,
+      68
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          3.8,
+          68.0
+        ],
+        "end": [
+          2.8,
+          68.0
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          2.8,
+          68.0
+        ],
+        "end": [
+          2.8,
+          68.0
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "397ef283-6ada-50ba-ba4a-ae434eb95e93",
+        "other_net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "overlap_mm2": 0.1973981115205
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "a684ede2-2030-4526-8b26-0c1bef1676a2",
+        "other_net": "ISO_GATE",
+        "layer": "In2.Cu",
+        "overlap_mm2": 0.039065934362
+      }
+    ]
+  },
+  {
+    "pad": "C303.2",
+    "via": [
+      3.8,
+      67
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          3.8,
+          68.0
+        ],
+        "end": [
+          3.8,
+          67.0
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          3.8,
+          67.0
+        ],
+        "end": [
+          3.8,
+          67.0
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "drill",
+        "object": 1,
+        "other": "a689833a-b198-5ac7-b024-107e01b26016",
+        "gap_mm": -0.1474180548033287
+      }
+    ]
+  },
+  {
+    "pad": "R301.2",
+    "via": [
+      4.85,
+      67.5
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          4.85,
+          66.5
+        ],
+        "end": [
+          4.85,
+          67.5
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          4.85,
+          67.5
+        ],
+        "end": [
+          4.85,
+          67.5
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 0,
+        "net": "GND",
+        "other": "C303.1",
+        "other_net": "CAM_CT",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.0276433739755
+      },
+      {
+        "kind": "copper",
+        "object": 1,
+        "net": "GND",
+        "other": "C303.1",
+        "other_net": "CAM_CT",
+        "layer": "B.Cu",
+        "overlap_mm2": 0.092823820439
+      },
+      {
+        "kind": "via_pad_including_same_net",
+        "object": 1,
+        "other": "C303.1",
+        "layer": "B.Cu"
+      }
+    ]
+  },
+  {
+    "pad": "R301.2",
+    "via": [
+      4.0,
+      66.5
+    ],
+    "objects": [
+      {
+        "type": "track",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          4.85,
+          66.5
+        ],
+        "end": [
+          4.0,
+          66.5
+        ],
+        "width": 0.3,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "GND",
+        "layer": "through",
+        "start": [
+          4.0,
+          66.5
+        ],
+        "end": [
+          4.0,
+          66.5
+        ],
+        "width": 0.6,
+        "drill": 0.3
+      }
+    ],
+    "errors": [
+      {
+        "kind": "drill",
+        "object": 1,
+        "other": "a689833a-b198-5ac7-b024-107e01b26016",
+        "gap_mm": 0.09151149408414565
+      },
+      {
+        "kind": "via_pad_including_same_net",
+        "object": 1,
+        "other": "U204.4",
+        "layer": "F.Cu"
+      }
+    ]
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "name": "main25mil",
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 3,
+        "net": "3V3_AON",
+        "other": "U101.4",
+        "other_net": "CHIP_EN",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.000169797602
+      },
+      {
+        "kind": "copper",
+        "object": 7,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/3",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.112325637237,
+        "other_model_index": 3
+      },
+      {
+        "kind": "copper",
+        "object": 7,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/4",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0126117698655,
+        "other_model_index": 4
+      },
+      {
+        "kind": "copper",
+        "object": 7,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/5",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0258655162965,
+        "other_model_index": 5
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/3",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.043254705888,
+        "other_model_index": 3
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/4",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.012609638836,
+        "other_model_index": 4
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "model/main25mil/5",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.0261763691805,
+        "other_model_index": 5
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+        "other_net": "BOOT_N",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.017901269731
+      },
+      {
+        "kind": "copper",
+        "object": 9,
+        "net": "CHIP_EN",
+        "other": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+        "other_net": "BOOT_N",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.1406960464745
+      },
+      {
+        "kind": "copper",
+        "object": 12,
+        "net": "BOOT_N",
+        "other": "model/main25mil/7",
+        "other_net": "CHIP_EN",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.012655104012,
+        "other_model_index": 7
+      }
+    ],
+    "all_old_pad_components_preserved": true,
+    "failed_old_nets": [],
+    "complete_loops": {
+      "CHIP_EN": {
+        "pads": [
+          "U101.4",
+          "C101.1",
+          "J108.1",
+          "R101.1"
+        ],
+        "single_component": true
+      },
+      "BOOT_N": {
+        "pads": [
+          "U101.5",
+          "J108.2",
+          "R102.1"
+        ],
+        "single_component": true
+      },
+      "3V3_AON": {
+        "pads": [
+          "U101.2",
+          "U101.3",
+          "C103.1",
+          "J106.2"
+        ],
+        "single_component": true
+      },
+      "GND": {
+        "pads": [
+          "C103.2",
+          "J106.3"
+        ],
+        "single_component": true
+      }
+    },
+    "courtyard_overlap": [
+      {
+        "object": 12,
+        "ref": "U101",
+        "side": "F.Courtyard",
+        "overlap_mm2": 0.0550298194245
+      }
+    ],
+    "nominal_plane_exclusion": [
+      {
+        "net": "GND",
+        "layer": "In1.Cu",
+        "nominal_removed_mm2": 1.03939519391,
+        "eroded_components": 2
+      },
+      {
+        "net": "GND",
+        "layer": "In1.Cu",
+        "nominal_removed_mm2": 0.0,
+        "eroded_components": 1
+      },
+      {
+        "net": "3V3_AON",
+        "layer": "In2.Cu",
+        "nominal_removed_mm2": 0.567398166239,
+        "eroded_components": 1
+      },
+      {
+        "net": "GND",
+        "layer": "In4.Cu",
+        "nominal_removed_mm2": 1.03939519391,
+        "eroded_components": 2
+      },
+      {
+        "net": "GND",
+        "layer": "In4.Cu",
+        "nominal_removed_mm2": 0.0,
+        "eroded_components": 1
+      }
+    ],
+    "old_signal_reference_projection_losses": [
+      {
+        "uuid": "2aadb490-36e4-4205-80e6-e9549156af81",
+        "net": "CHIP_EN",
+        "loss_mm2": 0.012655104012,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "58c0716f-a29f-4c36-afec-dea50e5d7d6b",
+        "net": "CHIP_EN",
+        "loss_mm2": 0.020687643441,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "d6da4b44-2d1f-4eb2-80f4-d7e1ba094da4",
+        "net": "CHIP_EN",
+        "loss_mm2": 7.23860145e-05,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "841121a2-d892-481e-bf5e-69ce0966fda7",
+        "net": "BOOT_N",
+        "loss_mm2": 0.022678895483,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "ed051403-ad39-4957-8652-ed6b66b442d2",
+        "net": "BOOT_N",
+        "loss_mm2": 0.109675968123,
+        "removed_or_rerouted": true
+      }
+    ],
+    "total_AON_model_trace_mm": 4.040224690738243,
+    "status": "REJECTED_GEOMETRY_NOT_NATIVEABLE"
+  },
+  {
+    "name": "branch20mil",
+    "errors": [
+      {
+        "kind": "copper",
+        "object": 7,
+        "net": "CHIP_EN",
+        "other": "model/branch20mil/3",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.051039963895,
+        "other_model_index": 3
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "model/branch20mil/3",
+        "other_net": "3V3_AON",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.018785307737,
+        "other_model_index": 3
+      },
+      {
+        "kind": "copper",
+        "object": 8,
+        "net": "CHIP_EN",
+        "other": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+        "other_net": "BOOT_N",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.010448613954
+      },
+      {
+        "kind": "copper",
+        "object": 9,
+        "net": "CHIP_EN",
+        "other": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+        "other_net": "BOOT_N",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.1475024459895
+      },
+      {
+        "kind": "copper",
+        "object": 12,
+        "net": "BOOT_N",
+        "other": "model/branch20mil/7",
+        "other_net": "CHIP_EN",
+        "layer": "F.Cu",
+        "overlap_mm2": 0.012655104012,
+        "other_model_index": 7
+      },
+      {
+        "kind": "copper",
+        "object": 12,
+        "net": "BOOT_N",
+        "other": "320384e6-70de-4a90-9034-9e5c1855fea9",
+        "other_net": "STRAP_GPIO3",
+        "layer": "In3.Cu",
+        "overlap_mm2": 0.0059324004835
+      }
+    ],
+    "all_old_pad_components_preserved": true,
+    "failed_old_nets": [],
+    "complete_loops": {
+      "CHIP_EN": {
+        "pads": [
+          "U101.4",
+          "C101.1",
+          "J108.1",
+          "R101.1"
+        ],
+        "single_component": true
+      },
+      "BOOT_N": {
+        "pads": [
+          "U101.5",
+          "J108.2",
+          "R102.1"
+        ],
+        "single_component": true
+      },
+      "3V3_AON": {
+        "pads": [
+          "U101.2",
+          "U101.3",
+          "C103.1",
+          "J106.2"
+        ],
+        "single_component": true
+      },
+      "GND": {
+        "pads": [
+          "C103.2",
+          "J106.3"
+        ],
+        "single_component": true
+      }
+    },
+    "courtyard_overlap": [
+      {
+        "object": 12,
+        "ref": "U101",
+        "side": "F.Courtyard",
+        "overlap_mm2": 0.068305200878
+      }
+    ],
+    "nominal_plane_exclusion": [
+      {
+        "net": "GND",
+        "layer": "In1.Cu",
+        "nominal_removed_mm2": 1.03939519391,
+        "eroded_components": 1
+      },
+      {
+        "net": "GND",
+        "layer": "In1.Cu",
+        "nominal_removed_mm2": 0.0,
+        "eroded_components": 1
+      },
+      {
+        "net": "3V3_AON",
+        "layer": "In2.Cu",
+        "nominal_removed_mm2": 0.576975362692,
+        "eroded_components": 1
+      },
+      {
+        "net": "GND",
+        "layer": "In4.Cu",
+        "nominal_removed_mm2": 1.03939519391,
+        "eroded_components": 1
+      },
+      {
+        "net": "GND",
+        "layer": "In4.Cu",
+        "nominal_removed_mm2": 0.0,
+        "eroded_components": 1
+      }
+    ],
+    "old_signal_reference_projection_losses": [
+      {
+        "uuid": "2aadb490-36e4-4205-80e6-e9549156af81",
+        "net": "CHIP_EN",
+        "loss_mm2": 0.012655104012,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "841121a2-d892-481e-bf5e-69ce0966fda7",
+        "net": "BOOT_N",
+        "loss_mm2": 0.017034360088,
+        "removed_or_rerouted": true
+      },
+      {
+        "uuid": "ed051403-ad39-4957-8652-ed6b66b442d2",
+        "net": "BOOT_N",
+        "loss_mm2": 0.1114742199645,
+        "removed_or_rerouted": true
+      }
+    ],
+    "total_AON_model_trace_mm": 3.9639410298049853,
+    "status": "REJECTED_GEOMETRY_NOT_NATIVEABLE"
+  }
+]

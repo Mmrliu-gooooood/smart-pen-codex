@@ -1,0 +1,484 @@
+{
+  "status": "READ_ONLY_COHERENT_GATE_SUPPLY_RETURN_MODEL_NOFAB",
+  "base_sha": "ca66f962b84eb96367d52a6b6fc400617c9706bfe666cf964638956cd57f4c5a",
+  "objects": [
+    {
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "B.Cu",
+      "start": [
+        10.8,
+        66.05
+      ],
+      "end": [
+        10.9,
+        64.875
+      ],
+      "width": 0.5,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "B.Cu",
+      "start": [
+        10.9,
+        64.875
+      ],
+      "end": [
+        10.95,
+        64.0
+      ],
+      "width": 0.5,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        10.8,
+        67.0
+      ],
+      "end": [
+        12.0,
+        67.0
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "type": "via",
+      "net": "GND",
+      "layer": "through",
+      "start": [
+        12.0,
+        67.0
+      ],
+      "end": [
+        12.0,
+        67.0
+      ],
+      "width": 0.6,
+      "drill": 0.3
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        8.8,
+        74.0
+      ],
+      "end": [
+        7.6,
+        74.0
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        3.8,
+        68.0
+      ],
+      "end": [
+        3.8875,
+        66.875
+      ],
+      "width": 0.3,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        4.85,
+        66.5
+      ],
+      "end": [
+        3.8875,
+        66.875
+      ],
+      "width": 0.3,
+      "drill": null
+    }
+  ],
+  "current_core": {
+    "3V3_AON": {
+      "before": [
+        "C102.1",
+        "C104.1",
+        "C105.1",
+        "C201.1",
+        "C203.1",
+        "C205.1",
+        "C207.1",
+        "J106.2",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R240.2",
+        "R241.2",
+        "U101.20",
+        "U101.46",
+        "U101.55",
+        "U101.56",
+        "U201.1",
+        "U202.1",
+        "U203.1",
+        "U203.2",
+        "U203.3",
+        "U204.8"
+      ],
+      "after": [
+        "C102.1",
+        "C104.1",
+        "C105.1",
+        "C201.1",
+        "C203.1",
+        "C205.1",
+        "C207.1",
+        "C301.1",
+        "J106.2",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R240.2",
+        "R241.2",
+        "U101.20",
+        "U101.46",
+        "U101.55",
+        "U101.56",
+        "U201.1",
+        "U202.1",
+        "U203.1",
+        "U203.2",
+        "U203.3",
+        "U204.8",
+        "U301.1"
+      ],
+      "added": [
+        "C301.1",
+        "U301.1"
+      ]
+    },
+    "GND": {
+      "before": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C301.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+        "U201.11",
+        "U201.12",
+        "U201.13",
+        "U201.2",
+        "U202.2",
+        "U202.3",
+        "U202.8",
+        "U202.9",
+        "U203.8",
+        "U203.9",
+        "U204.4"
+      ],
+      "after": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C301.2",
+        "C302.2",
+        "C303.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2",
+        "R301.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+        "U201.11",
+        "U201.12",
+        "U201.13",
+        "U201.2",
+        "U202.2",
+        "U202.3",
+        "U202.8",
+        "U202.9",
+        "U203.8",
+        "U203.9",
+        "U204.4",
+        "U301.2"
+      ],
+      "added": [
+        "C302.2",
+        "C303.2",
+        "R301.2",
+        "U301.2"
+      ]
+    },
+    "SENS_VIO_1V8": {
+      "before": [
+        "C202.1",
+        "C204.1",
+        "C206.1",
+        "C208.1",
+        "J202.23",
+        "R242.2",
+        "R243.2",
+        "U201.23",
+        "U201.24",
+        "U202.16",
+        "U203.16",
+        "U204.1"
+      ],
+      "after": [
+        "C202.1",
+        "C204.1",
+        "C206.1",
+        "C208.1",
+        "J202.23",
+        "R242.2",
+        "R243.2",
+        "U201.23",
+        "U201.24",
+        "U202.16",
+        "U203.16",
+        "U204.1"
+      ],
+      "added": []
+    }
+  },
+  "local_pairs": [
+    [
+      "3V3_AON",
+      "U301.1",
+      "C301.1"
+    ],
+    [
+      "GND",
+      "U301.2",
+      "C301.2"
+    ],
+    [
+      "GND",
+      "U301.2",
+      "C302.2"
+    ],
+    [
+      "GND",
+      "U301.2",
+      "C303.2"
+    ],
+    [
+      "GND",
+      "U301.2",
+      "R301.2"
+    ],
+    [
+      "CAM_3V3_PRELINK",
+      "U301.6",
+      "C302.1"
+    ],
+    [
+      "CAM_CT",
+      "U301.4",
+      "C303.1"
+    ],
+    [
+      "CAM_ON",
+      "U301.3",
+      "R301.1"
+    ]
+  ],
+  "negative": [
+    {
+      "removed_model_object": 3,
+      "pad": "U301.2",
+      "core_disconnected": true
+    },
+    {
+      "removed_model_object": 4,
+      "pad": "C302.2",
+      "core_disconnected": true
+    },
+    {
+      "removed_model_object": 5,
+      "pad": "C303.2",
+      "core_disconnected": true
+    },
+    {
+      "removed_model_object": 6,
+      "pad": "R301.2",
+      "core_disconnected": true
+    },
+    {
+      "removed_model_objects": [
+        0,
+        1
+      ],
+      "pads": [
+        "U301.1",
+        "C301.1"
+      ],
+      "core_disconnected": true
+    }
+  ],
+  "existing_ground_accesses": [
+    {
+      "uuid": "02aff7a9-b873-45bb-881c-3d085f9e7448",
+      "at": [
+        7.6,
+        74
+      ]
+    },
+    {
+      "uuid": "a689833a-b198-5ac7-b024-107e01b26016",
+      "at": [
+        3.8875,
+        66.875
+      ]
+    }
+  ],
+  "existing_shared_AON_access": {
+    "uuid": "9f285ef3-71d4-5c8e-a01b-56340e04677c",
+    "at": [
+      10.9,
+      64.875
+    ]
+  },
+  "plane_model": [
+    {
+      "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "modeled_removed_mm2": 0.0,
+      "guarded_025_eroded_components": 1,
+      "note": "nominal exclusion only, no thermal/fresh-fill/native DRC inference"
+    },
+    {
+      "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "modeled_removed_mm2": 0.0,
+      "guarded_025_eroded_components": 1,
+      "note": "nominal exclusion only, no thermal/fresh-fill/native DRC inference"
+    },
+    {
+      "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "modeled_removed_mm2": 0.0,
+      "guarded_025_eroded_components": 1,
+      "note": "nominal exclusion only, no thermal/fresh-fill/native DRC inference"
+    },
+    {
+      "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "modeled_removed_mm2": 0.0,
+      "guarded_025_eroded_components": 1,
+      "note": "nominal exclusion only, no thermal/fresh-fill/native DRC inference"
+    },
+    {
+      "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "modeled_removed_mm2": 0.0,
+      "guarded_025_eroded_components": 1,
+      "note": "nominal exclusion only, no thermal/fresh-fill/native DRC inference"
+    }
+  ],
+  "signal_reference_projection_loss": [],
+  "new_via_courtyard_overlap": [],
+  "all_existing_pad_components_preserved": true,
+  "JP301_open_domain_boundary_preserved": true,
+  "limits": [
+    "NO native board saved, NO fresh fill or native DRC run",
+    "Plane exclusions are geometric estimates; thermal/clearance fill may differ",
+    "0.5mm VIN branch follows old gate geometry intent, not current/load/thermal qualification",
+    "New ground returns reuse vias shared with other circuitry; dynamic ground impedance unqualified",
+    "Nominal hole-pad and courtyard checks do not establish solder mask, filled-via or assembly clearance",
+    "Existing global .5mm feed and MCU DFM gates remain; not fullboard safe power"
+  ]
+}
