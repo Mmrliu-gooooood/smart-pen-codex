@@ -1,0 +1,630 @@
+{
+  "status": "readonly_joint_plan_not_native",
+  "parent_sha256": "d6c91327a9335a0039c10cd34943664095ca476524b7b5bced8afa4dc0219c22",
+  "removed_strap_uuids": [
+    "f12fdf92-70a3-4027-97c3-79601d921230",
+    "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+    "3f3343b7-b5e0-44b5-a36e-3356136bbe32",
+    "b261b62a-8b85-442c-8bf2-db2a7abedfc0"
+  ],
+  "retained_strap_uuids": [
+    "09fc7c63-291d-4a05-ba0d-ea4c53acdb9b",
+    "1c56a2b6-25c1-4842-b409-39fc465e4f97",
+    "3541bdaa-f6fe-46f7-8c4a-8412aef5b000",
+    "3c8a388a-8f9a-4215-8f55-115f7bc5cf8f",
+    "6a24380b-752a-446a-8611-0b1e0adde710",
+    "6f855262-ca2c-4edf-913d-54a058d9df30",
+    "76586aa8-2548-44d2-98d7-71358ac7c198",
+    "802c6e25-6b7e-4bc7-9619-084383b9f411",
+    "9ce67ba9-70a8-4905-8645-e626112196e4",
+    "a1ead6f5-aa95-41e9-9ba7-676f98bba2d5",
+    "a9b020ea-100b-4152-867c-8259c60376fc",
+    "c3893788-11ba-4a2c-a8cc-52860eddc894",
+    "d88aa022-058a-4088-b68f-fb048300e85a",
+    "10bed625-0b4a-4389-87d4-ba2252a222ec",
+    "00a70461-8052-4114-89d1-3891e898546f",
+    "093cebe0-060e-433a-9ac6-18cd14a59e93",
+    "0aefb87a-c231-487d-80d0-042c3a605efe",
+    "0be1ba01-a5c5-449e-be2c-b87bca346fbd",
+    "0e19ca35-810c-4c3e-97dc-e239ec80765f",
+    "13d3710d-a17a-4a14-82cf-da312ef86fae",
+    "1cfb4de5-d6e9-4eb6-a798-0b278b0893f6",
+    "1eadc384-e888-4dfc-8a38-fd6358d634d9",
+    "1f1043d4-6509-49ff-8cfa-3a9bcd325405",
+    "21ea18e0-54a1-47ca-b33a-2b0b6d3a88b8",
+    "2a92d625-ec9c-4711-b493-620039339c83",
+    "2d63382e-e409-4477-a586-cfdb4deb1623",
+    "320384e6-70de-4a90-9034-9e5c1855fea9",
+    "3af84acd-c461-4977-b320-cde6717947bf",
+    "3d7a63c7-5ba0-41df-a2b6-7f9f3a5e5c7e",
+    "4176d477-87c6-4330-aec6-948972ac02cb",
+    "42894027-72b8-453f-afc2-d26cff4c146e",
+    "4a831994-fb20-4212-aa55-ce4317c8459a",
+    "4bddd977-44ea-4d28-804c-0df01bfe1296",
+    "511a3bbf-2a70-46cd-8e4c-38e004485ae4",
+    "5b5f0b0c-6cca-48c0-9495-376314e877c5",
+    "5bf6f25c-5b2d-4b7c-b6ba-c7360d947cbc",
+    "634771d8-fc94-4c98-a344-eec325a2ee93",
+    "6a568695-ed61-46e8-9142-c36ea300a6cf",
+    "6a6825b3-b479-4eac-aca9-00cf4ce6d42e",
+    "6cd2b024-0d5e-43dd-967f-8f8645145e69",
+    "6e3f7d10-d7a0-478c-a0f5-709de69fcd8a",
+    "709d4006-f16e-40e9-8152-4161c9916bfc",
+    "748e647a-1349-4cc7-a86d-a66c330ed4b4",
+    "79df4f0a-f571-4d43-9280-ea5289865078",
+    "7ca28b3c-2bbf-4c6a-841a-7833386f4645",
+    "7e805821-9e35-4fec-ba07-da05e3290158",
+    "81d76b44-8cf9-48bb-90c4-28eef9ec11cb",
+    "8241a480-7359-426f-9d10-5e224e5f624a",
+    "83fc1598-203b-44d4-afbc-68cf84d4921a",
+    "89e93aa6-98ae-4eed-838f-dbce57c629bc",
+    "8ba52616-9784-478a-9353-a7565a0bd9a1",
+    "8ccacb56-d2d8-4ef3-a1cb-47a12adafa08",
+    "8f46473a-356e-4643-add4-c5d16a586f94",
+    "94130b67-de0a-45c5-865c-c66129e6045c",
+    "9d8b439f-913e-4d06-b0ef-d8a771b1f2d8",
+    "9ffe984a-de60-4ad2-9b01-6adac2b715fb",
+    "a47028bb-4267-4241-83d2-13d3e2948543",
+    "a55c172a-067b-4899-9b11-1365f0a049a9",
+    "afa53b48-0169-4b38-87e4-5de734330a4a",
+    "b22ccb22-8513-4bb8-8532-8a6d6c87431f",
+    "b93196c4-adcf-4de3-9939-89df18e3c630",
+    "bf414cc9-c5f9-4cbe-bccb-9c2dacee0db3",
+    "ca1bf51b-2362-405c-bfdd-afde810bb008",
+    "cf760386-93e4-494b-9372-cfb6b15335a5",
+    "de80ccfb-26fe-4470-8804-0516900aebf3",
+    "e0012f49-978b-4529-b57e-403b95088f66",
+    "e03aab84-4773-45b5-beb9-bb109b34556f",
+    "e0df53ad-2284-408b-921e-e3656dff7581",
+    "e1cdf39f-4c5c-4992-8f1f-104d556cf914",
+    "e415d98c-dec1-4ce6-aad7-187fa9842f06",
+    "e4bfe45f-2739-412c-a97f-3e0ac666f173",
+    "e7a9304e-d80d-4476-a77d-90616e7f7463",
+    "e9668641-ab33-4b33-897f-80f0eee38990",
+    "ef495eb8-39bc-41c1-a3a5-552a566521a3",
+    "f29c07cd-23ef-4156-8ab9-f6357060799f",
+    "f2b77948-aa88-46aa-97f3-271b9315c794",
+    "fc18cf53-407b-4c13-876e-ac27149f83e6",
+    "ffe92cc5-c3c7-474f-8b88-7a1cafbba93a"
+  ],
+  "geometry_errors": [],
+  "physical_signal_pad_components": {
+    "STRAP_GPIO3": [
+      [
+        "R103.1",
+        "U101.8"
+      ]
+    ],
+    "NIB_CONTACT_N": [
+      [
+        "C504.1",
+        "R503.2",
+        "R504.1",
+        "U101.7"
+      ]
+    ],
+    "CONTACT": [
+      [
+        "J103.1",
+        "R504.2"
+      ]
+    ]
+  },
+  "objects": [
+    {
+      "tag": "strap_reconnect",
+      "type": "track",
+      "net": "STRAP_GPIO3",
+      "layer": "F.Cu",
+      "start": [
+        2.575,
+        10.2
+      ],
+      "end": [
+        2.15,
+        10.2
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "strap_reconnect",
+      "type": "track",
+      "net": "STRAP_GPIO3",
+      "layer": "F.Cu",
+      "start": [
+        2.15,
+        10.2
+      ],
+      "end": [
+        1.65,
+        10.5
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "strap_reconnect",
+      "type": "via",
+      "net": "STRAP_GPIO3",
+      "layer": "through",
+      "start": [
+        1.65,
+        10.5
+      ],
+      "end": [
+        1.65,
+        10.5
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "tag": "strap_reconnect",
+      "type": "track",
+      "net": "STRAP_GPIO3",
+      "layer": "In3.Cu",
+      "start": [
+        1.65,
+        10.5
+      ],
+      "end": [
+        2.4,
+        9.75
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "strap_reconnect",
+      "type": "track",
+      "net": "STRAP_GPIO3",
+      "layer": "In3.Cu",
+      "start": [
+        2.4,
+        9.75
+      ],
+      "end": [
+        2.4,
+        9.575
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_local",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "F.Cu",
+      "start": [
+        2.575,
+        9.8
+      ],
+      "end": [
+        2.15,
+        9.8
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_local",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "F.Cu",
+      "start": [
+        2.15,
+        9.8
+      ],
+      "end": [
+        1.85,
+        9.5
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_local",
+      "type": "via",
+      "net": "NIB_CONTACT_N",
+      "layer": "through",
+      "start": [
+        1.85,
+        9.5
+      ],
+      "end": [
+        1.85,
+        9.5
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "tag": "nib_local",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "B.Cu",
+      "start": [
+        1.85,
+        9.5
+      ],
+      "end": [
+        3.475,
+        9.8
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_local",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "B.Cu",
+      "start": [
+        3.475,
+        9.8
+      ],
+      "end": [
+        3.475,
+        9.75
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_local",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "B.Cu",
+      "start": [
+        3.475,
+        9.75
+      ],
+      "end": [
+        3.325,
+        11.5
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "aon",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "B.Cu",
+      "start": [
+        1.675,
+        11.5
+      ],
+      "end": [
+        1.3,
+        12.65
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "aon",
+      "type": "via",
+      "net": "3V3_AON",
+      "layer": "through",
+      "start": [
+        1.3,
+        12.65
+      ],
+      "end": [
+        1.3,
+        12.65
+      ],
+      "width": 0.6,
+      "drill": 0.3
+    },
+    {
+      "tag": "capgnd",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.025,
+        9.75
+      ],
+      "end": [
+        5.025,
+        10.4
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "capgnd",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.025,
+        10.4
+      ],
+      "end": [
+        4.25,
+        10.75
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "contact",
+      "type": "track",
+      "net": "CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        3.0,
+        52.0
+      ],
+      "end": [
+        3.825,
+        53.0
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "contact",
+      "type": "track",
+      "net": "CONTACT",
+      "layer": "B.Cu",
+      "start": [
+        3.825,
+        53.0
+      ],
+      "end": [
+        3.825,
+        54.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "j103gnd",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.4,
+        52.0
+      ],
+      "end": [
+        5.4,
+        55.0
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "j103gnd",
+      "type": "via",
+      "net": "GND",
+      "layer": "through",
+      "start": [
+        5.4,
+        55.0
+      ],
+      "end": [
+        5.4,
+        55.0
+      ],
+      "width": 0.6,
+      "drill": 0.3
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.85,
+        9.5
+      ],
+      "end": [
+        1.2,
+        9.1
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.2,
+        9.1
+      ],
+      "end": [
+        0.6,
+        9.7
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        0.6,
+        9.7
+      ],
+      "end": [
+        0.6,
+        13.5
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        0.6,
+        13.5
+      ],
+      "end": [
+        1.95,
+        14.85
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.95,
+        14.85
+      ],
+      "end": [
+        1.95,
+        29.0
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.95,
+        29.0
+      ],
+      "end": [
+        0.8,
+        30.15
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        0.8,
+        30.15
+      ],
+      "end": [
+        0.8,
+        37.5
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        0.8,
+        37.5
+      ],
+      "end": [
+        1.95,
+        38.65
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.95,
+        38.65
+      ],
+      "end": [
+        1.95,
+        51.8
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.95,
+        51.8
+      ],
+      "end": [
+        1.2,
+        52.55
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "In3.Cu",
+      "start": [
+        1.2,
+        52.55
+      ],
+      "end": [
+        1.2,
+        54.25
+      ],
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "tag": "nib_long",
+      "type": "via",
+      "net": "NIB_CONTACT_N",
+      "layer": "through",
+      "start": [
+        1.2,
+        54.25
+      ],
+      "end": [
+        1.2,
+        54.25
+      ],
+      "width": 0.45,
+      "drill": 0.2
+    },
+    {
+      "tag": "nib_long",
+      "type": "track",
+      "net": "NIB_CONTACT_N",
+      "layer": "B.Cu",
+      "start": [
+        1.2,
+        54.25
+      ],
+      "end": [
+        2.175,
+        54.25
+      ],
+      "width": 0.15,
+      "drill": null
+    }
+  ],
+  "core_counts": "not recomputed: plan only, no native refill; inherited AON35/GND68/SENS12 must be preserved",
+  "plane_connectivity": "not proven for new AON/GND vias until actual native refill",
+  "layers": "long NIB In3 only; no new In1/In4 tracks; all through holes need reference/antipad review"
+}

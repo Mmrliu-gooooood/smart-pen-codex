@@ -1,0 +1,221 @@
+{
+  "exact_endpoint_native_holes": [
+    {
+      "index": 7,
+      "bounds_mm": [
+        0.8845,
+        9.1245,
+        1.341,
+        0.951
+      ],
+      "area_mm2": 0.8573146368555,
+      "containing_via_centers": [
+        {
+          "uuid": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+          "net": "BOOT_N"
+        },
+        {
+          "uuid": "7780fcd7-8cba-536c-8997-3e9a88015915",
+          "net": "NIB_CONTACT_N"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "bounds_mm": [
+        0.8245,
+        53.8745,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445512997293,
+      "containing_via_centers": [
+        {
+          "uuid": "d4f74879-e8fb-5815-b89d-e992e8366878",
+          "net": "NIB_CONTACT_N"
+        }
+      ]
+    }
+  ],
+  "new_long_In3_reference_projection": [
+    {
+      "index": 19,
+      "start": [
+        1.85,
+        9.5
+      ],
+      "end": [
+        1.2,
+        9.1
+      ],
+      "length_mm": 0.7632168761236874,
+      "strip_mm2": 0.1320834080165,
+      "ground_In4_uncovered_mm2": 0.0654033687565,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 20,
+      "start": [
+        1.2,
+        9.1
+      ],
+      "end": [
+        0.6,
+        9.7
+      ],
+      "length_mm": 0.8485281374238571,
+      "strip_mm2": 0.14488078282,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 21,
+      "start": [
+        0.6,
+        9.7
+      ],
+      "end": [
+        0.6,
+        13.5
+      ],
+      "length_mm": 3.8,
+      "strip_mm2": 0.587601591594,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 22,
+      "start": [
+        0.6,
+        13.5
+      ],
+      "end": [
+        1.95,
+        14.85
+      ],
+      "length_mm": 1.9091883092036785,
+      "strip_mm2": 0.303979777342,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 23,
+      "start": [
+        1.95,
+        14.85
+      ],
+      "end": [
+        1.95,
+        29.0
+      ],
+      "length_mm": 14.15,
+      "strip_mm2": 2.140101591594,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 24,
+      "start": [
+        1.95,
+        29.0
+      ],
+      "end": [
+        0.8,
+        30.15
+      ],
+      "length_mm": 1.6263455967290594,
+      "strip_mm2": 0.2615534546645,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 25,
+      "start": [
+        0.8,
+        30.15
+      ],
+      "end": [
+        0.8,
+        37.5
+      ],
+      "length_mm": 7.35,
+      "strip_mm2": 1.120101591594,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 26,
+      "start": [
+        0.8,
+        37.5
+      ],
+      "end": [
+        1.95,
+        38.65
+      ],
+      "length_mm": 1.6263455967290594,
+      "strip_mm2": 0.2615534546645,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 27,
+      "start": [
+        1.95,
+        38.65
+      ],
+      "end": [
+        1.95,
+        51.8
+      ],
+      "length_mm": 13.15,
+      "strip_mm2": 1.990101591594,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 28,
+      "start": [
+        1.95,
+        51.8
+      ],
+      "end": [
+        1.2,
+        52.55
+      ],
+      "length_mm": 1.0606601717798214,
+      "strip_mm2": 0.17670058282,
+      "ground_In4_uncovered_mm2": 0.0,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    },
+    {
+      "index": 29,
+      "start": [
+        1.2,
+        52.55
+      ],
+      "end": [
+        1.2,
+        54.25
+      ],
+      "length_mm": 1.7,
+      "strip_mm2": 0.272601591594,
+      "ground_In4_uncovered_mm2": 0.0649506951785,
+      "outside_exact_endpoint_native_holes_mm2": 0.0
+    }
+  ],
+  "total_planar_copper_length_mm": {
+    "NIB_CONTACT_N": 53.2674258506922,
+    "CONTACT": 2.5463892162464172,
+    "STRAP_GPIO3": 35.62548334490965,
+    "SENS_EXTCLK": 46.2625
+  },
+  "open_nominal_RC_us": 47.0,
+  "closed_nominal_RC_us": 0.9791666666666666,
+  "limits": [
+    "RC uses nominal 1nF only, excludes trace/input/cable parasitics and thresholds; not switch debounce",
+    "Long high-impedance contact net ESD/noise protection unqualified",
+    "Uncovered projection uses actual native ground holes, not ideal enlarged-via circles; endpoints/antipads require interpretation",
+    "No reference-plane tracks added; all new signal changes are F/B/In3 plus local through vias"
+  ]
+}

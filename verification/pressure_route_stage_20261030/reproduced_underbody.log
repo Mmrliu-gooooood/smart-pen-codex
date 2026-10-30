@@ -1,0 +1,95 @@
+{
+  "via": {
+    "uuid": "0fc7939c-7219-5bda-a92f-ff54d751526f",
+    "position": [
+      5.4,
+      55.0
+    ],
+    "size_mm": 0.6,
+    "drill_mm": 0.3,
+    "front_mode": 0,
+    "back_mode": 0,
+    "from_rules_enum": 0,
+    "front_effective_tented": true,
+    "back_effective_tented": true,
+    "has_soldermask": false,
+    "local_margin": null,
+    "board_front_tent": true,
+    "board_back_tent": true
+  },
+  "nearest_all_pads": [
+    {
+      "pad": "R222.1",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.22540051496072971,
+      "drill_gap_mm": 0.3754005149607297,
+      "net": "CAM_RESET_UART_TX"
+    },
+    {
+      "pad": "U203.5",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8374158078064504,
+      "drill_gap_mm": 0.9874158078064504,
+      "net": "CAM_RESET_UART_TX"
+    },
+    {
+      "pad": "U203.6",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8554718403163273,
+      "drill_gap_mm": 1.0054718403163272,
+      "net": "CAM_PWDN_UART_RX"
+    },
+    {
+      "pad": "R222.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.9234528757332665,
+      "drill_gap_mm": 1.0734528757332664,
+      "net": "GND"
+    },
+    {
+      "pad": "R504.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.9546854634369524,
+      "drill_gap_mm": 1.1046854634369523,
+      "net": "CONTACT"
+    },
+    {
+      "pad": "R221.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 1.0544013956567675,
+      "drill_gap_mm": 1.2044013956567674,
+      "net": "GND"
+    },
+    {
+      "pad": "U203.4",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.076901759356854,
+      "drill_gap_mm": 1.2269017593568539,
+      "net": "CAM_XCLK"
+    },
+    {
+      "pad": "U203.7",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.1349801379343198,
+      "drill_gap_mm": 1.2849801379343198,
+      "net": "UNUSED_A_INPUT"
+    },
+    {
+      "pad": "U203.3",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5173049260380054,
+      "drill_gap_mm": 1.6673049260380053,
+      "net": "3V3_AON"
+    },
+    {
+      "pad": "U203.8",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5953012937794349,
+      "drill_gap_mm": 1.7453012937794348,
+      "net": "GND"
+    }
+  ],
+  "collisions": []
+}
+13:49:49: Error: Directory '/home/agent/.config/kicad' couldn't be created (error 30: Read-only file system)
+13:49:49: Error: Directory '/home/agent/.config/kicad/9.0' couldn't be created (error 2: No such file or directory)

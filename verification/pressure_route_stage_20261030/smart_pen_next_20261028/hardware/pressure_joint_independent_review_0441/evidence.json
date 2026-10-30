@@ -1,0 +1,614 @@
+{
+  "candidate_sha256": "69d93e9dfa7afd427110a271d7fbdcdcd3a0841d79b502c436a50572849c08cc",
+  "parent_sha256": "d6c91327a9335a0039c10cd34943664095ca476524b7b5bced8afa4dc0219c22",
+  "kicad_version": "9.0.2",
+  "source_path": "hardware/pressure_joint_native_0433/native/schematic/controls_sccb.kicad_sch",
+  "source_excerpt": "(property \"Reference\" \"U203\" (at 85.09 43.26 0) (effects (font (size 1 1))))(property \"Value\" \"SN74AXC4T245PWR\" (at 85.09 45.26 0) (effects (font (size 1 1))))(property \"Footprint\" \"Package_SO:TSSOP-16_4.4x5mm_P0.65mm\" (at 85.09 59.69 0) (effects (font (size 1 1)) hide))(pin \"1\" (uuid 48db1dec-5c00-46ca-a2c3-84ab96c03155))(pin \"2\" (uuid 4846d9ef-4c82-41dd-b16a-51060b9f287f))(pin \"3\" (uuid 8945edb5-3969-4ba7-87df-12b4306ebdbb))(pin \"4\" (uuid 6d7c6ae0-1b94-4b1a-abc3-fbbf190bca06))(pin \"5\" (uuid 303ba858-2d98-4332-822a-804845524a16))(pin \"6\" (uuid 242b689e-f73f-4283-b254-a8758c28c9f0))(pin \"7\" (u",
+  "U203": {
+    "value": "SN74AXC4T245PWR",
+    "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+    "position": [
+      6.0,
+      56.0
+    ],
+    "rotation": -90.0,
+    "pads": [
+      {
+        "number": "1",
+        "position": [
+          8.275,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "2",
+        "position": [
+          7.625,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "3",
+        "position": [
+          6.975,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "4",
+        "position": [
+          6.325,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "5",
+        "position": [
+          5.675,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "6",
+        "position": [
+          5.025,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "7",
+        "position": [
+          4.375,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "8",
+        "position": [
+          3.725,
+          53.1375
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "9",
+        "position": [
+          3.725,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "10",
+        "position": [
+          4.375,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "11",
+        "position": [
+          5.025,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "12",
+        "position": [
+          5.675,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "13",
+        "position": [
+          6.325,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "14",
+        "position": [
+          6.975,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "15",
+        "position": [
+          7.625,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      },
+      {
+        "number": "16",
+        "position": [
+          8.275,
+          58.8625
+        ],
+        "size": [
+          1.475,
+          0.4
+        ],
+        "rotation": 270.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "mask_margin": null
+      }
+    ]
+  },
+  "via": {
+    "uuid": "0fc7939c-7219-5bda-a92f-ff54d751526f",
+    "position": [
+      5.4,
+      55.0
+    ],
+    "size_mm": 0.6,
+    "drill_mm": 0.3,
+    "front_mode": 0,
+    "back_mode": 0,
+    "from_rules_enum": 0,
+    "front_effective_tented": true,
+    "back_effective_tented": true,
+    "has_soldermask": false,
+    "local_margin": null,
+    "board_front_tent": true,
+    "board_back_tent": true
+  },
+  "all_copper_pad_checks": 366,
+  "nearest_all_pads": [
+    {
+      "pad": "R222.1",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.22540051496072971,
+      "drill_gap_mm": 0.3754005149607297,
+      "net": "CAM_RESET_UART_TX"
+    },
+    {
+      "pad": "U203.5",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8374158078064504,
+      "drill_gap_mm": 0.9874158078064504,
+      "net": "CAM_RESET_UART_TX"
+    },
+    {
+      "pad": "U203.6",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8554718403163273,
+      "drill_gap_mm": 1.0054718403163272,
+      "net": "CAM_PWDN_UART_RX"
+    },
+    {
+      "pad": "R222.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.9234528757332665,
+      "drill_gap_mm": 1.0734528757332664,
+      "net": "GND"
+    },
+    {
+      "pad": "R504.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 0.9546854634369524,
+      "drill_gap_mm": 1.1046854634369523,
+      "net": "CONTACT"
+    },
+    {
+      "pad": "R221.2",
+      "layer": "B.Cu",
+      "copper_disk_gap_mm": 1.0544013956567675,
+      "drill_gap_mm": 1.2044013956567674,
+      "net": "GND"
+    },
+    {
+      "pad": "U203.4",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.076901759356854,
+      "drill_gap_mm": 1.2269017593568539,
+      "net": "CAM_XCLK"
+    },
+    {
+      "pad": "U203.7",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.1349801379343198,
+      "drill_gap_mm": 1.2849801379343198,
+      "net": "UNUSED_A_INPUT"
+    },
+    {
+      "pad": "U203.3",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5173049260380054,
+      "drill_gap_mm": 1.6673049260380053,
+      "net": "3V3_AON"
+    },
+    {
+      "pad": "U203.8",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5953012937794349,
+      "drill_gap_mm": 1.7453012937794348,
+      "net": "GND"
+    }
+  ],
+  "U203_pad_gaps": [
+    {
+      "pad": "U203.1",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.6333282869574965,
+      "drill_gap_mm": 2.7833282869574965,
+      "net": "3V3_AON"
+    },
+    {
+      "pad": "U203.2",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.0527821837018827,
+      "drill_gap_mm": 2.2027821837018826,
+      "net": "3V3_AON"
+    },
+    {
+      "pad": "U203.3",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5173049260380054,
+      "drill_gap_mm": 1.6673049260380053,
+      "net": "3V3_AON"
+    },
+    {
+      "pad": "U203.4",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.076901759356854,
+      "drill_gap_mm": 1.2269017593568539,
+      "net": "CAM_XCLK"
+    },
+    {
+      "pad": "U203.5",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8374158078064504,
+      "drill_gap_mm": 0.9874158078064504,
+      "net": "CAM_RESET_UART_TX"
+    },
+    {
+      "pad": "U203.6",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 0.8554718403163273,
+      "drill_gap_mm": 1.0054718403163272,
+      "net": "CAM_PWDN_UART_RX"
+    },
+    {
+      "pad": "U203.7",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.1349801379343198,
+      "drill_gap_mm": 1.2849801379343198,
+      "net": "UNUSED_A_INPUT"
+    },
+    {
+      "pad": "U203.8",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 1.5953012937794349,
+      "drill_gap_mm": 1.7453012937794348,
+      "net": "GND"
+    },
+    {
+      "pad": "U203.9",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 3.1890125163239245,
+      "drill_gap_mm": 3.3390125163239244,
+      "net": "GND"
+    },
+    {
+      "pad": "U203.10",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.955030415325946,
+      "drill_gap_mm": 3.105030415325946,
+      "net": "unconnected-(U203-2B2-Pad10)"
+    },
+    {
+      "pad": "U203.11",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.836698375143042,
+      "drill_gap_mm": 2.986698375143042,
+      "net": "SENS_TRIG_IN"
+    },
+    {
+      "pad": "U203.12",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.829694441415168,
+      "drill_gap_mm": 2.979694441415168,
+      "net": "SENS_XSHUTDN_N"
+    },
+    {
+      "pad": "U203.13",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 2.92880184801793,
+      "drill_gap_mm": 3.07880184801793,
+      "net": "SENS_EXTCLK"
+    },
+    {
+      "pad": "U203.14",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 3.146253754305536,
+      "drill_gap_mm": 3.296253754305536,
+      "net": "CAM_ISO_OE_N"
+    },
+    {
+      "pad": "U203.15",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 3.4621250982549747,
+      "drill_gap_mm": 3.6121250982549746,
+      "net": "CAM_ISO_OE_N"
+    },
+    {
+      "pad": "U203.16",
+      "layer": "F.Cu",
+      "copper_disk_gap_mm": 3.8545271204075684,
+      "drill_gap_mm": 4.004527120407569,
+      "net": "SENS_VIO_1V8"
+    }
+  ],
+  "collisions": [],
+  "R222_opposite_face": {
+    "value": "100k 1%",
+    "position": [
+      6.0,
+      56.0
+    ],
+    "rotation": 0.0,
+    "footprint": "R_0603_1608Metric",
+    "graphics": [
+      {
+        "layer": "B.Courtyard",
+        "start": [
+          4.52,
+          55.27
+        ],
+        "end": [
+          4.52,
+          56.73
+        ]
+      },
+      {
+        "layer": "B.Courtyard",
+        "start": [
+          4.52,
+          56.73
+        ],
+        "end": [
+          7.48,
+          56.73
+        ]
+      },
+      {
+        "layer": "B.Courtyard",
+        "start": [
+          7.48,
+          55.27
+        ],
+        "end": [
+          4.52,
+          55.27
+        ]
+      },
+      {
+        "layer": "B.Courtyard",
+        "start": [
+          7.48,
+          56.73
+        ],
+        "end": [
+          7.48,
+          55.27
+        ]
+      },
+      {
+        "layer": "B.Fab",
+        "start": [
+          5.2,
+          55.5875
+        ],
+        "end": [
+          5.2,
+          56.4125
+        ]
+      },
+      {
+        "layer": "B.Fab",
+        "start": [
+          5.2,
+          56.4125
+        ],
+        "end": [
+          6.8,
+          56.4125
+        ]
+      },
+      {
+        "layer": "B.Fab",
+        "start": [
+          6.8,
+          55.5875
+        ],
+        "end": [
+          5.2,
+          55.5875
+        ]
+      },
+      {
+        "layer": "B.Fab",
+        "start": [
+          6.8,
+          56.4125
+        ],
+        "end": [
+          6.8,
+          55.5875
+        ]
+      }
+    ],
+    "via_disk_to_nominal_body_gap_mm": 0.2875,
+    "via_disk_courtyard_penetration_mm": 0.03,
+    "note": "nominal footprint, not actual purchased resistor tolerance or assembly approval"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "source_unchanged_except_J107_pose_and_R503_serialization": true,
+  "netlist_exact": true,
+  "U501_actual_source": [
+    {
+      "net": "3V3_AON",
+      "ref": "U501",
+      "pin": "10",
+      "pinfunction": "VDDIO",
+      "pintype": "power_in"
+    },
+    {
+      "net": "3V3_AON",
+      "ref": "U501",
+      "pin": "2",
+      "pinfunction": "CS",
+      "pintype": "input"
+    },
+    {
+      "net": "3V3_AON",
+      "ref": "U501",
+      "pin": "3",
+      "pinfunction": "SA0",
+      "pintype": "input"
+    },
+    {
+      "net": "3V3_AON",
+      "ref": "U501",
+      "pin": "9",
+      "pinfunction": "VDD",
+      "pintype": "power_in"
+    },
+    {
+      "net": "AON_I2C_SCL",
+      "ref": "U501",
+      "pin": "1",
+      "pinfunction": "SCL",
+      "pintype": "input"
+    },
+    {
+      "net": "AON_I2C_SDA",
+      "ref": "U501",
+      "pin": "4",
+      "pinfunction": "SDA",
+      "pintype": "bidirectional"
+    },
+    {
+      "net": "GND",
+      "ref": "U501",
+      "pin": "5",
+      "pinfunction": "NC",
+      "pintype": "passive"
+    },
+    {
+      "net": "GND",
+      "ref": "U501",
+      "pin": "6",
+      "pinfunction": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "net": "GND",
+      "ref": "U501",
+      "pin": "7",
+      "pinfunction": "RES",
+      "pintype": "passive"
+    },
+    {
+      "net": "GND",
+      "ref": "U501",
+      "pin": "8",
+      "pinfunction": "GND",
+      "pintype": "power_in"
+    },
+    {
+      "net": "PICKUP_INT_N",
+      "ref": "U501",
+      "pin": "12",
+      "pinfunction": "INT1",
+      "pintype": "output"
+    },
+    {
+      "net": "unconnected-(U501-INT2-Pad11)",
+      "ref": "U501",
+      "pin": "11",
+      "pinfunction": "INT2",
+      "pintype": "output+no_connect"
+    }
+  ]
+}
