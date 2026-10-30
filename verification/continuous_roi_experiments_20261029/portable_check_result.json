@@ -1,0 +1,102 @@
+{
+  "scope": "offline synthetic host checks only",
+  "source_files_verified": 238,
+  "device_measured": false,
+  "target_fps_claim": false,
+  "application_record_chain_integrated": false,
+  "frozen_inputs_unchanged": true,
+  "candidate_tests": {
+    "passed": 8,
+    "skipped": 0,
+    "log": "continuous ROI native bounded traversal/buffer/output contract PASS\ntest_bounded_workspace_and_no_heap (test_roi_continuous.ContinuousROI.test_bounded_workspace_and_no_heap) ... ok\ntest_fixed_rotation_scale_blur_damage_regressions (test_roi_continuous.ContinuousROI.test_fixed_rotation_scale_blur_damage_regressions) ... ok\ntest_independent_deep_edge_ink_regression (test_roi_continuous.ContinuousROI.test_independent_deep_edge_ink_regression) ... ok\ntest_large_edge_component_and_interior_damage_fail_closed (test_roi_continuous.ContinuousROI.test_large_edge_component_and_interior_damage_fail_closed) ... ok\ntest_padded_stride_and_determinism (test_roi_continuous.ContinuousROI.test_padded_stride_and_determinism) ... ok\ntest_profile_c_full_frames_select_current_pixel_roi (test_roi_continuous.ContinuousROI.test_profile_c_full_frames_select_current_pixel_roi) ... ok\ntest_reject_blank_bad_arguments_and_wrong_section (test_roi_continuous.ContinuousROI.test_reject_blank_bad_arguments_and_wrong_section) ... ok\ntest_native (test_roi_continuous_safety.ContinuousSafety.test_native) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 6.762s\n\nOK\n",
+    "full_original_80_test_gate_rerun": false
+  },
+  "independent_v2_reproduction": {
+    "passed": true,
+    "frozen_v1_images_replayed": 72,
+    "additional_phase_cases": 48,
+    "fragment_and_corner_images": 6,
+    "compared_original_artifacts": [
+      "replay_v1.json",
+      "phase.json",
+      "fragments.json",
+      "corner_control.json",
+      "summary.json",
+      "sliver1x4.pgm",
+      "half_disk.pgm",
+      "corner1x1.pgm",
+      "corner1x4.pgm",
+      "corner4x1.pgm",
+      "isolated_corner4x1.pgm"
+    ],
+    "summary": {
+      "replay_count": 72,
+      "positive_status": {
+        "0": 29,
+        "-3": 25
+      },
+      "lost_v1_successes": [
+        "../case_063.pgm",
+        "../case_064.pgm",
+        "../case_065.pgm"
+      ],
+      "edge_ink": [
+        [
+          4,
+          0
+        ],
+        [
+          8,
+          -2
+        ],
+        [
+          11,
+          -2
+        ],
+        [
+          12,
+          -2
+        ],
+        [
+          13,
+          -2
+        ],
+        [
+          20,
+          -2
+        ],
+        [
+          50,
+          -2
+        ]
+      ],
+      "phase_status": {
+        "0": 48
+      },
+      "fragments": [
+        [
+          "sliver1x4",
+          0
+        ],
+        [
+          "half_disk",
+          0
+        ],
+        [
+          "corner1x1",
+          0
+        ],
+        [
+          "corner1x4",
+          0
+        ],
+        [
+          "corner4x1",
+          -2
+        ]
+      ]
+    },
+    "original_v1_review_rerun": false,
+    "sanitizer_rerun": false
+  }
+}

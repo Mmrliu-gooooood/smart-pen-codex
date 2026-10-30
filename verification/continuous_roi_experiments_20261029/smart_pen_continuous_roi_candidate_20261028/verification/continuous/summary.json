@@ -1,0 +1,112 @@
+{
+  "synthetic_only": true,
+  "workspace_bytes": 31104,
+  "cases": 340,
+  "groups": [
+    {
+      "group": "baseline",
+      "n": 108,
+      "statuses": {
+        "0": 108
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.4215876378220885,
+      "host_median_ms": 238.37493300015922,
+      "host_max_ms": 641.8999800007441
+    },
+    {
+      "group": "blur",
+      "n": 24,
+      "statuses": {
+        "0": 20,
+        "-2": 4
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.43431073903145556,
+      "host_median_ms": 223.82085850040312,
+      "host_max_ms": 399.9436589947436
+    },
+    {
+      "group": "damage",
+      "n": 27,
+      "statuses": {
+        "-2": 24,
+        "-3": 3
+      },
+      "false_success": 0,
+      "max_transform_error_px": null,
+      "host_median_ms": 0.06213199958438054,
+      "host_max_ms": 201.99567400413798
+    },
+    {
+      "group": "fake_dots",
+      "n": 16,
+      "statuses": {
+        "-3": 16
+      },
+      "false_success": 0,
+      "max_transform_error_px": null,
+      "host_median_ms": 217.10381099910592,
+      "host_max_ms": 263.24768899939954
+    },
+    {
+      "group": "fractional_fov",
+      "n": 36,
+      "statuses": {
+        "-3": 19,
+        "0": 17
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.9109638339909444,
+      "host_median_ms": 236.72364149751957,
+      "host_max_ms": 636.7726789976587
+    },
+    {
+      "group": "model_boundary",
+      "n": 21,
+      "statuses": {
+        "-3": 15,
+        "-2": 2,
+        "0": 4
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.4482060800419952,
+      "host_median_ms": 218.65511100622825,
+      "host_max_ms": 265.15496199863264
+    },
+    {
+      "group": "noise",
+      "n": 9,
+      "statuses": {
+        "0": 9
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.3599752678222691,
+      "host_median_ms": 197.5456599975587,
+      "host_max_ms": 228.29775699938182
+    },
+    {
+      "group": "rotation",
+      "n": 96,
+      "statuses": {
+        "0": 60,
+        "-3": 36
+      },
+      "false_success": 0,
+      "max_transform_error_px": 0.3780005202314941,
+      "host_median_ms": 236.5115034954215,
+      "host_max_ms": 1477.8976959933061
+    },
+    {
+      "group": "wrong_section",
+      "n": 3,
+      "statuses": {
+        "-3": 3
+      },
+      "false_success": 0,
+      "max_transform_error_px": null,
+      "host_median_ms": 242.23766600334784,
+      "host_max_ms": 248.59685800038278
+    }
+  ]
+}

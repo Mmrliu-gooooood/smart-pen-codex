@@ -1,0 +1,2 @@
+from pathlib import Path
+s=(Path(__file__).parent/'v2_review.py').read_text();exec(s.split('V1=P.parent')[0]);im=render(6,0,330.125,560.125);assert np.min(im[52:58,52:59])>150;im[52,52:56]=30;r,o=call(im);check_truth(r,o,6,0,330.125,560.125);r['kind']='isolated_corner4x1';r['fixture']='isolated_corner4x1.pgm';(P/r['fixture']).write_bytes(b'P5\n200 200\n255\n'+im.tobytes());(P/'corner_control.json').write_text(json.dumps(r,indent=2));print(r)

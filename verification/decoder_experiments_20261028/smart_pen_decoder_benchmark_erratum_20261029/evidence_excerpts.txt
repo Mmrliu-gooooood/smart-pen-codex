@@ -1,0 +1,71 @@
+
+smart_pen_sdk_20261028/esp-idf/components/newlib/Kconfig
+51:     config NEWLIB_NANO_FORMAT
+52:         bool "Enable 'nano' formatting options for printf/scanf family"
+53:         default y if IDF_TARGET_ESP32C2
+54:         help
+55:             In most chips the ROM contains parts of newlib C library, including printf/scanf family
+56:             of functions. These functions have been compiled with so-called "nano"
+57:             formatting option. This option doesn't support 64-bit integer formats and C99
+58:             features, such as positional arguments.
+59: 
+60:             For more details about "nano" formatting option, please see newlib readme file,
+61:             search for '--enable-newlib-nano-formatted-io':
+62:             https://sourceware.org/git/?p=newlib-cygwin.git;a=blob_plain;f=newlib/README;hb=HEAD
+63: 
+64:             If this option is enabled and the ROM contains functions from newlib-nano, the build system
+65:             will use functions available in ROM, reducing the application binary size.
+66:             Functions available in ROM run faster than functions which run from flash. Functions available
+67:             in ROM can also run when flash instruction cache is disabled.
+68: 
+69:             Some chips (e.g. ESP32-C6) has the full formatting versions of printf/scanf in ROM instead of
+70:             the nano versions and in this building with newlib nano might actually increase the size of
+71:             the binary. Which functions are present in ROM can be seen from ROM caps:
+72:             ESP_ROM_HAS_NEWLIB_NANO_FORMAT and ESP_ROM_HAS_NEWLIB_NORMAL_FORMAT.
+73: 
+74:             If you need 64-bit integer formatting support or C99 features, keep this
+75:             option disabled.
+
+smart_pen_sdk_20261028/esp-idf/components/newlib/CMakeLists.txt
+76: if(CONFIG_NEWLIB_NANO_FORMAT)
+77:     if(CMAKE_C_COMPILER_ID MATCHES "Clang")
+78:         set(libc_dir_cmd ${CMAKE_C_COMPILER})
+79:         string(REPLACE " " ";" cflags_list ${CMAKE_C_FLAGS})
+80:         list(APPEND libc_dir_cmd ${cflags_list} "-print-file-name=libc.a")
+81:         execute_process(
+82:             COMMAND ${libc_dir_cmd}
+83:             OUTPUT_VARIABLE libc_dir
+84:         )
+85:         get_filename_component(libc_dir ${libc_dir} DIRECTORY)
+86:         target_link_directories(${COMPONENT_LIB} INTERFACE "${libc_dir}/nano")
+87:     else()
+88:         target_link_libraries(${COMPONENT_LIB} INTERFACE "--specs=nano.specs")
+89:     endif()
+90: endif()
+91: 
+
+smart_pen_decoder_target_benchmark_20261028/build-enabled/smartpen_decoder_bench.map
+12031:  *fill*         0x40389182        0x2 
+12032:  .text          0x40389184      0x458 /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc_nano.a(libc_a-nano-svfprintf.o)
+12033:                 0x40389184                __ssputs_r
+12034:                 0x40389268                __ssprint_r
+12035:                 0x40389370                _svfprintf_r
+12036:                 0x40389370                _svfiprintf_r
+12037:  .text          0x403895dc      0x35d /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc_nano.a(libc_a-nano-vfprintf.o)
+12038:                 0x40389618                __sfputs_r
+12039:                 0x4038963c                __sprint_r
+12040:                 0x40389660                _vfprintf_r
+12041:                 0x40389660                _vfiprintf_r
+12042:                 0x40389918                vfprintf
+12043:                 0x40389918                vfiprintf
+12044:  *fill*         0x40389939        0x3 
+
+smart_pen_decoder_target_benchmark_20261028/main/bench_main.c
+45:     printf("{\"type\":\"decode\",\"fixture\":\"%s\",\"placement\":\"%s\",\"repeat\":%u,\"mode\":\"%s\",\"status\":%d,\"verdict\":\"%s\",\"decode_us\":%" PRId64 ",\"failure_output_preserved\":%s,\"failure_prior_cleared\":%s",fixture->name,placement,repeat,phase?"warm":"cold",status,verdict,elapsed,(!status||!memcmp(&before,&result,sizeof(result)))?"true":"false",(!status||!prior.valid)?"true":"false");
+
+smart_pen_decoder_target_benchmark_20261028/build-enabled.config
+483: CONFIG_ESP_ROM_HAS_NEWLIB_NANO_FORMAT=y
+1106: CONFIG_NEWLIB_NANO_FORMAT=y
+
+smart_pen_sdk_20261028/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h
+26: #define ESP_ROM_HAS_NEWLIB_NANO_FORMAT      (1) // ROM has the newlib nano version of formatting functions

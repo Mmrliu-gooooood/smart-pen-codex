@@ -1,0 +1,15 @@
+Host compiler only; individual .su static estimates, not measured S3 high-water.
+cc (Debian 14.2.0-19) 14.2.0
+Frozen original opt:
+smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:57:15:phase	80	static
+smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:64:12:candidate	352	dynamic,bounded
+smart_pen_vision_opt_20261028/firmware/vision/roi_opt.c:132:5:pen_roi_decode_opt	400	static
+Candidate:
+firmware/codec/anoto.c:19:17:integral	32	static
+firmware/codec/anoto.c:11:12:axis	56	static
+firmware/codec/anoto.c:20:5:pen_anoto_decode	96	static
+firmware/vision/roi_continuous.c:59:5:pen_roi_decode_continuous	464	dynamic,bounded
+firmware/vision/roi_opt.c:58:15:phase	80	static
+firmware/vision/roi_opt.c:65:12:candidate	400	dynamic,bounded
+firmware/vision/roi_opt.c:138:5:pen_roi_decode_opt_transform	496	static
+firmware/vision/roi_opt.c:176:5:pen_roi_decode_opt	48	dynamic,bounded
