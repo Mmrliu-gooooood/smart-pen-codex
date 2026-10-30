@@ -1,0 +1,35 @@
+{
+  "replay_all_native_files_byte_equal": true,
+  "replay_native_file_count": 54,
+  "inverse_patch_actual_applied": true,
+  "rollback_all_native_files_byte_equal": true,
+  "rollback_native_file_count": 53,
+  "rollback_DRC_unconnected_parity": [
+    0,
+    96,
+    0
+  ],
+  "changes": [
+    {
+      "path": "SmartPenIO.pretty/TI_DCK0005A_Schmitt_OfficialLand.kicad_mod",
+      "before_sha256": null,
+      "after_sha256": "657a4c8f5e536ff374a0d497583a2f08caa0d053061d0eb0eb798a8192257fc1"
+    },
+    {
+      "path": "mainboard_revD.kicad_pcb",
+      "before_sha256": "63d460c70405e1c1042f5e150a7fe5c5c5c32346fb37209a386cf03a1eacdd7c",
+      "after_sha256": "3276f04433c8ee3759f963fdc133200aee0b398ec6009e31a82fd595ab2f4328"
+    },
+    {
+      "path": "schematic/ISO.kicad_sym",
+      "before_sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "after_sha256": "dc770809d1ef253042019d65a5b4858e75b600d5e874ac0ed04bc88af1202bfa"
+    },
+    {
+      "path": "schematic/controls_sccb.kicad_sch",
+      "before_sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "after_sha256": "9a70918a76778ffa64b04b69d474a557aad282b8cde978cd996881f35a3c091c"
+    }
+  ],
+  "note": "Real inverse unified diff applied to candidate tree, not replacing PCB with baseline copy; no upstream source edited"
+}

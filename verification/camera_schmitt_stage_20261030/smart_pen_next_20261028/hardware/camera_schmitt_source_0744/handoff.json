@@ -1,0 +1,55 @@
+{
+  "U205": {
+    "uuid": "2c636bbd-e7ed-5179-8f56-f9b0d3d0c4bd",
+    "path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/2c636bbd-e7ed-5179-8f56-f9b0d3d0c4bd",
+    "reference": "U205",
+    "value": "SN74LVC1G14DCKR",
+    "footprint": "SmartPenIO:TI_DCK0005A_Schmitt_OfficialLand",
+    "pins": {
+      "1": "NC",
+      "2": "ISO_GATE",
+      "3": "GND",
+      "4": "CAM_ISO_OE_N",
+      "5": "3V3_AON"
+    }
+  },
+  "C209": {
+    "uuid": "59dc8fe6-498a-5f7b-a595-348e389be68e",
+    "path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/59dc8fe6-498a-5f7b-a595-348e389be68e",
+    "reference": "C209",
+    "value": "100nF 16V X7R +/-10%",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "MPN_candidate": "C0402C104K4RACTU",
+    "pads": {
+      "1": {
+        "net": "3V3_AON",
+        "xy": [
+          -0.48,
+          0
+        ],
+        "size": [
+          0.56,
+          0.62
+        ]
+      },
+      "2": {
+        "net": "GND",
+        "xy": [
+          0.48,
+          0
+        ],
+        "size": [
+          0.56,
+          0.62
+        ]
+      }
+    }
+  },
+  "R202": {
+    "old": "100k 1%",
+    "new": "10k 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "MPN_candidate": "RC0603FR-0710KL"
+  },
+  "Q201": "removed; other instances unchanged"
+}

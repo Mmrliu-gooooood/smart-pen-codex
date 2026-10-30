@@ -1,0 +1,717 @@
+[
+  {
+    "case": "r203_supply",
+    "removed": [
+      "4829728e-6b6b-551b-96c7-5006e549b45d",
+      "a6e901fe-1012-596a-ab68-7a1f30d88588"
+    ],
+    "net": "3V3_AON",
+    "source": "J106.2",
+    "disconnected_targets": [
+      "R203.2"
+    ],
+    "actual_remaining_source_component": [
+      "C102.1",
+      "C103.1",
+      "C104.1",
+      "C105.1",
+      "C201.1",
+      "C203.1",
+      "C205.1",
+      "C207.1",
+      "C209.1",
+      "C301.1",
+      "C501.1",
+      "C502.1",
+      "C503.1",
+      "J106.2",
+      "R101.2",
+      "R102.2",
+      "R103.2",
+      "R240.2",
+      "R241.2",
+      "R501.1",
+      "R502.1",
+      "R503.1",
+      "U101.2",
+      "U101.20",
+      "U101.3",
+      "U101.46",
+      "U101.55",
+      "U101.56",
+      "U201.1",
+      "U202.1",
+      "U203.1",
+      "U203.2",
+      "U203.3",
+      "U204.8",
+      "U205.5",
+      "U301.1",
+      "U501.10",
+      "U501.2",
+      "U501.3",
+      "U501.9"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "3b46418b8d0c58a393c927c89f88f90f385fcd5a205fc499f9a6e5b68da77414"
+  },
+  {
+    "case": "oe_pair202",
+    "removed": [
+      "7cf218cc-d10c-58e7-9915-97bbe52135f1"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "U202.15"
+    ],
+    "actual_remaining_source_component": [
+      "R203.1",
+      "U202.14",
+      "U203.14",
+      "U203.15",
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "e03af1ea2bb764340be4609480eb39949e6495462cf82d7dd2070736023cd64e"
+  },
+  {
+    "case": "oe_pair203",
+    "removed": [
+      "f48327f2-5579-5566-85d1-9753682cb0dc"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "U203.14"
+    ],
+    "actual_remaining_source_component": [
+      "R203.1",
+      "U203.15",
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "0d7ac15a8cf822a9472767edadd4554650d55d60a62afb9826d7171c7e64ef94"
+  },
+  {
+    "case": "oe_upper",
+    "removed": [
+      "00bf7eb1-5181-55fd-b9dc-2eacbd59d1d0",
+      "0f9a6ab0-cac9-512a-a030-399c2c1b31fd",
+      "2325d254-4d96-5286-a406-27c6c9d6a9c6",
+      "24ed2b51-a0d2-5e95-bf4f-f9aabab9550b",
+      "2bfcdbd0-89f3-5999-acb6-7ed256ad86a1",
+      "2cd81ad6-6c8f-5941-9c91-84e51e5ca23c",
+      "2d036dc7-8415-589f-b289-e4706d78166f",
+      "3492cefd-eb57-55e1-8f8e-65a5025f3b7a",
+      "37870b5a-df7b-5bb9-a7d7-5a7252e46630",
+      "40a2de67-a71f-5af9-9646-9dc63021956d",
+      "479e2dbc-7609-560c-bfb8-2a1162e9d3b4",
+      "4c916210-6efe-5a2b-a295-524e6a33b787",
+      "4f7a1dd6-6be6-53fb-abff-4b31842d2b14",
+      "5a4a263c-7202-52a2-a6d2-99a9d91215ea",
+      "5ed25f4e-2ec2-5107-b24c-b0bfb4f1900b",
+      "6463f038-f882-566e-ae2e-736403466fb9",
+      "64ad6f22-5998-5ec0-99c7-c5c2072ea272",
+      "793ac15f-2191-5d46-b91d-4931c9eb9216",
+      "8d11e884-b502-51d7-b7fb-05f14254ee87",
+      "bc938735-a111-5c6f-a0e4-fab4d42942b7",
+      "bd39dbff-35f3-5f1d-83dc-64af4d9454b3",
+      "d79d5fdd-75e0-5a2b-8db4-cbc3247a9978",
+      "deac5820-b729-528c-b1f8-212bee4e44ab",
+      "f5d87a8b-1b66-5d67-a904-2464b8751732"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "U201.22"
+    ],
+    "actual_remaining_source_component": [
+      "R203.1",
+      "U202.14",
+      "U202.15",
+      "U203.14",
+      "U203.15",
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "d2ce2cfffd00ae6e91fc02b1c944e16894fad5dc275dfae03dc6c9ff4b7ac6ec"
+  },
+  {
+    "case": "oe_middle",
+    "removed": [
+      "1a79f533-f80c-55c7-9d9e-11cafbf98cc0",
+      "2300ab9f-bf32-5154-88aa-61f8a79deb53",
+      "23a48a6d-5bdb-532e-8c0c-03e7c565c81f",
+      "24d21f54-bcad-59b2-b5e6-110acee63dd9",
+      "46adbccd-e576-5ad9-8200-b890b64b58bb",
+      "59f672c2-0487-5973-9673-2af022b31649",
+      "6dbb65b8-091a-5764-9831-a50ba041f280",
+      "6e5faeed-a211-5c52-93a3-efb3e427e086",
+      "848922c5-4ae3-5dd8-a0ce-729de4341e67",
+      "989ffdb5-2d99-5daa-abf1-28d22660fb82",
+      "9da108a5-5c10-5262-a544-138e1ecb170b",
+      "a064bb24-5fb2-5d81-b8e1-f639903e275c",
+      "a20a9183-73e6-5a38-b0ff-d976d96cd6ad",
+      "a8741d14-62d7-5dc4-b01b-82a7694167f9",
+      "b550836b-d809-5236-bfed-3298010401de",
+      "b64ee8fb-f39f-5b3e-806c-30ea628ed599",
+      "b8f867a7-8509-5ace-8f90-e704e4b88f85",
+      "be432640-28bf-5ccd-bace-fdea783eb299",
+      "c4bec89b-c326-5da5-aca2-a52e585f2977",
+      "c6250e06-f87e-5928-993f-4df19be206a6",
+      "ca4c84ce-2b37-5b11-b3bb-f86cd63f2884",
+      "ccfc4ca2-8215-53f8-9b3b-82156e57e5d6",
+      "d2ea2dbf-6d0d-5552-803d-2a3414f4f209",
+      "d7eb8367-26f6-5847-9ddf-37990289cfa0",
+      "dff834b1-ead4-5a45-80a3-fdb7a0276002",
+      "e3ba93a6-0feb-5a4e-b3f1-f689453e4cfa",
+      "e8c14551-4237-5b20-81cf-36cdb7e7f241",
+      "ef1800e9-04ae-5f1a-91ba-2d1f592b5e0a",
+      "f6309530-3a67-53f3-b663-cdf7b5908471",
+      "f64948c7-b58b-5e07-8887-05a289a8956a"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "U202.14",
+      "U202.15",
+      "U201.22"
+    ],
+    "actual_remaining_source_component": [
+      "R203.1",
+      "U203.14",
+      "U203.15",
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "63d1c287c5fea8943ebd57822c50ef1761992680c6256452d13cb347194df261"
+  },
+  {
+    "case": "oe_lower",
+    "removed": [
+      "07d7bf8b-1637-5be6-8516-4f28cedaa959",
+      "1d7ae0a1-e67a-54ee-a66e-83f15f302505",
+      "1fd8c991-ab30-5afd-a0ee-2e12cb92ee18",
+      "24489f44-f89f-5e11-a6de-64b3008c08de",
+      "25e8081b-c19e-540a-baaf-10a3b11df9b3",
+      "33b4a0e4-3c73-5ebd-b3bb-c294c6355508",
+      "38720816-7c98-5945-bc1f-365c77d52b41",
+      "4879f280-2804-5cf3-b318-d5d46ac1bedb",
+      "4c04d997-fb75-542f-b7a1-c84350c0f6ff",
+      "4f6b2cbd-52a0-5c77-b1ca-4eb2d27120bf",
+      "50cb6436-da97-534c-8bbb-aa4e21709b81",
+      "627869a2-5f36-5631-a80a-3ea7a9fb01e2",
+      "62eeb4c2-b1ca-5dab-b3ef-c92b96ada80f",
+      "67b0c40d-90c7-507b-9494-2ac14d3e12de",
+      "6c42eafe-953a-59e8-8572-97a1e1dea857",
+      "6c653abe-57e0-56fb-ae14-feee344ff42d",
+      "7c24b10a-6095-5fd1-9e16-36aed9c41eb0",
+      "a5941fa0-6b55-50ef-970c-b501b48d771d",
+      "a78f7183-6506-5ca8-868d-d53bec321208",
+      "b18ee52d-b307-5ddf-bfa9-8bc703209254",
+      "ced7603d-6075-5ac8-9a88-f7eba556341b",
+      "d6b150fb-af75-5bf2-97d0-e454ecf682b7",
+      "e0946032-8ab3-5c11-b3f0-d5592039a133",
+      "ebb2c295-6bca-55e2-809f-999fbc6acbfa",
+      "f37c7ec0-c646-5b39-a8aa-62dd7a499f9a",
+      "f862d9c7-eae5-5834-a2d6-a71a96a918f9"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "U203.14",
+      "U203.15"
+    ],
+    "actual_remaining_source_component": [
+      "R203.1",
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "2f5f33094a68db719d624d4205ba9d517ba3dcc44a433bf595afc7fc4c7b0ee0"
+  },
+  {
+    "case": "io_mcu",
+    "removed": [
+      "04e3d7a6-eca5-5978-a8d4-204c0710443b",
+      "0620a06c-4a9b-5be5-a59a-745fa57fab4c",
+      "1f538aab-7ce1-5d73-b9d0-c72b961082ec",
+      "20395c44-41c4-55e1-aada-736372b9362c",
+      "40474950-93ec-5ff7-a525-e0a4d5009231",
+      "4155beb2-243e-52d0-a33d-697dfe6b7647",
+      "421630af-d359-554c-b1ee-b1f17aa8314e",
+      "429cc93e-5ce1-535a-9368-849849baefc6",
+      "44552b64-fcd2-5499-a80e-2cc369416b9a",
+      "482b1f57-a4b0-5de2-8733-230cf670fe6c",
+      "5893e895-6ff6-55d5-9afa-f714bf2cf861",
+      "5f877f88-50c6-565a-9994-87ca302d17ed",
+      "718e7ff4-bbee-5680-b288-cfc4fca37425",
+      "78877e51-0107-5fbe-8ee7-a5accea004a2",
+      "7b0746b3-1756-5647-a96a-af57d28f10c2",
+      "81bb845f-88b6-55f2-8756-0f7c829e104b",
+      "831c0310-ab18-59ea-85e7-6fc7bb8930ec",
+      "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+      "975828f1-07fb-5201-bdb6-4e4896d42b82",
+      "9a8711e1-ef1b-5635-b8c6-86509d347545",
+      "9c409373-69ea-58d0-9868-3d2e710794b3",
+      "9c5bbce5-7104-5d20-acee-c2b1c89b3c5b",
+      "b925944e-cdc4-52b5-9bab-521c000c3120",
+      "bd471e84-3a7a-597b-a908-05b1f8f08930",
+      "beb087ab-38ca-589b-9c23-00114b814a2d",
+      "c4665359-fbd5-5808-ac06-15f8854b9ad8",
+      "cb59e1b6-019a-5934-b62e-4490dcd8e8b5",
+      "cdfe918b-5123-524c-b535-1938712d5ff1",
+      "d744e180-841f-537c-94f7-495f8065fa63",
+      "df0b8115-ab82-5dee-9378-77ef505d3fe7",
+      "fd94beb1-d169-5212-9073-cbe4ecff49b1",
+      "feb737a6-4b2a-572c-bdd5-b2b7db8f1be2"
+    ],
+    "net": "CAM_IO_EN",
+    "source": "R107.1",
+    "disconnected_targets": [
+      "U101.48"
+    ],
+    "actual_remaining_source_component": [
+      "JP201.1",
+      "R107.1"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "4831c978751f6ce1ba1d49dc06a627719521ad639fac420fcaa0816605a2febc"
+  },
+  {
+    "case": "io_long",
+    "removed": [
+      "0668336a-3de8-59c8-9f28-80dd3e9bb806",
+      "096c4043-e2a2-59f2-aa1f-68425f958327",
+      "0cd269dd-119c-59d9-b721-33cd5879af4b",
+      "16d0642a-e505-56fe-8f71-7eb048d21399",
+      "1a37e0c5-e862-5b20-b755-9aa8f77d55a9",
+      "1cdbeab2-5afb-5640-8bd5-fbbd167fb0c2",
+      "2f2593e8-c0e3-56a2-8691-6834ac0883c3",
+      "2f2a8877-cdd9-5113-bd6a-d389f1692c07",
+      "38e4edf2-5aa3-5d4c-930e-ea186a7cfd93",
+      "42b94342-0dfd-525c-910d-a2fafeecc5f1",
+      "431dc696-173b-508d-8a43-fa4f58dede1c",
+      "493b6b0f-7646-57f1-a5e1-c7b007fa557e",
+      "4d6c0b59-0ca0-5091-83d5-b9475a259833",
+      "5404e75b-b2ae-5e12-87e9-7daf17637341",
+      "563d18ae-84ab-5d7e-9d67-c8ad9267dfee",
+      "5b3d5ccb-172f-5c20-b0d2-50f9192c9a0a",
+      "5bb09b61-29c0-5326-afd5-142a55c580d2",
+      "5ea150ef-4801-564d-81c8-992f1930f1bc",
+      "680da6c5-18f6-5d59-b089-201f35a52baf",
+      "6a1b758e-6cee-5635-b3e4-e20396430709",
+      "6f045b0d-9612-56d0-a5b3-ff474dc8d62d",
+      "6f8774cd-2c7f-58d2-87d1-9f47e1864146",
+      "77cf5906-b413-510a-adc2-60dbd35eb8ec",
+      "7bf6d161-dfc1-5b17-bbaf-d438749b2176",
+      "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+      "83bbcf89-c509-5dca-8fea-f7b155e55040",
+      "85f76ad3-dffa-5a6e-8ca7-70205216deaa",
+      "8d1a3f89-6adb-5f99-924b-54bd62c3cca0",
+      "901eff33-6609-53a1-9e14-8167517bc63f",
+      "982d3e5f-e23f-52e4-b700-f84d7ced38fa",
+      "988bc12b-d0dd-54da-a5ce-76fe9f5212e8",
+      "99856094-e267-5e04-9076-2f96ec22ced0",
+      "9bfd9552-1a98-52ff-b1b8-2a070d4c4e33",
+      "b6b65e18-4bd3-5450-a9c9-c8d51de64f2f",
+      "bd90db79-b782-5208-a551-42eb78871864",
+      "be6d6e6e-116e-54f5-a8e9-d924716d2fa5",
+      "c0d9256e-5b4b-5125-9735-70211f8751bf",
+      "c492d976-8a66-59d3-84bb-95ee953d6134",
+      "cc2f5384-a03b-5003-84f6-d3f2717d8b73",
+      "d06b9ebb-0d11-585b-86f6-2b3810c52cb2",
+      "d10de84c-a48f-5d13-9c37-1e63002060bb",
+      "d1c8f66e-7756-50ec-9355-c049647a8ace",
+      "db96066b-9e0a-5b7d-a23f-98b8b27b4b53",
+      "eec31296-6f9f-5ee6-9ab8-26d5b664245c",
+      "f1e84fc9-4d23-5208-a094-55118a151f12",
+      "f2627d2e-dbfd-513d-80bd-5dd171cc3f29",
+      "fbdd153d-3374-5d65-a8e0-bdb2bb310453",
+      "ff972a61-a8f2-56d2-85aa-6fb193ef732f"
+    ],
+    "net": "CAM_IO_EN",
+    "source": "U101.48",
+    "disconnected_targets": [
+      "JP201.1"
+    ],
+    "actual_remaining_source_component": [
+      "R107.1",
+      "U101.48"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "1f33845039d324e550f6d6271c959634b4b0b8d1a591f6c435aa4fb93710dc09"
+  },
+  {
+    "case": "io_link",
+    "removed": [
+      "0bb75ebb-1077-560a-82d7-6878f1295655",
+      "0efecaad-9f5e-50b1-b2f1-dd114df9fe36",
+      "197c2637-abd0-5eb2-a503-9581d7018b36",
+      "212842c6-9fa4-56a2-bec7-fc51880642c2",
+      "23708050-2593-52f6-9585-f38a264f1d44",
+      "2b926181-15ae-5676-8a0e-ffba1596b3d2",
+      "30896b15-f275-56c4-8ccf-7e23bb3e0d31",
+      "315001a7-2979-5155-a81d-31559e0ebe80",
+      "3ea23f53-106f-5589-ab1a-4175d85d88c3",
+      "53825ab9-8643-597e-99d2-749f0102bf2e",
+      "66c08d0b-0264-51d1-8806-5026b281271e",
+      "67c57caa-ea7e-57b5-993f-5243368db586",
+      "6b130a2b-6161-54f0-8d58-249a6cc75ec7",
+      "77712740-1730-503a-b0af-f6513adc37ac",
+      "7dddf516-69d9-5660-80da-4f9199c9c158",
+      "84bb8fab-bcfd-51d8-be14-508ec2b3f5e0",
+      "904dcf5a-9e82-5110-ab3e-7fc8a3843d13",
+      "98b91ac6-cd44-5313-8bd5-d0a9e9f87693",
+      "9ef746b5-6e1d-5fbb-b745-49586b559d34",
+      "a78134b9-132c-516e-8c5a-bc1c9b682fb2",
+      "b06a77bf-235e-542a-ade3-e15a6a801608",
+      "b42fa0c9-3e9c-5f8a-82ac-f1cfcb910714",
+      "d4b01c0c-8c38-52f6-9d2f-b3fda353e900",
+      "dcf3a2ff-35cc-5d82-9b51-d037fcfce66f",
+      "e4c9a65c-3e92-582e-ae85-ec5a0453a251",
+      "e86c576f-f260-5018-a9eb-f079ec6e8dd9",
+      "eaa6ba59-ad60-584b-aa5e-90c7fb213e32",
+      "ef407149-f25b-531c-87f1-bc8037fcfd57"
+    ],
+    "net": "IO_ENABLE_LINK",
+    "source": "JP201.2",
+    "disconnected_targets": [
+      "R201.1"
+    ],
+    "actual_remaining_source_component": [
+      "JP201.2"
+    ],
+    "actual_DRC_unconnected_parity": [
+      0,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "4418621b4b0611d3de6782b7f77c92d4226067b04642e1875bca3875a94612da"
+  },
+  {
+    "case": "new_oe",
+    "removed": [
+      "95d50e58-eeb1-5521-ace3-513d81d28b38"
+    ],
+    "net": "CAM_ISO_OE_N",
+    "source": "U205.4",
+    "disconnected_targets": [
+      "R203.1",
+      "U201.22"
+    ],
+    "actual_remaining_source_component": [
+      "U205.4"
+    ],
+    "actual_DRC_unconnected_parity": [
+      1,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "0dbeda87adb05be2762bd5805b3be27e4a21277bdd49c4e5eec96c4ab51e1b9c"
+  },
+  {
+    "case": "new_input",
+    "removed": [
+      "70ce6a6b-9a5e-520f-b485-af1d3af664fa"
+    ],
+    "net": "ISO_GATE",
+    "source": "U205.2",
+    "disconnected_targets": [
+      "R201.2",
+      "R202.1"
+    ],
+    "actual_remaining_source_component": [
+      "U205.2"
+    ],
+    "actual_DRC_unconnected_parity": [
+      2,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "c74045471405578ebfc423858dd1d546efea27cc4890a553336641e6ae1527a3"
+  },
+  {
+    "case": "new_supply",
+    "removed": [
+      "6e636f1e-2aaa-5c78-96c1-11d37e232a57"
+    ],
+    "net": "3V3_AON",
+    "source": "J106.2",
+    "disconnected_targets": [
+      "U205.5",
+      "C209.1"
+    ],
+    "actual_remaining_source_component": [
+      "C102.1",
+      "C103.1",
+      "C104.1",
+      "C105.1",
+      "C201.1",
+      "C203.1",
+      "C205.1",
+      "C207.1",
+      "C301.1",
+      "C501.1",
+      "C502.1",
+      "C503.1",
+      "J106.2",
+      "R101.2",
+      "R102.2",
+      "R103.2",
+      "R203.2",
+      "R240.2",
+      "R241.2",
+      "R501.1",
+      "R502.1",
+      "R503.1",
+      "U101.2",
+      "U101.20",
+      "U101.3",
+      "U101.46",
+      "U101.55",
+      "U101.56",
+      "U201.1",
+      "U202.1",
+      "U203.1",
+      "U203.2",
+      "U203.3",
+      "U204.8",
+      "U301.1",
+      "U501.10",
+      "U501.2",
+      "U501.3",
+      "U501.9"
+    ],
+    "actual_DRC_unconnected_parity": [
+      1,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "67b4da9c80831a0f0194fd5a72cbff40b50a63da89727b638b44341bc37ab078"
+  },
+  {
+    "case": "new_driver_ground",
+    "removed": [
+      "021f3f70-f247-5b58-8cbb-062d5f3cef5d"
+    ],
+    "net": "GND",
+    "source": "J106.3",
+    "disconnected_targets": [
+      "U205.3"
+    ],
+    "actual_remaining_source_component": [
+      "C101.2",
+      "C102.2",
+      "C103.2",
+      "C104.2",
+      "C105.2",
+      "C106.2",
+      "C107.2",
+      "C201.2",
+      "C202.2",
+      "C203.2",
+      "C204.2",
+      "C205.2",
+      "C206.2",
+      "C207.2",
+      "C208.2",
+      "C209.2",
+      "C301.2",
+      "C302.2",
+      "C303.2",
+      "C501.2",
+      "C502.2",
+      "C503.2",
+      "C504.2",
+      "J103.2",
+      "J106.3",
+      "J108.3",
+      "J109.3",
+      "J202.24",
+      "J301.2",
+      "R105.2",
+      "R106.2",
+      "R107.2",
+      "R108.2",
+      "R109.2",
+      "R202.2",
+      "R205.2",
+      "R207.2",
+      "R210.2",
+      "R211.2",
+      "R212.2",
+      "R213.2",
+      "R215.2",
+      "R217.2",
+      "R236.2",
+      "R301.2",
+      "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "U201.11",
+      "U201.12",
+      "U201.13",
+      "U201.2",
+      "U202.2",
+      "U202.3",
+      "U202.8",
+      "U202.9",
+      "U203.8",
+      "U203.9",
+      "U204.4",
+      "U301.2",
+      "U501.5",
+      "U501.6",
+      "U501.7",
+      "U501.8"
+    ],
+    "actual_DRC_unconnected_parity": [
+      1,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "b43fbb6777e720e4e6f7f8cb00c52f107131f6bf97a30d92c0d132b8b8b3b40e"
+  },
+  {
+    "case": "new_cap_ground",
+    "removed": [
+      "bfee58f1-d31a-5b2d-a4e2-f989c4b80e62"
+    ],
+    "net": "GND",
+    "source": "J106.3",
+    "disconnected_targets": [
+      "C209.2"
+    ],
+    "actual_remaining_source_component": [
+      "C101.2",
+      "C102.2",
+      "C103.2",
+      "C104.2",
+      "C105.2",
+      "C106.2",
+      "C107.2",
+      "C201.2",
+      "C202.2",
+      "C203.2",
+      "C204.2",
+      "C205.2",
+      "C206.2",
+      "C207.2",
+      "C208.2",
+      "C301.2",
+      "C302.2",
+      "C303.2",
+      "C501.2",
+      "C502.2",
+      "C503.2",
+      "C504.2",
+      "J103.2",
+      "J106.3",
+      "J108.3",
+      "J109.3",
+      "J202.24",
+      "J301.2",
+      "R105.2",
+      "R106.2",
+      "R107.2",
+      "R108.2",
+      "R109.2",
+      "R202.2",
+      "R205.2",
+      "R207.2",
+      "R210.2",
+      "R211.2",
+      "R212.2",
+      "R213.2",
+      "R215.2",
+      "R217.2",
+      "R236.2",
+      "R301.2",
+      "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "U201.11",
+      "U201.12",
+      "U201.13",
+      "U201.2",
+      "U202.2",
+      "U202.3",
+      "U202.8",
+      "U202.9",
+      "U203.8",
+      "U203.9",
+      "U204.4",
+      "U205.3",
+      "U301.2",
+      "U501.5",
+      "U501.6",
+      "U501.7",
+      "U501.8"
+    ],
+    "actual_DRC_unconnected_parity": [
+      1,
+      97,
+      0
+    ],
+    "unrelated_pressure_STRAP_IMU_I2C_clock_preserved": true,
+    "pcb_sha256": "5e6dc6bff595d07c50532852c58a6a29e260e499ed98255b46b3d072b07d2a15"
+  }
+]

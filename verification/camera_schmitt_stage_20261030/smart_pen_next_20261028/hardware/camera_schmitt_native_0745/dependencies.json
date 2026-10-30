@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "path": "hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "path": "hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "path": "hardware/pressure_pullup_revision_0318/materialize.py",
+      "sha256": "5fa78b24ab1ed4fd43f545df8a0c5d026b0c55e0fe1781e20b641c2d69eb53cc"
+    },
+    {
+      "path": "hardware/camera_isolation_control_native_0628/geometry_native.py",
+      "sha256": "f62df95d36f088abd27fb443f36eaf8e51228880e3f042ca3b085e224755dce3"
+    },
+    {
+      "path": "hardware/camera_isolation_control_native_0628/materialization.json",
+      "sha256": "6739288b0e8eeac5dedfebb6bca6b71ffd373d51b867a3669a5446c8328909a7"
+    },
+    {
+      "path": "hardware/camera_schmitt_source_0744/handoff.json",
+      "sha256": "58048a1ae7365efc90640edc0e79d7fb7fbf50e582a3f6b629c97e88a20925a8"
+    }
+  ],
+  "frozen_input_manifests": [
+    {
+      "directory": "hardware/camera_isolation_control_native_0628",
+      "files_rehashed": 799,
+      "manifest_sha256": "be6b0eabfd477ab6c3a932204f4b9f05b9e6cab9f8b7c5a41f79514e745f06c3",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_source_0744",
+      "files_rehashed": 78,
+      "manifest_sha256": "805a1e8db326a59366f68e574808f12c2b2ca2ce5af6de3dcac33d155ec96c86",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/camera_safeoff_addendum_0719",
+      "files_rehashed": 5,
+      "manifest_sha256": "3d1d39f5aff8f96482a5b882ab13f091ea9498227bb016f04ebf4b18e124b1c3",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/camera_schmitt_candidate_0730",
+      "files_rehashed": 9,
+      "manifest_sha256": "fb82937e242440738f635858b315b36504c67ecdd37ce0eb12abf7a908a0f24b",
+      "mismatches": []
+    }
+  ],
+  "toolchain": "KiCad9 pcbnew via /usr/bin/python3; kicad-cli; GNU patch/diff; local source symbol/footprint sources pinned in their manifests"
+}

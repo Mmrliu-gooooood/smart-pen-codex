@@ -1,0 +1,39 @@
+{
+  "pcb_sha256": "3276f04433c8ee3759f963fdc133200aee0b398ec6009e31a82fd595ab2f4328",
+  "normal_optimized_results_identical": {
+    "verify": true,
+    "physical": true,
+    "negative": true
+  },
+  "frozen_inputs_rehashed": [
+    {
+      "directory": "hardware/camera_isolation_control_native_0628",
+      "files_rehashed": 799,
+      "manifest_sha256": "be6b0eabfd477ab6c3a932204f4b9f05b9e6cab9f8b7c5a41f79514e745f06c3",
+      "mismatches": []
+    },
+    {
+      "directory": "hardware/camera_schmitt_source_0744",
+      "files_rehashed": 78,
+      "manifest_sha256": "805a1e8db326a59366f68e574808f12c2b2ca2ce5af6de3dcac33d155ec96c86",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/camera_safeoff_addendum_0719",
+      "files_rehashed": 5,
+      "manifest_sha256": "3d1d39f5aff8f96482a5b882ab13f091ea9498227bb016f04ebf4b18e124b1c3",
+      "mismatches": []
+    },
+    {
+      "directory": "docs/electronics/camera_schmitt_candidate_0730",
+      "files_rehashed": 9,
+      "manifest_sha256": "fb82937e242440738f635858b315b36504c67ecdd37ce0eb12abf7a908a0f24b",
+      "mismatches": []
+    }
+  ],
+  "provider_NULL": true,
+  "provider_sha256": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+  "actual_reverse_patch_and_replay_pass": true,
+  "visual_review": "local_after.png inspected; NC isolated; supply/bypass/control routing coherent; courtyard vias remain DFM gate",
+  "status": "AUTHOR_VERIFIED_EXPERIMENT_INDEPENDENT_REVIEW_PENDING_NOFAB_NOPOWER"
+}

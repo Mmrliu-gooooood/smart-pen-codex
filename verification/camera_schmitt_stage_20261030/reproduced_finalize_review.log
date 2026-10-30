@@ -1,0 +1,109 @@
+{
+  "verify_modes_equal": true,
+  "physical_native_modes_equal": true,
+  "native_negative_modes_equal": true,
+  "replay_rollback_modes_equal": true,
+  "negative_counts": {
+    "r203_supply": [
+      0,
+      97,
+      0
+    ],
+    "oe_pair202": [
+      0,
+      97,
+      0
+    ],
+    "oe_pair203": [
+      0,
+      97,
+      0
+    ],
+    "oe_upper": [
+      0,
+      97,
+      0
+    ],
+    "oe_middle": [
+      0,
+      97,
+      0
+    ],
+    "oe_lower": [
+      0,
+      97,
+      0
+    ],
+    "io_mcu": [
+      0,
+      97,
+      0
+    ],
+    "io_long": [
+      0,
+      97,
+      0
+    ],
+    "io_link": [
+      0,
+      97,
+      0
+    ],
+    "new_oe": [
+      1,
+      97,
+      0
+    ],
+    "new_input": [
+      2,
+      97,
+      0
+    ],
+    "new_supply": [
+      1,
+      97,
+      0
+    ],
+    "new_driver_ground": [
+      1,
+      97,
+      0
+    ],
+    "new_cap_ground": [
+      1,
+      97,
+      0
+    ]
+  },
+  "negative_count": 14,
+  "base_drc": [
+    0,
+    96,
+    0
+  ],
+  "base_erc": [
+    [
+      "warning",
+      "global_label_dangling"
+    ]
+  ],
+  "candidate_drc": [
+    0,
+    96,
+    0
+  ],
+  "candidate_erc": [
+    [
+      "warning",
+      "global_label_dangling"
+    ]
+  ],
+  "frozen_unchanged": true,
+  "frozen_scope": "168 native + 78 source manifest files; excludes original2581 scratch/generated full-workspace inventory",
+  "frozen_manifest_files": 246,
+  "source_MPN_candidate": {
+    "C209": "C0402C104K4RACTU",
+    "R202": "RC0603FR-0710KL",
+    "U205": "SN74LVC1G14DCKR"
+  }
+}

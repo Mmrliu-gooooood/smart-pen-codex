@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/camera_schmitt_independent_review_20261030/mirror/smart_pen_next_20261028/hardware/camera_schmitt_native_0745/physical_native.py", line 53, in <module>
+    print(json.dumps({'status':'ACTUAL_NATIVE_PHYSICAL_AND_HOLE_REPORT_NO_SI_APPROVAL','pcb_sha':hashlib.sha256(g.S.read_bytes()).hexdigest(),'finite_geometry_errors':errors,'new_vias_all_layers_and_same_net_pads_checked':4,'new_vias':via_rows,'courtyard_overlaps_open_DFM_gate':courtyards,'actual_native_lengths':lengths,'firmware_provider':{'sha256':hashlib.sha256(provider.read_bytes()).hexdigest(),'returns_NULL':'return 0;'in provider.read_text()},'limits':['Nearest ground via is geometric information only; not a certified high-frequency return path or timing/EMI result','Actual holes are native normalized contours; merged holes explicitly listed instead of ideal isolated circles','JP201/JP202/JP301 remain OPEN; source GPIO42 gate logic does not mean firmware implementation','No PCB fabrication, charging, camera power or functionality release']},indent=2))
+                                                                                                                                                                                                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 625, in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 539, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/scratch/fe148e758944/camera_schmitt_independent_review_20261030/mirror/smart_pen_app_pipeline_20261028/firmware/application_idf/main/board_provider_absent.c'

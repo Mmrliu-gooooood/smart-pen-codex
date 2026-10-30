@@ -1,0 +1,65 @@
+{
+  "status": "SOURCE_ONLY_CHECK_PASS_NOFAB_NOPOWER",
+  "old_component_count": 102,
+  "new_component_count": 103,
+  "old_pins_except_Q201_preserved": 353,
+  "removed_refs": [
+    "Q201"
+  ],
+  "added_refs": [
+    "U205",
+    "C209"
+  ],
+  "changed_old_fields": [
+    [
+      "R202",
+      "value",
+      "100k 1%",
+      "10k 1%"
+    ]
+  ],
+  "U205_expected_netlist": {
+    "1": [
+      "unconnected-(U205-NC-Pad1)",
+      "no_connect",
+      "NC"
+    ],
+    "2": [
+      "ISO_GATE",
+      "input",
+      "A"
+    ],
+    "3": [
+      "GND",
+      "power_in",
+      "GND"
+    ],
+    "4": [
+      "CAM_ISO_OE_N",
+      "output",
+      "Y"
+    ],
+    "5": [
+      "3V3_AON",
+      "power_in",
+      "VCC"
+    ]
+  },
+  "C209_netlist": {
+    "1": [
+      "3V3_AON",
+      "passive",
+      "1"
+    ],
+    "2": [
+      "GND",
+      "passive",
+      "2"
+    ]
+  },
+  "official_lands_verified": true,
+  "ERC_errors": 0,
+  "ERC_warnings": 1,
+  "ERC_warning": "pre-existing dangling VBUS_5V label",
+  "frozen_native_manifest_files_rehashed": 799
+}

@@ -1,0 +1,57 @@
+{
+  "commands": [
+    {
+      "label": "review_fullCLI_normal_O_negative_replay_backout",
+      "exit": 0
+    },
+    {
+      "label": "independent_delta",
+      "exit": 0
+    },
+    {
+      "label": "independent_delta_O",
+      "exit": 0
+    },
+    {
+      "label": "independent_inventory",
+      "exit": 0
+    },
+    {
+      "label": "independent_inventory_O",
+      "exit": 0
+    },
+    {
+      "label": "finalize_review",
+      "exit": 0
+    },
+    {
+      "label": "source_check",
+      "exit": 0
+    },
+    {
+      "label": "source_check_O",
+      "exit": 0
+    }
+  ],
+  "adapters": [
+    {
+      "source": "camera_schmitt_independent_review_20261030/independent_delta.py",
+      "change": "Only absolute workspace root replaced where present; math unchanged"
+    },
+    {
+      "source": "camera_schmitt_independent_review_20261030/independent_inventory.py",
+      "change": "Only absolute workspace root replaced where present; math unchanged"
+    },
+    {
+      "source": "finalize_review.py",
+      "change": "Original2581 scratch/generated inventory gate replaced with exact246 native/source frozen manifest files; original retained. FullCLI,14realnegatives,backout unchanged."
+    }
+  ],
+  "status": "NOFAB_NOPOWER_STABLE_AON_CONTROLLED_MODE_EXPERIMENT",
+  "full_drc": [
+    0,
+    96,
+    0
+  ],
+  "historical_plan_sha256": "f367c1346f4bff0cdc2359a7dbd6c9b9aad071ea36f5c6d19375c8657065946f"
+}
