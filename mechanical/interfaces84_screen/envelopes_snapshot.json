@@ -1,0 +1,548 @@
+{
+  "status": "PRELAYOUT_WITH_V4_SOURCE_NOT_ROUTED",
+  "source_board_sha256": "016d963f764430b6122da29039a5573792e3f0c78078180b18582af69b044c7e",
+  "new_footprints": [
+    {
+      "ref": "J103",
+      "side": "B.Cu",
+      "signal_origin_mm": [
+        10.25,
+        81.5
+      ],
+      "native_orientation_deg": 180.0,
+      "pads": [
+        {
+          "pin": "1",
+          "net": "3V3_AON",
+          "xy": [
+            11.45,
+            81.5
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            9.05,
+            81.5
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "AON_I2C_SCL",
+          "xy": [
+            11.45,
+            83.9
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "AON_I2C_SDA",
+          "xy": [
+            9.05,
+            83.9
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "PICKUP_INT_N",
+          "xy": [
+            11.45,
+            86.3
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "NIB_CONTACT_N",
+          "xy": [
+            9.05,
+            86.3
+          ]
+        }
+      ],
+      "resident_wire_envelopes": [
+        {
+          "pin": "1",
+          "board_xy_bbox_mm": [
+            10.549999999999999,
+            80.4,
+            12.35,
+            82.6
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "2",
+          "board_xy_bbox_mm": [
+            8.15,
+            80.4,
+            9.950000000000001,
+            82.6
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "3",
+          "board_xy_bbox_mm": [
+            10.549999999999999,
+            82.80000000000001,
+            12.35,
+            85.0
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "4",
+          "board_xy_bbox_mm": [
+            8.15,
+            82.80000000000001,
+            9.950000000000001,
+            85.0
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "5",
+          "board_xy_bbox_mm": [
+            10.549999999999999,
+            85.2,
+            12.35,
+            87.39999999999999
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "6",
+          "board_xy_bbox_mm": [
+            8.15,
+            85.2,
+            9.950000000000001,
+            87.39999999999999
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        }
+      ]
+    },
+    {
+      "ref": "J104",
+      "side": "B.Cu",
+      "signal_origin_mm": [
+        10,
+        53
+      ],
+      "native_orientation_deg": 180.0,
+      "pads": [
+        {
+          "pin": "1",
+          "net": "CAM_RESET_UART_TX",
+          "xy": [
+            10.0,
+            53.0
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "CAM_PWDN_UART_RX",
+          "xy": [
+            10.0,
+            54.8
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "GND",
+          "xy": [
+            10.0,
+            56.6
+          ]
+        }
+      ],
+      "service_fixture": "no resident wire; shell-open fixture and ESD/contact sequence pending"
+    },
+    {
+      "ref": "J105",
+      "side": "B.Cu",
+      "signal_origin_mm": [
+        2,
+        83.5
+      ],
+      "native_orientation_deg": -90.0,
+      "pads": [
+        {
+          "pin": "1",
+          "net": "BATTERY_ADC",
+          "xy": [
+            2.0,
+            83.5
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            4.4,
+            83.5
+          ]
+        }
+      ],
+      "resident_wire_envelopes": [
+        {
+          "pin": "1",
+          "board_xy_bbox_mm": [
+            1.1,
+            82.4,
+            2.9,
+            84.6
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "2",
+          "board_xy_bbox_mm": [
+            3.5000000000000004,
+            82.4,
+            5.300000000000001,
+            84.6
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        }
+      ]
+    },
+    {
+      "ref": "J202",
+      "side": "B.Cu",
+      "signal_origin_mm": [
+        7,
+        90.5
+      ],
+      "native_orientation_deg": 180.0,
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            12.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "SENS_D0",
+          "xy": [
+            12.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "SENS_D1",
+          "xy": [
+            11.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "xy": [
+            11.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "SENS_D2",
+          "xy": [
+            10.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "SENS_D3",
+          "xy": [
+            10.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "7",
+          "net": "GND",
+          "xy": [
+            9.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "8",
+          "net": "SENS_D4",
+          "xy": [
+            9.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "9",
+          "net": "SENS_D5",
+          "xy": [
+            8.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "10",
+          "net": "GND",
+          "xy": [
+            8.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "11",
+          "net": "SENS_D6",
+          "xy": [
+            7.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "12",
+          "net": "SENS_D7",
+          "xy": [
+            7.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "13",
+          "net": "GND",
+          "xy": [
+            6.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "14",
+          "net": "SENS_PCLK",
+          "xy": [
+            6.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "15",
+          "net": "SENS_VSYNC",
+          "xy": [
+            5.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "16",
+          "net": "SENS_HREF",
+          "xy": [
+            5.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "17",
+          "net": "GND",
+          "xy": [
+            4.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "18",
+          "net": "SENS_EXTCLK",
+          "xy": [
+            4.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "19",
+          "net": "SENS_XSHUTDN_N",
+          "xy": [
+            3.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "20",
+          "net": "SENS_TRIG_IN",
+          "xy": [
+            3.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "21",
+          "net": "SENS_SCL",
+          "xy": [
+            2.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "22",
+          "net": "SENS_SDA",
+          "xy": [
+            2.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "23",
+          "net": "SENS_VIO_1V8",
+          "xy": [
+            1.75,
+            90.5
+          ]
+        },
+        {
+          "pin": "24",
+          "net": "GND",
+          "xy": [
+            1.25,
+            90.5
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            13.54,
+            93.15
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            0.46,
+            93.15
+          ]
+        }
+      ],
+      "connector_envelopes": {
+        "body_board_xy": [
+          0.05,
+          90,
+          13.95,
+          94
+        ],
+        "closed_conservative_board_xy": [
+          0.05,
+          89.9,
+          13.95,
+          94.1
+        ],
+        "open_conservative_board_xy": [
+          0.05,
+          89.5,
+          13.95,
+          95
+        ],
+        "closed_depth_below_B": 1.35,
+        "open_depth_below_B": 2.22,
+        "flex_exit_direction": "+y",
+        "FPC_terminal_width": 12.5,
+        "wire_crossing_warning": "resident pickup/power wires cannot be assumed to pass through this almost-full-width body"
+      }
+    },
+    {
+      "ref": "J110",
+      "side": "B.Cu",
+      "signal_origin_mm": [
+        1.5,
+        80.25
+      ],
+      "native_orientation_deg": -90.0,
+      "pads": [
+        {
+          "pin": "1",
+          "net": "3V3_AON",
+          "xy": [
+            1.5,
+            80.25
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            3.9,
+            80.25
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "CAM_PWR_EN",
+          "xy": [
+            6.3,
+            80.25
+          ]
+        }
+      ],
+      "resident_wire_envelopes": [
+        {
+          "pin": "1",
+          "board_xy_bbox_mm": [
+            0.6,
+            79.15,
+            2.4,
+            81.35
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "2",
+          "board_xy_bbox_mm": [
+            3.0,
+            79.15,
+            4.8,
+            81.35
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        },
+        {
+          "pin": "3",
+          "board_xy_bbox_mm": [
+            5.3999999999999995,
+            79.15,
+            7.2,
+            81.35
+          ],
+          "side": "B.Cu",
+          "depth_below_B_copper_mm": 2.0,
+          "route": "axial intent only; no collision-free route approved"
+        }
+      ]
+    }
+  ],
+  "old_copper_modified": false,
+  "old_components_modified": false,
+  "source_v4_pending": false
+}

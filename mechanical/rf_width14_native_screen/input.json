@@ -1,0 +1,1626 @@
+{
+  "source": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/rf_width14_usb_prelayout_snapshot/mainboard_revD.kicad_pcb",
+  "sha256": "11ae9484ca7e1eae90a63498ceef6a218a5ac68d6c2d5f542f838b4349e5ac8c",
+  "parts": [
+    {
+      "ref": "Q201",
+      "value": "PMV30UN2",
+      "nets": {
+        "1": "ISO_GATE",
+        "2": "GND",
+        "3": "CAM_ISO_OE_N"
+      },
+      "footprint": "SOT-23",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.825,
+        67.5,
+        4.175,
+        70.5
+      ],
+      "height_total": 1.25,
+      "height_basis": "SOT-23 source package bound plus.15 solder"
+    },
+    {
+      "ref": "R222",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_RESET_UART_TX",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        59.525,
+        5.725,
+        60.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "JP202",
+      "value": "DNP_SCCB_COMMISSION",
+      "nets": {
+        "1": "CAM_BUS_EN",
+        "2": "SCCB_ENABLE_LINK"
+      },
+      "footprint": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+      "side": "F",
+      "dnp": true,
+      "bounds": [
+        6.85,
+        77.25,
+        9.15,
+        78.75
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R205",
+      "value": "4.7k 1%",
+      "nets": {
+        "1": "SCCB_EN_SAFE",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        73.525,
+        7.225,
+        74.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R221",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_XCLK",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        59.525,
+        2.725,
+        60.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R202",
+      "value": "100k 1%",
+      "nets": {
+        "1": "ISO_GATE",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        71.525,
+        7.225,
+        72.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C104",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        15.325,
+        7.225,
+        16.275
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "JP201",
+      "value": "DNP_IO_COMMISSION",
+      "nets": {
+        "1": "CAM_IO_EN",
+        "2": "IO_ENABLE_LINK"
+      },
+      "footprint": "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+      "side": "F",
+      "dnp": true,
+      "bounds": [
+        2.85,
+        77.25,
+        5.15,
+        78.75
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R241",
+      "value": "10k 1% INITIAL_100kHz",
+      "nets": {
+        "1": "CAM_SDA",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        75.525,
+        5.725,
+        76.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R229",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D5",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        41.525,
+        5.725,
+        42.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "J106",
+      "value": "POWER_CORE",
+      "nets": {
+        "1": "VBUS_5V",
+        "2": "3V3_AON",
+        "3": "GND"
+      },
+      "footprint": "PowerWireLands3_KeyGap_NOFAB",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.95,
+        82.45,
+        10.05,
+        85.55
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R217",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D7",
+        "2": "GND"
+      },
+      "footprint": "R_0402_1005Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.78,
+        21.03,
+        1.42,
+        22.59
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "nets": {
+        "1": "RF_SIP",
+        "2": "3V3_AON",
+        "3": "3V3_AON",
+        "4": "CHIP_EN",
+        "5": "BOOT_N",
+        "6": "PICKUP_INT_N",
+        "7": "NIB_CONTACT_N",
+        "8": "STRAP_GPIO3",
+        "9": "BATTERY_ADC",
+        "10": "AON_I2C_SCL",
+        "11": "AON_I2C_SDA",
+        "12": "CAM_D0",
+        "13": "CAM_D1",
+        "14": "CAM_D2",
+        "15": "CAM_D3",
+        "16": "CAM_D4",
+        "17": "CAM_D5",
+        "18": "CAM_D6",
+        "19": "CAM_D7",
+        "20": "3V3_AON",
+        "21": "CAM_PCLK",
+        "22": "CAM_VSYNC",
+        "23": "CAM_HREF",
+        "24": "USB_EN1",
+        "25": "USB_DM_MCU",
+        "26": "USB_DP_MCU",
+        "27": "USB_EN2",
+        "28": "unconnected-(U101-SPICS1_PSRAM-Pad28)",
+        "29": "unconnected-(U101-VDD_SPI-Pad29)",
+        "30": "unconnected-(U101-NC-Pad30)",
+        "31": "unconnected-(U101-NC-Pad31)",
+        "32": "unconnected-(U101-NC-Pad32)",
+        "33": "unconnected-(U101-NC-Pad33)",
+        "34": "unconnected-(U101-NC-Pad34)",
+        "35": "unconnected-(U101-NC-Pad35)",
+        "36": "ILLUM_STROBE",
+        "37": "CAM_BUS_EN",
+        "38": "unconnected-(U101-GPIO33_PSRAM-Pad38)",
+        "39": "unconnected-(U101-GPIO34_PSRAM-Pad39)",
+        "40": "unconnected-(U101-GPIO35_PSRAM-Pad40)",
+        "41": "unconnected-(U101-GPIO36_PSRAM-Pad41)",
+        "42": "unconnected-(U101-GPIO37_PSRAM-Pad42)",
+        "43": "CAM_XCLK",
+        "44": "CAM_SCL",
+        "45": "CAM_SDA",
+        "46": "3V3_AON",
+        "47": "CAM_PWR_EN",
+        "48": "CAM_IO_EN",
+        "49": "CAM_RESET_UART_TX",
+        "50": "CAM_PWDN_UART_RX",
+        "51": "STRAP_GPIO45",
+        "52": "STRAP_GPIO46",
+        "53": "unconnected-(U101-NC-Pad53)",
+        "54": "unconnected-(U101-NC-Pad54)",
+        "55": "3V3_AON",
+        "56": "3V3_AON",
+        "57": "GND"
+      },
+      "footprint": "ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        2.25,
+        6.25,
+        9.75,
+        13.75
+      ],
+      "height_total": 1.21,
+      "height_basis": "PICO source package bound plus.15 solder"
+    },
+    {
+      "ref": "C103",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.725,
+        5.8,
+        1.675,
+        8.25
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R231",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D7",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.275,
+        41.525,
+        11.725,
+        42.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C203",
+      "value": "100n X7R",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.675,
+        44.275,
+        1.625,
+        46.725
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R224",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D0",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        39.525,
+        2.725,
+        40.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R213",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D3",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.275,
+        23.525,
+        3.725,
+        24.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R215",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D5",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        27.525,
+        5.725,
+        28.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C101",
+      "value": "1u",
+      "nets": {
+        "1": "CHIP_EN",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.275,
+        16.525,
+        3.725,
+        17.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "J108",
+      "value": "SERVICE_EN_BOOT_GND",
+      "nets": {
+        "1": "CHIP_EN",
+        "2": "BOOT_N",
+        "3": "GND"
+      },
+      "footprint": "ServiceProbe3_NOFAB",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.175,
+        16.475,
+        5.45,
+        23.0
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R237",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_TRIG_IN",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        61.525,
+        5.725,
+        62.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R233",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_VSYNC",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        51.525,
+        2.725,
+        52.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R102",
+      "value": "10k 1%",
+      "nets": {
+        "1": "BOOT_N",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        19.525,
+        7.225,
+        20.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C208",
+      "value": "100n X7R",
+      "nets": {
+        "1": "SENS_VIO_1V8",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.525,
+        63.775,
+        10.475,
+        66.225
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C204",
+      "value": "100n X7R",
+      "nets": {
+        "1": "SENS_VIO_1V8",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.325,
+        43.175,
+        11.275,
+        45.625
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "L101",
+      "value": "RF_MATCH_TBD",
+      "nets": {
+        "1": "RF_SIP",
+        "2": "RF_ANT"
+      },
+      "footprint": "L_0402_1005Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        7.27,
+        0.58,
+        8.83,
+        1.22
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R226",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D2",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        39.525,
+        8.725,
+        40.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R104",
+      "value": "10k 1%",
+      "nets": {
+        "1": "STRAP_GPIO45",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        2.275,
+        1.225,
+        4.725,
+        2.175
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R230",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D6",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        41.525,
+        8.725,
+        42.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND",
+        "3": "CAM_D0",
+        "4": "CAM_D1",
+        "5": "CAM_D2",
+        "6": "CAM_D3",
+        "7": "CAM_D4",
+        "8": "CAM_D5",
+        "9": "CAM_D6",
+        "10": "CAM_D7",
+        "11": "GND",
+        "12": "GND",
+        "13": "GND",
+        "14": "SENS_D7",
+        "15": "SENS_D6",
+        "16": "SENS_D5",
+        "17": "SENS_D4",
+        "18": "SENS_D3",
+        "19": "SENS_D2",
+        "20": "SENS_D1",
+        "21": "SENS_D0",
+        "22": "CAM_ISO_OE_N",
+        "23": "SENS_VIO_1V8",
+        "24": "SENS_VIO_1V8"
+      },
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        2.4,
+        30.05,
+        9.6,
+        37.95
+      ],
+      "height_total": 1.3499999999999999,
+      "height_basis": "TSSOP source package bound plus.15 solder"
+    },
+    {
+      "ref": "R206",
+      "value": "10k 1%",
+      "nets": {
+        "1": "UNUSED_B_INPUT",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        51.525,
+        8.725,
+        52.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R223",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_PWDN_UART_RX",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        59.525,
+        8.725,
+        60.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R201",
+      "value": "1k 1%",
+      "nets": {
+        "1": "IO_ENABLE_LINK",
+        "2": "ISO_GATE"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.275,
+        71.525,
+        3.725,
+        72.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R109",
+      "value": "100k 1%",
+      "nets": {
+        "1": "ILLUM_STROBE",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        8.275,
+        23.525,
+        10.725,
+        24.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R218",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_PCLK",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        49.525,
+        2.725,
+        50.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R243",
+      "value": "10k 1% INITIAL_100kHz",
+      "nets": {
+        "1": "SENS_SDA",
+        "2": "SENS_VIO_1V8"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.275,
+        75.525,
+        11.725,
+        76.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C106",
+      "value": "DNP RF_TUNE",
+      "nets": {
+        "1": "RF_SIP",
+        "2": "GND"
+      },
+      "footprint": "C_0402_1005Metric",
+      "side": "F",
+      "dnp": true,
+      "bounds": [
+        6.34,
+        0.62,
+        6.96,
+        2.14
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R101",
+      "value": "10k 1%",
+      "nets": {
+        "1": "CHIP_EN",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.275,
+        19.525,
+        3.725,
+        20.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "J109",
+      "value": "USB_TAIL_LINK",
+      "nets": {
+        "1": "USB_DP",
+        "2": "USB_DM",
+        "3": "GND"
+      },
+      "footprint": "USBWireLands3_14mm_PRELAYOUT",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        11.3,
+        18.3,
+        12.7,
+        24.9
+      ],
+      "height_total": 2.0,
+      "height_basis": "Digital proposal wire+solder2.0 from F copper surface; no added.15"
+    },
+    {
+      "ref": "R227",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D3",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.275,
+        39.525,
+        11.725,
+        40.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R210",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D0",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        25.525,
+        2.725,
+        26.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R219",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_VSYNC",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        49.525,
+        5.725,
+        50.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "J107",
+      "value": "CHARGER_MODE",
+      "nets": {
+        "1": "USB_EN1",
+        "2": "USB_EN2",
+        "3": "GND"
+      },
+      "footprint": "ModeWireLands3_KeyGap_NOFAB",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.95,
+        88.95,
+        10.05,
+        92.05
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R113",
+      "value": "22R SI_TBD",
+      "nets": {
+        "1": "USB_DM",
+        "2": "USB_DM_MCU"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.575,
+        15.525,
+        13.025,
+        16.475
+      ],
+      "height_total": 1.15,
+      "height_basis": "Digital proposal body1.0 plus solder.15, not qualified MPN"
+    },
+    {
+      "ref": "C107",
+      "value": "DNP RF_TUNE",
+      "nets": {
+        "1": "RF_ANT",
+        "2": "GND"
+      },
+      "footprint": "C_0402_1005Metric",
+      "side": "F",
+      "dnp": true,
+      "bounds": [
+        9.19,
+        0.62,
+        9.81,
+        2.14
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R204",
+      "value": "100R 1%",
+      "nets": {
+        "1": "SCCB_ENABLE_LINK",
+        "2": "SCCB_EN_SAFE"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.275,
+        73.525,
+        3.725,
+        74.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R106",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_PWR_EN",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        8.275,
+        21.525,
+        10.725,
+        22.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R235",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_EXTCLK",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.275,
+        59.525,
+        11.725,
+        60.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R207",
+      "value": "10k 1%",
+      "nets": {
+        "1": "UNUSED_A_INPUT",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        61.525,
+        8.725,
+        62.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R212",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D2",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        25.525,
+        8.725,
+        26.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C105",
+      "value": "100n",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        7.275,
+        3.525,
+        9.725,
+        4.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C102",
+      "value": "22u",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        17.525,
+        7.225,
+        18.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R112",
+      "value": "22R SI_TBD",
+      "nets": {
+        "1": "USB_DP",
+        "2": "USB_DP_MCU"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.575,
+        13.525,
+        13.025,
+        14.475
+      ],
+      "height_total": 1.15,
+      "height_basis": "Digital proposal body1.0 plus solder.15, not qualified MPN"
+    },
+    {
+      "ref": "U204",
+      "value": "TCA9517DGKR",
+      "nets": {
+        "1": "SENS_VIO_1V8",
+        "2": "SENS_SCL",
+        "3": "SENS_SDA",
+        "4": "GND",
+        "5": "SCCB_EN_SAFE",
+        "6": "CAM_SDA",
+        "7": "CAM_SCL",
+        "8": "3V3_AON"
+      },
+      "footprint": "VSSOP-8_3x3mm_P0.65mm",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.075,
+        63.45,
+        8.925,
+        66.55
+      ],
+      "height_total": 1.25,
+      "height_basis": "VSSOP source package bound plus.15 solder"
+    },
+    {
+      "ref": "R228",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D4",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        41.525,
+        2.725,
+        42.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C202",
+      "value": "100n X7R",
+      "nets": {
+        "1": "SENS_VIO_1V8",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.325,
+        29.575,
+        11.275,
+        32.025
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "3V3_AON",
+        "3": "3V3_AON",
+        "4": "CAM_XCLK",
+        "5": "CAM_RESET_UART_TX",
+        "6": "CAM_PWDN_UART_RX",
+        "7": "UNUSED_A_INPUT",
+        "8": "GND",
+        "9": "GND",
+        "10": "unconnected-(U203-2B2-Pad10)",
+        "11": "SENS_TRIG_IN",
+        "12": "SENS_XSHUTDN_N",
+        "13": "SENS_EXTCLK",
+        "14": "CAM_ISO_OE_N",
+        "15": "CAM_ISO_OE_N",
+        "16": "SENS_VIO_1V8"
+      },
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        2.4,
+        53.45,
+        9.6,
+        58.55
+      ],
+      "height_total": 1.3499999999999999,
+      "height_basis": "TSSOP source package bound plus.15 solder"
+    },
+    {
+      "ref": "R103",
+      "value": "10k 1%",
+      "nets": {
+        "1": "STRAP_GPIO3",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        8.275,
+        19.525,
+        10.725,
+        20.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R216",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D6",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        27.525,
+        8.725,
+        28.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R203",
+      "value": "10k 1%",
+      "nets": {
+        "1": "CAM_ISO_OE_N",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        8.275,
+        71.525,
+        10.725,
+        72.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R234",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_HREF",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        51.525,
+        5.725,
+        52.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R211",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D1",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        25.525,
+        5.725,
+        26.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C201",
+      "value": "100n X7R",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.675,
+        30.775,
+        1.625,
+        33.225
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R236",
+      "value": "4.7k 1% RESET_CANDIDATE",
+      "nets": {
+        "1": "SENS_XSHUTDN_N",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        61.525,
+        2.725,
+        62.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R242",
+      "value": "10k 1% INITIAL_100kHz",
+      "nets": {
+        "1": "SENS_SCL",
+        "2": "SENS_VIO_1V8"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        6.275,
+        75.525,
+        8.725,
+        76.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C207",
+      "value": "100n X7R",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        1.525,
+        63.775,
+        2.475,
+        66.225
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R240",
+      "value": "10k 1% INITIAL_100kHz",
+      "nets": {
+        "1": "CAM_SCL",
+        "2": "3V3_AON"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.275,
+        75.525,
+        2.725,
+        76.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C205",
+      "value": "100n X7R",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        0.675,
+        54.275,
+        1.625,
+        56.725
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R232",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_PCLK",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        9.275,
+        49.525,
+        11.725,
+        50.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R107",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_IO_EN",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.325,
+        1.475,
+        11.275,
+        3.925
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R108",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_BUS_EN",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        4.775,
+        23.525,
+        7.225,
+        24.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "C206",
+      "value": "100n X7R",
+      "nets": {
+        "1": "SENS_VIO_1V8",
+        "2": "GND"
+      },
+      "footprint": "C_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        10.325,
+        52.775,
+        11.275,
+        55.225
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "AE101",
+      "value": "2450AT18A0100001E_STUDY_NOFAB",
+      "nets": {
+        "1": "RF_ANT",
+        "2": "unconnected-(AE101-Pad2)"
+      },
+      "footprint": "Johanson_2450AT18A0100001E_Rev4_Study_NOFAB",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        8.6,
+        -5.7,
+        10.4,
+        -1.5
+      ],
+      "height_total": 1.5499999999999998,
+      "height_basis": "Johanson maximum1.4 plus.15 solder"
+    },
+    {
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "nets": {
+        "1": "3V3_AON",
+        "2": "GND",
+        "3": "GND",
+        "4": "CAM_PCLK",
+        "5": "CAM_VSYNC",
+        "6": "CAM_HREF",
+        "7": "unconnected-(U202-2A2-Pad7)",
+        "8": "GND",
+        "9": "GND",
+        "10": "UNUSED_B_INPUT",
+        "11": "SENS_HREF",
+        "12": "SENS_VSYNC",
+        "13": "SENS_PCLK",
+        "14": "CAM_ISO_OE_N",
+        "15": "CAM_ISO_OE_N",
+        "16": "SENS_VIO_1V8"
+      },
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        2.4,
+        43.45,
+        9.6,
+        48.55
+      ],
+      "height_total": 1.3499999999999999,
+      "height_basis": "TSSOP source package bound plus.15 solder"
+    },
+    {
+      "ref": "R225",
+      "value": "100k 1%",
+      "nets": {
+        "1": "SENS_D1",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "F",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        39.525,
+        5.725,
+        40.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R105",
+      "value": "10k 1%",
+      "nets": {
+        "1": "STRAP_GPIO46",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "B",
+      "dnp": false,
+      "bounds": [
+        3.275,
+        3.525,
+        5.725,
+        4.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R220",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_HREF",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "B",
+      "dnp": false,
+      "bounds": [
+        0.8,
+        44.525,
+        3.25,
+        45.475
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    },
+    {
+      "ref": "R214",
+      "value": "100k 1%",
+      "nets": {
+        "1": "CAM_D4",
+        "2": "GND"
+      },
+      "footprint": "R_0603_1608Metric",
+      "side": "B",
+      "dnp": false,
+      "bounds": [
+        2.425,
+        31.675,
+        3.375,
+        34.125
+      ],
+      "height_total": 1.45,
+      "height_basis": "Unknown passive/body1.3 plus solder.15 assumption"
+    }
+  ],
+  "count": 79,
+  "native_thickness_attribute": 0.8,
+  "applied_thickness_max": 0.93
+}

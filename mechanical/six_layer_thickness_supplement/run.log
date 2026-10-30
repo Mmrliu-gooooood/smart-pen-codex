@@ -1,0 +1,259 @@
+{
+  "status": "NOFAB conditional mainboard thickness study only",
+  "source_board_sha256": "f00d85c7eea8e8abdbf89eb83720fa7aeca564e939f0b6b5f89d548881cb7815",
+  "input_file_sha256": "5cfaeb11da4bb4228645cbd8657e01d35c20b07defdd3109d964a8f791081a32",
+  "stackup_candidate": "JLC06081H-2116 Standard, finished0.83\u00b10.10mm",
+  "datum": "B-side substrate face fixed; F-side moves outward by thickness delta, no double addition",
+  "assumptions": {
+    "passive_body": 1.3,
+    "solder_each_side": 0.15,
+    "wall_nominal": 1.2,
+    "wall_worst": 1.3,
+    "radial_assembly_or_bow": 0.2,
+    "relative_interboard_spacing_loss": 0.2,
+    "residual_screen": 0.1,
+    "power_thickness_budget": 4.15,
+    "OD_tolerance": "unspecified"
+  },
+  "cases": [
+    {
+      "main_back_y": 2.82,
+      "main_front_y": 3.62,
+      "power_bottom_y": -3.0800000000000005,
+      "power_top_y": 1.0699999999999998,
+      "radius": 7.6476401588986915,
+      "limiting": "power",
+      "main_radius": 7.6472560438369,
+      "back_part_lower_y": 1.3699999999999999,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.07,
+      "two_sided_passive_envelope_thickness": 3.7,
+      "thickness": 0.8,
+      "position": "fixed_previous_2p820",
+      "minimum_OD_for0p1_radial_residual": 18.49528031779738,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.14764015889869153,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.10235984110130847,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.3523598411013076,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    },
+    {
+      "main_back_y": 2.8200000000000003,
+      "main_front_y": 3.62,
+      "power_bottom_y": -3.08,
+      "power_top_y": 1.0700000000000003,
+      "radius": 7.6476401588986915,
+      "limiting": "power",
+      "main_radius": 7.6472560438369,
+      "back_part_lower_y": 1.3700000000000003,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.07,
+      "two_sided_passive_envelope_thickness": 3.7,
+      "thickness": 0.8,
+      "position": "reoptimized",
+      "minimum_OD_for0p1_radial_residual": 18.49528031779738,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.14764015889869153,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.10235984110130847,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.3523598411013076,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    },
+    {
+      "main_back_y": 2.82,
+      "main_front_y": 3.65,
+      "power_bottom_y": -3.0800000000000005,
+      "power_top_y": 1.0699999999999998,
+      "radius": 7.6671784249487756,
+      "limiting": "R243",
+      "main_radius": 7.6671784249487756,
+      "back_part_lower_y": 1.3699999999999999,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.1,
+      "two_sided_passive_envelope_thickness": 3.73,
+      "thickness": 0.83,
+      "position": "fixed_previous_2p820",
+      "minimum_OD_for0p1_radial_residual": 18.53435684989755,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.16717842494877555,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.08282157505122445,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.33282157505122356,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    },
+    {
+      "main_back_y": 2.8020000000000005,
+      "main_front_y": 3.6320000000000006,
+      "power_bottom_y": -3.098,
+      "power_top_y": 1.0520000000000005,
+      "radius": 7.655217109919222,
+      "limiting": "R243",
+      "main_radius": 7.655217109919222,
+      "back_part_lower_y": 1.3520000000000005,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.082000000000001,
+      "two_sided_passive_envelope_thickness": 3.73,
+      "thickness": 0.83,
+      "position": "reoptimized",
+      "minimum_OD_for0p1_radial_residual": 18.51043421983844,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.15521710991922166,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.09478289008077834,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.34478289008077745,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    },
+    {
+      "main_back_y": 2.82,
+      "main_front_y": 3.75,
+      "power_bottom_y": -3.0800000000000005,
+      "power_top_y": 1.0699999999999998,
+      "radius": 7.734056180297632,
+      "limiting": "R243",
+      "main_radius": 7.734056180297632,
+      "back_part_lower_y": 1.3699999999999999,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.2,
+      "two_sided_passive_envelope_thickness": 3.83,
+      "thickness": 0.93,
+      "position": "fixed_previous_2p820",
+      "minimum_OD_for0p1_radial_residual": 18.668112360595263,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.23405618029763176,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.015943819702368245,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.26594381970236736,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    },
+    {
+      "main_back_y": 2.74,
+      "main_front_y": 3.6700000000000004,
+      "power_bottom_y": -3.16,
+      "power_top_y": 0.9900000000000002,
+      "radius": 7.680496403228114,
+      "limiting": "R243",
+      "main_radius": 7.680496403228114,
+      "back_part_lower_y": 1.2900000000000003,
+      "nominal_interboard_gap": 0.3,
+      "front_component_max_y": 5.12,
+      "two_sided_passive_envelope_thickness": 3.83,
+      "thickness": 0.93,
+      "position": "reoptimized",
+      "minimum_OD_for0p1_radial_residual": 18.560992806456227,
+      "rows": [
+        {
+          "OD": 18,
+          "worst_radial_remainder": -0.18049640322811378,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 18.5,
+          "worst_radial_remainder": 0.06950359677188622,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": false
+        },
+        {
+          "OD": 19,
+          "worst_radial_remainder": 0.31950359677188533,
+          "worst_interboard_remainder": 0.09999999999999998,
+          "passes0p1_screen": true
+        }
+      ]
+    }
+  ],
+  "axial260": [
+    {
+      "thickness": 0.8,
+      "main_radius": 6.583169829193228,
+      "main_limiting": "R243",
+      "overall_radius": 7.301070127043022,
+      "OD18_worst_radial_remainder": 0.1989298729569784
+    },
+    {
+      "thickness": 0.83,
+      "main_radius": 6.598031903530021,
+      "main_limiting": "R243",
+      "overall_radius": 7.301070127043022,
+      "OD18_worst_radial_remainder": 0.1989298729569784
+    },
+    {
+      "thickness": 0.93,
+      "main_radius": 6.648309935615216,
+      "main_limiting": "R243",
+      "overall_radius": 7.301070127043022,
+      "OD18_worst_radial_remainder": 0.1989298729569784
+    }
+  ]
+}

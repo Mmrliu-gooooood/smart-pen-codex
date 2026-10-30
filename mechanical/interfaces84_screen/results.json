@@ -1,0 +1,199 @@
+{
+  "status": "LOCAL_ENVELOPES_ONLY_HARNESS_ROUTE_NOT_APPROVED",
+  "source_sha256": "6b6d35a6dc493b57abc39426057661a8bbc2f106bc9d0d2769bfa60f4f8c928a",
+  "count": 84,
+  "old79_equal": true,
+  "main_B_y": 2.264793176328504,
+  "new_wire_solder_envelopes": [
+    {
+      "name": "J103.1",
+      "bounds": [
+        10.549999999999999,
+        80.4,
+        12.35,
+        82.6
+      ],
+      "height": 2.0,
+      "radius": 5.809628915132545
+    },
+    {
+      "name": "J103.2",
+      "bounds": [
+        8.15,
+        80.4,
+        9.950000000000001,
+        82.6
+      ],
+      "height": 2.0,
+      "radius": 3.719111201825533
+    },
+    {
+      "name": "J103.3",
+      "bounds": [
+        10.549999999999999,
+        82.80000000000001,
+        12.35,
+        85.0
+      ],
+      "height": 2.0,
+      "radius": 5.809628915132545
+    },
+    {
+      "name": "J103.4",
+      "bounds": [
+        8.15,
+        82.80000000000001,
+        9.950000000000001,
+        85.0
+      ],
+      "height": 2.0,
+      "radius": 3.719111201825533
+    },
+    {
+      "name": "J103.5",
+      "bounds": [
+        10.549999999999999,
+        85.2,
+        12.35,
+        87.39999999999999
+      ],
+      "height": 2.0,
+      "radius": 5.809628915132545
+    },
+    {
+      "name": "J103.6",
+      "bounds": [
+        8.15,
+        85.2,
+        9.950000000000001,
+        87.39999999999999
+      ],
+      "height": 2.0,
+      "radius": 3.719111201825533
+    },
+    {
+      "name": "J105.1",
+      "bounds": [
+        1.1,
+        82.4,
+        2.9,
+        84.6
+      ],
+      "height": 2.0,
+      "radius": 6.319753803080003
+    },
+    {
+      "name": "J105.2",
+      "bounds": [
+        3.5000000000000004,
+        82.4,
+        5.300000000000001,
+        84.6
+      ],
+      "height": 2.0,
+      "radius": 4.168847338479085
+    },
+    {
+      "name": "J110.1",
+      "bounds": [
+        0.6,
+        79.15,
+        2.4,
+        81.35
+      ],
+      "height": 2.0,
+      "radius": 6.788909200419766
+    },
+    {
+      "name": "J110.2",
+      "bounds": [
+        3.0,
+        79.15,
+        4.8,
+        81.35
+      ],
+      "height": 2.0,
+      "radius": 4.596660541256463
+    },
+    {
+      "name": "J110.3",
+      "bounds": [
+        5.3999999999999995,
+        79.15,
+        7.2,
+        81.35
+      ],
+      "height": 2.0,
+      "radius": 2.772956568636472
+    }
+  ],
+  "connector_closed_radius": 7.309705064607201,
+  "local_collision_hits": [],
+  "open_sweep_hits": [],
+  "rejected_straight_routes": [
+    {
+      "name": "J103.1",
+      "connector_closed_overlap_mm3": 10.205999999999976,
+      "connector_open_overlap_mm3": 19.800000000000008
+    },
+    {
+      "name": "J103.2",
+      "connector_closed_overlap_mm3": 10.205999999999978,
+      "connector_open_overlap_mm3": 19.80000000000001
+    },
+    {
+      "name": "J103.3",
+      "connector_closed_overlap_mm3": 10.205999999999976,
+      "connector_open_overlap_mm3": 19.800000000000008
+    },
+    {
+      "name": "J103.4",
+      "connector_closed_overlap_mm3": 10.205999999999978,
+      "connector_open_overlap_mm3": 19.80000000000001
+    },
+    {
+      "name": "J103.5",
+      "connector_closed_overlap_mm3": 10.205999999999976,
+      "connector_open_overlap_mm3": 19.800000000000008
+    },
+    {
+      "name": "J103.6",
+      "connector_closed_overlap_mm3": 10.205999999999978,
+      "connector_open_overlap_mm3": 19.80000000000001
+    },
+    {
+      "name": "J105.1",
+      "connector_closed_overlap_mm3": 10.205999999999973,
+      "connector_open_overlap_mm3": 19.799999999999997
+    },
+    {
+      "name": "J105.2",
+      "connector_closed_overlap_mm3": 10.205999999999975,
+      "connector_open_overlap_mm3": 19.800000000000004
+    },
+    {
+      "name": "J110.1",
+      "connector_closed_overlap_mm3": 10.205999999999973,
+      "connector_open_overlap_mm3": 19.799999999999997
+    },
+    {
+      "name": "J110.2",
+      "connector_closed_overlap_mm3": 10.205999999999973,
+      "connector_open_overlap_mm3": 19.8
+    },
+    {
+      "name": "J110.3",
+      "connector_closed_overlap_mm3": 10.205999999999978,
+      "connector_open_overlap_mm3": 19.800000000000008
+    }
+  ],
+  "low_corridor_requirements": {
+    "assumption": "Only necessary empty cross-section bounds, not routed bundle approval; clearance0.2 study allowance, no wire selected",
+    "top_max_for_open": -0.15520682367149635,
+    "bottom_min_above_refill": -2.425,
+    "available_height": 2.2697931763285037,
+    "at_center_Y_minus1_max_radius": 0.8447931763285037,
+    "wire_count": 11,
+    "bend_radius_and_strain_relief": "UNSPECIFIED: cannot qualify full fanout/FPC exit"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "status": "NOFAB geometry-only prelayout refinements; nativePCBunchanged",
+  "source_sha256": "f27cd35dcaf51fd33078b60a7029f6f63fba9c58f1d2791488e8a1721330080c",
+  "fixed_global_X_offset": 7,
+  "optional_left_RF_extension": false,
+  "left_refs": [
+    "R221",
+    "C103",
+    "C203",
+    "R224",
+    "R233",
+    "R104",
+    "R218",
+    "R210",
+    "R228",
+    "C201",
+    "R236",
+    "R240",
+    "C205"
+  ],
+  "left_refs_count": 13,
+  "residual_screen": 0.1,
+  "wire_basis": "2mm height retained; XY1.8x2.2 hypothetical wire+solder/bend envelope supplied by USB worker, not measured. Prior gate used1.4wide copper bounds only.",
+  "rows": [
+    {
+      "left_column_shift": 0.25,
+      "J109_center_x": 12.5,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.227326418709787,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.22732641870978654,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 1.94,
+        "main_F_y": 2.87,
+        "power_bottom_y": -3.9600000000000004,
+        "radius": 8.042487177484338,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": -0.042487177484337835,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.25,
+      "J109_center_x": 12.25,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.034388589058908,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.03438858905890818,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.118,
+        "main_F_y": 3.048,
+        "power_bottom_y": -3.7820000000000005,
+        "radius": 7.956431612224164,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": 0.04356838777583594,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.25,
+      "J109_center_x": 12.0,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 7.954245721625653,
+        "limiting": "R240",
+        "OD19_worst_radial_remainder": 0.0457542783743472,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.1870000000000003,
+        "main_F_y": 3.1170000000000004,
+        "power_bottom_y": -3.713,
+        "radius": 7.923785017275519,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": 0.07621498272448068,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.3,
+      "J109_center_x": 12.5,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.227326418709787,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.22732641870978654,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 1.94,
+        "main_F_y": 2.87,
+        "power_bottom_y": -3.9600000000000004,
+        "radius": 8.042487177484338,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": -0.042487177484337835,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.3,
+      "J109_center_x": 12.25,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.034388589058908,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.03438858905890818,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.118,
+        "main_F_y": 3.048,
+        "power_bottom_y": -3.7820000000000005,
+        "radius": 7.956431612224164,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": 0.04356838777583594,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.3,
+      "J109_center_x": 12.0,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 7.913597475232108,
+        "limiting": "R240",
+        "OD19_worst_radial_remainder": 0.0864025247678919,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.226,
+        "main_F_y": 3.156,
+        "power_bottom_y": -3.6740000000000004,
+        "radius": 7.905585114335308,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": 0.09441488566469225,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.35,
+      "J109_center_x": 12.5,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.227326418709787,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.22732641870978654,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 1.94,
+        "main_F_y": 2.87,
+        "power_bottom_y": -3.9600000000000004,
+        "radius": 8.042487177484338,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": -0.042487177484337835,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.35,
+      "J109_center_x": 12.25,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.034388589058908,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.03438858905890818,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.118,
+        "main_F_y": 3.048,
+        "power_bottom_y": -3.7820000000000005,
+        "radius": 7.956431612224164,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": 0.04356838777583594,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.35,
+      "J109_center_x": 12.0,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 7.899088555016965,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": 0.10091144498303528,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": true
+      },
+      "optimized": {
+        "main_B_y": 2.265,
+        "main_F_y": 3.1950000000000003,
+        "power_bottom_y": -3.6350000000000002,
+        "radius": 7.887753165509174,
+        "limiting": "R240",
+        "OD19_worst_radial_remainder": 0.11224683449082562,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": true
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.4,
+      "J109_center_x": 12.5,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.227326418709787,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.22732641870978654,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 1.94,
+        "main_F_y": 2.87,
+        "power_bottom_y": -3.9600000000000004,
+        "radius": 8.042487177484338,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": -0.042487177484337835,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.4,
+      "J109_center_x": 12.25,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 8.034388589058908,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": -0.03438858905890818,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "optimized": {
+        "main_B_y": 2.118,
+        "main_F_y": 3.048,
+        "power_bottom_y": -3.7820000000000005,
+        "radius": 7.956431612224164,
+        "limiting": "J109",
+        "OD19_worst_radial_remainder": 0.04356838777583594,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": false
+      },
+      "new_same_side_envelope_intersections": []
+    },
+    {
+      "left_column_shift": 0.4,
+      "J109_center_x": 12.0,
+      "J109_wire_XY": [
+        1.8,
+        2.2
+      ],
+      "fixed_B2p24": {
+        "main_B_y": 2.24,
+        "main_F_y": 3.1700000000000004,
+        "power_bottom_y": -3.66,
+        "radius": 7.899088555016965,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": 0.10091144498303528,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": true
+      },
+      "optimized": {
+        "main_B_y": 2.2880000000000003,
+        "main_F_y": 3.2180000000000004,
+        "power_bottom_y": -3.612,
+        "radius": 7.876962866486042,
+        "limiting": "power",
+        "OD19_worst_radial_remainder": 0.12303713351395817,
+        "worst_interboard_remainder": 0.1,
+        "passes0p1_screen": true
+      },
+      "new_same_side_envelope_intersections": []
+    }
+  ],
+  "curves": [
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 0.8,
+      "absolute_X_edge_limit": 6.83001464127274,
+      "source_right_outer_edge_limit": 13.83001464127274,
+      "J109_center_limit_for1p8wide": 12.93001464127274,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 1.0,
+      "absolute_X_edge_limit": 6.70977644933123,
+      "source_right_outer_edge_limit": 13.70977644933123,
+      "J109_center_limit_for1p8wide": 12.80977644933123,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 1.2,
+      "absolute_X_edge_limit": 6.58126887461681,
+      "source_right_outer_edge_limit": 13.58126887461681,
+      "J109_center_limit_for1p8wide": 12.68126887461681,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 1.5,
+      "absolute_X_edge_limit": 6.37189924590777,
+      "source_right_outer_edge_limit": 13.37189924590777,
+      "J109_center_limit_for1p8wide": 12.47189924590777,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 2.0,
+      "absolute_X_edge_limit": 5.973365885327969,
+      "source_right_outer_edge_limit": 12.973365885327969,
+      "J109_center_limit_for1p8wide": 12.073365885327968,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.24,
+      "height_above_F_including_solder": 2.5,
+      "absolute_X_edge_limit": 5.501008998356575,
+      "source_right_outer_edge_limit": 12.501008998356575,
+      "J109_center_limit_for1p8wide": 11.601008998356575,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 0.8,
+      "absolute_X_edge_limit": 6.513762353663203,
+      "source_right_outer_edge_limit": 13.513762353663203,
+      "J109_center_limit_for1p8wide": 12.613762353663203,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 1.0,
+      "absolute_X_edge_limit": 6.37189924590777,
+      "source_right_outer_edge_limit": 13.37189924590777,
+      "J109_center_limit_for1p8wide": 12.47189924590777,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 1.2,
+      "absolute_X_edge_limit": 6.220377802030999,
+      "source_right_outer_edge_limit": 13.220377802030999,
+      "J109_center_limit_for1p8wide": 12.320377802030999,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 1.5,
+      "absolute_X_edge_limit": 5.973365885327969,
+      "source_right_outer_edge_limit": 12.973365885327969,
+      "J109_center_limit_for1p8wide": 12.073365885327968,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 2.0,
+      "absolute_X_edge_limit": 5.501008998356575,
+      "source_right_outer_edge_limit": 12.501008998356575,
+      "J109_center_limit_for1p8wide": 11.601008998356575,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    },
+    {
+      "Bdatum": 2.74,
+      "height_above_F_including_solder": 2.5,
+      "absolute_X_edge_limit": 4.933670033555143,
+      "source_right_outer_edge_limit": 11.933670033555142,
+      "J109_center_limit_for1p8wide": 11.033670033555142,
+      "assumption": "Only radial envelope bound; not lowered-height qualification, no left-extension"
+    }
+  ]
+}

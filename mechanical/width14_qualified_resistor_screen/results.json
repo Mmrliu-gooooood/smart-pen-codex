@@ -1,0 +1,156 @@
+{
+  "status": "Conditional geometry only; NOFAB",
+  "source_sha256": "f27cd35dcaf51fd33078b60a7029f6f63fba9c58f1d2791488e8a1721330080c",
+  "contract_sha256": "0acaec82a4441a1a5bc57c8c9f64dd8645804993143ccd5368805eea7b81e92a",
+  "rows": [
+    {
+      "J109_x": 13.0,
+      "moves": {},
+      "optimized": {
+        "main_B_y": 1.5637089467723682,
+        "main_F_y": 2.4937089467723683,
+        "power_bottom_y": -4.336291053227632,
+        "radius": 8.234283217032436,
+        "limiting": "J109",
+        "radial_remainder": -0.23428321703243604,
+        "screen_surplus": -0.3342832170324357,
+        "passes": false,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "J109_x": 12.5,
+      "moves": {},
+      "optimized": {
+        "main_B_y": 1.9402661381653474,
+        "main_F_y": 2.8702661381653476,
+        "power_bottom_y": -3.959733861834653,
+        "radius": 8.04235613838134,
+        "limiting": "J109",
+        "radial_remainder": -0.04235613838134,
+        "screen_surplus": -0.14235613838133965,
+        "passes": false,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "J109_x": 12.25,
+      "moves": {},
+      "optimized": {
+        "main_B_y": 2.1179275198188012,
+        "main_F_y": 3.0479275198188014,
+        "power_bottom_y": -3.782072480181199,
+        "radius": 7.956385626988173,
+        "limiting": "J109",
+        "radial_remainder": 0.04361437301182658,
+        "screen_surplus": -0.056385626988173065,
+        "passes": false,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "J109_x": 12.0,
+      "moves": {},
+      "optimized": {
+        "main_B_y": 2.1871965579710153,
+        "main_F_y": 3.1171965579710155,
+        "power_bottom_y": -3.712803442028985,
+        "radius": 7.923692914237797,
+        "limiting": "power",
+        "radial_remainder": 0.07630708576220258,
+        "screen_surplus": -0.02369291423779707,
+        "passes": false,
+        "interboard_remainder_at_least": 0.1
+      }
+    }
+  ],
+  "minimum_Bdatum_for_power_screen": 2.238033315279889,
+  "necessary_left_translations_at_minimum_Bdatum": {
+    "C103": 0.015337895102032428,
+    "C203": 0.06533789510203236,
+    "C201": 0.06533789510203236,
+    "C205": 0.06533789510203236
+  },
+  "refined_rows": [
+    {
+      "moves": {
+        "C103": 0.075,
+        "C203": 0.075,
+        "C201": 0.075,
+        "C205": 0.075
+      },
+      "J109_x": 12,
+      "optimized": {
+        "main_B_y": 2.245507246376812,
+        "main_F_y": 3.1755072463768124,
+        "power_bottom_y": -3.654492753623188,
+        "radius": 7.896538310315755,
+        "limiting": "power",
+        "radial_remainder": 0.10346168968424507,
+        "screen_surplus": 0.003461689684245428,
+        "passes": true,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "moves": {
+        "C103": 0.1,
+        "C203": 0.1,
+        "C201": 0.1,
+        "C205": 0.1
+      },
+      "J109_x": 12,
+      "optimized": {
+        "main_B_y": 2.264793176328504,
+        "main_F_y": 3.194793176328504,
+        "power_bottom_y": -3.6352068236714965,
+        "radius": 7.887631371385698,
+        "limiting": "C205",
+        "radial_remainder": 0.11236862861430197,
+        "screen_surplus": 0.012368628614302324,
+        "passes": true,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "moves": {
+        "C103": 0.15,
+        "C203": 0.15,
+        "C201": 0.15,
+        "C205": 0.15
+      },
+      "J109_x": 12,
+      "optimized": {
+        "main_B_y": 2.2885107587768987,
+        "main_F_y": 3.218510758776899,
+        "power_bottom_y": -3.6114892412231017,
+        "radius": 7.876728669915592,
+        "limiting": "J109",
+        "radial_remainder": 0.12327133008440772,
+        "screen_surplus": 0.02327133008440807,
+        "passes": true,
+        "interboard_remainder_at_least": 0.1
+      }
+    },
+    {
+      "moves": {
+        "C103": 0.2,
+        "C203": 0.2,
+        "C201": 0.2,
+        "C205": 0.2
+      },
+      "J109_x": 12,
+      "optimized": {
+        "main_B_y": 2.2885107587768987,
+        "main_F_y": 3.218510758776899,
+        "power_bottom_y": -3.6114892412231017,
+        "radius": 7.876728669915592,
+        "limiting": "J109",
+        "radial_remainder": 0.12327133008440772,
+        "screen_surplus": 0.02327133008440807,
+        "passes": true,
+        "interboard_remainder_at_least": 0.1
+      }
+    }
+  ]
+}

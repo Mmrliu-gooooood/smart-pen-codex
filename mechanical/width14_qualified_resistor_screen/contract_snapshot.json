@@ -1,0 +1,489 @@
+{
+  "status": "CONDITIONAL_MECHANICAL_COMPARISON_ONLY_NOFAB",
+  "board_path": "hardware/mainboard_width14_preplacement/mainboard_revD.kicad_pcb",
+  "board_sha256": "f27cd35dcaf51fd33078b60a7029f6f63fba9c58f1d2791488e8a1721330080c",
+  "scope_refs": [
+    "R104",
+    "R240",
+    "R221",
+    "R224",
+    "R233",
+    "R218",
+    "R210",
+    "R228",
+    "R236"
+  ],
+  "not_covered": [
+    "C103",
+    "C203",
+    "C201",
+    "C205",
+    "all other components and wire envelopes"
+  ],
+  "resistors": [
+    {
+      "ref": "R104",
+      "source_value": "10k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/f691f788-018e-48eb-b1f2-3582bddce9d3/2cce0922-51fe-4294-96b5-6acd8d7f58aa",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-0710KL",
+      "resistance_ohm": 10000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "STRAP_GPIO45",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          1.0,
+          4.225
+        ],
+        [
+          1.0,
+          2.575
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.0030555555555555557,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C98220.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R240",
+      "source_value": "10k 1% INITIAL_100kHz",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/d15c6272-0dd7-42aa-8d2e-d0161f9fe61a",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-0710KL",
+      "resistance_ohm": 10000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "CAM_SCL",
+        "2": "3V3_AON"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          76.0
+        ],
+        [
+          2.325,
+          76.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.0030555555555555557,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C98220.html",
+      "functional_qualification": "100 kHz pullup initial candidate; bus rise-time qualification remains open",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R221",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/f491d6d3-9884-4bac-8d17-489c4030533d",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "CAM_XCLK",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          60.0
+        ],
+        [
+          2.325,
+          60.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R224",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/9f9076f0-29d4-4c30-a8b7-f093b47fb756",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "SENS_D0",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          40.0
+        ],
+        [
+          2.325,
+          40.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R233",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/c672b192-ac5c-4b46-bcff-0a68961b973d",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "SENS_VSYNC",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          52.0
+        ],
+        [
+          2.325,
+          52.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R218",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/0de318e3-cf18-40a7-abec-a6b37660bae1",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "CAM_PCLK",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          50.0
+        ],
+        [
+          2.325,
+          50.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R210",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/5b134b68-6be0-46be-8289-b34c76b79b86",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "CAM_D0",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          26.0
+        ],
+        [
+          2.325,
+          26.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R228",
+      "source_value": "100k 1%",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/7bcdd413-9816-4640-b531-f96dd3247b1d",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "resistance_ohm": 100000,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "SENS_D4",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          42.0
+        ],
+        [
+          2.325,
+          42.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.00030555555555555555,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C14675.html",
+      "functional_qualification": "No resistance/function change; existing signal/strap qualification retained",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    },
+    {
+      "ref": "R236",
+      "source_value": "4.7k 1% RESET_CANDIDATE",
+      "source_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690/8567e4b7-8486-4662-8003-d893a743ed1d",
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-074K7L",
+      "resistance_ohm": 4700,
+      "tolerance_percent": 1,
+      "rated_power_W_at_70C": 0.1,
+      "max_continuous_voltage_V": 75,
+      "temperature_coefficient_ppm_C": 100,
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "body_height_max_mm": 0.55,
+      "assumed_solder_assembly_allowance_mm": 0.15,
+      "conditional_height_above_copper_mm": 0.7,
+      "source_net_by_pin": {
+        "1": "SENS_XSHUTDN_N",
+        "2": "GND"
+      },
+      "native_pad_size_mm": [
+        [
+          0.8,
+          0.95
+        ],
+        [
+          0.8,
+          0.95
+        ]
+      ],
+      "native_pad_centres_mm": [
+        [
+          0.675,
+          62.0
+        ],
+        [
+          2.325,
+          62.0
+        ]
+      ],
+      "native_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "electrical_5V5_resistor_only_screen_W": 0.0065011820330969266,
+      "datasheet_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L",
+      "procurement_listing": "https://www.lcsc.com/product-detail/C99782.html",
+      "functional_qualification": "RESET polarity/module compatibility remains unverified",
+      "land_pattern_status": "same package; native lands NOT identical to manufacturer reflow recommendation; assembly qualification OPEN"
+    }
+  ],
+  "manufacturer_reflow_land_pattern_mm": {
+    "overall_span_A": 2.6,
+    "inner_gap_B": 0.8,
+    "pad_length_C": 0.9,
+    "pad_width_D": 0.8
+  },
+  "native_land_pattern_mm": {
+    "overall_span": 2.45,
+    "inner_gap": 0.85,
+    "pad_length": 0.8,
+    "pad_width": 0.95
+  },
+  "mounting_source": "https://yageogroup.com/content/Resource%20Library/Product%20Guide-Catalog/yageo_PYu-R_Mount_10_19050818_343.pdf",
+  "mounting_source_page": 4
+}
