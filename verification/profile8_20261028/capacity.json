@@ -1,0 +1,25 @@
+{
+  "flash_bytes": 8388608,
+  "records_offset": 4325376,
+  "records_bytes": 4063232,
+  "slot_bytes": 64,
+  "record_slots": 63488,
+  "max_recorded_sessions_before_reclaim": 32,
+  "ota_slot_bytes": 2097152,
+  "upper_bounds": {
+    "60": {
+      "seconds": 1058.1333333333334,
+      "minutes": 17.63555555555556
+    },
+    "120": {
+      "seconds": 529.0666666666667,
+      "minutes": 8.81777777777778
+    }
+  },
+  "notes": [
+    "Every slot includes48byte packet and16byte ACK/commit metadata.",
+    "Session epochs/erase intent metadata are in NVS; no assumed per-session log header.",
+    "Torn/failed writes and extra event samples consume slots. No positive fault-tolerant guaranteed minimum duration.",
+    "32 recorded sessions may bind before byte capacity. Reclaim requires ALL committed records durably ACKed and safe maintenance."
+  ]
+}

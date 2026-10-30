@@ -1,0 +1,64 @@
+{
+  "host_tests": [
+    {
+      "profile_enabled": false,
+      "mode": "normal",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    },
+    {
+      "profile_enabled": false,
+      "mode": "ndebug",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    },
+    {
+      "profile_enabled": false,
+      "mode": "asan_ubsan",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    },
+    {
+      "profile_enabled": true,
+      "mode": "normal",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    },
+    {
+      "profile_enabled": true,
+      "mode": "ndebug",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    },
+    {
+      "profile_enabled": true,
+      "mode": "asan_ubsan",
+      "exit": 0,
+      "stdout": "profile8 pure validator and IDF read-only guard tests passed"
+    }
+  ],
+  "official_sdk": {
+    "sdk_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+    "official_roundtrip_csv": "# ESP-IDF Partition Table\n# Name, Type, SubType, Offset, Size, Flags\nnvs,data,nvs,0x9000,24K,\notadata,data,ota,0xf000,8K,\nphy_init,data,phy,0x11000,4K,\nota_0,app,ota_0,0x20000,2M,\nota_1,app,ota_1,0x220000,2M,\npen_records,data,64,0x420000,3968K,\n",
+    "binary_bytes": 3072,
+    "binary_sha256": "2a576b26b051a3611eedc5d43614a67f9d9587012f1f2ce4105ecf445aeb1789",
+    "runtime_contract_accepts_official_table": true,
+    "negative_cases": [
+      {
+        "case": "overlap",
+        "exit": 2,
+        "stderr": "Parsing CSV input...\nCSV Error at line 8: Partitions overlap. Partition sets offset 0x400000. Previous partition ends 0x420000"
+      },
+      {
+        "case": "app_not_64k_aligned",
+        "exit": 2,
+        "stderr": "Parsing CSV input...\nVerifying table...\nPartition ota_0 invalid: Offset 0x21000 is not aligned to 0x10000"
+      },
+      {
+        "case": "beyond_8mib",
+        "exit": 2,
+        "stderr": "Parsing CSV input...\nVerifying table...\nPartitions tables occupies 8.1MB of flash (8519680 bytes) which does not fit in configured flash size 8MB. Change the flash size in menuconfig under the 'Serial Flasher Config' menu."
+      }
+    ]
+  }
+}

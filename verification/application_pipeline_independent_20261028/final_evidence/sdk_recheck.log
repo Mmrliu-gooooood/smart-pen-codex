@@ -1,0 +1,27 @@
+=== build-application-disabled ===
+ninja: Entering directory `smart_pen_sdk_20261028/build-application-disabled'
+[1/4] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-disabled/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-disabled/partition_table/partition-table.bin /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-disabled/smartpen_application_candidate.bin
+smartpen_application_candidate.bin binary size 0x2f0c0 bytes. Smallest app partition is 0x100000 bytes. 0xd0f40 bytes (82%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-disabled/bootloader/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-disabled/bootloader/bootloader.bin
+Bootloader binary size 0x5210 bytes. 0x2df0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+=== build-application-enabled ===
+ninja: Entering directory `smart_pen_sdk_20261028/build-application-enabled'
+[1/4] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-enabled/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-enabled/partition_table/partition-table.bin /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-enabled/smartpen_application_candidate.bin
+smartpen_application_candidate.bin binary size 0x34680 bytes. Smallest app partition is 0x100000 bytes. 0xcb980 bytes (80%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-enabled/bootloader/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-enabled/bootloader/bootloader.bin
+Bootloader binary size 0x5210 bytes. 0x2df0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+=== build-application-flash8-final ===
+ninja: Entering directory `smart_pen_sdk_20261028/build-application-flash8-final'
+[1/4] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-flash8-final/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-flash8-final/partition_table/partition-table.bin /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-flash8-final/smartpen_application_candidate.bin
+smartpen_application_candidate.bin binary size 0x34980 bytes. Smallest app partition is 0x200000 bytes. 0x1cb680 bytes (90%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-flash8-final/bootloader/esp-idf/esptool_py && /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/tools/python_env/idf5.4_py3.12_env/bin/python /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /workspace/scratch/fe148e758944/smart_pen_sdk_20261028/build-application-flash8-final/bootloader/bootloader.bin
+Bootloader binary size 0x5260 bytes. 0x2da0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

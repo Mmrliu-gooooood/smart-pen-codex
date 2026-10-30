@@ -1,0 +1,21 @@
+application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS
+application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS
+application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS
+normal PASS
+ndebug PASS
+asan PASS
+actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS
+actor disabled: no storage/provider action PASS
+actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS
+actor disabled: no storage/provider action PASS
+actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS
+actor disabled: no storage/provider action PASS
+normal PASS
+ndebug PASS
+asan PASS
+maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS
+maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS
+maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS
+normal PASS
+ndebug PASS
+asan PASS

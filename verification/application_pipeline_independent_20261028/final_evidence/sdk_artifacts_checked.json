@@ -1,0 +1,108 @@
+{
+  "disabled": {
+    "files": {
+      "smartpen_application_candidate.bin": {
+        "bytes": 192704,
+        "sha256": "72cffdbf266da1e295fd94688219a43c6ad31e292d9d3762ad1d3807bc8743e7"
+      },
+      "smartpen_application_candidate.elf": {
+        "bytes": 3711368,
+        "sha256": "aea9365326456e06537ff36a270ceabd41e970dcc3524f2ae1f099cfec9a1c9e"
+      },
+      "partition_table/partition-table.bin": {
+        "bytes": 3072,
+        "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+      }
+    },
+    "relevant_config": [
+      "CONFIG_ESPTOOLPY_FLASHSIZE_2MB=y",
+      "CONFIG_ESPTOOLPY_FLASHSIZE=\"2MB\"",
+      "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions.csv\"",
+      "# CONFIG_PEN_APP_FLASH8_PROFILE is not set",
+      "# CONFIG_PEN_FLASH_RECORDING is not set"
+    ],
+    "main_component_stack_usage": [
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile.c:11:5:pen_profile8_validate\t64\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile_idf.c:10:11:pen_application_partition_guard\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:22:6:app_main\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/board_provider_absent.c:2:27:pen_get_board_provider\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:4:12:initialize\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:17:5:pen_app_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:18:5:pen_app_init_replay\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:19:5:pen_app_needs_maintenance\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:22:5:pen_app_reclaim\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:44:5:pen_app_step\t176\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:90:5:pen_app_get_status\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:98:5:pen_app_pending\t608\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:106:5:pen_app_cancel_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:113:5:pen_app_prepare_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:123:5:pen_app_prepare_replay_sleep\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:131:5:pen_app_offer\t144\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:144:5:pen_app_ack\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:3:5:pen_recorder_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:7:5:pen_recorder_step\t656\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:7:13:control\t80\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:11:19:gated.isra\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:3:5:pen_cp_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:22:5:pen_cp_step\t112\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:57:15:phase\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:64:12:candidate\t256\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:132:5:pen_roi_decode_opt\t368\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:19:17:integral\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:11:12:axis\t128\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:20:5:pen_anoto_decode\t64\tstatic\n"
+    ]
+  },
+  "enabled": {
+    "files": {
+      "smartpen_application_candidate.bin": {
+        "bytes": 214656,
+        "sha256": "adfe0479ba6ef6c21cc9611083216fa9c5051bb91a3d6e161c668500abdb848e"
+      },
+      "smartpen_application_candidate.elf": {
+        "bytes": 4232080,
+        "sha256": "a4b5f295e4e95f5b7e5acdbcee96742b25196b034536082eff9ea7f347b1a20b"
+      },
+      "partition_table/partition-table.bin": {
+        "bytes": 3072,
+        "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+      }
+    },
+    "relevant_config": [
+      "CONFIG_ESPTOOLPY_FLASHSIZE_2MB=y",
+      "CONFIG_ESPTOOLPY_FLASHSIZE=\"2MB\"",
+      "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions.csv\"",
+      "CONFIG_PEN_APP_RUN_APPROVED_PROVIDER=y",
+      "# CONFIG_PEN_APP_FLASH8_PROFILE is not set",
+      "CONFIG_PEN_FLASH_RECORDING=y"
+    ],
+    "main_component_stack_usage": [
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile.c:11:5:pen_profile8_validate\t64\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile_idf.c:10:11:pen_application_partition_guard\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:14:13:report\t80\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:18:13:idle_blocked\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:22:6:app_main\t336\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/board_provider_absent.c:2:27:pen_get_board_provider\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:4:12:initialize\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:17:5:pen_app_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:18:5:pen_app_init_replay\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:19:5:pen_app_needs_maintenance\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:22:5:pen_app_reclaim\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:44:5:pen_app_step\t176\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:90:5:pen_app_get_status\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:98:5:pen_app_pending\t608\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:106:5:pen_app_cancel_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:113:5:pen_app_prepare_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:123:5:pen_app_prepare_replay_sleep\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:131:5:pen_app_offer\t144\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:144:5:pen_app_ack\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:3:5:pen_recorder_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:7:5:pen_recorder_step\t656\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:7:13:control\t80\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:11:19:gated.isra\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:3:5:pen_cp_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:22:5:pen_cp_step\t112\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:57:15:phase\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:64:12:candidate\t256\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:132:5:pen_roi_decode_opt\t368\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:19:17:integral\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:11:12:axis\t128\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:20:5:pen_anoto_decode\t64\tstatic\n"
+    ]
+  },
+  "flash8": {
+    "files": {
+      "smartpen_application_candidate.bin": {
+        "bytes": 215424,
+        "sha256": "dc176616937e36b74a20d68bfe85d624fb694bd195373d261d668bd298340997"
+      },
+      "smartpen_application_candidate.elf": {
+        "bytes": 4245704,
+        "sha256": "ef41b4df45c3fda5387cedba06b807cd339c1cc53b72d83a0fb0e9e6dff53de9"
+      },
+      "partition_table/partition-table.bin": {
+        "bytes": 3072,
+        "sha256": "2a576b26b051a3611eedc5d43614a67f9d9587012f1f2ce4105ecf445aeb1789"
+      }
+    },
+    "relevant_config": [
+      "CONFIG_BOOTLOADER_APP_ROLLBACK_ENABLE=y",
+      "CONFIG_ESPTOOLPY_FLASHSIZE_8MB=y",
+      "CONFIG_ESPTOOLPY_FLASHSIZE=\"8MB\"",
+      "CONFIG_PARTITION_TABLE_CUSTOM=y",
+      "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"profiles/flash8.csv\"",
+      "CONFIG_PEN_APP_RUN_APPROVED_PROVIDER=y",
+      "CONFIG_PEN_APP_FLASH8_PROFILE=y",
+      "CONFIG_PEN_FLASH_RECORDING=y"
+    ],
+    "main_component_stack_usage": [
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile.c:11:5:pen_profile8_validate\t64\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/partition_profile_idf.c:10:11:pen_application_partition_guard\t144\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:14:13:report\t80\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:18:13:idle_blocked\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/application_main.c:22:6:app_main\t336\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application_idf/main/board_provider_absent.c:2:27:pen_get_board_provider\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:4:12:initialize\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:17:5:pen_app_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:18:5:pen_app_init_replay\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:19:5:pen_app_needs_maintenance\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:22:5:pen_app_reclaim\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:44:5:pen_app_step\t176\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:90:5:pen_app_get_status\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:98:5:pen_app_pending\t608\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:106:5:pen_app_cancel_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:113:5:pen_app_prepare_sleep\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:123:5:pen_app_prepare_replay_sleep\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:131:5:pen_app_offer\t144\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/application/pipeline.c:144:5:pen_app_ack\t32\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:3:5:pen_recorder_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/recorder.c:7:5:pen_recorder_step\t656\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:7:13:control\t80\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:11:19:gated.isra\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:3:5:pen_cp_init\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/runtime/contact_power.c:22:5:pen_cp_step\t112\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:57:15:phase\t48\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:64:12:candidate\t256\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/vision/roi_opt.c:132:5:pen_roi_decode_opt\t368\tstatic\n",
+      "/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:19:17:integral\t32\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:11:12:axis\t128\tstatic\n/workspace/scratch/fe148e758944/smart_pen_app_pipeline_20261028/firmware/codec/anoto.c:20:5:pen_anoto_decode\t64\tstatic\n"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "build": "profile8_actor_compile",
+    "sdk_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+    "application_bytes": 214288,
+    "application_sha256": "bf799ec793a109267591eaa75a47eb93860e4b4071ccd8c4257f45911712e0d5",
+    "ota_slot_bytes": 2097152,
+    "free_bytes_in_each_slot": 1882864,
+    "partition_bin_sha256": "2a576b26b051a3611eedc5d43614a67f9d9587012f1f2ce4105ecf445aeb1789",
+    "configuration": {
+      "CONFIG_IDF_TARGET": "\"esp32s3\"",
+      "CONFIG_ESPTOOLPY_FLASHSIZE": "\"8MB\"",
+      "CONFIG_PARTITION_TABLE_OFFSET": "0x8000",
+      "CONFIG_PARTITION_TABLE_FILENAME": "\"profiles/flash8.csv\"",
+      "CONFIG_PEN_APP_FLASH8_PROFILE": "y",
+      "CONFIG_PEN_FLASH_RECORDING": "y",
+      "CONFIG_PEN_APP_RUN_APPROVED_PROVIDER": "y",
+      "CONFIG_BOOTLOADER_APP_ROLLBACK_ENABLE": "y"
+    },
+    "provider": "checked-in provider returns0; no hardware execution claimed",
+    "build_exit": 0
+  },
+  {
+    "build": "profile8_safe_provider_disabled",
+    "sdk_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+    "application_bytes": 212064,
+    "application_sha256": "4a3e57ae90c3ae88f040d9edc6e5d82f63159d48c4bbd7a9c96a6798df8bb5a5",
+    "ota_slot_bytes": 2097152,
+    "free_bytes_in_each_slot": 1885088,
+    "partition_bin_sha256": "2a576b26b051a3611eedc5d43614a67f9d9587012f1f2ce4105ecf445aeb1789",
+    "configuration": {
+      "CONFIG_IDF_TARGET": "\"esp32s3\"",
+      "CONFIG_ESPTOOLPY_FLASHSIZE": "\"8MB\"",
+      "CONFIG_PARTITION_TABLE_OFFSET": "0x8000",
+      "CONFIG_PARTITION_TABLE_FILENAME": "\"profiles/flash8.csv\"",
+      "CONFIG_PEN_APP_FLASH8_PROFILE": "y",
+      "CONFIG_PEN_FLASH_RECORDING": "y",
+      "CONFIG_PEN_APP_RUN_APPROVED_PROVIDER": "not set",
+      "CONFIG_BOOTLOADER_APP_ROLLBACK_ENABLE": "y"
+    },
+    "provider": "checked-in provider returns0; no hardware execution claimed",
+    "build_exit": 0
+  }
+]
