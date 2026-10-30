@@ -1,0 +1,282 @@
+diff --git a/driver/cam_hal.c b/driver/cam_hal.c
+index 127f001..c35e64c 100644
+--- a/driver/cam_hal.c
++++ b/driver/cam_hal.c
+@@ -649,13 +649,14 @@ esp_err_t cam_config(const camera_config_t *config, framesize_t frame_size, uint
+ 
+ 
+ #if CONFIG_CAMERA_CORE0
+-    xTaskCreatePinnedToCore(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle, 0);
++    BaseType_t task_result = xTaskCreatePinnedToCore(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle, 0);
+ #elif CONFIG_CAMERA_CORE1
+-    xTaskCreatePinnedToCore(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle, 1);
++    BaseType_t task_result = xTaskCreatePinnedToCore(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle, 1);
+ #else
+-    xTaskCreate(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle);
++    BaseType_t task_result = xTaskCreate(cam_task, "cam_task", CAM_TASK_STACK, NULL, configMAX_PRIORITIES - 2, &cam_obj->task_handle);
+ #endif
+ 
++    CAM_CHECK_GOTO(task_result == pdPASS, "cam task create failed", err);
+     ESP_LOGI(TAG, "cam config ok");
+     return ESP_OK;
+ 
+diff --git a/driver/esp_camera.c b/driver/esp_camera.c
+index a81672d..c923ef6 100644
+--- a/driver/esp_camera.c
++++ b/driver/esp_camera.c
+@@ -348,7 +348,10 @@ esp_err_t esp_camera_init(const camera_config_t *config)
+         err = ESP_ERR_CAMERA_FAILED_TO_SET_FRAME_SIZE;
+         goto fail;
+     }
+-    s_state->sensor.set_pixformat(&s_state->sensor, pix_format);
++    if (s_state->sensor.set_pixformat(&s_state->sensor, pix_format) != 0) {
++        err = ESP_ERR_CAMERA_FAILED_TO_SET_OUT_FORMAT;
++        goto fail;
++    }
+ #if CONFIG_CAMERA_CONVERTER_ENABLED
+     if(config->conv_mode) {
+         s_state->sensor.pixformat = get_output_data_format(config->conv_mode); // If conversion enabled, change the out data format by conversion mode
+@@ -392,12 +395,16 @@ esp_err_t esp_camera_deinit()
+ 
+ #define FB_GET_TIMEOUT (4000 / portTICK_PERIOD_MS)
+ 
+-camera_fb_t *esp_camera_fb_get()
++/* Candidate extension: caller-bounded, nonzero millisecond timeout. */
++camera_fb_t *esp_camera_fb_get_timeout_ms(uint32_t timeout_ms)
+ {
++    if (timeout_ms == 0 || timeout_ms > 4000) return NULL;
++    TickType_t ticks = pdMS_TO_TICKS(timeout_ms);
++    if (ticks == 0) ticks = 1;
+     if (s_state == NULL) {
+         return NULL;
+     }
+-    camera_fb_t *fb = cam_take(FB_GET_TIMEOUT);
++    camera_fb_t *fb = cam_take(ticks);
+     //set the frame properties
+     if (fb) {
+         fb->width = resolution[s_state->sensor.status.framesize].width;
+@@ -407,6 +414,11 @@ camera_fb_t *esp_camera_fb_get()
+     return fb;
+ }
+ 
++camera_fb_t *esp_camera_fb_get(void)
++{
++    return esp_camera_fb_get_timeout_ms(4000);
++}
++
+ void esp_camera_fb_return(camera_fb_t *fb)
+ {
+     if (s_state == NULL) {
+diff --git a/driver/include/esp_camera.h b/driver/include/esp_camera.h
+index 0ecff62..24b9ace 100755
+--- a/driver/include/esp_camera.h
++++ b/driver/include/esp_camera.h
+@@ -168,7 +168,7 @@ typedef struct {
+     size_t width;               /*!< Width of the buffer in pixels */
+     size_t height;              /*!< Height of the buffer in pixels */
+     pixformat_t format;         /*!< Format of the pixel data */
+-    struct timeval timestamp;   /*!< Timestamp since boot of the first DMA buffer of the frame */
++    struct timeval timestamp;   /*!< Candidate v2: HAL software boot-time sample after ll_cam_start/manual VSYNC; not measured first DMA or exposure time */
+ } camera_fb_t;
+ 
+ #define ESP_ERR_CAMERA_BASE 0x20000
+@@ -208,6 +208,8 @@ esp_err_t esp_camera_deinit(void);
+  * @return pointer to the frame buffer
+  */
+ camera_fb_t* esp_camera_fb_get(void);
++/* Candidate extension: deadline is tick-rounded and scheduling adds latency. */
++camera_fb_t* esp_camera_fb_get_timeout_ms(uint32_t timeout_ms);
+ 
+ /**
+  * @brief Return the frame buffer to be reused again.
+@@ -281,5 +283,7 @@ bool esp_camera_get_psram_mode(void);
+ }
+ #endif
+ 
++#ifndef PEN_CAMERA_GRAY_ONLY_BUILD
+ #include "img_converters.h"
++#endif
+ 
+diff --git a/driver/private_include/sccb.h b/driver/private_include/sccb.h
+index c8613da..1e4c821 100755
+--- a/driver/private_include/sccb.h
++++ b/driver/private_include/sccb.h
+@@ -16,6 +16,8 @@ int SCCB_Probe(uint8_t slv_addr);
+ uint8_t SCCB_Read(uint8_t slv_addr, uint8_t reg);
+ int SCCB_Write(uint8_t slv_addr, uint8_t reg, uint8_t data);
+ uint8_t SCCB_Read16(uint8_t slv_addr, uint16_t reg);
++/* Candidate IDF>=5.4 new-I2C checked read; output valid only on return0. */
++int SCCB_Read16_Checked(uint8_t slv_addr, uint16_t reg, uint8_t *out);
+ int SCCB_Write16(uint8_t slv_addr, uint16_t reg, uint8_t data);
+ uint16_t SCCB_Read_Addr16_Val16(uint8_t slv_addr, uint16_t reg);
+ int SCCB_Write_Addr16_Val16(uint8_t slv_addr, uint16_t reg, uint16_t data);
+diff --git a/driver/sccb-ng.c b/driver/sccb-ng.c
+index 2c85dc7..3ca0bce 100755
+--- a/driver/sccb-ng.c
++++ b/driver/sccb-ng.c
+@@ -293,6 +293,21 @@ int SCCB_Write(uint8_t slv_addr, uint8_t reg, uint8_t data)
+     return ret == ESP_OK ? 0 : -1;
+ }
+ 
++/* Candidate: never use uninitialized/error data for sensor identification. */
++int SCCB_Read16_Checked(uint8_t slv_addr, uint16_t reg, uint8_t *out)
++{
++    if (out == NULL) return -1;
++    *out = 0;
++    i2c_master_dev_handle_t *handle = get_handle_from_address(slv_addr);
++    if (handle == NULL) return -1;
++    uint8_t tx[2] = {(uint8_t)(reg >> 8), (uint8_t)reg};
++    uint8_t rx = 0;
++    esp_err_t ret = i2c_master_transmit_receive(*handle, tx, 2, &rx, 1, TIMEOUT_MS);
++    if (ret != ESP_OK) return -1;
++    *out = rx;
++    return 0;
++}
++
+ uint8_t SCCB_Read16(uint8_t slv_addr, uint16_t reg)
+ {
+     i2c_master_dev_handle_t *dev_handle_ptr = get_handle_from_address(slv_addr);
+diff --git a/sensors/private_include/sc031gs_settings.h b/sensors/private_include/sc031gs_settings.h
+index ba5ca02..6908a5f 100644
+--- a/sensors/private_include/sc031gs_settings.h
++++ b/sensors/private_include/sc031gs_settings.h
+@@ -81,6 +81,7 @@ struct sc031gs_regval {
+ static const struct sc031gs_regval sc031gs_reset_regs[] = {
+ 	{0x0103, 0x01}, // soft reset.
+ 	{REG_DELAY, 10}, // delay.
++	{REG_NULL, 0x00}, /* v2: checked terminal contract shared by all tables. */
+ };
+ 
+ // 200*200, xclk=10M, fps=120fps
+diff --git a/sensors/sc031gs.c b/sensors/sc031gs.c
+index 784d65a..c57a3aa 100644
+--- a/sensors/sc031gs.c
++++ b/sensors/sc031gs.c
+@@ -45,9 +45,16 @@ static const char* TAG = "sc031gs";
+ #define SC031GS_PIDH_MAGIC 0x00 // High byte of sensor ID
+ #define SC031GS_PIDL_MAGIC 0x31 // Low byte of sensor ID
+ 
++/* Candidate build exclusively uses sccb-ng.c (IDF5.4), not legacy SCCB. */
++static int read16_checked(uint8_t address, uint16_t reg)
++{
++    uint8_t value = 0;
++    return SCCB_Read16_Checked(address, reg, &value) == 0 ? value : -1;
++}
++
+ static int get_reg(sensor_t *sensor, int reg, int mask)
+ {
+-    int ret = SCCB_Read16(sensor->slv_addr, reg & 0xFFFF);
++    int ret = read16_checked(sensor->slv_addr, reg & 0xFFFF);
+     if(ret > 0){
+         ret &= mask;
+     }
+@@ -57,7 +64,7 @@ static int get_reg(sensor_t *sensor, int reg, int mask)
+ static int set_reg(sensor_t *sensor, int reg, int mask, int value)
+ {
+     int ret = 0;
+-    ret = SCCB_Read16(sensor->slv_addr, reg & 0xFFFF);
++    ret = read16_checked(sensor->slv_addr, reg & 0xFFFF);
+     if(ret < 0){
+         return ret;
+     }
+@@ -69,7 +76,7 @@ static int set_reg(sensor_t *sensor, int reg, int mask, int value)
+ static int set_reg_bits(sensor_t *sensor, uint16_t reg, uint8_t offset, uint8_t length, uint8_t value)
+ {
+     int ret = 0;
+-    ret = SCCB_Read16(sensor->slv_addr, reg);
++    ret = read16_checked(sensor->slv_addr, reg);
+     if(ret < 0){
+         return ret;
+     }
+@@ -79,21 +86,32 @@ static int set_reg_bits(sensor_t *sensor, uint16_t reg, uint8_t offset, uint8_t
+     return ret;
+ }
+ 
+-static int write_regs(uint8_t slv_addr, const struct sc031gs_regval *regs)
++#define SC031GS_ARRAY_COUNT(a) (sizeof(a) / sizeof((a)[0]))
++
++/* v2: all tables have an explicit actual array count including one terminal
++ * {REG_NULL, 0}. Validate the complete bounded shape before ANY bus write.
++ * The count must come from the array declaration, never caller wire input. */
++static int write_regs(uint8_t slv_addr, const struct sc031gs_regval *regs,
++                      size_t count)
+ {
+-    int i = 0, ret = 0;
+-    while (!ret && regs[i].addr != REG_NULL) {
++    if (regs == NULL || count < 2 || regs[count - 1].addr != REG_NULL ||
++        regs[count - 1].val != 0) {
++        return -1;
++    }
++    for (size_t i = 0; i + 1 < count; ++i) {
++        if (regs[i].addr == REG_NULL) return -1;
++    }
++    for (size_t i = 0; i + 1 < count; ++i) {
+         if (regs[i].addr == REG_DELAY) {
+             vTaskDelay(regs[i].val / portTICK_PERIOD_MS);
+         } else {
+-            ret = SCCB_Write16(slv_addr, regs[i].addr, regs[i].val);
++            int ret = SCCB_Write16(slv_addr, regs[i].addr, regs[i].val);
++            if (ret != 0) return ret;
+         }
+-        i++;
+     }
+-    return ret;
++    return 0;
+ }
+ 
+-#define WRITE_REGS_OR_RETURN(regs) ret = write_regs(slv_addr, regs); if(ret){return ret;}
+ #define WRITE_REG_OR_RETURN(reg, val) ret = set_reg(sensor, reg, 0xFF, val); if(ret){return ret;}
+ #define SET_REG_BITS_OR_RETURN(reg, offset, length, val) ret = set_reg_bits(sensor, reg, offset, length, val); if(ret){return ret;}
+ 
+@@ -204,7 +222,8 @@ static int set_aec_value(sensor_t *sensor, int value)
+ 
+ static int reset(sensor_t *sensor)
+ {
+-    int ret = write_regs(sensor->slv_addr, sc031gs_reset_regs);
++    int ret = write_regs(sensor->slv_addr, sc031gs_reset_regs,
++                         SC031GS_ARRAY_COUNT(sc031gs_reset_regs));
+     if (ret) {
+         ESP_LOGE(TAG, "reset fail");
+     }
+@@ -232,22 +251,27 @@ static int set_output_window(sensor_t *sensor, int offset_x, int offset_y, int w
+ 
+ static int set_framesize(sensor_t *sensor, framesize_t framesize)
+ {
++    /* Candidate: reject enum before indexing the public resolution table. */
++    if ((int)framesize < 0 || framesize > FRAMESIZE_VGA) return -1;
+     uint16_t w = resolution[framesize].width;
+     uint16_t h = resolution[framesize].height;
+ 
+     struct sc031gs_regval const *framesize_regs = sc031gs_200x200_init_regs;
++    size_t framesize_count = SC031GS_ARRAY_COUNT(sc031gs_200x200_init_regs);
+     if(framesize > FRAMESIZE_VGA) {
+         goto err; 
+     } else if(framesize > FRAMESIZE_QVGA) {
+         framesize_regs = sc031gs_640x480_50fps_init_regs;
++        framesize_count = SC031GS_ARRAY_COUNT(sc031gs_640x480_50fps_init_regs);
+     }
+ 
+     uint16_t offset_x = (640-w) /2 + 4;   
+     uint16_t offset_y = (480-h) /2 + 4;
+ 
+-    int ret = write_regs(sensor->slv_addr, framesize_regs);
++    int ret = write_regs(sensor->slv_addr, framesize_regs, framesize_count);
+     if (ret) {
+-        ESP_LOGE(TAG, "reset fail");
++        ESP_LOGE(TAG, "mode table write failed");
++        return ret; /* Candidate: never hide incomplete initialization. */
+     }
+     
+     if(set_output_window(sensor, offset_x, offset_y, w, h)) {
+@@ -296,8 +320,9 @@ static int set_xclk(sensor_t *sensor, int timer, int xclk)
+ int esp32_camera_sc031gs_detect(int slv_addr, sensor_id_t *id)
+ {
+     if (SC031GS_SCCB_ADDR == slv_addr) {
+-        uint8_t MIDL = SCCB_Read16(slv_addr, SC031GS_PID_HIGH_REG);
+-        uint8_t MIDH = SCCB_Read16(slv_addr, SC031GS_PID_LOW_REG);
++        int MIDL = read16_checked(slv_addr, SC031GS_PID_HIGH_REG);
++        int MIDH = read16_checked(slv_addr, SC031GS_PID_LOW_REG);
++        if (MIDL < 0 || MIDH < 0) return 0;
+         uint16_t PID = MIDH << 8 | MIDL;
+         if (SC031GS_PID == PID) {
+             id->PID = PID;

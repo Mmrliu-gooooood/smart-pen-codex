@@ -1,0 +1,214 @@
+{
+  "status": "LOCAL_PLANE_DISC_SCREEN_NOT_FULL_PLANE_CURRENT_OR_NECK_QUALIFICATION",
+  "clearance_disc_radius_mm": 0.375,
+  "note": "Copper radius .225 + plane clearance .15. Signed separation is distance from disc to previous boundary, not a whole-board minimum neck. Negative/merged clearances need local interpretation; full finite island graph separately checked.",
+  "vias": [
+    {
+      "uuid": "bedf821c-c1c0-4ee7-ab52-49c5ab68d313",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        1.725,
+        15.75
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.6105603683043963,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.2355603683043963
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.4495,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.07450000000000001
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.6105603683043963,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.2355603683043963
+        }
+      ]
+    },
+    {
+      "uuid": "ce51f924-4cf1-468f-9155-13f362876eaf",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        2.675,
+        86.5
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.3495,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.9744999999999999
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 2.175,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 1.7999999999999998
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.3495,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.9744999999999999
+        }
+      ]
+    },
+    {
+      "uuid": "095c08bc-ed56-4add-a9ae-6f3b306b0f64",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        3.6,
+        85.625
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.2995000000000001,
+          "radius0p375_clearance_disc_to_old_boundary_mm": -0.0754999999999999
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 2.4663163278869926,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 2.0913163278869926
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.2995000000000001,
+          "radius0p375_clearance_disc_to_old_boundary_mm": -0.0754999999999999
+        }
+      ]
+    },
+    {
+      "uuid": "9bb44473-8829-4cba-9b6c-52770945d1da",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        5.725,
+        86.65
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.0187868148754171,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.6437868148754171
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.7244999999999999,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.3494999999999999
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.0187868148754171,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.6437868148754171
+        }
+      ]
+    },
+    {
+      "uuid": "c3c26b11-e11f-4d77-bf63-f92bbb054af5",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        5.2,
+        1.35
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.9703147825783136,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.5953147825783136
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": false,
+          "old_boundary_distance_mm": 2.9499999999999997,
+          "radius0p375_clearance_disc_to_old_boundary_mm": null
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.9703147825783136,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.5953147825783136
+        }
+      ]
+    },
+    {
+      "uuid": "f4df9e29-d23a-4858-b102-634c908308f9",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        1.725,
+        15.1
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.731872966552256,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.356872966552256
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.29949899999999996,
+          "radius0p375_clearance_disc_to_old_boundary_mm": -0.07550100000000004
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.731872966552256,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.356872966552256
+        }
+      ]
+    },
+    {
+      "uuid": "f90170ae-7049-456c-8d9b-95cfdd353708",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        5.875,
+        5.175
+      ],
+      "layers": [
+        {
+          "layer": "In1.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.1195935806620476,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.7445935806620476
+        },
+        {
+          "layer": "In2.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 0.875,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.5
+        },
+        {
+          "layer": "In4.Cu",
+          "center_inside_old_plane": true,
+          "old_boundary_distance_mm": 1.1195935806620476,
+          "radius0p375_clearance_disc_to_old_boundary_mm": 0.7445935806620476
+        }
+      ]
+    }
+  ],
+  "critical_projection": {
+    "RF_F_copper_and_pads": {
+      "new_void_projected_overlap_mm2": 0.0,
+      "nearest_new_In1_void_to_copper_mm": 0.37667
+    },
+    "clock_F_copper_and_pads": {
+      "new_void_projected_overlap_mm2": 0.0,
+      "nearest_new_In1_void_to_copper_mm": 2.448602
+    }
+  },
+  "new_RF_region_intrusions": []
+}

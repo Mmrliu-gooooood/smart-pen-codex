@@ -1,0 +1,72 @@
+{
+  "status": "BOUNDED_RULE_AND_FINITE_COPPER_CHECK_ONLY_NOFAB",
+  "pcb_sha256": "619a1307b7eb18c27d34f323e511726d95b373cca4e4dd2c11e284f03501eaf0",
+  "unchanged_tracks_vias": 4757,
+  "unchanged_footprints": 102,
+  "pad_net_components_identical": true,
+  "all_plane_islands_reach_core": {
+    "GND": [
+      "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7/4/0",
+      "f6fd4956-22d0-45be-a9b3-b3927367a8b7/4/0",
+      "150778f4-2a31-499a-942d-1665696e50ac/10/0",
+      "fedaf716-0cd7-4d04-a732-236795bf7639/10/0"
+    ],
+    "3V3_AON": [
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0",
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/1",
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/2",
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/3",
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/4",
+      "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/5"
+    ]
+  },
+  "plane_areas": [
+    {
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "before_mm2": 988.782868872995,
+      "after_mm2": 992.782868872995,
+      "before_islands": 1,
+      "after_islands": 1
+    },
+    {
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "before_mm2": 201.784604183288,
+      "after_mm2": 201.784604183288,
+      "before_islands": 1,
+      "after_islands": 1
+    },
+    {
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "before_mm2": 711.993554018536,
+      "after_mm2": 715.993554018536,
+      "before_islands": 6,
+      "after_islands": 6
+    },
+    {
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "before_mm2": 986.847868872995,
+      "after_mm2": 990.847868872995,
+      "before_islands": 1,
+      "after_islands": 1
+    },
+    {
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "before_mm2": 201.784604183288,
+      "after_mm2": 201.784604183288,
+      "before_islands": 1,
+      "after_islands": 1
+    }
+  ],
+  "peripheral_F_pad_ground_links": "manual review remains open, not certified by central rule",
+  "manufacturer_layer_scope": "B allowed explicitly; inner reference geometry is project inference; no same-side central routing/via"
+}

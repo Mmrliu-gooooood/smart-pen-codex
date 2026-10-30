@@ -1,0 +1,5 @@
+menu "Smart pen camera compile fixture"
+config PEN_CAMERA_CAPTURE_COMPILE_ENABLE
+ bool "Compile enabled camera entry (NOT run authorization)"
+ default n
+endmenu

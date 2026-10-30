@@ -1,0 +1,358 @@
+{
+  "status": "GEOMETRY_AND_NOMINAL_SENSITIVITY_NOT_PI_SI_OR_LOAD_QUALIFICATION",
+  "notes": [
+    "Lengths are centerline sums excluding pad travel and via barrel; full-net branches are not a unique delay path.",
+    "VIO resistance uses nominal copper and room-temperature resistivity, excludes via/contact/old routes; external head dynamic load and source budget unknown.",
+    "VIO is external head 1.8V reference supply, not 3V3 camera load.",
+    "All via tenting explicit; nominal body bore gap is not tolerance-backed underside insulation approval."
+  ],
+  "nets": {
+    "SENS_VIO_1V8": {
+      "new_length_mm": 22.236123430573173,
+      "new_tracks": 29,
+      "new_vias": 1,
+      "new_min_width_mm": 0.25,
+      "new_short_segments_below_0p1mm": 8,
+      "whole_net_centerline_sum_mm": 91.52620602455283,
+      "whole_net_min_width_mm": 0.15,
+      "layers": {
+        "F.Cu": 0.15,
+        "In3.Cu": 0,
+        "B.Cu": 22.086123430573174
+      },
+      "vias": [
+        {
+          "uuid": "e2a0eb80-5ede-427a-bdd4-edb729566d5f",
+          "xy": [
+            10.425,
+            75.05
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            8.5,
+            74.7
+          ],
+          "nearest_GND_via_distance_mm": 1.9565594803123156,
+          "nominal_connector_body_hole_edge_gap_mm": 14.800000000000002,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        }
+      ],
+      "new_track_20C_DC_resistance_ohm_nominal_not_actual_drop": 0.04381151633635218
+    },
+    "SENS_SCL": {
+      "new_length_mm": 20.114367648390953,
+      "new_tracks": 24,
+      "new_vias": 4,
+      "new_min_width_mm": 0.15,
+      "new_short_segments_below_0p1mm": 10,
+      "whole_net_centerline_sum_mm": 33.60861358849993,
+      "whole_net_min_width_mm": 0.15,
+      "layers": {
+        "F.Cu": 2.3711519978303635,
+        "In3.Cu": 5.766769026066503,
+        "B.Cu": 11.976446624494086
+      },
+      "vias": [
+        {
+          "uuid": "1952886d-ba91-4fab-9977-5017a1e811e0",
+          "xy": [
+            6.65,
+            75.1
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            7.6,
+            74.0
+          ],
+          "nearest_GND_via_distance_mm": 1.4534441853748585,
+          "nominal_connector_body_hole_edge_gap_mm": 14.750000000000005,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "440e04cd-b4ed-44a1-afa8-87653c44e519",
+          "xy": [
+            9.65,
+            80.025
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            9.4,
+            82.4
+          ],
+          "nearest_GND_via_distance_mm": 2.38812164681785,
+          "nominal_connector_body_hole_edge_gap_mm": 9.824999999999994,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "983a3407-b54d-400f-9624-65685bcfb932",
+          "xy": [
+            2.9,
+            89.375
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            4.5,
+            89.35
+          ],
+          "nearest_GND_via_distance_mm": 1.6001953005805263,
+          "nominal_connector_body_hole_edge_gap_mm": 0.475,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "c2e4595f-c9c8-4d74-af59-e04e6e33ee63",
+          "xy": [
+            4.5,
+            88.575
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            4.5,
+            89.35
+          ],
+          "nearest_GND_via_distance_mm": 0.7749999999999915,
+          "nominal_connector_body_hole_edge_gap_mm": 1.2749999999999972,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "SENS_SDA": {
+      "new_length_mm": 21.08852732337481,
+      "new_tracks": 22,
+      "new_vias": 2,
+      "new_min_width_mm": 0.15,
+      "new_short_segments_below_0p1mm": 8,
+      "whole_net_centerline_sum_mm": 35.86536344426423,
+      "whole_net_min_width_mm": 0.15,
+      "layers": {
+        "F.Cu": 10.97274174159915,
+        "In3.Cu": 8.769268175734167,
+        "B.Cu": 1.346517406041492
+      },
+      "vias": [
+        {
+          "uuid": "1944fd28-5d34-4161-97c2-ec114551f08b",
+          "xy": [
+            1.8,
+            89.25
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            1.25,
+            89.8
+          ],
+          "nearest_GND_via_distance_mm": 0.7778174593052003,
+          "nominal_connector_body_hole_edge_gap_mm": 0.6,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "ec38e15b-bb43-4ed2-a660-35c3d5ca6615",
+          "xy": [
+            2.575,
+            80.825
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            6.55,
+            81.35
+          ],
+          "nearest_GND_via_distance_mm": 4.0095199213870965,
+          "nominal_connector_body_hole_edge_gap_mm": 9.024999999999997,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "SENS_XSHUTDN_N": {
+      "new_length_mm": 32.57580090000291,
+      "new_tracks": 27,
+      "new_vias": 3,
+      "new_min_width_mm": 0.15,
+      "new_short_segments_below_0p1mm": 3,
+      "whole_net_centerline_sum_mm": 46.20337295218041,
+      "whole_net_min_width_mm": 0.15,
+      "layers": {
+        "F.Cu": 10.280384802611549,
+        "In3.Cu": 21.633505982647677,
+        "B.Cu": 0.6619101147436863
+      },
+      "vias": [
+        {
+          "uuid": "6d670265-e57c-4d75-bc01-1acd14d67fd7",
+          "xy": [
+            3.875,
+            89.85
+          ],
+          "diameter_mm": 0.45,
+          "drill_mm": 0.2,
+          "nearest_GND_via_xy": [
+            4.5,
+            89.35
+          ],
+          "nearest_GND_via_distance_mm": 0.8003905296791061,
+          "nominal_connector_body_hole_edge_gap_mm": 0.05000000000000568,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "f0a452b8-6ebc-4368-add0-9a5c7ee6e975",
+          "xy": [
+            1.275,
+            87.375
+          ],
+          "diameter_mm": 0.45,
+          "drill_mm": 0.2,
+          "nearest_GND_via_xy": [
+            1.25,
+            89.8
+          ],
+          "nearest_GND_via_distance_mm": 2.4251288625555523,
+          "nominal_connector_body_hole_edge_gap_mm": 2.525,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "f7d9a6ad-9f2c-4820-b44f-ea3aa0fd9853",
+          "xy": [
+            0.7,
+            66.675
+          ],
+          "diameter_mm": 0.45,
+          "drill_mm": 0.2,
+          "nearest_GND_via_xy": [
+            1.55,
+            69.3
+          ],
+          "nearest_GND_via_distance_mm": 2.759189192498405,
+          "nominal_connector_body_hole_edge_gap_mm": 23.225,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        }
+      ]
+    },
+    "SENS_TRIG_IN": {
+      "new_length_mm": 46.045710327371545,
+      "new_tracks": 33,
+      "new_vias": 4,
+      "new_min_width_mm": 0.15,
+      "new_short_segments_below_0p1mm": 7,
+      "whole_net_centerline_sum_mm": 58.281861023311734,
+      "whole_net_min_width_mm": 0.15,
+      "layers": {
+        "F.Cu": 1.6031219541881396,
+        "In3.Cu": 17.0248355488808,
+        "B.Cu": 27.417752824302607
+      },
+      "vias": [
+        {
+          "uuid": "3932e4d5-305f-4c2b-a955-f537ce4500a4",
+          "xy": [
+            6.0,
+            79.5
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            6.55,
+            81.35
+          ],
+          "nearest_GND_via_distance_mm": 1.9300259065618728,
+          "nominal_connector_body_hole_edge_gap_mm": 10.35,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "4580af42-3322-4b15-9d67-248116cd0436",
+          "xy": [
+            10.4,
+            79.85
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            9.4,
+            82.4
+          ],
+          "nearest_GND_via_distance_mm": 2.7390691849604782,
+          "nominal_connector_body_hole_edge_gap_mm": 10.000000000000005,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "4a1c9756-f3ee-4d65-8a13-4fcb915f0f62",
+          "xy": [
+            7.6,
+            79.6
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            6.55,
+            81.35
+          ],
+          "nearest_GND_via_distance_mm": 2.040833163195855,
+          "nominal_connector_body_hole_edge_gap_mm": 10.250000000000005,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        },
+        {
+          "uuid": "c43b7411-a659-4c2a-b33b-0228ec4d4f89",
+          "xy": [
+            3.3,
+            67.175
+          ],
+          "diameter_mm": 0.6,
+          "drill_mm": 0.3,
+          "nearest_GND_via_xy": [
+            3.9,
+            66.6
+          ],
+          "nearest_GND_via_distance_mm": 0.8310385069297351,
+          "nominal_connector_body_hole_edge_gap_mm": 22.675000000000004,
+          "tenting_front_back": [
+            true,
+            true
+          ]
+        }
+      ]
+    }
+  }
+}

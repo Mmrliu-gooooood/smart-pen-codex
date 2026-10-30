@@ -1,0 +1,82 @@
+[
+  {
+    "case": "wrong_existing_AON_identity",
+    "optimized": false,
+    "exit_code": 1,
+    "expected_reason_prefix": "SERIALIZED_NET_CHANGED",
+    "actual_reason": "SERIALIZED_NET_CHANGED 00a8c95e-e03a-4952-894a-293f0a3f457b",
+    "mutant_sha256": "f0585c54853a92e782b01bc497c94850f4faaf307eff4d60544e488bdfae2843"
+  },
+  {
+    "case": "wrong_existing_AON_identity",
+    "optimized": true,
+    "exit_code": 1,
+    "expected_reason_prefix": "SERIALIZED_NET_CHANGED",
+    "actual_reason": "SERIALIZED_NET_CHANGED 00a8c95e-e03a-4952-894a-293f0a3f457b",
+    "mutant_sha256": "f0585c54853a92e782b01bc497c94850f4faaf307eff4d60544e488bdfae2843"
+  },
+  {
+    "case": "wrong_IRQ_identity",
+    "optimized": false,
+    "exit_code": 1,
+    "expected_reason_prefix": "SERIALIZED_NEW_NET_CHANGED",
+    "actual_reason": "SERIALIZED_NEW_NET_CHANGED 02ca6686-5815-4334-afdf-3e1c73abd4bb",
+    "mutant_sha256": "fa8c7749d609c6e408600396bf2ac948e6622a66c7c4d0a1b5d40471f82b773e"
+  },
+  {
+    "case": "wrong_IRQ_identity",
+    "optimized": true,
+    "exit_code": 1,
+    "expected_reason_prefix": "SERIALIZED_NEW_NET_CHANGED",
+    "actual_reason": "SERIALIZED_NEW_NET_CHANGED 02ca6686-5815-4334-afdf-3e1c73abd4bb",
+    "mutant_sha256": "fa8c7749d609c6e408600396bf2ac948e6622a66c7c4d0a1b5d40471f82b773e"
+  },
+  {
+    "case": "thin_IRQ_trace",
+    "optimized": false,
+    "exit_code": 1,
+    "expected_reason_prefix": "DECLARED_NEW_GEOMETRY_CHANGED",
+    "actual_reason": "DECLARED_NEW_GEOMETRY_CHANGED 02ca6686-5815-4334-afdf-3e1c73abd4bb",
+    "mutant_sha256": "2b93fe2416af59c30dea5b3533aa07c8b9acce6076bf7e4e925f3171b272340e"
+  },
+  {
+    "case": "thin_IRQ_trace",
+    "optimized": true,
+    "exit_code": 1,
+    "expected_reason_prefix": "DECLARED_NEW_GEOMETRY_CHANGED",
+    "actual_reason": "DECLARED_NEW_GEOMETRY_CHANGED 02ca6686-5815-4334-afdf-3e1c73abd4bb",
+    "mutant_sha256": "2b93fe2416af59c30dea5b3533aa07c8b9acce6076bf7e4e925f3171b272340e"
+  },
+  {
+    "case": "BOOT_wrong_drill",
+    "optimized": false,
+    "exit_code": 1,
+    "expected_reason_prefix": "BOOT_VIA_OVERRIDE",
+    "actual_reason": "BOOT_VIA_OVERRIDE",
+    "mutant_sha256": "dde07dd3a936f5d15f732d3ed7648fcae7e56e3f7272aa513c775393b2319b57"
+  },
+  {
+    "case": "BOOT_wrong_drill",
+    "optimized": true,
+    "exit_code": 1,
+    "expected_reason_prefix": "BOOT_VIA_OVERRIDE",
+    "actual_reason": "BOOT_VIA_OVERRIDE",
+    "mutant_sha256": "dde07dd3a936f5d15f732d3ed7648fcae7e56e3f7272aa513c775393b2319b57"
+  },
+  {
+    "case": "weaken_MEMS_via_rule",
+    "optimized": false,
+    "exit_code": 1,
+    "expected_reason_prefix": "MEMS_LAYER_OR_FLAGS",
+    "actual_reason": "MEMS_LAYER_OR_FLAGS",
+    "mutant_sha256": "368a901c5ed51ca1aba899513672fc17a254cf175dfe52f9c33924fe895c86a9"
+  },
+  {
+    "case": "weaken_MEMS_via_rule",
+    "optimized": true,
+    "exit_code": 1,
+    "expected_reason_prefix": "MEMS_LAYER_OR_FLAGS",
+    "actual_reason": "MEMS_LAYER_OR_FLAGS",
+    "mutant_sha256": "368a901c5ed51ca1aba899513672fc17a254cf175dfe52f9c33924fe895c86a9"
+  }
+]

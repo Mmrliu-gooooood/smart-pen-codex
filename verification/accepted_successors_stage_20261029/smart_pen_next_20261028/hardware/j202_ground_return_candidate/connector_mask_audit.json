@@ -1,0 +1,127 @@
+{
+  "status": "NATIVE_MASK_AND_CONNECTOR_GEOMETRY_SCREEN_NOT_ASSEMBLY_RELEASE",
+  "connector": "Molex 5034802400, original 24pin unchanged",
+  "closed_native_Fab_body_xy_mm": [
+    0.05,
+    90,
+    13.95,
+    94
+  ],
+  "new_vias": [
+    {
+      "pin": "1",
+      "via": "cb05e1ad-aef9-435b-833e-72df54ca63ab",
+      "xy_mm": [
+        12.75,
+        89.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.04999999999999716
+    },
+    {
+      "pin": "4",
+      "via": "3035689f-6aad-4b34-b59e-7eec50d3d025",
+      "xy_mm": [
+        11.25,
+        89.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.04999999999999716
+    },
+    {
+      "pin": "7",
+      "via": "9e86a642-85d4-4307-9a4b-6f67d87f8196",
+      "xy_mm": [
+        10.0,
+        89.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.3499999999999943
+    },
+    {
+      "pin": "10",
+      "via": "ffd104c4-9a31-4092-8f50-a67a4254735c",
+      "xy_mm": [
+        9.3,
+        89.675
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.17499999999999716
+    },
+    {
+      "pin": "17",
+      "via": "0e8bba22-3603-4aaa-ab85-2467311d470a",
+      "xy_mm": [
+        4.5,
+        89.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.5
+    },
+    {
+      "pin": "24",
+      "via": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+      "xy_mm": [
+        1.25,
+        89.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "explicit_front_tented": true,
+      "explicit_back_tented": true,
+      "actual_front_is_tented": true,
+      "actual_back_is_tented": true,
+      "drill_to_nominal_body_y90_edge_mm": 0.04999999999999716
+    }
+  ],
+  "new_track_explicit_mask_openings": [],
+  "pin13_inner_bar_intersection_with_J202_mask_mm2": 0.0,
+  "pin13_shared_branch_mm": 2.9000000000000057,
+  "shared_pin10_to_via_mm": 1.6738365797457233,
+  "pin13_total_to_shared_via_mm": 4.573836579745729,
+  "all_branch_lengths_mm": {
+    "1": 0.7000000000000028,
+    "4": 0.7000000000000028,
+    "7": 1.0905124837953335,
+    "10": 1.6738365797457233,
+    "13": 2.9000000000000057,
+    "17": 1.2147815070493553,
+    "24": 0.7000000000000028
+  },
+  "nominal_signal_pad_mask_gap_mm": 0.2,
+  "nominal_inner_bar_to_signal_pad_mask_edge_mm": 0.225,
+  "native_global_mask_expansion_mm": 0.0,
+  "native_global_mask_min_width_mm": 0.0,
+  "gates": [
+    "Native tenting is specified but board-house tenting reliability on .30mm holes is not approved. No filled or resin-plugged vias requested.",
+    "All new drilled bores nominally outside native Fab rectangle; minimum .05mm is not a tolerance-backed physical underside clearance.",
+    "Manufacturer bottom view shows contacts/windows but lacks all underside clearance dimensions. Removing pin13 internal hole avoids relying on guessed insulation. Covered branch under connector still needs actual assembly/underside inspection.",
+    "Mask global min-width=0 is no manufacturer process claim. Native adjacent signal mask web .2mm and inner bar gap .225mm must be checked against fabrication tolerances.",
+    "Pin13 shares finite impedance with pin10; no unlimited-ground or high-frequency equivalence claim."
+  ]
+}

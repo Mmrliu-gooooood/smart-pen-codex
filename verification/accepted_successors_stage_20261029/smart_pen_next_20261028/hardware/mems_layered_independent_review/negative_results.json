@@ -1,0 +1,66 @@
+[
+  {
+    "case": "central_tracks_enabled",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "central flags/layer"
+  },
+  {
+    "case": "central_tracks_enabled",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "central flags/layer"
+  },
+  {
+    "case": "central_shift",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "central outline"
+  },
+  {
+    "case": "central_shift",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "central outline"
+  },
+  {
+    "case": "F_vias_enabled",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "F body flags/layer"
+  },
+  {
+    "case": "F_vias_enabled",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "F body flags/layer"
+  },
+  {
+    "case": "F_pour_enabled",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "F body flags/layer"
+  },
+  {
+    "case": "F_pour_enabled",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "F body flags/layer"
+  },
+  {
+    "case": "native_central_track",
+    "native_exit": 5,
+    "expected_keepout_hits": 1,
+    "rules": [
+      "Items not allowed (keepout area 'LIS2DW12_F_CENTRAL_NO_TRACK_PROJECT_SCREEN')"
+    ]
+  },
+  {
+    "case": "native_body_through_via",
+    "native_exit": 5,
+    "expected_keepout_hits": 1,
+    "rules": [
+      "Items not allowed (keepout area 'LIS2DW12_F_BODY_NO_POUR_OR_THROUGH_VIA')"
+    ]
+  }
+]

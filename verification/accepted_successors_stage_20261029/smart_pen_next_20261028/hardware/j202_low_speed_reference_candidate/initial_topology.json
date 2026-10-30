@@ -1,0 +1,321 @@
+{
+  "SENS_XSHUTDN_N": {
+    "pads": [
+      {
+        "ref": "U203",
+        "pin": "12",
+        "value": "SN74AXC4T245PWR",
+        "xy": [
+          8.8625,
+          56.325
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "R236",
+        "pin": "1",
+        "value": "4.7k 1% RESET_CANDIDATE",
+        "xy": [
+          0.675,
+          62.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "J202",
+        "pin": "19",
+        "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+        "xy": [
+          3.75,
+          90.5
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "tracks": 19,
+    "components": [
+      [
+        "J202.19"
+      ],
+      [
+        "R236.1",
+        "U203.12"
+      ]
+    ]
+  },
+  "SENS_TRIG_IN": {
+    "pads": [
+      {
+        "ref": "R237",
+        "pin": "1",
+        "value": "100k 1%",
+        "xy": [
+          3.675,
+          62.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U203",
+        "pin": "11",
+        "value": "SN74AXC4T245PWR",
+        "xy": [
+          8.8625,
+          56.975
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "J202",
+        "pin": "20",
+        "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+        "xy": [
+          3.25,
+          90.5
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "tracks": 18,
+    "components": [
+      [
+        "J202.20"
+      ],
+      [
+        "R237.1",
+        "U203.11"
+      ]
+    ]
+  },
+  "SENS_SCL": {
+    "pads": [
+      {
+        "ref": "U204",
+        "pin": "2",
+        "value": "TCA9517DGKR",
+        "xy": [
+          3.8875,
+          64.675
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "R242",
+        "pin": "1",
+        "value": "10k 1% INITIAL_100kHz",
+        "xy": [
+          6.675,
+          76.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "J202",
+        "pin": "21",
+        "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+        "xy": [
+          2.75,
+          90.5
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "tracks": 55,
+    "components": [
+      [
+        "J202.21"
+      ],
+      [
+        "R242.1",
+        "U204.2"
+      ]
+    ]
+  },
+  "SENS_SDA": {
+    "pads": [
+      {
+        "ref": "R243",
+        "pin": "1",
+        "value": "10k 1% INITIAL_100kHz",
+        "xy": [
+          9.675,
+          76.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U204",
+        "pin": "3",
+        "value": "TCA9517DGKR",
+        "xy": [
+          3.8875,
+          65.325
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "J202",
+        "pin": "22",
+        "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+        "xy": [
+          2.25,
+          90.5
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "tracks": 99,
+    "components": [
+      [
+        "J202.22"
+      ],
+      [
+        "R243.1",
+        "U204.3"
+      ]
+    ]
+  },
+  "SENS_VIO_1V8": {
+    "pads": [
+      {
+        "ref": "C208",
+        "pin": "1",
+        "value": "100n X7R",
+        "xy": [
+          10.0,
+          65.775
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "C204",
+        "pin": "1",
+        "value": "100n X7R",
+        "xy": [
+          10.8,
+          45.175
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U201",
+        "pin": "23",
+        "value": "SN74AXC8T245PWR",
+        "xy": [
+          8.8625,
+          31.075
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U201",
+        "pin": "24",
+        "value": "SN74AXC8T245PWR",
+        "xy": [
+          8.8625,
+          30.425
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "R243",
+        "pin": "2",
+        "value": "10k 1% INITIAL_100kHz",
+        "xy": [
+          11.325,
+          76.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U204",
+        "pin": "1",
+        "value": "TCA9517DGKR",
+        "xy": [
+          3.8875,
+          64.025
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "C202",
+        "pin": "1",
+        "value": "100n X7R",
+        "xy": [
+          10.8,
+          31.575
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U203",
+        "pin": "16",
+        "value": "SN74AXC4T245PWR",
+        "xy": [
+          8.8625,
+          53.725
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "R242",
+        "pin": "2",
+        "value": "10k 1% INITIAL_100kHz",
+        "xy": [
+          8.325,
+          76.0
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "C206",
+        "pin": "1",
+        "value": "100n X7R",
+        "xy": [
+          10.8,
+          54.775
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "U202",
+        "pin": "16",
+        "value": "SN74AXC4T245PWR",
+        "xy": [
+          8.8625,
+          43.725
+        ],
+        "layer": "F.Cu"
+      },
+      {
+        "ref": "J202",
+        "pin": "23",
+        "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+        "xy": [
+          1.75,
+          90.5
+        ],
+        "layer": "B.Cu"
+      }
+    ],
+    "tracks": 133,
+    "components": [
+      [
+        "C202.1",
+        "C204.1",
+        "C206.1",
+        "C208.1",
+        "R242.2",
+        "R243.2",
+        "U201.23",
+        "U201.24",
+        "U202.16",
+        "U203.16",
+        "U204.1"
+      ],
+      [
+        "J202.23"
+      ]
+    ]
+  }
+}

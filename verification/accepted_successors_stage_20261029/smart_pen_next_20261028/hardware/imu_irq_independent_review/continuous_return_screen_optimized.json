@@ -1,0 +1,111 @@
+{
+  "status": "CHAIN_CENTERLINE_PROJECTION_SCREEN_NOT_RETURN_CURRENT_SIMULATION",
+  "sampling_max_step_mm": 0.005,
+  "gap_boundary_sampling_uncertainty_mm": 0.01,
+  "changed_layer_chains_not_merged": true,
+  "max_same_layer_chain_gap_mm": 0.383606797749979,
+  "chains": [
+    {
+      "chain": 0,
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "tracks": 2,
+      "length_mm": 0.7301056180912951,
+      "a": [
+        2.575,
+        9.4
+      ],
+      "z": [
+        1.85,
+        9.46
+      ],
+      "uncovered_centerline_runs": [
+        {
+          "start_arc_mm": 0.3500000000000002,
+          "end_arc_mm": 0.7301056180912951,
+          "length_mm": 0.3801056180912936
+        }
+      ],
+      "max_gap_mm": 0.3801056180912936
+    },
+    {
+      "chain": 1,
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "tracks": 23,
+      "length_mm": 6.141268153359056,
+      "a": [
+        1.85,
+        9.450000000000001
+      ],
+      "z": [
+        0.525,
+        4.8500000000000005
+      ],
+      "uncovered_centerline_runs": [
+        {
+          "start_arc_mm": 0,
+          "end_arc_mm": 0.3650000000000002,
+          "length_mm": 0.3650000000000002
+        },
+        {
+          "start_arc_mm": 5.757661355609071,
+          "end_arc_mm": 6.141268153359056,
+          "length_mm": 0.383606797749979
+        }
+      ],
+      "max_gap_mm": 0.383606797749979
+    },
+    {
+      "chain": 2,
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "tracks": 60,
+      "length_mm": 110.74302435837076,
+      "a": [
+        0.525,
+        4.8500000000000005
+      ],
+      "z": [
+        3.6750000000000003,
+        80.67500000000001
+      ],
+      "uncovered_centerline_runs": [
+        {
+          "start_arc_mm": 0,
+          "end_arc_mm": 0.37388392857142905,
+          "length_mm": 0.37388392857142905
+        },
+        {
+          "start_arc_mm": 110.36827049829874,
+          "end_arc_mm": 110.74302435837076,
+          "length_mm": 0.37475386007224837
+        }
+      ],
+      "max_gap_mm": 0.37475386007224837
+    },
+    {
+      "chain": 3,
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "tracks": 1,
+      "length_mm": 0.5550900827793595,
+      "a": [
+        3.6750000000000003,
+        80.67500000000001
+      ],
+      "z": [
+        3.75,
+        81.22500000000001
+      ],
+      "uncovered_centerline_runs": [
+        {
+          "start_arc_mm": 0,
+          "end_arc_mm": 0.37666827045742246,
+          "length_mm": 0.37666827045742246
+        }
+      ],
+      "max_gap_mm": 0.37666827045742246
+    }
+  ]
+}

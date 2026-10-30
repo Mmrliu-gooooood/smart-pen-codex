@@ -1,0 +1,13 @@
+{
+  "status": "FOUR_RECORDED_NETS_NOT_EXACTLY_THREE",
+  "audit_sha256": "eee07162e165719a0b9e76d2b722c80377667401a05bf3f4b616fc348805eb1d",
+  "unique_union_mm2": {
+    "USB_EN1": 0.000592207987,
+    "CAM_SCL": 2.9815e-08,
+    "SENS_VIO_1V8": 0.1798112086635,
+    "SENS_SCL": 0.094964881603
+  },
+  "report_record_threshold_mm2": 1e-08,
+  "nonallowed_fail_threshold_mm2": 1e-06,
+  "meaning": "recording and rejection thresholds differ; small CAM_SCL area is reported, not exact zero"
+}

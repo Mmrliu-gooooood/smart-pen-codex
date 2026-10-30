@@ -1,0 +1,78 @@
+{
+  "native_SENS_VIO_endpoints": [
+    {
+      "ref": "C202",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C204",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C206",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "C208",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "J202",
+      "pin": "23",
+      "pinfunction": "23",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R242",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R243",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U201",
+      "pin": "23",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U201",
+      "pin": "24",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U202",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U203",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    {
+      "ref": "U204",
+      "pin": "1",
+      "pinfunction": "VCCA",
+      "pintype": "power_in"
+    }
+  ],
+  "finding": "Frozen interface_reference_contract VIO_direction translator A domain and VIO_load_boundary AXC/TCA VCCA are incorrect generalizations; AXC uses VCCB, TCA uses VCCA. Documentation erratum required for integration/publication. Copper source identity is unchanged.",
+  "external_supply": "Future qualified external compact-head input condition, not an already qualified supply or local regulator output"
+}

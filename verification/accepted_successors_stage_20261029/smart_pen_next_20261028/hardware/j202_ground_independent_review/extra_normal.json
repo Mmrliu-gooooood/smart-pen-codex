@@ -1,0 +1,26 @@
+{
+  "source_library_rules_identical": true,
+  "freshfill_identical": true,
+  "new_ground_foreign_copper_overlap": [],
+  "new_bores_actual_SMT_pad_overlap": [],
+  "new_via_bore_to_nominal_body_gap_mm": [
+    0.5,
+    0.04999999999999716,
+    0.3499999999999943,
+    0.04999999999999716,
+    0.04999999999999716,
+    0.17499999999999716
+  ],
+  "explicit_both_surface_tenting_verified": true,
+  "J202_exact_native_GND_pins": [
+    "1",
+    "10",
+    "13",
+    "17",
+    "24",
+    "4",
+    "7"
+  ],
+  "manufacturing_rejected": "NOFAB: manufacturer_selected, layer_tolerances_confirmed, mask_and_material_confirmed, DFM_confirmed, quotation_confirmed, impedance_process_confirmed, valid_manufacturer_confirmation_record_missing",
+  "warning": "Fab rectangle/nominal mask not underside metal tolerance qualification; shared pin13/pin10 ground remains finite impedance."
+}

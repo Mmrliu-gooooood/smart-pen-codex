@@ -1,0 +1,27 @@
+SENS_XSHUTDN_N iteration 0 componentpath []
+source_nodes {(2, 15), (0, 101), (0, 17)} goal_nodes {(2, 55), (0, 21)} reachable_nodes [(0, 16), (0, 17), (0, 18), (0, 95), (0, 101), (1, 9), (1, 38), (1, 62), (2, 13), (2, 14), (2, 15), (2, 16), (2, 20), (2, 95), (2, 104)]
+node 0 17 bbox [ 0.525 59.275] [ 2.45 71.6 ] via_count 4458 sample [[ 0.525 62.825]
+ [ 0.525 62.85 ]
+ [ 0.525 62.875]
+ [ 0.525 62.9  ]
+ [ 0.525 62.925]]
+node 0 21 bbox [ 0.525 18.175] [13.475 93.975] via_count 122939 sample [[ 0.525 87.1  ]
+ [ 0.525 87.125]
+ [ 0.525 87.15 ]
+ [ 0.525 87.175]
+ [ 0.525 87.2  ]]
+node 0 101 bbox [ 4.125 53.05 ] [10.375 58.925] via_count 1332 sample [[ 5.1   56.35 ]
+ [ 5.1   56.375]
+ [ 5.1   56.4  ]
+ [ 5.1   56.425]
+ [ 5.1   56.45 ]]
+node 2 15 bbox [ 0.525 56.575] [ 5.425 72.675] via_count 4380 sample [[ 0.525 62.825]
+ [ 0.525 62.85 ]
+ [ 0.525 62.875]
+ [ 0.525 62.9  ]
+ [ 0.525 62.925]]
+node 2 55 bbox [ 3.225 89.55 ] [ 4.375 90.775] via_count 1 sample [[ 3.85 89.85]]
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/route_guided.py", line 29, in <module>
+    raise RuntimeError('No component path '+net)
+RuntimeError: No component path SENS_XSHUTDN_N

@@ -1,0 +1,151 @@
+{
+  "status": "STATIC_FIVE_NET_ROUTING_CANDIDATE_NOFAB",
+  "pcb_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "fresh_xml_sha256": "928c6d4aec49b691f63f8863bc2a2bd28ddc3eb53178737aa53d00925de4a6b9",
+  "base_pcb_sha256": "4994ba2d8810b2f44434bd43f7cecfaab16aa601a0837c9923883613583554f6",
+  "native_source_unchanged": true,
+  "J202_version": "5034802400_NEW_24PIN_SENSOR_HANDOFF_NOT_UNKNOWN_30PIN",
+  "pins": {
+    "19": "SENS_XSHUTDN_N",
+    "20": "SENS_TRIG_IN",
+    "21": "SENS_SCL",
+    "22": "SENS_SDA",
+    "23": "SENS_VIO_1V8"
+  },
+  "actual_endpoints": {
+    "SENS_VIO_1V8": [
+      {
+        "ref": "C202",
+        "pin": "1"
+      },
+      {
+        "ref": "C204",
+        "pin": "1"
+      },
+      {
+        "ref": "C206",
+        "pin": "1"
+      },
+      {
+        "ref": "C208",
+        "pin": "1"
+      },
+      {
+        "ref": "J202",
+        "pin": "23"
+      },
+      {
+        "ref": "R242",
+        "pin": "2"
+      },
+      {
+        "ref": "R243",
+        "pin": "2"
+      },
+      {
+        "ref": "U201",
+        "pin": "23"
+      },
+      {
+        "ref": "U201",
+        "pin": "24"
+      },
+      {
+        "ref": "U202",
+        "pin": "16"
+      },
+      {
+        "ref": "U203",
+        "pin": "16"
+      },
+      {
+        "ref": "U204",
+        "pin": "1"
+      }
+    ],
+    "SENS_SCL": [
+      {
+        "ref": "J202",
+        "pin": "21"
+      },
+      {
+        "ref": "R242",
+        "pin": "1"
+      },
+      {
+        "ref": "U204",
+        "pin": "2"
+      }
+    ],
+    "SENS_SDA": [
+      {
+        "ref": "J202",
+        "pin": "22"
+      },
+      {
+        "ref": "R243",
+        "pin": "1"
+      },
+      {
+        "ref": "U204",
+        "pin": "3"
+      }
+    ],
+    "SENS_XSHUTDN_N": [
+      {
+        "ref": "J202",
+        "pin": "19"
+      },
+      {
+        "ref": "R236",
+        "pin": "1"
+      },
+      {
+        "ref": "U203",
+        "pin": "12"
+      }
+    ],
+    "SENS_TRIG_IN": [
+      {
+        "ref": "J202",
+        "pin": "20"
+      },
+      {
+        "ref": "R237",
+        "pin": "1"
+      },
+      {
+        "ref": "U203",
+        "pin": "11"
+      }
+    ]
+  },
+  "VIO_direction": "External qualified compact-head 1.8V supply/reference INPUT to mainboard translator A domain. No local regulator output. Not 3V3_AON, CAM_3V3_PRELINK or CAM_3V3_SW.",
+  "VIO_load_boundary": "AXC/TCA VCCA + 4 local 100n capacitors + 2 SCCB 10k pullups; dynamic ICC and external source ramp/current/fault behavior remain unqualified.",
+  "default_biases": {
+    "R236": "4.7k XSHUTDN to GND",
+    "R237": "100k TRIG to GND",
+    "R242": "10k SCL to VIO",
+    "R243": "10k SDA to VIO"
+  },
+  "isolation_boundaries": [
+    "U203 uses existing CAM_ISO_OE_N; U204 uses existing SCCB_EN_SAFE",
+    "JP201/JP202 and JP301 commissioning remain OPEN; no claim arbitrary power-order/hot-plug/backfeed safe",
+    "TRIG retained as source-defined function, not silently NC. MCU shared UART/reset/trigger semantics remain existing source qualification gate."
+  ],
+  "connector_contact_evidence": {
+    "MPN": "5034802400",
+    "maximum_per_contact_A": 0.5,
+    "source_url": "https://www.molex.com/en-us/products/part-detail/5034802400",
+    "checked_UTC": "2026-10-29T06:57:31Z",
+    "caution": "Part page includes limited-information notice. Contact rating is not qualified FPC ampacity, temperature-rise or fault-current guarantee. No current allocation approved."
+  },
+  "full_drc_counts": [
+    17,
+    21,
+    0
+  ],
+  "JP301": "OPEN",
+  "camera_connection_authorized": false,
+  "manufacturing_approved": false
+}

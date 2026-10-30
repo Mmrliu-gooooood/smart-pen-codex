@@ -1,0 +1,268 @@
+{
+  "candidate_sha256": "619a1307b7eb18c27d34f323e511726d95b373cca4e4dd2c11e284f03501eaf0",
+  "raw_segments_vias_footprints_identical": true,
+  "all_source_library_project_bytes_identical": true,
+  "fresh_fill_identical": true,
+  "U501_pad_bounds": [
+    {
+      "pin": "1",
+      "net": "AON_I2C_SCL",
+      "bounds_nm": [
+        3050000,
+        81075000,
+        3425000,
+        81425000
+      ]
+    },
+    {
+      "pin": "2",
+      "net": "3V3_AON",
+      "bounds_nm": [
+        3050000,
+        81575000,
+        3425000,
+        81925000
+      ]
+    },
+    {
+      "pin": "3",
+      "net": "3V3_AON",
+      "bounds_nm": [
+        3050000,
+        82075000,
+        3425000,
+        82425000
+      ]
+    },
+    {
+      "pin": "4",
+      "net": "AON_I2C_SDA",
+      "bounds_nm": [
+        3050000,
+        82575000,
+        3425000,
+        82925000
+      ]
+    },
+    {
+      "pin": "5",
+      "net": "GND",
+      "bounds_nm": [
+        3575000,
+        82575000,
+        3925000,
+        82950000
+      ]
+    },
+    {
+      "pin": "6",
+      "net": "GND",
+      "bounds_nm": [
+        4075000,
+        82575000,
+        4425000,
+        82950000
+      ]
+    },
+    {
+      "pin": "7",
+      "net": "GND",
+      "bounds_nm": [
+        4575000,
+        82575000,
+        4950000,
+        82925000
+      ]
+    },
+    {
+      "pin": "8",
+      "net": "GND",
+      "bounds_nm": [
+        4575000,
+        82075000,
+        4950000,
+        82425000
+      ]
+    },
+    {
+      "pin": "9",
+      "net": "3V3_AON",
+      "bounds_nm": [
+        4575000,
+        81575000,
+        4950000,
+        81925000
+      ]
+    },
+    {
+      "pin": "10",
+      "net": "3V3_AON",
+      "bounds_nm": [
+        4575000,
+        81075000,
+        4950000,
+        81425000
+      ]
+    },
+    {
+      "pin": "11",
+      "net": "unconnected-(U501-INT2-Pad11)",
+      "bounds_nm": [
+        4075000,
+        81050000,
+        4425000,
+        81425000
+      ]
+    },
+    {
+      "pin": "12",
+      "net": "PICKUP_INT_N",
+      "bounds_nm": [
+        3575000,
+        81050000,
+        3925000,
+        81425000
+      ]
+    }
+  ],
+  "peripheral_F_copper_under_body_manual_gate": [
+    {
+      "uuid": "1611968e-ec4f-408a-81ab-91802ca95e64",
+      "net": "GND",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.044425795797,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        4.7625,
+        82.25
+      ],
+      "end_mm": [
+        5.1,
+        82.25
+      ]
+    },
+    {
+      "uuid": "2efccfdd-37cb-4b52-a9ef-6175a5bc4d35",
+      "net": "GND",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.063164577621,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        4.7625,
+        82.75
+      ],
+      "end_mm": [
+        5.1,
+        82.75
+      ]
+    },
+    {
+      "uuid": "46eeef99-1a8d-4fd9-b042-d9d7ca227b4d",
+      "net": "GND",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.133859333454,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        4.25,
+        82.7625
+      ],
+      "end_mm": [
+        4.7625,
+        82.75
+      ]
+    },
+    {
+      "uuid": "9265d6fc-482c-4f7d-bcac-6e5565fb6d34",
+      "net": "GND",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.131329155242,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        3.75,
+        82.7625
+      ],
+      "end_mm": [
+        4.25,
+        82.7625
+      ]
+    },
+    {
+      "uuid": "b32cec02-80e5-4650-81cc-f56da5aa6e17",
+      "net": "GND",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.0200176881705,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        5.1,
+        82.25
+      ],
+      "end_mm": [
+        5.1,
+        83.2
+      ]
+    },
+    {
+      "uuid": "4628422c-28ca-4c20-9985-8ce7e1d058d6",
+      "net": "3V3_AON",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.044425795797,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        3.2375,
+        81.75
+      ],
+      "end_mm": [
+        2.7,
+        81.75
+      ]
+    },
+    {
+      "uuid": "7f287f44-b9a1-455e-aa60-b2b263bafc2d",
+      "net": "3V3_AON",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.063164577621,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        5.17,
+        81.25
+      ],
+      "end_mm": [
+        4.7625,
+        81.25
+      ]
+    },
+    {
+      "uuid": "8fc577ff-4ecc-4e34-8b6a-6dad53443d46",
+      "net": "3V3_AON",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.063164577621,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        5.47,
+        81.75
+      ],
+      "end_mm": [
+        4.7625,
+        81.75
+      ]
+    },
+    {
+      "uuid": "99753b4a-8380-4846-be50-543def9400e6",
+      "net": "3V3_AON",
+      "type": "PCB_TRACK",
+      "body_overlap_mm2": 0.044425795797,
+      "central_overlap_mm2": 0.0,
+      "start_mm": [
+        2.7,
+        82.25
+      ],
+      "end_mm": [
+        3.2375,
+        82.25
+      ]
+    }
+  ],
+  "peripheral_object_count": 9,
+  "other_rule_flags_all_identical": true,
+  "limits": "Central screen not manufacturer full same-side approval. Peripheral list must remain manual gate; inner plane permission engineering inference."
+}

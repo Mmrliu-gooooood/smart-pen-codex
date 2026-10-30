@@ -1,0 +1,347 @@
+{
+  "status": "FRESH_FILL_AND_ALL_THROUGH_DRILL_CORRECTED_REFERENCE_SCREEN_NOT_PI_EMI_QUALIFICATION",
+  "note": "Both old/new filled planes subtract every through drill; new ground via bore is not falsely counted as solid copper. Existing signal copper identities checked separately. Threshold for numerical area noise 1e-8 mm2.",
+  "plane_delta": {
+    "In1.Cu": {
+      "old_drill_corrected_area_mm2": 1161.2400822641735,
+      "new_drill_corrected_area_mm2": 1153.041323145343,
+      "lost_mm2": 8.1987995389165,
+      "gained_mm2": 4.04916895e-05
+    },
+    "In2.Cu": {
+      "old_drill_corrected_area_mm2": 707.3741520368345,
+      "new_drill_corrected_area_mm2": 699.4238887831575,
+      "lost_mm2": 7.9502643664065,
+      "gained_mm2": 1.61716e-07
+    },
+    "In4.Cu": {
+      "old_drill_corrected_area_mm2": 1159.3050822641735,
+      "new_drill_corrected_area_mm2": 1151.106323145343,
+      "lost_mm2": 8.1987995389165,
+      "gained_mm2": 4.04916895e-05
+    }
+  },
+  "old_track_new_reference_loss_by_net": {
+    "USB_EN1": 0.002021305429,
+    "CAM_SCL": 2.9815e-08,
+    "SENS_VIO_1V8": 0.1798112086635,
+    "SENS_SCL": 0.2693612692075
+  },
+  "old_track_new_reference_unique_union_mm2": {
+    "USB_EN1": 0.000592207987,
+    "CAM_SCL": 2.9815e-08,
+    "SENS_VIO_1V8": 0.1798112086635,
+    "SENS_SCL": 0.094964881603
+  },
+  "affected_old_tracks": [
+    {
+      "net": "USB_EN1",
+      "uuid": "7e9cb710-612b-4fe0-a53f-8d1ecb410564",
+      "layer": "F.Cu",
+      "a": [
+        3.45,
+        89.525
+      ],
+      "z": [
+        3.425,
+        89.55
+      ],
+      "new_reference_loss_mm2": 0.0005921683365
+    },
+    {
+      "net": "USB_EN1",
+      "uuid": "8dc2fa95-49e4-4c17-aa33-ed55b8896706",
+      "layer": "F.Cu",
+      "a": [
+        3.425,
+        89.575
+      ],
+      "z": [
+        3.4,
+        89.6
+      ],
+      "new_reference_loss_mm2": 0.000201176523
+    },
+    {
+      "net": "USB_EN1",
+      "uuid": "9a08083b-d30e-46ec-9212-b6eda2eb35bb",
+      "layer": "F.Cu",
+      "a": [
+        3.45,
+        89.5
+      ],
+      "z": [
+        3.45,
+        89.525
+      ],
+      "new_reference_loss_mm2": 0.0003369049715
+    },
+    {
+      "net": "USB_EN1",
+      "uuid": "9aa508f4-2053-4eb4-aa37-cded0fdb924a",
+      "layer": "F.Cu",
+      "a": [
+        3.475,
+        89.475
+      ],
+      "z": [
+        3.45,
+        89.5
+      ],
+      "new_reference_loss_mm2": 0.000308603996
+    },
+    {
+      "net": "USB_EN1",
+      "uuid": "ece6d0ed-ad57-43bf-b00d-599700405b91",
+      "layer": "F.Cu",
+      "a": [
+        3.425,
+        89.55
+      ],
+      "z": [
+        3.425,
+        89.575
+      ],
+      "new_reference_loss_mm2": 0.000582451602
+    },
+    {
+      "net": "CAM_SCL",
+      "uuid": "7d8b75ba-6272-4aeb-9cd2-68974174dd87",
+      "layer": "F.Cu",
+      "a": [
+        0.9,
+        75.55
+      ],
+      "z": [
+        0.9,
+        75.6
+      ],
+      "new_reference_loss_mm2": 2.9815e-08
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "uuid": "7b772417-2ebc-4e53-ad39-ca32050868df",
+      "layer": "F.Cu",
+      "a": [
+        11.05,
+        75.2
+      ],
+      "z": [
+        8.95,
+        75.2
+      ],
+      "new_reference_loss_mm2": 0.1798112086635
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "1c7163c6-b0a1-4b89-9094-9b88bf3d5fbf",
+      "layer": "F.Cu",
+      "a": [
+        6.35,
+        75.2
+      ],
+      "z": [
+        6.35,
+        75.25
+      ],
+      "new_reference_loss_mm2": 0.025101591594
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "1d0d8dd0-c8b6-4fd4-ac6f-42a9a7c65ea7",
+      "layer": "F.Cu",
+      "a": [
+        6.4,
+        75.35
+      ],
+      "z": [
+        6.45,
+        75.4
+      ],
+      "new_reference_loss_mm2": 0.0282082546645
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "1eacedd6-175e-429b-a7bb-22b36becff70",
+      "layer": "F.Cu",
+      "a": [
+        6.45,
+        75.5
+      ],
+      "z": [
+        6.5,
+        75.55
+      ],
+      "new_reference_loss_mm2": 0.0115371689475
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "358de4e9-c2bd-459e-8779-d5481f3161f5",
+      "layer": "F.Cu",
+      "a": [
+        6.5,
+        75.6
+      ],
+      "z": [
+        6.55,
+        75.65
+      ],
+      "new_reference_loss_mm2": 0.0001087529365
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "38c84a6e-4ade-4bf7-9996-0dd83a8e9cd4",
+      "layer": "F.Cu",
+      "a": [
+        6.25,
+        75.0
+      ],
+      "z": [
+        6.25,
+        75.05
+      ],
+      "new_reference_loss_mm2": 0.020519055087
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "3ceee3af-fb72-4eb7-bf9f-6e64471e7eed",
+      "layer": "F.Cu",
+      "a": [
+        6.35,
+        75.25
+      ],
+      "z": [
+        6.4,
+        75.3
+      ],
+      "new_reference_loss_mm2": 0.0282082546645
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "6e3c0afa-fce9-4a11-92dd-defb00ec4b46",
+      "layer": "F.Cu",
+      "a": [
+        6.2,
+        74.85
+      ],
+      "z": [
+        6.2,
+        74.95
+      ],
+      "new_reference_loss_mm2": 0.0062545929645
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "a9d6dfb7-a72b-4e67-a7b2-c0c6ed986489",
+      "layer": "F.Cu",
+      "a": [
+        6.3,
+        75.15
+      ],
+      "z": [
+        6.35,
+        75.2
+      ],
+      "new_reference_loss_mm2": 0.0282082546645
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "aca71f24-2fb3-4ce8-9e1e-72061771ee91",
+      "layer": "F.Cu",
+      "a": [
+        6.5,
+        75.55
+      ],
+      "z": [
+        6.5,
+        75.6
+      ],
+      "new_reference_loss_mm2": 0.0052150259595
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "bdb2eed7-55d9-4798-a14a-5ed5a6d5d571",
+      "layer": "F.Cu",
+      "a": [
+        6.3,
+        75.1
+      ],
+      "z": [
+        6.3,
+        75.15
+      ],
+      "new_reference_loss_mm2": 0.025101591594
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "d91b857a-c387-41d8-aa82-77d6dfcd6fed",
+      "layer": "F.Cu",
+      "a": [
+        6.4,
+        75.3
+      ],
+      "z": [
+        6.4,
+        75.35
+      ],
+      "new_reference_loss_mm2": 0.025101591594
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "d95a7fa3-1138-4940-b33e-a6f74992e4a6",
+      "layer": "F.Cu",
+      "a": [
+        6.45,
+        75.4
+      ],
+      "z": [
+        6.45,
+        75.5
+      ],
+      "new_reference_loss_mm2": 0.0240605560215
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "e72a0ee5-f1ad-46be-8cd4-689fc48f3194",
+      "layer": "F.Cu",
+      "a": [
+        6.2,
+        74.95
+      ],
+      "z": [
+        6.25,
+        75.0
+      ],
+      "new_reference_loss_mm2": 0.0151930153385
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "e7cf33a3-de9f-4b4e-b66c-022857a0a26d",
+      "layer": "F.Cu",
+      "a": [
+        6.25,
+        75.05
+      ],
+      "z": [
+        6.3,
+        75.1
+      ],
+      "new_reference_loss_mm2": 0.025989862651
+    },
+    {
+      "net": "SENS_SCL",
+      "uuid": "ed5a32ee-297e-4c20-8f59-a7cafeb18840",
+      "layer": "F.Cu",
+      "a": [
+        6.15,
+        74.8
+      ],
+      "z": [
+        6.2,
+        74.85
+      ],
+      "new_reference_loss_mm2": 0.000553700526
+    }
+  ],
+  "new_RF_region_intrusions": []
+}

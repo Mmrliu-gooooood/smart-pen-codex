@@ -1,0 +1,242 @@
+03:25:42: Error: Directory '/home/agent/.config/kicad' couldn't be created (error 30: Read-only file system)
+03:25:42: Error: Directory '/home/agent/.config/kicad/9.0' couldn't be created (error 2: No such file or directory)
+{
+  "status": "NOFAB_INDEPENDENT_RECOVERY_AUDIT",
+  "manifests": [
+    {
+      "directory": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415",
+      "manifest_sha256": "145b0d14e94d4f9d9cefeb4cabedbf5521c383ecb5926625ecc60574942fddfc",
+      "verified_members": 62
+    },
+    {
+      "directory": "smart_pen_mechanics_next_20261028/mechanical/prewired_transfer_refill_last_0532",
+      "manifest_sha256": "40f25040bfb7d40d9885ae4776846f13f32dfe1b4e1e69b44e37b9e6c6b3feb6",
+      "verified_members": 14
+    },
+    {
+      "directory": "smart_pen_mechanics_next_20261028/mechanical/j301_y92p3_prescreen_0728",
+      "manifest_sha256": "cd6cdd527446d3f7bbe61e16e134e1413481a29ab3b451a91a20c4e3db249e9c",
+      "verified_members": 15
+    },
+    {
+      "directory": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_independent_audit_0500",
+      "manifest_sha256": "cb42574ef87dbc2c015473169c5f633cae5b7e4e96a585f15d32de6b6eab6888",
+      "verified_members": 17
+    }
+  ],
+  "native_ports": {
+    "J301": {
+      "side": "F.Cu",
+      "origin": [
+        7.0,
+        84.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "CAM_3V3_SW",
+          "pcb_xy": [
+            5.8,
+            88.7
+          ],
+          "pen_xz": [
+            -1.2000000000000002,
+            38.3
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "pcb_xy": [
+            8.2,
+            88.7
+          ],
+          "pen_xz": [
+            1.1999999999999993,
+            38.3
+          ]
+        }
+      ]
+    },
+    "J103": {
+      "side": "B.Cu",
+      "origin": [
+        3.0,
+        52.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "CONTACT",
+          "pcb_xy": [
+            3.0,
+            52.0
+          ],
+          "pen_xz": [
+            -4.0,
+            75.0
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "pcb_xy": [
+            5.4,
+            52.0
+          ],
+          "pen_xz": [
+            -1.5999999999999996,
+            75.0
+          ]
+        }
+      ]
+    }
+  },
+  "geometry": [
+    {
+      "OD": 19,
+      "source_sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "shape_count": 136,
+      "refill_contact": {
+        "REF_Slider": {
+          "distance_mm": 0.0,
+          "common_mm3": 0.0
+        },
+        "REF_SoftGrip_COMPRESSED_ASSUMPTION": {
+          "distance_mm": 4.440892098500626e-16,
+          "common_mm3": 0.0
+        },
+        "REF_HousingLeft": {
+          "distance_mm": 0.9249999999999998,
+          "common_mm3": 0.0
+        },
+        "REF_HousingRight": {
+          "distance_mm": 0.9249999999999999,
+          "common_mm3": 0.0
+        }
+      },
+      "virtual_main_ports": {
+        "CONTACT_bare_main": {
+          "xyz_min": [
+            -6.16494422625248,
+            1.5927651763285036,
+            56.44889036534696
+          ],
+          "xyz_max": [
+            -5.392871333147317,
+            2.260221176328504,
+            57.982241285372666
+          ]
+        },
+        "GND_bare_main": {
+          "xyz_min": [
+            -4.055114661048498,
+            1.5927651763285038,
+            56.430811883783385
+          ],
+          "xyz_max": [
+            -3.0035544164287638,
+            2.260221176328504,
+            57.842759243160195
+          ]
+        }
+      },
+      "continuous_cylinder_refill_sweep_hits": [],
+      "headward_corridor": [
+        {
+          "x": -1.2,
+          "edge_z": 33.6,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": -1.2,
+          "edge_z": 37.2,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": 1.2,
+          "edge_z": 33.6,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": 1.2,
+          "edge_z": 37.2,
+          "common_mm3": 2.0159999999999982
+        }
+      ]
+    },
+    {
+      "OD": 20,
+      "source_sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "shape_count": 136,
+      "refill_contact": {
+        "REF_Slider": {
+          "distance_mm": 0.0,
+          "common_mm3": 0.0
+        },
+        "REF_SoftGrip_COMPRESSED_ASSUMPTION": {
+          "distance_mm": 4.440892098500626e-16,
+          "common_mm3": 0.0
+        },
+        "REF_HousingLeft": {
+          "distance_mm": 0.9249999999999998,
+          "common_mm3": 0.0
+        },
+        "REF_HousingRight": {
+          "distance_mm": 0.9249999999999999,
+          "common_mm3": 0.0
+        }
+      },
+      "virtual_main_ports": {
+        "CONTACT_bare_main": {
+          "xyz_min": [
+            -6.16494422625248,
+            1.5927651763285036,
+            56.44889036534696
+          ],
+          "xyz_max": [
+            -5.392871333147317,
+            2.260221176328504,
+            57.982241285372666
+          ]
+        },
+        "GND_bare_main": {
+          "xyz_min": [
+            -4.055114661048498,
+            1.5927651763285038,
+            56.430811883783385
+          ],
+          "xyz_max": [
+            -3.0035544164287638,
+            2.260221176328504,
+            57.842759243160195
+          ]
+        }
+      },
+      "continuous_cylinder_refill_sweep_hits": [],
+      "headward_corridor": [
+        {
+          "x": -1.2,
+          "edge_z": 33.6,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": -1.2,
+          "edge_z": 37.2,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": 1.2,
+          "edge_z": 33.6,
+          "common_mm3": 2.0159999999999982
+        },
+        {
+          "x": 1.2,
+          "edge_z": 37.2,
+          "common_mm3": 2.0159999999999982
+        }
+      ]
+    }
+  ],
+  "native_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038"
+}

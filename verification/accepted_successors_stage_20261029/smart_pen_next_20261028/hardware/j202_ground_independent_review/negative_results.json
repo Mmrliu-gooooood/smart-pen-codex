@@ -1,0 +1,78 @@
+{
+  "cases": 6,
+  "runs": [
+    {
+      "case": "wrong_old_AON",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NET_CHANGED 0077e25e-21bd-412d-a11b-d43d2cc738ed"
+    },
+    {
+      "case": "wrong_old_AON",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NET_CHANGED 0077e25e-21bd-412d-a11b-d43d2cc738ed"
+    },
+    {
+      "case": "wrong_new_bus",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NEW_NET_CHANGED 0e8bba22-3603-4aaa-ab85-2467311d470a"
+    },
+    {
+      "case": "wrong_new_bus",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NEW_NET_CHANGED 0e8bba22-3603-4aaa-ab85-2467311d470a"
+    },
+    {
+      "case": "thin_new_trace",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 3822f5ea-100c-43c1-80e9-7f99fe3b7590"
+    },
+    {
+      "case": "thin_new_trace",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 3822f5ea-100c-43c1-80e9-7f99fe3b7590"
+    },
+    {
+      "case": "wrong_new_drill",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 0e8bba22-3603-4aaa-ab85-2467311d470a"
+    },
+    {
+      "case": "wrong_new_drill",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 0e8bba22-3603-4aaa-ab85-2467311d470a"
+    },
+    {
+      "case": "missing_explicit_tenting",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "NEW_GND_VIA_TENTING_REQUIRED"
+    },
+    {
+      "case": "missing_explicit_tenting",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "NEW_GND_VIA_TENTING_REQUIRED"
+    },
+    {
+      "case": "wrong_J202_physical_version",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "COMPLETE_NATIVE_FOOTPRINT_BLOCK_CHANGED"
+    },
+    {
+      "case": "wrong_J202_physical_version",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "COMPLETE_NATIVE_FOOTPRINT_BLOCK_CHANGED"
+    }
+  ],
+  "status": "EXACT_REASON_NORMAL_OPTIMIZED_REJECTIONS"
+}

@@ -1,0 +1,1659 @@
+{
+  "status": "PROJECTED_REFERENCE_AND_LENGTH_SCREEN_NOT_SIGNAL_INTEGRITY_OR_WAKEUP_QUALIFICATION",
+  "native_net_length_note": "Sum of all copper track centerlines, excludes pad traversal and via electrical delay. 117.439382mm long path excludes MCU fanout; full native IRQ net reported below.",
+  "net_stats": {
+    "PICKUP_INT_N": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 86,
+        "vias": 3,
+        "track_length_mm": 118.16948821259936,
+        "tracks_below_0p1_mm": 28
+      }
+    },
+    "BOOT_N": {
+      "before": {
+        "tracks": 43,
+        "vias": 3,
+        "track_length_mm": 19.846067811865478,
+        "tracks_below_0p1_mm": 18
+      },
+      "after": {
+        "tracks": 42,
+        "vias": 3,
+        "track_length_mm": 20.430992052357226,
+        "tracks_below_0p1_mm": 15
+      }
+    },
+    "AON_I2C_SCL": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      }
+    },
+    "AON_I2C_SDA": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      }
+    }
+  },
+  "maximum_per_segment_gap_mm": 0.4,
+  "via_return_geometry": [
+    {
+      "signal_via": "519d9c49-49bc-43d2-b21c-de68f1eb107c",
+      "xy_mm": [
+        3.675,
+        80.675
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "04a7d6f4-dea6-47ab-a790-4ce0659e568a",
+          "xy_mm": [
+            6.55,
+            81.35
+          ],
+          "center_distance_mm": 2.95317625616894
+        },
+        {
+          "uuid": "4c6ca07d-089a-4d18-8d01-1f4f6fae3f21",
+          "xy_mm": [
+            5.7,
+            83.6
+          ],
+          "center_distance_mm": 3.5575623676894246
+        },
+        {
+          "uuid": "aace202e-0532-4648-b034-7ddcb2183473",
+          "xy_mm": [
+            9.4,
+            82.4
+          ],
+          "center_distance_mm": 5.979234900888243
+        }
+      ]
+    },
+    {
+      "signal_via": "762866e0-6ab9-4b6d-b81c-3bb75f102a89",
+      "xy_mm": [
+        0.525,
+        4.85
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "bb4f6e61-dc2b-4a54-9dd5-6c1e2a864de2",
+          "xy_mm": [
+            1.05,
+            5.3
+          ],
+          "center_distance_mm": 0.6914658342969667
+        },
+        {
+          "uuid": "9ceafdfa-9048-4393-afc7-f9f325ee0ee2",
+          "xy_mm": [
+            2.8,
+            4.45
+          ],
+          "center_distance_mm": 2.3098971838590563
+        },
+        {
+          "uuid": "3de29529-49d5-4934-b2ee-322b4ea35607",
+          "xy_mm": [
+            4.1,
+            1.0
+          ],
+          "center_distance_mm": 5.25386762299927
+        }
+      ]
+    },
+    {
+      "signal_via": "f5851835-0f12-40ba-899c-e85f34a6b556",
+      "xy_mm": [
+        1.85,
+        9.46
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "07d7a27d-6787-47cd-ace9-bab77d4cc410",
+          "xy_mm": [
+            4.5,
+            10.0
+          ],
+          "center_distance_mm": 2.704459280521709
+        },
+        {
+          "uuid": "2c52f882-4764-4050-be73-93d875bb6e8b",
+          "xy_mm": [
+            4.5,
+            8.5
+          ],
+          "center_distance_mm": 2.81852798460473
+        },
+        {
+          "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+          "xy_mm": [
+            4.5,
+            11.5
+          ],
+          "center_distance_mm": 3.3442637455798843
+        }
+      ]
+    }
+  ],
+  "new_IRQ_F_body_intersections": [
+    {
+      "uuid": "d739f2c1-979f-4b5a-b3a7-62bf413d4dcd",
+      "inside_nominal_body_mm2": 0.042863044801,
+      "outside_native_U501_lands_mm2": 0.0075694,
+      "outside_explicit_pin12_outward_approach_mm2": 0.0,
+      "project_approach_rectangle_mm": [
+        3.575,
+        81,
+        3.925,
+        81.2375
+      ],
+      "approach_status": "Necessary connection from nominal body edge to native outer half-land; project interpretation, not manufacturer exact approved exemption"
+    }
+  ],
+  "rows": [
+    {
+      "uuid": "75f95e94-7036-4be9-81c4-3964223b78ba",
+      "layer": "F.Cu",
+      "a": [
+        2.575,
+        9.4
+      ],
+      "z": [
+        2.2,
+        9.4
+      ],
+      "reference": "In1.Cu",
+      "length_mm": 0.375,
+      "projected_area_mm2": 0.073851591594,
+      "uncovered_projected_area_mm2": 0.011644905323,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.0
+      ]
+    },
+    {
+      "uuid": "d739f2c1-979f-4b5a-b3a7-62bf413d4dcd",
+      "layer": "F.Cu",
+      "a": [
+        3.675,
+        80.675
+      ],
+      "z": [
+        3.75,
+        81.225
+      ],
+      "reference": "In1.Cu",
+      "length_mm": 0.5550900827793629,
+      "projected_area_mm2": 0.100864746107,
+      "uncovered_projected_area_mm2": 0.064871281874,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.38614962280303505
+      ]
+    },
+    {
+      "uuid": "ddc9ddff-3434-4c61-b7f5-53ea676fcb01",
+      "layer": "F.Cu",
+      "a": [
+        2.2,
+        9.4
+      ],
+      "z": [
+        1.85,
+        9.46
+      ],
+      "reference": "In1.Cu",
+      "length_mm": 0.3551056180912941,
+      "projected_area_mm2": 0.070867728714,
+      "uncovered_projected_area_mm2": 0.064870078481,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.3551056180912941
+      ]
+    },
+    {
+      "uuid": "02ca6686-5815-4334-afdf-3e1c73abd4bb",
+      "layer": "B.Cu",
+      "a": [
+        2.375,
+        7.75
+      ],
+      "z": [
+        2.375,
+        7.7
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.05,
+      "projected_area_mm2": 0.025101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "0b87396a-3faf-4b8a-8ecc-527431d85f80",
+      "layer": "B.Cu",
+      "a": [
+        2.375,
+        8.05
+      ],
+      "z": [
+        2.4,
+        8.025
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "13b88b44-f61d-4faf-a68c-6f2f7f25c72d",
+      "layer": "B.Cu",
+      "a": [
+        2.325,
+        6.775
+      ],
+      "z": [
+        1.6,
+        6.05
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.025304832720494,
+      "projected_area_mm2": 0.171397328455,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "198cca4f-bd2d-4284-bfc2-41843eb0c459",
+      "layer": "B.Cu",
+      "a": [
+        1.175,
+        4.75
+      ],
+      "z": [
+        0.725,
+        4.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.45,
+      "projected_area_mm2": 0.085101591594,
+      "uncovered_projected_area_mm2": 0.0328736523615,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.15000000000000002
+      ]
+    },
+    {
+      "uuid": "303013bd-5ba3-4307-a7cb-8cc2078b8d86",
+      "layer": "B.Cu",
+      "a": [
+        2.375,
+        7.7
+      ],
+      "z": [
+        2.35,
+        7.675
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "32bdcb16-debc-4194-9691-27b986d397fb",
+      "layer": "B.Cu",
+      "a": [
+        1.6,
+        6.05
+      ],
+      "z": [
+        1.6,
+        5.175
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.875,
+      "projected_area_mm2": 0.148851591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "3d498797-22a5-4289-8f09-dc44ac1010a9",
+      "layer": "B.Cu",
+      "a": [
+        2.35,
+        7.625
+      ],
+      "z": [
+        2.325,
+        7.6
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "3ec729c6-ccb4-4c19-8d84-bbbc0924ab80",
+      "layer": "B.Cu",
+      "a": [
+        2.4,
+        8.025
+      ],
+      "z": [
+        2.4,
+        7.775
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.25,
+      "projected_area_mm2": 0.055101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "44444718-38db-4e45-8ec4-0d8ba532a28e",
+      "layer": "B.Cu",
+      "a": [
+        2.325,
+        7.6
+      ],
+      "z": [
+        2.325,
+        6.775
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.825,
+      "projected_area_mm2": 0.141351591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "4561df56-4db8-4209-878d-659b4c81231e",
+      "layer": "B.Cu",
+      "a": [
+        2.325,
+        8.225
+      ],
+      "z": [
+        2.35,
+        8.175
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.05590169943749474,
+      "projected_area_mm2": 0.025986918425,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "57161a28-86eb-48a3-a941-6ebf1b1128b7",
+      "layer": "B.Cu",
+      "a": [
+        1.55,
+        5.025
+      ],
+      "z": [
+        1.5,
+        4.95
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "769eeff3-5893-4e65-a093-fa278f25b101",
+      "layer": "B.Cu",
+      "a": [
+        2.35,
+        8.125
+      ],
+      "z": [
+        2.375,
+        8.1
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "80ae34a0-ad4b-4894-a3ca-3b767ad5c192",
+      "layer": "B.Cu",
+      "a": [
+        1.85,
+        9.45
+      ],
+      "z": [
+        1.85,
+        8.7
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.75,
+      "projected_area_mm2": 0.130101591594,
+      "uncovered_projected_area_mm2": 0.06345071481,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.375
+      ]
+    },
+    {
+      "uuid": "8c194de8-8fd4-45bc-b747-4cc06a06287a",
+      "layer": "B.Cu",
+      "a": [
+        1.325,
+        4.8
+      ],
+      "z": [
+        1.175,
+        4.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "bb13fad3-25e0-4d72-8725-71bad2c117d7",
+      "layer": "B.Cu",
+      "a": [
+        2.4,
+        7.775
+      ],
+      "z": [
+        2.375,
+        7.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "bccbe1c1-e7c9-4662-a896-2a318f1acd87",
+      "layer": "B.Cu",
+      "a": [
+        2.35,
+        8.175
+      ],
+      "z": [
+        2.35,
+        8.125
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.05,
+      "projected_area_mm2": 0.025101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "c100eb80-a86f-4d00-b510-145828a296c1",
+      "layer": "B.Cu",
+      "a": [
+        2.35,
+        7.675
+      ],
+      "z": [
+        2.35,
+        7.625
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.05,
+      "projected_area_mm2": 0.025101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "cb05ab95-6d5d-4d5e-aba2-54fb257894cc",
+      "layer": "B.Cu",
+      "a": [
+        0.725,
+        4.75
+      ],
+      "z": [
+        0.525,
+        4.85
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.22360679774997896,
+      "projected_area_mm2": 0.051142640882,
+      "uncovered_projected_area_mm2": 0.051142640882,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.22360679774997896
+      ]
+    },
+    {
+      "uuid": "cef0877b-6624-4ed1-b5a0-76733afb5575",
+      "layer": "B.Cu",
+      "a": [
+        1.4,
+        4.85
+      ],
+      "z": [
+        1.325,
+        4.8
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "d9d59f89-0a4f-4725-a84c-5e62a498cceb",
+      "layer": "B.Cu",
+      "a": [
+        1.85,
+        8.7
+      ],
+      "z": [
+        2.325,
+        8.225
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.6717514421272203,
+      "projected_area_mm2": 0.118364187198,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "e4593e1f-f932-4c20-98d6-3e85fee109f7",
+      "layer": "B.Cu",
+      "a": [
+        2.375,
+        8.1
+      ],
+      "z": [
+        2.375,
+        8.05
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.05,
+      "projected_area_mm2": 0.025101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "e7863327-f5de-40a6-9b4d-68476bb0ae7c",
+      "layer": "B.Cu",
+      "a": [
+        1.6,
+        5.175
+      ],
+      "z": [
+        1.55,
+        5.025
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "fd12372e-b78b-48a6-bf2c-26876922db2c",
+      "layer": "B.Cu",
+      "a": [
+        1.5,
+        4.95
+      ],
+      "z": [
+        1.4,
+        4.85
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.14142135623730953,
+      "projected_area_mm2": 0.038814777342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "0bfb14ff-2432-4c2b-bbcc-7972f125219e",
+      "layer": "In3.Cu",
+      "a": [
+        11.7,
+        71.875
+      ],
+      "z": [
+        11.65,
+        71.925
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.07071067811865477,
+      "projected_area_mm2": 0.0282082546645,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "0d43a128-0126-416d-bcc4-235d9348c5cd",
+      "layer": "In3.Cu",
+      "a": [
+        10.825,
+        20.725
+      ],
+      "z": [
+        10.875,
+        20.875
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "0da269ba-c09e-4c72-91e0-b789c3ffcc92",
+      "layer": "In3.Cu",
+      "a": [
+        1.95,
+        1.85
+      ],
+      "z": [
+        2.075,
+        1.825
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.12747548783981963,
+      "projected_area_mm2": 0.036722896851,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "0e1b2e4b-4945-4f80-bd0d-d49f737fe7ca",
+      "layer": "In3.Cu",
+      "a": [
+        0.525,
+        4.85
+      ],
+      "z": [
+        0.525,
+        3.175
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.675,
+      "projected_area_mm2": 0.268851591594,
+      "uncovered_projected_area_mm2": 0.06495071481,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.4
+      ]
+    },
+    {
+      "uuid": "1355739a-eff3-462e-ac03-92fef5a34e13",
+      "layer": "In3.Cu",
+      "a": [
+        8.15,
+        1.975
+      ],
+      "z": [
+        8.15,
+        4.325
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 2.35,
+      "projected_area_mm2": 0.370101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "164e3f76-3ab5-4cdc-917c-bf96026bbff7",
+      "layer": "In3.Cu",
+      "a": [
+        11.75,
+        64.475
+      ],
+      "z": [
+        11.8,
+        64.525
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.07071067811865477,
+      "projected_area_mm2": 0.0282082546645,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "19092243-fbf1-4548-a82f-c243d5e61a43",
+      "layer": "In3.Cu",
+      "a": [
+        9.85,
+        6.05
+      ],
+      "z": [
+        9.95,
+        6.25
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.22360679774997896,
+      "projected_area_mm2": 0.051142640882,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "1b3fc1fa-37cb-45a4-a68a-e39c012753d5",
+      "layer": "In3.Cu",
+      "a": [
+        11.25,
+        28.85
+      ],
+      "z": [
+        11.3,
+        28.925
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "1dafedb4-331d-40e1-b13f-d7a89cbc5d72",
+      "layer": "In3.Cu",
+      "a": [
+        7.125,
+        89.75
+      ],
+      "z": [
+        6.875,
+        89.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.25,
+      "projected_area_mm2": 0.055101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "2611833e-8b06-4c88-b58c-2a037e1628e8",
+      "layer": "In3.Cu",
+      "a": [
+        7.875,
+        1.6
+      ],
+      "z": [
+        7.95,
+        1.65
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "2a05c269-6216-4559-91ba-f0c9344d98d7",
+      "layer": "In3.Cu",
+      "a": [
+        7.475,
+        1.55
+      ],
+      "z": [
+        7.725,
+        1.55
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.25,
+      "projected_area_mm2": 0.055101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "2d00ee29-b093-40a6-802b-35c003ead0ce",
+      "layer": "In3.Cu",
+      "a": [
+        9.975,
+        7.95
+      ],
+      "z": [
+        10.7,
+        8.675
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.025304832720494,
+      "projected_area_mm2": 0.171397328455,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "33045097-afde-44bc-afa3-321a2b8002c2",
+      "layer": "In3.Cu",
+      "a": [
+        9.95,
+        86.575
+      ],
+      "z": [
+        9.9,
+        86.65
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "3b0e94e0-ccfb-470e-99a3-25756f5166ee",
+      "layer": "In3.Cu",
+      "a": [
+        11.35,
+        29.075
+      ],
+      "z": [
+        11.75,
+        38.925
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 9.858118481738794,
+      "projected_area_mm2": 1.496314669869,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "44072826-f244-448a-9a42-e4ece7f77ee8",
+      "layer": "In3.Cu",
+      "a": [
+        7.625,
+        89.375
+      ],
+      "z": [
+        7.35,
+        89.65
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.3889087296526012,
+      "projected_area_mm2": 0.075937922977,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "49a508e9-9972-4cdd-97a6-c2e305acec11",
+      "layer": "In3.Cu",
+      "a": [
+        10.8,
+        20.7
+      ],
+      "z": [
+        10.825,
+        20.725
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.03535533905932738,
+      "projected_area_mm2": 0.022904877342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "50189e20-81e2-4d98-bb23-d905bd146bda",
+      "layer": "In3.Cu",
+      "a": [
+        8.15,
+        4.325
+      ],
+      "z": [
+        9.85,
+        6.05
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 2.421905241746671,
+      "projected_area_mm2": 0.3808892386785,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "518ad434-151b-4080-a7e3-9828d4b57d59",
+      "layer": "In3.Cu",
+      "a": [
+        8.05,
+        1.75
+      ],
+      "z": [
+        8.1,
+        1.825
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "5841ddee-81c4-4a83-b730-13f9ff706722",
+      "layer": "In3.Cu",
+      "a": [
+        8.1,
+        1.825
+      ],
+      "z": [
+        8.15,
+        1.975
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "5878afd4-c3f3-4580-b782-123d06bf19d6",
+      "layer": "In3.Cu",
+      "a": [
+        10.0,
+        86.425
+      ],
+      "z": [
+        9.95,
+        86.575
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "5a00a012-e380-49f6-b859-c5e915084113",
+      "layer": "In3.Cu",
+      "a": [
+        11.65,
+        71.925
+      ],
+      "z": [
+        11.65,
+        71.95
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.025,
+      "projected_area_mm2": 0.021351591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "5ed11420-9c30-42ae-9aec-d2ab7a827443",
+      "layer": "In3.Cu",
+      "a": [
+        11.6,
+        75.275
+      ],
+      "z": [
+        10.0,
+        86.425
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 11.26421324372013,
+      "projected_area_mm2": 1.7072431456415,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "6c7d45ca-1daa-47b2-8800-cc19476baa4a",
+      "layer": "In3.Cu",
+      "a": [
+        11.65,
+        71.95
+      ],
+      "z": [
+        11.6,
+        72.0
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.07071067811865477,
+      "projected_area_mm2": 0.0282082546645,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "703bedca-473f-4f3f-b7a4-6b1b714855b1",
+      "layer": "In3.Cu",
+      "a": [
+        2.075,
+        1.825
+      ],
+      "z": [
+        7.075,
+        1.825
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 5.0,
+      "projected_area_mm2": 0.767601591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "711c0154-106b-4d10-b735-97ac9b5d24b6",
+      "layer": "In3.Cu",
+      "a": [
+        10.8,
+        8.9
+      ],
+      "z": [
+        10.8,
+        20.7
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 11.8,
+      "projected_area_mm2": 1.787601591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "7141ccc4-f477-46f1-af22-45bb600f7ddd",
+      "layer": "In3.Cu",
+      "a": [
+        6.4,
+        87.95
+      ],
+      "z": [
+        6.35,
+        87.875
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "748dcdab-be78-4e7d-b704-5b23527caf81",
+      "layer": "In3.Cu",
+      "a": [
+        7.075,
+        1.825
+      ],
+      "z": [
+        7.25,
+        1.65
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.24748737341529164,
+      "projected_area_mm2": 0.054724630557,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "75bfdd23-ee33-49f0-822e-963d42c9aa01",
+      "layer": "In3.Cu",
+      "a": [
+        11.3,
+        28.925
+      ],
+      "z": [
+        11.35,
+        29.075
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "785a7f53-eec0-4f25-ad24-f79533e3ed6a",
+      "layer": "In3.Cu",
+      "a": [
+        7.25,
+        1.65
+      ],
+      "z": [
+        7.325,
+        1.6
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "79dc165d-599b-4a11-818c-3b53208c165c",
+      "layer": "In3.Cu",
+      "a": [
+        10.7,
+        8.675
+      ],
+      "z": [
+        10.75,
+        8.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "7a38f5b0-5f89-4937-aaad-f22b81afaae9",
+      "layer": "In3.Cu",
+      "a": [
+        6.45,
+        89.325
+      ],
+      "z": [
+        6.45,
+        88.0
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.325,
+      "projected_area_mm2": 0.216351591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "81a2d79a-a5e8-4ec7-a228-f6a1c173c902",
+      "layer": "In3.Cu",
+      "a": [
+        11.85,
+        67.125
+      ],
+      "z": [
+        11.75,
+        71.725
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 4.601086828130936,
+      "projected_area_mm2": 0.707761964238,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "83fd539d-11e2-4ecb-a087-875202dcb141",
+      "layer": "In3.Cu",
+      "a": [
+        0.525,
+        3.175
+      ],
+      "z": [
+        1.75,
+        1.95
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.7324116139070416,
+      "projected_area_mm2": 0.2774633546645,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "86ba4d09-7602-4ee7-8a68-f46b8ea35695",
+      "layer": "In3.Cu",
+      "a": [
+        11.85,
+        64.675
+      ],
+      "z": [
+        11.85,
+        67.125
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 2.45,
+      "projected_area_mm2": 0.385101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "87ac37ee-ba95-4258-b52d-7f9e64cdd7ca",
+      "layer": "In3.Cu",
+      "a": [
+        6.3,
+        87.725
+      ],
+      "z": [
+        6.3,
+        86.425
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.3,
+      "projected_area_mm2": 0.212601591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "882a2131-fe4a-4508-acb1-28c08d2f90b8",
+      "layer": "In3.Cu",
+      "a": [
+        1.75,
+        1.95
+      ],
+      "z": [
+        1.95,
+        1.85
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.22360679774997896,
+      "projected_area_mm2": 0.051142640882,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8a3abcde-d70e-4af0-b20d-e1d7342f61fe",
+      "layer": "In3.Cu",
+      "a": [
+        7.325,
+        1.6
+      ],
+      "z": [
+        7.475,
+        1.55
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8c679ac2-dff0-4471-bd2e-53b8f8d6a260",
+      "layer": "In3.Cu",
+      "a": [
+        10.875,
+        28.475
+      ],
+      "z": [
+        11.25,
+        28.85
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.5303300858899107,
+      "projected_area_mm2": 0.09715108282,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8c6d2b0d-0748-4bd4-b6b7-c65a9092e4ad",
+      "layer": "In3.Cu",
+      "a": [
+        10.75,
+        8.75
+      ],
+      "z": [
+        10.8,
+        8.9
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8d93c73f-cc1c-49f4-a312-d2a10740391b",
+      "layer": "In3.Cu",
+      "a": [
+        6.65,
+        89.65
+      ],
+      "z": [
+        6.55,
+        89.55
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.14142135623730953,
+      "projected_area_mm2": 0.038814777342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8e45e8a9-4f8d-45b1-a8c4-697cd78cce84",
+      "layer": "In3.Cu",
+      "a": [
+        10.875,
+        20.875
+      ],
+      "z": [
+        10.875,
+        28.475
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 7.6,
+      "projected_area_mm2": 1.157601591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "8eb305b1-0548-419c-aa5c-41aa46ab215f",
+      "layer": "In3.Cu",
+      "a": [
+        7.625,
+        88.925
+      ],
+      "z": [
+        7.625,
+        89.375
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.45,
+      "projected_area_mm2": 0.085101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "90e4b5b8-77fa-4945-b1e6-89b5166b088f",
+      "layer": "In3.Cu",
+      "a": [
+        6.5,
+        89.475
+      ],
+      "z": [
+        6.45,
+        89.325
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "9af65c0d-0835-482c-82ae-0d863f0ecdf8",
+      "layer": "In3.Cu",
+      "a": [
+        7.725,
+        1.55
+      ],
+      "z": [
+        7.875,
+        1.6
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "9e0c116b-76e4-4559-8b06-c9c55bce8c48",
+      "layer": "In3.Cu",
+      "a": [
+        6.875,
+        89.75
+      ],
+      "z": [
+        6.725,
+        89.7
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "9ed01dc3-fc37-4f11-94b3-a7905d53a0c6",
+      "layer": "In3.Cu",
+      "a": [
+        9.95,
+        6.25
+      ],
+      "z": [
+        9.975,
+        6.375
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.12747548783981963,
+      "projected_area_mm2": 0.036722896851,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "a4e33fa7-42a7-4b05-a580-5434c3f659f0",
+      "layer": "In3.Cu",
+      "a": [
+        11.75,
+        38.925
+      ],
+      "z": [
+        11.75,
+        64.475
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 25.55,
+      "projected_area_mm2": 3.850101591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "a56da49a-363b-44ad-861b-14930f8ae837",
+      "layer": "In3.Cu",
+      "a": [
+        9.9,
+        86.65
+      ],
+      "z": [
+        7.625,
+        88.925
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 3.2173358543987916,
+      "projected_area_mm2": 0.500201928455,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "ab14da31-2e35-4c03-b135-9623462f6f12",
+      "layer": "In3.Cu",
+      "a": [
+        7.275,
+        89.7
+      ],
+      "z": [
+        7.125,
+        89.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "afde90b2-5953-43bf-b14e-d97484db855a",
+      "layer": "In3.Cu",
+      "a": [
+        11.75,
+        71.725
+      ],
+      "z": [
+        11.7,
+        71.875
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "b1e078fe-ccbc-4e17-ad0d-c75645c8c55b",
+      "layer": "In3.Cu",
+      "a": [
+        6.55,
+        89.55
+      ],
+      "z": [
+        6.5,
+        89.475
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "da456d97-520f-4ad3-88e4-2c5203cc1b08",
+      "layer": "In3.Cu",
+      "a": [
+        7.95,
+        1.65
+      ],
+      "z": [
+        8.05,
+        1.75
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.14142135623730953,
+      "projected_area_mm2": 0.038814777342,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "dd405c9f-e3e6-4967-9f30-a235c41faf0b",
+      "layer": "In3.Cu",
+      "a": [
+        6.3,
+        86.425
+      ],
+      "z": [
+        3.675,
+        80.675
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 6.320848439885266,
+      "projected_area_mm2": 0.965730905184,
+      "uncovered_projected_area_mm2": 0.064881504351,
+      "per_segment_centerline_uncovered_runs_mm": [
+        0.374753860072249
+      ]
+    },
+    {
+      "uuid": "dd648773-8a56-434c-931f-c404aee7d68d",
+      "layer": "In3.Cu",
+      "a": [
+        6.45,
+        88.0
+      ],
+      "z": [
+        6.4,
+        87.95
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.07071067811865477,
+      "projected_area_mm2": 0.0282082546645,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "de20671f-ff32-4e2d-8acd-dd92ae25fec5",
+      "layer": "In3.Cu",
+      "a": [
+        7.35,
+        89.65
+      ],
+      "z": [
+        7.275,
+        89.7
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "de38b50f-94e7-49cd-926f-c0292deaa2c8",
+      "layer": "In3.Cu",
+      "a": [
+        11.8,
+        64.525
+      ],
+      "z": [
+        11.85,
+        64.675
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "f4416246-0c7e-468d-ae85-25d16f050678",
+      "layer": "In3.Cu",
+      "a": [
+        6.725,
+        89.7
+      ],
+      "z": [
+        6.65,
+        89.65
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.09013878188659973,
+      "projected_area_mm2": 0.031122532706,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "f6a2befd-e944-42a2-9552-045c579cfc8b",
+      "layer": "In3.Cu",
+      "a": [
+        11.6,
+        72.0
+      ],
+      "z": [
+        11.6,
+        75.275
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 3.275,
+      "projected_area_mm2": 0.508851591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "fcd02ba8-00d2-4f77-a8ec-b47e6d6ad5f3",
+      "layer": "In3.Cu",
+      "a": [
+        9.975,
+        6.375
+      ],
+      "z": [
+        9.975,
+        7.95
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 1.575,
+      "projected_area_mm2": 0.253851591594,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    },
+    {
+      "uuid": "fd3bbcca-e407-4e27-8dd2-5ed8ad37dc79",
+      "layer": "In3.Cu",
+      "a": [
+        6.35,
+        87.875
+      ],
+      "z": [
+        6.3,
+        87.725
+      ],
+      "reference": "In4.Cu",
+      "length_mm": 0.15811388300841894,
+      "projected_area_mm2": 0.041318557338,
+      "uncovered_projected_area_mm2": 0.0,
+      "per_segment_centerline_uncovered_runs_mm": []
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "status": "REFERENCE_SLOT_TRADEOFF_NOT_ACCEPTED",
+  "lost_In1_GND_mm2": 2.6354290323555,
+  "new_BOOT_path": [
+    {
+      "uuid": "98a55a05-7bc4-4b20-97c9-299a904e49e2",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        1.25,
+        9.700000000000001
+      ],
+      "z": [
+        1.25,
+        9.9
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    },
+    {
+      "uuid": "000b3865-eefe-4795-8c3f-055edf581172",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        1.25,
+        9.9
+      ],
+      "z": [
+        0.8,
+        10.350000000000001
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    },
+    {
+      "uuid": "2e25ce95-6d33-4dcc-a649-54354e093512",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        0.8,
+        10.350000000000001
+      ],
+      "z": [
+        0.75,
+        10.450000000000001
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    },
+    {
+      "uuid": "2fa26c0e-6d3d-4226-b6f7-be5e4827a6a5",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        0.75,
+        10.450000000000001
+      ],
+      "z": [
+        0.7250000000000001,
+        10.575000000000001
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    },
+    {
+      "uuid": "48c4b977-c4a9-4be7-9182-933508ca15e6",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        0.7250000000000001,
+        10.575000000000001
+      ],
+      "z": [
+        0.7250000000000001,
+        11.425
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    },
+    {
+      "uuid": "49be3ab6-346e-486a-bcbe-07dcb3cf15a1",
+      "net": "BOOT_N",
+      "type": "track",
+      "a": [
+        0.7250000000000001,
+        11.425
+      ],
+      "z": [
+        2.7750000000000004,
+        15.925
+      ],
+      "width": 0.15,
+      "layer": "In1.Cu"
+    }
+  ],
+  "overlapping_F_and_In2_copper": [
+    {
+      "item": "29391869-0434-466c-9500-c4320daff58d",
+      "net": "CHIP_EN",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.0276234438625,
+      "start_mm": [
+        0.8,
+        11.85
+      ],
+      "end_mm": [
+        0.7,
+        11.95
+      ]
+    },
+    {
+      "item": "380ab148-9b2a-463d-b357-837b7aef241f",
+      "net": "CHIP_EN",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.259136995797,
+      "start_mm": [
+        0.725,
+        9.475
+      ],
+      "end_mm": [
+        0.725,
+        11.775
+      ]
+    },
+    {
+      "item": "5a14e5bf-ca71-489c-8122-84cb7b85f34a",
+      "net": "CHIP_EN",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.007731853801,
+      "start_mm": [
+        0.7,
+        11.95
+      ],
+      "end_mm": [
+        0.7,
+        12.0
+      ]
+    },
+    {
+      "item": "6296655c-16e2-47ad-be4f-ec30ef79a2f7",
+      "net": "CHIP_EN",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.003675642688,
+      "start_mm": [
+        0.7,
+        12.0
+      ],
+      "end_mm": [
+        0.65,
+        12.05
+      ]
+    },
+    {
+      "item": "c0ecbe2e-f455-4123-b0ab-72455fa7bd3b",
+      "net": "CHIP_EN",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.033511473841,
+      "start_mm": [
+        0.725,
+        11.775
+      ],
+      "end_mm": [
+        0.8,
+        11.85
+      ]
+    },
+    {
+      "item": "3524c0a5-51d8-49ad-997a-9b23eb94ee06",
+      "net": "CAM_D0",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 0.1381618395,
+      "start_mm": [
+        2.05,
+        11.8
+      ],
+      "end_mm": [
+        2.05,
+        15.95
+      ]
+    },
+    {
+      "item": "3a77eb4a-5979-4c69-b7d9-344324e719c7",
+      "net": "CAM_D1",
+      "layer": "F.Cu",
+      "projected_overlap_mm2": 3.2939295e-06,
+      "start_mm": [
+        2.8,
+        14.6
+      ],
+      "end_mm": [
+        2.8,
+        15.15
+      ]
+    }
+  ]
+}

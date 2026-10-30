@@ -1,0 +1,20 @@
+{
+  "full_native_source_library_closure_equal": true,
+  "reviewed_layered_rules_exact": true,
+  "reference_chain_matches_all_native_IRQ_tracks": true,
+  "chain_remaining_MCU_tracks": 2,
+  "touched_signals_foreign_copper_overlap": [],
+  "IRQ_native_pinfunctions": {
+    "('U101', '6')": [
+      "PICKUP_INT_N",
+      "GPIO1"
+    ],
+    "('U501', '12')": [
+      "PICKUP_INT_N",
+      "INT1"
+    ]
+  },
+  "ERC_errors": 0,
+  "ERC_warnings": 1,
+  "NOFAB": true
+}

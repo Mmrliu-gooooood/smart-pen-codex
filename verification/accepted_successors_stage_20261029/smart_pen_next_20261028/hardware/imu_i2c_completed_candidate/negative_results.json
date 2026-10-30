@@ -1,0 +1,66 @@
+{
+  "cases": 5,
+  "runs": [
+    {
+      "case": "wrong_old_AON",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NET_CHANGED 0077e25e-21bd-412d-a11b-d43d2cc738ed"
+    },
+    {
+      "case": "wrong_old_AON",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NET_CHANGED 0077e25e-21bd-412d-a11b-d43d2cc738ed"
+    },
+    {
+      "case": "wrong_new_bus",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NEW_NET_CHANGED 019891f0-0b22-4bd2-b279-451026750677"
+    },
+    {
+      "case": "wrong_new_bus",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "SERIALIZED_NEW_NET_CHANGED 019891f0-0b22-4bd2-b279-451026750677"
+    },
+    {
+      "case": "thin_new_trace",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 009cc6b7-42d6-4f69-a6b9-861f3086b2ef"
+    },
+    {
+      "case": "thin_new_trace",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 009cc6b7-42d6-4f69-a6b9-861f3086b2ef"
+    },
+    {
+      "case": "wrong_new_drill",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 095c08bc-ed56-4add-a9ae-6f3b306b0f64"
+    },
+    {
+      "case": "wrong_new_drill",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "DECLARED_NEW_GEOMETRY_CHANGED 095c08bc-ed56-4add-a9ae-6f3b306b0f64"
+    },
+    {
+      "case": "wrong_IMU_identity",
+      "optimized": false,
+      "exit": 1,
+      "diagnostic": "COMPLETE_NATIVE_FOOTPRINT_BLOCK_CHANGED"
+    },
+    {
+      "case": "wrong_IMU_identity",
+      "optimized": true,
+      "exit": 1,
+      "diagnostic": "COMPLETE_NATIVE_FOOTPRINT_BLOCK_CHANGED"
+    }
+  ],
+  "status": "EXACT_REASON_NORMAL_OPTIMIZED_REJECTIONS"
+}

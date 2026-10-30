@@ -1,0 +1,57 @@
+{
+  "pcb_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mems_layered_rule_study/native/mainboard_revD.kicad_pcb",
+  "pcb_sha256": "619a1307b7eb18c27d34f323e511726d95b373cca4e4dd2c11e284f03501eaf0",
+  "project_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mems_layered_rule_study/native/mainboard_revD.kicad_pro",
+  "project_sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+  "custom_rules_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mems_layered_rule_study/native/mainboard_revD.kicad_dru",
+  "custom_rules_sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+  "schematic_sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+  "net_settings_sha256": "e4f5dac073d8f63e7e1f5240cbda8c0a1e62a1d9bd3746e060e7b4b0b8285a53",
+  "design_settings_sha256": "7ba6ff8ac812bf5675ba3135fc2e0904aef7819a90bee318a73a73d4c78cbc7c",
+  "native_layers_sha256": "8fca8186d277bb9a70e397f9bfaaa6f784319f817895a6457f1c7c4d9a40de00",
+  "copper_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu"
+  ],
+  "general_thickness_mm": 0.83,
+  "explicit_stackup_present": true,
+  "stackup_raw_sha256": "d0a8622c9ba1d1a7530486881020383829b57f62fa8225f2bc8b42d8eec30dc4",
+  "stackup_known_geometry_sha256": "232ba03999f7f5345fa65c797cbe4d8b8c3d3510c60b4627f010bc40ee89a7e6",
+  "unqualified_material_values_present": [
+    "(epsilon_r 4.5)",
+    "(loss_tangent 0.02)",
+    "(epsilon_r 4.5)",
+    "(loss_tangent 0.02)",
+    "(epsilon_r 4.5)",
+    "(loss_tangent 0.02)",
+    "(epsilon_r 4.5)",
+    "(loss_tangent 0.02)",
+    "(epsilon_r 4.5)",
+    "(loss_tangent 0.02)"
+  ],
+  "status": "ROUTING_CONFIGURATION_BOUND",
+  "manufacturing_approved": false,
+  "manufacturing_blockers": [
+    "manufacturer_selected",
+    "layer_tolerances_confirmed",
+    "mask_and_material_confirmed",
+    "DFM_confirmed",
+    "quotation_confirmed",
+    "impedance_process_confirmed",
+    "valid_manufacturer_confirmation_record_missing"
+  ],
+  "impedance_calculation_allowed": false,
+  "lock_sha256": "f8d2a54ca26933e6522cf001eb82fc2bb43b1c344cc30613e1182a3a1f164a3a",
+  "manufacturing_rejection": "NOFAB: manufacturer_selected, layer_tolerances_confirmed, mask_and_material_confirmed, DFM_confirmed, quotation_confirmed, impedance_process_confirmed, valid_manufacturer_confirmation_record_missing",
+  "DRC": {
+    "violations": 17,
+    "unconnected": 38,
+    "parity": 0,
+    "violation_multiset_identical": true,
+    "exit": 5
+  }
+}

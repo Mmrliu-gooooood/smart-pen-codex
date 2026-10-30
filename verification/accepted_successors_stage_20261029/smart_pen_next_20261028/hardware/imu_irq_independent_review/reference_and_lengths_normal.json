@@ -1,0 +1,179 @@
+{
+  "status": "PROJECTED_REFERENCE_AND_LENGTH_SCREEN_NOT_SIGNAL_INTEGRITY_OR_WAKEUP_QUALIFICATION",
+  "native_net_length_note": "Sum of all copper track centerlines, excludes pad traversal and via electrical delay. 117.439382mm long path excludes MCU fanout; full native IRQ net reported below.",
+  "net_stats": {
+    "PICKUP_INT_N": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 86,
+        "vias": 3,
+        "track_length_mm": 118.16948821259936,
+        "tracks_below_0p1_mm": 28
+      }
+    },
+    "BOOT_N": {
+      "before": {
+        "tracks": 43,
+        "vias": 3,
+        "track_length_mm": 19.846067811865478,
+        "tracks_below_0p1_mm": 18
+      },
+      "after": {
+        "tracks": 42,
+        "vias": 3,
+        "track_length_mm": 20.430992052357226,
+        "tracks_below_0p1_mm": 15
+      }
+    },
+    "AON_I2C_SCL": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      }
+    },
+    "AON_I2C_SDA": {
+      "before": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      },
+      "after": {
+        "tracks": 0,
+        "vias": 0,
+        "track_length_mm": 0,
+        "tracks_below_0p1_mm": 0
+      }
+    }
+  },
+  "maximum_per_segment_gap_mm": 0.4,
+  "via_return_geometry": [
+    {
+      "signal_via": "519d9c49-49bc-43d2-b21c-de68f1eb107c",
+      "xy_mm": [
+        3.675,
+        80.675
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "04a7d6f4-dea6-47ab-a790-4ce0659e568a",
+          "xy_mm": [
+            6.55,
+            81.35
+          ],
+          "center_distance_mm": 2.95317625616894
+        },
+        {
+          "uuid": "4c6ca07d-089a-4d18-8d01-1f4f6fae3f21",
+          "xy_mm": [
+            5.7,
+            83.6
+          ],
+          "center_distance_mm": 3.5575623676894246
+        },
+        {
+          "uuid": "aace202e-0532-4648-b034-7ddcb2183473",
+          "xy_mm": [
+            9.4,
+            82.4
+          ],
+          "center_distance_mm": 5.979234900888243
+        }
+      ]
+    },
+    {
+      "signal_via": "762866e0-6ab9-4b6d-b81c-3bb75f102a89",
+      "xy_mm": [
+        0.525,
+        4.85
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "bb4f6e61-dc2b-4a54-9dd5-6c1e2a864de2",
+          "xy_mm": [
+            1.05,
+            5.3
+          ],
+          "center_distance_mm": 0.6914658342969667
+        },
+        {
+          "uuid": "9ceafdfa-9048-4393-afc7-f9f325ee0ee2",
+          "xy_mm": [
+            2.8,
+            4.45
+          ],
+          "center_distance_mm": 2.3098971838590563
+        },
+        {
+          "uuid": "3de29529-49d5-4934-b2ee-322b4ea35607",
+          "xy_mm": [
+            4.1,
+            1.0
+          ],
+          "center_distance_mm": 5.25386762299927
+        }
+      ]
+    },
+    {
+      "signal_via": "f5851835-0f12-40ba-899c-e85f34a6b556",
+      "xy_mm": [
+        1.85,
+        9.46
+      ],
+      "nearest_existing_GND_vias": [
+        {
+          "uuid": "07d7a27d-6787-47cd-ace9-bab77d4cc410",
+          "xy_mm": [
+            4.5,
+            10.0
+          ],
+          "center_distance_mm": 2.704459280521709
+        },
+        {
+          "uuid": "2c52f882-4764-4050-be73-93d875bb6e8b",
+          "xy_mm": [
+            4.5,
+            8.5
+          ],
+          "center_distance_mm": 2.81852798460473
+        },
+        {
+          "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+          "xy_mm": [
+            4.5,
+            11.5
+          ],
+          "center_distance_mm": 3.3442637455798843
+        }
+      ]
+    }
+  ],
+  "new_IRQ_F_body_intersections": [
+    {
+      "uuid": "d739f2c1-979f-4b5a-b3a7-62bf413d4dcd",
+      "inside_nominal_body_mm2": 0.042863044801,
+      "outside_native_U501_lands_mm2": 0.0075694,
+      "outside_explicit_pin12_outward_approach_mm2": 0.0,
+      "project_approach_rectangle_mm": [
+        3.575,
+        81,
+        3.925,
+        81.2375
+      ],
+      "approach_status": "Necessary connection from nominal body edge to native outer half-land; project interpretation, not manufacturer exact approved exemption"
+    }
+  ]
+}

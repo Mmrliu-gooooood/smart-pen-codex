@@ -1,0 +1,39 @@
+15:23:55: Debug: Adding duplicate image handler for 'PNG file'
+15:23:55: Debug: Adding duplicate image handler for 'JPEG file'
+15:23:55: Debug: Adding duplicate image handler for 'TIFF file'
+15:23:55: Debug: Adding duplicate image handler for 'GIF file'
+15:23:55: Debug: Adding duplicate image handler for 'PNM file'
+15:23:55: Debug: Adding duplicate image handler for 'PCX file'
+15:23:55: Debug: Adding duplicate image handler for 'IFF file'
+15:23:55: Debug: Adding duplicate image handler for 'Windows icon file'
+15:23:55: Debug: Adding duplicate image handler for 'Windows cursor file'
+15:23:55: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+15:23:55: Debug: Adding duplicate image handler for 'TGA file'
+15:23:55: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "FRESH_FILL_AND_ALL_THROUGH_DRILL_CORRECTED_REFERENCE_SCREEN_NOT_PI_EMI_QUALIFICATION",
+  "note": "Both old/new filled planes subtract every through drill; new ground via bore is not falsely counted as solid copper. Existing signal copper identities checked separately. Threshold for numerical area noise 1e-8 mm2.",
+  "plane_delta": {
+    "In1.Cu": {
+      "old_drill_corrected_area_mm2": 1161.6641547867814,
+      "new_drill_corrected_area_mm2": 1161.2400822641735,
+      "lost_mm2": 0.424072522608,
+      "gained_mm2": 0.0
+    },
+    "In2.Cu": {
+      "old_drill_corrected_area_mm2": 710.429050542946,
+      "new_drill_corrected_area_mm2": 707.3741520368345,
+      "lost_mm2": 3.05489852133,
+      "gained_mm2": 2.168e-09
+    },
+    "In4.Cu": {
+      "old_drill_corrected_area_mm2": 1159.7291547867815,
+      "new_drill_corrected_area_mm2": 1159.3050822641735,
+      "lost_mm2": 0.424072522608,
+      "gained_mm2": 0.0
+    }
+  },
+  "old_track_new_reference_loss_by_net": {},
+  "affected_old_tracks": [],
+  "new_RF_region_intrusions": []
+}

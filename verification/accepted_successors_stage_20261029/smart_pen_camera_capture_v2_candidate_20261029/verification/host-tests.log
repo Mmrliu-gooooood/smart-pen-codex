@@ -1,0 +1,8 @@
+PASS 251 assertions: portable capture and exact app-header bridge (SYNTHETIC ONLY)
+PASS SC031GS actual patched source: checked ID, wrong sensor, I2C failures, enum bounds, mode-table failure propagation, VGA window readback
+PASS actual sccb-ng checked-read source: no handle/null/error always rejected, success returns exact byte
+PASS 12119 checks: actual reset + both mode tables bounded; malformed terminal contracts rejected before writes; every table write failure stops immediately (synthetic, no physical mode qualification)
+PASS actual esp_camera + SC031GS sources: 7940 checks; wrong-ID/ID-read failure zero init writes, all109 init write failures + all6 read failures clean/no later writes, init/config/pixformat failures, bounded timeout API (HAL mocked)
+PASS actual HAL source: 634 checks, 8 allocation failures + task/ISR failure cleanup + timeout budget/tick wrap/3 GDMA reset cap + single-fb CPU-copy ownership + HAL software timestamp ordering; mocked ll_cam, not hardware proof
+PASS actual IDF-backend source (mock hardware ONLY): 74 checks; power failures, memory, ID/window reads, stop/held, bad timeval, timeout, single-boot retirement
+PASS extended portable: 79353 assertions; exhaustive ROI 95..257 two-axis edge bounds + lease/timeout cleanup

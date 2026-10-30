@@ -1,0 +1,38 @@
+{
+  "NOFAB": true,
+  "pcb_sha256": "752f83d57fa15450862dcf1c3751041b49f9830fd2c541443d717c6e99d1b229",
+  "native_DRC_full_counts": [
+    17,
+    37,
+    0
+  ],
+  "native_DRC_exit_code": 5,
+  "native_ERC_errors": 0,
+  "native_ERC_warnings": 1,
+  "native_ERC_exit_code": 5,
+  "normal_optimized_outputs_identical": true,
+  "negative_cases_times_modes": 10,
+  "negative_reason_deterministic": true,
+  "exact_replay_and_refill": {
+    "replay": {
+      "pcb_sha256": "752f83d57fa15450862dcf1c3751041b49f9830fd2c541443d717c6e99d1b229",
+      "exact_candidate_sha_match": true,
+      "verify_exit": 0
+    },
+    "refill": {
+      "pcb_sha256": "752f83d57fa15450862dcf1c3751041b49f9830fd2c541443d717c6e99d1b229",
+      "exact_candidate_sha_match": true,
+      "verify_exit": 0
+    }
+  },
+  "old_pad_components_preserved": true,
+  "only_pad_merge": "PICKUP_INT_N",
+  "AON_filled_islands_in_core": 6,
+  "GND_filled_islands_in_core": 4,
+  "I2C_missing_connections": 4,
+  "IRQ_total_tracks_mm": 118.16948821259936,
+  "IRQ_track_count": 86,
+  "IRQ_via_count": 3,
+  "IRQ_tracks_under_0p1_mm": 28,
+  "same_layer_chain_projected_gap_max_mm": 0.383606797749979
+}

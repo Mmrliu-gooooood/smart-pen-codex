@@ -1,0 +1,66 @@
+{
+  "status": "NOFAB",
+  "parent_manifest_sha256": "92e8f68b5bba70b8a8e8d7c84ebc765cd6b61a98c93f4311484f5e14eb4c21cf",
+  "gate_candidate_source": "hardware/camera_power_gate_placement_study/bom_candidates.json",
+  "gate_candidate_sha256": "2149e6ea76c6f56845ad48b6f13caf0b2865fa744a6105d15b83104aecfd88f6",
+  "parts": {
+    "C501": {
+      "manufacturer": "KEMET",
+      "mpn": "C0402C104K4RACTU",
+      "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    "C502": {
+      "manufacturer": "KEMET",
+      "mpn": "C0402C104K4RACTU",
+      "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    "C503": {
+      "manufacturer": "KEMET",
+      "mpn": "C0805C106K8RACTU",
+      "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    "U301": {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22918DBVR",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": ""
+    },
+    "C301": {
+      "manufacturer": "TDK",
+      "mpn": "C2012X7R1A106K125AE",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": "Standard X7R, no half-rated-voltage TC. DC-bias effective CIN at3.0/3.3/3.6V not yet qualified. Not allowed to equate10uF nominal with10uF effective."
+    },
+    "C302": {
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1A105K080AC",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": "NRND exact original rating. Production alternate C1608X7R1C105K080AC is16V and0.9mm max; not silently substituted."
+    },
+    "C303": {
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H102J080AA",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": "Voltage-rating-upgrade candidate compared with original25V requirement; original source unchanged."
+    },
+    "R301": {
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100KL",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": ""
+    },
+    "R302": {
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-071KL",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": ""
+    },
+    "R303": {
+      "manufacturer": "YAGEO",
+      "mpn": "RC0603FR-07100RL",
+      "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+      "inherited_restriction": ""
+    }
+  },
+  "net_value_footprint_changes": false
+}

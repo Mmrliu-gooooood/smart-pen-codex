@@ -1,0 +1,3422 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T15:07:53+0900",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "mainboard_revD.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 5.325,
+                        "y": 52.0
+                    },
+                    "uuid": "15cbce26-470a-4505-a74f-7b06bb41aa46"
+                },
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of J105 on B.Cu",
+                    "pos": {
+                        "x": 4.4,
+                        "y": 83.5
+                    },
+                    "uuid": "ef972847-ca39-428c-a43d-9fcafb042806"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 0.5127 mm",
+                    "pos": {
+                        "x": 4.25,
+                        "y": 82.7625
+                    },
+                    "uuid": "46eeef99-1a8d-4fd9-b042-d9d7ca227b4d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 0.0280 mm",
+                    "pos": {
+                        "x": 8.8625,
+                        "y": 58.275
+                    },
+                    "uuid": "16c97449-f238-4ac3-b972-8838f19d3311"
+                },
+                {
+                    "description": "Pad 3 [GND] of J104 on B.Cu",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 56.6
+                    },
+                    "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [NIB_CONTACT_N] on B.Cu, length 2.1000 mm",
+                    "pos": {
+                        "x": 3.325,
+                        "y": 7.5
+                    },
+                    "uuid": "353750d3-a6bb-4e5b-98e5-1381162cdbae"
+                },
+                {
+                    "description": "Pad 7 [NIB_CONTACT_N] of U101 on F.Cu",
+                    "pos": {
+                        "x": 2.575,
+                        "y": 9.8
+                    },
+                    "uuid": "f1587f41-ea24-45ef-8d04-8a7208ccd2d0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 7 [NIB_CONTACT_N] of U101 on F.Cu",
+                    "pos": {
+                        "x": 2.575,
+                        "y": 9.8
+                    },
+                    "uuid": "f1587f41-ea24-45ef-8d04-8a7208ccd2d0"
+                },
+                {
+                    "description": "Pad 1 [NIB_CONTACT_N] of R504 on B.Cu",
+                    "pos": {
+                        "x": 2.175,
+                        "y": 54.25
+                    },
+                    "uuid": "587d9579-d7a6-4389-8119-0867050406e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [BATTERY_ADC] of J105 on B.Cu",
+                    "pos": {
+                        "x": 2.0,
+                        "y": 83.5
+                    },
+                    "uuid": "4fb634e5-8feb-4c9b-8102-bb3a58ebb21c"
+                },
+                {
+                    "description": "Pad 9 [BATTERY_ADC] of U101 on F.Cu",
+                    "pos": {
+                        "x": 2.575,
+                        "y": 10.6
+                    },
+                    "uuid": "5594da53-40cd-4117-b45e-24e441da6cec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 5.125,
+                        "y": 52.5
+                    },
+                    "uuid": "e0ce1bf0-0101-469c-9295-119925da5dec"
+                },
+                {
+                    "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 53.0
+                    },
+                    "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [CAM_PWDN_UART_RX] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 6.7,
+                        "y": 60.0
+                    },
+                    "uuid": "e6100deb-8bdc-4c96-8e7f-3fd4c6513e22"
+                },
+                {
+                    "description": "Pad 2 [CAM_PWDN_UART_RX] of J104 on B.Cu",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 54.8
+                    },
+                    "uuid": "effc7d16-0065-4062-a35b-f6b2ffec2bf4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 23 [SENS_VIO_1V8] of J202 on B.Cu",
+                    "pos": {
+                        "x": 1.75,
+                        "y": 90.5
+                    },
+                    "uuid": "d7843f60-1f4c-4551-8a04-ae889fc26ce2"
+                },
+                {
+                    "description": "Track [SENS_VIO_1V8] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 8.35,
+                        "y": 75.95
+                    },
+                    "uuid": "08e592f7-2ad4-443b-b953-ad4aa7f84178"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 12 [SENS_D7] of J202 on B.Cu",
+                    "pos": {
+                        "x": 7.25,
+                        "y": 90.5
+                    },
+                    "uuid": "421f329c-ea2f-4540-b3f9-f9144e084115"
+                },
+                {
+                    "description": "Track [SENS_D7] on F.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 9.7,
+                        "y": 42.8
+                    },
+                    "uuid": "5592e06e-003c-49d3-9ad5-0a7759b51477"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 11 [SENS_D6] of J202 on B.Cu",
+                    "pos": {
+                        "x": 7.75,
+                        "y": 90.5
+                    },
+                    "uuid": "10441dac-78d3-40c4-80aa-f5b78898dd64"
+                },
+                {
+                    "description": "Track [SENS_D6] on F.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 6.7,
+                        "y": 42.0
+                    },
+                    "uuid": "831dbe60-3d35-4416-871e-3b9aa2e566de"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [SENS_D5] of J202 on B.Cu",
+                    "pos": {
+                        "x": 8.75,
+                        "y": 90.5
+                    },
+                    "uuid": "9a94bbc4-4905-46f4-898b-c3fb0784fab7"
+                },
+                {
+                    "description": "Track [SENS_D5] on F.Cu, length 0.3536 mm",
+                    "pos": {
+                        "x": 3.65,
+                        "y": 42.6
+                    },
+                    "uuid": "aaad09c3-6ffa-4f2b-be18-a4510b45293e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 8 [SENS_D4] of J202 on B.Cu",
+                    "pos": {
+                        "x": 9.25,
+                        "y": 90.5
+                    },
+                    "uuid": "543298ca-a1cb-46b0-974b-cf88db655c4e"
+                },
+                {
+                    "description": "Track [SENS_D4] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 42.0
+                    },
+                    "uuid": "8da3e65f-d7f7-4bac-9afa-7c73accfce1d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D3] on F.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 9.7,
+                        "y": 40.0
+                    },
+                    "uuid": "8b24a644-6720-48f6-b852-fcaf573a4277"
+                },
+                {
+                    "description": "Pad 6 [SENS_D3] of J202 on B.Cu",
+                    "pos": {
+                        "x": 10.25,
+                        "y": 90.5
+                    },
+                    "uuid": "98d4a16a-c0ab-4d69-9ed4-a122f8bad9c7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D2] on F.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 6.7,
+                        "y": 40.0
+                    },
+                    "uuid": "2aebf1b9-03ce-42a2-82b0-4e917888cfc0"
+                },
+                {
+                    "description": "Pad 5 [SENS_D2] of J202 on B.Cu",
+                    "pos": {
+                        "x": 10.75,
+                        "y": 90.5
+                    },
+                    "uuid": "38006691-ab29-49a6-bcb9-45622d081122"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [SENS_D1] of J202 on B.Cu",
+                    "pos": {
+                        "x": 11.75,
+                        "y": 90.5
+                    },
+                    "uuid": "bf731bbc-5388-4e00-ad38-5b08098c54f1"
+                },
+                {
+                    "description": "Track [SENS_D1] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 3.675,
+                        "y": 40.0
+                    },
+                    "uuid": "83820599-02cc-4411-83c8-f3bd8379db9e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D0] on F.Cu, length 0.7500 mm",
+                    "pos": {
+                        "x": 0.7,
+                        "y": 40.0
+                    },
+                    "uuid": "4f421a23-cc56-4078-9dc7-30971cb9712e"
+                },
+                {
+                    "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+                    "pos": {
+                        "x": 12.25,
+                        "y": 90.5
+                    },
+                    "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_HREF] on B.Cu, length 4.7376 mm",
+                    "pos": {
+                        "x": 7.25,
+                        "y": 49.5
+                    },
+                    "uuid": "37693ba0-cfa3-4b1f-8b30-d527a6b23d97"
+                },
+                {
+                    "description": "Pad 16 [SENS_HREF] of J202 on B.Cu",
+                    "pos": {
+                        "x": 5.25,
+                        "y": 90.5
+                    },
+                    "uuid": "a4ca738e-53d7-4259-9c88-585e982f29ac"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 15 [SENS_VSYNC] of J202 on B.Cu",
+                    "pos": {
+                        "x": 5.75,
+                        "y": 90.5
+                    },
+                    "uuid": "4d260b4b-4090-45ee-840c-277a99c3362d"
+                },
+                {
+                    "description": "Track [SENS_VSYNC] on F.Cu, length 0.7500 mm",
+                    "pos": {
+                        "x": 0.7,
+                        "y": 52.0
+                    },
+                    "uuid": "bac6189d-2a92-44a9-b913-3fe5355a8ad9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_PCLK] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 9.675,
+                        "y": 50.0
+                    },
+                    "uuid": "359c6f4d-a2b2-4c2e-8b88-44a4bb08c1b3"
+                },
+                {
+                    "description": "Pad 14 [SENS_PCLK] of J202 on B.Cu",
+                    "pos": {
+                        "x": 6.25,
+                        "y": 90.5
+                    },
+                    "uuid": "25c0fbf6-1d4a-47f5-9d51-bcff1632649c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_TRIG_IN] on B.Cu, length 2.0506 mm",
+                    "pos": {
+                        "x": 4.75,
+                        "y": 61.4
+                    },
+                    "uuid": "da2d3cd0-4d05-4b42-8422-b3e7ac0d7958"
+                },
+                {
+                    "description": "Pad 20 [SENS_TRIG_IN] of J202 on B.Cu",
+                    "pos": {
+                        "x": 3.25,
+                        "y": 90.5
+                    },
+                    "uuid": "3976c65e-9317-4f31-89ee-daf5c8199732"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 19 [SENS_XSHUTDN_N] of J202 on B.Cu",
+                    "pos": {
+                        "x": 3.75,
+                        "y": 90.5
+                    },
+                    "uuid": "6caa71f3-ac19-466c-9f61-2dd624c246fb"
+                },
+                {
+                    "description": "Track [SENS_XSHUTDN_N] on F.Cu, length 0.7500 mm",
+                    "pos": {
+                        "x": 0.7,
+                        "y": 62.0
+                    },
+                    "uuid": "663ff72a-c78d-4489-8b19-8c042ebd1e43"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_EXTCLK] on F.Cu, length 0.9192 mm",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 60.2
+                    },
+                    "uuid": "33be4591-f1da-4174-9f09-440813037462"
+                },
+                {
+                    "description": "Pad 18 [SENS_EXTCLK] of J202 on B.Cu",
+                    "pos": {
+                        "x": 4.25,
+                        "y": 90.5
+                    },
+                    "uuid": "a5b5e001-61d0-4fa3-9bf6-04dd392fa1ae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_SCL] of R242 on F.Cu",
+                    "pos": {
+                        "x": 6.675,
+                        "y": 76.0
+                    },
+                    "uuid": "24f33e7a-55e4-437a-b7be-6533539a7be4"
+                },
+                {
+                    "description": "Pad 21 [SENS_SCL] of J202 on B.Cu",
+                    "pos": {
+                        "x": 2.75,
+                        "y": 90.5
+                    },
+                    "uuid": "b362c926-287b-47e1-969f-addceaf51826"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_SDA] of R243 on F.Cu",
+                    "pos": {
+                        "x": 9.675,
+                        "y": 76.0
+                    },
+                    "uuid": "51549648-99da-4f8a-adc3-b68c766c1c7b"
+                },
+                {
+                    "description": "Pad 22 [SENS_SDA] of J202 on B.Cu",
+                    "pos": {
+                        "x": 2.25,
+                        "y": 90.5
+                    },
+                    "uuid": "7228427c-6dcc-43e3-b8bf-c3c5ec5f467d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                },
+                {
+                    "description": "Pad 2 [CONTACT] of R504 on B.Cu",
+                    "pos": {
+                        "x": 3.825,
+                        "y": 54.25
+                    },
+                    "uuid": "36268f21-94ce-471a-8042-648372d9791d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.9000 mm",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 88.6
+                    },
+                    "uuid": "b23b76f4-991d-4c50-bb65-bd890a855ba2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [USB_EN1] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 3.025,
+                        "y": 90.475
+                    },
+                    "uuid": "ba2ea830-40d0-4eb7-aeec-ecdc83d6971b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.525,
+                        "y": 90.475
+                    },
+                    "uuid": "ffd6ed9b-01aa-4d60-8a5a-9eb680d5bde4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [CAM_SDA] on In2.Cu, length 0.0707 mm",
+                    "pos": {
+                        "x": 11.1,
+                        "y": 63.15
+                    },
+                    "uuid": "5943f84b-e233-4b18-bdaa-66b39aad6146"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [CAM_ISO_OE_N] on F.Cu, length 0.3536 mm",
+                    "pos": {
+                        "x": 10.15,
+                        "y": 66.5
+                    },
+                    "uuid": "bc5614c5-2a35-4867-881e-8d3fbd2529e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0860 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.1,
+                        "y": 89.175
+                    },
+                    "uuid": "7a725ed1-15da-44f3-9d16-e46fe2d057df"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2360 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.1,
+                        "y": 89.175
+                    },
+                    "uuid": "7a725ed1-15da-44f3-9d16-e46fe2d057df"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_EN2 and GND)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.975,
+                        "y": 89.45
+                    },
+                    "uuid": "2b3ab0fe-1eb5-4057-b708-02b4d4128900"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0014 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.975,
+                        "y": 89.45
+                    },
+                    "uuid": "2b3ab0fe-1eb5-4057-b708-02b4d4128900"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.025,
+                        "y": 89.325
+                    },
+                    "uuid": "5ed02268-ffdb-45dc-b5c6-413cfcec9b3e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0882 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.025,
+                        "y": 89.325
+                    },
+                    "uuid": "5ed02268-ffdb-45dc-b5c6-413cfcec9b3e"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.95,
+                        "y": 89.5
+                    },
+                    "uuid": "67de4ed9-3337-4331-8e25-2f167c607703"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.95,
+                        "y": 89.5
+                    },
+                    "uuid": "67de4ed9-3337-4331-8e25-2f167c607703"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.025,
+                        "y": 89.35
+                    },
+                    "uuid": "6ccf92c0-d5c8-44d8-a767-d5c655c234bb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0545 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.025,
+                        "y": 89.35
+                    },
+                    "uuid": "6ccf92c0-d5c8-44d8-a767-d5c655c234bb"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.95,
+                        "y": 89.525
+                    },
+                    "uuid": "7540ddc1-1719-455d-b9f0-d6e6c28522d1"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.95,
+                        "y": 89.525
+                    },
+                    "uuid": "7540ddc1-1719-455d-b9f0-d6e6c28522d1"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.375
+                    },
+                    "uuid": "c0c97b4f-cab2-4188-b4a6-b1a3d4ec7588"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0360 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.375
+                    },
+                    "uuid": "c0c97b4f-cab2-4188-b4a6-b1a3d4ec7588"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.425
+                    },
+                    "uuid": "ec4688e6-cd34-4467-9a7a-66a5d2345496"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0055 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.425
+                    },
+                    "uuid": "ec4688e6-cd34-4467-9a7a-66a5d2345496"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_EN2 and GND)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.05,
+                        "y": 89.275
+                    },
+                    "uuid": "12b4902a-a2f1-4616-990e-5be0393f91d8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1356 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.05,
+                        "y": 89.275
+                    },
+                    "uuid": "12b4902a-a2f1-4616-990e-5be0393f91d8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.075,
+                        "y": 89.25
+                    },
+                    "uuid": "39d8b7d1-e13b-4e0c-86f2-57b5985c9add"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.075,
+                        "y": 89.25
+                    },
+                    "uuid": "39d8b7d1-e13b-4e0c-86f2-57b5985c9add"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0155 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.1346 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.15
+                    },
+                    "uuid": "8e3426c0-93ec-4822-a309-34ab9806f04f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1655 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.1346 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.15
+                    },
+                    "uuid": "8e3426c0-93ec-4822-a309-34ab9806f04f"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0350 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.075,
+                        "y": 89.225
+                    },
+                    "uuid": "a2a38a05-f99b-44c1-a566-6cd2050d1cad"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1850 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 7.075,
+                        "y": 89.225
+                    },
+                    "uuid": "a2a38a05-f99b-44c1-a566-6cd2050d1cad"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.05,
+                        "y": 89.3
+                    },
+                    "uuid": "befa5d7a-841b-4314-81da-8591cde99d1a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1010 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.05,
+                        "y": 89.3
+                    },
+                    "uuid": "befa5d7a-841b-4314-81da-8591cde99d1a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1026 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.15
+                    },
+                    "uuid": "dae43594-b69a-42a6-af78-403defc1a63a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0507 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.1,
+                        "y": 89.2
+                    },
+                    "uuid": "ec8468f9-16e6-407d-ada1-2c8e64fee037"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2007 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 7.1,
+                        "y": 89.2
+                    },
+                    "uuid": "ec8468f9-16e6-407d-ada1-2c8e64fee037"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and CAM_3V3_SW)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Pad 1 [CAM_3V3_SW] of J301 on F.Cu",
+                    "pos": {
+                        "x": 5.8,
+                        "y": 88.7
+                    },
+                    "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.975
+                    },
+                    "uuid": "13dc4a84-6dc9-4fef-95bf-2a1b144c8062"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_EN2 and GND)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.825,
+                        "y": 89.8
+                    },
+                    "uuid": "1788149b-8e09-466b-b6cd-2bfa11972087"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0842 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.825,
+                        "y": 89.8
+                    },
+                    "uuid": "1788149b-8e09-466b-b6cd-2bfa11972087"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_EN2 and GND)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.825,
+                        "y": 89.775
+                    },
+                    "uuid": "1edf0eb1-9c39-42ba-9853-32de0ba8f8ff"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0600 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.825,
+                        "y": 89.775
+                    },
+                    "uuid": "1edf0eb1-9c39-42ba-9853-32de0ba8f8ff"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.925
+                    },
+                    "uuid": "5369f08a-ca09-4142-a387-29be951065e0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.925
+                    },
+                    "uuid": "5369f08a-ca09-4142-a387-29be951065e0"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 89.85
+                    },
+                    "uuid": "83be23d4-5e09-4fd2-89fb-139e14af4145"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1286 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 89.85
+                    },
+                    "uuid": "83be23d4-5e09-4fd2-89fb-139e14af4145"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 89.825
+                    },
+                    "uuid": "95503ce9-3d9f-4cc3-98f5-32c274a92f63"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1038 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.8,
+                        "y": 89.825
+                    },
+                    "uuid": "95503ce9-3d9f-4cc3-98f5-32c274a92f63"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0008 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.775,
+                        "y": 89.875
+                    },
+                    "uuid": "c2ec6cfa-09c0-494b-938a-d5324b639670"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1508 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.775,
+                        "y": 89.875
+                    },
+                    "uuid": "c2ec6cfa-09c0-494b-938a-d5324b639670"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0258 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.775,
+                        "y": 89.9
+                    },
+                    "uuid": "d6a9de9d-c237-4e00-a8b0-7af7bd07a585"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1758 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.775,
+                        "y": 89.9
+                    },
+                    "uuid": "d6a9de9d-c237-4e00-a8b0-7af7bd07a585"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1256 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 90.0
+                    },
+                    "uuid": "43138dc3-735c-400e-9384-fced976a33b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.9,
+                        "y": 89.6
+                    },
+                    "uuid": "3f4e4934-8322-4633-bbfe-e33029e8e260"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.9,
+                        "y": 89.6
+                    },
+                    "uuid": "3f4e4934-8322-4633-bbfe-e33029e8e260"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.85,
+                        "y": 89.725
+                    },
+                    "uuid": "52b7863b-76a6-4f29-a63e-be67d1b0fb2d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0212 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.85,
+                        "y": 89.725
+                    },
+                    "uuid": "52b7863b-76a6-4f29-a63e-be67d1b0fb2d"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.65
+                    },
+                    "uuid": "977847b7-3177-46c4-8078-9ada1c71fbc8"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0500 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.65
+                    },
+                    "uuid": "977847b7-3177-46c4-8078-9ada1c71fbc8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.85,
+                        "y": 89.75
+                    },
+                    "uuid": "a41aef88-81bd-4900-b8ff-6e442760b2a1"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0443 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.85,
+                        "y": 89.75
+                    },
+                    "uuid": "a41aef88-81bd-4900-b8ff-6e442760b2a1"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.9,
+                        "y": 89.625
+                    },
+                    "uuid": "c8f89302-9a40-47c5-88c0-bbebd75c2f48"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.9,
+                        "y": 89.625
+                    },
+                    "uuid": "c8f89302-9a40-47c5-88c0-bbebd75c2f48"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.7
+                    },
+                    "uuid": "e06bbbd4-8515-4de3-aa4a-79655f9603e1"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0108 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.7
+                    },
+                    "uuid": "e06bbbd4-8515-4de3-aa4a-79655f9603e1"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.925,
+                        "y": 89.575
+                    },
+                    "uuid": "5f6eecc3-350d-4666-ae7e-5baca9d12b12"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.925,
+                        "y": 89.575
+                    },
+                    "uuid": "5f6eecc3-350d-4666-ae7e-5baca9d12b12"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.925,
+                        "y": 89.55
+                    },
+                    "uuid": "9a81391d-36b2-4766-ae13-b550c2b21f58"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0250 mm",
+                    "pos": {
+                        "x": 6.925,
+                        "y": 89.55
+                    },
+                    "uuid": "9a81391d-36b2-4766-ae13-b550c2b21f58"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.975,
+                        "y": 89.475
+                    },
+                    "uuid": "a9599241-a58b-4349-b6c3-f12f53079414"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on F.Cu, length 0.0354 mm",
+                    "pos": {
+                        "x": 6.975,
+                        "y": 89.475
+                    },
+                    "uuid": "a9599241-a58b-4349-b6c3-f12f53079414"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 6.65,
+                        "y": 89.65
+                    },
+                    "uuid": "8d93c73f-cc1c-49f4-a312-d2a10740391b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 6.65,
+                        "y": 89.65
+                    },
+                    "uuid": "8d93c73f-cc1c-49f4-a312-d2a10740391b"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.75
+                    },
+                    "uuid": "9e0c116b-76e4-4559-8b06-c9c55bce8c48"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 6.875,
+                        "y": 89.75
+                    },
+                    "uuid": "9e0c116b-76e4-4559-8b06-c9c55bce8c48"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.0901 mm",
+                    "pos": {
+                        "x": 6.55,
+                        "y": 89.55
+                    },
+                    "uuid": "b1e078fe-ccbc-4e17-ad0d-c75645c8c55b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.0901 mm",
+                    "pos": {
+                        "x": 6.55,
+                        "y": 89.55
+                    },
+                    "uuid": "b1e078fe-ccbc-4e17-ad0d-c75645c8c55b"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.0901 mm",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 89.7
+                    },
+                    "uuid": "f4416246-0c7e-468d-ae85-25d16f050678"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.0901 mm",
+                    "pos": {
+                        "x": 6.725,
+                        "y": 89.7
+                    },
+                    "uuid": "f4416246-0c7e-468d-ae85-25d16f050678"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets PICKUP_INT_N and GND)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.2500 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.75
+                    },
+                    "uuid": "1dafedb4-331d-40e1-b13f-d7a89cbc5d72"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0545 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.2500 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.75
+                    },
+                    "uuid": "1dafedb4-331d-40e1-b13f-d7a89cbc5d72"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0757 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 7.275,
+                        "y": 89.7
+                    },
+                    "uuid": "ab14da31-2e35-4c03-b135-9623462f6f12"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2257 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 7.275,
+                        "y": 89.7
+                    },
+                    "uuid": "ab14da31-2e35-4c03-b135-9623462f6f12"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets SENS_HREF and CONTACT)",
+            "items": [
+                {
+                    "description": "Via [SENS_HREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.9,
+                        "y": 52.85
+                    },
+                    "uuid": "5a3d5b2b-c099-4a5e-81c8-fe366663ca6e"
+                },
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1450 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 0.0901 mm",
+                    "pos": {
+                        "x": 6.525,
+                        "y": 89.975
+                    },
+                    "uuid": "c0192dbd-0ac5-49f0-966b-a97e7d3e8de8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1377 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 0.2475 mm",
+                    "pos": {
+                        "x": 6.45,
+                        "y": 89.925
+                    },
+                    "uuid": "ffee3343-4b40-4662-9000-a5ac929964cf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 1.3250 mm",
+                    "pos": {
+                        "x": 6.45,
+                        "y": 89.325
+                    },
+                    "uuid": "7a38f5b0-5f89-4937-aaad-f22b81afaae9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1223 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 1.3250 mm",
+                    "pos": {
+                        "x": 6.45,
+                        "y": 89.325
+                    },
+                    "uuid": "7a38f5b0-5f89-4937-aaad-f22b81afaae9"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PICKUP_INT_N)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 6.5,
+                        "y": 89.475
+                    },
+                    "uuid": "90e4b5b8-77fa-4945-b1e6-89b5166b088f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0262 mm)",
+            "items": [
+                {
+                    "description": "Track [PICKUP_INT_N] on In3.Cu, length 0.1581 mm",
+                    "pos": {
+                        "x": 6.5,
+                        "y": 89.475
+                    },
+                    "uuid": "90e4b5b8-77fa-4945-b1e6-89b5166b088f"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0155 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Track [USB_EN2] on In3.Cu, length 0.1601 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.1
+                    },
+                    "uuid": "ad62c786-65fc-4861-9cb4-3070ccee099f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1655 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_EN2] on In3.Cu, length 0.1601 mm",
+                    "pos": {
+                        "x": 7.125,
+                        "y": 89.1
+                    },
+                    "uuid": "ad62c786-65fc-4861-9cb4-3070ccee099f"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets SENS_HREF and GND)",
+            "items": [
+                {
+                    "description": "Track [SENS_HREF] on B.Cu, length 4.7376 mm",
+                    "pos": {
+                        "x": 7.25,
+                        "y": 49.5
+                    },
+                    "uuid": "37693ba0-cfa3-4b1f-8b30-d527a6b23d97"
+                },
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1181 mm)",
+            "items": [
+                {
+                    "description": "Track [SENS_HREF] on B.Cu, length 4.7376 mm",
+                    "pos": {
+                        "x": 7.25,
+                        "y": 49.5
+                    },
+                    "uuid": "37693ba0-cfa3-4b1f-8b30-d527a6b23d97"
+                },
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 4.75,
+                        "y": 89.5
+                    },
+                    "uuid": "64268520-7586-4103-b57d-781d47746b6d"
+                },
+                {
+                    "description": "Pad 1 [CAM_3V3_SW] of J301 on F.Cu",
+                    "pos": {
+                        "x": 5.8,
+                        "y": 88.7
+                    },
+                    "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and AON_I2C_SDA)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 89.5
+                    },
+                    "uuid": "6db9e24a-16c4-421a-9f59-0cddaf8867d6"
+                },
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 9.125,
+                        "y": 89.15
+                    },
+                    "uuid": "7d352d3f-a2ab-4140-8857-e3e4bdb760ab"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1329 mm)",
+            "items": [
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 9.125,
+                        "y": 89.15
+                    },
+                    "uuid": "7d352d3f-a2ab-4140-8857-e3e4bdb760ab"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 89.5
+                    },
+                    "uuid": "6db9e24a-16c4-421a-9f59-0cddaf8867d6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets AON_I2C_SDA and GND)",
+            "items": [
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 1.0960 mm",
+                    "pos": {
+                        "x": 8.325,
+                        "y": 89.15
+                    },
+                    "uuid": "4c92da7f-f249-47bd-980f-ae6bdeac3ad6"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 89.5
+                    },
+                    "uuid": "6db9e24a-16c4-421a-9f59-0cddaf8867d6"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [AON_I2C_SDA] on In3.Cu, length 1.0960 mm",
+                    "pos": {
+                        "x": 8.325,
+                        "y": 89.15
+                    },
+                    "uuid": "4c92da7f-f249-47bd-980f-ae6bdeac3ad6"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.25,
+                        "y": 89.5
+                    },
+                    "uuid": "6db9e24a-16c4-421a-9f59-0cddaf8867d6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and CONTACT)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 2.3,
+                        "y": 51.15
+                    },
+                    "uuid": "74386335-64de-486b-ba9b-43b43d275f38"
+                },
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and USB_EN2)",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 90.5
+                    },
+                    "uuid": "0c2ea66e-208c-4016-8ce1-ac939c2b89eb"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1155 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 90.5
+                    },
+                    "uuid": "0c2ea66e-208c-4016-8ce1-ac939c2b89eb"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets CAM_IO_EN and GND)",
+            "items": [
+                {
+                    "description": "Via [CAM_IO_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 5.45,
+                        "y": 52.95
+                    },
+                    "uuid": "b0350aba-8720-4e67-aca5-1bc85f1ebaed"
+                },
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [CAM_3V3_SW] of J301 on F.Cu",
+                    "pos": {
+                        "x": 5.8,
+                        "y": 88.7
+                    },
+                    "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 4.75,
+                        "y": 89.5
+                    },
+                    "uuid": "64268520-7586-4103-b57d-781d47746b6d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [CAM_3V3_SW] of J301 on F.Cu",
+                    "pos": {
+                        "x": 5.8,
+                        "y": 88.7
+                    },
+                    "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0568 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                },
+                {
+                    "description": "Via [SENS_HREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.9,
+                        "y": 52.85
+                    },
+                    "uuid": "5a3d5b2b-c099-4a5e-81c8-fe366663ca6e"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0001 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 2.3,
+                        "y": 51.15
+                    },
+                    "uuid": "74386335-64de-486b-ba9b-43b43d275f38"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                },
+                {
+                    "description": "Via [CAM_IO_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 5.45,
+                        "y": 52.95
+                    },
+                    "uuid": "b0350aba-8720-4e67-aca5-1bc85f1ebaed"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0905 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Via [USB_EN2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 89.2
+                    },
+                    "uuid": "462c5038-ecc9-4536-b1bb-7bcd36b7850f"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.75,
+                        "y": 89.5
+                    },
+                    "uuid": "2f021fbc-2ce4-47e2-9ab5-fab291236d84"
+                },
+                {
+                    "description": "Pad 1 [CAM_3V3_SW] of J301 on F.Cu",
+                    "pos": {
+                        "x": 5.8,
+                        "y": 88.7
+                    },
+                    "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 2.3,
+                        "y": 51.15
+                    },
+                    "uuid": "74386335-64de-486b-ba9b-43b43d275f38"
+                },
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [CAM_IO_EN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 5.45,
+                        "y": 52.95
+                    },
+                    "uuid": "b0350aba-8720-4e67-aca5-1bc85f1ebaed"
+                },
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [SENS_HREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.9,
+                        "y": 52.85
+                    },
+                    "uuid": "5a3d5b2b-c099-4a5e-81c8-fe366663ca6e"
+                },
+                {
+                    "description": "Pad 1 [CONTACT] of J103 on B.Cu",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 52.0
+                    },
+                    "uuid": "f1d0a1b7-e00e-4b3f-ba7a-9bb6db3d3e72"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Rear solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [SENS_HREF] on B.Cu, length 4.7376 mm",
+                    "pos": {
+                        "x": 7.25,
+                        "y": 49.5
+                    },
+                    "uuid": "37693ba0-cfa3-4b1f-8b30-d527a6b23d97"
+                },
+                {
+                    "description": "Pad 2 [GND] of J103 on B.Cu",
+                    "pos": {
+                        "x": 5.4,
+                        "y": 52.0
+                    },
+                    "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+=================================================================
+==9==ERROR: AddressSanitizer: global-buffer-overflow on address 0x56313badece8 at pc 0x56313badb2dc bp 0x7ffd53120bf0 sp 0x7ffd53120be8
+READ of size 2 at 0x56313badece8 thread T0
+    #0 0x56313badb2db in write_regs /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/sensors/sc031gs.c:92
+    #1 0x56313badb32e in reset /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/sensors/sc031gs.c:214
+    #2 0x56313bad959a in camera_probe /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/driver/esp_camera.c:282
+    #3 0x56313bad959a in esp_camera_init /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/driver/esp_camera.c:316
+    #4 0x56313bada16c in main /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/test_driver_api.c:30
+    #5 0x7fa71afcfca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #6 0x7fa71afcfd64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #7 0x56313bad8230 in _start (/workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/test_driver_api+0xb230) (BuildId: 7bb45b7695e21204d494018bd23f1aa08f26e60f)
+
+0x56313badece8 is located 56 bytes before global variable '*.LC0' defined in '/workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/driver/sensor.c' (0x56313baded20) of size 158
+  '*.LC0' is ascii string '/workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/driver/sensor.c'
+0x56313badece8 is located 0 bytes after global variable 'sc031gs_reset_regs' defined in '/workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/sensors/private_include/sc031gs_settings.h:81:36' (0x56313badece0) of size 8
+SUMMARY: AddressSanitizer: global-buffer-overflow /workspace/scratch/fe148e758944/smart_pen_camera_capture_review_20261029/smart_pen_camera_capture_candidate_20261029/third_party/esp32-camera/sensors/sc031gs.c:92 in write_regs
+Shadow bytes around the buggy address:
+  0x56313badea00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x56313badea80: 00 00 00 00 00 00 00 00 00 f9 f9 f9 f9 f9 f9 f9
+  0x56313badeb00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x56313badeb80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x56313badec00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x56313badec80: 00 00 00 00 00 00 00 04 f9 f9 f9 f9 00[f9]f9 f9
+  0x56313baded00: f9 f9 f9 f9 00 00 00 00 00 00 00 00 00 00 00 00
+  0x56313baded80: 00 00 00 00 00 00 00 06 f9 f9 f9 f9 07 f9 f9 f9
+  0x56313badee00: f9 f9 f9 f9 07 f9 f9 f9 f9 f9 f9 f9 07 f9 f9 f9
+  0x56313badee80: f9 f9 f9 f9 07 f9 f9 f9 f9 f9 f9 f9 07 f9 f9 f9
+  0x56313badef00: f9 f9 f9 f9 07 f9 f9 f9 f9 f9 f9 f9 00 f9 f9 f9
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==9==ABORTING

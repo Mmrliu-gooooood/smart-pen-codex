@@ -1,0 +1,12 @@
+{
+  "removed": {
+    "0e8bba22-3603-4aaa-ab85-2467311d470a": "\n\t(via\n\t\t(at 4.5 89.35)\n\t\t(size 0.6)\n\t\t(drill 0.3)\n\t\t(layers \"F.Cu\" \"B.Cu\")\n\t\t(tenting front back)\n\t\t(net 2)\n\t\t(uuid \"0e8bba22-3603-4aaa-ab85-2467311d470a\")\n\t)",
+    "4cd542ae-96d9-4a4f-8764-89dfa7f4c747": "\n\t(segment\n\t\t(start 4.75 90.5)\n\t\t(end 4.75 89.8)\n\t\t(width 0.25)\n\t\t(layer \"B.Cu\")\n\t\t(net 2)\n\t\t(uuid \"4cd542ae-96d9-4a4f-8764-89dfa7f4c747\")\n\t)",
+    "bc109856-b741-4c09-8576-5339efa80346": "\n\t(segment\n\t\t(start 4.75 89.8)\n\t\t(end 4.5 89.35)\n\t\t(width 0.25)\n\t\t(layer \"B.Cu\")\n\t\t(net 2)\n\t\t(uuid \"bc109856-b741-4c09-8576-5339efa80346\")\n\t)"
+  },
+  "added": [
+    "8e7b84f6-f410-49b1-96f0-2069510412a7",
+    "a08928e8-4021-40cc-b570-296b8338f107"
+  ],
+  "reason": "short ground branch to pin13/10 replaces independent pin17 via to release XSHUTDN exit; requires full real ground audit"
+}

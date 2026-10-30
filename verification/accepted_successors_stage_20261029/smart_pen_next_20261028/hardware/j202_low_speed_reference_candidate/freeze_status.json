@@ -1,0 +1,49 @@
+{
+  "status": "FROZEN_AUTHOR_STATIC_CANDIDATE_NOFAB_PENDING_INDEPENDENT_REVIEW",
+  "frozen_UTC": "2026-10-29T07:05:16.232892+00:00",
+  "checks": {
+    "pcb": true,
+    "normalO": true,
+    "drc": true,
+    "multiset": true,
+    "negative12": true,
+    "replay": true,
+    "AON_counterfactual": true,
+    "manufacturing_rejected": true
+  },
+  "pcb_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "full_drc": [
+    17,
+    21,
+    0
+  ],
+  "old_copper_removed_modified": [
+    0,
+    0
+  ],
+  "new_tracks_vias": [
+    135,
+    14
+  ],
+  "source_entities_endpoints": [
+    102,
+    356
+  ],
+  "five_nets_closed": true,
+  "seven_ground_pads_unchanged_and_connected": true,
+  "AON_GND_islands_connected": [
+    6,
+    4
+  ],
+  "negative_test_runs": 12,
+  "no_external_writes": true,
+  "remaining_gates": [
+    "17 existing violations/21 airwires",
+    "DVP remaining connector escape, full native integration",
+    "bounded USB_EN1 and same-domain reference loss, 4.00952mm max nearest GND via",
+    "dynamic external VIO supply and AXC load, SCCB rise/voltage/sequence",
+    "connector underside/tenting/tolerance and FPC mechanical qualification",
+    "manufacturer stack/drill/mask/DFM/price confirmation",
+    "JP commissioning OPEN; unknown camera not authorized"
+  ]
+}

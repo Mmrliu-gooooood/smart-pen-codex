@@ -1,0 +1,14 @@
+from pathlib import Path
+import os,json,math
+os.environ['XDG_CONFIG_HOME']='/tmp/rf-independent/config'
+import pcbnew as p
+D=Path(__file__).resolve().parent;B=D.parent/'j202_ground_return_candidate';b=p.LoadBoard(str(D/'native/mainboard_revD.kicad_pcb'));base=p.LoadBoard(str(B/'native/mainboard_revD.kicad_pcb'));old={t.m_Uuid.AsString()for t in base.GetTracks()};xy=lambda q:[q.x/1e6,q.y/1e6];nets=['SENS_VIO_1V8','SENS_SCL','SENS_SDA','SENS_XSHUTDN_N','SENS_TRIG_IN'];rows={};gv=[t for t in b.GetTracks()if isinstance(t,p.PCB_VIA)and t.GetNetname()=='GND']
+for n in nets:
+ ts=[t for t in b.GetTracks()if t.GetNetname()==n and t.m_Uuid.AsString()not in old and not isinstance(t,p.PCB_VIA)];vs=[t for t in b.GetTracks()if t.GetNetname()==n and t.m_Uuid.AsString()not in old and isinstance(t,p.PCB_VIA)];tot=[t for t in b.GetTracks()if t.GetNetname()==n and not isinstance(t,p.PCB_VIA)]
+ r={'new_length_mm':sum(t.GetLength()/1e6 for t in ts),'new_tracks':len(ts),'new_vias':len(vs),'new_min_width_mm':min(t.GetWidth()/1e6 for t in ts),'new_short_segments_below_0p1mm':sum(t.GetLength()<100000 for t in ts),'whole_net_centerline_sum_mm':sum(t.GetLength()/1e6 for t in tot),'whole_net_min_width_mm':min(t.GetWidth()/1e6 for t in tot),'layers':{},'vias':[]}
+ for l in[p.F_Cu,p.In3_Cu,p.B_Cu]:r['layers'][b.GetLayerName(l)]=sum(t.GetLength()/1e6 for t in ts if t.GetLayer()==l)
+ for v in vs:
+  near=min(gv,key=lambda g:math.dist(xy(g.GetPosition()),xy(v.GetPosition())));r['vias'].append({'uuid':v.m_Uuid.AsString(),'xy':xy(v.GetPosition()),'diameter_mm':v.GetWidth(p.F_Cu)/1e6,'drill_mm':v.GetDrillValue()/1e6,'nearest_GND_via_xy':xy(near.GetPosition()),'nearest_GND_via_distance_mm':math.dist(xy(v.GetPosition()),xy(near.GetPosition())),'nominal_connector_body_hole_edge_gap_mm':90-v.GetPosition().y/1e6-v.GetDrillValue()/2e6 if .05<=v.GetPosition().x/1e6<=13.95 and v.GetPosition().y<90000000 else None,'tenting_front_back':[v.IsTented(p.F_Cu),v.IsTented(p.B_Cu)]})
+ if n=='SENS_VIO_1V8':r['new_track_20C_DC_resistance_ohm_nominal_not_actual_drop']=sum(1.724e-8*(t.GetLength()/1e9)/((t.GetWidth()/1e9)*(15.2e-6 if t.GetLayer()==p.In3_Cu else 35e-6))for t in ts)
+ rows[n]=r
+out={'status':'GEOMETRY_AND_NOMINAL_SENSITIVITY_NOT_PI_SI_OR_LOAD_QUALIFICATION','notes':['Lengths are centerline sums excluding pad travel and via barrel; full-net branches are not a unique delay path.','VIO resistance uses nominal copper and room-temperature resistivity, excludes via/contact/old routes; external head dynamic load and source budget unknown.','VIO is external head 1.8V reference supply, not 3V3 camera load.','All via tenting explicit; nominal body bore gap is not tolerance-backed underside insulation approval.'],'nets':rows};(D/'route_measurements.json').write_text(json.dumps(out,indent=2));print(json.dumps(rows,indent=2))

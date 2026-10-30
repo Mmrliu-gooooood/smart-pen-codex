@@ -1,0 +1,3624 @@
+{
+  "source_files_verified": 1378,
+  "accepted_native": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "NOFAB": true,
+  "prior_dependency_files": 264,
+  "software": {
+    "author_eight_host_groups": [
+      "PASS 251 assertions: portable capture and exact app-header bridge (SYNTHETIC ONLY)",
+      "PASS SC031GS actual patched source: checked ID, wrong sensor, I2C failures, enum bounds, mode-table failure propagation, VGA window readback",
+      "PASS actual sccb-ng checked-read source: no handle/null/error always rejected, success returns exact byte",
+      "PASS 12119 checks: actual reset + both mode tables bounded; malformed terminal contracts rejected before writes; every table write failure stops immediately (synthetic, no physical mode qualification)",
+      "PASS actual esp_camera + SC031GS sources: 7940 checks; wrong-ID/ID-read failure zero init writes, all109 init write failures + all6 read failures clean/no later writes, init/config/pixformat failures, bounded timeout API (HAL mocked)",
+      "PASS actual HAL source: 634 checks, 8 allocation failures + task/ISR failure cleanup + timeout budget/tick wrap/3 GDMA reset cap + single-fb CPU-copy ownership + HAL software timestamp ordering; mocked ll_cam, not hardware proof",
+      "PASS actual IDF-backend source (mock hardware ONLY): 74 checks; power failures, memory, ID/window reads, stop/held, bad timeval, timeout, single-boot retirement",
+      "PASS extended portable: 79353 assertions; exhaustive ROI 95..257 two-axis edge bounds + lease/timeout cleanup"
+    ],
+    "independent_table_modes": [
+      "PASS 26829 independent checks: exact-size prefixes, every early terminator, all nonzero terminal values, exact write order, positive-error early stop. Synthetic only.",
+      "PASS 26829 independent checks: exact-size prefixes, every early terminator, all nonzero terminal values, exact write order, positive-error early stop. Synthetic only."
+    ],
+    "SDK_builds": "Not rerun in packaging; preserved fresh independent two-build evidence",
+    "real_device": "Never run; defaultOFF and empty profile retained"
+  },
+  "native": {
+    "mems_layered_independent_review": {
+      "normal_optimized_equal": true,
+      "report": {
+        "status": "BOUNDED_RULE_AND_FINITE_COPPER_CHECK_ONLY_NOFAB",
+        "pcb_sha256": "619a1307b7eb18c27d34f323e511726d95b373cca4e4dd2c11e284f03501eaf0",
+        "unchanged_tracks_vias": 4757,
+        "unchanged_footprints": 102,
+        "pad_net_components_identical": true,
+        "all_plane_islands_reach_core": {
+          "GND": [
+            "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7/4/0",
+            "f6fd4956-22d0-45be-a9b3-b3927367a8b7/4/0",
+            "150778f4-2a31-499a-942d-1665696e50ac/10/0",
+            "fedaf716-0cd7-4d04-a732-236795bf7639/10/0"
+          ],
+          "3V3_AON": [
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0",
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/1",
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/2",
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/3",
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/4",
+            "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/5"
+          ]
+        },
+        "plane_areas": [
+          {
+            "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+            "net": "GND",
+            "layer": "In1.Cu",
+            "before_mm2": 988.782868872995,
+            "after_mm2": 992.782868872995,
+            "before_islands": 1,
+            "after_islands": 1
+          },
+          {
+            "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+            "net": "GND",
+            "layer": "In1.Cu",
+            "before_mm2": 201.784604183288,
+            "after_mm2": 201.784604183288,
+            "before_islands": 1,
+            "after_islands": 1
+          },
+          {
+            "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+            "net": "3V3_AON",
+            "layer": "In2.Cu",
+            "before_mm2": 711.993554018536,
+            "after_mm2": 715.993554018536,
+            "before_islands": 6,
+            "after_islands": 6
+          },
+          {
+            "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+            "net": "GND",
+            "layer": "In4.Cu",
+            "before_mm2": 986.847868872995,
+            "after_mm2": 990.847868872995,
+            "before_islands": 1,
+            "after_islands": 1
+          },
+          {
+            "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+            "net": "GND",
+            "layer": "In4.Cu",
+            "before_mm2": 201.784604183288,
+            "after_mm2": 201.784604183288,
+            "before_islands": 1,
+            "after_islands": 1
+          }
+        ],
+        "peripheral_F_pad_ground_links": "manual review remains open, not certified by central rule",
+        "manufacturer_layer_scope": "B allowed explicitly; inner reference geometry is project inference; no same-side central routing/via"
+      }
+    },
+    "imu_irq_independent_review": {
+      "normal_optimized_equal": true,
+      "report": {
+        "status": "IRQ_LAYERED_BOUNDED_CHECK_PASSED_NOFAB",
+        "pcb_sha256": "752f83d57fa15450862dcf1c3751041b49f9830fd2c541443d717c6e99d1b229",
+        "entities": 102,
+        "source_endpoints": 356,
+        "new_tracks_vias": 96,
+        "removed_old": 8,
+        "modified_old_via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+        "only_pad_merge": [
+          "PICKUP_INT_N"
+        ],
+        "all_plane_islands_in_core": {
+          "3V3_AON": 6,
+          "GND": 4
+        },
+        "remaining_IMU_I2C_missing": 4,
+        "MEMS_policy": "layered conditional; peripheral links remain manual review",
+        "pad_components": {
+          "ISO_GATE": [
+            [
+              "Q201.1",
+              "R201.2",
+              "R202.1"
+            ]
+          ],
+          "GND": [
+            [
+              "C101.2",
+              "C102.2",
+              "C103.2",
+              "C104.2",
+              "C105.2",
+              "C106.2",
+              "C107.2",
+              "C201.2",
+              "C202.2",
+              "C203.2",
+              "C204.2",
+              "C205.2",
+              "C206.2",
+              "C207.2",
+              "C208.2",
+              "C301.2",
+              "C302.2",
+              "C303.2",
+              "C501.2",
+              "C502.2",
+              "C503.2",
+              "C504.2",
+              "J106.3",
+              "J107.3",
+              "J108.3",
+              "J109.3",
+              "J301.2",
+              "Q201.2",
+              "R104.2",
+              "R105.2",
+              "R106.2",
+              "R107.2",
+              "R108.2",
+              "R109.2",
+              "R202.2",
+              "R205.2",
+              "R206.2",
+              "R207.2",
+              "R210.2",
+              "R211.2",
+              "R212.2",
+              "R213.2",
+              "R214.2",
+              "R215.2",
+              "R216.2",
+              "R217.2",
+              "R218.2",
+              "R219.2",
+              "R220.2",
+              "R221.2",
+              "R222.2",
+              "R223.2",
+              "R224.2",
+              "R225.2",
+              "R226.2",
+              "R227.2",
+              "R228.2",
+              "R229.2",
+              "R230.2",
+              "R231.2",
+              "R232.2",
+              "R233.2",
+              "R234.2",
+              "R235.2",
+              "R236.2",
+              "R237.2",
+              "R301.2",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U201.11",
+              "U201.12",
+              "U201.13",
+              "U201.2",
+              "U202.2",
+              "U202.3",
+              "U202.8",
+              "U202.9",
+              "U203.8",
+              "U203.9",
+              "U204.4",
+              "U301.2",
+              "U501.5",
+              "U501.6",
+              "U501.7",
+              "U501.8"
+            ],
+            [
+              "J103.2"
+            ],
+            [
+              "J104.3"
+            ],
+            [
+              "J105.2"
+            ],
+            [
+              "J202.1"
+            ],
+            [
+              "J202.10"
+            ],
+            [
+              "J202.13"
+            ],
+            [
+              "J202.17"
+            ],
+            [
+              "J202.24"
+            ],
+            [
+              "J202.4"
+            ],
+            [
+              "J202.7"
+            ]
+          ],
+          "CAM_ISO_OE_N": [
+            [
+              "Q201.3",
+              "R203.1",
+              "U201.22",
+              "U202.14",
+              "U202.15",
+              "U203.14",
+              "U203.15"
+            ]
+          ],
+          "CAM_RESET_UART_TX": [
+            [
+              "J104.1"
+            ],
+            [
+              "R222.1",
+              "U101.49",
+              "U203.5"
+            ]
+          ],
+          "CAM_BUS_EN": [
+            [
+              "JP202.1",
+              "R108.1",
+              "U101.37"
+            ]
+          ],
+          "SCCB_ENABLE_LINK": [
+            [
+              "JP202.2",
+              "R204.1"
+            ]
+          ],
+          "SCCB_EN_SAFE": [
+            [
+              "R204.2",
+              "R205.1",
+              "U204.5"
+            ]
+          ],
+          "CAM_XCLK": [
+            [
+              "R221.1",
+              "U101.43",
+              "U203.4"
+            ]
+          ],
+          "3V3_AON": [
+            [
+              "C102.1",
+              "C103.1",
+              "C104.1",
+              "C105.1",
+              "C201.1",
+              "C203.1",
+              "C205.1",
+              "C207.1",
+              "C301.1",
+              "C501.1",
+              "C502.1",
+              "C503.1",
+              "J106.2",
+              "R101.2",
+              "R102.2",
+              "R103.2",
+              "R203.2",
+              "R240.2",
+              "R241.2",
+              "R501.1",
+              "R502.1",
+              "R503.1",
+              "U101.2",
+              "U101.20",
+              "U101.3",
+              "U101.46",
+              "U101.55",
+              "U101.56",
+              "U201.1",
+              "U202.1",
+              "U203.1",
+              "U203.2",
+              "U203.3",
+              "U204.8",
+              "U301.1",
+              "U501.10",
+              "U501.2",
+              "U501.3",
+              "U501.9"
+            ]
+          ],
+          "AON_I2C_SDA": [
+            [
+              "R502.2"
+            ],
+            [
+              "U101.11"
+            ],
+            [
+              "U501.4"
+            ]
+          ],
+          "CAM_IO_EN": [
+            [
+              "JP201.1",
+              "R107.1",
+              "U101.48"
+            ]
+          ],
+          "IO_ENABLE_LINK": [
+            [
+              "JP201.2",
+              "R201.1"
+            ]
+          ],
+          "CAM_SDA": [
+            [
+              "R241.1",
+              "U101.45",
+              "U204.6"
+            ]
+          ],
+          "SENS_D5": [
+            [
+              "J202.9"
+            ],
+            [
+              "R229.1",
+              "U201.16"
+            ]
+          ],
+          "VBUS_5V": [
+            [
+              "J106.1"
+            ]
+          ],
+          "CAM_D7": [
+            [
+              "R217.1",
+              "U101.19",
+              "U201.10"
+            ]
+          ],
+          "RF_SIP": [
+            [
+              "C106.1",
+              "L101.1",
+              "U101.1"
+            ]
+          ],
+          "CHIP_EN": [
+            [
+              "C101.1",
+              "J108.1",
+              "R101.1",
+              "U101.4"
+            ]
+          ],
+          "BOOT_N": [
+            [
+              "J108.2",
+              "R102.1",
+              "U101.5"
+            ]
+          ],
+          "PICKUP_INT_N": [
+            [
+              "U101.6",
+              "U501.12"
+            ]
+          ],
+          "NIB_CONTACT_N": [
+            [
+              "C504.1",
+              "R503.2"
+            ],
+            [
+              "R504.1"
+            ],
+            [
+              "U101.7"
+            ]
+          ],
+          "STRAP_GPIO3": [
+            [
+              "R103.1",
+              "U101.8"
+            ]
+          ],
+          "BATTERY_ADC": [
+            [
+              "J105.1"
+            ],
+            [
+              "U101.9"
+            ]
+          ],
+          "AON_I2C_SCL": [
+            [
+              "R501.2"
+            ],
+            [
+              "U101.10"
+            ],
+            [
+              "U501.1"
+            ]
+          ],
+          "CAM_D0": [
+            [
+              "R210.1",
+              "U101.12",
+              "U201.3"
+            ]
+          ],
+          "CAM_D1": [
+            [
+              "R211.1",
+              "U101.13",
+              "U201.4"
+            ]
+          ],
+          "CAM_D2": [
+            [
+              "R212.1",
+              "U101.14",
+              "U201.5"
+            ]
+          ],
+          "CAM_D3": [
+            [
+              "R213.1",
+              "U101.15",
+              "U201.6"
+            ]
+          ],
+          "CAM_D4": [
+            [
+              "R214.1",
+              "U101.16",
+              "U201.7"
+            ]
+          ],
+          "CAM_D5": [
+            [
+              "R215.1",
+              "U101.17",
+              "U201.8"
+            ]
+          ],
+          "CAM_D6": [
+            [
+              "R216.1",
+              "U101.18",
+              "U201.9"
+            ]
+          ],
+          "CAM_PCLK": [
+            [
+              "R218.1",
+              "U101.21",
+              "U202.4"
+            ]
+          ],
+          "CAM_VSYNC": [
+            [
+              "R219.1",
+              "U101.22",
+              "U202.5"
+            ]
+          ],
+          "CAM_HREF": [
+            [
+              "R220.1",
+              "U101.23",
+              "U202.6"
+            ]
+          ],
+          "USB_EN1": [
+            [
+              "J107.1",
+              "U101.24"
+            ]
+          ],
+          "USB_DM_MCU": [
+            [
+              "R113.2",
+              "U101.25"
+            ]
+          ],
+          "USB_DP_MCU": [
+            [
+              "R112.2",
+              "U101.26"
+            ]
+          ],
+          "USB_EN2": [
+            [
+              "J107.2",
+              "U101.27"
+            ]
+          ],
+          "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+            [
+              "U101.28"
+            ]
+          ],
+          "unconnected-(U101-VDD_SPI-Pad29)": [
+            [
+              "U101.29"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad30)": [
+            [
+              "U101.30"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad31)": [
+            [
+              "U101.31"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad32)": [
+            [
+              "U101.32"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad33)": [
+            [
+              "U101.33"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad34)": [
+            [
+              "U101.34"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad35)": [
+            [
+              "U101.35"
+            ]
+          ],
+          "ILLUM_STROBE": [
+            [
+              "R109.1",
+              "U101.36"
+            ]
+          ],
+          "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+            [
+              "U101.38"
+            ]
+          ],
+          "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+            [
+              "U101.39"
+            ]
+          ],
+          "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+            [
+              "U101.40"
+            ]
+          ],
+          "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+            [
+              "U101.41"
+            ]
+          ],
+          "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+            [
+              "U101.42"
+            ]
+          ],
+          "CAM_SCL": [
+            [
+              "R240.1",
+              "U101.44",
+              "U204.7"
+            ]
+          ],
+          "CAM_PWR_EN": [
+            [
+              "R106.1",
+              "R302.1",
+              "TP301.1",
+              "U101.47"
+            ]
+          ],
+          "CAM_PWDN_UART_RX": [
+            [
+              "J104.2"
+            ],
+            [
+              "R223.1",
+              "U101.50",
+              "U203.6"
+            ]
+          ],
+          "STRAP_GPIO45": [
+            [
+              "R104.1",
+              "U101.51"
+            ]
+          ],
+          "STRAP_GPIO46": [
+            [
+              "R105.1",
+              "U101.52"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad53)": [
+            [
+              "U101.53"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad54)": [
+            [
+              "U101.54"
+            ]
+          ],
+          "SENS_D7": [
+            [
+              "J202.12"
+            ],
+            [
+              "R231.1",
+              "U201.14"
+            ]
+          ],
+          "SENS_D0": [
+            [
+              "J202.2"
+            ],
+            [
+              "R224.1",
+              "U201.21"
+            ]
+          ],
+          "SENS_TRIG_IN": [
+            [
+              "J202.20"
+            ],
+            [
+              "R237.1",
+              "U203.11"
+            ]
+          ],
+          "SENS_VSYNC": [
+            [
+              "J202.15"
+            ],
+            [
+              "R233.1",
+              "U202.12"
+            ]
+          ],
+          "SENS_VIO_1V8": [
+            [
+              "C202.1",
+              "C204.1",
+              "C206.1",
+              "C208.1",
+              "R242.2",
+              "R243.2",
+              "U201.23",
+              "U201.24",
+              "U202.16",
+              "U203.16",
+              "U204.1"
+            ],
+            [
+              "J202.23"
+            ]
+          ],
+          "RF_ANT": [
+            [
+              "AE101.1",
+              "C107.1",
+              "L101.2"
+            ]
+          ],
+          "SENS_D2": [
+            [
+              "J202.5"
+            ],
+            [
+              "R226.1",
+              "U201.19"
+            ]
+          ],
+          "SENS_D6": [
+            [
+              "J202.11"
+            ],
+            [
+              "R230.1",
+              "U201.15"
+            ]
+          ],
+          "SENS_D4": [
+            [
+              "J202.8"
+            ],
+            [
+              "R228.1",
+              "U201.17"
+            ]
+          ],
+          "SENS_D3": [
+            [
+              "J202.6"
+            ],
+            [
+              "R227.1",
+              "U201.18"
+            ]
+          ],
+          "SENS_D1": [
+            [
+              "J202.3"
+            ],
+            [
+              "R225.1",
+              "U201.20"
+            ]
+          ],
+          "UNUSED_B_INPUT": [
+            [
+              "R206.1",
+              "U202.10"
+            ]
+          ],
+          "SENS_SDA": [
+            [
+              "J202.22"
+            ],
+            [
+              "R243.1",
+              "U204.3"
+            ]
+          ],
+          "USB_DP": [
+            [
+              "J109.1",
+              "R112.1"
+            ]
+          ],
+          "USB_DM": [
+            [
+              "J109.2",
+              "R113.1"
+            ]
+          ],
+          "SENS_EXTCLK": [
+            [
+              "J202.18"
+            ],
+            [
+              "R235.1",
+              "U203.13"
+            ]
+          ],
+          "UNUSED_A_INPUT": [
+            [
+              "R207.1",
+              "U203.7"
+            ]
+          ],
+          "SENS_SCL": [
+            [
+              "J202.21"
+            ],
+            [
+              "R242.1",
+              "U204.2"
+            ]
+          ],
+          "unconnected-(U203-2B2-Pad10)": [
+            [
+              "U203.10"
+            ]
+          ],
+          "SENS_XSHUTDN_N": [
+            [
+              "J202.19"
+            ],
+            [
+              "R236.1",
+              "U203.12"
+            ]
+          ],
+          "unconnected-(U501-INT2-Pad11)": [
+            [
+              "U501.11"
+            ]
+          ],
+          "SENS_HREF": [
+            [
+              "J202.16"
+            ],
+            [
+              "R234.1",
+              "U202.11"
+            ]
+          ],
+          "SENS_PCLK": [
+            [
+              "J202.14"
+            ],
+            [
+              "R232.1",
+              "U202.13"
+            ]
+          ],
+          "CAM_3V3_SW": [
+            [
+              "J301.1",
+              "JP301.2"
+            ]
+          ],
+          "unconnected-(AE101-Pad2)": [
+            [
+              "AE101.2"
+            ]
+          ],
+          "unconnected-(U202-2A2-Pad7)": [
+            [
+              "U202.7"
+            ]
+          ],
+          "CAM_3V3_PRELINK": [
+            [
+              "C302.1",
+              "JP301.1",
+              "R303.1",
+              "U301.6"
+            ]
+          ],
+          "CAM_QOD": [
+            [
+              "R303.2",
+              "U301.5"
+            ]
+          ],
+          "CAM_ON": [
+            [
+              "R301.1",
+              "R302.2",
+              "U301.3"
+            ]
+          ],
+          "CAM_CT": [
+            [
+              "C303.1",
+              "U301.4"
+            ]
+          ],
+          "CONTACT": [
+            [
+              "J103.1"
+            ],
+            [
+              "R504.2"
+            ]
+          ],
+          "": [
+            [
+              "J202."
+            ],
+            [
+              "J202."
+            ]
+          ]
+        }
+      }
+    },
+    "imu_i2c_independent_review": {
+      "normal_optimized_equal": true,
+      "report": {
+        "status": "I2C_TWO_NET_STATIC_CHECK_PASSED_NOFAB",
+        "pcb_sha256": "6b44e149edf7e3b6c843375125a71247ece6c664eb531686dd3b451e1586ee71",
+        "entities": 102,
+        "source_endpoints": 356,
+        "new_tracks_vias": 309,
+        "removed_old": 4,
+        "only_pad_merges": [
+          "AON_I2C_SCL",
+          "AON_I2C_SDA"
+        ],
+        "all_plane_islands_in_core": {
+          "3V3_AON": 6,
+          "GND": 4
+        },
+        "remaining_IMU_I2C_missing": 0,
+        "MEMS_policy": "layered conditional; peripheral links remain manual review",
+        "pad_components": {
+          "ISO_GATE": [
+            [
+              "Q201.1",
+              "R201.2",
+              "R202.1"
+            ]
+          ],
+          "GND": [
+            [
+              "C101.2",
+              "C102.2",
+              "C103.2",
+              "C104.2",
+              "C105.2",
+              "C106.2",
+              "C107.2",
+              "C201.2",
+              "C202.2",
+              "C203.2",
+              "C204.2",
+              "C205.2",
+              "C206.2",
+              "C207.2",
+              "C208.2",
+              "C301.2",
+              "C302.2",
+              "C303.2",
+              "C501.2",
+              "C502.2",
+              "C503.2",
+              "C504.2",
+              "J106.3",
+              "J107.3",
+              "J108.3",
+              "J109.3",
+              "J301.2",
+              "Q201.2",
+              "R104.2",
+              "R105.2",
+              "R106.2",
+              "R107.2",
+              "R108.2",
+              "R109.2",
+              "R202.2",
+              "R205.2",
+              "R206.2",
+              "R207.2",
+              "R210.2",
+              "R211.2",
+              "R212.2",
+              "R213.2",
+              "R214.2",
+              "R215.2",
+              "R216.2",
+              "R217.2",
+              "R218.2",
+              "R219.2",
+              "R220.2",
+              "R221.2",
+              "R222.2",
+              "R223.2",
+              "R224.2",
+              "R225.2",
+              "R226.2",
+              "R227.2",
+              "R228.2",
+              "R229.2",
+              "R230.2",
+              "R231.2",
+              "R232.2",
+              "R233.2",
+              "R234.2",
+              "R235.2",
+              "R236.2",
+              "R237.2",
+              "R301.2",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U201.11",
+              "U201.12",
+              "U201.13",
+              "U201.2",
+              "U202.2",
+              "U202.3",
+              "U202.8",
+              "U202.9",
+              "U203.8",
+              "U203.9",
+              "U204.4",
+              "U301.2",
+              "U501.5",
+              "U501.6",
+              "U501.7",
+              "U501.8"
+            ],
+            [
+              "J103.2"
+            ],
+            [
+              "J104.3"
+            ],
+            [
+              "J105.2"
+            ],
+            [
+              "J202.1"
+            ],
+            [
+              "J202.10"
+            ],
+            [
+              "J202.13"
+            ],
+            [
+              "J202.17"
+            ],
+            [
+              "J202.24"
+            ],
+            [
+              "J202.4"
+            ],
+            [
+              "J202.7"
+            ]
+          ],
+          "CAM_ISO_OE_N": [
+            [
+              "Q201.3",
+              "R203.1",
+              "U201.22",
+              "U202.14",
+              "U202.15",
+              "U203.14",
+              "U203.15"
+            ]
+          ],
+          "CAM_RESET_UART_TX": [
+            [
+              "J104.1"
+            ],
+            [
+              "R222.1",
+              "U101.49",
+              "U203.5"
+            ]
+          ],
+          "CAM_BUS_EN": [
+            [
+              "JP202.1",
+              "R108.1",
+              "U101.37"
+            ]
+          ],
+          "SCCB_ENABLE_LINK": [
+            [
+              "JP202.2",
+              "R204.1"
+            ]
+          ],
+          "SCCB_EN_SAFE": [
+            [
+              "R204.2",
+              "R205.1",
+              "U204.5"
+            ]
+          ],
+          "CAM_XCLK": [
+            [
+              "R221.1",
+              "U101.43",
+              "U203.4"
+            ]
+          ],
+          "3V3_AON": [
+            [
+              "C102.1",
+              "C103.1",
+              "C104.1",
+              "C105.1",
+              "C201.1",
+              "C203.1",
+              "C205.1",
+              "C207.1",
+              "C301.1",
+              "C501.1",
+              "C502.1",
+              "C503.1",
+              "J106.2",
+              "R101.2",
+              "R102.2",
+              "R103.2",
+              "R203.2",
+              "R240.2",
+              "R241.2",
+              "R501.1",
+              "R502.1",
+              "R503.1",
+              "U101.2",
+              "U101.20",
+              "U101.3",
+              "U101.46",
+              "U101.55",
+              "U101.56",
+              "U201.1",
+              "U202.1",
+              "U203.1",
+              "U203.2",
+              "U203.3",
+              "U204.8",
+              "U301.1",
+              "U501.10",
+              "U501.2",
+              "U501.3",
+              "U501.9"
+            ]
+          ],
+          "AON_I2C_SDA": [
+            [
+              "R502.2",
+              "U101.11",
+              "U501.4"
+            ]
+          ],
+          "CAM_IO_EN": [
+            [
+              "JP201.1",
+              "R107.1",
+              "U101.48"
+            ]
+          ],
+          "IO_ENABLE_LINK": [
+            [
+              "JP201.2",
+              "R201.1"
+            ]
+          ],
+          "CAM_SDA": [
+            [
+              "R241.1",
+              "U101.45",
+              "U204.6"
+            ]
+          ],
+          "SENS_D5": [
+            [
+              "J202.9"
+            ],
+            [
+              "R229.1",
+              "U201.16"
+            ]
+          ],
+          "VBUS_5V": [
+            [
+              "J106.1"
+            ]
+          ],
+          "CAM_D7": [
+            [
+              "R217.1",
+              "U101.19",
+              "U201.10"
+            ]
+          ],
+          "RF_SIP": [
+            [
+              "C106.1",
+              "L101.1",
+              "U101.1"
+            ]
+          ],
+          "CHIP_EN": [
+            [
+              "C101.1",
+              "J108.1",
+              "R101.1",
+              "U101.4"
+            ]
+          ],
+          "BOOT_N": [
+            [
+              "J108.2",
+              "R102.1",
+              "U101.5"
+            ]
+          ],
+          "PICKUP_INT_N": [
+            [
+              "U101.6",
+              "U501.12"
+            ]
+          ],
+          "NIB_CONTACT_N": [
+            [
+              "C504.1",
+              "R503.2"
+            ],
+            [
+              "R504.1"
+            ],
+            [
+              "U101.7"
+            ]
+          ],
+          "STRAP_GPIO3": [
+            [
+              "R103.1",
+              "U101.8"
+            ]
+          ],
+          "BATTERY_ADC": [
+            [
+              "J105.1"
+            ],
+            [
+              "U101.9"
+            ]
+          ],
+          "AON_I2C_SCL": [
+            [
+              "R501.2",
+              "U101.10",
+              "U501.1"
+            ]
+          ],
+          "CAM_D0": [
+            [
+              "R210.1",
+              "U101.12",
+              "U201.3"
+            ]
+          ],
+          "CAM_D1": [
+            [
+              "R211.1",
+              "U101.13",
+              "U201.4"
+            ]
+          ],
+          "CAM_D2": [
+            [
+              "R212.1",
+              "U101.14",
+              "U201.5"
+            ]
+          ],
+          "CAM_D3": [
+            [
+              "R213.1",
+              "U101.15",
+              "U201.6"
+            ]
+          ],
+          "CAM_D4": [
+            [
+              "R214.1",
+              "U101.16",
+              "U201.7"
+            ]
+          ],
+          "CAM_D5": [
+            [
+              "R215.1",
+              "U101.17",
+              "U201.8"
+            ]
+          ],
+          "CAM_D6": [
+            [
+              "R216.1",
+              "U101.18",
+              "U201.9"
+            ]
+          ],
+          "CAM_PCLK": [
+            [
+              "R218.1",
+              "U101.21",
+              "U202.4"
+            ]
+          ],
+          "CAM_VSYNC": [
+            [
+              "R219.1",
+              "U101.22",
+              "U202.5"
+            ]
+          ],
+          "CAM_HREF": [
+            [
+              "R220.1",
+              "U101.23",
+              "U202.6"
+            ]
+          ],
+          "USB_EN1": [
+            [
+              "J107.1",
+              "U101.24"
+            ]
+          ],
+          "USB_DM_MCU": [
+            [
+              "R113.2",
+              "U101.25"
+            ]
+          ],
+          "USB_DP_MCU": [
+            [
+              "R112.2",
+              "U101.26"
+            ]
+          ],
+          "USB_EN2": [
+            [
+              "J107.2",
+              "U101.27"
+            ]
+          ],
+          "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+            [
+              "U101.28"
+            ]
+          ],
+          "unconnected-(U101-VDD_SPI-Pad29)": [
+            [
+              "U101.29"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad30)": [
+            [
+              "U101.30"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad31)": [
+            [
+              "U101.31"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad32)": [
+            [
+              "U101.32"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad33)": [
+            [
+              "U101.33"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad34)": [
+            [
+              "U101.34"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad35)": [
+            [
+              "U101.35"
+            ]
+          ],
+          "ILLUM_STROBE": [
+            [
+              "R109.1",
+              "U101.36"
+            ]
+          ],
+          "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+            [
+              "U101.38"
+            ]
+          ],
+          "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+            [
+              "U101.39"
+            ]
+          ],
+          "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+            [
+              "U101.40"
+            ]
+          ],
+          "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+            [
+              "U101.41"
+            ]
+          ],
+          "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+            [
+              "U101.42"
+            ]
+          ],
+          "CAM_SCL": [
+            [
+              "R240.1",
+              "U101.44",
+              "U204.7"
+            ]
+          ],
+          "CAM_PWR_EN": [
+            [
+              "R106.1",
+              "R302.1",
+              "TP301.1",
+              "U101.47"
+            ]
+          ],
+          "CAM_PWDN_UART_RX": [
+            [
+              "J104.2"
+            ],
+            [
+              "R223.1",
+              "U101.50",
+              "U203.6"
+            ]
+          ],
+          "STRAP_GPIO45": [
+            [
+              "R104.1",
+              "U101.51"
+            ]
+          ],
+          "STRAP_GPIO46": [
+            [
+              "R105.1",
+              "U101.52"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad53)": [
+            [
+              "U101.53"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad54)": [
+            [
+              "U101.54"
+            ]
+          ],
+          "SENS_D7": [
+            [
+              "J202.12"
+            ],
+            [
+              "R231.1",
+              "U201.14"
+            ]
+          ],
+          "SENS_D0": [
+            [
+              "J202.2"
+            ],
+            [
+              "R224.1",
+              "U201.21"
+            ]
+          ],
+          "SENS_TRIG_IN": [
+            [
+              "J202.20"
+            ],
+            [
+              "R237.1",
+              "U203.11"
+            ]
+          ],
+          "SENS_VSYNC": [
+            [
+              "J202.15"
+            ],
+            [
+              "R233.1",
+              "U202.12"
+            ]
+          ],
+          "SENS_VIO_1V8": [
+            [
+              "C202.1",
+              "C204.1",
+              "C206.1",
+              "C208.1",
+              "R242.2",
+              "R243.2",
+              "U201.23",
+              "U201.24",
+              "U202.16",
+              "U203.16",
+              "U204.1"
+            ],
+            [
+              "J202.23"
+            ]
+          ],
+          "RF_ANT": [
+            [
+              "AE101.1",
+              "C107.1",
+              "L101.2"
+            ]
+          ],
+          "SENS_D2": [
+            [
+              "J202.5"
+            ],
+            [
+              "R226.1",
+              "U201.19"
+            ]
+          ],
+          "SENS_D6": [
+            [
+              "J202.11"
+            ],
+            [
+              "R230.1",
+              "U201.15"
+            ]
+          ],
+          "SENS_D4": [
+            [
+              "J202.8"
+            ],
+            [
+              "R228.1",
+              "U201.17"
+            ]
+          ],
+          "SENS_D3": [
+            [
+              "J202.6"
+            ],
+            [
+              "R227.1",
+              "U201.18"
+            ]
+          ],
+          "SENS_D1": [
+            [
+              "J202.3"
+            ],
+            [
+              "R225.1",
+              "U201.20"
+            ]
+          ],
+          "UNUSED_B_INPUT": [
+            [
+              "R206.1",
+              "U202.10"
+            ]
+          ],
+          "SENS_SDA": [
+            [
+              "J202.22"
+            ],
+            [
+              "R243.1",
+              "U204.3"
+            ]
+          ],
+          "USB_DP": [
+            [
+              "J109.1",
+              "R112.1"
+            ]
+          ],
+          "USB_DM": [
+            [
+              "J109.2",
+              "R113.1"
+            ]
+          ],
+          "SENS_EXTCLK": [
+            [
+              "J202.18"
+            ],
+            [
+              "R235.1",
+              "U203.13"
+            ]
+          ],
+          "UNUSED_A_INPUT": [
+            [
+              "R207.1",
+              "U203.7"
+            ]
+          ],
+          "SENS_SCL": [
+            [
+              "J202.21"
+            ],
+            [
+              "R242.1",
+              "U204.2"
+            ]
+          ],
+          "unconnected-(U203-2B2-Pad10)": [
+            [
+              "U203.10"
+            ]
+          ],
+          "SENS_XSHUTDN_N": [
+            [
+              "J202.19"
+            ],
+            [
+              "R236.1",
+              "U203.12"
+            ]
+          ],
+          "unconnected-(U501-INT2-Pad11)": [
+            [
+              "U501.11"
+            ]
+          ],
+          "SENS_HREF": [
+            [
+              "J202.16"
+            ],
+            [
+              "R234.1",
+              "U202.11"
+            ]
+          ],
+          "SENS_PCLK": [
+            [
+              "J202.14"
+            ],
+            [
+              "R232.1",
+              "U202.13"
+            ]
+          ],
+          "CAM_3V3_SW": [
+            [
+              "J301.1",
+              "JP301.2"
+            ]
+          ],
+          "unconnected-(AE101-Pad2)": [
+            [
+              "AE101.2"
+            ]
+          ],
+          "unconnected-(U202-2A2-Pad7)": [
+            [
+              "U202.7"
+            ]
+          ],
+          "CAM_3V3_PRELINK": [
+            [
+              "C302.1",
+              "JP301.1",
+              "R303.1",
+              "U301.6"
+            ]
+          ],
+          "CAM_QOD": [
+            [
+              "R303.2",
+              "U301.5"
+            ]
+          ],
+          "CAM_ON": [
+            [
+              "R301.1",
+              "R302.2",
+              "U301.3"
+            ]
+          ],
+          "CAM_CT": [
+            [
+              "C303.1",
+              "U301.4"
+            ]
+          ],
+          "CONTACT": [
+            [
+              "J103.1"
+            ],
+            [
+              "R504.2"
+            ]
+          ],
+          "": [
+            [
+              "J202."
+            ],
+            [
+              "J202."
+            ]
+          ]
+        }
+      }
+    },
+    "j202_ground_independent_review": {
+      "normal_optimized_equal": true,
+      "report": {
+        "status": "J202_SEVEN_GROUNDS_STATIC_CHECK_NOFAB",
+        "pcb_sha256": "4994ba2d8810b2f44434bd43f7cecfaab16aa601a0837c9923883613583554f6",
+        "entities": 102,
+        "source_endpoints": 356,
+        "new_tracks_vias": 18,
+        "removed_old": 0,
+        "only_pad_merges": [
+          "GND"
+        ],
+        "all_plane_islands_in_core": {
+          "3V3_AON": 6,
+          "GND": 4
+        },
+        "J202_GND_pins_in_core": [
+          "1",
+          "10",
+          "13",
+          "17",
+          "24",
+          "4",
+          "7"
+        ],
+        "pad_components": {
+          "ISO_GATE": [
+            [
+              "Q201.1",
+              "R201.2",
+              "R202.1"
+            ]
+          ],
+          "GND": [
+            [
+              "C101.2",
+              "C102.2",
+              "C103.2",
+              "C104.2",
+              "C105.2",
+              "C106.2",
+              "C107.2",
+              "C201.2",
+              "C202.2",
+              "C203.2",
+              "C204.2",
+              "C205.2",
+              "C206.2",
+              "C207.2",
+              "C208.2",
+              "C301.2",
+              "C302.2",
+              "C303.2",
+              "C501.2",
+              "C502.2",
+              "C503.2",
+              "C504.2",
+              "J106.3",
+              "J107.3",
+              "J108.3",
+              "J109.3",
+              "J202.1",
+              "J202.10",
+              "J202.13",
+              "J202.17",
+              "J202.24",
+              "J202.4",
+              "J202.7",
+              "J301.2",
+              "Q201.2",
+              "R104.2",
+              "R105.2",
+              "R106.2",
+              "R107.2",
+              "R108.2",
+              "R109.2",
+              "R202.2",
+              "R205.2",
+              "R206.2",
+              "R207.2",
+              "R210.2",
+              "R211.2",
+              "R212.2",
+              "R213.2",
+              "R214.2",
+              "R215.2",
+              "R216.2",
+              "R217.2",
+              "R218.2",
+              "R219.2",
+              "R220.2",
+              "R221.2",
+              "R222.2",
+              "R223.2",
+              "R224.2",
+              "R225.2",
+              "R226.2",
+              "R227.2",
+              "R228.2",
+              "R229.2",
+              "R230.2",
+              "R231.2",
+              "R232.2",
+              "R233.2",
+              "R234.2",
+              "R235.2",
+              "R236.2",
+              "R237.2",
+              "R301.2",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U201.11",
+              "U201.12",
+              "U201.13",
+              "U201.2",
+              "U202.2",
+              "U202.3",
+              "U202.8",
+              "U202.9",
+              "U203.8",
+              "U203.9",
+              "U204.4",
+              "U301.2",
+              "U501.5",
+              "U501.6",
+              "U501.7",
+              "U501.8"
+            ],
+            [
+              "J103.2"
+            ],
+            [
+              "J104.3"
+            ],
+            [
+              "J105.2"
+            ]
+          ],
+          "CAM_ISO_OE_N": [
+            [
+              "Q201.3",
+              "R203.1",
+              "U201.22",
+              "U202.14",
+              "U202.15",
+              "U203.14",
+              "U203.15"
+            ]
+          ],
+          "CAM_RESET_UART_TX": [
+            [
+              "J104.1"
+            ],
+            [
+              "R222.1",
+              "U101.49",
+              "U203.5"
+            ]
+          ],
+          "CAM_BUS_EN": [
+            [
+              "JP202.1",
+              "R108.1",
+              "U101.37"
+            ]
+          ],
+          "SCCB_ENABLE_LINK": [
+            [
+              "JP202.2",
+              "R204.1"
+            ]
+          ],
+          "SCCB_EN_SAFE": [
+            [
+              "R204.2",
+              "R205.1",
+              "U204.5"
+            ]
+          ],
+          "CAM_XCLK": [
+            [
+              "R221.1",
+              "U101.43",
+              "U203.4"
+            ]
+          ],
+          "3V3_AON": [
+            [
+              "C102.1",
+              "C103.1",
+              "C104.1",
+              "C105.1",
+              "C201.1",
+              "C203.1",
+              "C205.1",
+              "C207.1",
+              "C301.1",
+              "C501.1",
+              "C502.1",
+              "C503.1",
+              "J106.2",
+              "R101.2",
+              "R102.2",
+              "R103.2",
+              "R203.2",
+              "R240.2",
+              "R241.2",
+              "R501.1",
+              "R502.1",
+              "R503.1",
+              "U101.2",
+              "U101.20",
+              "U101.3",
+              "U101.46",
+              "U101.55",
+              "U101.56",
+              "U201.1",
+              "U202.1",
+              "U203.1",
+              "U203.2",
+              "U203.3",
+              "U204.8",
+              "U301.1",
+              "U501.10",
+              "U501.2",
+              "U501.3",
+              "U501.9"
+            ]
+          ],
+          "AON_I2C_SDA": [
+            [
+              "R502.2",
+              "U101.11",
+              "U501.4"
+            ]
+          ],
+          "CAM_IO_EN": [
+            [
+              "JP201.1",
+              "R107.1",
+              "U101.48"
+            ]
+          ],
+          "IO_ENABLE_LINK": [
+            [
+              "JP201.2",
+              "R201.1"
+            ]
+          ],
+          "CAM_SDA": [
+            [
+              "R241.1",
+              "U101.45",
+              "U204.6"
+            ]
+          ],
+          "SENS_D5": [
+            [
+              "J202.9"
+            ],
+            [
+              "R229.1",
+              "U201.16"
+            ]
+          ],
+          "VBUS_5V": [
+            [
+              "J106.1"
+            ]
+          ],
+          "CAM_D7": [
+            [
+              "R217.1",
+              "U101.19",
+              "U201.10"
+            ]
+          ],
+          "RF_SIP": [
+            [
+              "C106.1",
+              "L101.1",
+              "U101.1"
+            ]
+          ],
+          "CHIP_EN": [
+            [
+              "C101.1",
+              "J108.1",
+              "R101.1",
+              "U101.4"
+            ]
+          ],
+          "BOOT_N": [
+            [
+              "J108.2",
+              "R102.1",
+              "U101.5"
+            ]
+          ],
+          "PICKUP_INT_N": [
+            [
+              "U101.6",
+              "U501.12"
+            ]
+          ],
+          "NIB_CONTACT_N": [
+            [
+              "C504.1",
+              "R503.2"
+            ],
+            [
+              "R504.1"
+            ],
+            [
+              "U101.7"
+            ]
+          ],
+          "STRAP_GPIO3": [
+            [
+              "R103.1",
+              "U101.8"
+            ]
+          ],
+          "BATTERY_ADC": [
+            [
+              "J105.1"
+            ],
+            [
+              "U101.9"
+            ]
+          ],
+          "AON_I2C_SCL": [
+            [
+              "R501.2",
+              "U101.10",
+              "U501.1"
+            ]
+          ],
+          "CAM_D0": [
+            [
+              "R210.1",
+              "U101.12",
+              "U201.3"
+            ]
+          ],
+          "CAM_D1": [
+            [
+              "R211.1",
+              "U101.13",
+              "U201.4"
+            ]
+          ],
+          "CAM_D2": [
+            [
+              "R212.1",
+              "U101.14",
+              "U201.5"
+            ]
+          ],
+          "CAM_D3": [
+            [
+              "R213.1",
+              "U101.15",
+              "U201.6"
+            ]
+          ],
+          "CAM_D4": [
+            [
+              "R214.1",
+              "U101.16",
+              "U201.7"
+            ]
+          ],
+          "CAM_D5": [
+            [
+              "R215.1",
+              "U101.17",
+              "U201.8"
+            ]
+          ],
+          "CAM_D6": [
+            [
+              "R216.1",
+              "U101.18",
+              "U201.9"
+            ]
+          ],
+          "CAM_PCLK": [
+            [
+              "R218.1",
+              "U101.21",
+              "U202.4"
+            ]
+          ],
+          "CAM_VSYNC": [
+            [
+              "R219.1",
+              "U101.22",
+              "U202.5"
+            ]
+          ],
+          "CAM_HREF": [
+            [
+              "R220.1",
+              "U101.23",
+              "U202.6"
+            ]
+          ],
+          "USB_EN1": [
+            [
+              "J107.1",
+              "U101.24"
+            ]
+          ],
+          "USB_DM_MCU": [
+            [
+              "R113.2",
+              "U101.25"
+            ]
+          ],
+          "USB_DP_MCU": [
+            [
+              "R112.2",
+              "U101.26"
+            ]
+          ],
+          "USB_EN2": [
+            [
+              "J107.2",
+              "U101.27"
+            ]
+          ],
+          "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+            [
+              "U101.28"
+            ]
+          ],
+          "unconnected-(U101-VDD_SPI-Pad29)": [
+            [
+              "U101.29"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad30)": [
+            [
+              "U101.30"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad31)": [
+            [
+              "U101.31"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad32)": [
+            [
+              "U101.32"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad33)": [
+            [
+              "U101.33"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad34)": [
+            [
+              "U101.34"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad35)": [
+            [
+              "U101.35"
+            ]
+          ],
+          "ILLUM_STROBE": [
+            [
+              "R109.1",
+              "U101.36"
+            ]
+          ],
+          "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+            [
+              "U101.38"
+            ]
+          ],
+          "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+            [
+              "U101.39"
+            ]
+          ],
+          "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+            [
+              "U101.40"
+            ]
+          ],
+          "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+            [
+              "U101.41"
+            ]
+          ],
+          "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+            [
+              "U101.42"
+            ]
+          ],
+          "CAM_SCL": [
+            [
+              "R240.1",
+              "U101.44",
+              "U204.7"
+            ]
+          ],
+          "CAM_PWR_EN": [
+            [
+              "R106.1",
+              "R302.1",
+              "TP301.1",
+              "U101.47"
+            ]
+          ],
+          "CAM_PWDN_UART_RX": [
+            [
+              "J104.2"
+            ],
+            [
+              "R223.1",
+              "U101.50",
+              "U203.6"
+            ]
+          ],
+          "STRAP_GPIO45": [
+            [
+              "R104.1",
+              "U101.51"
+            ]
+          ],
+          "STRAP_GPIO46": [
+            [
+              "R105.1",
+              "U101.52"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad53)": [
+            [
+              "U101.53"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad54)": [
+            [
+              "U101.54"
+            ]
+          ],
+          "SENS_D7": [
+            [
+              "J202.12"
+            ],
+            [
+              "R231.1",
+              "U201.14"
+            ]
+          ],
+          "SENS_D0": [
+            [
+              "J202.2"
+            ],
+            [
+              "R224.1",
+              "U201.21"
+            ]
+          ],
+          "SENS_TRIG_IN": [
+            [
+              "J202.20"
+            ],
+            [
+              "R237.1",
+              "U203.11"
+            ]
+          ],
+          "SENS_VSYNC": [
+            [
+              "J202.15"
+            ],
+            [
+              "R233.1",
+              "U202.12"
+            ]
+          ],
+          "SENS_VIO_1V8": [
+            [
+              "C202.1",
+              "C204.1",
+              "C206.1",
+              "C208.1",
+              "R242.2",
+              "R243.2",
+              "U201.23",
+              "U201.24",
+              "U202.16",
+              "U203.16",
+              "U204.1"
+            ],
+            [
+              "J202.23"
+            ]
+          ],
+          "RF_ANT": [
+            [
+              "AE101.1",
+              "C107.1",
+              "L101.2"
+            ]
+          ],
+          "SENS_D2": [
+            [
+              "J202.5"
+            ],
+            [
+              "R226.1",
+              "U201.19"
+            ]
+          ],
+          "SENS_D6": [
+            [
+              "J202.11"
+            ],
+            [
+              "R230.1",
+              "U201.15"
+            ]
+          ],
+          "SENS_D4": [
+            [
+              "J202.8"
+            ],
+            [
+              "R228.1",
+              "U201.17"
+            ]
+          ],
+          "SENS_D3": [
+            [
+              "J202.6"
+            ],
+            [
+              "R227.1",
+              "U201.18"
+            ]
+          ],
+          "SENS_D1": [
+            [
+              "J202.3"
+            ],
+            [
+              "R225.1",
+              "U201.20"
+            ]
+          ],
+          "UNUSED_B_INPUT": [
+            [
+              "R206.1",
+              "U202.10"
+            ]
+          ],
+          "SENS_SDA": [
+            [
+              "J202.22"
+            ],
+            [
+              "R243.1",
+              "U204.3"
+            ]
+          ],
+          "USB_DP": [
+            [
+              "J109.1",
+              "R112.1"
+            ]
+          ],
+          "USB_DM": [
+            [
+              "J109.2",
+              "R113.1"
+            ]
+          ],
+          "SENS_EXTCLK": [
+            [
+              "J202.18"
+            ],
+            [
+              "R235.1",
+              "U203.13"
+            ]
+          ],
+          "UNUSED_A_INPUT": [
+            [
+              "R207.1",
+              "U203.7"
+            ]
+          ],
+          "SENS_SCL": [
+            [
+              "J202.21"
+            ],
+            [
+              "R242.1",
+              "U204.2"
+            ]
+          ],
+          "unconnected-(U203-2B2-Pad10)": [
+            [
+              "U203.10"
+            ]
+          ],
+          "SENS_XSHUTDN_N": [
+            [
+              "J202.19"
+            ],
+            [
+              "R236.1",
+              "U203.12"
+            ]
+          ],
+          "unconnected-(U501-INT2-Pad11)": [
+            [
+              "U501.11"
+            ]
+          ],
+          "SENS_HREF": [
+            [
+              "J202.16"
+            ],
+            [
+              "R234.1",
+              "U202.11"
+            ]
+          ],
+          "SENS_PCLK": [
+            [
+              "J202.14"
+            ],
+            [
+              "R232.1",
+              "U202.13"
+            ]
+          ],
+          "CAM_3V3_SW": [
+            [
+              "J301.1",
+              "JP301.2"
+            ]
+          ],
+          "unconnected-(AE101-Pad2)": [
+            [
+              "AE101.2"
+            ]
+          ],
+          "unconnected-(U202-2A2-Pad7)": [
+            [
+              "U202.7"
+            ]
+          ],
+          "CAM_3V3_PRELINK": [
+            [
+              "C302.1",
+              "JP301.1",
+              "R303.1",
+              "U301.6"
+            ]
+          ],
+          "CAM_QOD": [
+            [
+              "R303.2",
+              "U301.5"
+            ]
+          ],
+          "CAM_ON": [
+            [
+              "R301.1",
+              "R302.2",
+              "U301.3"
+            ]
+          ],
+          "CAM_CT": [
+            [
+              "C303.1",
+              "U301.4"
+            ]
+          ],
+          "CONTACT": [
+            [
+              "J103.1"
+            ],
+            [
+              "R504.2"
+            ]
+          ],
+          "": [
+            [
+              "J202."
+            ],
+            [
+              "J202."
+            ]
+          ]
+        }
+      }
+    },
+    "j202_low_speed_independent_review": {
+      "normal_optimized_equal": true,
+      "report": {
+        "status": "J202_FIVE_REFERENCE_CONTROL_NETS_STATIC_NOFAB",
+        "pcb_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+        "entities": 102,
+        "source_endpoints": 356,
+        "new_tracks_vias": 149,
+        "removed_old": 0,
+        "only_pad_merges": [
+          "SENS_SCL",
+          "SENS_SDA",
+          "SENS_TRIG_IN",
+          "SENS_VIO_1V8",
+          "SENS_XSHUTDN_N"
+        ],
+        "all_plane_islands_in_core": {
+          "3V3_AON": 6,
+          "GND": 4
+        },
+        "J202_GND_pins_in_core": [
+          "1",
+          "4",
+          "7",
+          "10",
+          "13",
+          "17",
+          "24"
+        ],
+        "pad_components": {
+          "ISO_GATE": [
+            [
+              "Q201.1",
+              "R201.2",
+              "R202.1"
+            ]
+          ],
+          "GND": [
+            [
+              "C101.2",
+              "C102.2",
+              "C103.2",
+              "C104.2",
+              "C105.2",
+              "C106.2",
+              "C107.2",
+              "C201.2",
+              "C202.2",
+              "C203.2",
+              "C204.2",
+              "C205.2",
+              "C206.2",
+              "C207.2",
+              "C208.2",
+              "C301.2",
+              "C302.2",
+              "C303.2",
+              "C501.2",
+              "C502.2",
+              "C503.2",
+              "C504.2",
+              "J106.3",
+              "J107.3",
+              "J108.3",
+              "J109.3",
+              "J202.1",
+              "J202.10",
+              "J202.13",
+              "J202.17",
+              "J202.24",
+              "J202.4",
+              "J202.7",
+              "J301.2",
+              "Q201.2",
+              "R104.2",
+              "R105.2",
+              "R106.2",
+              "R107.2",
+              "R108.2",
+              "R109.2",
+              "R202.2",
+              "R205.2",
+              "R206.2",
+              "R207.2",
+              "R210.2",
+              "R211.2",
+              "R212.2",
+              "R213.2",
+              "R214.2",
+              "R215.2",
+              "R216.2",
+              "R217.2",
+              "R218.2",
+              "R219.2",
+              "R220.2",
+              "R221.2",
+              "R222.2",
+              "R223.2",
+              "R224.2",
+              "R225.2",
+              "R226.2",
+              "R227.2",
+              "R228.2",
+              "R229.2",
+              "R230.2",
+              "R231.2",
+              "R232.2",
+              "R233.2",
+              "R234.2",
+              "R235.2",
+              "R236.2",
+              "R237.2",
+              "R301.2",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U101.57",
+              "U201.11",
+              "U201.12",
+              "U201.13",
+              "U201.2",
+              "U202.2",
+              "U202.3",
+              "U202.8",
+              "U202.9",
+              "U203.8",
+              "U203.9",
+              "U204.4",
+              "U301.2",
+              "U501.5",
+              "U501.6",
+              "U501.7",
+              "U501.8"
+            ],
+            [
+              "J103.2"
+            ],
+            [
+              "J104.3"
+            ],
+            [
+              "J105.2"
+            ]
+          ],
+          "CAM_ISO_OE_N": [
+            [
+              "Q201.3",
+              "R203.1",
+              "U201.22",
+              "U202.14",
+              "U202.15",
+              "U203.14",
+              "U203.15"
+            ]
+          ],
+          "CAM_RESET_UART_TX": [
+            [
+              "J104.1"
+            ],
+            [
+              "R222.1",
+              "U101.49",
+              "U203.5"
+            ]
+          ],
+          "CAM_BUS_EN": [
+            [
+              "JP202.1",
+              "R108.1",
+              "U101.37"
+            ]
+          ],
+          "SCCB_ENABLE_LINK": [
+            [
+              "JP202.2",
+              "R204.1"
+            ]
+          ],
+          "SCCB_EN_SAFE": [
+            [
+              "R204.2",
+              "R205.1",
+              "U204.5"
+            ]
+          ],
+          "CAM_XCLK": [
+            [
+              "R221.1",
+              "U101.43",
+              "U203.4"
+            ]
+          ],
+          "3V3_AON": [
+            [
+              "C102.1",
+              "C103.1",
+              "C104.1",
+              "C105.1",
+              "C201.1",
+              "C203.1",
+              "C205.1",
+              "C207.1",
+              "C301.1",
+              "C501.1",
+              "C502.1",
+              "C503.1",
+              "J106.2",
+              "R101.2",
+              "R102.2",
+              "R103.2",
+              "R203.2",
+              "R240.2",
+              "R241.2",
+              "R501.1",
+              "R502.1",
+              "R503.1",
+              "U101.2",
+              "U101.20",
+              "U101.3",
+              "U101.46",
+              "U101.55",
+              "U101.56",
+              "U201.1",
+              "U202.1",
+              "U203.1",
+              "U203.2",
+              "U203.3",
+              "U204.8",
+              "U301.1",
+              "U501.10",
+              "U501.2",
+              "U501.3",
+              "U501.9"
+            ]
+          ],
+          "AON_I2C_SDA": [
+            [
+              "R502.2",
+              "U101.11",
+              "U501.4"
+            ]
+          ],
+          "CAM_IO_EN": [
+            [
+              "JP201.1",
+              "R107.1",
+              "U101.48"
+            ]
+          ],
+          "IO_ENABLE_LINK": [
+            [
+              "JP201.2",
+              "R201.1"
+            ]
+          ],
+          "CAM_SDA": [
+            [
+              "R241.1",
+              "U101.45",
+              "U204.6"
+            ]
+          ],
+          "SENS_D5": [
+            [
+              "J202.9"
+            ],
+            [
+              "R229.1",
+              "U201.16"
+            ]
+          ],
+          "VBUS_5V": [
+            [
+              "J106.1"
+            ]
+          ],
+          "CAM_D7": [
+            [
+              "R217.1",
+              "U101.19",
+              "U201.10"
+            ]
+          ],
+          "RF_SIP": [
+            [
+              "C106.1",
+              "L101.1",
+              "U101.1"
+            ]
+          ],
+          "CHIP_EN": [
+            [
+              "C101.1",
+              "J108.1",
+              "R101.1",
+              "U101.4"
+            ]
+          ],
+          "BOOT_N": [
+            [
+              "J108.2",
+              "R102.1",
+              "U101.5"
+            ]
+          ],
+          "PICKUP_INT_N": [
+            [
+              "U101.6",
+              "U501.12"
+            ]
+          ],
+          "NIB_CONTACT_N": [
+            [
+              "C504.1",
+              "R503.2"
+            ],
+            [
+              "R504.1"
+            ],
+            [
+              "U101.7"
+            ]
+          ],
+          "STRAP_GPIO3": [
+            [
+              "R103.1",
+              "U101.8"
+            ]
+          ],
+          "BATTERY_ADC": [
+            [
+              "J105.1"
+            ],
+            [
+              "U101.9"
+            ]
+          ],
+          "AON_I2C_SCL": [
+            [
+              "R501.2",
+              "U101.10",
+              "U501.1"
+            ]
+          ],
+          "CAM_D0": [
+            [
+              "R210.1",
+              "U101.12",
+              "U201.3"
+            ]
+          ],
+          "CAM_D1": [
+            [
+              "R211.1",
+              "U101.13",
+              "U201.4"
+            ]
+          ],
+          "CAM_D2": [
+            [
+              "R212.1",
+              "U101.14",
+              "U201.5"
+            ]
+          ],
+          "CAM_D3": [
+            [
+              "R213.1",
+              "U101.15",
+              "U201.6"
+            ]
+          ],
+          "CAM_D4": [
+            [
+              "R214.1",
+              "U101.16",
+              "U201.7"
+            ]
+          ],
+          "CAM_D5": [
+            [
+              "R215.1",
+              "U101.17",
+              "U201.8"
+            ]
+          ],
+          "CAM_D6": [
+            [
+              "R216.1",
+              "U101.18",
+              "U201.9"
+            ]
+          ],
+          "CAM_PCLK": [
+            [
+              "R218.1",
+              "U101.21",
+              "U202.4"
+            ]
+          ],
+          "CAM_VSYNC": [
+            [
+              "R219.1",
+              "U101.22",
+              "U202.5"
+            ]
+          ],
+          "CAM_HREF": [
+            [
+              "R220.1",
+              "U101.23",
+              "U202.6"
+            ]
+          ],
+          "USB_EN1": [
+            [
+              "J107.1",
+              "U101.24"
+            ]
+          ],
+          "USB_DM_MCU": [
+            [
+              "R113.2",
+              "U101.25"
+            ]
+          ],
+          "USB_DP_MCU": [
+            [
+              "R112.2",
+              "U101.26"
+            ]
+          ],
+          "USB_EN2": [
+            [
+              "J107.2",
+              "U101.27"
+            ]
+          ],
+          "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+            [
+              "U101.28"
+            ]
+          ],
+          "unconnected-(U101-VDD_SPI-Pad29)": [
+            [
+              "U101.29"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad30)": [
+            [
+              "U101.30"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad31)": [
+            [
+              "U101.31"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad32)": [
+            [
+              "U101.32"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad33)": [
+            [
+              "U101.33"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad34)": [
+            [
+              "U101.34"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad35)": [
+            [
+              "U101.35"
+            ]
+          ],
+          "ILLUM_STROBE": [
+            [
+              "R109.1",
+              "U101.36"
+            ]
+          ],
+          "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+            [
+              "U101.38"
+            ]
+          ],
+          "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+            [
+              "U101.39"
+            ]
+          ],
+          "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+            [
+              "U101.40"
+            ]
+          ],
+          "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+            [
+              "U101.41"
+            ]
+          ],
+          "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+            [
+              "U101.42"
+            ]
+          ],
+          "CAM_SCL": [
+            [
+              "R240.1",
+              "U101.44",
+              "U204.7"
+            ]
+          ],
+          "CAM_PWR_EN": [
+            [
+              "R106.1",
+              "R302.1",
+              "TP301.1",
+              "U101.47"
+            ]
+          ],
+          "CAM_PWDN_UART_RX": [
+            [
+              "J104.2"
+            ],
+            [
+              "R223.1",
+              "U101.50",
+              "U203.6"
+            ]
+          ],
+          "STRAP_GPIO45": [
+            [
+              "R104.1",
+              "U101.51"
+            ]
+          ],
+          "STRAP_GPIO46": [
+            [
+              "R105.1",
+              "U101.52"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad53)": [
+            [
+              "U101.53"
+            ]
+          ],
+          "unconnected-(U101-NC-Pad54)": [
+            [
+              "U101.54"
+            ]
+          ],
+          "SENS_D7": [
+            [
+              "J202.12"
+            ],
+            [
+              "R231.1",
+              "U201.14"
+            ]
+          ],
+          "SENS_D0": [
+            [
+              "J202.2"
+            ],
+            [
+              "R224.1",
+              "U201.21"
+            ]
+          ],
+          "SENS_TRIG_IN": [
+            [
+              "J202.20",
+              "R237.1",
+              "U203.11"
+            ]
+          ],
+          "SENS_VSYNC": [
+            [
+              "J202.15"
+            ],
+            [
+              "R233.1",
+              "U202.12"
+            ]
+          ],
+          "SENS_VIO_1V8": [
+            [
+              "C202.1",
+              "C204.1",
+              "C206.1",
+              "C208.1",
+              "J202.23",
+              "R242.2",
+              "R243.2",
+              "U201.23",
+              "U201.24",
+              "U202.16",
+              "U203.16",
+              "U204.1"
+            ]
+          ],
+          "RF_ANT": [
+            [
+              "AE101.1",
+              "C107.1",
+              "L101.2"
+            ]
+          ],
+          "SENS_D2": [
+            [
+              "J202.5"
+            ],
+            [
+              "R226.1",
+              "U201.19"
+            ]
+          ],
+          "SENS_D6": [
+            [
+              "J202.11"
+            ],
+            [
+              "R230.1",
+              "U201.15"
+            ]
+          ],
+          "SENS_D4": [
+            [
+              "J202.8"
+            ],
+            [
+              "R228.1",
+              "U201.17"
+            ]
+          ],
+          "SENS_D3": [
+            [
+              "J202.6"
+            ],
+            [
+              "R227.1",
+              "U201.18"
+            ]
+          ],
+          "SENS_D1": [
+            [
+              "J202.3"
+            ],
+            [
+              "R225.1",
+              "U201.20"
+            ]
+          ],
+          "UNUSED_B_INPUT": [
+            [
+              "R206.1",
+              "U202.10"
+            ]
+          ],
+          "SENS_SDA": [
+            [
+              "J202.22",
+              "R243.1",
+              "U204.3"
+            ]
+          ],
+          "USB_DP": [
+            [
+              "J109.1",
+              "R112.1"
+            ]
+          ],
+          "USB_DM": [
+            [
+              "J109.2",
+              "R113.1"
+            ]
+          ],
+          "SENS_EXTCLK": [
+            [
+              "J202.18"
+            ],
+            [
+              "R235.1",
+              "U203.13"
+            ]
+          ],
+          "UNUSED_A_INPUT": [
+            [
+              "R207.1",
+              "U203.7"
+            ]
+          ],
+          "SENS_SCL": [
+            [
+              "J202.21",
+              "R242.1",
+              "U204.2"
+            ]
+          ],
+          "unconnected-(U203-2B2-Pad10)": [
+            [
+              "U203.10"
+            ]
+          ],
+          "SENS_XSHUTDN_N": [
+            [
+              "J202.19",
+              "R236.1",
+              "U203.12"
+            ]
+          ],
+          "unconnected-(U501-INT2-Pad11)": [
+            [
+              "U501.11"
+            ]
+          ],
+          "SENS_HREF": [
+            [
+              "J202.16"
+            ],
+            [
+              "R234.1",
+              "U202.11"
+            ]
+          ],
+          "SENS_PCLK": [
+            [
+              "J202.14"
+            ],
+            [
+              "R232.1",
+              "U202.13"
+            ]
+          ],
+          "CAM_3V3_SW": [
+            [
+              "J301.1",
+              "JP301.2"
+            ]
+          ],
+          "unconnected-(AE101-Pad2)": [
+            [
+              "AE101.2"
+            ]
+          ],
+          "unconnected-(U202-2A2-Pad7)": [
+            [
+              "U202.7"
+            ]
+          ],
+          "CAM_3V3_PRELINK": [
+            [
+              "C302.1",
+              "JP301.1",
+              "R303.1",
+              "U301.6"
+            ]
+          ],
+          "CAM_QOD": [
+            [
+              "R303.2",
+              "U301.5"
+            ]
+          ],
+          "CAM_ON": [
+            [
+              "R301.1",
+              "R302.2",
+              "U301.3"
+            ]
+          ],
+          "CAM_CT": [
+            [
+              "C303.1",
+              "U301.4"
+            ]
+          ],
+          "CONTACT": [
+            [
+              "J103.1"
+            ],
+            [
+              "R504.2"
+            ]
+          ],
+          "": [
+            [
+              "J202."
+            ],
+            [
+              "J202."
+            ]
+          ]
+        }
+      }
+    },
+    "head_vio_port_name_erratum_v2": {
+      "status": "READ_ONLY_SOURCE_PIN_NAME_CORRECTION_NOT_A_WIRING_CHANGE",
+      "source_sha256": "928c6d4aec49b691f63f8863bc2a2bd28ddc3eb53178737aa53d00925de4a6b9",
+      "corrected_contract_sha256": "65eca5fea27c4aca954e7a3438e52ac3cc6300b87fd4d6b5686e3f5071c58e23",
+      "pins": [
+        {
+          "ref": "U201",
+          "pin": "23",
+          "source_pin_name": "VCCB",
+          "net": "SENS_VIO_1V8"
+        },
+        {
+          "ref": "U201",
+          "pin": "24",
+          "source_pin_name": "VCCB",
+          "net": "SENS_VIO_1V8"
+        },
+        {
+          "ref": "U202",
+          "pin": "16",
+          "source_pin_name": "VCCB",
+          "net": "SENS_VIO_1V8"
+        },
+        {
+          "ref": "U203",
+          "pin": "16",
+          "source_pin_name": "VCCB",
+          "net": "SENS_VIO_1V8"
+        },
+        {
+          "ref": "U204",
+          "pin": "1",
+          "source_pin_name": "VCCA",
+          "net": "SENS_VIO_1V8"
+        }
+      ]
+    },
+    "j202_reference_numeric_erratum": {
+      "status": "FOUR_RECORDED_NETS_NOT_EXACTLY_THREE",
+      "audit_sha256": "eee07162e165719a0b9e76d2b722c80377667401a05bf3f4b616fc348805eb1d",
+      "unique_union_mm2": {
+        "USB_EN1": 0.000592207987,
+        "CAM_SCL": 2.9815e-08,
+        "SENS_VIO_1V8": 0.1798112086635,
+        "SENS_SCL": 0.094964881603
+      },
+      "report_record_threshold_mm2": 1e-08,
+      "nonallowed_fail_threshold_mm2": 1e-06,
+      "meaning": "recording and rejection thresholds differ; small CAM_SCL area is reported, not exact zero"
+    },
+    "fresh_DRC": {
+      "counts": [
+        17,
+        21,
+        0
+      ],
+      "historical_counts": [
+        17,
+        21,
+        0
+      ],
+      "exit_code": 5,
+      "complete_finding_multisets_equal": false,
+      "differences": {
+        "violations": {
+          "removed_from_historical": [],
+          "added_relative_to_historical": []
+        },
+        "unconnected_items": {
+          "removed_from_historical": [
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 2 [GND] of J103 on B.Cu",
+                  "pos": {
+                    "x": 5.4,
+                    "y": 52.0
+                  },
+                  "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                },
+                {
+                  "description": "Pad 2 [GND] of R234 on F.Cu",
+                  "pos": {
+                    "x": 5.325,
+                    "y": 52.0
+                  },
+                  "uuid": "dba7a44e-4c68-4401-ab5d-bb89b91f18e6"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            },
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+                  "pos": {
+                    "x": 10.0,
+                    "y": 53.0
+                  },
+                  "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+                },
+                {
+                  "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 4.2500 mm",
+                  "pos": {
+                    "x": 5.125,
+                    "y": 48.25
+                  },
+                  "uuid": "79a91219-cdd0-4486-bb5a-1d36ca32da3b"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            },
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+                  "pos": {
+                    "x": 12.25,
+                    "y": 90.5
+                  },
+                  "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+                },
+                {
+                  "description": "Track [SENS_D0] on F.Cu, length 0.7500 mm",
+                  "pos": {
+                    "x": 0.7,
+                    "y": 40.0
+                  },
+                  "uuid": "4f421a23-cc56-4078-9dc7-30971cb9712e"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            }
+          ],
+          "added_relative_to_historical": [
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 2 [GND] of J103 on B.Cu",
+                  "pos": {
+                    "x": 5.4,
+                    "y": 52.0
+                  },
+                  "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+                },
+                {
+                  "description": "Track [GND] on F.Cu, length 0.0250 mm",
+                  "pos": {
+                    "x": 5.325,
+                    "y": 52.0
+                  },
+                  "uuid": "15cbce26-470a-4505-a74f-7b06bb41aa46"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            },
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+                  "pos": {
+                    "x": 10.0,
+                    "y": 53.0
+                  },
+                  "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+                },
+                {
+                  "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 0.1414 mm",
+                  "pos": {
+                    "x": 5.125,
+                    "y": 52.5
+                  },
+                  "uuid": "e0ce1bf0-0101-469c-9295-119925da5dec"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            },
+            {
+              "description": "Missing connection between items",
+              "items": [
+                {
+                  "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+                  "pos": {
+                    "x": 12.25,
+                    "y": 90.5
+                  },
+                  "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+                },
+                {
+                  "description": "Track [SENS_D0] on F.Cu, length 0.0250 mm",
+                  "pos": {
+                    "x": 0.675,
+                    "y": 40.0
+                  },
+                  "uuid": "31f73ccb-49e0-493d-88c2-5c5fbc6f2940"
+                }
+              ],
+              "severity": "error",
+              "type": "unconnected_items"
+            }
+          ]
+        },
+        "schematic_parity": {
+          "removed_from_historical": [],
+          "added_relative_to_historical": []
+        }
+      },
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--exit-code-violations",
+        "--all-track-errors",
+        "--schematic-parity",
+        "--severity-all",
+        "-o",
+        "/tmp/smartpen-r13-5dteua7l/fresh_drc.json",
+        "/tmp/smartpen-r13-5dteua7l/smart_pen_next_20261028/hardware/j202_low_speed_independent_review/native/mainboard_revD.kicad_pcb"
+      ],
+      "fresh_tool_version": "9.0.2",
+      "historical_tool_version": "9.0.2",
+      "decision": "NOFAB; record tool-produced finding drift, never infer copper repair from a count or representative-item change",
+      "native_pcb_unchanged": true
+    }
+  },
+  "packaging_checks": {
+    "relocated_quick_normal_optimized": [
+      {
+        "mode": [],
+        "exit": 0
+      },
+      {
+        "mode": [
+          "-O"
+        ],
+        "exit": 0
+      }
+    ],
+    "modified_profile_expected_rejection": true,
+    "prior_dependency_materialization_scope": "264 exact files for native only; software-only does not require them",
+    "all_original_source_files_still_unchanged": true
+  }
+}

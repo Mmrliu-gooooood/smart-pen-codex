@@ -1,0 +1,50 @@
+[
+  {
+    "name": "netlist",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/fresh.xml",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0,
+    "expected_exit": 0
+  },
+  {
+    "name": "erc",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/fresh_erc.json",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 5,
+    "expected_exit": 5
+  },
+  {
+    "name": "preflight_full_drc",
+    "command": [
+      "/usr/bin/python3",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/pcb_preflight.py",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/native/mainboard_revD.kicad_pcb",
+      "--lock",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/preflight_lock.json",
+      "--report",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_ground_return_candidate/preflight.json",
+      "--run-drc"
+    ],
+    "exit": 5,
+    "expected_exit": 5
+  }
+]

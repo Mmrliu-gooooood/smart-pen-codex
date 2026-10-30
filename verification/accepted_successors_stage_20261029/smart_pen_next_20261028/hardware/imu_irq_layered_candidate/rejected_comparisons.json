@@ -1,0 +1,97 @@
+{
+  "status": "REJECTED_OR_INCOMPLETE_TRIAL_SUMMARIES_NOT_CANDIDATES",
+  "accepted_native_excludes_all_of_these_changes": true,
+  "trials": [
+    {
+      "name": "local low-speed NIB/PWDN/CHIP_EN plus BOOT In2",
+      "result": "Rejected: actual old AON pad core split into MCU/gate versus J106/IMU domains. No thin rescue accepted.",
+      "counts": [
+        19,
+        38,
+        0
+      ]
+    },
+    {
+      "name": "CAM_D0 local alternate layer",
+      "result": "D0 restored with17/37/0, but I2C exit still unavailable in bounded geometric search; extra DVP change not adopted."
+    },
+    {
+      "name": "HREF/VSYNC grouped edge-lane comparison",
+      "result": "Two I2C via sites placed, but source channel still disconnected from destination channel; edge reference margin undesirable. 8573 potential cross-component grid cells were screened at alternating .025mm cells (.05mm sampling), no exact-projected-clear sampled site. This is not proof of global physical impossibility.",
+      "counts": [
+        19,
+        37,
+        0
+      ]
+    },
+    {
+      "name": "BOOT In1 6.870622mm local jump",
+      "result": "Rejected return topology tradeoff: 2.635429mm2 GND projection removed; crosses F CAM_D0 and CAM_D1 projection. GND island continuity alone was not accepted.",
+      "counts": [
+        19,
+        37,
+        0
+      ]
+    },
+    {
+      "name": "Manual inner BOOT In1",
+      "result": "Rejected: native CAM_D1/CAM_D3 via shorts/clearance; no acceptance from raw airwire count.",
+      "counts": [
+        25,
+        37,
+        0
+      ]
+    },
+    {
+      "name": "Projection-protected BOOT local In1 bounded search",
+      "result": "No path in bounded .025mm grid search with F DVP/RF/AON protection, x<=5.1mm/y8..16.6mm. Not a global impossibility proof."
+    }
+  ],
+  "evidence_files": [
+    {
+      "file": "rejected_summaries/i2c_escape_power_groups.json",
+      "sha256": "08c0f7cbf8dcd0bf5b277b7e2a5f2ffbfb44cb3e5f35604606d476c946cc54ca"
+    },
+    {
+      "file": "rejected_summaries/i2c_escape_drc.log",
+      "sha256": "a0859eaf300535f9a43ea4cfe3a69e3cc30e00b31f192256ac722d85dafee703"
+    },
+    {
+      "file": "rejected_summaries/group_escape_drc.log",
+      "sha256": "acd5e44105bff900afc6b7b0b106a57f4a224b80d74d141a1c4fbf07aa6915c6"
+    },
+    {
+      "file": "rejected_summaries/i2c_component_bridge.log",
+      "sha256": "a35ebb78564afb5d1904c906db4eba22964f996a8c510f1b455b835cde6e8e16"
+    },
+    {
+      "file": "rejected_summaries/exact_i2c_bridge_exit.log",
+      "sha256": "5efb5b7eed61370ecf6d990abcba966d7c8798a671a3e1314af706a4eb92ac74"
+    },
+    {
+      "file": "rejected_summaries/boot_in1_reference_impact.json",
+      "sha256": "b566ed588c293a60811dd4150ee33b6a10c2c03093dcd4418b63ac616185b61d"
+    },
+    {
+      "file": "rejected_summaries/boot_in1_guarded_drc.log",
+      "sha256": "d785094ec20bb73a92b99bedd946d0ccc78e4493f230d1901fc11349358e91a9"
+    },
+    {
+      "file": "rejected_summaries/boot_in1_projection_guard.log",
+      "sha256": "1959a622b9d787c786be7e6aafccf6efba4d0bc48f1742a86b04aa90d6426433"
+    },
+    {
+      "file": "rejected_summaries/d0_simplification.json",
+      "sha256": "f761ac282e94f7c048e9a210679fc2fd56b818c732ec3f96998f0a3946078ec6"
+    },
+    {
+      "file": "rejected_summaries/d0_simplified_drc.log",
+      "sha256": "f5782be0e53df7af9a61803a459d99216292dfb3be1d9bc23209b5f22f718fdf"
+    },
+    {
+      "file": "rejected_summaries/i2c_after_d045.txt",
+      "sha256": "0b27f51f7cd96ed34fe1a3268d43d0d96eb661ab63826fd9903bf3a8337ff3df"
+    }
+  ],
+  "next_scope": "Coherent MCU multi-net fanout reallocation; keep strong AON and F reference return, do not accumulate more isolated patches. I2C stays genuinely unrouted in accepted IRQ candidate."
+}

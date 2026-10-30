@@ -1,0 +1,49 @@
+{
+  "status": "ANALYTICAL_BUDGET_NOT_MEASURED_BUS_QUALIFICATION",
+  "formula": "tr(30%-70%)=ln(0.7/0.3)*Rp*Cb",
+  "r_nom_ohm": 10000.0,
+  "initial_tolerance": 0.01,
+  "r_max_ohm_excludes_TCR_aging": 10100.0,
+  "coefficient": 0.8472978603872037,
+  "budgets": [
+    {
+      "frequency_hz": 100000,
+      "rise_limit_ns": 1000.0,
+      "capacitance_ceiling_pF_initial_tolerance_only": 116.85371298453747
+    },
+    {
+      "frequency_hz": 400000,
+      "rise_limit_ns": 300.0,
+      "capacitance_ceiling_pF_initial_tolerance_only": 35.05611389536124
+    }
+  ],
+  "sensitivity": [
+    {
+      "total_C_pF": 20,
+      "rise_ns_at_10k_plus_1pct": 171.15416779821513
+    },
+    {
+      "total_C_pF": 35,
+      "rise_ns_at_10k_plus_1pct": 299.51979364687645
+    },
+    {
+      "total_C_pF": 50,
+      "rise_ns_at_10k_plus_1pct": 427.8854194955378
+    },
+    {
+      "total_C_pF": 100,
+      "rise_ns_at_10k_plus_1pct": 855.7708389910756
+    },
+    {
+      "total_C_pF": 117,
+      "rise_ns_at_10k_plus_1pct": 1001.2518816195586
+    },
+    {
+      "total_C_pF": 150,
+      "rise_ns_at_10k_plus_1pct": 1283.6562584866135
+    }
+  ],
+  "proposed_initial_test_hz": 100000,
+  "actual_bus_C_pF": null,
+  "temperature_aging_resistor_margin": null
+}
