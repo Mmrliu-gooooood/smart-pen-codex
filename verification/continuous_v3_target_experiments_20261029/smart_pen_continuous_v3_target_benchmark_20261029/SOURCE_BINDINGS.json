@@ -1,0 +1,83 @@
+{
+  "v3_snapshot_sha256": "1636084759c3ebfc358574f669ea5292b11ae4421145401e7c2ccaed12664ccf",
+  "v3_allowlist_sha256": "76857d7103d895bbedf2e723984e59eba593660e4837ae43a88f3a12c685bd4b",
+  "v2_benchmark_manifest_sha256": "af121d057a80ac01be6d19217abea3988b3e96fe6769651ebe7c18c4f45ed2db",
+  "files": {
+    "vision/roi_opt.c": {
+      "candidate_path": "firmware/vision/roi_opt.c",
+      "sha256": "508f6fb7d7b96e51be47eed75f44f17a768a725a7516ac0354456c8fd44b996a"
+    },
+    "vision/roi_continuous.h": {
+      "candidate_path": "firmware/vision/roi_continuous.h",
+      "sha256": "fa0e6be6b4df4752d948f6222e06c21303c847f1b59b9cdd798ccc9f827ed062"
+    },
+    "vision/roi_continuous.c": {
+      "candidate_path": "firmware/vision/roi_continuous.c",
+      "sha256": "12b165125e32454a7252c8eaca510870bda149585af055c380c22d9c6f21aa7c"
+    },
+    "vision/roi.h": {
+      "candidate_path": "firmware/vision/roi.h",
+      "sha256": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2"
+    },
+    "vision/roi_opt.h": {
+      "candidate_path": "firmware/vision/roi_opt.h",
+      "sha256": "ccadb210be379f3fce8e2ae8e02b4b6521a37804c2a48b9f6a3f02689a8dbe18"
+    },
+    "codec/anoto.h": {
+      "candidate_path": "firmware/codec/anoto.h",
+      "sha256": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d"
+    },
+    "codec/sequences.h": {
+      "candidate_path": "firmware/codec/sequences.h",
+      "sha256": "87d00e2204b107c4a7fd337a87a03ad60854d59812e489f7a60c121c52cb9997"
+    },
+    "codec/LICENSE.microdots": {
+      "candidate_path": "firmware/codec/LICENSE.microdots",
+      "sha256": "570a43e241b86a5bd721bfdf427d15375beae36a9b5d8bd5e15ee7b554e2d959"
+    },
+    "codec/anoto.c": {
+      "candidate_path": "firmware/codec/anoto.c",
+      "sha256": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c"
+    },
+    "fixtures/extended_dense9.pgm": {
+      "candidate_path": "tests/fixtures/continuous/extended_dense9.pgm",
+      "sha256": "89251d3226bdc283d7e176fe3613b737964da4c124f6a7f43509ededf7d8ad17"
+    },
+    "fixtures/case_063.pgm": {
+      "candidate_path": "tests/fixtures/continuous/case_063.pgm",
+      "sha256": "029f1facf4368156485a228ea7b49df137cba5f116c9dad4371d83d916c6198b"
+    },
+    "fixtures/v3_no_complete_window.pgm": {
+      "candidate_path": "tests/fixtures/continuous/v3_no_complete_window.pgm",
+      "sha256": "0d5fe3e8e90941ea6619e41a75c103520b8fee78cf36d3d43acc3159400527eb"
+    },
+    "fixtures/fov5_roi200_phase0.pgm": {
+      "candidate_path": "tests/fixtures/continuous/fov5_roi200_phase0.pgm",
+      "sha256": "4ab4ec4e24683848c2738105235e83fb868365bcd4cddc9b6f12f4ec5af62f48"
+    },
+    "fixtures/fov7_roi200_phase0.pgm": {
+      "candidate_path": "tests/fixtures/continuous/fov7_roi200_phase0.pgm",
+      "sha256": "7c902f6d0d054f5a44db508f1de111d7a69e1c6c60c269e8e2a49653bceb8716"
+    },
+    "fixtures/v3_seed_overflow.pgm": {
+      "candidate_path": "tests/fixtures/continuous/v3_seed_overflow.pgm",
+      "sha256": "99d8498d6e12c96c9bdf6413f56ab806846755613f96aeb5e319de4ad7d2bcbb"
+    },
+    "fixtures/fov6_roi200_phase0.pgm": {
+      "candidate_path": "tests/fixtures/continuous/fov6_roi200_phase0.pgm",
+      "sha256": "458dfdbaba1a36826efd956f737890a8f535ba979996fc419181ec34efd4b132"
+    },
+    "fixtures/extended_rot45.pgm": {
+      "candidate_path": "tests/fixtures/continuous/extended_rot45.pgm",
+      "sha256": "a8f25f0c87916ccdc2d13ff2928a906990cbb6718ed2ce677fddb55ca0d17327"
+    },
+    "fixtures/extended_fov51.pgm": {
+      "candidate_path": "tests/fixtures/continuous/extended_fov51.pgm",
+      "sha256": "7a1e8ff02c8797141adc11a7fe44b6c3b0d79b5e819ddbe71c28b72c123b9bea"
+    },
+    "fixtures/upstream_target_manifest.json": {
+      "candidate_path": "verification/continuous_target_fixture_manifest.json",
+      "sha256": "28b5e586c8bdfe8be60c98bc48184249917d73c91a86dbad96bf6f8b7232fa29"
+    }
+  }
+}

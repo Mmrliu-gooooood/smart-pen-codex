@@ -1,0 +1,32 @@
+category,item,required_qty_two_pens,procurement_qty,CNY_known_amount,price_class,blocking_input
+optics,camera+matched_lens,2,,,historical135.6_information_and_new8mm_unknown,existing module historical135.6CNY information preserved;verify owned count/lens-inclusion/accounting;new8mm qualified camera+lens price unknown;no duplicate existing purchase and no free-camera assumption
+optics,filter+holder+window,2,,,unquoted,exact prescription/part and actual quote
+battery,protected pack+termination,2,,,unquoted,qualified exact pack/connector;2pcs tax-inclusive price;2externalNTCs already component ledger; do not add alternate packs together
+PCB,mainboard6layer14x101.5,2,,,unquoted,currentdd55native0.83mm6layers;manufacturerconfirmedcontrolledstackup/finishedthicknesstolerance;MOQ/panel/impedance/e-test
+PCB,power4layer14x45x0.8,2,,,unquoted,stackup/finishing/MOQ and no-free-coupon price
+PCB,USBtail4layer12x20x0.8,2,,,unquoted,exact shared stackup compatibility with power not demonstrated;MPN landDFM unresolved
+PCB,illumination2layer8x15x0.8,2,,,unquoted,small board handling/panelMOQ
+PCB,contactcarrier2layer7.5x6x0.8withnotch,2,,,unquoted,separate actual carrier;small-board panelMOQ/hand-solder-or-reflow qualification
+PCB,ADCcarrier_or_integration,unresolved,,,unplaced_unknown,current13entity schematic has no PCB owner/stackup;do not invent another ready board
+interconnect,DVP_FFC_or_FPC_head_link,2,,,unquoted,"exact head connector map,length,orientation,finished construction;not old30pin-to24pin assumption"
+interconnect,all_signal_power_USB_wires,2sets,,,unquoted,wireMPNs/actual lengths/MOQ/current/SI/strainrelief;scalar length lower bounds not cut lengths
+optics,independent_IR_LED,2,,,unselected,exact light source and optical/safety qualification;not included in driver7entities
+mechanical,outer_barrel_and_endcaps,2sets,,,unquoted,final OD not approved;material/finish/process/tolerance quote
+mechanical,cassette_two_halves,4halves,,,unquoted,RevC2halvesperpenincludingobliquechannelsandsidewindows;material/thread/process/thermaltoolaccessquote
+mechanical,cassette_slider,2,,,unquoted,guided clearance/friction/dimensional quote
+mechanical,cassette_soft_sleeve,2,,,unselected,material/freeID/retention
+mechanical,cassette_return_spring,2,,,unselected,GutekunstD001 is reference only;local supplier force/travel/fatigue qualification
+mechanical,cassette_front_shim_and_rear_backer,2sets,,,unquoted,RevCsingleU-shapedfrontshim+rearbacker;actualmeasuredprecisionthickness;extra calibration stockcounted
+mechanical,cassette_M1.6x8_clamp_screws,4,,,unquoted,thread/head/tolerance actual orderSKU/MOQ;outer-barrel fixing extra
+mechanical,battery_holder_insulation_fasteners,2sets,,,unquoted,positive retention/thermal padNTCinstallation/insulation
+refill,D1_SCHMIDT_S635_candidate,2installed,,,foreign_reference_unqualified,historical4packUSD11 alternative;actual orderMOQ/inkIRcompatibility unknown
+assembly,PCBengineering_stencil_multidesign,set,,,scenario_only,see README scenario table;do not sum alternatives
+assembly,SMTfeeder_placements_loss_Xray_SPI_AOI_FCT_packaging_tax,set,,,unquoted,parts perface;minimum feed/loss;hiddenjoint inspection not interchangeable with AOI
+assembly,manual_visibleparts_wire_and_mechanicalassembly,2pens,,,unquoted,paid hours/operatorcapability/equipment and consumables;not zero
+test,shared_passive_recovery_fixture,1,,,unquoted,JF1+2switches in component ledger;fixtureconstruction/probeadapter+labor separately
+test,programming_calibration_and_safety_tests,2pens,,,unquoted,"time/equipmenthire/fixture consumables;existing approved contribution itemized,not assumed"
+test,rework_spares,unresolved,,,unquoted,yield/failedparts/extraPCBs;not arbitrary free reserve
+shipping,shipping_excluded,separate,,,excluded_by_user,keep outside760butvisible
+interconnect,AlphaWire2840/7_CONTACT_GND,4cutwires,,,unquoted,RevCexactwire;100ft/1000ftstandardpacks;reliablecut-lengthMOQpriceunknown;12mmperpennominalnotpurchasequantity;calibratebeforecutting
+mechanical,RevC_trial_strain_bushings,4,,,unquoted,customsoftsupportbushings;material/freeID/retentionnotqualified;notfree
+test,RevC_common_rigid_assembly_fixture,1shared,,,unquoted,mainboardandcassettecommondatumfixture;manufactureandcalibrationcost;notthesamerecoveryfixture

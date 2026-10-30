@@ -1,0 +1,39 @@
+pen_roi_decode_continuous
+4038153e:	0008e0        	callx8	a8
+403815e1:	0008e0        	callx8	a8
+40381616:	0008e0        	callx8	a8
+40381915:	0008e0        	callx8	a8
+40381922:	0008e0        	callx8	a8
+40381931:	0008e0        	callx8	a8
+4038193d:	0008e0        	callx8	a8
+4038195b:	0008e0        	callx8	a8
+4038196f:	0008e0        	callx8	a8
+4038198d:	0008e0        	callx8	a8
+403819a1:	0008e0        	callx8	a8
+403819c2:	0008e0        	callx8	a8
+403819ce:	0008e0        	callx8	a8
+403819eb:	0008e0        	callx8	a8
+403819f9:	0008e0        	callx8	a8
+40381a15:	0008e0        	callx8	a8
+40381a23:	0008e0        	callx8	a8
+40381a47:	0008e0        	callx8	a8
+40381a65:	0008e0        	callx8	a8
+40381a73:	0008e0        	callx8	a8
+40381a8e:	0008e0        	callx8	a8
+40381aa1:	0008e0        	callx8	a8
+40381ab6:	0008e0        	callx8	a8
+40381acd:	0008e0        	callx8	a8
+40381af7:	0008e0        	callx8	a8
+40381b1f:	0008e0        	callx8	a8
+40381b43:	0008e0        	callx8	a8
+40381b6b:	0008e0        	callx8	a8
+40381b8f:	0008e0        	callx8	a8
+40381ba3:	0008e0        	callx8	a8
+40381bcb:	0008e0        	callx8	a8
+40381be3:	0008e0        	callx8	a8
+40381bf1:	0008e0        	callx8	a8
+40381c29:	0008e0        	callx8	a8
+40381c81:	ff7be5        	call8	40381440 <__wrap_pen_roi_decode_refined_transform>
+__wrap_pen_roi_decode_refined_transform
+40381443:	cf9491        	l32r	a9, 40375294 <_iram_text_start+0xe90> (3fcc783c <calls>)
+40381471:	016625        	call8	40382ad4 <pen_roi_decode_refined_transform>

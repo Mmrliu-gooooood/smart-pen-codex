@@ -1,0 +1,33 @@
+{
+  "status": "READ_ONLY_PUBLIC_DOMESTIC_PRICE_SAMPLES_NOT_QUOTES",
+  "observation_window_utc": "2026-10-29T00:57:00Z/2026-10-29T01:00:10Z",
+  "method": "Successful web discovery followed by public LCSC China browser UI after dynamic price/stock loading. Exact manufacturer, MPN suffix and package checked. No sign-in, cart, order, inquiry, design upload or coupon used.",
+  "tax_status": "LCSC China exact-product search table labels price tiers as tax-inclusive; item detail says sale price without separate VAT percentage. Do not assume VAT percentage, deduction or discounts.",
+  "tax_evidence": "TPS3700DDCR and ESP32-S3-PICO-1-N8R8 official site search UI headings both say 价格梯度(含税). Invoice policy https://www.szlcsc.com/help/302.html confirms mainland invoice availability, not by itself the tax rate.",
+  "important": "Displayed stock is a timestamped observation, not reserved stock or a delivery promise. Installed quantities exclude SMT loss and rework. Need two working pens, not merely two assembled boards. LCSC self-operated listing is not an assertion of direct TI franchise authorization.",
+  "parts": [
+    {"mpn":"TPS63802DLAR","manufacturer":"TI","sku":"C2845237","package":"VSON-10(2x3)","url":"https://item.szlcsc.com/3038903.html","qty_two_pens":2,"unit_CNY_at_needed_qty":5.55,"minimum_order_qty":1,"tiers_CNY":{"1":5.55,"10":4.67,"30":4.05,"100":3.53,"500":3.37,"1000":3.27},"stock_display":28489,"stock_kind":"on_hand","small_qty_display_available":true,"observed_utc":"2026-10-29T00:57:46Z","digikey_reference_unit_CNY":30.40},
+    {"mpn":"REF3425IDBVR","manufacturer":"TI","sku":"C187836","package":"SOT-23-6","url":"https://item.szlcsc.com/199242.html","qty_two_pens":2,"unit_CNY_at_needed_qty":6.08,"minimum_order_qty":1,"tiers_CNY":{"1":6.08,"10":5.1,"30":4.41,"100":3.83,"500":3.65,"1000":3.54},"stock_display":19120,"stock_kind":"on_hand","small_qty_display_available":true,"observed_utc":"2026-10-29T00:58:16Z","digikey_reference_unit_CNY":30.85},
+    {"mpn":"TMUX1101DCKR","manufacturer":"TI","sku":"C2673506","package":"SC-70-5","url":"https://item.szlcsc.com/2765422.html","qty_two_pens":4,"unit_CNY_at_needed_qty":9.65,"minimum_order_qty":1,"tiers_CNY":{"1":9.65,"10":8.5,"30":7.68,"100":6.94,"500":6.6,"1000":6.46},"stock_display":2845,"stock_kind":"on_hand","small_qty_display_available":true,"observed_utc":"2026-10-29T00:58:16Z","digikey_reference_unit_CNY":19.35},
+    {"mpn":"TPS3899DL01DSER","manufacturer":"TI","sku":"C2864821","package":"WSON-6(1.5x1.5)","url":"https://item.szlcsc.com/3069498.html","qty_two_pens":2,"unit_CNY_at_needed_qty":16.40,"minimum_order_qty":1,"tiers_CNY":{"1":16.4,"10":14.58,"30":13.3},"stock_display":2,"stock_kind":"on_hand","small_qty_display_available":true,"observed_utc":"2026-10-29T00:58:16Z","digikey_reference_unit_CNY":13.14,"risk":"Exactly installed demand; zero spare for feeder loss/rework. JLC SMT inventory tag also said2; not proof acceptable feeder reserve."},
+    {"mpn":"TPS3700DDCR","manufacturer":"TI","sku":"C33002","package":"SOT-23-6","url":"https://item.szlcsc.com/33967.html","qty_two_pens":2,"unit_CNY_at_needed_qty":8.65,"minimum_order_qty":1,"tiers_CNY":{"1":8.65,"10":7.2,"30":6.4,"100":5.5,"500":5.1,"1000":4.92},"stock_display":8475,"stock_kind":"on_hand","small_qty_display_available":true,"observed_utc":"2026-10-29T01:00:07Z","digikey_reference_unit_CNY":22.53},
+    {"mpn":"BQ24074RGTR","manufacturer":"TI","sku":"C54313","package":"QFN-16-EP(3x3)","url":"https://item.szlcsc.com/55331.html","qty_two_pens":2,"unit_CNY_at_needed_qty":null,"minimum_order_qty":3000,"tiers_CNY":{"3000":7.334058},"stock_display":30000,"stock_kind":"order_inventory_not_on_hand","lead_time_display_working_days":"119-121","small_qty_display_available":false,"observed_utc":"2026-10-29T00:59:18Z","digikey_reference_unit_CNY":20.10,"risk":"MOQ3000 is not a two-piece purchase; current public domestic page supersedes old cached5pcs and9.25 price. No budget credit from reel-tier price. Do not substituteRGTT orBQ24075."},
+    {"mpn":"ESP32-S3-PICO-1-N8R8","manufacturer":"ESPRESSIF","sku":"C7545129","package":"LGA-56(7x7)","url":"https://item.szlcsc.com/8656022.html","qty_two_pens":2,"unit_CNY_at_needed_qty":62,"minimum_order_qty":1,"tiers_CNY":{"1":62,"10":60.5},"stock_display":0,"stock_kind":"out_of_stock_order_required","small_qty_display_available":false,"observed_utc":"2026-10-29T01:00:07Z","manufacturer_sample_reference_unit_CNY":37,"risk":"Public62CNY does not prove procurement; buttonrequiresordering, no lead time. Espressif37CNY sample reference is not current executable stock quote. NeitherWROOMnorWavesharePicoisthisMPN."}
+  ],
+  "calculated": {
+    "five_exact_small_qty_available_MPNs_installed_cost_CNY":111.96,
+    "same_five_DigiKey_reference_installed_cost_CNY":271.24,
+    "same_five_domestic_difference_CNY":159.28,
+    "hypothetical_400_fixed_plus_five_domestic_CNY":511.96,
+    "remaining_of_760_after_above_CNY":248.04,
+    "hypothetical_400_plus_five_domestic_plus_two_out_of_stock_PICO_at62_CNY":635.96,
+    "remaining_after_out_of_stock_PICO_reference_CNY":124.04,
+    "hybrid_14priced_DigiKey_MPNs_replacing_five_with_LCSC_CNY":345.30,
+    "hybrid_plus_two_PICO_manufacturer_sample_reference_CNY":419.30,
+    "hybrid_plus_two_PICO_LCSC_out_of_stock_reference_CNY":469.30,
+    "full_domestic_BOM_total_CNY":null,
+    "full_domestic_total_upper_bound_CNY":null,
+    "universal_all_channel_lower_bound_CNY":null,
+    "budget_pass":false
+  }
+}

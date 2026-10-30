@@ -1,0 +1,10 @@
+menu "Continuous decoder cold-only benchmark"
+    config PEN_DECODER_BENCH_RUN
+        bool "Run fixed synthetic full-frame comparison at startup"
+        default n
+    config PEN_DECODER_BENCH_REPEATS
+        int "Cold calls per fixture and decoder"
+        depends on PEN_DECODER_BENCH_RUN
+        range 1 10
+        default 3
+endmenu

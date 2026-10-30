@@ -1,0 +1,36 @@
+{
+  "metrology_original_check_normal_and_optimized_passed": true,
+  "five_micron_purchase_required": false,
+  "replacement_stroke_approved": false,
+  "scope": "offline historical reported-data arithmetic only; not full native source regeneration or current price/availability checks",
+  "frozen_source_files_verified": 28,
+  "cost": {
+    "rows": 188,
+    "per_pen_entities_excluding_shared": 185,
+    "two_pen_electronics_count": 300,
+    "shared_fixture_parts": 3,
+    "historical_reference_partial_CNY": "504.58",
+    "historical_sample_reference_CNY": "74",
+    "historical_domestic_available_partial_CNY": "111.96",
+    "hypothetical_fixed400_remaining_CNY": "248.04",
+    "global_market_lower_bound": null,
+    "purchase_or_budget_approval": false
+  },
+  "negative_cases_rejected": [
+    "duplicate",
+    "wrong_quantity",
+    "DNP_purchase",
+    "out_of_stock_claimed_available",
+    "wrong_domestic_sum"
+  ],
+  "route_stored_gpio_rows_checked": 33,
+  "route_conditional_scenarios_checked": 5,
+  "conditional_prism_arithmetic_checked": true,
+  "native_BOM_regenerated": false,
+  "source_XML_connectivity_reextracted": false,
+  "vendor_price_refreshed": false,
+  "mechanical_5um_requirement_validated": false,
+  "procurement_performed": false,
+  "portable_checker_normal_and_optimized_identical": true,
+  "relocated_reported_data_only_quick_passed": true
+}

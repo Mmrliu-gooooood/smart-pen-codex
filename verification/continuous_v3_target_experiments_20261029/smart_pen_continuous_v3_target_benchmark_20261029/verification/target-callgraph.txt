@@ -1,0 +1,815 @@
+40381490 <pen_roi_decode_continuous>:
+40381490:	03c136        	entry	a1, 0x1e0
+40381493:	40f280        	nsau	a8, a2
+40381496:	02ad      	mov.n	a10, a2
+40381498:	696122        	s32i	a2, a1, 0x1a4
+4038149b:	626142        	s32i	a4, a1, 0x188
+4038149e:	636152        	s32i	a5, a1, 0x18c
+403814a1:	782122        	l32i	a2, a1, 0x1e0
+403814a4:	190c      	movi.n	a9, 1
+403814a6:	418580        	srli	a8, a8, 5
+403814a9:	783a16        	beqz	a10, 40381c30 <pen_roi_decode_continuous+0x7a0>
+403814ac:	838970        	moveqz	a8, a9, a7
+403814af:	77d856        	bnez	a8, 40381c30 <pen_roi_decode_continuous+0x7a0>
+403814b2:	838920        	moveqz	a8, a9, a2
+403814b5:	777856        	bnez	a8, 40381c30 <pen_roi_decode_continuous+0x7a0>
+403814b8:	7921a2        	l32i	a10, a1, 0x1e4
+403814bb:	9398a0        	movnez	a9, a8, a10
+403814be:	76e956        	bnez	a9, 40381c30 <pen_roi_decode_continuous+0x7a0>
+403814c1:	a0c582        	addi	a8, a5, -96
+403814c4:	a0a092        	movi	a9, 160
+403814c7:	02b987        	bgeu	a9, a8, 403814cd <pen_roi_decode_continuous+0x3d>
+403814ca:	01d886        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+403814cd:	a0c482        	addi	a8, a4, -96
+403814d0:	02b987        	bgeu	a9, a8, 403814d6 <pen_roi_decode_continuous+0x46>
+403814d3:	01d646        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+403814d6:	02b647        	bgeu	a6, a4, 403814dc <pen_roi_decode_continuous+0x4c>
+403814d9:	01d4c6        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+403814dc:	f97c      	movi.n	a9, -1
+403814de:	309490        	xor	a9, a4, a9
+403814e1:	850b      	addi.n	a8, a5, -1
+403814e3:	c29960        	quou	a9, a9, a6
+403814e6:	02b987        	bgeu	a9, a8, 403814ec <pen_roi_decode_continuous+0x5c>
+403814e9:	01d0c6        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+403814ec:	828860        	mull	a8, a8, a6
+403814ef:	884a      	add.n	a8, a8, a4
+403814f1:	02b387        	bgeu	a3, a8, 403814f7 <pen_roi_decode_continuous+0x67>
+403814f4:	01ce06        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+403814f7:	001792        	l16ui	a9, a7, 0
+403814fa:	0269f6        	bgeui	a9, 6, 40381500 <pen_roi_decode_continuous+0x70>
+403814fd:	01cbc6        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+40381500:	011782        	l16ui	a8, a7, 2
+40381503:	cf66a1        	l32r	a10, 4037529c <_iram_text_start+0xe98> (ffa <_rtc_fast_length+0xede>)
+40381506:	fac882        	addi	a8, a8, -6
+40381509:	f48080        	extui	a8, a8, 0, 16
+4038150c:	02ba87        	bgeu	a10, a8, 40381512 <pen_roi_decode_continuous+0x82>
+4038150f:	01c746        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+40381512:	cc3181        	l32r	a8, 403745d8 <_iram_text_start+0x1d4> (1000 <_rtc_fast_length+0xee4>)
+40381515:	62b890        	saltu	a11, a8, a9
+40381518:	02b897        	bgeu	a8, a9, 4038151e <pen_roi_decode_continuous+0x8e>
+4038151b:	01c446        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+4038151e:	040792        	l8ui	a9, a7, 4
+40381521:	e83c      	movi.n	a8, 62
+40381523:	02b897        	bgeu	a8, a9, 40381529 <pen_roi_decode_continuous+0x99>
+40381526:	01c186        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+40381529:	050792        	l8ui	a9, a7, 5
+4038152c:	4c6172        	s32i	a7, a1, 0x130
+4038152f:	02b897        	bgeu	a8, a9, 40381535 <pen_roi_decode_continuous+0xa5>
+40381532:	01be86        	j	40381c30 <pen_roi_decode_continuous+0x7a0>
+40381535:	c0a0c2        	movi	a12, 192
+40381538:	20c1a2        	addi	a10, a1, 32
+4038153b:	cbd281        	l32r	a8, 40374484 <_iram_text_start+0x80> (400011e8 <memset>)
+4038153e:	0008e0        	callx8	a8
+40381541:	20c182        	addi	a8, a1, 32
+40381544:	01d882        	addmi	a8, a8, 0x100
+40381547:	095c      	movi.n	a9, 80
+40381549:	083d      	mov.n	a3, a8
+4038154b:	1899      	s32i.n	a9, a8, 4
+4038154d:	888b      	addi.n	a8, a8, 8
+4038154f:	6a6182        	s32i	a8, a1, 0x1a8
+40381552:	cf5381        	l32r	a8, 403752a0 <_iram_text_start+0xe9c> (5b80 <_rtc_fast_length+0x5a64>)
+40381555:	60a052        	movi	a5, 96
+40381558:	786122        	s32i	a2, a1, 0x1e0
+4038155b:	4c21f2        	l32i	a15, a1, 0x130
+4038155e:	828a      	add.n	a8, a2, a8
+40381560:	052d      	mov.n	a2, a5
+40381562:	782152        	l32i	a5, a1, 0x1e0
+40381565:	646182        	s32i	a8, a1, 0x190
+40381568:	606132        	s32i	a3, a1, 0x180
+4038156b:	6c61f2        	s32i	a15, a1, 0x1b0
+4038156e:	7001a2        	l8ui	a10, a1, 112
+40381571:	622182        	l32i	a8, a1, 0x188
+40381574:	aa1b      	addi.n	a10, a10, 1
+40381576:	c09820        	sub	a9, a8, a2
+40381579:	632182        	l32i	a8, a1, 0x18c
+4038157c:	7041a2        	s8i	a10, a1, 112
+4038157f:	41a190        	srli	a10, a9, 1
+40381582:	c08820        	sub	a8, a8, a2
+40381585:	6761a2        	s32i	a10, a1, 0x19c
+40381588:	413180        	srli	a3, a8, 1
+4038158b:	041216        	beqz	a2, 403815d0 <pen_roi_decode_continuous+0x140>
+4038158e:	692192        	l32i	a9, a1, 0x1a4
+40381591:	828630        	mull	a8, a6, a3
+40381594:	992a      	add.n	a9, a9, a2
+40381596:	99aa      	add.n	a9, a9, a10
+40381598:	0f0c      	movi.n	a15, 0
+4038159a:	6421e2        	l32i	a14, a1, 0x190
+4038159d:	998a      	add.n	a9, a9, a8
+4038159f:	ffa0c2        	movi	a12, 255
+403815a2:	0fdd      	mov.n	a13, a15
+403815a4:	000786        	j	403815c6 <pen_roi_decode_continuous+0x136>
+403815a7:	098200        	l32e	a0, a2, -32
+403815aa:	00          	.byte	00
+403815ab:	991b      	addi.n	a9, a9, 1
+403815ad:	004b82        	s8i	a8, a11, 0
+403815b0:	63cc80        	minu	a12, a12, a8
+403815b3:	73ff80        	maxu	a15, a15, a8
+403815b6:	bb1b      	addi.n	a11, a11, 1
+403815b8:	aa0b      	addi.n	a10, a10, -1
+403815ba:	feaa56        	bnez	a10, 403815a8 <pen_roi_decode_continuous+0x118>
+403815bd:	dd1b      	addi.n	a13, a13, 1
+403815bf:	ee2a      	add.n	a14, a14, a2
+403815c1:	996a      	add.n	a9, a9, a6
+403815c3:	211d27        	beq	a13, a2, 403815e8 <pen_roi_decode_continuous+0x158>
+403815c6:	c09920        	sub	a9, a9, a2
+403815c9:	0ebd      	mov.n	a11, a14
+403815cb:	02ad      	mov.n	a10, a2
+403815cd:	fff5c6        	j	403815a8 <pen_roi_decode_continuous+0x118>
+403815d0:	786152        	s32i	a5, a1, 0x1e0
+403815d3:	025d      	mov.n	a5, a2
+403815d5:	782122        	l32i	a2, a1, 0x1e0
+403815d8:	05cd      	mov.n	a12, a5
+403815da:	05bd      	mov.n	a11, a5
+403815dc:	02ad      	mov.n	a10, a2
+403815de:	cba981        	l32r	a8, 40374484 <_iram_text_start+0x80> (400011e8 <memset>)
+403815e1:	0008e0        	callx8	a8
+403815e4:	019486        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403815e7:	61f200        	xsr.ccompare2	a0
+403815ea:	c068      	l32i.n	a6, a0, 48
+403815ec:	b93cc08f 	ee.vmulas.s8.accx.ld.xp.qup	q3, a8, a0, q7, q0, q3, q4
+403815f0:	023987        	bltu	a9, a8, 403815f6 <pen_roi_decode_continuous+0x166>
+403815f3:	0190c6        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403815f6:	829220        	mull	a9, a2, a2
+403815f9:	8cfa      	add.n	a8, a12, a15
+403815fb:	418180        	srli	a8, a8, 1
+403815fe:	c97b      	addi.n	a12, a9, 7
+40381600:	506182        	s32i	a8, a1, 0x140
+40381603:	41c3c0        	srli	a12, a12, 3
+40381606:	20d582        	addmi	a8, a5, 0x2000
+40381609:	0b0c      	movi.n	a11, 0
+4038160b:	05ad      	mov.n	a10, a5
+4038160d:	526182        	s32i	a8, a1, 0x148
+40381610:	6b6192        	s32i	a9, a1, 0x1ac
+40381613:	cb9c81        	l32r	a8, 40374484 <_iram_text_start+0x80> (400011e8 <memset>)
+40381616:	0008e0        	callx8	a8
+40381619:	080c      	movi.n	a8, 0
+4038161b:	08fd      	mov.n	a15, a8
+4038161d:	1b6182        	s32i	a8, a1, 108
+40381620:	5c6182        	s32i	a8, a1, 0x170
+40381623:	656132        	s32i	a3, a1, 0x194
+40381626:	616182        	s32i	a8, a1, 0x184
+40381629:	666162        	s32i	a6, a1, 0x198
+4038162c:	05dd      	mov.n	a13, a5
+4038162e:	008bc6        	j	40381861 <pen_roi_decode_continuous+0x3d1>
+40381631:	c7ba      	add.n	a12, a7, a11
+40381633:	4193c0        	srli	a9, a12, 3
+40381636:	9d9a      	add.n	a9, a13, a9
+40381638:	000982        	l8ui	a8, a9, 0
+4038163b:	24a0c0        	extui	a10, a12, 0, 3
+4038163e:	400a00        	ssr	a10
+40381641:	918080        	srl	a8, a8
+40381644:	04f080        	extui	a15, a8, 0, 1
+40381647:	026807        	bbci	a8, 0, 4038164d <pen_roi_decode_continuous+0x1bd>
+4038164a:	007f86        	j	4038184c <pen_roi_decode_continuous+0x3bc>
+4038164d:	cf1481        	l32r	a8, 403752a0 <_iram_text_start+0xe9c> (5b80 <_rtc_fast_length+0x5a64>)
+40381650:	5b21e2        	l32i	a14, a1, 0x16c
+40381653:	8b8a      	add.n	a8, a11, a8
+40381655:	8e8a      	add.n	a8, a14, a8
+40381657:	000882        	l8ui	a8, a8, 0
+4038165a:	5021e2        	l32i	a14, a1, 0x140
+4038165d:	0238e7        	bltu	a8, a14, 40381663 <pen_roi_decode_continuous+0x1d3>
+40381660:	007a06        	j	4038184c <pen_roi_decode_continuous+0x3bc>
+40381663:	5221e2        	l32i	a14, a1, 0x148
+40381666:	5c2152        	l32i	a5, a1, 0x170
+40381669:	0ec9      	s32i.n	a12, a14, 0
+4038166b:	000982        	l8ui	a8, a9, 0
+4038166e:	1c0c      	movi.n	a12, 1
+40381670:	401a00        	ssl	a10
+40381673:	a1ac00        	sll	a10, a12
+40381676:	20aa80        	or	a10, a10, a8
+40381679:	0049a2        	s8i	a10, a9, 0
+4038167c:	4e6152        	s32i	a5, a1, 0x138
+4038167f:	0e9d      	mov.n	a9, a14
+40381681:	0b8d      	mov.n	a8, a11
+40381683:	0bad      	mov.n	a10, a11
+40381685:	0c3d      	mov.n	a3, a12
+40381687:	5d6172        	s32i	a7, a1, 0x174
+4038168a:	5e61b2        	s32i	a11, a1, 0x178
+4038168d:	5f61e2        	s32i	a14, a1, 0x17c
+40381690:	0f6d      	mov.n	a6, a15
+40381692:	0978      	l32i.n	a7, a9, 0
+40381694:	4e21f2        	l32i	a15, a1, 0x138
+40381697:	c2c720        	quou	a12, a7, a2
+4038169a:	73ffc0        	maxu	a15, a15, a12
+4038169d:	e27720        	remu	a7, a7, a2
+403816a0:	bc0b      	addi.n	a11, a12, -1
+403816a2:	638870        	minu	a8, a8, a7
+403816a5:	73aa70        	maxu	a10, a10, a7
+403816a8:	6355c0        	minu	a5, a5, a12
+403816ab:	661b      	addi.n	a6, a6, 1
+403816ad:	4e61f2        	s32i	a15, a1, 0x138
+403816b0:	fc2b      	addi.n	a15, a12, 2
+403816b2:	82eb20        	mull	a14, a11, a2
+403816b5:	c70b      	addi.n	a12, a7, -1
+403816b7:	546192        	s32i	a9, a1, 0x150
+403816ba:	772b      	addi.n	a7, a7, 2
+403816bc:	4c61f2        	s32i	a15, a1, 0x130
+403816bf:	566162        	s32i	a6, a1, 0x158
+403816c2:	586182        	s32i	a8, a1, 0x160
+403816c5:	5561a2        	s32i	a10, a1, 0x154
+403816c8:	5a6152        	s32i	a5, a1, 0x168
+403816cb:	001686        	j	40381729 <pen_roi_decode_continuous+0x299>
+403816ce:	f8ea      	add.n	a15, a8, a14
+403816d0:	41a3f0        	srli	a10, a15, 3
+403816d3:	2098b0        	or	a9, a8, a11
+403816d6:	adaa      	add.n	a10, a13, a10
+403816d8:	5358b0        	max	a5, a8, a11
+403816db:	2460f0        	extui	a6, a15, 0, 3
+403816de:	038996        	bltz	a9, 4038171a <pen_roi_decode_continuous+0x28a>
+403816e1:	35a527        	bge	a5, a2, 4038171a <pen_roi_decode_continuous+0x28a>
+403816e4:	ceef91        	l32r	a9, 403752a0 <_iram_text_start+0xe9c> (5b80 <_rtc_fast_length+0x5a64>)
+403816e7:	5dea      	add.n	a5, a13, a14
+403816e9:	989a      	add.n	a9, a8, a9
+403816eb:	959a      	add.n	a9, a5, a9
+403816ed:	000a52        	l8ui	a5, a10, 0
+403816f0:	26d567        	bbs	a5, a6, 4038171a <pen_roi_decode_continuous+0x28a>
+403816f3:	140c      	movi.n	a4, 1
+403816f5:	401600        	ssl	a6
+403816f8:	a16400        	sll	a6, a4
+403816fb:	205560        	or	a5, a5, a6
+403816fe:	000992        	l8ui	a9, a9, 0
+40381701:	522162        	l32i	a6, a1, 0x148
+40381704:	502142        	l32i	a4, a1, 0x140
+40381707:	a06360        	addx4	a6, a3, a6
+4038170a:	0cb947        	bgeu	a9, a4, 4038171a <pen_roi_decode_continuous+0x28a>
+4038170d:	02f366        	bnei	a3, 0x100, 40381713 <pen_roi_decode_continuous+0x283>
+40381710:	014986        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381713:	004a52        	s8i	a5, a10, 0
+40381716:	06f9      	s32i.n	a15, a6, 0
+40381718:	331b      	addi.n	a3, a3, 1
+4038171a:	881b      	addi.n	a8, a8, 1
+4038171c:	ae9877        	bne	a8, a7, 403816ce <pen_roi_decode_continuous+0x23e>
+4038171f:	4c2182        	l32i	a8, a1, 0x130
+40381722:	bb1b      	addi.n	a11, a11, 1
+40381724:	ee2a      	add.n	a14, a14, a2
+40381726:	0618b7        	beq	a8, a11, 40381730 <pen_roi_decode_continuous+0x2a0>
+40381729:	0c8d      	mov.n	a8, a12
+4038172b:	ffe7c6        	j	403816ce <pen_roi_decode_continuous+0x23e>
+4038172e:	00          	.byte	00
+4038172f:	219200        	srai	a9, a0, 2
+40381732:	54          	.byte	0x54
+40381733:	562162        	l32i	a6, a1, 0x158
+40381736:	582182        	l32i	a8, a1, 0x160
+40381739:	5521a2        	l32i	a10, a1, 0x154
+4038173c:	5a2152        	l32i	a5, a1, 0x168
+4038173f:	994b      	addi.n	a9, a9, 4
+40381741:	02b637        	bgeu	a6, a3, 40381747 <pen_roi_decode_continuous+0x2b7>
+40381744:	ffd286        	j	40381692 <pen_roi_decode_continuous+0x202>
+40381747:	0a9d      	mov.n	a9, a10
+40381749:	e91b      	addi.n	a14, a9, 1
+4038174b:	08ad      	mov.n	a10, a8
+4038174d:	098d      	mov.n	a8, a9
+4038174f:	4e2192        	l32i	a9, a1, 0x138
+40381752:	5d2172        	l32i	a7, a1, 0x174
+40381755:	c91b      	addi.n	a12, a9, 1
+40381757:	40fa90        	nsau	a9, a10
+4038175a:	5e21b2        	l32i	a11, a1, 0x178
+4038175d:	5f2162        	l32i	a6, a1, 0x17c
+40381760:	c0eea0        	sub	a14, a14, a10
+40381763:	c0fc50        	sub	a15, a12, a5
+40381766:	419590        	srli	a9, a9, 5
+40381769:	044a16        	beqz	a10, 403817b1 <pen_roi_decode_continuous+0x321>
+4038176c:	1c0c      	movi.n	a12, 1
+4038176e:	839c50        	moveqz	a9, a12, a5
+40381771:	c9fc      	bnez.n	a9, 403817b1 <pen_roi_decode_continuous+0x321>
+40381773:	920b      	addi.n	a9, a2, -1
+40381775:	189897        	bne	a8, a9, 40381791 <pen_roi_decode_continuous+0x301>
+40381778:	680c      	movi.n	a8, 6
+4038177a:	62a8e0        	saltu	a10, a8, a14
+4038177d:	6288f0        	saltu	a8, a8, a15
+40381780:	20aa80        	or	a10, a10, a8
+40381783:	4b3a56        	bnez	a10, 40381c3a <pen_roi_decode_continuous+0x7aa>
+40381786:	881c      	movi.n	a8, 24
+40381788:	023837        	bltu	a8, a3, 4038178e <pen_roi_decode_continuous+0x2fe>
+4038178b:	014186        	j	40381c95 <pen_roi_decode_continuous+0x805>
+4038178e:	012a06        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381791:	4e2182        	l32i	a8, a1, 0x138
+40381794:	021897        	beq	a8, a9, 4038179a <pen_roi_decode_continuous+0x30a>
+40381797:	002346        	j	40381828 <pen_roi_decode_continuous+0x398>
+4038179a:	680c      	movi.n	a8, 6
+4038179c:	6298e0        	saltu	a9, a8, a14
+4038179f:	6288f0        	saltu	a8, a8, a15
+403817a2:	209980        	or	a9, a9, a8
+403817a5:	491956        	bnez	a9, 40381c3a <pen_roi_decode_continuous+0x7aa>
+403817a8:	881c      	movi.n	a8, 24
+403817aa:	5eb837        	bgeu	a8, a3, 4038180c <pen_roi_decode_continuous+0x37c>
+403817ad:	012246        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403817b0:	00          	.byte	00
+403817b1:	690c      	movi.n	a9, 6
+403817b3:	62c9e0        	saltu	a12, a9, a14
+403817b6:	6299f0        	saltu	a9, a9, a15
+403817b9:	20cc90        	or	a12, a12, a9
+403817bc:	47ac56        	bnez	a12, 40381c3a <pen_roi_decode_continuous+0x7aa>
+403817bf:	891c      	movi.n	a9, 24
+403817c1:	02b937        	bgeu	a9, a3, 403817c7 <pen_roi_decode_continuous+0x337>
+403817c4:	011c86        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403817c7:	475a56        	bnez	a10, 40381c40 <pen_roi_decode_continuous+0x7b0>
+403817ca:	025eb6        	bltui	a14, 5, 403817d0 <pen_roi_decode_continuous+0x340>
+403817cd:	011a46        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403817d0:	85bc      	beqz.n	a5, 4038180c <pen_roi_decode_continuous+0x37c>
+403817d2:	920b      	addi.n	a9, a2, -1
+403817d4:	4e2182        	l32i	a8, a1, 0x138
+403817d7:	311897        	beq	a8, a9, 4038180c <pen_roi_decode_continuous+0x37c>
+403817da:	a0a182        	movi	a8, 0x1a0
+403817dd:	881a      	add.n	a8, a8, a1
+403817df:	0008a2        	l8ui	a10, a8, 0
+403817e2:	522182        	l32i	a8, a1, 0x148
+403817e5:	a09380        	addx4	a9, a3, a8
+403817e8:	c38c      	beqz.n	a3, 403817f8 <pen_roi_decode_continuous+0x368>
+403817ea:	c09980        	sub	a9, a9, a8
+403817ed:	fcc992        	addi	a9, a9, -4
+403817f0:	419290        	srli	a9, a9, 2
+403817f3:	991b      	addi.n	a9, a9, 1
+403817f5:	000646        	j	40381812 <pen_roi_decode_continuous+0x382>
+403817f8:	361192        	l16ui	a9, a1, 108
+403817fb:	371182        	l16ui	a8, a1, 110
+403817fe:	991b      	addi.n	a9, a9, 1
+40381800:	838a      	add.n	a8, a3, a8
+40381802:	365192        	s16i	a9, a1, 108
+40381805:	375182        	s16i	a8, a1, 110
+40381808:	001006        	j	4038184c <pen_roi_decode_continuous+0x3bc>
+4038180b:	00          	.byte	00
+4038180c:	ca5fb6        	bltui	a15, 5, 403817da <pen_roi_decode_continuous+0x34a>
+4038180f:	0109c6        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381812:	0688      	l32i.n	a8, a6, 0
+40381814:	cea3c1        	l32r	a12, 403752a0 <_iram_text_start+0xe9c> (5b80 <_rtc_fast_length+0x5a64>)
+40381817:	8d8a      	add.n	a8, a13, a8
+40381819:	88ca      	add.n	a8, a8, a12
+4038181b:	0048a2        	s8i	a10, a8, 0
+4038181e:	664b      	addi.n	a6, a6, 4
+40381820:	990b      	addi.n	a9, a9, -1
+40381822:	fec956        	bnez	a9, 40381812 <pen_roi_decode_continuous+0x382>
+40381825:	fff3c6        	j	403817f8 <pen_roi_decode_continuous+0x368>
+40381828:	2033b6        	bltui	a3, 3, 4038184c <pen_roi_decode_continuous+0x3bc>
+4038182b:	64a082        	movi	a8, 100
+4038182e:	02b837        	bgeu	a8, a3, 40381834 <pen_roi_decode_continuous+0x3a4>
+40381831:	010146        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381834:	8ffa      	add.n	a8, a15, a15
+40381836:	02b8e7        	bgeu	a8, a14, 4038183c <pen_roi_decode_continuous+0x3ac>
+40381839:	00ff46        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+4038183c:	8eea      	add.n	a8, a14, a14
+4038183e:	02b8f7        	bgeu	a8, a15, 40381844 <pen_roi_decode_continuous+0x3b4>
+40381841:	00fd46        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381844:	612182        	l32i	a8, a1, 0x184
+40381847:	881b      	addi.n	a8, a8, 1
+40381849:	616182        	s32i	a8, a1, 0x184
+4038184c:	bb1b      	addi.n	a11, a11, 1
+4038184e:	021b27        	beq	a11, a2, 40381854 <pen_roi_decode_continuous+0x3c4>
+40381851:	ff7706        	j	40381631 <pen_roi_decode_continuous+0x1a1>
+40381854:	5c2182        	l32i	a8, a1, 0x170
+40381857:	f72a      	add.n	a15, a7, a2
+40381859:	881b      	addi.n	a8, a8, 1
+4038185b:	5c6182        	s32i	a8, a1, 0x170
+4038185e:	0b1827        	beq	a8, a2, 4038186d <pen_roi_decode_continuous+0x3dd>
+40381861:	8dfa      	add.n	a8, a13, a15
+40381863:	0b0c      	movi.n	a11, 0
+40381865:	5b6182        	s32i	a8, a1, 0x16c
+40381868:	0f7d      	mov.n	a7, a15
+4038186a:	ff70c6        	j	40381631 <pen_roi_decode_continuous+0x1a1>
+4038186d:	6121f2        	l32i	a15, a1, 0x184
+40381870:	382c      	movi.n	a8, 35
+40381872:	652132        	l32i	a3, a1, 0x194
+40381875:	662162        	l32i	a6, a1, 0x198
+40381878:	0d5d      	mov.n	a5, a13
+4038187a:	0228f7        	blt	a8, a15, 40381880 <pen_roi_decode_continuous+0x3f0>
+4038187d:	00ee46        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381880:	64a072        	movi	a7, 100
+40381883:	0237f7        	bltu	a7, a15, 40381889 <pen_roi_decode_continuous+0x3f9>
+40381886:	00f086        	j	40381c4c <pen_roi_decode_continuous+0x7bc>
+40381889:	602182        	l32i	a8, a1, 0x180
+4038188c:	6a2192        	l32i	a9, a1, 0x1a8
+4038188f:	884b      	addi.n	a8, a8, 4
+40381891:	606182        	s32i	a8, a1, 0x180
+40381894:	029897        	bne	a8, a9, 4038189a <pen_roi_decode_continuous+0x40a>
+40381897:	00e7c6        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+4038189a:	0828      	l32i.n	a2, a8, 0
+4038189c:	ff3386        	j	4038156e <pen_roi_decode_continuous+0xde>
+4038189f:	169200        	ee.ldf.64.xp	f9, f1, a0, a2
+403818a2:	04          	.byte	0x4
+403818a3:	021682        	l16ui	a8, a6, 4
+403818a6:	119900        	slli	a9, a9, 16
+403818a9:	36a8      	l32i.n	a10, a6, 12
+403818ab:	208890        	or	a8, a8, a9
+403818ae:	121192        	l16ui	a9, a1, 36
+403818b1:	366182        	s32i	a8, a1, 216
+403818b4:	6e51a2        	s16i	a10, a1, 220
+403818b7:	02b797        	bgeu	a7, a9, 403818bd <pen_roi_decode_continuous+0x42d>
+403818ba:	00df06        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+403818bd:	402182        	l32i	a8, a1, 0x100
+403818c0:	412192        	l32i	a9, a1, 0x104
+403818c3:	506182        	s32i	a8, a1, 0x140
+403818c6:	080c      	movi.n	a8, 0
+403818c8:	516192        	s32i	a9, a1, 0x144
+403818cb:	881a      	add.n	a8, a8, a1
+403818cd:	3e21e2        	l32i	a14, a1, 248
+403818d0:	3f21f2        	l32i	a15, a1, 252
+403818d3:	512892        	l32i	a9, a8, 0x144
+403818d6:	3c21c2        	l32i	a12, a1, 240
+403818d9:	502882        	l32i	a8, a8, 0x140
+403818dc:	3d21d2        	l32i	a13, a1, 244
+403818df:	422142        	l32i	a4, a1, 0x108
+403818e2:	432152        	l32i	a5, a1, 0x10c
+403818e5:	1011a2        	l16ui	a10, a1, 32
+403818e8:	5261e2        	s32i	a14, a1, 0x148
+403818eb:	5361f2        	s32i	a15, a1, 0x14c
+403818ee:	2461e2        	s32i	a14, a1, 144
+403818f1:	2561f2        	s32i	a15, a1, 148
+403818f4:	206182        	s32i	a8, a1, 128
+403818f7:	216192        	s32i	a9, a1, 132
+403818fa:	4e61c2        	s32i	a12, a1, 0x138
+403818fd:	4f61d2        	s32i	a13, a1, 0x13c
+40381900:	1e61c2        	s32i	a12, a1, 120
+40381903:	1f61d2        	s32i	a13, a1, 124
+40381906:	4c6142        	s32i	a4, a1, 0x130
+40381909:	4d6152        	s32i	a5, a1, 0x134
+4038190c:	266142        	s32i	a4, a1, 152
+4038190f:	276152        	s32i	a5, a1, 156
+40381912:	ce6781        	l32r	a8, 403752b0 <_iram_text_start+0xeac> (40002334 <__floatsidf>)
+40381915:	0008e0        	callx8	a8
+40381918:	0a6d      	mov.n	a6, a10
+4038191a:	1111a2        	l16ui	a10, a1, 34
+4038191d:	0b7d      	mov.n	a7, a11
+4038191f:	ce6481        	l32r	a8, 403752b0 <_iram_text_start+0xeac> (40002334 <__floatsidf>)
+40381922:	0008e0        	callx8	a8
+40381925:	204aa0        	or	a4, a10, a10
+40381928:	6721a2        	l32i	a10, a1, 0x19c
+4038192b:	205bb0        	or	a5, a11, a11
+4038192e:	ce6181        	l32r	a8, 403752b4 <_iram_text_start+0xeb0> (40002364 <__floatunsidf>)
+40381931:	0008e0        	callx8	a8
+40381934:	3821c2        	l32i	a12, a1, 224
+40381937:	3921d2        	l32i	a13, a1, 228
+4038193a:	ce5f81        	l32r	a8, 403752b8 <_iram_text_start+0xeb4> (40002184 <__adddf3>)
+4038193d:	0008e0        	callx8	a8
+40381940:	0a8d      	mov.n	a8, a10
+40381942:	0a0c      	movi.n	a10, 0
+40381944:	aa1a      	add.n	a10, a10, a1
+40381946:	0b9d      	mov.n	a9, a11
+40381948:	4f2ab2        	l32i	a11, a10, 0x13c
+4038194b:	4e2aa2        	l32i	a10, a10, 0x138
+4038194e:	06cd      	mov.n	a12, a6
+40381950:	07dd      	mov.n	a13, a7
+40381952:	576192        	s32i	a9, a1, 0x15c
+40381955:	566182        	s32i	a8, a1, 0x158
+40381958:	ce5981        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+4038195b:	0008e0        	callx8	a8
+4038195e:	080c      	movi.n	a8, 0
+40381960:	881a      	add.n	a8, a8, a1
+40381962:	0acd      	mov.n	a12, a10
+40381964:	0bdd      	mov.n	a13, a11
+40381966:	5628a2        	l32i	a10, a8, 0x158
+40381969:	5728b2        	l32i	a11, a8, 0x15c
+4038196c:	ce5581        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+4038196f:	0008e0        	callx8	a8
+40381972:	0a8d      	mov.n	a8, a10
+40381974:	0a0c      	movi.n	a10, 0
+40381976:	aa1a      	add.n	a10, a10, a1
+40381978:	0b9d      	mov.n	a9, a11
+4038197a:	512ab2        	l32i	a11, a10, 0x144
+4038197d:	502aa2        	l32i	a10, a10, 0x140
+40381980:	04cd      	mov.n	a12, a4
+40381982:	05dd      	mov.n	a13, a5
+40381984:	576192        	s32i	a9, a1, 0x15c
+40381987:	566182        	s32i	a8, a1, 0x158
+4038198a:	ce4c81        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+4038198d:	0008e0        	callx8	a8
+40381990:	080c      	movi.n	a8, 0
+40381992:	881a      	add.n	a8, a8, a1
+40381994:	0acd      	mov.n	a12, a10
+40381996:	0bdd      	mov.n	a13, a11
+40381998:	5628a2        	l32i	a10, a8, 0x158
+4038199b:	5728b2        	l32i	a11, a8, 0x15c
+4038199e:	ce4881        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+403819a1:	0008e0        	callx8	a8
+403819a4:	0a8d      	mov.n	a8, a10
+403819a6:	5421a2        	l32i	a10, a1, 0x150
+403819a9:	566182        	s32i	a8, a1, 0x158
+403819ac:	080c      	movi.n	a8, 0
+403819ae:	5761b2        	s32i	a11, a1, 0x15c
+403819b1:	881a      	add.n	a8, a8, a1
+403819b3:	572892        	l32i	a9, a8, 0x15c
+403819b6:	562882        	l32i	a8, a8, 0x158
+403819b9:	236192        	s32i	a9, a1, 140
+403819bc:	226182        	s32i	a8, a1, 136
+403819bf:	ce3d81        	l32r	a8, 403752b4 <_iram_text_start+0xeb0> (40002364 <__floatunsidf>)
+403819c2:	0008e0        	callx8	a8
+403819c5:	3a21c2        	l32i	a12, a1, 232
+403819c8:	3b21d2        	l32i	a13, a1, 236
+403819cb:	ce3b81        	l32r	a8, 403752b8 <_iram_text_start+0xeb4> (40002184 <__adddf3>)
+403819ce:	0008e0        	callx8	a8
+403819d1:	0a8d      	mov.n	a8, a10
+403819d3:	0a0c      	movi.n	a10, 0
+403819d5:	aa1a      	add.n	a10, a10, a1
+403819d7:	0b9d      	mov.n	a9, a11
+403819d9:	532ab2        	l32i	a11, a10, 0x14c
+403819dc:	522aa2        	l32i	a10, a10, 0x148
+403819df:	06cd      	mov.n	a12, a6
+403819e1:	07dd      	mov.n	a13, a7
+403819e3:	086d      	mov.n	a6, a8
+403819e5:	207990        	or	a7, a9, a9
+403819e8:	ce3581        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+403819eb:	0008e0        	callx8	a8
+403819ee:	0acd      	mov.n	a12, a10
+403819f0:	0bdd      	mov.n	a13, a11
+403819f2:	06ad      	mov.n	a10, a6
+403819f4:	07bd      	mov.n	a11, a7
+403819f6:	ce3281        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+403819f9:	0008e0        	callx8	a8
+403819fc:	080c      	movi.n	a8, 0
+403819fe:	881a      	add.n	a8, a8, a1
+40381a00:	04cd      	mov.n	a12, a4
+40381a02:	05dd      	mov.n	a13, a5
+40381a04:	4c2842        	l32i	a4, a8, 0x130
+40381a07:	4d2852        	l32i	a5, a8, 0x134
+40381a0a:	0a6d      	mov.n	a6, a10
+40381a0c:	0b7d      	mov.n	a7, a11
+40381a0e:	04ad      	mov.n	a10, a4
+40381a10:	05bd      	mov.n	a11, a5
+40381a12:	ce2a81        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381a15:	0008e0        	callx8	a8
+40381a18:	0acd      	mov.n	a12, a10
+40381a1a:	0bdd      	mov.n	a13, a11
+40381a1c:	06ad      	mov.n	a10, a6
+40381a1e:	07bd      	mov.n	a11, a7
+40381a20:	ce2881        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+40381a23:	0008e0        	callx8	a8
+40381a26:	080c      	movi.n	a8, 0
+40381a28:	881a      	add.n	a8, a8, a1
+40381a2a:	0a6d      	mov.n	a6, a10
+40381a2c:	0b7d      	mov.n	a7, a11
+40381a2e:	4e28a2        	l32i	a10, a8, 0x138
+40381a31:	4f28b2        	l32i	a11, a8, 0x13c
+40381a34:	04cd      	mov.n	a12, a4
+40381a36:	05dd      	mov.n	a13, a5
+40381a38:	586162        	s32i	a6, a1, 0x160
+40381a3b:	596172        	s32i	a7, a1, 0x164
+40381a3e:	286162        	s32i	a6, a1, 160
+40381a41:	296172        	s32i	a7, a1, 164
+40381a44:	ce1e81        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381a47:	0008e0        	callx8	a8
+40381a4a:	080c      	movi.n	a8, 0
+40381a4c:	881a      	add.n	a8, a8, a1
+40381a4e:	5228c2        	l32i	a12, a8, 0x148
+40381a51:	5328d2        	l32i	a13, a8, 0x14c
+40381a54:	080c      	movi.n	a8, 0
+40381a56:	881a      	add.n	a8, a8, a1
+40381a58:	0a6d      	mov.n	a6, a10
+40381a5a:	0b7d      	mov.n	a7, a11
+40381a5c:	5028a2        	l32i	a10, a8, 0x140
+40381a5f:	5128b2        	l32i	a11, a8, 0x144
+40381a62:	ce1681        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381a65:	0008e0        	callx8	a8
+40381a68:	0acd      	mov.n	a12, a10
+40381a6a:	0bdd      	mov.n	a13, a11
+40381a6c:	06ad      	mov.n	a10, a6
+40381a6e:	07bd      	mov.n	a11, a7
+40381a70:	ce1481        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+40381a73:	0008e0        	callx8	a8
+40381a76:	7bba      	add.n	a7, a11, a11
+40381a78:	417170        	srli	a7, a7, 1
+40381a7b:	ce0cd1        	l32r	a13, 403752ac <_iram_text_start+0xea8> (7fefffff <_rtc_reserved_end+0x1fdfffff>)
+40381a7e:	0b5d      	mov.n	a5, a11
+40381a80:	fc7c      	movi.n	a12, -1
+40381a82:	20b770        	or	a11, a7, a7
+40381a85:	204aa0        	or	a4, a10, a10
+40381a88:	206aa0        	or	a6, a10, a10
+40381a8b:	ce0e81        	l32r	a8, 403752c4 <_iram_text_start+0xec0> (4000258c <__unorddf2>)
+40381a8e:	0008e0        	callx8	a8
+40381a91:	1a0a56        	bnez	a10, 40381c35 <pen_roi_decode_continuous+0x7a5>
+40381a94:	ce06d1        	l32r	a13, 403752ac <_iram_text_start+0xea8> (7fefffff <_rtc_reserved_end+0x1fdfffff>)
+40381a97:	fc7c      	movi.n	a12, -1
+40381a99:	20a440        	or	a10, a4, a4
+40381a9c:	07bd      	mov.n	a11, a7
+40381a9e:	ce0a81        	l32r	a8, 403752c8 <_iram_text_start+0xec4> (400023a0 <__gtdf2>)
+40381aa1:	0008e0        	callx8	a8
+40381aa4:	021aa6        	blti	a10, 1, 40381aaa <pen_roi_decode_continuous+0x61a>
+40381aa7:	006286        	j	40381c35 <pen_roi_decode_continuous+0x7a5>
+40381aaa:	cdffd1        	l32r	a13, 403752a8 <_iram_text_start+0xea4> (3ff00000 <ets_ops_table_ptr+0x210004>)
+40381aad:	0c0c      	movi.n	a12, 0
+40381aaf:	04ad      	mov.n	a10, a4
+40381ab1:	07bd      	mov.n	a11, a7
+40381ab3:	ce0681        	l32r	a8, 403752cc <_iram_text_start+0xec8> (400023dc <__ltdf2>)
+40381ab6:	0008e0        	callx8	a8
+40381ab9:	178a96        	bltz	a10, 40381c35 <pen_roi_decode_continuous+0x7a5>
+40381abc:	080c      	movi.n	a8, 0
+40381abe:	881a      	add.n	a8, a8, a1
+40381ac0:	4c28a2        	l32i	a10, a8, 0x130
+40381ac3:	4d28b2        	l32i	a11, a8, 0x134
+40381ac6:	04cd      	mov.n	a12, a4
+40381ac8:	05dd      	mov.n	a13, a5
+40381aca:	ce0181        	l32r	a8, 403752d0 <_iram_text_start+0xecc> (40002250 <__divdf3>)
+40381acd:	0008e0        	callx8	a8
+40381ad0:	0c0c      	movi.n	a12, 0
+40381ad2:	cc1a      	add.n	a12, a12, a1
+40381ad4:	512cd2        	l32i	a13, a12, 0x144
+40381ad7:	cb0771        	l32r	a7, 403746f4 <_iram_text_start+0x2f0> (80000000 <_rtc_reserved_end+0x1ff00000>)
+40381ada:	0a8d      	mov.n	a8, a10
+40381adc:	0b9d      	mov.n	a9, a11
+40381ade:	502ca2        	l32i	a10, a12, 0x140
+40381ae1:	30bd70        	xor	a11, a13, a7
+40381ae4:	04cd      	mov.n	a12, a4
+40381ae6:	05dd      	mov.n	a13, a5
+40381ae8:	2a6182        	s32i	a8, a1, 168
+40381aeb:	2b6192        	s32i	a9, a1, 172
+40381aee:	506182        	s32i	a8, a1, 0x140
+40381af1:	516192        	s32i	a9, a1, 0x144
+40381af4:	cdf781        	l32r	a8, 403752d0 <_iram_text_start+0xecc> (40002250 <__divdf3>)
+40381af7:	0008e0        	callx8	a8
+40381afa:	080c      	movi.n	a8, 0
+40381afc:	881a      	add.n	a8, a8, a1
+40381afe:	532892        	l32i	a9, a8, 0x14c
+40381b01:	0aed      	mov.n	a14, a10
+40381b03:	0bfd      	mov.n	a15, a11
+40381b05:	5228a2        	l32i	a10, a8, 0x148
+40381b08:	30b970        	xor	a11, a9, a7
+40381b0b:	04cd      	mov.n	a12, a4
+40381b0d:	20d550        	or	a13, a5, a5
+40381b10:	4c61e2        	s32i	a14, a1, 0x130
+40381b13:	4d61f2        	s32i	a15, a1, 0x134
+40381b16:	2c61e2        	s32i	a14, a1, 176
+40381b19:	2d61f2        	s32i	a15, a1, 180
+40381b1c:	cded81        	l32r	a8, 403752d0 <_iram_text_start+0xecc> (40002250 <__divdf3>)
+40381b1f:	0008e0        	callx8	a8
+40381b22:	080c      	movi.n	a8, 0
+40381b24:	881a      	add.n	a8, a8, a1
+40381b26:	0aed      	mov.n	a14, a10
+40381b28:	0bfd      	mov.n	a15, a11
+40381b2a:	4e28a2        	l32i	a10, a8, 0x138
+40381b2d:	4f28b2        	l32i	a11, a8, 0x13c
+40381b30:	3061e2        	s32i	a14, a1, 192
+40381b33:	4e61e2        	s32i	a14, a1, 0x138
+40381b36:	3161f2        	s32i	a15, a1, 196
+40381b39:	4f61f2        	s32i	a15, a1, 0x13c
+40381b3c:	04cd      	mov.n	a12, a4
+40381b3e:	05dd      	mov.n	a13, a5
+40381b40:	cde481        	l32r	a8, 403752d0 <_iram_text_start+0xecc> (40002250 <__divdf3>)
+40381b43:	0008e0        	callx8	a8
+40381b46:	080c      	movi.n	a8, 0
+40381b48:	881a      	add.n	a8, a8, a1
+40381b4a:	512892        	l32i	a9, a8, 0x144
+40381b4d:	0a4d      	mov.n	a4, a10
+40381b4f:	5028a2        	l32i	a10, a8, 0x140
+40381b52:	080c      	movi.n	a8, 0
+40381b54:	881a      	add.n	a8, a8, a1
+40381b56:	5628c2        	l32i	a12, a8, 0x158
+40381b59:	5728d2        	l32i	a13, a8, 0x15c
+40381b5c:	205bb0        	or	a5, a11, a11
+40381b5f:	326142        	s32i	a4, a1, 200
+40381b62:	30b970        	xor	a11, a9, a7
+40381b65:	336152        	s32i	a5, a1, 204
+40381b68:	cdd581        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381b6b:	0008e0        	callx8	a8
+40381b6e:	0a8d      	mov.n	a8, a10
+40381b70:	0a0c      	movi.n	a10, 0
+40381b72:	aa1a      	add.n	a10, a10, a1
+40381b74:	4c2ac2        	l32i	a12, a10, 0x130
+40381b77:	4d2ad2        	l32i	a13, a10, 0x134
+40381b7a:	0a0c      	movi.n	a10, 0
+40381b7c:	aa1a      	add.n	a10, a10, a1
+40381b7e:	0b9d      	mov.n	a9, a11
+40381b80:	592ab2        	l32i	a11, a10, 0x164
+40381b83:	582aa2        	l32i	a10, a10, 0x160
+40381b86:	4d6192        	s32i	a9, a1, 0x134
+40381b89:	4c6182        	s32i	a8, a1, 0x130
+40381b8c:	cdcc81        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381b8f:	0008e0        	callx8	a8
+40381b92:	080c      	movi.n	a8, 0
+40381b94:	881a      	add.n	a8, a8, a1
+40381b96:	0acd      	mov.n	a12, a10
+40381b98:	0bdd      	mov.n	a13, a11
+40381b9a:	4c28a2        	l32i	a10, a8, 0x130
+40381b9d:	4d28b2        	l32i	a11, a8, 0x134
+40381ba0:	cdc881        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+40381ba3:	0008e0        	callx8	a8
+40381ba6:	0c0c      	movi.n	a12, 0
+40381ba8:	cc1a      	add.n	a12, a12, a1
+40381baa:	4f2cf2        	l32i	a15, a12, 0x13c
+40381bad:	0a8d      	mov.n	a8, a10
+40381baf:	4e2ca2        	l32i	a10, a12, 0x138
+40381bb2:	0c0c      	movi.n	a12, 0
+40381bb4:	cc1a      	add.n	a12, a12, a1
+40381bb6:	209bb0        	or	a9, a11, a11
+40381bb9:	572cd2        	l32i	a13, a12, 0x15c
+40381bbc:	562cc2        	l32i	a12, a12, 0x158
+40381bbf:	30bf70        	xor	a11, a15, a7
+40381bc2:	2f6192        	s32i	a9, a1, 188
+40381bc5:	2e6182        	s32i	a8, a1, 184
+40381bc8:	cdbd81        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381bcb:	0008e0        	callx8	a8
+40381bce:	080c      	movi.n	a8, 0
+40381bd0:	881a      	add.n	a8, a8, a1
+40381bd2:	0a6d      	mov.n	a6, a10
+40381bd4:	0b7d      	mov.n	a7, a11
+40381bd6:	5828a2        	l32i	a10, a8, 0x160
+40381bd9:	5928b2        	l32i	a11, a8, 0x164
+40381bdc:	04cd      	mov.n	a12, a4
+40381bde:	05dd      	mov.n	a13, a5
+40381be0:	cdb781        	l32r	a8, 403752bc <_iram_text_start+0xeb8> (40002418 <__muldf3>)
+40381be3:	0008e0        	callx8	a8
+40381be6:	0acd      	mov.n	a12, a10
+40381be8:	0bdd      	mov.n	a13, a11
+40381bea:	06ad      	mov.n	a10, a6
+40381bec:	07bd      	mov.n	a11, a7
+40381bee:	cdb481        	l32r	a8, 403752c0 <_iram_text_start+0xebc> (400024fc <__subdf3>)
+40381bf1:	0008e0        	callx8	a8
+40381bf4:	5c21c2        	l32i	a12, a1, 0x170
+40381bf7:	0b9d      	mov.n	a9, a11
+40381bf9:	5421b2        	l32i	a11, a1, 0x150
+40381bfc:	208aa0        	or	a8, a10, a10
+40381bff:	ce11e2        	l16ui	a14, a1, 0x19c
+40381c02:	11ac00        	slli	a10, a12, 16
+40381c05:	f4d0c0        	extui	a13, a12, 0, 16
+40381c08:	20dda0        	or	a13, a13, a10
+40381c0b:	11bb00        	slli	a11, a11, 16
+40381c0e:	7921a2        	l32i	a10, a1, 0x1e4
+40381c11:	20eeb0        	or	a14, a14, a11
+40381c14:	20c330        	or	a12, a3, a3
+40381c17:	20c1b2        	addi	a11, a1, 32
+40381c1a:	346182        	s32i	a8, a1, 208
+40381c1d:	356192        	s32i	a9, a1, 212
+40381c20:	1961e2        	s32i	a14, a1, 100
+40381c23:	1a61d2        	s32i	a13, a1, 104
+40381c26:	ca1b81        	l32r	a8, 40374494 <_iram_text_start+0x90> (400011f4 <memcpy>)
+40381c29:	0008e0        	callx8	a8
+40381c2c:	001b86        	j	40381c9e <pen_roi_decode_continuous+0x80e>
+40381c2f:	f27c00        	rems	a7, a12, a0
+40381c32:	001a06        	j	40381c9e <pen_roi_decode_continuous+0x80e>
+40381c35:	d27c      	movi.n	a2, -3
+40381c37:	0018c6        	j	40381c9e <pen_roi_decode_continuous+0x80e>
+40381c3a:	e27c      	movi.n	a2, -2
+40381c3c:	001786        	j	40381c9e <pen_roi_decode_continuous+0x80e>
+40381c3f:	00          	.byte	00
+40381c40:	920b      	addi.n	a9, a2, -1
+40381c42:	021987        	beq	a9, a8, 40381c48 <pen_roi_decode_continuous+0x7b8>
+40381c45:	fef0c6        	j	4038180c <pen_roi_decode_continuous+0x37c>
+40381c48:	001006        	j	40381c8c <pen_roi_decode_continuous+0x7fc>
+40381c4b:	c18200        	mul16u	a8, a2, a0
+40381c4e:	20          	.byte	0x20
+40381c4f:	546132        	s32i	a3, a1, 0x150
+40381c52:	f0a062        	movi	a6, 240
+40381c55:	c0a032        	movi	a3, 192
+40381c58:	80a830        	add	a10, a8, a3
+40381c5b:	806860        	add	a6, a8, a6
+40381c5e:	cd9181        	l32r	a8, 403752a4 <_iram_text_start+0xea0> (5580 <_rtc_fast_length+0x5464>)
+40381c61:	5c21c2        	l32i	a12, a1, 0x170
+40381c64:	0361a2        	s32i	a10, a1, 12
+40381c67:	20c1a2        	addi	a10, a1, 32
+40381c6a:	8d8a      	add.n	a8, a13, a8
+40381c6c:	21a9      	s32i.n	a10, a1, 8
+40381c6e:	6b21b2        	l32i	a11, a1, 0x1ac
+40381c71:	6c21f2        	l32i	a15, a1, 0x1b0
+40381c74:	6421a2        	l32i	a10, a1, 0x190
+40381c77:	01d9      	s32i.n	a13, a1, 0
+40381c79:	4169      	s32i.n	a6, a1, 16
+40381c7b:	1189      	s32i.n	a8, a1, 4
+40381c7d:	0ced      	mov.n	a14, a12
+40381c7f:	0cdd      	mov.n	a13, a12
+40381c81:	ff7be5        	call8	40381440 <__wrap_pen_roi_decode_refined_transform>
+40381c84:	0a2d      	mov.n	a2, a10
+40381c86:	c16a16        	beqz	a10, 403818a0 <pen_roi_decode_continuous+0x410>
+40381c89:	000446        	j	40381c9e <pen_roi_decode_continuous+0x80e>
+40381c8c:	025ef6        	bgeui	a14, 5, 40381c92 <pen_roi_decode_continuous+0x802>
+40381c8f:	fede46        	j	4038180c <pen_roi_decode_continuous+0x37c>
+40381c92:	ffe906        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381c95:	025ef6        	bgeui	a14, 5, 40381c9b <pen_roi_decode_continuous+0x80b>
+40381c98:	fece06        	j	403817d4 <pen_roi_decode_continuous+0x344>
+40381c9b:	ffe6c6        	j	40381c3a <pen_roi_decode_continuous+0x7aa>
+40381c9e:	f01d      	retw.n
+
+
+40381440 <__wrap_pen_roi_decode_refined_transform>:
+40381440:	008136        	entry	a1, 64
+40381443:	cf9491        	l32r	a9, 40375294 <_iram_text_start+0xe90> (3fcc783c <calls>)
+40381446:	02ad      	mov.n	a10, a2
+40381448:	132122        	l32i	a2, a1, 76
+4038144b:	0988      	l32i.n	a8, a9, 0
+4038144d:	3129      	s32i.n	a2, a1, 12
+4038144f:	122122        	l32i	a2, a1, 72
+40381452:	07fd      	mov.n	a15, a7
+40381454:	2129      	s32i.n	a2, a1, 8
+40381456:	112122        	l32i	a2, a1, 68
+40381459:	142172        	l32i	a7, a1, 80
+4038145c:	1129      	s32i.n	a2, a1, 4
+4038145e:	102122        	l32i	a2, a1, 64
+40381461:	881b      	addi.n	a8, a8, 1
+40381463:	0129      	s32i.n	a2, a1, 0
+40381465:	4179      	s32i.n	a7, a1, 16
+40381467:	03bd      	mov.n	a11, a3
+40381469:	04cd      	mov.n	a12, a4
+4038146b:	05dd      	mov.n	a13, a5
+4038146d:	06ed      	mov.n	a14, a6
+4038146f:	0989      	s32i.n	a8, a9, 0
+40381471:	016625        	call8	40382ad4 <pen_roi_decode_refined_transform>
+40381474:	0a2d      	mov.n	a2, a10
+40381476:	279c      	beqz.n	a7, 4038148c <__wrap_pen_roi_decode_refined_transform+0x4c>
+40381478:	07a8      	l32i.n	a10, a7, 0
+4038147a:	cf8781        	l32r	a8, 40375298 <_iram_text_start+0xe94> (3fcc7840 <last>)
+4038147d:	1798      	l32i.n	a9, a7, 4
+4038147f:	08a9      	s32i.n	a10, a8, 0
+40381481:	27a8      	l32i.n	a10, a7, 8
+40381483:	1899      	s32i.n	a9, a8, 4
+40381485:	3798      	l32i.n	a9, a7, 12
+40381487:	28a9      	s32i.n	a10, a8, 8
+40381489:	036892        	s32i	a9, a8, 12
+4038148c:	f01d      	retw.n
+	...
+

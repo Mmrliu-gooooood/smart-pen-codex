@@ -1,0 +1,71 @@
+
+build-enabled/smartpen_continuous_v3_bench.elf:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .rtc.text     00000100  600fe000  600fe000  00045000  2**0
+                  ALLOC
+  1 .rtc.force_fast 0000001c  600fe100  600fe100  00045100  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .rtc_noinit   00000000  50000000  50000000  0004511c  2**0
+                  CONTENTS
+  3 .rtc.force_slow 00000000  50000000  50000000  0004511c  2**0
+                  CONTENTS
+  4 .rtc_reserved 00000018  600fffe8  600fffe8  00045fe8  2**3
+                  ALLOC
+  5 .iram0.vectors 00000403  40374000  40374000  00024000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .iram0.text   00020b8f  40374404  40374404  00024404  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .dram0.dummy  0001d000  3fc88000  3fc88000  00001000  2**0
+                  ALLOC
+  8 .dram0.data   000221d1  3fca5000  3fca5000  00001000  2**4
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .noinit       00000003  3fcc71d1  3fcc71d1  000231d1  2**0
+                  ALLOC
+ 10 .dram0.bss    000007c0  3fcc71d8  3fcc71d8  000231d1  2**3
+                  ALLOC
+ 11 .flash.text   00000010  40394f93  40394f93  00044f93  2**0
+                  ALLOC
+ 12 .flash_rodata_dummy 00000030  3fcc7998  3fcc7998  000231d1  2**0
+                  ALLOC
+ 13 .flash.appdesc 00000100  3fcc79d0  3fcc79d0  000239d0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .flash.rodata 000000a8  3fcc7ad0  3fcc7ad0  00023ad0  2**4
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .ext_ram.dummy 000001e0  3c000020  3c000020  00001020  2**0
+                  ALLOC
+ 16 .iram0.text_end 0000005d  40394fa3  40394fa3  00044f93  2**0
+                  ALLOC
+ 17 .iram0.data   00000000  40395000  40395000  0004511c  2**0
+                  CONTENTS
+ 18 .iram0.bss    00000000  40395000  40395000  0004511c  2**0
+                  CONTENTS
+ 19 .dram0.heap_start 00000000  3fcc7b78  3fcc7b78  0004511c  2**0
+                  CONTENTS
+ 20 .debug_aranges 00002fe0  00000000  00000000  00045120  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .debug_info   000e6d14  00000000  00000000  00048100  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 22 .debug_abbrev 0001be2a  00000000  00000000  0012ee14  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 23 .debug_line   00091b1c  00000000  00000000  0014ac3e  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 24 .debug_frame  00006c00  00000000  00000000  001dc75c  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 25 .debug_str    00020a78  00000000  00000000  001e335c  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 26 .debug_loc    0003d2e1  00000000  00000000  00203dd4  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 27 .debug_ranges 0000a860  00000000  00000000  002410b8  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 28 .debug_line_str 0000181c  00000000  00000000  0024b918  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 29 .debug_loclists 0000d83a  00000000  00000000  0024d134  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 30 .debug_rnglists 000003c9  00000000  00000000  0025a96e  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 31 .comment      00000054  00000000  00000000  0025ad37  2**0
+                  CONTENTS, READONLY
+ 32 .xtensa.info  00000038  00000000  00000000  0025ad8b  2**0
+                  CONTENTS, READONLY

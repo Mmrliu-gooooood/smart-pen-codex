@@ -1,0 +1,334 @@
+{
+  "status": "PASS_RESEARCH_ONLY_NO_ROUTE_RELEASE",
+  "input_sha256": {
+    "smart_pen_next_20261028/hardware/gate_supply_native_mpn_source/mainboard_projection/mainboard_revD.xml": "496a4306fffcff0b1071f3d60486d8b0f4cec3ef1c90a8b4f8de419146d8cedc",
+    "smart_pen_next_20261028/hardware/imu_compact_0402_placement/mainboard_revD.kicad_pcb": "dd55c7b2a342bea2ea900a6daac70f7dff88274d1ad05132aa6ce3ef6b93d9a5",
+    "smart_pen_next_20261028/docs/research/prototype_cost_audit_20261029_0044/manifest.json": "c3bf7692106a87dee179725d4f85a0cfa191f8c846dd1f0e2b40ad37a006f38e",
+    "smart_pen_next_20261028/docs/research/power_architecture_tradeoff/README.md": "886b23b2304152a08f60c139b1fa2e0c8f55788cfe3ea23a888bb4d8dae8f69b",
+    "smart_pen_next_20261028/docs/research/high_beta_ntc_followup_20261028/README.md": "34573fb5b8faa085a604d1fd0ee464896359b5415b53de5d2c3e420f5c014db2",
+    "smart_pen_mechanics_next_20261028/mechanical/compact_contact_cassette_2356/build_cad.py": "fca67a509b7672940f65add15e93b7abfe8d77f525c9e9141c353fe361c82206",
+    "smart_pen_mechanics_next_20261028/mechanical/width14_gate/README.md": "d99197b97e00bb4d70192e71a80045b4a4f167a177cc97b7120d770ae91d5d14",
+    "smart_pen_continuous_v3_target_benchmark_20261029/main/bench_main.c": "b656b5a271dac8aedeef7c914696ae6343ee1b69fd107717e237a4933f531e2f"
+  },
+  "gpio_rows": [
+    {
+      "gpio": 0,
+      "net": "BOOT_N",
+      "pico_pin": 5,
+      "mini_pin": 4,
+      "strap": true
+    },
+    {
+      "gpio": 1,
+      "net": "PICKUP_INT_N",
+      "pico_pin": 6,
+      "mini_pin": 5,
+      "strap": false
+    },
+    {
+      "gpio": 2,
+      "net": "NIB_CONTACT_N",
+      "pico_pin": 7,
+      "mini_pin": 6,
+      "strap": false
+    },
+    {
+      "gpio": 3,
+      "net": "STRAP_GPIO3",
+      "pico_pin": 8,
+      "mini_pin": 7,
+      "strap": true
+    },
+    {
+      "gpio": 4,
+      "net": "BATTERY_ADC",
+      "pico_pin": 9,
+      "mini_pin": 8,
+      "strap": false
+    },
+    {
+      "gpio": 5,
+      "net": "AON_I2C_SCL",
+      "pico_pin": 10,
+      "mini_pin": 9,
+      "strap": false
+    },
+    {
+      "gpio": 6,
+      "net": "AON_I2C_SDA",
+      "pico_pin": 11,
+      "mini_pin": 10,
+      "strap": false
+    },
+    {
+      "gpio": 7,
+      "net": "CAM_D0",
+      "pico_pin": 12,
+      "mini_pin": 11,
+      "strap": false
+    },
+    {
+      "gpio": 8,
+      "net": "CAM_D1",
+      "pico_pin": 13,
+      "mini_pin": 12,
+      "strap": false
+    },
+    {
+      "gpio": 9,
+      "net": "CAM_D2",
+      "pico_pin": 14,
+      "mini_pin": 13,
+      "strap": false
+    },
+    {
+      "gpio": 10,
+      "net": "CAM_D3",
+      "pico_pin": 15,
+      "mini_pin": 14,
+      "strap": false
+    },
+    {
+      "gpio": 11,
+      "net": "CAM_D4",
+      "pico_pin": 16,
+      "mini_pin": 15,
+      "strap": false
+    },
+    {
+      "gpio": 12,
+      "net": "CAM_D5",
+      "pico_pin": 17,
+      "mini_pin": 16,
+      "strap": false
+    },
+    {
+      "gpio": 13,
+      "net": "CAM_D6",
+      "pico_pin": 18,
+      "mini_pin": 17,
+      "strap": false
+    },
+    {
+      "gpio": 14,
+      "net": "CAM_D7",
+      "pico_pin": 19,
+      "mini_pin": 18,
+      "strap": false
+    },
+    {
+      "gpio": 15,
+      "net": "CAM_PCLK",
+      "pico_pin": 21,
+      "mini_pin": 19,
+      "strap": false
+    },
+    {
+      "gpio": 16,
+      "net": "CAM_VSYNC",
+      "pico_pin": 22,
+      "mini_pin": 20,
+      "strap": false
+    },
+    {
+      "gpio": 17,
+      "net": "CAM_HREF",
+      "pico_pin": 23,
+      "mini_pin": 21,
+      "strap": false
+    },
+    {
+      "gpio": 18,
+      "net": "USB_EN1",
+      "pico_pin": 24,
+      "mini_pin": 22,
+      "strap": false
+    },
+    {
+      "gpio": 19,
+      "net": "USB_DM_MCU",
+      "pico_pin": 25,
+      "mini_pin": 23,
+      "strap": false
+    },
+    {
+      "gpio": 20,
+      "net": "USB_DP_MCU",
+      "pico_pin": 26,
+      "mini_pin": 24,
+      "strap": false
+    },
+    {
+      "gpio": 21,
+      "net": "USB_EN2",
+      "pico_pin": 27,
+      "mini_pin": 25,
+      "strap": false
+    },
+    {
+      "gpio": 38,
+      "net": "CAM_XCLK",
+      "pico_pin": 43,
+      "mini_pin": 34,
+      "strap": false
+    },
+    {
+      "gpio": 39,
+      "net": "CAM_SCL",
+      "pico_pin": 44,
+      "mini_pin": 35,
+      "strap": false
+    },
+    {
+      "gpio": 40,
+      "net": "CAM_SDA",
+      "pico_pin": 45,
+      "mini_pin": 36,
+      "strap": false
+    },
+    {
+      "gpio": 41,
+      "net": "CAM_PWR_EN",
+      "pico_pin": 47,
+      "mini_pin": 37,
+      "strap": false
+    },
+    {
+      "gpio": 42,
+      "net": "CAM_IO_EN",
+      "pico_pin": 48,
+      "mini_pin": 38,
+      "strap": false
+    },
+    {
+      "gpio": 43,
+      "net": "CAM_RESET_UART_TX",
+      "pico_pin": 49,
+      "mini_pin": 39,
+      "strap": false
+    },
+    {
+      "gpio": 44,
+      "net": "CAM_PWDN_UART_RX",
+      "pico_pin": 50,
+      "mini_pin": 40,
+      "strap": false
+    },
+    {
+      "gpio": 45,
+      "net": "STRAP_GPIO45",
+      "pico_pin": 51,
+      "mini_pin": 41,
+      "strap": true
+    },
+    {
+      "gpio": 46,
+      "net": "STRAP_GPIO46",
+      "pico_pin": 52,
+      "mini_pin": 44,
+      "strap": true
+    },
+    {
+      "gpio": 47,
+      "net": "CAM_BUS_EN",
+      "pico_pin": 37,
+      "mini_pin": 27,
+      "strap": false
+    },
+    {
+      "gpio": 48,
+      "net": "ILLUM_STROBE",
+      "pico_pin": 36,
+      "mini_pin": 30,
+      "strap": false
+    }
+  ],
+  "mini_effective_gpio_count": 38,
+  "mini_additional_candidates": [
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "geometry": {
+    "status": "CONSERVATIVE_PRISM_SCREEN_NOT_EXACT_SOLID_OR_SELECTED_OD",
+    "module_max_width_mm": 15.6,
+    "module_max_height_mm": 2.55,
+    "assumed_solder_allowance_mm": 0.15,
+    "main_front_Y_mm": 3.194793176328504,
+    "main_max_thickness_mm": 0.93,
+    "radial_allowances_mm": [
+      1.2,
+      0.1,
+      0.2,
+      0.1
+    ],
+    "fixed_front_radius_mm": 9.77694157657133,
+    "fixed_front_conditional_OD_mm": 22.75388315314266,
+    "ideal_centered_module_only_prism_OD_mm": 19.007039571026574,
+    "ideal_centered_module_carrier_bounding_rectangle_OD_mm": 19.216769337166593,
+    "wroom_nominal_body_only_prism_OD_mm": 21.464993840677856,
+    "limitations": [
+      "No exact STEP solids, module placement or collision study",
+      "Body prism/carrier bbox are conservative envelopes, not mathematical impossibility bounds",
+      "No refill, opposite-side parts, antenna/harness, fasteners or shell support in centered cases",
+      "19 mm is an unapproved research candidate"
+    ]
+  },
+  "conditional_scenarios": [
+    {
+      "mcu": "PICO official reference",
+      "status": "not_checked_stock",
+      "assumed_fixed_CNY": 400,
+      "known_five_original_power_parts_CNY": 111.96,
+      "bq_original_DigiKey_reference_CNY": 40.2,
+      "mcu_two_CNY": 74,
+      "remaining_everything_else_CNY": 133.84
+    },
+    {
+      "mcu": "PICO LCSC unavailable reference",
+      "status": "stock_zero",
+      "assumed_fixed_CNY": 400,
+      "known_five_original_power_parts_CNY": 111.96,
+      "bq_original_DigiKey_reference_CNY": 40.2,
+      "mcu_two_CNY": 124,
+      "remaining_everything_else_CNY": 83.84
+    },
+    {
+      "mcu": "MINI official reference",
+      "status": "not_checked_stock",
+      "assumed_fixed_CNY": 400,
+      "known_five_original_power_parts_CNY": 111.96,
+      "bq_original_DigiKey_reference_CNY": 40.2,
+      "mcu_two_CNY": 48,
+      "remaining_everything_else_CNY": 159.84
+    },
+    {
+      "mcu": "MINI LCSC unavailable reference",
+      "status": "stock_zero",
+      "assumed_fixed_CNY": 400,
+      "known_five_original_power_parts_CNY": 111.96,
+      "bq_original_DigiKey_reference_CNY": 40.2,
+      "mcu_two_CNY": 61.2,
+      "remaining_everything_else_CNY": 146.64
+    },
+    {
+      "mcu": "MINI DigiKey China page sample",
+      "status": "web_snapshot_101_not_reserved",
+      "assumed_fixed_CNY": 400,
+      "known_five_original_power_parts_CNY": 111.96,
+      "bq_original_DigiKey_reference_CNY": 40.2,
+      "mcu_two_CNY": 88.82,
+      "remaining_everything_else_CNY": 119.02
+    }
+  ],
+  "roi_arithmetic_bytes": {
+    "one_gray200x200": 40000,
+    "workspace": 32640,
+    "one_image_plus_workspace": 72640,
+    "two_images_plus_workspace": 112640
+  },
+  "no_circuit_modification": true,
+  "no_purchase_or_quote_submission": true
+}

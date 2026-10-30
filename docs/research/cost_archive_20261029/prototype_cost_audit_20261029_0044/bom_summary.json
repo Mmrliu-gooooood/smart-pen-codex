@@ -1,0 +1,91 @@
+{
+  "adc_unplaced_candidate": {
+    "entities_per_source": 13,
+    "parts_needed_two_pens_or_one_shared_fixture": 14,
+    "exact_MPN_unresolved_entities": 6,
+    "assembly_classes": {
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 7,
+      "NOT_A_PURCHASED_PART": 6
+    },
+    "purchased_part_faces": {
+      "unplaced": 7
+    }
+  },
+  "contact_cassette_carrier": {
+    "entities_per_source": 2,
+    "parts_needed_two_pens_or_one_shared_fixture": 2,
+    "exact_MPN_unresolved_entities": 0,
+    "assembly_classes": {
+      "MANUFACTURER_SOLDERING_PROCESS_AND_MECHANICAL_CALIBRATION_REQUIRED": 1,
+      "NOT_A_PURCHASED_PART": 1
+    },
+    "purchased_part_faces": {
+      "F.Cu": 1
+    }
+  },
+  "illumination_driver": {
+    "entities_per_source": 7,
+    "parts_needed_two_pens_or_one_shared_fixture": 8,
+    "exact_MPN_unresolved_entities": 3,
+    "assembly_classes": {
+      "NOT_A_PURCHASED_PART": 3,
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 4
+    },
+    "purchased_part_faces": {
+      "F.Cu": 4
+    }
+  },
+  "mainboard": {
+    "entities_per_source": 102,
+    "parts_needed_two_pens_or_one_shared_fixture": 176,
+    "exact_MPN_unresolved_entities": 68,
+    "assembly_classes": {
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 86,
+      "NOT_A_PURCHASED_PART": 14,
+      "CONTROLLED_REFLOW_AND_HIDDEN_JOINT_INSPECTION_REQUIRED": 2
+    },
+    "purchased_part_faces": {
+      "F.Cu": 74,
+      "B.Cu": 14
+    }
+  },
+  "power": {
+    "entities_per_source": 52,
+    "parts_needed_two_pens_or_one_shared_fixture": 90,
+    "exact_MPN_unresolved_entities": 34,
+    "assembly_classes": {
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 42,
+      "NOT_A_PURCHASED_PART": 7,
+      "CONTROLLED_REFLOW_AND_HIDDEN_JOINT_INSPECTION_REQUIRED": 3
+    },
+    "purchased_part_faces": {
+      "F.Cu": 17,
+      "offboard": 2,
+      "B.Cu": 26
+    }
+  },
+  "shared_recovery_fixture": {
+    "entities_per_source": 3,
+    "parts_needed_two_pens_or_one_shared_fixture": 3,
+    "exact_MPN_unresolved_entities": 3,
+    "assembly_classes": {
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 3
+    },
+    "purchased_part_faces": {
+      "unplaced": 3
+    }
+  },
+  "usb_tail": {
+    "entities_per_source": 9,
+    "parts_needed_two_pens_or_one_shared_fixture": 10,
+    "exact_MPN_unresolved_entities": 2,
+    "assembly_classes": {
+      "HAND_ASSEMBLY_POSSIBLE_ONLY_WITH_QUALIFIED_PROCESS_AND_QUOTED_LABOR": 4,
+      "NOT_A_PURCHASED_PART": 4,
+      "CONTROLLED_REFLOW_AND_HIDDEN_JOINT_INSPECTION_REQUIRED": 1
+    },
+    "purchased_part_faces": {
+      "F.Cu": 5
+    }
+  }
+}

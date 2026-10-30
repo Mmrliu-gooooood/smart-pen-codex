@@ -1,0 +1,69 @@
+{
+  "scope": "host-only synthetic verification, not S3 execution/libc-runtime/FPS/physical safety",
+  "source_evidence_files_verified": 95,
+  "device_measured": false,
+  "target_sdk_rebuilt": false,
+  "frozen_files_unchanged": true,
+  "format_runtime_on_actual_target": "not run",
+  "r8_exact_dependency_files_verified": 23,
+  "r8_generator_manifest_extraction_byte_exact": true,
+  "post_return_v3_and_legacy_oracles_byte_exact": true,
+  "palette_RLE_header_and_source_binding_byte_exact": true,
+  "host_functional_records_passed": 18,
+  "author_geometry_checked": true,
+  "author_parser_tests_passed": 16,
+  "independent_parser_cases_passed": 41,
+  "independent_geometry_points_passed": 180,
+  "actual_main_host_cases": [
+    {
+      "case": "enabled",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "disabled",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "allocation_failure",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "format_failure",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "trace_missing",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "trace_zero",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "sanitized",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "nano_enabled_compile_rejected",
+      "passed": true,
+      "device_measured": false
+    }
+  ],
+  "mock_clock_warning": "Artificial +123 clocks test call boundaries only; no mock serial data is published as target measurements.",
+  "sanitizer_scope": "Host ASAN/UBSAN included; LeakSanitizer disabled by original reviewed script.",
+  "relocated_default_quick_without_r8_passed": true
+}
