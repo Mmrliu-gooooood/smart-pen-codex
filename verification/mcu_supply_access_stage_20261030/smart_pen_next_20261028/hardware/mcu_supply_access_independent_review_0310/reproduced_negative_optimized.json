@@ -1,0 +1,103 @@
+[
+  {
+    "tag": "pin2_escape",
+    "removed_uuid": [
+      "b7c092ca-63cd-5c36-a667-235b19ace4ea"
+    ],
+    "counts": [
+      0,
+      135,
+      0
+    ],
+    "violation_types": [],
+    "exit": 5,
+    "pads": [
+      "U101.2"
+    ],
+    "connected_to_core": false,
+    "sha": "0c96117506a09576df774e023010de1cae6dddb54681b853f06775891caff859"
+  },
+  {
+    "tag": "pin3_escape",
+    "removed_uuid": [
+      "53c7e83c-0fe9-51b8-88c8-777166761973"
+    ],
+    "counts": [
+      0,
+      135,
+      0
+    ],
+    "violation_types": [],
+    "exit": 5,
+    "pads": [
+      "U101.3"
+    ],
+    "connected_to_core": false,
+    "sha": "07c60a26d81865b4e560616db061c2e2322d462b4c818ace897ab1061d8e727b"
+  },
+  {
+    "tag": "both_power_vias",
+    "removed_uuid": [
+      "62c1ec39-deba-588a-bc9e-22a674f53904",
+      "62fd031d-4df2-5d5a-b2ca-4a1a0250e94a"
+    ],
+    "counts": [
+      1,
+      135,
+      0
+    ],
+    "violation_types": [
+      "track_dangling"
+    ],
+    "exit": 5,
+    "pads": [
+      "U101.2",
+      "U101.3",
+      "C103.1"
+    ],
+    "connected_to_core": false,
+    "sha": "fc970719697499c757726507363baf67e36c7b1f35cf9d5a33e9da2c987df908"
+  },
+  {
+    "tag": "ground_reinforcer_only",
+    "removed_uuid": [
+      "8e9abc80-7a5f-5178-a4d6-601a830ad7ed"
+    ],
+    "counts": [
+      0,
+      134,
+      0
+    ],
+    "violation_types": [],
+    "exit": 5,
+    "pads": [
+      "C103.2"
+    ],
+    "connected_to_core": true,
+    "sha": "168a251006d45ac69875d81478370e75cce3ffefbe73e9f7cfc2f6e2a1c50fba"
+  },
+  {
+    "tag": "rollback",
+    "removed_uuid": [
+      "28094592-1739-5a10-bc2e-0ae6471bd12a",
+      "53c7e83c-0fe9-51b8-88c8-777166761973",
+      "62c1ec39-deba-588a-bc9e-22a674f53904",
+      "62fd031d-4df2-5d5a-b2ca-4a1a0250e94a",
+      "8e9abc80-7a5f-5178-a4d6-601a830ad7ed",
+      "a6c356b8-f238-5b14-b8d1-e7ee67a0a538",
+      "b7c092ca-63cd-5c36-a667-235b19ace4ea",
+      "b8b24bea-6ba4-5ac8-8637-c15cf7dc5028",
+      "f3b5ea69-edb2-579c-85d2-916a3e4d2da6"
+    ],
+    "counts": [
+      0,
+      137,
+      0
+    ],
+    "violation_types": [],
+    "exit": 5,
+    "pads": [],
+    "connected_to_core": true,
+    "sha": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141"
+  }
+]

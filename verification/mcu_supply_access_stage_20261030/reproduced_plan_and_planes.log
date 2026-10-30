@@ -1,0 +1,210 @@
+{
+  "plan_exact": true,
+  "new_objects": [
+    {
+      "uuid": "b7c092ca-63cd-5c36-a667-235b19ace4ea",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.575,
+        7.8
+      ],
+      "end": [
+        1.8,
+        7.8
+      ],
+      "width": 0.25,
+      "drill": null,
+      "length_mm": 0.7750000000000001
+    },
+    {
+      "uuid": "53c7e83c-0fe9-51b8-88c8-777166761973",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.575,
+        8.2
+      ],
+      "end": [
+        1.8,
+        8.2
+      ],
+      "width": 0.25,
+      "drill": null,
+      "length_mm": 0.7750000000000001
+    },
+    {
+      "uuid": "28094592-1739-5a10-bc2e-0ae6471bd12a",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        1.8,
+        7.8
+      ],
+      "end": [
+        1.8,
+        8.0
+      ],
+      "width": 0.635,
+      "drill": null,
+      "length_mm": 0.20000000000000018
+    },
+    {
+      "uuid": "a6c356b8-f238-5b14-b8d1-e7ee67a0a538",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        1.8,
+        8.0
+      ],
+      "end": [
+        1.8,
+        8.2
+      ],
+      "width": 0.25,
+      "drill": null,
+      "length_mm": 0.1999999999999993
+    },
+    {
+      "uuid": "b8b24bea-6ba4-5ac8-8637-c15cf7dc5028",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        1.8,
+        7.8
+      ],
+      "end": [
+        0.8,
+        7.8
+      ],
+      "width": 0.635,
+      "drill": null,
+      "length_mm": 1.0
+    },
+    {
+      "uuid": "62c1ec39-deba-588a-bc9e-22a674f53904",
+      "type": "via",
+      "net": "3V3_AON",
+      "layer": "through",
+      "start": [
+        1.8,
+        8.0
+      ],
+      "end": [
+        1.8,
+        8.0
+      ],
+      "width": 0.6,
+      "drill": 0.3,
+      "length_mm": 0.0
+    },
+    {
+      "uuid": "8e9abc80-7a5f-5178-a4d6-601a830ad7ed",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        0.8,
+        6.25
+      ],
+      "end": [
+        1.2,
+        6.25
+      ],
+      "width": 0.3,
+      "drill": null,
+      "length_mm": 0.3999999999999999
+    },
+    {
+      "uuid": "f3b5ea69-edb2-579c-85d2-916a3e4d2da6",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        0.8,
+        7.8
+      ],
+      "end": [
+        0.6,
+        8.75
+      ],
+      "width": 0.635,
+      "drill": null,
+      "length_mm": 0.9708243919473801
+    },
+    {
+      "uuid": "62fd031d-4df2-5d5a-b2ca-4a1a0250e94a",
+      "type": "via",
+      "net": "3V3_AON",
+      "layer": "through",
+      "start": [
+        0.6,
+        8.75
+      ],
+      "end": [
+        0.6,
+        8.75
+      ],
+      "width": 0.6,
+      "drill": 0.3,
+      "length_mm": 0.0
+    }
+  ],
+  "physical_planes_all_drills_subtracted": [
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "lost_mm2": 1.220222845666,
+      "gained_mm2": 0.0,
+      "eroded_025_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "lost_mm2": 0.0,
+      "gained_mm2": 0.0,
+      "eroded_025_components": 1
+    },
+    {
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "lost_mm2": 0.133615691533,
+      "gained_mm2": 0.0,
+      "eroded_025_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "lost_mm2": 1.220222845666,
+      "gained_mm2": 0.0,
+      "eroded_025_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "lost_mm2": 0.0,
+      "gained_mm2": 0.0,
+      "eroded_025_components": 1
+    }
+  ],
+  "mechanics_source": "/workspace/scratch/fe148e758944/pen_publication/r20_isolated_reproduction/workspace/smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/mechanics.json",
+  "mechanics_sha256": "e2f4bda9dc41afa0c663975eb48dd22b3223d71fe3460e558b82189a3d4bfb15",
+  "mechanics_scope": "Exact same two poses; original four contexts/budgets associated unchanged; not full new assembly or height qualification"
+}
+12:17:09: Debug: Adding duplicate image handler for 'PNG file'
+12:17:09: Debug: Adding duplicate image handler for 'JPEG file'
+12:17:09: Debug: Adding duplicate image handler for 'TIFF file'
+12:17:09: Debug: Adding duplicate image handler for 'GIF file'
+12:17:09: Debug: Adding duplicate image handler for 'PNM file'
+12:17:09: Debug: Adding duplicate image handler for 'PCX file'
+12:17:09: Debug: Adding duplicate image handler for 'IFF file'
+12:17:09: Debug: Adding duplicate image handler for 'Windows icon file'
+12:17:09: Debug: Adding duplicate image handler for 'Windows cursor file'
+12:17:09: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+12:17:09: Debug: Adding duplicate image handler for 'TGA file'
+12:17:09: Debug: Adding duplicate image handler for 'XPM file'

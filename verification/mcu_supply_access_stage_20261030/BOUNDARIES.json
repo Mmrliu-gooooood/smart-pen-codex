@@ -1,0 +1,1305 @@
+{
+  "NOFAB": true,
+  "staging_only": true,
+  "packs": [
+    {
+      "dir": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242",
+      "manifest": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/manifest.json",
+      "sha256": "596bc4a249bec1d935ebc66690e262c74ac3b250a8b9db690c942e6066e8b41a",
+      "listed": 28
+    },
+    {
+      "dir": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300",
+      "manifest": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/manifest.json",
+      "sha256": "e9acdb544f97f52771e6c79e7d8eeaf9ea0e4776fb3ebd18cb88d74e618f0625",
+      "listed": 432
+    },
+    {
+      "dir": "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310",
+      "manifest": "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/review_manifest.json",
+      "sha256": "12e3a550f8567474d653158a92c91ab42d1178c95da11592b26abfcff877f751",
+      "listed": 47
+    }
+  ],
+  "dependencies": [
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+      "sha256": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pro",
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_dru",
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_sch",
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_path_assessment_2338/REPORT.md",
+      "sha256": "03407f04c6416495035953020ae230dd648339268fcf23c1e13f283840cfc8ef"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_joint_power_plan_0234/manifest.json",
+      "sha256": "84531aab8f12518f15c2d2167d4ad14724ea48b52a66a683de6d0e5dfaa6d29c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+      "sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+      "sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+      "sha256": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pro",
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_dru",
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_sch",
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_path_assessment_2338/REPORT.md",
+      "sha256": "03407f04c6416495035953020ae230dd648339268fcf23c1e13f283840cfc8ef"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_joint_power_plan_0234/manifest.json",
+      "sha256": "84531aab8f12518f15c2d2167d4ad14724ea48b52a66a683de6d0e5dfaa6d29c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+      "sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+      "sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/manifest.json",
+      "sha256": "596bc4a249bec1d935ebc66690e262c74ac3b250a8b9db690c942e6066e8b41a"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/two_vias.json",
+      "sha256": "6f307ca87af8fe2cc85ad2499fa70e79bcff3dbcaeea09b2646380114084ab4a"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/mechanics.json",
+      "sha256": "e2f4bda9dc41afa0c663975eb48dd22b3223d71fe3460e558b82189a3d4bfb15"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/check_model.json",
+      "sha256": "017b3c900a9e167ea9e276565ea81acb6250a8c5371fa93262c43e58500d5863"
+    }
+  ],
+  "selected_nonfinal_comparison_dependencies": [],
+  "exclusions": [
+    "Unlisted files from gnd_fixed_branch_candidate_2159 and power_backbone_plan_2022",
+    "Executable build outputs and any unlisted moving trials",
+    "Private vendor originals"
+  ],
+  "prior_reused": [
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pcb",
+      "bytes": 768958,
+      "sha256": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141",
+      "git_blob_sha1": "7e49df785363f57c4059f6722cbc2eebb2a742ec",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pro",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pro",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "git_blob_sha1": "b863a660ff56ac3ced490cd841d05eb292282e53",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_dru",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_dru",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+      "git_blob_sha1": "416b23d215162c0bd813c527b951a1f9cb19323a",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+      "git_blob_sha1": "5f75717d30a03857d3fa6920eb9436bbe2c3735c",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_supply_path_assessment_2338/REPORT.md",
+      "repo_path": "verification/mcu_recovery_stage_20261030/smart_pen_next_20261028/docs/electronics/mcu_supply_path_assessment_2338/REPORT.md",
+      "local_source": "verified_revisions_r16/verification/mcu_recovery_stage_20261030/smart_pen_next_20261028/docs/electronics/mcu_supply_path_assessment_2338/REPORT.md",
+      "bytes": 5361,
+      "sha256": "03407f04c6416495035953020ae230dd648339268fcf23c1e13f283840cfc8ef",
+      "git_blob_sha1": "5fb6ddcb4962a80f018eb3bf261d996c2657a75b",
+      "batch": "verified_revisions_r16"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/mcu_joint_power_plan_0234/manifest.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/docs/electronics/mcu_joint_power_plan_0234/manifest.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/docs/electronics/mcu_joint_power_plan_0234/manifest.json",
+      "bytes": 2885,
+      "sha256": "84531aab8f12518f15c2d2167d4ad14724ea48b52a66a683de6d0e5dfaa6d29c",
+      "git_blob_sha1": "2450f5fe335468dae62c679ce69e5e83aedcf1da",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "repo_path": "verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "local_source": "verified_revisions_r11/verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "bytes": 278184,
+      "sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "git_blob_sha1": "983d307703e7ee396a9f9d442c90816be30ffbd1",
+      "batch": "verified_revisions_r11"
+    },
+    {
+      "original_path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "repo_path": "verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "local_source": "verified_revisions_r11/verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "bytes": 346772,
+      "sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "git_blob_sha1": "9843c49e9d73d9d14f3f7e43a51f72033899808b",
+      "batch": "verified_revisions_r11"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "bytes": 5954,
+      "sha256": "ee4dada6135c2774f56027161e262374ff1c4e97921ad088f0dc56c4184b926d",
+      "git_blob_sha1": "e789f1ddbeb9a016733daffb92c5bd3633b15db6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "bytes": 5029,
+      "sha256": "9d94973de44ec5598e5e47ec1b03027b30644eb76453995c09c26bc6e82e03b6",
+      "git_blob_sha1": "ac12f567b56e51952916b509e98d8238e70e079d",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "bytes": 2394,
+      "sha256": "8b4e8ef33ac84975677c8a5753a9b05b1be5de3a95e758191a6b60f127f54276",
+      "git_blob_sha1": "b33c888fcbc150934c88043f9f27618d3c17d04f",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "bytes": 2185,
+      "sha256": "13d50f00368af7c49de955022cd246817f9a2ac94844d69302058874465d6ac1",
+      "git_blob_sha1": "2dd4f28def9ff8768dc7bce2c1d7067944b6cb6a",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "bytes": 2394,
+      "sha256": "ad69527fe092435df1939c21791de190f668450af4623fa28515b0904f8e1116",
+      "git_blob_sha1": "940da9264cb5676db8a9d264c588bbd1963d58fe",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "bytes": 892,
+      "sha256": "782acd5fd2dabe734db94d960643c889249c992bc0d314d46ff1d99e3c47faf9",
+      "git_blob_sha1": "4a2cfa299062b05b7a313d2d60bf82f89e635db5",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "bytes": 1596,
+      "sha256": "aad91c6073da235635ad80f4ac7f79a11f2a24631687e8ed40f5b8769bafe922",
+      "git_blob_sha1": "09cdbaa9dba16e2babfa3b226f910085983400ee",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "bytes": 2511,
+      "sha256": "96afdec8cd1549ffaedbc2932a751898c44e13646c1be38ca28a692bb80e4416",
+      "git_blob_sha1": "382ebdc8e1afa3bb217a2c87c4cfc662e3517442",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "bytes": 872,
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "git_blob_sha1": "8eb9e3619e3b6769e412cd1a9f36403726487e67",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "bytes": 128083,
+      "sha256": "54755e36477e3bd798d362ba7f74c8ef1b27ee03a8770f3257cfe7ecab794e14",
+      "git_blob_sha1": "9d2b840c0112d5e4a2b03d68ebd23fca09e2cec9",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "bytes": 14748,
+      "sha256": "38df842205e1fdacec0bb01d70ca9f0bdac4ffbc657e5494fda2f7ba6ebfa426",
+      "git_blob_sha1": "72ec80c1c2ee479488fc00a96309ae4dc395c64e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "bytes": 14748,
+      "sha256": "38df842205e1fdacec0bb01d70ca9f0bdac4ffbc657e5494fda2f7ba6ebfa426",
+      "git_blob_sha1": "72ec80c1c2ee479488fc00a96309ae4dc395c64e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "bytes": 3267,
+      "sha256": "ad94854348db1e87035e564293fe673b6c0df1f940510f7b82dbd89fcdc5ae82",
+      "git_blob_sha1": "c8dbe9309089bacab1fd4bb9112869a331c01b6f",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "bytes": 307950,
+      "sha256": "6a12e75bf00a98e2b647936d2c2fef6dbc5ad7ff25c3b74308b086846914356d",
+      "git_blob_sha1": "aacb48e514783cab906b5d3aa88011765c1e9fa6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "bytes": 2394,
+      "sha256": "fbb486a27bf531ca8d010b501222af871c39c37b2d2ec72ed41371629f6b81d9",
+      "git_blob_sha1": "5b8611a209f773ce89a9afa59f0ccd39512607f0",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "bytes": 307950,
+      "sha256": "6a12e75bf00a98e2b647936d2c2fef6dbc5ad7ff25c3b74308b086846914356d",
+      "git_blob_sha1": "aacb48e514783cab906b5d3aa88011765c1e9fa6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "bytes": 2394,
+      "sha256": "e4e8da1abefec53b1025ebc9f9b564fc1e677ec98227c7fa89c57f6719ed2dd6",
+      "git_blob_sha1": "21e6e95428cc40641c3e3b56541b18c88776f434",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "bytes": 2623,
+      "sha256": "9def5b5758a1383e0276a3cb7256d4c23c3bf931791946ba8ae50e4681d087d1",
+      "git_blob_sha1": "29b18bafc5384d40880795229c5118c93b1b181e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/README.md",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/README.md",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/README.md",
+      "bytes": 3293,
+      "sha256": "2d3b3566438b3ac37acd902fa0161412c4cb7ffa5c9a49ee10691ab14fc1d830",
+      "git_blob_sha1": "d4f9603ac5c36f43d6342ddf4343347bef4c0aa8",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/dependencies.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/dependencies.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/dependencies.json",
+      "bytes": 11655,
+      "sha256": "3ac4ac97daaffa31b8379cd98df054c13cab63fb99cb3661e15d2f6151b49f85",
+      "git_blob_sha1": "dff8257df60f31471fe1289261b1ebfc0a5fc181",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.json",
+      "bytes": 315,
+      "sha256": "142c102be21dcce911987d1f84db945da33d03eefea61942c18ff600005ed912",
+      "git_blob_sha1": "6e3335d985f5703849f28172afc25c86912d7a8f",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/domain_isolation.py",
+      "bytes": 933,
+      "sha256": "9ad61423ecd30348ce7d9748452efb11024fa966fba1f667c0be4928f01494e9",
+      "git_blob_sha1": "2122d0cfb7d87b69739b8ac634f1f42e331bd821",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.log",
+      "bytes": 798,
+      "sha256": "ac78ab7c60f4dac25d6f6f5b6157475c031349fe1c5d7a73e079d3477662ade8",
+      "git_blob_sha1": "eb4e3e1dfc12dee77a4f233f60e46cf760f9a71c",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/draw.py",
+      "bytes": 2110,
+      "sha256": "91926037b1f19e2152a0d25acb303353e51cb63e6b4fa4d4b68adb022a79b381",
+      "git_blob_sha1": "14bf5d5f42658fed9ebadb75b6f4331fc6b7cc3e",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.exit",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.exit",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.exit",
+      "bytes": 2,
+      "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06",
+      "git_blob_sha1": "7ed6ff82de6bcc2a78243fc9c54d3ef5ac14da69",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.json",
+      "bytes": 108513,
+      "sha256": "c5643644a706f2e55431a7d6628361ce4b619eb5344c732b41d1d1224ed1bc5e",
+      "git_blob_sha1": "339c29a7fb2ab2487580b3a0a14874cc1b3f44c9",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/drc.log",
+      "bytes": 1183,
+      "sha256": "37a098dff9b4dcd2f4be7ed1a8710812811f8ad32c9f40a2a0f538c94fc93996",
+      "git_blob_sha1": "b0f80aed44731166d4b58a49b5cd0fb23a6be1f8",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/finite_copper.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/finite_copper.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/finite_copper.py",
+      "bytes": 1793,
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee",
+      "git_blob_sha1": "4015c281db2975dc65e804d98c703ba8b80d94db",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/freeze.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/freeze.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/freeze.py",
+      "bytes": 2183,
+      "sha256": "f921fb8e8f3a4d3f4c4657e63f5dba1d5211a7813daca116136a124901e9d20d",
+      "git_blob_sha1": "449a6c3f416ace219e8da30e6b1a8ab8e4c2e59f",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialization.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialization.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialization.json",
+      "bytes": 675,
+      "sha256": "8938376be1077a962f89e4ed91f657a9f2cba65e05be55ac9c1e8a3a6cb4bf6d",
+      "git_blob_sha1": "11250fe88a41d119601cbfb1c55c997d58d4a337",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.log",
+      "bytes": 2271,
+      "sha256": "95bcbd33dfa9d5594b1e7116843db940f6f039cd23ab1d3fe3254add71f1bdf1",
+      "git_blob_sha1": "c934ce62423f6c86a12647a303b283bda1e0c17e",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/materialize.py",
+      "bytes": 1845,
+      "sha256": "e72413ebf9423a978892b57a7baa5bef2361144136875b6a4e07e0b660ddec65",
+      "git_blob_sha1": "a1514bf32319d54eab83721aa275f08a817ab3e9",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262",
+      "git_blob_sha1": "04235447ec7be105e3df8650ff319c40c1be7f0c",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584",
+      "git_blob_sha1": "db4e1dd66f314434919fc6bb060955dc12bc791b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977",
+      "git_blob_sha1": "caa70ceaff20296ffd1264ac78004a49ee358b8e",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739",
+      "git_blob_sha1": "c121bb81e62c664ec753abd2162c048bf1843d33",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19",
+      "git_blob_sha1": "60eded4770fcfcfbf4e28e81d57f408d7bc7ce17",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5",
+      "git_blob_sha1": "657f21259661df49a8df57806c4395e74c3d6da2",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5",
+      "git_blob_sha1": "e9c59f9e61837de8f66da3ebfe68e007a286f6cb",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca",
+      "git_blob_sha1": "bbe1485719cd4358b77d6501e4e2e772041763bd",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5",
+      "git_blob_sha1": "c35c68649f0072aa199d46e8f3b5ea0368c1d6a9",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73",
+      "git_blob_sha1": "e029edcc67c47720e80a0e30c37cd2bad5a8c622",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434",
+      "git_blob_sha1": "ba77034c16d1f103cf19de0a89fb857eec9f0da8",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902",
+      "git_blob_sha1": "5e849658cf0a018544e7b8e86e5e4f2ca7b14e67",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401",
+      "git_blob_sha1": "f1016f8a95018defc0c35701cdc0ac70ff66896b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2",
+      "git_blob_sha1": "4948a2609d95d2180ddf2b0852d28ca2766f7848",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32",
+      "git_blob_sha1": "9fa4b74e6d4283e14583016a727c1281f2253eb4",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3",
+      "git_blob_sha1": "ed0a961864ce6074104ce691182acc1c15c9ec11",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Contact_2.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Contact_2.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa",
+      "git_blob_sha1": "bfef423b9f2284a6557983fb0e425912f2d6f1e8",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Host_6.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Host_6.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50",
+      "git_blob_sha1": "7e99b0252caf112ae449a1d352213e9f81a903ca",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/PowerSafety.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/PowerSafety.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b",
+      "git_blob_sha1": "4417dfb6a0041849b4c0c788b2719e0bc0282aa3",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572",
+      "git_blob_sha1": "f548ff9efedffce12ad40b00066cc5080c26f16b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e",
+      "git_blob_sha1": "19ac830594fc6e9cd7bf3f7016d995051e795c71",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55",
+      "git_blob_sha1": "9920825d05a0c3042a4a2f02073d18582fecf64e",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24",
+      "git_blob_sha1": "cb8f09bcdd3985c21ca721b2af8d01aacb4fc1d0",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04",
+      "git_blob_sha1": "c442d3511c5fb5bd82618276c4a69c0e587e5c2a",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b",
+      "git_blob_sha1": "61f31d6c62ff26f193939a7cead9712828f829cc",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169",
+      "git_blob_sha1": "9011d0edd36ad0d43b85eae766f2078cf370acd2",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4",
+      "git_blob_sha1": "98d44f3fd6b0e203fd7b66ad45ab24e10543860a",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639",
+      "git_blob_sha1": "98cdb2a736a9fc7c8f3837ea868992a42d1aa313",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd",
+      "git_blob_sha1": "922fb79932055683cd9f1c58ed5bf593c8a8a4e9",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71",
+      "git_blob_sha1": "eca2e668724038f48618df7a699faac389777c81",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6",
+      "git_blob_sha1": "e6ea8f52483a1ad64b8d90f9bf2d52c2bb7c17dd",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/fp-lib-table",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/fp-lib-table",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f",
+      "git_blob_sha1": "5b67c722d32ae377c70e6dee67e25fd6b37d4a84",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/ISO.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/ISO.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/ISO.kicad_sym",
+      "bytes": 19549,
+      "sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "git_blob_sha1": "604a12bc6b6dd0b1293832166cab0b022ec1f3ac",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/MCU.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/MCU.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+      "git_blob_sha1": "7b00f8a1f9d8a9df1945b3d267c4875a0fdf0658",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/SmartPenUSB.kicad_sym",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/SmartPenUSB.kicad_sym",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862",
+      "git_blob_sha1": "31c7a8c9c9544b9c0f949d02934a1a40d97c1238",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/camera_gate_on_main.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/camera_gate_on_main.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122",
+      "git_blob_sha1": "a70658896de6e967185742f91961a788f1060b0f",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/controls_sccb.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/controls_sccb.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/controls_sccb.kicad_sch",
+      "bytes": 39738,
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "git_blob_sha1": "a9d111315a256d898581377a40df9fbf33dd0ddb",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/dvp_translation.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/dvp_translation.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+      "git_blob_sha1": "3e557c04db04dc41bd466a423c09f83a7abeccae",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mainboard_revD.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+      "git_blob_sha1": "78992024e63114760db896ee7b283789bdd5cfff",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mcu_core.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mcu_core.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+      "git_blob_sha1": "753d191de8ce16780f6aa66b4e122a88e4395f49",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/physical_interfaces.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/physical_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+      "git_blob_sha1": "28aeddf94f106997d6264fb649adc019d9a8ffa0",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/pickup_on_main.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/pickup_on_main.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28542,
+      "sha256": "0b339a9d9b0a8ddf8a07e3f585a31460c30480f3b75aeb7044bf5c112a7898a0",
+      "git_blob_sha1": "c998791758c3d734357b4858d144422cedd19cc2",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/recovery_fixture.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/recovery_fixture.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+      "git_blob_sha1": "671721bb778df1580e04c9cd5ce883c9f7f7542e",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/safe_bias_interfaces.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/safe_bias_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+      "git_blob_sha1": "4722e8e9ff8ed4add725c6614f5a8afe41d215fc",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/sym-lib-table",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/sym-lib-table",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc",
+      "git_blob_sha1": "d5998e788bf70127849be3ce6db4a2d93942b6ef",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_entry.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_entry.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+      "git_blob_sha1": "b4948af5e1acd5bfbfe7f63737529224b70851fe",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_main_port.kicad_sch",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_main_port.kicad_sch",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+      "git_blob_sha1": "b731d5c8fd179c1f881bf58e8bcec5ffc2f38e4b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/sym-lib-table",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/sym-lib-table",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb",
+      "git_blob_sha1": "d33c0e61593cc20f697394011974478a27c0f968",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.json",
+      "bytes": 110130,
+      "sha256": "6958c5864ddedb8b1c918211d944de77b42f49d872b4fb30dfebcb0707611544",
+      "git_blob_sha1": "2bf1ee7218c3b6f3e2920a43423716b5564dccc5",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/drc.log",
+      "bytes": 1131,
+      "sha256": "66ccff9c8af181fa531d36830d9a566c32e40b1e9ee6f2d1b3630226e1afc30b",
+      "git_blob_sha1": "d04ab698f28d03ce9ee6982413c3c812617f5985",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/AON/mainboard_revD.kicad_pcb",
+      "bytes": 768674,
+      "sha256": "2ebc43bb6f5568c0fc8c6f8f0384dfaeb8c5e38df3c87c73d80168056447dafc",
+      "git_blob_sha1": "eac9f4065408b34a90fceaa6ee1e07b22f4360fb",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.json",
+      "bytes": 109314,
+      "sha256": "4351ffa65fb80c65d0595d7a555b096c900145a39405df76d2ad1fe62ffcb85e",
+      "git_blob_sha1": "cbde4551b3dcc884de190ea844007462c1c7ba7c",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/drc.log",
+      "bytes": 1144,
+      "sha256": "35ebe8519669d58e833f8ce2d6b5aae1a9d3d33eba0a3db18870956c8c54bc8d",
+      "git_blob_sha1": "35ad1aadd8f1df59c6afa3e2500c6e0f076aafa8",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/outputcap_ground/mainboard_revD.kicad_pcb",
+      "bytes": 768824,
+      "sha256": "f5cc60ae67e8e1a551ece28718d8f21f38f52876d5d32733c78c5bd3da26514b",
+      "git_blob_sha1": "4d2167406d31bb0f2b3fbb98839e832a17298f73",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.json",
+      "bytes": 109312,
+      "sha256": "4d6f22522fba5f2c023fb6d7551c5231d30d8b2a80c64c6405390f5f870a4bbd",
+      "git_blob_sha1": "b18ffd1112f1183686699150850d49d62f626cee",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/drc.log",
+      "bytes": 1143,
+      "sha256": "cb6ad07d07debeb884469b74cafe5f0fd41deece39e77040eedc6991b2f51ea3",
+      "git_blob_sha1": "3834348d22d9cf6342c5f0f0498f4c3234695bfb",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/pulldown_ground/mainboard_revD.kicad_pcb",
+      "bytes": 768814,
+      "sha256": "72bc2964519506a50491ca40b93db77f6a258d3466c083ea3021fde2cca6fa98",
+      "git_blob_sha1": "25f295a25cae4b3022f1149cc9ab5d642746b2ed",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.json",
+      "bytes": 109819,
+      "sha256": "78681358eb0be7272fb0bcae967f62e56fed90497f1db8cf6bce29d469ca6293",
+      "git_blob_sha1": "a102c6c5e9b16cfd67fadbc8408522fc4179d82b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/drc.log",
+      "bytes": 1141,
+      "sha256": "0666693a1c43a1af25625cd1dec62692daee1a3c9446f7fd5be7e8a1e9ce8370",
+      "git_blob_sha1": "bbd87be7ca8142c61fd4e9bf7833707dcde2a1d0",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/switch_ground/mainboard_revD.kicad_pcb",
+      "bytes": 768809,
+      "sha256": "f3443a6cfb43c7835b1a4322c44bac789dace8cd029abd6c61dfe817d2021f42",
+      "git_blob_sha1": "92c415cabd85115f1ad668f33a84bb6e960cbea0",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.json",
+      "bytes": 109312,
+      "sha256": "c410ad1e84c25894431b3a5653a6f7e7b6d842815f84e587a66281d3ad4f1a82",
+      "git_blob_sha1": "b3c294677287966c0312666a9831021f256dacf7",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/drc.log",
+      "bytes": 1144,
+      "sha256": "fbb4e82baa41de39dd793db735340d10681527888cf6a735aadbc3f53755f7a9",
+      "git_blob_sha1": "41138bfd791ab4dac334ff68b9f719ddc87a7a77",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative/timingcap_ground/mainboard_revD.kicad_pcb",
+      "bytes": 768817,
+      "sha256": "a87f61432e0461b481e15ff1d77cc69c9a6d529863cbfd6bd875ca10e156e4a3",
+      "git_blob_sha1": "52f1b93285395d72bba8d9fd8c45b92c6f17ac92",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_negative.py",
+      "bytes": 1891,
+      "sha256": "58dab4398cd73c8e2aac7b6208f621556189b420fed43fcf8a9fcb106a2f22bd",
+      "git_blob_sha1": "8d45d647fbf98b821fe6153e2f7d086615060633",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_polygon.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_polygon.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_polygon.py",
+      "bytes": 872,
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "git_blob_sha1": "8eb9e3619e3b6769e412cd1a9f36403726487e67",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_view.png",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_view.png",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/native_view.png",
+      "bytes": 128984,
+      "sha256": "9d5f3627b1a01f8a52994a474f6910942a52249f24e6aee4d769d93b0fca63d0",
+      "git_blob_sha1": "43a9772f7472f961fc69306a2affa5c10f878485",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.json",
+      "bytes": 1608,
+      "sha256": "049e3ffddb3ddd924293c56a353f3e08fc5278555e29f5de7376c848cd7f4dc1",
+      "git_blob_sha1": "8ccfdeacb477f6ba4c1fc8cfe4636e9a7790ac8b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/negative.log",
+      "bytes": 3192,
+      "sha256": "febcb74ddfb44396e45ffc241c5d22377ae52310f0e2bf88a108d188d4ea73d9",
+      "git_blob_sha1": "1a96e3a95a356d09e5e266b131cb60cbb3fd2b65",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.json",
+      "bytes": 401,
+      "sha256": "3a2526363297aaaae4fb1a8162b57b0dc36de579248c002348ac155735cc7d5e",
+      "git_blob_sha1": "53627f8096e6fd015af90670c0f750d754c1eb6f",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/noncopper.py",
+      "bytes": 1381,
+      "sha256": "49542d20bb7589c3deaa329d0bdd568cdc8c78971f29789a66f9a936bbb0b8f7",
+      "git_blob_sha1": "ae604977ad2d6af5651725a3193ba5f54af4a03b",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.json",
+      "bytes": 525,
+      "sha256": "0d6a1b0d7752090cd1bf6f49b32aaffdca9ec747d77c6c941937a4fe93b1e97b",
+      "git_blob_sha1": "b41c95b109e2376548691169eb708d01e3eb1d7c",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.log",
+      "bytes": 798,
+      "sha256": "fcee1f5ba7eedd4858e8503c395a0ee91ee80f2aa1039e805dad62a22d264f72",
+      "git_blob_sha1": "04c509c1d78ba8fed7468958848c559dc1f6b378",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/physical.py",
+      "bytes": 1631,
+      "sha256": "8ea94cf8d295f0543f81f7975a47a2d9fb55a61691460bfe590b75037c37d828",
+      "git_blob_sha1": "941d2f1b5566579a057d160134cce5846f373297",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.json",
+      "bytes": 523,
+      "sha256": "67e401e075e962d4164bc10d914c44570735eb677be8b783681c21b22022445c",
+      "git_blob_sha1": "1d2356e35a61abbd049d554d2cc381bfe6e25791",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.log",
+      "bytes": 798,
+      "sha256": "ce294d478c7eeb1e5067a8f40708c358e77fbf2c76ba15f7247a849e13498953",
+      "git_blob_sha1": "67dd8d1fc92bd483a35ba73523041f925681419a",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/plane_detail.py",
+      "bytes": 933,
+      "sha256": "889bd6fa3a9efaa8e2600713483679fbb8bf2a14891132c168202e6e6be1bff7",
+      "git_blob_sha1": "2a30619a3c0262a41b1d9c601fe0be2b7efedcdf",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay/materialization.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay/materialization.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay/materialization.json",
+      "bytes": 675,
+      "sha256": "8938376be1077a962f89e4ed91f657a9f2cba65e05be55ac9c1e8a3a6cb4bf6d",
+      "git_blob_sha1": "11250fe88a41d119601cbfb1c55c997d58d4a337",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/replay.log",
+      "bytes": 2271,
+      "sha256": "e047730629ff33a4a36e89cb06ea5ad79387c3cf8c2f42b7d3b163f26fa48e8c",
+      "git_blob_sha1": "2281820b98d9f863b385ef72fa128159fd556860",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification.json",
+      "bytes": 11950,
+      "sha256": "827ff8a56c8812ce5f39e30e58f3ea28de20d01226d8bb77dd183f9e576be15b",
+      "git_blob_sha1": "6d2b481552760be701448c34159501738e488739",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification_optimized.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification_optimized.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verification_optimized.json",
+      "bytes": 11950,
+      "sha256": "827ff8a56c8812ce5f39e30e58f3ea28de20d01226d8bb77dd183f9e576be15b",
+      "git_blob_sha1": "6d2b481552760be701448c34159501738e488739",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.log",
+      "bytes": 798,
+      "sha256": "2a445cad289b6806c3e35a8c71f0b7c555a85a2be3029f019105640d99149ab3",
+      "git_blob_sha1": "09450eeb85f9780d696c1fe577d4d69270e7ecdd",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.py",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.py",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify.py",
+      "bytes": 7249,
+      "sha256": "96766ace88a599fa9795b002b3c53a029fd435df2bfcea0ac537f27ad060defa",
+      "git_blob_sha1": "34c2c629503ce094c8a074e7466540d9f9cb90bb",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify_optimized.log",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify_optimized.log",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/verify_optimized.log",
+      "bytes": 798,
+      "sha256": "feb268842dd09511774ef3468a0ee1391131984d25dcfa96d6e5e4ece241fe1a",
+      "git_blob_sha1": "a3b4b1287fe89e2ef85bcdb5b66d48c4dcf11a8f",
+      "batch": "verified_revisions_r19"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/gate_power_candidate_0228/manifest.json",
+      "repo_path": "verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/manifest.json",
+      "local_source": "verified_revisions_r19/verification/gate_recovery_stage_20261030/smart_pen_next_20261028/hardware/gate_power_candidate_0228/manifest.json",
+      "bytes": 41280,
+      "sha256": "e9f8a362c5ca924969d7304ed59733635c3d3dcd0adbca972ef83f1f2179263f",
+      "git_blob_sha1": "d6a2ca5812550e70ead578c5cba8ae57d4a72afa",
+      "batch": "verified_revisions_r19"
+    }
+  ],
+  "overlays": [
+    [
+      "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300",
+      "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310"
+    ]
+  ],
+  "absolute_paths_preserved": [
+    "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/mechanics.json",
+    "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/mechanics_normal.json",
+    "smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/rejected_ground_tail_assumption.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/mechanics_linked.json",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native_negative/both_power_vias/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native_negative/ground_reinforcer_only/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native_negative/pin2_escape/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native_negative/pin3_escape/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native_negative/rollback/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/negative_expected_dangling_first_run.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/plan_and_planes.json",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/native_negative/both_power_vias/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/native_negative/ground_reinforcer_only/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/native_negative/pin2_escape/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/native_negative/pin3_escape/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/native_negative/rollback/drc.log",
+    "smart_pen_next_20261028/hardware/mcu_supply_access_independent_review_0310/reproduced_plan_and_planes.json"
+  ],
+  "reproduction_limit": "Exact allowlisted sources and declared dependency files only; frozen originals are not rewritten. Prior review author copies are reconstructed from frozen author allowlists. No physical power, temperature, timing, battery or manufacturing qualification."
+}

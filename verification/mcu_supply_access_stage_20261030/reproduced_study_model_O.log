@@ -1,0 +1,89 @@
+{
+  "source": "read-only two-via geometric model, no native/freshfill",
+  "route_errors": [],
+  "moved_pad_errors": [],
+  "all_old_components_preserved": true,
+  "failed_nets": [],
+  "loops": {
+    "3V3_AON": {
+      "pads": [
+        "U101.2",
+        "U101.3",
+        "C103.1",
+        "J106.2"
+      ],
+      "single_component": true
+    },
+    "GND": {
+      "pads": [
+        "C103.2",
+        "J106.3"
+      ],
+      "single_component": true
+    }
+  },
+  "plane_nominal": [
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "nominal_loss_mm2": 1.2027313074295,
+      "eroded_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "nominal_loss_mm2": 0.0,
+      "eroded_components": 1
+    },
+    {
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "nominal_loss_mm2": 0.133615691533,
+      "eroded_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "nominal_loss_mm2": 1.2027313074295,
+      "eroded_components": 1
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "nominal_loss_mm2": 0.0,
+      "eroded_components": 1
+    }
+  ],
+  "via_courtyard": [
+    {
+      "object": 5,
+      "ref": "U101",
+      "side": "F.Courtyard",
+      "overlap_mm2": 0.0287694271705
+    },
+    {
+      "object": 5,
+      "ref": "C103",
+      "side": "F.Courtyard",
+      "overlap_mm2": 0.0040350770455
+    },
+    {
+      "object": 8,
+      "ref": "C103",
+      "side": "F.Courtyard",
+      "overlap_mm2": 0.011259537403
+    }
+  ],
+  "moved_fp_courtyard": [],
+  "old_signal_projection_losses": [],
+  "core_counts": {
+    "3V3_AON": {
+      "core_pad_count": 28,
+      "total_physical_pads": 39
+    },
+    "GND": {
+      "core_pad_count": 61,
+      "total_physical_pads": 102
+    }
+  }
+}

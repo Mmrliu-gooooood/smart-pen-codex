@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/docs/electronics/mcu_supply_access_study_0242/negative.py", line 14, in <module>
+    a=components(model['GND']);assert not any(set(['C103.2','J106.3'])<=set(c)for c in a)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

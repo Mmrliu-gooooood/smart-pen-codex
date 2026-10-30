@@ -1,0 +1,19 @@
+{
+  "status": "READ_ONLY_CONDITIONAL_GEOMETRY_NOFAB_NOPOWER_NOT_NATIVE",
+  "normal_optimized_equal": true,
+  "source_files_unchanged": true,
+  "base_pcb_sha256": "66d5343409eaf0cf58458759f033e9eea74865e1ea85b83ecc0c3068d2032141",
+  "geometry_clear": true,
+  "courtyard_via_overlap_count": 3,
+  "mechanical_contexts_no_positive_overlap": 4,
+  "actual_native_candidate_saved": false,
+  "fresh_fill_run": false,
+  "full_native_DRC_run": false,
+  "limitations": [
+    "0.25mm short supply escapes below generic20mil recommendation",
+    "via courtyard overlaps must be reviewed; no pad-in-via exemption",
+    "nominal inherited mechanical budget not actual device tolerance",
+    "R503 remains unconnected pressure frontend",
+    "existing ground tail still connects moved C103; new tail is redundant reinforcement"
+  ]
+}

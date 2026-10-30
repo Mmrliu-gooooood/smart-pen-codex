@@ -1,0 +1,195 @@
+{
+  "scope": "nominal inherited full installation envelope only; contexts do not constitute qualified final assembly; no zero heights substituted",
+  "poses": {
+    "C103": {
+      "old": [
+        1.2,
+        7.025
+      ],
+      "new": [
+        0.8,
+        7.025
+      ]
+    },
+    "R503": {
+      "old": [
+        2.5,
+        7.5
+      ],
+      "new": [
+        2.5,
+        11.5
+      ]
+    }
+  },
+  "contexts": [
+    {
+      "context": "RevC",
+      "source": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "contracts": {
+        "CTX_C103": {
+          "ref": "C103",
+          "retained_XYZ": [
+            0.9500000000000011,
+            1.4499999999999997,
+            2.450000000000003
+          ],
+          "bounds": [
+            -6.675000000000001,
+            3.194793176328504,
+            118.75,
+            -5.725,
+            4.644793176328504,
+            121.2
+          ],
+          "height_qualified": false
+        },
+        "CTX_R503_latest": {
+          "ref": "R503",
+          "retained_XYZ": [
+            2.45,
+            1.45,
+            0.9499999999999886
+          ],
+          "bounds": [
+            -5.725,
+            0.8147931763285039,
+            115.025,
+            -3.2749999999999995,
+            2.264793176328504,
+            115.975
+          ],
+          "height_qualified": false
+        }
+      },
+      "collisions": []
+    },
+    {
+      "context": "RevD_BENCH",
+      "source": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "contracts": {
+        "REF_CTX_C103": {
+          "ref": "C103",
+          "retained_XYZ": [
+            0.9500000000000011,
+            1.4499999999999997,
+            2.450000000000003
+          ],
+          "bounds": [
+            -6.675000000000001,
+            3.194793176328504,
+            118.75,
+            -5.725,
+            4.644793176328504,
+            121.2
+          ],
+          "height_qualified": false
+        },
+        "REF_CTX_R503_latest": {
+          "ref": "R503",
+          "retained_XYZ": [
+            2.45,
+            1.45,
+            0.9499999999999886
+          ],
+          "bounds": [
+            -5.725,
+            0.8147931763285039,
+            115.025,
+            -3.2749999999999995,
+            2.264793176328504,
+            115.975
+          ],
+          "height_qualified": false
+        }
+      },
+      "collisions": []
+    },
+    {
+      "context": "ACCESS19",
+      "source": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+      "sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "contracts": {
+        "REF_CTX_C103": {
+          "ref": "C103",
+          "retained_XYZ": [
+            0.9500000000000011,
+            1.4499999999999997,
+            2.450000000000003
+          ],
+          "bounds": [
+            -6.675000000000001,
+            3.194793176328504,
+            118.75,
+            -5.725,
+            4.644793176328504,
+            121.2
+          ],
+          "height_qualified": false
+        },
+        "REF_CTX_R503_latest": {
+          "ref": "R503",
+          "retained_XYZ": [
+            2.45,
+            1.45,
+            0.9499999999999886
+          ],
+          "bounds": [
+            -5.725,
+            0.8147931763285039,
+            115.025,
+            -3.2749999999999995,
+            2.264793176328504,
+            115.975
+          ],
+          "height_qualified": false
+        }
+      },
+      "collisions": []
+    },
+    {
+      "context": "ACCESS20",
+      "source": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+      "sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "contracts": {
+        "REF_CTX_C103": {
+          "ref": "C103",
+          "retained_XYZ": [
+            0.9500000000000011,
+            1.4499999999999997,
+            2.450000000000003
+          ],
+          "bounds": [
+            -6.675000000000001,
+            3.194793176328504,
+            118.75,
+            -5.725,
+            4.644793176328504,
+            121.2
+          ],
+          "height_qualified": false
+        },
+        "REF_CTX_R503_latest": {
+          "ref": "R503",
+          "retained_XYZ": [
+            2.45,
+            1.45,
+            0.9499999999999886
+          ],
+          "bounds": [
+            -5.725,
+            0.8147931763285039,
+            115.025,
+            -3.2749999999999995,
+            2.264793176328504,
+            115.975
+          ],
+          "height_qualified": false
+        }
+      },
+      "collisions": []
+    }
+  ]
+}
