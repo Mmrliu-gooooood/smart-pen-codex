@@ -1,0 +1,77 @@
+{
+  "status": "RESEARCH_CANDIDATE_NOFAB",
+  "source_url": "https://jlcpcb.com/pcb-impedance-calculator",
+  "observed_utc": "2026-10-28T20:11:34Z",
+  "manufacturer_not_selected": true,
+  "manufacturing_approved": false,
+  "template": "JLC06081H-2116",
+  "calculator_label": "Standard/Finished thickness0.83\u00b10.10mm",
+  "selector_thickness_mm": 0.8,
+  "finished_thickness_mm": 0.83,
+  "finished_thickness_tolerance_mm": 0.1,
+  "finished_thickness_mask_inclusion": "not explicitly confirmed by manufacturer source",
+  "copper_mm": [
+    0.035,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.035
+  ],
+  "dielectric_mm": [
+    0.1164,
+    0.13,
+    0.2028,
+    0.13,
+    0.1164
+  ],
+  "dielectric_materials": [
+    "2116 RC54%",
+    "core",
+    "7628 RC49%",
+    "core",
+    "2116 RC54%"
+  ],
+  "layer_roles": [
+    "F.Cu signal/components",
+    "In1.Cu GND reference",
+    "In2.Cu existing power/qualified routes",
+    "In3.Cu new signal corridor",
+    "In4.Cu GND reference",
+    "B.Cu signal/components"
+  ],
+  "impedance_target_ohms": 50,
+  "factory_standard_tolerance_percent": 10,
+  "calculator_solver_tolerance_percent": 0.5,
+  "models": [
+    {
+      "type": "Single Ended (Non coplanar)",
+      "soldermask": "included model",
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "width_mm": 0.1814,
+      "same_layer_ground_gap_mm": null
+    },
+    {
+      "type": "Coplanar Single Ended",
+      "soldermask": "included model",
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "width_mm": 0.1707,
+      "input_same_layer_ground_gap_mm": 0.2,
+      "reported_same_layer_ground_gap_mm": 0.1999
+    }
+  ],
+  "not_qualified": [
+    "actual dielectric and copper tolerances per layer",
+    "finished thickness measurement mask inclusion",
+    "Dk versus frequency and material substitution",
+    "actual track cross-section and soldermask",
+    "antenna matching and enclosure/hand loading",
+    "feed transition and return-via topology",
+    "manufacturing order stackup and impedance coupon confirmation",
+    "assembly/panel quotation within project budget"
+  ]
+}

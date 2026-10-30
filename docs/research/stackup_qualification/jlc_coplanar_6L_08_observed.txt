@@ -1,0 +1,257 @@
+- text: 
+- banner:
+  - generic: 24-hour PCB production. Fast Delivery to United States.
+  - link " Coupons":
+    - /url: https://jlcpcb.com/coupon-center
+    - generic: 
+    - text: Coupons
+  - link " Download APP":
+    - /url: https://jlcone.com/download
+    - generic: 
+    - text: Download APP
+  - text:     
+  - text: USD
+  - generic: 
+- navigation:
+  - generic: 
+  - link "JLCPCB":
+    - /url: https://jlcpcb.com/
+    - generic "JLCPCB logo": 
+    - generic: JLCPCB
+  - text:       
+  - generic: 
+  - link "Shopping Cart":
+    - /url: https://cart.jlcpcb.com/shopcart/cart
+    - generic: 
+  - link "Order Now":
+    - /url: https://cart.jlcpcb.com/quote?spm=jlcpcb.Public.2006
+    - generic: Order Now
+  - generic: Sign In
+- main:
+  - paragraph: JLCPCB Impedance Calculator
+  - paragraph:
+    - text: The JLCPCB Impedance Calculator computes track width values and recommended stack-ups from user-input values of board layer, thickness, copper weight, target impedance, trace spacing (for edge-coupled pairs), and impedance trace to copper gap (coplanar waveguides).
+    - link "Click here":
+      - /url: /help/article/User-Guide-to-the-JLCPCB-Impedance-Calculator
+    - text: to see the user guide of our impedance calculator.
+  - paragraph: "* The first stack-up calculated below is highly recommended as it has lowest cost and quickest turn-around."
+  - generic: Board Type
+  - textbox "请选择": Rigid
+  - generic: 
+  - generic: Layers
+  - textbox "请选择": "6"
+  - generic: 
+  - generic: PCB Thickness
+  - textbox "请选择": "0.8"
+  - generic: 
+  - generic: Inner Copper Weight
+  - textbox "请选择": 0.5oz
+  - generic: 
+  - generic: Outer Copper Weight
+  - textbox "请选择": 1oz
+  - generic: 
+  - generic: Unit
+  - textbox "请选择": mm
+  - generic: 
+  - paragraph: Impedance Configure
+  - checkbox "Width/Spacing Complement"
+  - generic: Width/Spacing Complement
+  - button "add New Impedance":
+    - img "add"
+    - text: New Impedance
+  - button "copy Duplicate Impedance":
+    - img "copy"
+    - text: Duplicate Impedance
+  - button "calc Calculate":
+    - img "calc"
+    - text: Calculate
+  - generic: Impedance (Ω)
+  - generic: Type
+  - generic: Signal Layer
+  - generic: Top Ref
+  - generic: Bottom Ref
+  - generic: Trace Spacing（mm）
+  - generic: Impedance trace to copper（mm）
+  - textbox: "50"
+  - textbox: Coplanar Single Ended
+  - generic: 
+  - textbox: L1
+  - generic: 
+  - textbox "请选择": /
+  - generic: 
+  - textbox "请选择": L2
+  - generic: 
+  - generic: /
+  - textbox: "0.2"
+  - generic: 
+  - generic: 
+  - tablist:
+    - tab "JLC06081H-7628(Finished thickness0.81±0.10mm)":
+      - generic: JLC06081H-7628(Finished thickness0.81±0.10mm)
+    - tab "JLC06081H-7628A(SpecialTg170/Finished thickness0.81±0.10mm)":
+      - generic: JLC06081H-7628A(SpecialTg170/Finished thickness0.81±0.10mm)
+    - tab "JLC06081H-2116A(SpecialTg170/Finished thickness0.79±0.10mm)":
+      - generic: JLC06081H-2116A(SpecialTg170/Finished thickness0.79±0.10mm)
+    - tab "JLC06081H-1080(Finished thickness0.78±0.10mm)":
+      - generic: JLC06081H-1080(Finished thickness0.78±0.10mm)
+    - tab "JLC06081H-1080A(Special/Finished thickness0.8±0.10mm)":
+      - generic: JLC06081H-1080A(Special/Finished thickness0.8±0.10mm)
+    - tab "JLC06081H-1080B(SpecialTg170/Finished thickness0.79±0.10mm)":
+      - generic: JLC06081H-1080B(SpecialTg170/Finished thickness0.79±0.10mm)
+    - tab "JLC06081H-1080C(特殊/成品板厚0.7mm±0.10mm)":
+      - generic: JLC06081H-1080C(特殊/成品板厚0.7mm±0.10mm)
+    - tab "JLC06081H-1080D(成品板厚0.78±0.10mm)":
+      - generic: JLC06081H-1080D(成品板厚0.78±0.10mm)
+    - tab "JLC06081H-2313(SpecialTg170/Finished thickness0.82±0.10mm)":
+      - generic: JLC06081H-2313(SpecialTg170/Finished thickness0.82±0.10mm)
+    - tab "recommend JLC06081H-2116(Standard/Finished thickness0.83±0.10mm)" [selected]:
+      - img "recommend"
+      - text: JLC06081H-2116(Standard/Finished thickness0.83±0.10mm)
+  - tabpanel "recommend JLC06081H-2116(Standard/Finished thickness0.83±0.10mm)":
+    - generic: "Impedance Tolerance (±):"
+    - spinbutton: "0.5"
+    - generic: "%"
+    - generic: Impedance (Ω)
+    - generic: Type
+    - generic: Signal Layer
+    - generic: Top Ref
+    - generic: Bottom Ref
+    - generic: Trace Width
+    - generic: Trace Spacing
+    - generic: Impedance trace to copper
+    - generic: "50"
+    - generic: Coplanar Single Ended
+    - generic: L
+    - text: "1"
+    - generic: /
+    - generic: L
+    - text: "2"
+    - generic: "0.1707"
+    - generic: /
+    - generic: "0.1999"
+    - generic: Layer
+    - generic: Material
+    - generic: Thickness (mil)
+    - generic: Thickness (mm)
+    - generic: L1
+    - generic: Outer Copper Weight1oz
+    - generic: "1.38"
+    - generic: "0.0350"
+    - generic: Prepreg
+    - generic: 2116 RC54% 4.9mil
+    - generic: "4.58"
+    - generic: "0.1164"
+    - generic: L2
+    - generic: Core
+    - generic: L3
+    - generic: Inner Copper Weight
+    - generic: 0.13mm H/HOZ without copper
+    - generic: Inner Copper Weight
+    - generic: "0.60"
+    - generic: "5.12"
+    - generic: "0.60"
+    - generic: "0.0152"
+    - generic: "0.1300"
+    - generic: "0.0152"
+    - generic: Prepreg
+    - generic: 7628, RC 49%, 8.6 mil
+    - generic: "7.98"
+    - generic: "0.2028"
+    - generic: L4
+    - generic: Core
+    - generic: L5
+    - generic: Inner Copper Weight
+    - generic: 0.13mm H/HOZ without copper
+    - generic: Inner Copper Weight
+    - generic: "0.60"
+    - generic: "5.12"
+    - generic: "0.60"
+    - generic: "0.0152"
+    - generic: "0.1300"
+    - generic: "0.0152"
+    - generic: Prepreg
+    - generic: 2116 RC54% 4.9mil
+    - generic: "4.58"
+    - generic: "0.1164"
+    - generic: L6
+    - generic: Outer Copper Weight1oz
+    - generic: "1.38"
+    - generic: "0.0350"
+  - text:          
+- contentinfo:
+  - text:    
+  - tablist:
+    - tab "Products ":
+      - button "Products ":
+        - generic: Products
+        - generic: 
+        - text: 
+    - tab "Support ":
+      - button "Support ":
+        - generic: Support
+        - generic: 
+        - text: 
+    - tab "Company ":
+      - button "Company ":
+        - generic: Company
+        - generic: 
+        - text: 
+    - tab "Electronics ":
+      - button "Electronics ":
+        - generic: Electronics
+        - generic: 
+        - text: 
+    - tab "Mechanical ":
+      - button "Mechanical ":
+        - generic: Mechanical
+        - generic: 
+        - text: 
+  - generic: 
+  - generic: Order on JLCONE Desktop, Save $1–$20 Every Time
+  - link " Windows":
+    - /url: https://jlcone.com/download
+    - generic: 
+    - generic: Windows
+  - link " MAC":
+    - /url: https://jlcone.com/download
+    - generic: 
+    - generic: MAC
+  - link " Android":
+    - /url: https://jlcone.com/download#mobile-app
+    - generic: 
+    - generic: Android
+  - link " IOS":
+    - /url: https://jlcone.com/download#mobile-app
+    - generic: 
+    - generic: IOS
+  - generic: CONNECT WITH US
+  - link "JLCPCB on Facebook":
+    - /url: https://www.facebook.com/jlcpcb
+    - generic: 
+  - link "JLCPCB on Twitter":
+    - /url: https://twitter.com/jlcpcb
+    - generic: 
+  - link "JLCPCB on Instagram":
+    - /url: https://www.instagram.com/jlcpcb
+    - generic: 
+  - link "JLCPCB on YouTube":
+    - /url: https://www.youtube.com/JLCPCB
+    - generic: 
+  - link "JLCPCB on LinkedIn":
+    - /url: https://www.linkedin.com/company/jlcpcb
+    - generic: 
+  - link "JLCPCB on Reddit":
+    - /url: https://www.reddit.com/r/JLCPCBLab/
+    - generic: 
+  - text:      
+  - generic: © 2026 JLCPCB.COM All Rights Reserved.
+  - link "Privacy Policy":
+    - /url: https://jlcpcb.com/help/article/Privacy-Policy
+  - link "Terms & Conditions":
+    - /url: https://jlcpcb.com/help/article/Terms-%26-Conditions
+  - link "Cookies Policy":
+    - /url: https://jlcpcb.com/help/article/JLCPCB-Cookie-Notice
+  - generic: Cookies Settings
+  - link "Do Not Sell or Share My Personal Information":
+    - /url: https://jlcpcb.com/privacy-policy/do-not-sell-or-share-my-personal-information
+- text:      
