@@ -1,0 +1,21 @@
+aon_top_reconnect []
+aon_left_reconnect []
+scl_local []
+irq_local []
+sda_local []
+pullup_left []
+pullup_right []
+irq_mcu []
+scl_mcu []
+sda_mcu []
+JOINT []
+scl_pullup {'pops': 31360, 'cost': 334.668830920369, 'input': 'cpp_input_1.bin', 'output': 'cpp_output_1.txt'}
+finite 0 []
+sda_pullup {'pops': 63330, 'cost': 425.021861300698, 'input': 'cpp_input_2.bin', 'output': 'cpp_output_2.txt'}
+finite 0 []
+scl_long {'pops': 992333, 'cost': 2890.198051533928, 'input': 'cpp_input_3.bin', 'output': 'cpp_output_3.txt'}
+finite 0 []
+sda_long {'pops': 302086, 'cost': 2860.043722601381, 'input': 'cpp_input_4.bin', 'output': 'cpp_output_4.txt'}
+finite 0 []
+irq_long {'pops': 1710178, 'cost': 3174.888960392918, 'input': 'cpp_input_5.bin', 'output': 'cpp_output_5.txt'}
+finite 0 []

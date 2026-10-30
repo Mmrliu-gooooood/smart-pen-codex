@@ -1,0 +1,47 @@
+{
+  "actual_loss_not_waived": [
+    {
+      "plane": "In2.Cu",
+      "additional_clock_projection_loss_mm2": 0.0017414094705,
+      "bbox_mm": [
+        4.175,
+        80.068649,
+        0.15,
+        0.107654
+      ],
+      "center_at_loss_y_inside": false
+    },
+    {
+      "plane": "In4.Cu",
+      "additional_clock_projection_loss_mm2": 0.0017414094705,
+      "bbox_mm": [
+        4.175,
+        80.068649,
+        0.15,
+        0.107654
+      ],
+      "center_at_loss_y_inside": false
+    }
+  ],
+  "AON_025_eroded_components": [
+    {
+      "area_mm2": 759.077146217768,
+      "bbox_mm": [
+        0.75,
+        4.55,
+        10.5,
+        89.7
+      ]
+    },
+    {
+      "area_mm2": 0.0058354382355,
+      "bbox_mm": [
+        2.7255,
+        13.660878,
+        0.129029,
+        0.164881
+      ]
+    }
+  ],
+  "interpretation": "Positive clock edge loss is a gate, not erased with enlarged hole subtraction. Tiny erosion island is not proof of main backbone split or current qualification."
+}

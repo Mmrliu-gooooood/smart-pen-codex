@@ -1,0 +1,1045 @@
+{
+  "status": "NEXT_SCOPE_ONLY_NO_ROUTE_OR_NATIVE",
+  "parent_sha": "69d93e9dfa7afd427110a271d7fbdcdcd3a0841d79b502c436a50572849c08cc",
+  "pads": [
+    {
+      "ref": "R502.1",
+      "value": "10k 1%",
+      "net": "3V3_AON",
+      "xy": [
+        4.825,
+        86.65
+      ],
+      "size": [
+        0.8,
+        0.95
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "R502.2",
+      "value": "10k 1%",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        6.475,
+        86.65
+      ],
+      "size": [
+        0.8,
+        0.95
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C503.1",
+      "value": "10uF 10V X7R +/-10%",
+      "net": "3V3_AON",
+      "xy": [
+        4.35,
+        84.5
+      ],
+      "size": [
+        1.0,
+        1.45
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C503.2",
+      "value": "10uF 10V X7R +/-10%",
+      "net": "GND",
+      "xy": [
+        6.25,
+        84.5
+      ],
+      "size": [
+        1.0,
+        1.45
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C502.1",
+      "value": "100nF 16V X7R +/-10%",
+      "net": "3V3_AON",
+      "xy": [
+        5.72,
+        82.0
+      ],
+      "size": [
+        0.56,
+        0.62
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C502.2",
+      "value": "100nF 16V X7R +/-10%",
+      "net": "GND",
+      "xy": [
+        6.68,
+        82.0
+      ],
+      "size": [
+        0.56,
+        0.62
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.1",
+      "value": "LIS2DW12TR",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        3.2375,
+        81.25
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.2",
+      "value": "LIS2DW12TR",
+      "net": "3V3_AON",
+      "xy": [
+        3.2375,
+        81.75
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.3",
+      "value": "LIS2DW12TR",
+      "net": "3V3_AON",
+      "xy": [
+        3.2375,
+        82.25
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.4",
+      "value": "LIS2DW12TR",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        3.2375,
+        82.75
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.5",
+      "value": "LIS2DW12TR",
+      "net": "GND",
+      "xy": [
+        3.75,
+        82.7625
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.6",
+      "value": "LIS2DW12TR",
+      "net": "GND",
+      "xy": [
+        4.25,
+        82.7625
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.7",
+      "value": "LIS2DW12TR",
+      "net": "GND",
+      "xy": [
+        4.7625,
+        82.75
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.8",
+      "value": "LIS2DW12TR",
+      "net": "GND",
+      "xy": [
+        4.7625,
+        82.25
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.9",
+      "value": "LIS2DW12TR",
+      "net": "3V3_AON",
+      "xy": [
+        4.7625,
+        81.75
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.10",
+      "value": "LIS2DW12TR",
+      "net": "3V3_AON",
+      "xy": [
+        4.7625,
+        81.25
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.11",
+      "value": "LIS2DW12TR",
+      "net": "unconnected-(U501-INT2-Pad11)",
+      "xy": [
+        4.25,
+        81.2375
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "U501.12",
+      "value": "LIS2DW12TR",
+      "net": "PICKUP_INT_N",
+      "xy": [
+        3.75,
+        81.2375
+      ],
+      "size": [
+        0.375,
+        0.35
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "R501.1",
+      "value": "10k 1%",
+      "net": "3V3_AON",
+      "xy": [
+        1.775,
+        86.5
+      ],
+      "size": [
+        0.8,
+        0.95
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "R501.2",
+      "value": "10k 1%",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        3.425,
+        86.5
+      ],
+      "size": [
+        0.8,
+        0.95
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C501.1",
+      "value": "100nF 16V X7R +/-10%",
+      "net": "3V3_AON",
+      "xy": [
+        5.72,
+        80.7
+      ],
+      "size": [
+        0.56,
+        0.62
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "C501.2",
+      "value": "100nF 16V X7R +/-10%",
+      "net": "GND",
+      "xy": [
+        6.68,
+        80.7
+      ],
+      "size": [
+        0.56,
+        0.62
+      ],
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "ref": "J107.1",
+      "value": "CHARGER_MODE",
+      "net": "USB_EN1",
+      "xy": [
+        4.0,
+        81.5
+      ],
+      "size": [
+        1.5,
+        2.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "ref": "J107.2",
+      "value": "CHARGER_MODE",
+      "net": "USB_EN2",
+      "xy": [
+        4.0,
+        83.9
+      ],
+      "size": [
+        1.5,
+        2.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    },
+    {
+      "ref": "J107.3",
+      "value": "CHARGER_MODE",
+      "net": "GND",
+      "xy": [
+        4.0,
+        86.3
+      ],
+      "size": [
+        1.5,
+        2.0
+      ],
+      "layers": [
+        "B.Cu"
+      ]
+    }
+  ],
+  "nearby_copper": [
+    {
+      "uuid": "306f187d-8ef1-513c-976d-e5b1c8d84973",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.1,
+        83.3
+      ],
+      "b": [
+        2.65,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "564ca6cc-fc58-5406-bd14-03c1efa8dfe6",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.68,
+        82.0
+      ],
+      "b": [
+        7.0,
+        82.0
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "5b0a3cf1-b612-51ac-b68b-52302a1afb9a",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        7.0,
+        83.3
+      ],
+      "b": [
+        5.1,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "5ccebcf1-def7-5976-85fe-cfde2d3a316f",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.68,
+        80.7
+      ],
+      "b": [
+        7.0,
+        80.7
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "6eaaaf7b-d1a9-5b4e-9dfc-bc5cdc4d8a22",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        4.7625,
+        82.75
+      ],
+      "b": [
+        5.1,
+        82.75
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "6f59e8ce-abee-5efa-8198-fd7cfc0693da",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        4.7625,
+        82.25
+      ],
+      "b": [
+        5.1,
+        82.25
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "8c565e50-7ee7-5646-8a05-25a2ed0d8afb",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.1,
+        82.25
+      ],
+      "b": [
+        5.1,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "b0c1e4e5-c520-5041-a71c-6ce81c0c964d",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        7.0,
+        80.7
+      ],
+      "b": [
+        7.0,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "b64081f8-a354-5ab0-b6e7-1f4374facb05",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.25,
+        84.5
+      ],
+      "b": [
+        7.0,
+        84.5
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "e127515d-062b-5243-9e81-6941fe4fd57e",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        4.25,
+        82.7625
+      ],
+      "b": [
+        4.25,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "e54b6947-59ff-5b0d-acee-e90afd199f1e",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        7.0,
+        84.5
+      ],
+      "b": [
+        7.0,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "e6921abd-29d0-5c48-9bbb-4dd82e919516",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        3.75,
+        82.7625
+      ],
+      "b": [
+        3.75,
+        83.3
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+      "net": "GND",
+      "type": "via",
+      "layer": "through",
+      "a": [
+        2.65,
+        83.3
+      ],
+      "b": [
+        2.65,
+        83.3
+      ],
+      "width": 0.6
+    },
+    {
+      "uuid": "01e979d6-31d7-5992-84c5-bfd9fd837a3e",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        2.65,
+        82.25
+      ],
+      "b": [
+        3.2375,
+        82.25
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "13079769-348d-5142-9cb4-1d44ec56a7b8",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        2.65,
+        80.25
+      ],
+      "b": [
+        5.72,
+        80.25
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "28c688f6-bde0-5b65-9310-3f46a5f6dd52",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        2.65,
+        81.75
+      ],
+      "b": [
+        2.65,
+        82.25
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "31c2419a-efb5-50ad-b533-642390c5e579",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        2.65,
+        80.0
+      ],
+      "b": [
+        1.8,
+        80.0
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "369dc05b-f87b-5f74-976b-b5c8231c36a0",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        1.8,
+        84.5
+      ],
+      "b": [
+        4.35,
+        84.5
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "4a944d1c-e175-56f0-a053-910d6e2ff727",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        4.7625,
+        81.25
+      ],
+      "b": [
+        5.2,
+        81.25
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "5eeb184c-3434-5fdc-b2e6-a921b41ce19a",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        3.2375,
+        81.75
+      ],
+      "b": [
+        2.65,
+        81.75
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "62d8441d-e049-576e-9e58-6ee82a6703ab",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        1.8,
+        80.0
+      ],
+      "b": [
+        1.8,
+        84.5
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "64d94581-4427-5e32-b859-8e4da0842006",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        2.65,
+        81.75
+      ],
+      "b": [
+        2.65,
+        79.9
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "901ff478-2b69-5b9f-8b16-86953ba5a6b9",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.2,
+        81.25
+      ],
+      "b": [
+        5.72,
+        80.7
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "a5496ea6-5164-5ec3-a485-e0a2e5f57570",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        4.7625,
+        81.75
+      ],
+      "b": [
+        5.2,
+        81.75
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "b931c0fd-1e2f-51f8-ae16-6aea51140425",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.2,
+        81.75
+      ],
+      "b": [
+        5.72,
+        82.0
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "d51295ae-ef08-56a3-9c40-11304dfad40c",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.72,
+        80.7
+      ],
+      "b": [
+        5.72,
+        82.0
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "fb1700a3-5c27-5c36-9d84-b9492b46b711",
+      "net": "3V3_AON",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.72,
+        80.25
+      ],
+      "b": [
+        5.72,
+        80.7
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "77f42497-a70c-5858-9af0-104c9889f62b",
+      "net": "3V3_AON",
+      "type": "via",
+      "layer": "through",
+      "a": [
+        2.65,
+        79.9
+      ],
+      "b": [
+        2.65,
+        79.9
+      ],
+      "width": 0.6
+    },
+    {
+      "uuid": "154a30ea-c649-5f1a-8780-50b41706f342",
+      "net": "SENS_VIO_1V8",
+      "type": "track",
+      "layer": "In3.Cu",
+      "a": [
+        3.5,
+        91.4
+      ],
+      "b": [
+        3.5,
+        77.0
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "0b3f4b6d-e858-5dd0-a2cf-f753cab34f41",
+      "net": "SENS_HREF",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        12.9,
+        79.1
+      ],
+      "b": [
+        5.25,
+        79.1
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "72418199-6f7c-5f51-af8c-08daa359c618",
+      "net": "SENS_HREF",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        5.25,
+        79.1
+      ],
+      "b": [
+        5.25,
+        90.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "2db58bad-270e-529c-9804-b4c332bb0bc0",
+      "net": "SENS_VSYNC",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        5.75,
+        79.75
+      ],
+      "b": [
+        5.75,
+        90.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "fa402946-35dd-50ad-a05c-a87bd998aeeb",
+      "net": "SENS_VSYNC",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        13.2,
+        79.75
+      ],
+      "b": [
+        5.75,
+        79.75
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "6d1b30ac-fd7f-5bad-a0e8-30a4cb2e8b39",
+      "net": "SENS_PCLK",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        6.25,
+        80.4
+      ],
+      "b": [
+        6.25,
+        90.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "f0895096-10e2-5e6e-887c-8e51157e9cf5",
+      "net": "SENS_PCLK",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        13.5,
+        80.4
+      ],
+      "b": [
+        6.25,
+        80.4
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "794498fd-1d4b-512e-85b8-cb03602f9690",
+      "net": "SENS_EXTCLK",
+      "type": "via",
+      "layer": "through",
+      "a": [
+        4.25,
+        79.7
+      ],
+      "b": [
+        4.25,
+        79.7
+      ],
+      "width": 0.45
+    },
+    {
+      "uuid": "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+      "net": "SENS_EXTCLK",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        12.6,
+        78.6
+      ],
+      "b": [
+        4.25,
+        78.6
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "b0d6e13b-fe3c-5809-9b33-42a68478c4c0",
+      "net": "SENS_EXTCLK",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        4.25,
+        78.6
+      ],
+      "b": [
+        4.25,
+        79.7
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "net": "SENS_EXTCLK",
+      "type": "track",
+      "layer": "In3.Cu",
+      "a": [
+        4.25,
+        79.7
+      ],
+      "b": [
+        4.25,
+        89.4
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "c64f39cd-c82b-5d59-99f8-9f124ba71f81",
+      "net": "CAM_3V3_SW",
+      "type": "track",
+      "layer": "In2.Cu",
+      "a": [
+        6.825,
+        87.6
+      ],
+      "b": [
+        6.85,
+        82.05
+      ],
+      "width": 0.5
+    },
+    {
+      "uuid": "d721d5ba-ad2d-531f-9c96-9582992dea2b",
+      "net": "CAM_3V3_SW",
+      "type": "track",
+      "layer": "In2.Cu",
+      "a": [
+        6.85,
+        79.0
+      ],
+      "b": [
+        10.15,
+        79.0
+      ],
+      "width": 0.5
+    },
+    {
+      "uuid": "e904715d-0171-57fd-9c9f-eb4616eb8cb1",
+      "net": "CAM_3V3_SW",
+      "type": "track",
+      "layer": "In2.Cu",
+      "a": [
+        6.85,
+        82.05
+      ],
+      "b": [
+        6.85,
+        79.0
+      ],
+      "width": 0.5
+    }
+  ],
+  "constraints": [
+    "Do not delete the CS/SA0 tie or C503 power feed",
+    "C502.1=(5.72,82) and C503.1=(4.35,84.5) are actual AON pads; no implicit via at4.35,85.6",
+    "A left-side escape must clear both F AON vertical rails x2.65 and x1.8, plus inner SENS x3.5 and actual B J107 pads",
+    "C501/C502 GND pads and U501 NC/RES/GND source ties remain required",
+    "No relocation/reroute/full-length search executed"
+  ]
+}

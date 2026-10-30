@@ -1,0 +1,83 @@
+{
+  "status": "MODEL_COPPER_LENGTH_NOT_ELECTRICAL_TIMING",
+  "new_copper_by_net": {
+    "3V3_AON": {
+      "tracks": 9,
+      "vias": 2,
+      "length_mm": 11.406051231012583,
+      "segments_under_0_1mm": 0,
+      "layers": {
+        "F.Cu": {
+          "tracks": 6,
+          "length_mm": 8.716751442127244
+        },
+        "B.Cu": {
+          "tracks": 3,
+          "length_mm": 2.6892997888853407
+        }
+      }
+    },
+    "AON_I2C_SCL": {
+      "tracks": 184,
+      "vias": 4,
+      "length_mm": 81.47639928422274,
+      "segments_under_0_1mm": 167,
+      "layers": {
+        "F.Cu": {
+          "tracks": 22,
+          "length_mm": 8.776904347610833
+        },
+        "In3.Cu": {
+          "tracks": 161,
+          "length_mm": 69.16396103067912
+        },
+        "B.Cu": {
+          "tracks": 1,
+          "length_mm": 3.5355339059327378
+        }
+      }
+    },
+    "PICKUP_INT_N": {
+      "tracks": 69,
+      "vias": 4,
+      "length_mm": 78.56829092771673,
+      "segments_under_0_1mm": 31,
+      "layers": {
+        "F.Cu": {
+          "tracks": 57,
+          "length_mm": 70.44519388886043
+        },
+        "In3.Cu": {
+          "tracks": 1,
+          "length_mm": 5.225
+        },
+        "B.Cu": {
+          "tracks": 11,
+          "length_mm": 2.8980970388562795
+        }
+      }
+    },
+    "AON_I2C_SDA": {
+      "tracks": 199,
+      "vias": 3,
+      "length_mm": 84.50770561473048,
+      "segments_under_0_1mm": 168,
+      "layers": {
+        "F.Cu": {
+          "tracks": 28,
+          "length_mm": 5.868134918610401
+        },
+        "B.Cu": {
+          "tracks": 171,
+          "length_mm": 78.63957069612009
+        }
+      }
+    }
+  },
+  "strict_collinear_adjacent_candidates": [],
+  "limits": [
+    "Counts include all new local supply+fanout+long paths, no speculative smoothing",
+    "Grid zigzags/short segments retained; no claim of elegant final routing",
+    "Collinear compaction already performed within grid paths; changes crossing branch nodes not silently merged"
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "scope": "local F connectivity within stated box; grid conservative; listed vias independently finite-checked, no complete simultaneous paths or long route claimed",
+  "rows": [
+    {
+      "all_exact_clear_MEMS_grid_ports": [
+        [
+          4.7,
+          80.125
+        ],
+        [
+          4.7250000000000005,
+          80.125
+        ],
+        [
+          4.7,
+          80.10000000000001
+        ],
+        [
+          4.75,
+          80.125
+        ],
+        [
+          4.7250000000000005,
+          80.10000000000001
+        ],
+        [
+          4.775,
+          80.125
+        ],
+        [
+          4.75,
+          80.10000000000001
+        ],
+        [
+          4.7250000000000005,
+          80.075
+        ],
+        [
+          4.800000000000001,
+          80.125
+        ],
+        [
+          4.775,
+          80.10000000000001
+        ],
+        [
+          4.75,
+          80.075
+        ],
+        [
+          4.800000000000001,
+          80.10000000000001
+        ],
+        [
+          4.775,
+          80.075
+        ],
+        [
+          4.75,
+          80.05000000000001
+        ],
+        [
+          4.800000000000001,
+          80.075
+        ],
+        [
+          4.775,
+          80.05000000000001
+        ],
+        [
+          4.800000000000001,
+          80.05000000000001
+        ],
+        [
+          4.775,
+          80.025
+        ],
+        [
+          4.800000000000001,
+          80.025
+        ],
+        [
+          4.775,
+          80.0
+        ],
+        [
+          4.800000000000001,
+          80.0
+        ],
+        [
+          4.800000000000001,
+          79.97500000000001
+        ],
+        [
+          4.800000000000001,
+          79.95
+        ]
+      ],
+      "MEMS_port_set_diameter_mm": 0.20155644370746154,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.12",
+      "net": "PICKUP_INT_N",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 4124,
+      "grid_accessible_via_points": 23,
+      "spaced_exact_clear_via_ports": [
+        [
+          4.7,
+          80.125
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.6",
+      "net": "PICKUP_INT_N",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 7090,
+      "grid_accessible_via_points": 1830,
+      "spaced_exact_clear_via_ports": [
+        [
+          3.2750000000000004,
+          8.9
+        ],
+        [
+          3.2750000000000004,
+          8.25
+        ],
+        [
+          3.3000000000000003,
+          7.6000000000000005
+        ],
+        [
+          3.95,
+          7.525
+        ],
+        [
+          4.6000000000000005,
+          7.525
+        ],
+        [
+          3.2750000000000004,
+          12.350000000000001
+        ],
+        [
+          5.25,
+          7.5
+        ],
+        [
+          3.9250000000000003,
+          12.475000000000001
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [
+        [
+          4.7,
+          80.125
+        ],
+        [
+          4.7,
+          80.10000000000001
+        ],
+        [
+          4.7250000000000005,
+          80.125
+        ],
+        [
+          4.7250000000000005,
+          80.10000000000001
+        ],
+        [
+          4.75,
+          80.125
+        ],
+        [
+          4.7250000000000005,
+          80.075
+        ],
+        [
+          4.75,
+          80.10000000000001
+        ],
+        [
+          4.775,
+          80.125
+        ],
+        [
+          4.75,
+          80.075
+        ],
+        [
+          4.775,
+          80.10000000000001
+        ],
+        [
+          4.800000000000001,
+          80.125
+        ],
+        [
+          4.75,
+          80.05000000000001
+        ],
+        [
+          4.775,
+          80.075
+        ],
+        [
+          4.800000000000001,
+          80.10000000000001
+        ],
+        [
+          4.775,
+          80.05000000000001
+        ],
+        [
+          4.800000000000001,
+          80.075
+        ],
+        [
+          4.775,
+          80.025
+        ],
+        [
+          4.800000000000001,
+          80.05000000000001
+        ],
+        [
+          4.775,
+          80.0
+        ],
+        [
+          4.800000000000001,
+          80.025
+        ],
+        [
+          4.800000000000001,
+          80.0
+        ],
+        [
+          4.800000000000001,
+          79.97500000000001
+        ],
+        [
+          4.800000000000001,
+          79.95
+        ]
+      ],
+      "MEMS_port_set_diameter_mm": 0.20155644370746154,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.1",
+      "net": "AON_I2C_SCL",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 4224,
+      "grid_accessible_via_points": 23,
+      "spaced_exact_clear_via_ports": [
+        [
+          4.7,
+          80.125
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.10",
+      "net": "AON_I2C_SCL",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 11112,
+      "grid_accessible_via_points": 2203,
+      "spaced_exact_clear_via_ports": [
+        [
+          3.2750000000000004,
+          12.350000000000001
+        ],
+        [
+          3.9250000000000003,
+          12.475000000000001
+        ],
+        [
+          2.575,
+          13.100000000000001
+        ],
+        [
+          3.2750000000000004,
+          8.9
+        ],
+        [
+          4.575,
+          12.5
+        ],
+        [
+          1.55,
+          13.3
+        ],
+        [
+          3.2750000000000004,
+          8.25
+        ],
+        [
+          5.2250000000000005,
+          12.475000000000001
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [
+        [
+          2.375,
+          82.67500000000001
+        ],
+        [
+          2.35,
+          82.67500000000001
+        ],
+        [
+          2.325,
+          82.7
+        ],
+        [
+          2.325,
+          82.67500000000001
+        ],
+        [
+          2.325,
+          82.65
+        ],
+        [
+          2.3000000000000003,
+          82.7
+        ],
+        [
+          2.3000000000000003,
+          82.67500000000001
+        ],
+        [
+          2.3000000000000003,
+          82.65
+        ],
+        [
+          2.3000000000000003,
+          82.625
+        ]
+      ],
+      "MEMS_port_set_diameter_mm": 0.09013878188660582,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.4",
+      "net": "AON_I2C_SDA",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 949,
+      "grid_accessible_via_points": 10,
+      "spaced_exact_clear_via_ports": [
+        [
+          2.375,
+          82.67500000000001
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "before_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.11",
+      "net": "AON_I2C_SDA",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 11112,
+      "grid_accessible_via_points": 2203,
+      "spaced_exact_clear_via_ports": [
+        [
+          3.2750000000000004,
+          12.350000000000001
+        ],
+        [
+          2.575,
+          13.100000000000001
+        ],
+        [
+          3.9250000000000003,
+          12.475000000000001
+        ],
+        [
+          1.55,
+          13.3
+        ],
+        [
+          4.575,
+          12.5
+        ],
+        [
+          3.2750000000000004,
+          8.9
+        ],
+        [
+          5.2250000000000005,
+          12.475000000000001
+        ],
+        [
+          3.2750000000000004,
+          8.25
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.12",
+      "net": "PICKUP_INT_N",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 4124,
+      "grid_accessible_via_points": 1,
+      "spaced_exact_clear_via_ports": [],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.6",
+      "net": "PICKUP_INT_N",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 7090,
+      "grid_accessible_via_points": 1555,
+      "spaced_exact_clear_via_ports": [
+        [
+          3.2750000000000004,
+          8.9
+        ],
+        [
+          3.2750000000000004,
+          8.25
+        ],
+        [
+          3.3000000000000003,
+          7.6000000000000005
+        ],
+        [
+          3.95,
+          7.525
+        ],
+        [
+          4.6000000000000005,
+          7.525
+        ],
+        [
+          5.25,
+          7.5
+        ],
+        [
+          3.725,
+          12.475000000000001
+        ],
+        [
+          4.4,
+          12.475000000000001
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.1",
+      "net": "AON_I2C_SCL",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 1948,
+      "grid_accessible_via_points": 0,
+      "spaced_exact_clear_via_ports": [],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.10",
+      "net": "AON_I2C_SCL",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 4098,
+      "grid_accessible_via_points": 321,
+      "spaced_exact_clear_via_ports": [
+        [
+          2.575,
+          13.100000000000001
+        ],
+        [
+          1.55,
+          13.3
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [
+        [
+          2.375,
+          82.67500000000001
+        ],
+        [
+          2.35,
+          82.67500000000001
+        ],
+        [
+          2.325,
+          82.7
+        ],
+        [
+          2.325,
+          82.67500000000001
+        ],
+        [
+          2.325,
+          82.65
+        ],
+        [
+          2.3000000000000003,
+          82.7
+        ],
+        [
+          2.3000000000000003,
+          82.67500000000001
+        ],
+        [
+          2.3000000000000003,
+          82.65
+        ],
+        [
+          2.3000000000000003,
+          82.625
+        ]
+      ],
+      "MEMS_port_set_diameter_mm": 0.09013878188660582,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MEMS",
+      "pad": "U501.4",
+      "net": "AON_I2C_SDA",
+      "local_box_mm": [
+        1,
+        6,
+        78,
+        84
+      ],
+      "local_F_component_grid_points": 949,
+      "grid_accessible_via_points": 10,
+      "spaced_exact_clear_via_ports": [
+        [
+          2.375,
+          82.67500000000001
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    },
+    {
+      "all_exact_clear_MEMS_grid_ports": [],
+      "MEMS_port_set_diameter_mm": 0,
+      "two_045_vias_other_net_min_center_spacing_mm": 0.6,
+      "scenario": "after_greedy_IRQ",
+      "side": "MCU",
+      "pad": "U101.11",
+      "net": "AON_I2C_SDA",
+      "local_box_mm": [
+        0.4,
+        5.5,
+        7.5,
+        13.5
+      ],
+      "local_F_component_grid_points": 4098,
+      "grid_accessible_via_points": 321,
+      "spaced_exact_clear_via_ports": [
+        [
+          2.575,
+          13.100000000000001
+        ],
+        [
+          1.55,
+          13.3
+        ]
+      ],
+      "F_path_not_exact_native_verified": true
+    }
+  ]
+}

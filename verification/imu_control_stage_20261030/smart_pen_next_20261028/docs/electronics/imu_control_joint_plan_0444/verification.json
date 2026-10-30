@@ -1,0 +1,113 @@
+{
+  "status": "READONLY_FAILED_WHOLE_SEVEN_GAP_PLAN_NO_NATIVE",
+  "parent_sha": "69d93e9dfa7afd427110a271d7fbdcdcd3a0841d79b502c436a50572849c08cc",
+  "parent_native_counts": [
+    0,
+    113,
+    0
+  ],
+  "actual_signal_components": {
+    "AON_I2C_SCL": [
+      [
+        "R501.2"
+      ],
+      [
+        "U101.10"
+      ],
+      [
+        "U501.1"
+      ]
+    ],
+    "AON_I2C_SDA": [
+      [
+        "R502.2"
+      ],
+      [
+        "U101.11"
+      ],
+      [
+        "U501.4"
+      ]
+    ],
+    "PICKUP_INT_N": [
+      [
+        "U101.6"
+      ],
+      [
+        "U501.12"
+      ]
+    ]
+  },
+  "actual_additional_supply_gaps": [
+    "R501.1",
+    "R502.1"
+  ],
+  "source_functions": {
+    "U101.6": {
+      "function": "GPIO1",
+      "type": "bidirectional",
+      "source": "schematic/mcu_core.kicad_sch"
+    },
+    "U101.10": {
+      "function": "GPIO5",
+      "type": "bidirectional",
+      "source": "schematic/mcu_core.kicad_sch"
+    },
+    "U101.11": {
+      "function": "GPIO6",
+      "type": "bidirectional",
+      "source": "schematic/mcu_core.kicad_sch"
+    },
+    "U501.12": {
+      "function": "INT1",
+      "type": "output",
+      "source": "schematic/pickup_on_main.kicad_sch"
+    },
+    "U501.1": {
+      "function": "SCL",
+      "type": "input",
+      "source": "schematic/pickup_on_main.kicad_sch"
+    },
+    "U501.4": {
+      "function": "SDA",
+      "type": "bidirectional",
+      "source": "schematic/pickup_on_main.kicad_sch"
+    }
+  },
+  "source_hashes": {
+    "mainboard_revD.kicad_sch": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "schematic/physical_interfaces.kicad_sch": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+    "schematic/pickup_on_main.kicad_sch": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe",
+    "schematic/usb_entry.kicad_sch": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+    "schematic/recovery_fixture.kicad_sch": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+    "schematic/mcu_core.kicad_sch": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+    "schematic/mainboard_revD.kicad_sch": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+    "schematic/usb_main_port.kicad_sch": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+    "schematic/safe_bias_interfaces.kicad_sch": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+    "schematic/dvp_translation.kicad_sch": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+    "schematic/controls_sccb.kicad_sch": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+    "schematic/camera_gate_on_main.kicad_sch": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+  },
+  "partial_topology2_finite_errors": [],
+  "partial_irq_pad_graph": [
+    [
+      "U101.6",
+      "U501.12"
+    ]
+  ],
+  "partial_objects": 87,
+  "all_layers_via_pad_collision_checked_including_same_net": true,
+  "whole_seven_gap_complete": false,
+  "new_native_created": false,
+  "parent_unchanged": true,
+  "firmware_provider": {
+    "sha256": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+    "contents": "#include \"board_provider.h\"\nconst pen_board_provider *pen_get_board_provider(void){return 0;}\n"
+  },
+  "limits": [
+    "Partial IRQ is model only; no freshfill/DRC or signal qualification",
+    "AON replacement full endpoints have geometry but plane/core not refilled",
+    "No global routing impossibility claim",
+    "Pressure BOOT/NIB merged reference hole and prior DFM gates retained"
+  ]
+}

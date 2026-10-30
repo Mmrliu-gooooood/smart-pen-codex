@@ -1,0 +1,307 @@
+{
+  "status": "READONLY_LOCAL_FANOUT_MODEL_NOT_NATIVE",
+  "parent_sha": "69d93e9dfa7afd427110a271d7fbdcdcd3a0841d79b502c436a50572849c08cc",
+  "removed": [
+    "13079769-348d-5142-9cb4-1d44ec56a7b8",
+    "fb1700a3-5c27-5c36-9d84-b9492b46b711",
+    "64d94581-4427-5e32-b859-8e4da0842006"
+  ],
+  "parts": {
+    "aon_top_reconnect": [
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "F.Cu",
+        "a": [
+          2.65,
+          79.9
+        ],
+        "b": [
+          2.65,
+          79.1
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "F.Cu",
+        "a": [
+          2.65,
+          79.1
+        ],
+        "b": [
+          5.72,
+          79.1
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "F.Cu",
+        "a": [
+          5.72,
+          79.1
+        ],
+        "b": [
+          5.72,
+          80.7
+        ],
+        "width": 0.25,
+        "drill": null
+      }
+    ],
+    "aon_left_reconnect": [
+      {
+        "type": "via",
+        "net": "3V3_AON",
+        "layer": "through",
+        "a": [
+          2.65,
+          82.0
+        ],
+        "b": [
+          2.65,
+          82.0
+        ],
+        "width": 0.45,
+        "drill": 0.2
+      },
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "B.Cu",
+        "a": [
+          2.65,
+          82.0
+        ],
+        "b": [
+          2.0,
+          81.35
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "B.Cu",
+        "a": [
+          2.0,
+          81.35
+        ],
+        "b": [
+          2.0,
+          80.4
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "3V3_AON",
+        "layer": "B.Cu",
+        "a": [
+          2.0,
+          80.4
+        ],
+        "b": [
+          2.65,
+          79.9
+        ],
+        "width": 0.25,
+        "drill": null
+      }
+    ],
+    "scl_local": [
+      {
+        "type": "track",
+        "net": "AON_I2C_SCL",
+        "layer": "F.Cu",
+        "a": [
+          3.2375,
+          81.25
+        ],
+        "b": [
+          2.95,
+          81.25
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "AON_I2C_SCL",
+        "layer": "F.Cu",
+        "a": [
+          2.95,
+          81.25
+        ],
+        "b": [
+          2.65,
+          80.9
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "AON_I2C_SCL",
+        "layer": "through",
+        "a": [
+          2.65,
+          80.9
+        ],
+        "b": [
+          2.65,
+          80.9
+        ],
+        "width": 0.45,
+        "drill": 0.2
+      }
+    ],
+    "irq_local": [
+      {
+        "type": "track",
+        "net": "PICKUP_INT_N",
+        "layer": "F.Cu",
+        "a": [
+          3.75,
+          81.2375
+        ],
+        "b": [
+          3.825,
+          81.075
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "PICKUP_INT_N",
+        "layer": "F.Cu",
+        "a": [
+          3.825,
+          81.075
+        ],
+        "b": [
+          3.825,
+          80.8
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "PICKUP_INT_N",
+        "layer": "F.Cu",
+        "a": [
+          3.825,
+          80.8
+        ],
+        "b": [
+          4.025,
+          80.8
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "PICKUP_INT_N",
+        "layer": "F.Cu",
+        "a": [
+          4.025,
+          80.8
+        ],
+        "b": [
+          4.7,
+          80.125
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "PICKUP_INT_N",
+        "layer": "through",
+        "a": [
+          4.7,
+          80.125
+        ],
+        "b": [
+          4.7,
+          80.125
+        ],
+        "width": 0.45,
+        "drill": 0.2
+      }
+    ],
+    "sda_local": [
+      {
+        "type": "track",
+        "net": "AON_I2C_SDA",
+        "layer": "F.Cu",
+        "a": [
+          3.2375,
+          82.75
+        ],
+        "b": [
+          2.975,
+          82.75
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "AON_I2C_SDA",
+        "layer": "F.Cu",
+        "a": [
+          2.975,
+          82.75
+        ],
+        "b": [
+          2.9,
+          82.675
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "track",
+        "net": "AON_I2C_SDA",
+        "layer": "F.Cu",
+        "a": [
+          2.9,
+          82.675
+        ],
+        "b": [
+          2.375,
+          82.675
+        ],
+        "width": 0.15,
+        "drill": null
+      },
+      {
+        "type": "via",
+        "net": "AON_I2C_SDA",
+        "layer": "through",
+        "a": [
+          2.375,
+          82.675
+        ],
+        "b": [
+          2.375,
+          82.675
+        ],
+        "width": 0.45,
+        "drill": 0.2
+      }
+    ]
+  },
+  "geometry_errors": []
+}

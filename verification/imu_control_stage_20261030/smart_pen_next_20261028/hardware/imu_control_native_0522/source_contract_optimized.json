@@ -1,0 +1,68 @@
+{
+  "status": "ACTUAL_NATIVE_MATCHED_EXPORTED_SOURCE_CONTRACT",
+  "nets": {
+    "AON_I2C_SCL": [
+      {
+        "ref": "R501",
+        "pin": "2",
+        "pinfunction": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U101",
+        "pin": "10",
+        "pinfunction": "GPIO5",
+        "pintype": "bidirectional"
+      },
+      {
+        "ref": "U501",
+        "pin": "1",
+        "pinfunction": "SCL",
+        "pintype": "input"
+      }
+    ],
+    "AON_I2C_SDA": [
+      {
+        "ref": "R502",
+        "pin": "2",
+        "pinfunction": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U101",
+        "pin": "11",
+        "pinfunction": "GPIO6",
+        "pintype": "bidirectional"
+      },
+      {
+        "ref": "U501",
+        "pin": "4",
+        "pinfunction": "SDA",
+        "pintype": "bidirectional"
+      }
+    ],
+    "PICKUP_INT_N": [
+      {
+        "ref": "U101",
+        "pin": "6",
+        "pinfunction": "GPIO1",
+        "pintype": "bidirectional"
+      },
+      {
+        "ref": "U501",
+        "pin": "12",
+        "pinfunction": "INT1",
+        "pintype": "output"
+      }
+    ]
+  },
+  "pullups": {
+    "R501": "10k 1%",
+    "R502": "10k 1%"
+  },
+  "source_netlist_sha256": "27dd22478e4c41676fca99503326fae568547e97911fa3625aaf301b6d4cf266",
+  "limits": [
+    "GPIO routing is not firmware implementation",
+    "IRQ effective polarity/latching is not inferred from net spelling; no firmware commands executed"
+  ]
+}

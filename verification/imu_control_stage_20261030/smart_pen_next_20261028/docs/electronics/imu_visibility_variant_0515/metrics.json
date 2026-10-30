@@ -1,0 +1,83 @@
+{
+  "status": "MODEL_COPPER_LENGTH_NOT_ELECTRICAL_TIMING",
+  "new_copper_by_net": {
+    "3V3_AON": {
+      "tracks": 9,
+      "vias": 2,
+      "length_mm": 11.406051231012583,
+      "segments_under_0_1mm": 0,
+      "layers": {
+        "F.Cu": {
+          "tracks": 6,
+          "length_mm": 8.716751442127244
+        },
+        "B.Cu": {
+          "tracks": 3,
+          "length_mm": 2.6892997888853407
+        }
+      }
+    },
+    "AON_I2C_SCL": {
+      "tracks": 35,
+      "vias": 4,
+      "length_mm": 81.00471709416283,
+      "segments_under_0_1mm": 21,
+      "layers": {
+        "F.Cu": {
+          "tracks": 18,
+          "length_mm": 8.706401975395673
+        },
+        "In3.Cu": {
+          "tracks": 16,
+          "length_mm": 68.76278121283441
+        },
+        "B.Cu": {
+          "tracks": 1,
+          "length_mm": 3.5355339059327378
+        }
+      }
+    },
+    "PICKUP_INT_N": {
+      "tracks": 30,
+      "vias": 4,
+      "length_mm": 77.4404014120368,
+      "segments_under_0_1mm": 3,
+      "layers": {
+        "F.Cu": {
+          "tracks": 23,
+          "length_mm": 69.3391102412308
+        },
+        "In3.Cu": {
+          "tracks": 1,
+          "length_mm": 5.225
+        },
+        "B.Cu": {
+          "tracks": 6,
+          "length_mm": 2.876291170805992
+        }
+      }
+    },
+    "AON_I2C_SDA": {
+      "tracks": 50,
+      "vias": 3,
+      "length_mm": 83.1852059147245,
+      "segments_under_0_1mm": 29,
+      "layers": {
+        "F.Cu": {
+          "tracks": 26,
+          "length_mm": 5.770846276677507
+        },
+        "B.Cu": {
+          "tracks": 24,
+          "length_mm": 77.414359638047
+        }
+      }
+    }
+  },
+  "strict_collinear_adjacent_candidates": [],
+  "limits": [
+    "Counts include all new local supply+fanout+long paths, no speculative smoothing",
+    "Grid zigzags/short segments retained; no claim of elegant final routing",
+    "Collinear compaction already performed within grid paths; changes crossing branch nodes not silently merged"
+  ]
+}

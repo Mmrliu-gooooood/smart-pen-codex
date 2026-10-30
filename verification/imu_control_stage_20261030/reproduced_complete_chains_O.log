@@ -1,0 +1,221 @@
+{
+  "nineteen_complete_nets": [
+    {
+      "net": "BOOT_N",
+      "pads": [
+        "J108.2",
+        "R102.1",
+        "U101.5"
+      ]
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "pads": [
+        "C302.1",
+        "JP301.1",
+        "R303.1",
+        "U301.6"
+      ]
+    },
+    {
+      "net": "CAM_CT",
+      "pads": [
+        "C303.1",
+        "U301.4"
+      ]
+    },
+    {
+      "net": "CAM_ON",
+      "pads": [
+        "R301.1",
+        "R302.2",
+        "U301.3"
+      ]
+    },
+    {
+      "net": "CAM_QOD",
+      "pads": [
+        "R303.2",
+        "U301.5"
+      ]
+    },
+    {
+      "net": "CHIP_EN",
+      "pads": [
+        "C101.1",
+        "J108.1",
+        "R101.1",
+        "U101.4"
+      ]
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "pads": [
+        "R109.1",
+        "U101.36"
+      ]
+    },
+    {
+      "net": "ISO_GATE",
+      "pads": [
+        "Q201.1",
+        "R201.2",
+        "R202.1"
+      ]
+    },
+    {
+      "net": "RF_ANT",
+      "pads": [
+        "AE101.1",
+        "C107.1",
+        "L101.2"
+      ]
+    },
+    {
+      "net": "RF_SIP",
+      "pads": [
+        "C106.1",
+        "L101.1",
+        "U101.1"
+      ]
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "pads": [
+        "JP202.2",
+        "R204.1"
+      ]
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "pads": [
+        "R204.2",
+        "R205.1",
+        "U204.5"
+      ]
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "pads": [
+        "R103.1",
+        "U101.8"
+      ]
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "pads": [
+        "R104.1",
+        "U101.51"
+      ]
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "pads": [
+        "R105.1",
+        "U101.52"
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "pads": [
+        "J109.2",
+        "R113.1"
+      ]
+    },
+    {
+      "net": "USB_DM_MCU",
+      "pads": [
+        "R113.2",
+        "U101.25"
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "pads": [
+        "J109.1",
+        "R112.1"
+      ]
+    },
+    {
+      "net": "USB_DP_MCU",
+      "pads": [
+        "R112.2",
+        "U101.26"
+      ]
+    }
+  ],
+  "twelve_DVP_chains": [
+    {
+      "net": "SENS_D0",
+      "start": "U201.21",
+      "end": "J202.2"
+    },
+    {
+      "net": "SENS_D1",
+      "start": "U201.20",
+      "end": "J202.3"
+    },
+    {
+      "net": "SENS_D2",
+      "start": "U201.19",
+      "end": "J202.5"
+    },
+    {
+      "net": "SENS_D3",
+      "start": "U201.18",
+      "end": "J202.6"
+    },
+    {
+      "net": "SENS_D4",
+      "start": "U201.17",
+      "end": "J202.8"
+    },
+    {
+      "net": "SENS_D5",
+      "start": "U201.16",
+      "end": "J202.9"
+    },
+    {
+      "net": "SENS_D6",
+      "start": "U201.15",
+      "end": "J202.11"
+    },
+    {
+      "net": "SENS_D7",
+      "start": "U201.14",
+      "end": "J202.12"
+    },
+    {
+      "net": "SENS_PCLK",
+      "start": "U202.13",
+      "end": "J202.14"
+    },
+    {
+      "net": "SENS_VSYNC",
+      "start": "U202.12",
+      "end": "J202.15"
+    },
+    {
+      "net": "SENS_HREF",
+      "start": "U202.11",
+      "end": "J202.16"
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "start": "U203.13",
+      "end": "J202.18"
+    }
+  ],
+  "clock_extra": [
+    [
+      "J202.18",
+      "U203.13"
+    ],
+    [
+      "R235.1"
+    ]
+  ],
+  "not_timing_or_strobe_function_qualification": true
+}
+14:58:46: Error: Directory '/home/agent/.config/kicad' couldn't be created (error 30: Read-only file system)
+14:58:46: Error: Directory '/home/agent/.config/kicad/9.0' couldn't be created (error 2: No such file or directory)

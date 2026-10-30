@@ -1,0 +1,896 @@
+{
+  "status": "COMPLETE_SEVEN_GAP_JOINT_MODEL_ONLY_NO_NATIVE",
+  "parent_sha": "69d93e9dfa7afd427110a271d7fbdcdcd3a0841d79b502c436a50572849c08cc",
+  "joint_finite_errors": [],
+  "expected_remaining_airwires_if_native_matches_model": 106,
+  "new_objects": 474,
+  "removed_exact": [
+    "13079769-348d-5142-9cb4-1d44ec56a7b8",
+    "fb1700a3-5c27-5c36-9d84-b9492b46b711",
+    "64d94581-4427-5e32-b859-8e4da0842006"
+  ],
+  "prior_physical_pad_components": {
+    "ISO_GATE": [
+      1,
+      1
+    ],
+    "GND": [
+      33,
+      33
+    ],
+    "CAM_ISO_OE_N": [
+      7,
+      7
+    ],
+    "CAM_BUS_EN": [
+      3,
+      3
+    ],
+    "SCCB_ENABLE_LINK": [
+      1,
+      1
+    ],
+    "SCCB_EN_SAFE": [
+      1,
+      1
+    ],
+    "3V3_AON": [
+      4,
+      2
+    ],
+    "AON_I2C_SDA": [
+      3,
+      1
+    ],
+    "CAM_IO_EN": [
+      3,
+      3
+    ],
+    "IO_ENABLE_LINK": [
+      2,
+      2
+    ],
+    "CAM_SDA": [
+      3,
+      3
+    ],
+    "SENS_D5": [
+      2,
+      2
+    ],
+    "VBUS_5V": [
+      1,
+      1
+    ],
+    "CAM_D7": [
+      3,
+      3
+    ],
+    "RF_SIP": [
+      1,
+      1
+    ],
+    "CHIP_EN": [
+      1,
+      1
+    ],
+    "BOOT_N": [
+      1,
+      1
+    ],
+    "PICKUP_INT_N": [
+      2,
+      1
+    ],
+    "NIB_CONTACT_N": [
+      1,
+      1
+    ],
+    "STRAP_GPIO3": [
+      1,
+      1
+    ],
+    "BATTERY_ADC": [
+      2,
+      2
+    ],
+    "AON_I2C_SCL": [
+      3,
+      1
+    ],
+    "CAM_D0": [
+      3,
+      3
+    ],
+    "CAM_D1": [
+      3,
+      3
+    ],
+    "CAM_D2": [
+      3,
+      3
+    ],
+    "CAM_D3": [
+      3,
+      3
+    ],
+    "CAM_D4": [
+      3,
+      3
+    ],
+    "CAM_D5": [
+      3,
+      3
+    ],
+    "CAM_D6": [
+      3,
+      3
+    ],
+    "CAM_PCLK": [
+      3,
+      3
+    ],
+    "CAM_VSYNC": [
+      3,
+      3
+    ],
+    "CAM_HREF": [
+      3,
+      3
+    ],
+    "USB_EN1": [
+      2,
+      2
+    ],
+    "USB_DM_MCU": [
+      1,
+      1
+    ],
+    "USB_DP_MCU": [
+      1,
+      1
+    ],
+    "USB_EN2": [
+      2,
+      2
+    ],
+    "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-VDD_SPI-Pad29)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad30)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad31)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad32)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad33)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad34)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad35)": [
+      1,
+      1
+    ],
+    "ILLUM_STROBE": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+      1,
+      1
+    ],
+    "CAM_XCLK": [
+      3,
+      3
+    ],
+    "CAM_SCL": [
+      3,
+      3
+    ],
+    "CAM_PWR_EN": [
+      4,
+      4
+    ],
+    "CAM_RESET_UART_TX": [
+      4,
+      4
+    ],
+    "CAM_PWDN_UART_RX": [
+      4,
+      4
+    ],
+    "STRAP_GPIO45": [
+      1,
+      1
+    ],
+    "STRAP_GPIO46": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad53)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad54)": [
+      1,
+      1
+    ],
+    "SENS_D7": [
+      2,
+      2
+    ],
+    "SENS_D0": [
+      2,
+      2
+    ],
+    "SENS_TRIG_IN": [
+      3,
+      3
+    ],
+    "SENS_VSYNC": [
+      2,
+      2
+    ],
+    "SENS_VIO_1V8": [
+      1,
+      1
+    ],
+    "RF_ANT": [
+      1,
+      1
+    ],
+    "SENS_D6": [
+      2,
+      2
+    ],
+    "SENS_D4": [
+      2,
+      2
+    ],
+    "SENS_D3": [
+      2,
+      2
+    ],
+    "SENS_D2": [
+      2,
+      2
+    ],
+    "SENS_D1": [
+      2,
+      2
+    ],
+    "SENS_SDA": [
+      3,
+      3
+    ],
+    "USB_DP": [
+      1,
+      1
+    ],
+    "USB_DM": [
+      1,
+      1
+    ],
+    "SENS_EXTCLK": [
+      2,
+      2
+    ],
+    "UNUSED_A_INPUT": [
+      2,
+      2
+    ],
+    "SENS_SCL": [
+      3,
+      3
+    ],
+    "unconnected-(U203-2B2-Pad10)": [
+      1,
+      1
+    ],
+    "SENS_XSHUTDN_N": [
+      3,
+      3
+    ],
+    "unconnected-(U501-INT2-Pad11)": [
+      1,
+      1
+    ],
+    "SENS_HREF": [
+      2,
+      2
+    ],
+    "SENS_PCLK": [
+      2,
+      2
+    ],
+    "CAM_3V3_SW": [
+      1,
+      1
+    ],
+    "unconnected-(AE101-Pad2)": [
+      1,
+      1
+    ],
+    "unconnected-(U202-2A2-Pad7)": [
+      1,
+      1
+    ],
+    "UNUSED_B_INPUT": [
+      2,
+      2
+    ],
+    "CAM_3V3_PRELINK": [
+      1,
+      1
+    ],
+    "CAM_QOD": [
+      1,
+      1
+    ],
+    "CAM_ON": [
+      1,
+      1
+    ],
+    "CAM_CT": [
+      1,
+      1
+    ],
+    "CONTACT": [
+      1,
+      1
+    ],
+    "": [
+      2,
+      2
+    ]
+  },
+  "core": {
+    "3V3_AON": {
+      "before": [
+        "C102.1",
+        "C103.1",
+        "C104.1",
+        "C105.1",
+        "C201.1",
+        "C203.1",
+        "C205.1",
+        "C207.1",
+        "C301.1",
+        "C501.1",
+        "C502.1",
+        "C503.1",
+        "J106.2",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R240.2",
+        "R241.2",
+        "R503.1",
+        "U101.2",
+        "U101.20",
+        "U101.3",
+        "U101.46",
+        "U101.55",
+        "U101.56",
+        "U201.1",
+        "U202.1",
+        "U203.1",
+        "U203.2",
+        "U203.3",
+        "U204.8",
+        "U301.1",
+        "U501.10",
+        "U501.2",
+        "U501.3",
+        "U501.9"
+      ],
+      "after": [
+        "C102.1",
+        "C103.1",
+        "C104.1",
+        "C105.1",
+        "C201.1",
+        "C203.1",
+        "C205.1",
+        "C207.1",
+        "C301.1",
+        "C501.1",
+        "C502.1",
+        "C503.1",
+        "J106.2",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R240.2",
+        "R241.2",
+        "R501.1",
+        "R502.1",
+        "R503.1",
+        "U101.2",
+        "U101.20",
+        "U101.3",
+        "U101.46",
+        "U101.55",
+        "U101.56",
+        "U201.1",
+        "U202.1",
+        "U203.1",
+        "U203.2",
+        "U203.3",
+        "U204.8",
+        "U301.1",
+        "U501.10",
+        "U501.2",
+        "U501.3",
+        "U501.9"
+      ]
+    },
+    "GND": {
+      "before": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C301.2",
+        "C302.2",
+        "C303.2",
+        "C501.2",
+        "C502.2",
+        "C503.2",
+        "C504.2",
+        "J103.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2",
+        "R301.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+        "U201.11",
+        "U201.12",
+        "U201.13",
+        "U201.2",
+        "U202.2",
+        "U202.3",
+        "U202.8",
+        "U202.9",
+        "U203.8",
+        "U203.9",
+        "U204.4",
+        "U301.2",
+        "U501.5",
+        "U501.6",
+        "U501.7",
+        "U501.8"
+      ],
+      "after": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C301.2",
+        "C302.2",
+        "C303.2",
+        "C501.2",
+        "C502.2",
+        "C503.2",
+        "C504.2",
+        "J103.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2",
+        "R301.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+        "U201.11",
+        "U201.12",
+        "U201.13",
+        "U201.2",
+        "U202.2",
+        "U202.3",
+        "U202.8",
+        "U202.9",
+        "U203.8",
+        "U203.9",
+        "U204.4",
+        "U301.2",
+        "U501.5",
+        "U501.6",
+        "U501.7",
+        "U501.8"
+      ]
+    },
+    "SENS_VIO_1V8": {
+      "before": [
+        "C202.1",
+        "C204.1",
+        "C206.1",
+        "C208.1",
+        "J202.23",
+        "R242.2",
+        "R243.2",
+        "U201.23",
+        "U201.24",
+        "U202.16",
+        "U203.16",
+        "U204.1"
+      ],
+      "after": [
+        "C202.1",
+        "C204.1",
+        "C206.1",
+        "C208.1",
+        "J202.23",
+        "R242.2",
+        "R243.2",
+        "U201.23",
+        "U201.24",
+        "U202.16",
+        "U203.16",
+        "U204.1"
+      ]
+    }
+  },
+  "IMU14": {
+    "AON": [
+      "U501.2",
+      "U501.3",
+      "U501.9",
+      "U501.10",
+      "C501.1",
+      "C502.1",
+      "C503.1"
+    ],
+    "GND": [
+      "U501.5",
+      "U501.6",
+      "U501.7",
+      "U501.8",
+      "C501.2",
+      "C502.2",
+      "C503.2"
+    ]
+  },
+  "direct_CS_SA0_feed_to_existing_core_via_without_planes": true,
+  "feed_negative": {
+    "aon_left_reconnect/0": true,
+    "aon_left_reconnect/1": true,
+    "aon_left_reconnect/2": true,
+    "aon_left_reconnect/3": true
+  },
+  "full_signal_pad_graphs": {
+    "AON_I2C_SCL": [
+      [
+        "R501.2",
+        "U101.10",
+        "U501.1"
+      ]
+    ],
+    "AON_I2C_SDA": [
+      [
+        "R502.2",
+        "U101.11",
+        "U501.4"
+      ]
+    ],
+    "PICKUP_INT_N": [
+      [
+        "U101.6",
+        "U501.12"
+      ]
+    ]
+  },
+  "signal_group_cut_negative": {
+    "scl_long": [
+      [
+        "R501.2",
+        "U501.1"
+      ],
+      [
+        "U101.10"
+      ]
+    ],
+    "scl_local": [
+      [
+        "R501.2",
+        "U101.10"
+      ],
+      [
+        "U501.1"
+      ]
+    ],
+    "scl_mcu": [
+      [
+        "R501.2",
+        "U501.1"
+      ],
+      [
+        "U101.10"
+      ]
+    ],
+    "scl_pullup": [
+      [
+        "R501.2"
+      ],
+      [
+        "U101.10",
+        "U501.1"
+      ]
+    ],
+    "sda_long": [
+      [
+        "R502.2",
+        "U501.4"
+      ],
+      [
+        "U101.11"
+      ]
+    ],
+    "sda_local": [
+      [
+        "R502.2",
+        "U101.11"
+      ],
+      [
+        "U501.4"
+      ]
+    ],
+    "sda_mcu": [
+      [
+        "R502.2",
+        "U501.4"
+      ],
+      [
+        "U101.11"
+      ]
+    ],
+    "sda_pullup": [
+      [
+        "R502.2"
+      ],
+      [
+        "U101.11",
+        "U501.4"
+      ]
+    ],
+    "irq_long": [
+      [
+        "U101.6"
+      ],
+      [
+        "U501.12"
+      ]
+    ],
+    "irq_local": [
+      [
+        "U101.6"
+      ],
+      [
+        "U501.12"
+      ]
+    ],
+    "irq_mcu": [
+      [
+        "U101.6"
+      ],
+      [
+        "U501.12"
+      ]
+    ]
+  },
+  "ports": {
+    "AON_I2C_SCL": {
+      "xy": [
+        2.65,
+        80.9
+      ]
+    },
+    "PICKUP_INT_N": {
+      "xy": [
+        4.7,
+        80.125
+      ]
+    },
+    "AON_I2C_SDA": {
+      "xy": [
+        2.375,
+        82.675
+      ]
+    }
+  },
+  "minimum_signal_via_center_separation_mm": 1.7961764946685974,
+  "new_via_courtyard_intersections": [
+    {
+      "new": "aon_left_reconnect/0",
+      "footprint": "U501",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.0340552237655
+    },
+    {
+      "new": "scl_local/2",
+      "footprint": "U501",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.0320047690065
+    },
+    {
+      "new": "pullup_left/1",
+      "footprint": "R501",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.011259540039
+    },
+    {
+      "new": "irq_mcu/2",
+      "footprint": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.159065747372
+    },
+    {
+      "new": "irq_mcu/2",
+      "footprint": "C504",
+      "courtyard_layer": "B.Courtyard",
+      "overlap_mm2": 0.026323625338
+    },
+    {
+      "new": "scl_mcu/3",
+      "footprint": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.159065747372
+    },
+    {
+      "new": "sda_mcu/4",
+      "footprint": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.159065747372
+    },
+    {
+      "new": "sda_pullup/23",
+      "footprint": "J301",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.0382128681615
+    },
+    {
+      "new": "irq_long/1",
+      "footprint": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.024469547579
+    },
+    {
+      "new": "irq_long/53",
+      "footprint": "JP201",
+      "courtyard_layer": "F.Courtyard",
+      "overlap_mm2": 0.130854814756
+    },
+    {
+      "new": "irq_long/53",
+      "footprint": "J105",
+      "courtyard_layer": "B.Courtyard",
+      "overlap_mm2": 0.034055226855
+    }
+  ],
+  "conservative_plane_antipad_screen": [
+    {
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "removed_mm2": 5.8972382052215
+    },
+    {
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "removed_mm2": 5.8972382052215
+    },
+    {
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "removed_mm2": 4.7690900300195
+    }
+  ],
+  "old_signal_projection_losses_under_conservative_plane_screen": [],
+  "limits": [
+    "No native fill/DRC/ERC qualification; conservative .15mm antipad subtraction is screen only",
+    "All model links complete but native DRC/fill/parity/replay and physical tests still required",
+    "Same footprints/source, 10k values, I2C address straps and clock copper retained",
+    "MEMS outer-fanout stress/courtyard via DFM and all prior parent gates remain"
+  ]
+}

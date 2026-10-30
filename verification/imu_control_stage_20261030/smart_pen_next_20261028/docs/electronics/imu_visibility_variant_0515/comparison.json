@@ -1,0 +1,76 @@
+{
+  "status": "EXACT_VISIBILITY_DIFFERENTIAL_AUDIT",
+  "original_model_sha": "d61a8dda70d819ef62a581a15f55494c9bc24ac0b2261df7f0be31b9796a1630",
+  "protected_original_contact_segments_by_part": {
+    "scl_pullup": 13,
+    "sda_pullup": 20,
+    "scl_long": 12,
+    "sda_long": 12,
+    "irq_long": 7
+  },
+  "unchanged_analytical_parts": [
+    "aon_left_reconnect",
+    "aon_top_reconnect",
+    "irq_local",
+    "irq_mcu",
+    "pullup_left",
+    "pullup_right",
+    "scl_local",
+    "scl_mcu",
+    "sda_local",
+    "sda_mcu"
+  ],
+  "all_vias_exact_per_part": true,
+  "all_widths_preserved": true,
+  "all_parent_removals_identical": true,
+  "new_plane_antipad_geometry_identical_to_original_model": true,
+  "changed_copper_by_net_layer": [
+    {
+      "net": "AON_I2C_SCL",
+      "layer": "F.Cu",
+      "removed_mm2": 0.134422278936,
+      "added_mm2": 0.1249326798625,
+      "symmetric_difference_mm2": 0.2593549587985
+    },
+    {
+      "net": "AON_I2C_SCL",
+      "layer": "In3.Cu",
+      "removed_mm2": 1.447615753426,
+      "added_mm2": 1.406292439104,
+      "symmetric_difference_mm2": 2.85390819253
+    },
+    {
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "removed_mm2": 3.264824947945,
+      "added_mm2": 3.106360135756,
+      "symmetric_difference_mm2": 6.371185083701
+    },
+    {
+      "net": "PICKUP_INT_N",
+      "layer": "B.Cu",
+      "removed_mm2": 0.020341681752,
+      "added_mm2": 0.017924807835,
+      "symmetric_difference_mm2": 0.038266489587
+    },
+    {
+      "net": "AON_I2C_SDA",
+      "layer": "F.Cu",
+      "removed_mm2": 0.0983722975215,
+      "added_mm2": 0.0841160395175,
+      "symmetric_difference_mm2": 0.182488337039
+    },
+    {
+      "net": "AON_I2C_SDA",
+      "layer": "B.Cu",
+      "removed_mm2": 8.492385905677,
+      "added_mm2": 8.3305386640605,
+      "symmetric_difference_mm2": 16.8229245697375
+    }
+  ],
+  "limits": [
+    "Changed copper is explicitly NOT geometrically identical; only constrained shortcut replacements",
+    "Finite predicates, full pad graphs and reference projection screen independently rerun in verify.py",
+    "No timing/signal-integrity or manufacturing approval"
+  ]
+}

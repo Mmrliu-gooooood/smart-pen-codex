@@ -1,0 +1,1466 @@
+{
+  "status": "ACTUAL_NATIVE_PHYSICAL_AND_HOLE_REPORT_NO_SI_APPROVAL",
+  "pcb_sha": "5ed5f0ad90f5f15830f50479e0ecc48fe0685ffaff1819ff642a300f9550a1e9",
+  "finite_geometry_errors": [],
+  "new_vias_all_layers_and_same_net_pads_checked": 13,
+  "new_vias": [
+    {
+      "uuid": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+      "net": "3V3_AON",
+      "xy": [
+        2.65,
+        82.0
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 1.2999999999999972,
+        "copper_annulus_edge_distance_mm": 0.7749999999999971
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.9995,
+                81.6245,
+                1.026,
+                1.426
+              ],
+              "area_mm2": 0.8960019968095,
+              "containing_via_centers": [
+                {
+                  "uuid": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+                  "net": "3V3_AON",
+                  "xy": [
+                    2.65,
+                    82.0
+                  ]
+                },
+                {
+                  "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.375,
+                    82.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": true,
+          "native_holes_containing_center": []
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.9995,
+                81.6245,
+                1.026,
+                1.426
+              ],
+              "area_mm2": 0.8960019968095,
+              "containing_via_centers": [
+                {
+                  "uuid": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+                  "net": "3V3_AON",
+                  "xy": [
+                    2.65,
+                    82.0
+                  ]
+                },
+                {
+                  "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.375,
+                    82.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "278c44e3-7230-5ea0-8f16-aa7ed169a87f",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        2.65,
+        80.9
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 2.3999999999999915,
+        "copper_annulus_edge_distance_mm": 1.8749999999999916
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.2745,
+                80.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512988379,
+              "containing_via_centers": [
+                {
+                  "uuid": "278c44e3-7230-5ea0-8f16-aa7ed169a87f",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    2.65,
+                    80.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.2745,
+                80.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512988379,
+              "containing_via_centers": [
+                {
+                  "uuid": "278c44e3-7230-5ea0-8f16-aa7ed169a87f",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    2.65,
+                    80.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.2745,
+                80.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512988379,
+              "containing_via_centers": [
+                {
+                  "uuid": "278c44e3-7230-5ea0-8f16-aa7ed169a87f",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    2.65,
+                    80.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "b944ab1f-978f-5c36-b035-551c0ec33ece",
+      "net": "PICKUP_INT_N",
+      "xy": [
+        4.7,
+        80.125
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 3.779302184266294,
+        "copper_annulus_edge_distance_mm": 3.2543021842662943
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.8745,
+                79.3245,
+                1.201,
+                1.176
+              ],
+              "area_mm2": 0.8553516423995,
+              "containing_via_centers": [
+                {
+                  "uuid": "b944ab1f-978f-5c36-b035-551c0ec33ece",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    4.7,
+                    80.125
+                  ]
+                },
+                {
+                  "uuid": "794498fd-1d4b-512e-85b8-cb03602f9690",
+                  "net": "SENS_EXTCLK",
+                  "xy": [
+                    4.25,
+                    79.7
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.8745,
+                79.3245,
+                1.201,
+                1.176
+              ],
+              "area_mm2": 0.8553516604935,
+              "containing_via_centers": [
+                {
+                  "uuid": "b944ab1f-978f-5c36-b035-551c0ec33ece",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    4.7,
+                    80.125
+                  ]
+                },
+                {
+                  "uuid": "794498fd-1d4b-512e-85b8-cb03602f9690",
+                  "net": "SENS_EXTCLK",
+                  "xy": [
+                    4.25,
+                    79.7
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.8745,
+                79.3245,
+                1.201,
+                1.176
+              ],
+              "area_mm2": 0.8553516423995,
+              "containing_via_centers": [
+                {
+                  "uuid": "b944ab1f-978f-5c36-b035-551c0ec33ece",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    4.7,
+                    80.125
+                  ]
+                },
+                {
+                  "uuid": "794498fd-1d4b-512e-85b8-cb03602f9690",
+                  "net": "SENS_EXTCLK",
+                  "xy": [
+                    4.25,
+                    79.7
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        2.375,
+        82.675
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 0.6828250141873831,
+        "copper_annulus_edge_distance_mm": 0.15782501418738304
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.9995,
+                81.6245,
+                1.026,
+                1.426
+              ],
+              "area_mm2": 0.8960019968095,
+              "containing_via_centers": [
+                {
+                  "uuid": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+                  "net": "3V3_AON",
+                  "xy": [
+                    2.65,
+                    82.0
+                  ]
+                },
+                {
+                  "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.375,
+                    82.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.9995,
+                82.2995,
+                1.101,
+                1.451
+              ],
+              "area_mm2": 1.044317725814,
+              "containing_via_centers": [
+                {
+                  "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+                  "net": "GND",
+                  "xy": [
+                    2.65,
+                    83.3
+                  ]
+                },
+                {
+                  "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.375,
+                    82.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.9995,
+                81.6245,
+                1.026,
+                1.426
+              ],
+              "area_mm2": 0.8960019968095,
+              "containing_via_centers": [
+                {
+                  "uuid": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+                  "net": "3V3_AON",
+                  "xy": [
+                    2.65,
+                    82.0
+                  ]
+                },
+                {
+                  "uuid": "05481715-3cd3-5da7-8ed2-d2dc80b83dda",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.375,
+                    82.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "7c7fd532-9247-576f-9b75-027cac3ad773",
+      "net": "3V3_AON",
+      "xy": [
+        0.875,
+        86.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "nearest_actual_core_GND_via": {
+        "uuid": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+        "xy": [
+          1.25,
+          89.8
+        ],
+        "center_distance_mm": 3.3212384738226763,
+        "copper_annulus_edge_distance_mm": 2.7212384738226763
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": []
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": true,
+          "native_holes_containing_center": []
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": []
+        }
+      ]
+    },
+    {
+      "uuid": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+      "net": "PICKUP_INT_N",
+      "xy": [
+        3.275,
+        8.9
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "2c52f882-4764-4050-be73-93d875bb6e8b",
+        "xy": [
+          4.5,
+          8.5
+        ],
+        "center_distance_mm": 1.2886523968859875,
+        "copper_annulus_edge_distance_mm": 0.7636523968859875
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                8.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    8.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                8.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    8.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                8.5245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    8.9
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "3299c81e-e80d-5aa1-a638-1dbc50c349d5",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        3.925,
+        12.475
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+        "xy": [
+          4.5,
+          11.5
+        ],
+        "center_distance_mm": 1.131923142267177,
+        "copper_annulus_edge_distance_mm": 0.6069231422671769
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.5495,
+                12.0995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "3299c81e-e80d-5aa1-a638-1dbc50c349d5",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    3.925,
+                    12.475
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.5495,
+                12.0995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "3299c81e-e80d-5aa1-a638-1dbc50c349d5",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    3.925,
+                    12.475
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                3.5495,
+                12.0995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "3299c81e-e80d-5aa1-a638-1dbc50c349d5",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    3.925,
+                    12.475
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "52c82ff5-32e8-5ffd-914a-569645eed2d8",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        2.575,
+        13.1
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+        "xy": [
+          4.5,
+          11.5
+        ],
+        "center_distance_mm": 2.503123049312598,
+        "copper_annulus_edge_distance_mm": 1.978123049312598
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.1995,
+                12.7245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "52c82ff5-32e8-5ffd-914a-569645eed2d8",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.575,
+                    13.1
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                0.8845,
+                9.1245,
+                3.866,
+                11.326
+              ],
+              "area_mm2": 8.447846577482,
+              "containing_via_centers": [
+                {
+                  "uuid": "bff208a7-2d79-4326-b1d7-ded1f0e31294",
+                  "net": "GND",
+                  "xy": [
+                    3.275,
+                    18.0
+                  ]
+                },
+                {
+                  "uuid": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+                  "net": "BOOT_N",
+                  "xy": [
+                    1.26,
+                    9.7
+                  ]
+                },
+                {
+                  "uuid": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+                  "net": "BOOT_N",
+                  "xy": [
+                    4.3,
+                    20.0
+                  ]
+                },
+                {
+                  "uuid": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+                  "net": "BOOT_N",
+                  "xy": [
+                    2.775,
+                    15.925
+                  ]
+                },
+                {
+                  "uuid": "e57b7a0a-28b0-5974-a3c6-498c700ac674",
+                  "net": "STRAP_GPIO3",
+                  "xy": [
+                    1.65,
+                    10.5
+                  ]
+                },
+                {
+                  "uuid": "7780fcd7-8cba-536c-8997-3e9a88015915",
+                  "net": "NIB_CONTACT_N",
+                  "xy": [
+                    1.85,
+                    9.5
+                  ]
+                },
+                {
+                  "uuid": "52c82ff5-32e8-5ffd-914a-569645eed2d8",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.575,
+                    13.1
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": true
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.1995,
+                12.7245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "52c82ff5-32e8-5ffd-914a-569645eed2d8",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    2.575,
+                    13.1
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "61f05504-037d-5f66-ae1b-4e9c9ba1906d",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        1.275,
+        82.275
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 1.7150072886142445,
+        "copper_annulus_edge_distance_mm": 1.1900072886142445
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                0.8995,
+                81.8995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.4455130196945,
+              "containing_via_centers": [
+                {
+                  "uuid": "61f05504-037d-5f66-ae1b-4e9c9ba1906d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.275,
+                    82.275
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                0.8995,
+                81.8995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.4455130196945,
+              "containing_via_centers": [
+                {
+                  "uuid": "61f05504-037d-5f66-ae1b-4e9c9ba1906d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.275,
+                    82.275
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                0.8995,
+                81.8995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.4455130196945,
+              "containing_via_centers": [
+                {
+                  "uuid": "61f05504-037d-5f66-ae1b-4e9c9ba1906d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.275,
+                    82.275
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+      "net": "AON_I2C_SDA",
+      "xy": [
+        4.725,
+        87.675
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+        "xy": [
+          1.25,
+          89.8
+        ],
+        "center_distance_mm": 4.073235814435496,
+        "copper_annulus_edge_distance_mm": 3.5482358144354964
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                4.3495,
+                87.2995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513058248,
+              "containing_via_centers": [
+                {
+                  "uuid": "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    4.725,
+                    87.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                4.3495,
+                87.2995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    4.725,
+                    87.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                4.3495,
+                87.2995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513058248,
+              "containing_via_centers": [
+                {
+                  "uuid": "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+                  "net": "AON_I2C_SDA",
+                  "xy": [
+                    4.725,
+                    87.675
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "9a5c14f5-3727-5164-a48c-fd9940d7a60d",
+      "net": "AON_I2C_SCL",
+      "xy": [
+        1.425,
+        14.975
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "bff208a7-2d79-4326-b1d7-ded1f0e31294",
+        "xy": [
+          3.275,
+          18.0
+        ],
+        "center_distance_mm": 3.545860262334093,
+        "copper_annulus_edge_distance_mm": 3.020860262334093
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.0495,
+                14.5995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "9a5c14f5-3727-5164-a48c-fd9940d7a60d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.425,
+                    14.975
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.0495,
+                14.5995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.4455130551195,
+              "containing_via_centers": [
+                {
+                  "uuid": "9a5c14f5-3727-5164-a48c-fd9940d7a60d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.425,
+                    14.975
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                1.0495,
+                14.5995,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "9a5c14f5-3727-5164-a48c-fd9940d7a60d",
+                  "net": "AON_I2C_SCL",
+                  "xy": [
+                    1.425,
+                    14.975
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "bc8018a4-3511-5a6c-82ae-20ced46e0e31",
+      "net": "PICKUP_INT_N",
+      "xy": [
+        3.275,
+        14.125
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+        "xy": [
+          4.5,
+          11.5
+        ],
+        "center_distance_mm": 2.8967654375181984,
+        "copper_annulus_edge_distance_mm": 2.3717654375181985
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                13.7495,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "bc8018a4-3511-5a6c-82ae-20ced46e0e31",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    14.125
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                13.7495,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "bc8018a4-3511-5a6c-82ae-20ced46e0e31",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    14.125
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.8995,
+                13.7495,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513015387,
+              "containing_via_centers": [
+                {
+                  "uuid": "bc8018a4-3511-5a6c-82ae-20ced46e0e31",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    3.275,
+                    14.125
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uuid": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+      "net": "PICKUP_INT_N",
+      "xy": [
+        2.475,
+        78.6
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_actual_core_GND_via": {
+        "uuid": "df614ad2-67e4-5334-910a-14cb27ab1745",
+        "xy": [
+          2.65,
+          83.3
+        ],
+        "center_distance_mm": 4.703256850311285,
+        "copper_annulus_edge_distance_mm": 4.178256850311285
+      },
+      "native_plane_holes": [
+        {
+          "plane_net": "GND",
+          "layer": "In1.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.0995,
+                78.2245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    2.475,
+                    78.6
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "3V3_AON",
+          "layer": "In2.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.0995,
+                78.2245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445513019267,
+              "containing_via_centers": [
+                {
+                  "uuid": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    2.475,
+                    78.6
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        },
+        {
+          "plane_net": "GND",
+          "layer": "In4.Cu",
+          "center_in_filled_polygon": false,
+          "native_holes_containing_center": [
+            {
+              "bbox_mm": [
+                2.0995,
+                78.2245,
+                0.751,
+                0.751
+              ],
+              "area_mm2": 0.445512997293,
+              "containing_via_centers": [
+                {
+                  "uuid": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+                  "net": "PICKUP_INT_N",
+                  "xy": [
+                    2.475,
+                    78.6
+                  ]
+                }
+              ],
+              "merged_multiple_via_centers": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "courtyard_overlaps_open_DFM_gate": [
+    {
+      "via": "434dbc20-c9f7-5d2d-8def-2982fefded43",
+      "ref": "U501",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.0340552237655
+    },
+    {
+      "via": "278c44e3-7230-5ea0-8f16-aa7ed169a87f",
+      "ref": "U501",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.0320047690065
+    },
+    {
+      "via": "7c7fd532-9247-576f-9b75-027cac3ad773",
+      "ref": "R501",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.011259540039
+    },
+    {
+      "via": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+      "ref": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.159065747372
+    },
+    {
+      "via": "6dc6e14a-fa1b-5b12-99f7-d6a3272f9b63",
+      "ref": "C504",
+      "courtyard_layer": "B.Courtyard",
+      "area_mm2": 0.026323625338
+    },
+    {
+      "via": "3299c81e-e80d-5aa1-a638-1dbc50c349d5",
+      "ref": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.159065747372
+    },
+    {
+      "via": "52c82ff5-32e8-5ffd-914a-569645eed2d8",
+      "ref": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.159065747372
+    },
+    {
+      "via": "e2b8a441-8174-5053-9c1f-9663c07c93d3",
+      "ref": "J301",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.0382128681615
+    },
+    {
+      "via": "bc8018a4-3511-5a6c-82ae-20ced46e0e31",
+      "ref": "U101",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.024469547579
+    },
+    {
+      "via": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+      "ref": "JP201",
+      "courtyard_layer": "F.Courtyard",
+      "area_mm2": 0.130854814756
+    },
+    {
+      "via": "b5cae3a6-f155-5f26-b7b6-8fa94676acec",
+      "ref": "J105",
+      "courtyard_layer": "B.Courtyard",
+      "area_mm2": 0.034055226855
+    }
+  ],
+  "actual_native_lengths": {
+    "AON_I2C_SCL": {
+      "planar_length_mm": 81.00471709416281,
+      "segments": 35,
+      "vias": 4,
+      "segments_under_0_1mm": 21
+    },
+    "AON_I2C_SDA": {
+      "planar_length_mm": 83.1852059147245,
+      "segments": 50,
+      "vias": 3,
+      "segments_under_0_1mm": 29
+    },
+    "PICKUP_INT_N": {
+      "planar_length_mm": 77.4404014120368,
+      "segments": 30,
+      "vias": 4,
+      "segments_under_0_1mm": 3
+    },
+    "SENS_EXTCLK": {
+      "planar_length_mm": 46.2625,
+      "segments": 7,
+      "vias": 3,
+      "segments_under_0_1mm": 0
+    }
+  },
+  "firmware_provider": {
+    "sha256": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+    "returns_NULL": true
+  },
+  "limits": [
+    "Nearest ground via is geometric information only; not a certified high-frequency return path or timing/EMI result",
+    "Actual holes are native normalized contours; merged holes explicitly listed instead of ideal isolated circles",
+    "IRQ reset/default activeHIGH nonlatched; INT_N net spelling does not program wake polarity",
+    "No PCB fabrication, charging, camera power or functionality release"
+  ]
+}
