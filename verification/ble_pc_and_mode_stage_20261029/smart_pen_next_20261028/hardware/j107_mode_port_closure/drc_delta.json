@@ -1,0 +1,270 @@
+{
+  "before": [
+    28,
+    41,
+    0
+  ],
+  "after": [
+    17,
+    38,
+    0
+  ],
+  "added": [],
+  "removed": [
+    {
+      "description": "Items shorting two nets (nets GND and USB_EN2)",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets GND and USB_EN2)",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "retained_multiset_count": 17,
+  "comparison": "Complete native violation objects, normalize item order only; no raw-count deduplication. Airwire representatives not treated as physical components."
+}

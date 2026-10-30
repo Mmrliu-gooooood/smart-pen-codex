@@ -1,0 +1,55 @@
+{
+  "pcb_sha256": "1c4907d04a2bf2dea3a53f89266bc49c0cb96a0683b4898b58cd36b6525ec16d",
+  "all_102_physical_source_footprints_unchanged": true,
+  "only_CAM_ON_new_track_delta": true,
+  "all90_net_pad_partitions_identical": true,
+  "AON_islands_in_core": [
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/1",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/2",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/3",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/4",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/5"
+  ],
+  "all_five_native_zone_layer_polygon_serializations_identical": true,
+  "plane_neck_geometry": "identical to 508e: no new neck changes; existing neck ampacity/PI not qualified",
+  "CAM_ON_copper_union_delta": {
+    "F.Cu": {
+      "removed_copper_area_mm2": 0.4193351163805,
+      "added_copper_area_mm2": 0.3773315280795,
+      "before_union_area_mm2": 1.6509994238415,
+      "after_union_area_mm2": 1.6089943744985
+    },
+    "B.Cu": {
+      "removed_copper_area_mm2": 0.2121222254535,
+      "added_copper_area_mm2": 0.193534611696,
+      "before_union_area_mm2": 3.185551640238,
+      "after_union_area_mm2": 3.166962699074
+    }
+  },
+  "reference_coverage": {
+    "F.Cu": {
+      "adjacent_reference": "In1.Cu",
+      "before_CAM_ON_copper_not_over_filled_GND_mm2": 0.803600672894,
+      "after_CAM_ON_copper_not_over_filled_GND_mm2": 0.7952276207875,
+      "metric": "Projected finite CAM_ON pad/track/via copper, not electromagnetic return path. Signal via antipads naturally contribute; no HF/PI qualification."
+    },
+    "B.Cu": {
+      "adjacent_reference": "In4.Cu",
+      "before_CAM_ON_copper_not_over_filled_GND_mm2": 0.8152868217365,
+      "after_CAM_ON_copper_not_over_filled_GND_mm2": 0.8151667536975,
+      "metric": "Projected finite CAM_ON pad/track/via copper, not electromagnetic return path. Signal via antipads naturally contribute; no HF/PI qualification."
+    }
+  },
+  "new_foreign_copper_overlap": [],
+  "violation_multiset_identical": true,
+  "native_counts": {
+    "violations": 28,
+    "unconnected_items": 41,
+    "schematic_parity": 0
+  },
+  "unconnected_reporting": "Native representative airwire list can differ; actual per-net pad partitions independently identical.",
+  "all_FP_via_CTPowerDVP_unchanged": true,
+  "fixture_edge_strips": "Changed copper only x4.85..9.9/y66.5..73 on F/B; does not intersect x0..0.25 or13.75..14 clamp strips.",
+  "NOFAB": true
+}

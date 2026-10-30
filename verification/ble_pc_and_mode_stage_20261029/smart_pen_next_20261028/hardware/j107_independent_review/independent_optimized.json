@@ -1,0 +1,332 @@
+{
+  "pcb_sha256": "8aa2581b4df112b979d83e67b9a6a2ddaa70a433c265cdc9849e41b60ff05ab5",
+  "same_basename_preflight": {
+    "pcb_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j107_independent_review/native/mainboard_revD.kicad_pcb",
+    "pcb_sha256": "8aa2581b4df112b979d83e67b9a6a2ddaa70a433c265cdc9849e41b60ff05ab5",
+    "project_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j107_independent_review/native/mainboard_revD.kicad_pro",
+    "project_sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+    "custom_rules_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j107_independent_review/native/mainboard_revD.kicad_dru",
+    "custom_rules_sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+    "schematic_sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "net_settings_sha256": "e4f5dac073d8f63e7e1f5240cbda8c0a1e62a1d9bd3746e060e7b4b0b8285a53",
+    "design_settings_sha256": "7ba6ff8ac812bf5675ba3135fc2e0904aef7819a90bee318a73a73d4c78cbc7c",
+    "native_layers_sha256": "8fca8186d277bb9a70e397f9bfaaa6f784319f817895a6457f1c7c4d9a40de00",
+    "copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "general_thickness_mm": 0.83,
+    "explicit_stackup_present": true,
+    "stackup_raw_sha256": "d0a8622c9ba1d1a7530486881020383829b57f62fa8225f2bc8b42d8eec30dc4",
+    "stackup_known_geometry_sha256": "232ba03999f7f5345fa65c797cbe4d8b8c3d3510c60b4627f010bc40ee89a7e6",
+    "unqualified_material_values_present": [
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)"
+    ],
+    "status": "ROUTING_CONFIGURATION_BOUND",
+    "manufacturing_approved": false,
+    "manufacturing_blockers": [
+      "manufacturer_selected",
+      "layer_tolerances_confirmed",
+      "mask_and_material_confirmed",
+      "DFM_confirmed",
+      "quotation_confirmed",
+      "impedance_process_confirmed",
+      "valid_manufacturer_confirmation_record_missing"
+    ],
+    "impedance_calculation_allowed": false,
+    "lock_sha256": "f8d2a54ca26933e6522cf001eb82fc2bb43b1c344cc30613e1182a3a1f164a3a",
+    "checked_utc": "2026-10-29T03:57:07.685359+00:00"
+  },
+  "manufacturing_rejected": "NOFAB: manufacturer_selected, layer_tolerances_confirmed, mask_and_material_confirmed, DFM_confirmed, quotation_confirmed, impedance_process_confirmed, valid_manufacturer_confirmation_record_missing",
+  "rule_areas_unchanged": [
+    "14367b46-4c2a-4ccf-93f3-2392aa314c05",
+    "2a715b0e-d7bf-49ab-b132-f7f180326c33",
+    "62bd9984-25f2-4891-ab22-d6eee6caf671"
+  ],
+  "source_mode_pinfunctions": {
+    "('U101', '24')": [
+      "USB_EN1",
+      "GPIO18"
+    ],
+    "('U101', '27')": [
+      "USB_EN2",
+      "GPIO21"
+    ]
+  },
+  "fresh_DRC_counts": [
+    17,
+    38,
+    0
+  ],
+  "removed_full_findings": [
+    {
+      "description": "Items shorting two nets (nets GND and USB_EN2)",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets GND and USB_EN2)",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets USB_EN1 and GND)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 2 [USB_EN2] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 83.9
+          },
+          "uuid": "ec950033-e8dc-490d-b956-5b71dd7bb3a1"
+        },
+        {
+          "description": "Track [GND] on F.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 9.0,
+            "y": 82.8
+          },
+          "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Pad 1 [USB_EN1] of J107 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 81.5
+          },
+          "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+        },
+        {
+          "description": "Via [GND] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.6,
+            "y": 82.4
+          },
+          "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "added_full_findings": [],
+  "source_entities": 102,
+  "source_endpoints": 356
+}

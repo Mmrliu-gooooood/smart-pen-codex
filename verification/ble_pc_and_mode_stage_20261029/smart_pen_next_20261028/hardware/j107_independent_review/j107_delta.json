@@ -1,0 +1,151 @@
+{
+  "input_pcb_sha256": "1c4907d04a2bf2dea3a53f89266bc49c0cb96a0683b4898b58cd36b6525ec16d",
+  "candidate_pcb_sha256": "8aa2581b4df112b979d83e67b9a6a2ddaa70a433c265cdc9849e41b60ff05ab5",
+  "removed": [
+    {
+      "uuid": "3ac5bb80-3c7d-4b2f-a6da-470db2406f74",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        9.0,
+        82.8
+      ],
+      "z": [
+        9.4,
+        82.4
+      ],
+      "width": 0.5
+    },
+    {
+      "uuid": "e4f8df0a-430c-47de-81ff-a856e125fcf0",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        9.0,
+        82.8
+      ],
+      "z": [
+        8.6,
+        82.4
+      ],
+      "width": 0.5
+    },
+    {
+      "uuid": "3fe4721f-b482-47d6-8d38-5609ed06408d",
+      "net": "GND",
+      "type": "via",
+      "layer": "F.Cu",
+      "a": [
+        8.6,
+        82.4
+      ],
+      "z": [
+        8.6,
+        82.4
+      ],
+      "width": 0.6
+    }
+  ],
+  "added": [
+    {
+      "uuid": "c2de81c3-82d0-4d3a-aa1b-9a7ab1e73243",
+      "net": "USB_EN1",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        8.2,
+        81.5
+      ],
+      "z": [
+        9.4,
+        81.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "b324845b-6c30-4320-a50d-c230d5b8d8a9",
+      "net": "USB_EN1",
+      "type": "via",
+      "xy": [
+        9.4,
+        81.5
+      ],
+      "diameter": 0.6,
+      "drill": 0.3
+    },
+    {
+      "uuid": "c6e430ce-ec0d-481a-be64-b79ec8c99946",
+      "net": "USB_EN1",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        9.4,
+        81.5
+      ],
+      "z": [
+        7.45,
+        81.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "f2e4a0cb-28d1-4210-83ee-53ae3ec7cbe4",
+      "net": "USB_EN2",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        8.2,
+        83.9
+      ],
+      "z": [
+        9.4,
+        84.9
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "bc02b9e4-4a53-4d65-8f17-7df796695de8",
+      "net": "USB_EN2",
+      "type": "via",
+      "xy": [
+        9.4,
+        84.9
+      ],
+      "diameter": 0.6,
+      "drill": 0.3
+    },
+    {
+      "uuid": "07d90b6a-7bc4-43ff-b648-c54aebbe6db0",
+      "net": "USB_EN2",
+      "type": "track",
+      "layer": "In3.Cu",
+      "a": [
+        9.4,
+        84.9
+      ],
+      "z": [
+        7.45,
+        84.9
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "40ebbdc0-977e-435e-ab7e-bb3301efeca5",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        8.2,
+        86.3
+      ],
+      "z": [
+        9.45,
+        86.3
+      ],
+      "width": 0.5
+    }
+  ],
+  "rationale": "Replace obsolete old J106 input-GND V landing (016d old pad centre9,84), preserve actual present J106 return and right stitchvia, then independently close current J107 three pads. No footprints/modes/default pulls changed."
+}

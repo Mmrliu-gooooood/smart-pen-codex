@@ -1,0 +1,19 @@
+{
+  "before": {
+    "pcb_sha256": "508e71cbc50437cfb64a28ea8169a8511eb884f8363620e95f58773f368c5b35",
+    "new_tracks": 973,
+    "new_tracks_shorter_than_100000nm": 669,
+    "CAM_ON_tracks": 44,
+    "CAM_ON_tracks_shorter_than_100000nm": 28,
+    "CAM_ON_total_length_mm": 11.995331880577403
+  },
+  "after": {
+    "pcb_sha256": "1c4907d04a2bf2dea3a53f89266bc49c0cb96a0683b4898b58cd36b6525ec16d",
+    "new_tracks": 938,
+    "new_tracks_shorter_than_100000nm": 641,
+    "CAM_ON_tracks": 9,
+    "CAM_ON_tracks_shorter_than_100000nm": 0,
+    "CAM_ON_total_length_mm": 11.54293847422448
+  },
+  "metric": "KiCad native integer-nanometre GetLength threshold, not float math.dist <.1 (which misclassifies borderline .1mm segments due to floating rounding)."
+}

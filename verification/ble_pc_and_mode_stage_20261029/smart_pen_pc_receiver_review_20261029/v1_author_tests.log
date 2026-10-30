@@ -1,0 +1,36 @@
+test_default_and_incomplete_connect_no_radio (test_events_cli.EventCliTests.test_default_and_incomplete_connect_no_radio) ... ok
+test_no_sensor_valid_never_a_formal_point (test_events_cli.EventCliTests.test_no_sensor_valid_never_a_formal_point) ... ok
+test_binding_identity_and_single_writer (test_journal.JournalTests.test_binding_identity_and_single_writer) ... ok
+test_commit_duplicate_reopen_gaps_and_sessions (test_journal.JournalTests.test_commit_duplicate_reopen_gaps_and_sessions) ... ok
+test_commit_exception_before_and_after_commit (test_journal.JournalTests.test_commit_exception_before_and_after_commit) ... ok
+test_conflict_latches_and_preserves (test_journal.JournalTests.test_conflict_latches_and_preserves) ... ok
+test_corrupt_committed_raw_fails_startup (test_journal.JournalTests.test_corrupt_committed_raw_fails_startup) ... ok
+test_database_permission_rejection (test_journal.JournalTests.test_database_permission_rejection) ... ok
+test_durability_pragma_readback (test_journal.JournalTests.test_durability_pragma_readback) ... ok
+test_empty_corrupt_foreign_missing_never_recreated (test_journal.JournalTests.test_empty_corrupt_foreign_missing_never_recreated) ... ok
+test_initialization_disk_failure_not_replaced (test_journal.JournalTests.test_initialization_disk_failure_not_replaced) ... ok
+test_permissions_links_and_unwritable (test_journal.JournalTests.test_permissions_links_and_unwritable) ... ok
+test_process_crash_before_after_commit (test_journal.JournalTests.test_process_crash_before_after_commit) ... ok
+test_real_sqlite_full_no_success_then_recover (test_journal.JournalTests.test_real_sqlite_full_no_success_then_recover) ... ok
+test_bad_ack (test_protocol.ProtocolTests.test_bad_ack) ... ok
+test_bad_record (test_protocol.ProtocolTests.test_bad_record) ... ok
+test_header_and_seq16 (test_protocol.ProtocolTests.test_header_and_seq16) ... ok
+test_loss_order_duplicate_expiry_and_reset (test_protocol.ProtocolTests.test_loss_order_duplicate_expiry_and_reset) ... ok
+test_roundtrip_boundaries (test_protocol.ProtocolTests.test_roundtrip_boundaries) ... ok
+test_ack_loss_then_partial_replay_cannot_ack (test_receiver.ReceiverTests.test_ack_loss_then_partial_replay_cannot_ack) ... ok
+test_cancel_during_commit_waits_before_close (test_receiver.ReceiverTests.test_cancel_during_commit_waits_before_close) ... ok
+test_commit_failure_no_ack (test_receiver.ReceiverTests.test_commit_failure_no_ack) ... ok
+test_corruption_loss_order_then_complete_retry (test_receiver.ReceiverTests.test_corruption_loss_order_then_complete_retry) ... ok
+test_defaults_never_construct_client (test_receiver.ReceiverTests.test_defaults_never_construct_client) ... ok
+test_disconnect_during_commit_keeps_data_without_ack (test_receiver.ReceiverTests.test_disconnect_during_commit_keeps_data_without_ack) ... ok
+test_durable_before_exact_ack (test_receiver.ReceiverTests.test_durable_before_exact_ack) ... ok
+test_info_and_gatt_are_not_authorization (test_receiver.ReceiverTests.test_info_and_gatt_are_not_authorization) ... ok
+test_initial_auth_denial_requires_fresh_info_after_local_confirmation (test_receiver.ReceiverTests.test_initial_auth_denial_requires_fresh_info_after_local_confirmation) ... ok
+test_overflow_stops_without_ack (test_receiver.ReceiverTests.test_overflow_stops_without_ack) ... ok
+test_session_seq16_collision_and_out_of_order_records (test_receiver.ReceiverTests.test_session_seq16_collision_and_out_of_order_records) ... ok
+test_wrong_device_stops_no_ack (test_receiver.ReceiverTests.test_wrong_device_stops_no_ack) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.126s
+
+OK

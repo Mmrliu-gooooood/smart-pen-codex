@@ -1,0 +1,43 @@
+{
+  "reproduce_queue_time.py": {
+    "review_source_sha256": "03ebdf34223f13424a316cce5fb4f1ee11f2ee795bdb4956a1af940ae9f44b0b",
+    "change": "No script changes; PC_SOURCE points to independent v2",
+    "result": {
+      "second_record_fragment_span_s": 2.102474736995646,
+      "ACK_count": 1,
+      "timeout_s": 2,
+      "radio": "mock only"
+    }
+  },
+  "reproduce_export_identity.py": {
+    "review_source_sha256": "0552e66311283f9cf4d015233cf00c9dd98e680411f5d9e9c1354a4dcd2baf4d",
+    "change": "No script changes; PC_SOURCE points to independent v2",
+    "result": {
+      "distinct_journal_bindings": [
+        "explicit-target-A",
+        "explicit-target-B"
+      ],
+      "export_events_identical": false,
+      "event_count_each": 3,
+      "wire_VALID_still_blocked": true,
+      "exported_keys": [
+        "UI_allowed",
+        "boundary_derived",
+        "coordinate",
+        "device",
+        "host_security_attested",
+        "page",
+        "peer_scope",
+        "record_sha256",
+        "schema",
+        "seq",
+        "session",
+        "source",
+        "source_namespace",
+        "timestamp_us",
+        "type"
+      ],
+      "radio_executed": false
+    }
+  }
+}

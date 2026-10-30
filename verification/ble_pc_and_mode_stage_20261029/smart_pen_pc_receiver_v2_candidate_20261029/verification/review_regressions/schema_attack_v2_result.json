@@ -1,0 +1,11 @@
+{
+  "review_source_sha256": "892f07c6b49a18b62d1f6f1bc161b3d420e8f0e235b5d72d4afce6e749f203a1",
+  "adaptation": "PC_SOURCE=v2; capture expected startup error and count writes over possibly empty client list; attack SQL unchanged",
+  "result": {
+    "startup_error": "JournalError",
+    "client_count": 0,
+    "ACK_writes": 0,
+    "durable_rows": 0,
+    "radio": "mock only"
+  }
+}

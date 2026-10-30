@@ -1,0 +1,53 @@
+{
+  "parent_manifest_sha256": "34e3d6e0f923a28eded99483ea57d79e42bf990c2618e12cf268eda690ff4b26",
+  "changed_code": [
+    {
+      "path": "pen_receiver/__init__.py",
+      "v1_sha256": "61deb6e4207ad76eb48b45cebef0f089d4497bde59ba6ef4b01cb750f689d405",
+      "v2_sha256": "f0ce762fd09f50327456a8ed95f9903eaf568973d2cef545f859c8059ae8546a"
+    },
+    {
+      "path": "pen_receiver/events.py",
+      "v1_sha256": "8f74ad349003c8878c9ea0d1363deff9092e58f1209f0b0ec25888a8ceaa09d0",
+      "v2_sha256": "12dbe92f2df3923dadb0de54cebb07addf2494b6a79c9eec14030437f7917890"
+    },
+    {
+      "path": "pen_receiver/identity.py",
+      "v1_sha256": null,
+      "v2_sha256": "d8b442f4ccc352f9a64a507f7bb387c0701115bca1d5ba9a0b9fa04c4418e3bb"
+    },
+    {
+      "path": "pen_receiver/journal.py",
+      "v1_sha256": "b879740c2fd67ae3215a63fcc8f580ad66aaa3e2726eed7e28b1ac5eb08ce50e",
+      "v2_sha256": "9e6ec931394ab82c4cb2aee25d0b4b8ae11166b7e76ed82d32e4e75326082eaf"
+    },
+    {
+      "path": "pen_receiver/protocol.py",
+      "v1_sha256": "3579b8a5b433b628813da5297c9e6c84d5ffefd12a45cbc48e3301d4de1763ee",
+      "v2_sha256": "5c53b2f9848ecdaacda9c2b375a9c4001b07b4568c94a99a46b381b094eef1cc"
+    },
+    {
+      "path": "pen_receiver/receiver.py",
+      "v1_sha256": "a2fee793f093b65af0f0de89be756ea070d3d7b3f206b0e011a13b41acb5167b",
+      "v2_sha256": "54108e6cf5674bf3a40f124d85b90c856d9ff2ace8c7bf071754d9da2238f6c8"
+    },
+    {
+      "path": "tests/test_events_cli.py",
+      "v1_sha256": "62d272175f4243210f3fabe77d45ebf2ad08ebfe132c168857a32ee25cfa400b",
+      "v2_sha256": "f915955d589ddf40427fa52f08bb14fa943366decd9a91a7068a9d2940f2d5f6"
+    },
+    {
+      "path": "tests/test_v2_adversarial.py",
+      "v1_sha256": null,
+      "v2_sha256": "7b5ab6016a1aa271bb843effe13c46bef7f989304516ae602b2982287e8e4666"
+    },
+    {
+      "path": "tools/manifest.py",
+      "v1_sha256": "010bab382ae90bdd3ed0c17d6a1539f239a4d55b7f9fc976dc8dcf38c6d8e670",
+      "v2_sha256": "99f3e6e340ef326a3490346d8a1ce5b17cfe5e59b7ad6fb5ff6935fe68f75405"
+    }
+  ],
+  "wire_format_unchanged": true,
+  "journal_schema": 2,
+  "event_schema": "pen-coordinate-source/2"
+}

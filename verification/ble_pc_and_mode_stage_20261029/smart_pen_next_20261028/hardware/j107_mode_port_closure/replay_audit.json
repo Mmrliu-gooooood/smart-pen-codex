@@ -1,0 +1,94 @@
+{
+  "pcb_sha256": "8aa2581b4df112b979d83e67b9a6a2ddaa70a433c265cdc9849e41b60ff05ab5",
+  "old_pad_components_preserved": true,
+  "mode_components": {
+    "USB_EN1": [
+      [
+        "J107.1",
+        "U101.24"
+      ]
+    ],
+    "USB_EN2": [
+      [
+        "J107.2",
+        "U101.27"
+      ]
+    ]
+  },
+  "GND_components_before": 12,
+  "GND_components_after": 11,
+  "only_GND_pad_added_to_existing_core": "J107.3",
+  "existing_input_IMU_MCU_gate_GND_core_preserved": true,
+  "existing_J106_ground_trace_width_mm": 0.5,
+  "new_J107_reference_ground_trace_width_mm": 0.5,
+  "AON_all_pad_components_unchanged": true,
+  "all_AON_filled_islands_in_core": [
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/1",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/2",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/3",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/4",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/5"
+  ],
+  "plane_geometry_delta": [
+    {
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "before_islands": 1,
+      "after_islands": 1,
+      "before_area_mm2": 990.087004456153,
+      "after_area_mm2": 988.782868872995,
+      "removed_plane_mm2": 1.3041355750685,
+      "added_plane_mm2": 0.0
+    },
+    {
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "before_islands": 1,
+      "after_islands": 1,
+      "before_area_mm2": 201.784604183288,
+      "after_area_mm2": 201.784604183288,
+      "removed_plane_mm2": 0.0,
+      "added_plane_mm2": 0.0
+    },
+    {
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "before_islands": 6,
+      "after_islands": 6,
+      "before_area_mm2": 712.670776889133,
+      "after_area_mm2": 711.993554018536,
+      "removed_plane_mm2": 1.2945214930005,
+      "added_plane_mm2": 0.61729855432
+    },
+    {
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "before_islands": 1,
+      "after_islands": 1,
+      "before_area_mm2": 988.152004456153,
+      "after_area_mm2": 986.847868872995,
+      "removed_plane_mm2": 1.3041355750685,
+      "added_plane_mm2": 0.0
+    },
+    {
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "before_islands": 1,
+      "after_islands": 1,
+      "before_area_mm2": 201.784604183288,
+      "after_area_mm2": 201.784604183288,
+      "removed_plane_mm2": 0.0,
+      "added_plane_mm2": 0.0
+    }
+  ],
+  "control_cross_net_actual_copper_overlap": [],
+  "all_footprints_unchanged": true,
+  "no_mode_ties_or_source_BOM_change": true,
+  "limits": "Static finite copper only; AON/GND plane area/connection do not qualify neck ampacity, return inductance, external harness or current-loop sharing. JP301 OPEN; charging commissioning unchanged; NOFAB."
+}

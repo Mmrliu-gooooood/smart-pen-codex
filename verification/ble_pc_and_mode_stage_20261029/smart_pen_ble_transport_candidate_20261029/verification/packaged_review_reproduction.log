@@ -1,0 +1,97 @@
+normal
+Independent core adversarial cases: 47 PASS (single-owner event-order simulation; no radio)
+
+
+ndebug
+Independent core adversarial cases: 47 PASS (single-owner event-order simulation; no radio)
+
+
+asan
+Independent core adversarial cases: 47 PASS (single-owner event-order simulation; no radio)
+
+
+normal
+Independent actor/grant adversarial cases: 12 PASS (mock flash and host ordering; no radio)
+
+
+ndebug
+Independent actor/grant adversarial cases: 12 PASS (mock flash and host ordering; no radio)
+
+
+asan
+Independent actor/grant adversarial cases: 12 PASS (mock flash and host ordering; no radio)
+
+
+normal
+Independent real IDF adapter mocked groups: 11 PASS (pthread RPC; no SDK radio executed)
+
+
+normal
+init_fail
+Independent IDF special case init_fail PASS (mock only)
+
+
+normal
+nvs_fail
+Independent IDF special case nvs_fail PASS (mock only)
+
+
+normal
+weak_write
+Independent IDF special case weak_write PASS (mock only)
+
+
+normal
+expired_write
+Independent IDF special case expired_write PASS (mock only)
+
+
+ndebug
+Independent real IDF adapter mocked groups: 11 PASS (pthread RPC; no SDK radio executed)
+
+
+ndebug
+init_fail
+Independent IDF special case init_fail PASS (mock only)
+
+
+ndebug
+nvs_fail
+Independent IDF special case nvs_fail PASS (mock only)
+
+
+ndebug
+weak_write
+Independent IDF special case weak_write PASS (mock only)
+
+
+ndebug
+expired_write
+Independent IDF special case expired_write PASS (mock only)
+
+
+asan
+Independent real IDF adapter mocked groups: 11 PASS (pthread RPC; no SDK radio executed)
+
+
+asan
+init_fail
+Independent IDF special case init_fail PASS (mock only)
+
+
+asan
+nvs_fail
+Independent IDF special case nvs_fail PASS (mock only)
+
+
+asan
+weak_write
+Independent IDF special case weak_write PASS (mock only)
+
+
+asan
+expired_write
+Independent IDF special case expired_write PASS (mock only)
+
+
+Independent review outputs: /tmp/pen-ble-review.RmgFmo

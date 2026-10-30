@@ -1,0 +1,50 @@
+[
+  {
+    "case": "thin_new_ground",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Added width/layer/geometry"
+  },
+  {
+    "case": "thin_new_ground",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Added width/layer/geometry"
+  },
+  {
+    "case": "move_current_input_GND_via",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Surviving original copper changed"
+  },
+  {
+    "case": "move_current_input_GND_via",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Surviving original copper changed"
+  },
+  {
+    "case": "renumber_J107",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Any physical/source footprint changed"
+  },
+  {
+    "case": "renumber_J107",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Any physical/source footprint changed"
+  },
+  {
+    "case": "remove_EN1_via",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Exact J107 copper set"
+  },
+  {
+    "case": "remove_EN1_via",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Exact J107 copper set"
+  }
+]

@@ -1,0 +1,14 @@
+menu "Smart pen BLE candidate - compile only entrypoint"
+config PEN_BLE_TRANSPORT
+    bool "Compile real NimBLE transport implementation"
+    default n
+    depends on BT_NIMBLE_ENABLED
+config PEN_BLE_DEV_PAIRING
+    bool "Compile development local USB-display pairing policy (not headless production)"
+    default n
+    depends on PEN_BLE_TRANSPORT
+    help
+        Does not start radio. Runtime needs explicit local consent and a reviewed
+        USB display callback; a connected peer requires per-epoch local approval.
+        app_main is a compile fixture, remains inert in all configurations.
+endmenu

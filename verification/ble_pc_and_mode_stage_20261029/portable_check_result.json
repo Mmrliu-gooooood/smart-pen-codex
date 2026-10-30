@@ -1,0 +1,695 @@
+{
+  "scope": "offline host/synthetic and native static evidence only, NOFAB; not radio/device/durable-powerloss qualification",
+  "original_files_verified": 622,
+  "device_or_network_operations": false,
+  "source_byte_exact": true,
+  "full_history_generators_rerun": false,
+  "PC_V1": "failed historical minimal reproducer, not recommended",
+  "historical_hardware_DRC": {
+    "CAM_ON": [
+      28,
+      41,
+      0
+    ],
+    "J107": [
+      17,
+      38,
+      0
+    ]
+  },
+  "software_replay": {
+    "BLE_author_modes": [
+      "normal",
+      "ndebug",
+      "asan_ubsan"
+    ],
+    "BLE_independent_suites": [
+      "core",
+      "actor",
+      "IDF_API_stub"
+    ],
+    "BLE_independent_modes": [
+      "normal",
+      "ndebug",
+      "asan"
+    ],
+    "BLE_IDF_mock_scenarios_per_mode": 5,
+    "PC_author_tests_per_mode": 45,
+    "PC_independent_tests_per_mode": 9,
+    "PC_modes": [
+      "normal",
+      "optimized"
+    ],
+    "crosswire": {
+      "random_actual_C_Python_packet_fragment_ack_cases": 500,
+      "record_byte_corruption_rejected": 48,
+      "actual_C_ACK_byte_corruption_rejected": 20,
+      "radio_executed": false
+    },
+    "three_defect_regressions": {
+      "V1": {
+        "schema": {
+          "ACK_writes": 1,
+          "durable_rows": 0,
+          "radio": "mock only"
+        },
+        "identity": {
+          "distinct_journal_bindings": [
+            "explicit-target-A",
+            "explicit-target-B"
+          ],
+          "export_events_identical": true,
+          "event_count_each": 3,
+          "wire_VALID_still_blocked": true,
+          "exported_keys": [
+            "UI_allowed",
+            "boundary_derived",
+            "coordinate",
+            "device",
+            "host_security_attested",
+            "page",
+            "peer_scope",
+            "schema",
+            "seq",
+            "session",
+            "source",
+            "timestamp_us",
+            "type"
+          ],
+          "radio_executed": false
+        },
+        "callback_time": {
+          "second_record_fragment_span_s": 2.1023539190064184,
+          "ACK_count": 2,
+          "timeout_s": 2,
+          "radio": "mock only"
+        }
+      },
+      "V2": {
+        "schema": {
+          "rejected": "unexpected schema object/SQL (including triggers/views/indexes)",
+          "clients": 0,
+          "ACK_writes": 0,
+          "durable_rows": 0,
+          "file_unchanged": true,
+          "radio": "none"
+        },
+        "identity": {
+          "distinct_journal_bindings": [
+            "explicit-target-A",
+            "explicit-target-B"
+          ],
+          "export_events_identical": false,
+          "event_count_each": 3,
+          "wire_VALID_still_blocked": true,
+          "exported_keys": [
+            "UI_allowed",
+            "boundary_derived",
+            "coordinate",
+            "device",
+            "host_security_attested",
+            "page",
+            "peer_scope",
+            "record_sha256",
+            "schema",
+            "seq",
+            "session",
+            "source",
+            "source_namespace",
+            "timestamp_us",
+            "type"
+          ],
+          "radio_executed": false
+        },
+        "callback_time": {
+          "second_record_fragment_span_s": 2.102602523009409,
+          "ACK_count": 1,
+          "timeout_s": 2,
+          "radio": "mock only"
+        }
+      }
+    },
+    "SDK_rebuilt_this_replay": false,
+    "SDK_evidence": "frozen author/reviewer two IDF configurations retained; no build outputs copied",
+    "radio_executed": false,
+    "Windows_SC_MITM_powerloss_tested": false,
+    "NO_SENSOR_UI_allowed": false
+  },
+  "exact_prior_union_dependencies_verified": 493,
+  "native_replay": {
+    "kicad_version": "9.0.2",
+    "cases": {
+      "cam_on_independent_review": {
+        "fresh_DRC": [
+          28,
+          41,
+          0
+        ],
+        "exit": 5,
+        "full_violation_multiset_identical": true,
+        "actual_short_findings": 9,
+        "mutation_rejections": 8
+      },
+      "j107_independent_review": {
+        "fresh_DRC": [
+          17,
+          38,
+          0
+        ],
+        "exit": 5,
+        "full_violation_multiset_identical": true,
+        "actual_short_findings": 4,
+        "mutation_rejections": 8
+      }
+    },
+    "checks_normal_optimized": true,
+    "new_review_sources_not_modified": true,
+    "full_finding_delta_removed": 11,
+    "full_finding_delta_added": 0,
+    "harness_cases_per_mode": 9,
+    "harness_rebuilt_exact": true,
+    "current_power_RevB_three_pin_mapping": "1:1 EN1/EN2/GND",
+    "legacy_four_pin_pin3": "CE_PERMISSION_EXTERNAL, explicitly incompatible",
+    "manufacturing_released": false,
+    "physical_harness_released": false,
+    "dynamic_or_plane_ampacity_qualified": false,
+    "CAM_ON_tracks": [
+      44,
+      9
+    ],
+    "CAM_ON_sub_0p1mm_tracks": [
+      28,
+      0
+    ],
+    "whole_previous_batch_sub_0p1mm_tracks": [
+      669,
+      641
+    ],
+    "J107_GND_components": [
+      12,
+      11
+    ],
+    "in_plane_AON_to_IMU_paths": "pre-existing nonpassing cases remain nonpassing; not a pass"
+  },
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_ble_transport_candidate_20261029/tools/test_host.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c736f76e45b8a5d05924ad0ecaf2c11995a5673b546a125f2cd1a4d36fe95485",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_ble_transport_candidate_20261029/review/run_extra.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "d847d50b26c3a15f7bba3d599141ef3f882a48fe2d19233ffaa0404150fdadec",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_ble_transport_candidate_20261029/review/run_actor_extra.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "b0697f45bd27d6d45c22b85f428d4b6c1a214d7d6188b0c626390943893b7690",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_ble_transport_candidate_20261029/review/run_idf_extra.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "19f749ebccb3273e8f9f38642bf181c3175bc208794dececa3b609941f12ce71",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-W",
+        "error",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "9ccdc734f0f53f041216314632fe77b11e8353ba37b1e6f39c2f307d27637967"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/test_independent_v2.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "4b904fe277c770a6c4e964334dd80731fc94b381c95d7f25832b9c534192c4ee"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "-W",
+        "error",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "3550d75e3d3ad6194ddbe3e9146d99784b9e1875097cb69b2ac4d3a466f14f92"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/test_independent_v2.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "1e2d768ad6fc2cc4400e34758753ff1a92cd9936b86d60b90eaef3ed1f324ec3"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_v2_candidate_20261029/tools/crosswire.py",
+        "--ble-source",
+        "<CAPSULE>/smart_pen_ble_transport_candidate_20261029"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "5de61075b09ffd58a0ae59d2f317e88b535c07ce5e2d458bef5180f93f577816",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/run_wire_fuzz.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "8869936a869d2fb242afd1c55483ceb65fef973a4f154e187b0273e963911f43",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_schema_ack.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "7efde761abd1ff4bfa912a2271c49fc961b6e31940dd53ceaac7c6c90d57ccfa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_export_identity.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c5d982d4caa01e99ac98d909f74308d0630f829711c123f4a76c70a11e36fde2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_queue_time.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c6d304cc0d2fa8c6dfaa509d0d6b4d07c4c91e6803ad2da6bcb999e2191d3852",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_schema_v2.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "52b455b442e261c771039724bb877950bbb783940c15943fd17e0710dcb00538",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_export_identity.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "d465e2c2fc8cf32c0c1f204a50e45886cb47a58de70178d5eee1a8a82f65efbc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_pc_receiver_review_20261029/reproduce_queue_time.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "972f68341b1374f29f31dba4a63b28dd8892e6c3b8ccbdc1a05df1059050e017",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "cb59c54a0c419202b393c39beebcdbef094e480bdea5c82290050c265a1f7508",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--all-track-errors",
+        "--schematic-parity",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/drc.json",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/native/mainboard_revD.kicad_pcb"
+      ],
+      "returncode": 5,
+      "stdout_sha256": "6af7e904fc0bbc8852f97cd7b962c4bb1e7e15b2d21e04f42d29ed7f81cd34b3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/fresh.xml",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/native/mainboard_revD.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--all-track-errors",
+        "--schematic-parity",
+        "--severity-all",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/fresh_drc.json",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/native/mainboard_revD.kicad_pcb"
+      ],
+      "returncode": 5,
+      "stdout_sha256": "857e351184404fc34f2fee675b30c9d8b704983e47f7d9f52ad219a058388cf1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/fresh.xml",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/native/mainboard_revD.kicad_sch"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/independent_checks.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "771fafeff16a20e1c4ad7f80ffd979656a347791e6ed6a4f76135a8d251a097c",
+      "stderr_sha256": "e8cbc40885afe70ea4cadefbcbe940188a10e77fb00b95a1536985455e3b6ca4"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/audit_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "40aee016239d2ae1fc9526908bd361435c1b727c9b9f6ec56f1f31e8a21a9246",
+      "stderr_sha256": "d6d563fc84ff5f98c4e28bcd334f890d4e23a9a66a890d9cc0a36ea8df5f922c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/verify_maintenance.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e56ae44b6d47b15f758b6a452260ee8bfa0330d9aec2bead796596827302cec9",
+      "stderr_sha256": "88bf8c90f63025e1ec385ce261ec6689ffbfda41d9c1ffffb757fb55f2be714a"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/track_statistics.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3f6a758812dbfc5b8405b32a95a39659cfb4873cc750775485c5c24a682c0d5",
+      "stderr_sha256": "4ed0f301d7d99fa7bc96156bc324cc76551c22b34f05e2e3cc596ed39efd48ba"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/verify_source_refill.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "19d0eab5adba5da81125ab2b0a9ce66afb3bd7e5f5bf56f63ef98c4c0f5130f8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/independent_checks.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "787032b460af0945e607dd933bd4d643175000d5663d7589681d3f34c6fe31d1",
+      "stderr_sha256": "7a5f9b623863592f3c8ed444ed8d9ae5c5fae8191a7773a1a2050397c6c5e247"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/audit_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "6cb9b0d772ab500bd4c4a736f14b539327d091b22ed2a4128f18887b933c99d8",
+      "stderr_sha256": "37034b585c71088b5956b545490a1a61f5dd47e26f8eef9b01008b339637df83"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/verify_j107.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "85abd2985ca021c83ea77981356679aea7e3aa6fe91f8b8ffdf2977a05f2ec4f",
+      "stderr_sha256": "c9259d679dd026cad21d9e1ec123eac322c4d6140b32f73543d4aba3addea1ae"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/ground_tail_counterfactual.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "761865fa447a640a3892fc9a286421f9de5e9613f80a4f366eda318c730885f4",
+      "stderr_sha256": "c0039c21d966d630208cd82e3b10e05a542262c052529f5b3064a4f15e9aeb4a"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/local_plane_corridors.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "209e88dd30aa8f2319be93f127388c25ead700591761587340060a328c296dc7",
+      "stderr_sha256": "1bf35b306162d87a24786e618d52ad7b81b219166347e4908a3633e4b9cfb498"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/verify_source_refill.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c250bc5a927fb026675b139197f6b279f4590d59ceb2c7f9f68b6ab318209376",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_current_revB_harness/harness_contract/test_mapping.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "68c6c2ff0c2b4c1b1aab7eecbbb1d10cb2dc82141ab16493aee9dec0a309a02c",
+      "stderr_sha256": "3715a7ece209211884fa471be0036c02a3a0c272e7e1b7ebb674298553bd26ed"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/independent_checks.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "771fafeff16a20e1c4ad7f80ffd979656a347791e6ed6a4f76135a8d251a097c",
+      "stderr_sha256": "965543633be2bc54eaf2e9e0bc30d8072a5073b32843c8bb82333fcd9e1e4a5a"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/audit_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "40aee016239d2ae1fc9526908bd361435c1b727c9b9f6ec56f1f31e8a21a9246",
+      "stderr_sha256": "283d22ede6d6896a4200c0ba1480204d70a349ddc3b93660e2c3376b2ce34cd1"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/verify_maintenance.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e56ae44b6d47b15f758b6a452260ee8bfa0330d9aec2bead796596827302cec9",
+      "stderr_sha256": "54edb95eebf3ea53180dbe31aaeda61cf79b0ea8722e7c67c21e4073532878d9"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/track_statistics.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "e3f6a758812dbfc5b8405b32a95a39659cfb4873cc750775485c5c24a682c0d5",
+      "stderr_sha256": "aa359b34d529e3c44682ac481ba9e6f4998f5cbf7f5e9298be5abc5302e622f9"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/verify_source_refill.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "19d0eab5adba5da81125ab2b0a9ce66afb3bd7e5f5bf56f63ef98c4c0f5130f8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/independent_checks.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "a1c4a56d9ce797bf2719aab3ce4a1790dd10288cc986a15519f50017021d097e",
+      "stderr_sha256": "e4bbcfce87329d4bb12bd0c500766bb8ce21b129379e84049f2b763431d62c35"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/audit_gate.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "6cb9b0d772ab500bd4c4a736f14b539327d091b22ed2a4128f18887b933c99d8",
+      "stderr_sha256": "b9a12440efafba600ce20e6d111080b776c48a5d85608d4963e69a71c8f61168"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/verify_j107.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "85abd2985ca021c83ea77981356679aea7e3aa6fe91f8b8ffdf2977a05f2ec4f",
+      "stderr_sha256": "e849d36c8d6971941e0dfb8b92fd0f643a173d326f8adfc4b14993ba3d25e6ec"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/ground_tail_counterfactual.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "761865fa447a640a3892fc9a286421f9de5e9613f80a4f366eda318c730885f4",
+      "stderr_sha256": "d32bc5ea088ed1113344e347df684da6b4ee4974026f7e144dc002f4fa9f6672"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/local_plane_corridors.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "209e88dd30aa8f2319be93f127388c25ead700591761587340060a328c296dc7",
+      "stderr_sha256": "64886d98b7c0d61d4aaa5d2e0dea569717024c5552ee875e6e3de7348bcfb42c"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/verify_source_refill.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "c250bc5a927fb026675b139197f6b279f4590d59ceb2c7f9f68b6ab318209376",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-O",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_current_revB_harness/harness_contract/test_mapping.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "fa4968ab953d6a43287eefc782cfa9e3892090d1cbae9664c1f8dd34f20974cc",
+      "stderr_sha256": "2d65702506dad35ce843f27c5ff603c44d8e53a11a039aa96eb959ee704a6f7e"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/cam_on_independent_review/maintenance_negatives.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "ee3bacf9ecfa07d91e2914039c3709a02badbadd4eb739c2b883eb3b7a7bf3c4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_independent_review/negative_j107.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "aa51cc7fb963ab5bbd074bfa9a0224d491afe9f3e6be32486879ce2d5218fa43",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "<CAPSULE>/smart_pen_next_20261028/hardware/j107_current_revB_harness/harness_contract/build_contract.py"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "7abe85ed47b71e75a28558549b4f8149ec551085c697eb410180a5a3864029c1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "relocated_standard_library_quick_passed": true,
+  "replay_dependency_materialization": "only493 exact prior union entries in disposable project layout",
+  "comparison_policy": "two original source file inventory arrays sorted; only checked_utc/path normalized; strict structure/1e-8 numeric compare otherwise"
+}

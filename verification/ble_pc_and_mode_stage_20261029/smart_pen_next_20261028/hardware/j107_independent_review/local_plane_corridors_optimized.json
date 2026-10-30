@@ -1,0 +1,834 @@
+{
+  "before_sha256": "1c4907d04a2bf2dea3a53f89266bc49c0cb96a0683b4898b58cd36b6525ec16d",
+  "after_sha256": "8aa2581b4df112b979d83e67b9a6a2ddaa70a433c265cdc9849e41b60ff05ab5",
+  "window_mm": [
+    0,
+    14,
+    78,
+    88
+  ],
+  "method": "Actual filled polygon inward offset with round corners,250nm polygon error. Both fixed anchors must remain in one island. Radius is a comparative geometric clearance screen, NOT trace width/ampacity certification. This is plane-only: it excludes via-drill/barrel/spoke electrical qualification and current density.",
+  "cases": [
+    {
+      "name": "AON_input_to_bulk",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        83.9
+      ],
+      "to_mm": [
+        4.35,
+        85.6
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "AON_input_to_HF_feed",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        83.9
+      ],
+      "to_mm": [
+        5.72,
+        82.8
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "AON_input_to_left_plane_probe",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        83.9
+      ],
+      "to_mm": [
+        8.6,
+        83.9
+      ],
+      "target_kind": "non-terminal local plane probe",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "GND_input_to_bulk_return_In1.Cu",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        86.3
+      ],
+      "to_mm": [
+        5.7,
+        83.6
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "GND_input_to_HF_return_In1.Cu",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        86.3
+      ],
+      "to_mm": [
+        6.55,
+        81.35
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "GND_input_to_bulk_return_In4.Cu",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        86.3
+      ],
+      "to_mm": [
+        5.7,
+        83.6
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": false
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": false
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    },
+    {
+      "name": "GND_input_to_HF_return_In4.Cu",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "from_actual_via_mm": [
+        9.45,
+        86.3
+      ],
+      "to_mm": [
+        6.55,
+        81.35
+      ],
+      "target_kind": "actual existing capacitor feed/return via",
+      "tests": {
+        "before": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ],
+        "after": [
+          {
+            "erosion_radius_mm": 0,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.025,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.05,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.075,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.1,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.125,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.15,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.2,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.25,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.3,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.4,
+            "same_remaining_plane_island": true
+          },
+          {
+            "erosion_radius_mm": 0.5,
+            "same_remaining_plane_island": true
+          }
+        ]
+      },
+      "lost_previously_passing_radii_mm": []
+    }
+  ],
+  "any_geometric_corridor_regression": false,
+  "limits": "A true passing baseline is required to interpret a non-regression. This does not establish global minimum neck, thermal rise, inductance, or safety."
+}

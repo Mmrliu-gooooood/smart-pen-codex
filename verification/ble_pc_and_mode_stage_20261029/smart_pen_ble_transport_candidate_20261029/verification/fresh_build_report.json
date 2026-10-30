@@ -1,0 +1,97 @@
+{
+  "sdk_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+  "source_manifest_sha256": "be8f57bc024ff7d466ea6d71544aa27ef067a9d551be20e2217940e84fec5d18",
+  "hardware_run": false,
+  "configurations": {
+    "disabled": {
+      "files": {
+        "smartpen_ble_compile.elf": {
+          "bytes": 3791380,
+          "sha256": "a0d395198f99504b4cc75ce67a72ca03f84de6f782eb60c69b79a4b2a42218c0"
+        },
+        "smartpen_ble_compile.bin": {
+          "bytes": 208352,
+          "sha256": "3a78c0adb52025b81681f5762867897a41ec457f4293b65e272bf9e18952f194"
+        },
+        "partition_table/partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        }
+      },
+      "retained_symbols": [
+        "pen_ble_dev_start",
+        "pen_ble_dev_advertise",
+        "pen_ble_dev_peer",
+        "pen_ble_dev_approve",
+        "pen_ble_quiesce",
+        "pen_ble_resume",
+        "pen_ble_transport_backend",
+        "pen_ble_actor_init",
+        "pen_ble_actor_turn",
+        "pen_get_board_provider"
+      ],
+      "sdkconfig_sha256": "3536e76983d96659ad2ae9ab55b3154c999a0490c81f21e26b26fb4cceb9d9f3",
+      "config": [
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_1MB is not set",
+        "CONFIG_ESPTOOLPY_FLASHSIZE_2MB=y",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_16MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set",
+        "CONFIG_ESPTOOLPY_FLASHSIZE=\"2MB\""
+      ]
+    },
+    "enabled": {
+      "files": {
+        "smartpen_ble_compile.elf": {
+          "bytes": 6944980,
+          "sha256": "404c935201ba22391e1edbbee7ae8a0b92df13dd56c77ca0580e603950aa203a"
+        },
+        "smartpen_ble_compile.bin": {
+          "bytes": 531840,
+          "sha256": "95d1eb4d4382057c77a4c07865e1932ecb63ef54dda2d56381e2a93a81070a7b"
+        },
+        "partition_table/partition-table.bin": {
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        }
+      },
+      "retained_symbols": [
+        "pen_ble_dev_start",
+        "pen_ble_dev_advertise",
+        "pen_ble_dev_peer",
+        "pen_ble_dev_approve",
+        "pen_ble_quiesce",
+        "pen_ble_resume",
+        "pen_ble_transport_backend",
+        "pen_ble_actor_init",
+        "pen_ble_actor_turn",
+        "pen_get_board_provider"
+      ],
+      "sdkconfig_sha256": "94d529cdeb2245bad650bc06dccccd3c7b34b99057eef23760e358b7a0928ebc",
+      "config": [
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_1MB is not set",
+        "CONFIG_ESPTOOLPY_FLASHSIZE_2MB=y",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_4MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_8MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_16MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_32MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_64MB is not set",
+        "# CONFIG_ESPTOOLPY_FLASHSIZE_128MB is not set",
+        "CONFIG_ESPTOOLPY_FLASHSIZE=\"2MB\"",
+        "CONFIG_PEN_BLE_TRANSPORT=y",
+        "CONFIG_PEN_BLE_DEV_PAIRING=y",
+        "CONFIG_BT_NIMBLE_MAX_CONNECTIONS=1",
+        "CONFIG_BT_NIMBLE_MAX_BONDS=3",
+        "CONFIG_BT_NIMBLE_NVS_PERSIST=y",
+        "# CONFIG_BT_NIMBLE_SM_LEGACY is not set",
+        "CONFIG_BT_NIMBLE_SM_SC=y",
+        "# CONFIG_BT_NIMBLE_SM_SC_DEBUG_KEYS is not set",
+        "CONFIG_BT_NIMBLE_SM_LVL=4",
+        "CONFIG_BT_NIMBLE_SM_SC_LVL=4"
+      ]
+    }
+  }
+}

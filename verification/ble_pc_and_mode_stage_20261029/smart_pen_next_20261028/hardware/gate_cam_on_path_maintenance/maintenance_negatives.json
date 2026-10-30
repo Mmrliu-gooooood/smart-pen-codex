@@ -1,0 +1,50 @@
+[
+  {
+    "case": "new_width",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Scope added non-CAM_ON or wrong width"
+  },
+  {
+    "case": "new_width",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Scope added non-CAM_ON or wrong width"
+  },
+  {
+    "case": "via_moved",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Any surviving copper changed"
+  },
+  {
+    "case": "via_moved",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Any surviving copper changed"
+  },
+  {
+    "case": "TP_moved",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Physical footprint or source identity changed"
+  },
+  {
+    "case": "TP_moved",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Physical footprint or source identity changed"
+  },
+  {
+    "case": "plane_changed",
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Actual filled plane geometry changed"
+  },
+  {
+    "case": "plane_changed",
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Actual filled plane geometry changed"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "baseline_sha256": "1c4907d04a2bf2dea3a53f89266bc49c0cb96a0683b4898b58cd36b6525ec16d",
+  "counterfactual_fresh_refilled_sha256": "d102aababf334fb6d2933a7ade891c2aff73595a6808ec68e97a00e976f13cfc",
+  "removed_only": [
+    "3ac5bb80-3c7d-4b2f-a6da-470db2406f74",
+    "3fe4721f-b482-47d6-8d38-5609ed06408d",
+    "e4f8df0a-430c-47de-81ff-a856e125fcf0"
+  ],
+  "same_basename_project_and_rules": true,
+  "every_old_net_pad_partition_identical": true,
+  "GND_components_before_after": [
+    12,
+    12
+  ],
+  "new_J107_pads_still_isolated": {
+    "USB_EN1": [
+      [
+        "J107.1"
+      ],
+      [
+        "U101.24"
+      ]
+    ],
+    "USB_EN2": [
+      [
+        "J107.2"
+      ],
+      [
+        "U101.27"
+      ]
+    ]
+  },
+  "J107_GND_still_separate": [
+    "J107.3"
+  ],
+  "current_input_IMU_MCU_gate_GND_core_preserved": true,
+  "AON_filled_islands_all_in_core": [
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/1",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/2",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/3",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/4",
+    "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/5"
+  ],
+  "scope": "Static redundancy proof for superseded J106 landing tails, not a thermal/PI guarantee. It does not rely on new J107 reference-ground bridge to rescue the current load return."
+}
