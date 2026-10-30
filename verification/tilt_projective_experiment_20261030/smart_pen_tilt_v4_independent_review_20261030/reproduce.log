@@ -1,0 +1,858 @@
++ ../smart_pen_host_venv_20261028/bin/python verify_frozen_sources.py
+PASS 394 original frozen files and copied legacy files unchanged
++ ../smart_pen_host_venv_20261028/bin/python diagnose_components.py
+tilt0_phase0.pgm 96 {'edge': 11, 'dot': 86}
+tilt0_phase0.pgm 80 {'edge': 10, 'dot': 59}
+tilt0_phase17.pgm 96 {'dot': 89, 'edge': 11}
+tilt0_phase17.pgm 80 {'dot': 63, 'edge': 1}
+tilt30_phase0.pgm 96 {'dot': 99, 'edge': 8}
+tilt30_phase0.pgm 80 {'edge': 10, 'dot': 68}
+tilt30_phase17.pgm 96 {'edge': 8, 'dot': 104}
+tilt30_phase17.pgm 80 {'edge': 11, 'dot': 70}
+tilt45_phase0.pgm 96 {'edge': 15, 'dot': 103, 'shape': 17, 'speckle': 4}
+tilt45_phase0.pgm 80 {'dot': 66, 'edge': 12, 'shape': 14, 'speckle': 3}
+tilt45_phase17.pgm 96 {'dot': 100, 'edge': 16, 'shape': 16, 'speckle': 5}
+tilt45_phase17.pgm 80 {'edge': 5, 'dot': 70, 'shape': 13, 'speckle': 4}
+tilt60_phase0.pgm 96 {'dot': 65, 'edge': 12, 'shape': 50, 'speckle': 68}
+tilt60_phase0.pgm 80 {'edge': 12, 'dot': 46, 'shape': 40, 'speckle': 41}
+tilt60_phase17.pgm 96 {'dot': 69, 'edge': 13, 'shape': 39, 'speckle': 76}
+tilt60_phase17.pgm 80 {'dot': 50, 'edge': 13, 'shape': 33, 'speckle': 41}
++ ../smart_pen_host_venv_20261028/bin/python replay_eight.py baseline_eight.json
+0 0 0 True
+0 17 0 True
+30 0 -3 None
+30 17 -3 None
+45 0 -2 None
+45 17 -2 None
+60 0 -2 None
+60 17 -2 None
++ ../smart_pen_host_venv_20261028/bin/python diagnose_model.py
+[
+  {
+    "tilt": 0,
+    "phase": 0,
+    "side": 96,
+    "ideal_dots": 86,
+    "general_affine_rms_px": 3.898584963200211e-14,
+    "general_affine_max_px": 6.355287432313019e-14,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 0,
+    "phase": 17,
+    "side": 96,
+    "ideal_dots": 85,
+    "general_affine_rms_px": 3.964263646454075e-13,
+    "general_affine_max_px": 7.234986049614835e-13,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 30,
+    "phase": 0,
+    "side": 96,
+    "ideal_dots": 97,
+    "general_affine_rms_px": 1.3496624628968434,
+    "general_affine_max_px": 3.2274572409723787,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 30,
+    "phase": 17,
+    "side": 80,
+    "ideal_dots": 66,
+    "general_affine_rms_px": 0.8844975722114566,
+    "general_affine_max_px": 2.1171850400802805,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 45,
+    "phase": 0,
+    "side": 96,
+    "ideal_dots": 122,
+    "general_affine_rms_px": 2.36320553649071,
+    "general_affine_max_px": 5.395767486836174,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 45,
+    "phase": 17,
+    "side": 96,
+    "ideal_dots": 121,
+    "general_affine_rms_px": 2.225662628490698,
+    "general_affine_max_px": 5.720512838700316,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 60,
+    "phase": 0,
+    "side": 96,
+    "ideal_dots": 184,
+    "general_affine_rms_px": 3.861510741526885,
+    "general_affine_max_px": 9.140390844904793,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  },
+  {
+    "tilt": 60,
+    "phase": 17,
+    "side": 96,
+    "ideal_dots": 181,
+    "general_affine_rms_px": 4.0249740842924755,
+    "general_affine_max_px": 10.438531269346761,
+    "note": "Oracle-labelled ideal centers; not detector centroids or an algorithm initializer."
+  }
+]
++ ../smart_pen_host_venv_20261028/bin/python probe_eight.py
+{'image': 'tilt0_phase0.pgm', 'status': 0, 'diagnostics': {'components': 69, 'retained': 59, 'coarse': 32879, 'seeds': 10, 'iterations': 250, 'models': 10, 'overflow': 0}, 'x': 127, 'y': 247, 'directions': [1, 3, 1, 2, 2, 1, 1, 2, 3, 2, 0, 1, 0, 2, 2, 2, 2, 3, 3, 1, 3, 0, 1, 2, 3, 0, 1, 1, 2, 3, 3, 1, 0, 1, 2, 0], 'H': [10.034083499563765, 0.020037635818855922, -1210.5032915111992, 0.04130045061342793, 10.019520083402606, -2415.712485161827, 0.0003778920721322886, 0.00023182214234601333, 0.8926866728939531], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt0_phase17.pgm', 'status': 0, 'diagnostics': {'components': 64, 'retained': 63, 'coarse': 32879, 'seeds': 11, 'iterations': 275, 'models': 11, 'overflow': 0}, 'x': 132, 'y': 249, 'directions': [3, 1, 2, 1, 0, 3, 2, 1, 0, 0, 1, 3, 3, 0, 1, 0, 1, 0, 0, 2, 3, 1, 2, 3, 0, 3, 2, 2, 0, 3, 1, 0, 1, 2, 3, 1], 'H': [9.995647409545176, 0.013792460293256922, -1258.9546001606343, -0.0022698696164945515, 10.00331941559531, -2424.459030869044, -4.397001588731411e-05, 9.208293975176348e-05, 0.9827750213432304], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt30_phase0.pgm', 'status': 0, 'diagnostics': {'components': 78, 'retained': 68, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}, 'x': 127, 'y': 247, 'directions': [1, 3, 1, 2, 2, 1, 1, 2, 3, 2, 0, 1, 0, 2, 2, 2, 2, 3, 3, 1, 3, 0, 1, 2, 3, 0, 1, 1, 2, 3, 3, 1, 0, 1, 2, 0], 'H': [9.939592633689335, 1.2387114134096708, -1504.122750025666, -0.00119039132437714, 9.847201395047081, -2367.6427607256333, -1.661095921420472e-05, 0.012476093893876914, -2.129340142665259], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt30_phase17.pgm', 'status': 0, 'diagnostics': {'components': 81, 'retained': 70, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}, 'x': 132, 'y': 249, 'directions': [3, 1, 2, 1, 0, 3, 2, 1, 0, 0, 1, 3, 3, 0, 1, 0, 1, 0, 0, 2, 3, 1, 2, 3, 0, 3, 2, 2, 0, 3, 1, 0, 1, 2, 3, 1], 'H': [10.065554540687334, 1.2513267876094734, -1580.3440900425928, 0.025475128460402206, 9.935708842622251, -2410.720313314845, 0.00023245336350911244, 0.012528766685610405, -2.1888628622110615], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt45_phase0.pgm', 'status': 0, 'diagnostics': {'components': 95, 'retained': 80, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}, 'x': 127, 'y': 246, 'directions': [1, 1, 2, 3, 0, 1, 1, 3, 1, 2, 2, 1, 1, 2, 3, 2, 0, 1, 0, 2, 2, 2, 2, 3, 3, 1, 3, 0, 1, 2, 3, 0, 1, 1, 2, 3], 'H': [9.885687659101325, 1.7318870368490553, -1620.9290458232658, -0.024523197297080697, 8.748758804590452, -2089.758322528099, -0.0001848621633431845, 0.017496615813824352, -3.3676184880352986], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt45_phase17.pgm', 'status': 0, 'diagnostics': {'components': 92, 'retained': 83, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}, 'x': 133, 'y': 248, 'directions': [3, 1, 2, 1, 3, 1, 1, 2, 1, 0, 3, 1, 1, 0, 0, 1, 3, 3, 0, 1, 0, 1, 0, 1, 2, 3, 1, 2, 3, 0, 3, 2, 2, 0, 3, 3], 'H': [10.081302939926127, 1.7188373872040557, -1700.2529006073269, 0.025576284130864834, 8.830253859526954, -2131.6209741029033, 0.0002353492772607848, 0.017308486540581466, -3.3937461099339963], 'roi': [60, 60, 80, 80]}
+{'image': 'tilt60_phase0.pgm', 'status': -3, 'diagnostics': {'components': 139, 'retained': 86, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}}
+{'image': 'tilt60_phase17.pgm', 'status': -3, 'diagnostics': {'components': 137, 'retained': 83, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}}
++ ../smart_pen_host_venv_20261028/bin/python verify_eight_oracle.py
+{'image': 'tilt0_phase0.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.05332097296918885, 'min_basis_cosine': 0.9999985689589274}
+{'image': 'tilt0_phase17.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.09443076881717574, 'min_basis_cosine': 0.9999996872008062}
+{'image': 'tilt30_phase0.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.03340631945100389, 'min_basis_cosine': 0.9999998970387225}
+{'image': 'tilt30_phase17.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.06130203605317673, 'min_basis_cosine': 0.9999995658954597}
+{'image': 'tilt45_phase0.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.07495004882211075, 'min_basis_cosine': 0.9999989688046083}
+{'image': 'tilt45_phase17.pgm', 'status': 0, 'correct': True, 'exact_symbols': True, 'window_supported': True, 'orientation_correct': True, 'max_grid_error_px': 0.10253222478897726, 'min_basis_cosine': 0.9999976550935669}
+{'image': 'tilt60_phase0.pgm', 'status': -3}
+{'image': 'tilt60_phase17.pgm', 'status': -3}
++ ../smart_pen_host_venv_20261028/bin/python heldout_selftest.py
+PASS oracle selftest; eight central96 renders pixel-identical
++ ../smart_pen_host_venv_20261028/bin/python run_heldout.py
+heldout_000 heldout_pose 15 positive 0 True {'components': 71, 'retained': 58, 'coarse': 32879, 'seeds': 17, 'iterations': 425, 'models': 17, 'overflow': 0}
+heldout_001 heldout_pose 15 positive 0 True {'components': 67, 'retained': 61, 'coarse': 32879, 'seeds': 18, 'iterations': 450, 'models': 18, 'overflow': 0}
+heldout_002 heldout_pose 15 positive 0 True {'components': 69, 'retained': 62, 'coarse': 32879, 'seeds': 7, 'iterations': 175, 'models': 7, 'overflow': 0}
+heldout_003 heldout_pose 15 positive 0 True {'components': 70, 'retained': 60, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_004 heldout_pose 15 positive 0 True {'components': 69, 'retained': 59, 'coarse': 32879, 'seeds': 7, 'iterations': 175, 'models': 7, 'overflow': 0}
+heldout_005 heldout_pose 15 positive 0 True {'components': 68, 'retained': 62, 'coarse': 32879, 'seeds': 8, 'iterations': 200, 'models': 8, 'overflow': 0}
+heldout_006 heldout_pose 15 positive 0 True {'components': 71, 'retained': 59, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_007 heldout_pose 15 positive 0 True {'components': 69, 'retained': 62, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_008 heldout_pose 25 positive 0 True {'components': 73, 'retained': 62, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_009 heldout_pose 25 positive 0 True {'components': 74, 'retained': 64, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_010 heldout_pose 25 positive 0 True {'components': 72, 'retained': 66, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_011 heldout_pose 25 positive 0 True {'components': 75, 'retained': 65, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_012 heldout_pose 25 positive 0 True {'components': 75, 'retained': 63, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_013 heldout_pose 25 positive 0 True {'components': 71, 'retained': 62, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_014 heldout_pose 25 positive 0 True {'components': 75, 'retained': 64, 'coarse': 32879, 'seeds': 18, 'iterations': 450, 'models': 18, 'overflow': 0}
+heldout_015 heldout_pose 25 positive 0 True {'components': 77, 'retained': 64, 'coarse': 32879, 'seeds': 6, 'iterations': 150, 'models': 6, 'overflow': 0}
+heldout_016 heldout_pose 35 positive 0 True {'components': 85, 'retained': 71, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_017 heldout_pose 35 positive -3 None {'components': 83, 'retained': 75, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_018 heldout_pose 35 positive 0 True {'components': 82, 'retained': 72, 'coarse': 32879, 'seeds': 7, 'iterations': 175, 'models': 7, 'overflow': 0}
+heldout_019 heldout_pose 35 positive -3 None {'components': 81, 'retained': 74, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_020 heldout_pose 35 positive 0 True {'components': 82, 'retained': 71, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_021 heldout_pose 35 positive -3 None {'components': 84, 'retained': 71, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_022 heldout_pose 35 positive 0 True {'components': 80, 'retained': 73, 'coarse': 32879, 'seeds': 11, 'iterations': 275, 'models': 11, 'overflow': 0}
+heldout_023 heldout_pose 35 positive -3 None {'components': 83, 'retained': 73, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_024 heldout_pose 45 positive 0 True {'components': 96, 'retained': 85, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}
+heldout_025 heldout_pose 45 positive -3 None {'components': 95, 'retained': 85, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_026 heldout_pose 45 positive 0 True {'components': 94, 'retained': 87, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_027 heldout_pose 45 positive -3 None {'components': 94, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_028 heldout_pose 45 positive 0 True {'components': 96, 'retained': 81, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_029 heldout_pose 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_030 heldout_pose 45 positive 0 True {'components': 93, 'retained': 82, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_031 heldout_pose 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_032 heldout_pose 55 positive 0 True {'components': 124, 'retained': 97, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}
+heldout_033 heldout_pose 55 positive -3 None {'components': 120, 'retained': 94, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_034 heldout_pose 55 positive 0 True {'components': 118, 'retained': 99, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}
+heldout_035 heldout_pose 55 positive -3 None {'components': 120, 'retained': 92, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_036 heldout_pose 55 positive 0 True {'components': 118, 'retained': 95, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}
+heldout_037 heldout_pose 55 positive -3 None {'components': 119, 'retained': 99, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_038 heldout_pose 55 positive 0 True {'components': 118, 'retained': 95, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_039 heldout_pose 55 positive -3 None {'components': 121, 'retained': 102, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_040 heldout_pose 60 positive 0 True {'components': 144, 'retained': 88, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}
+heldout_041 heldout_pose 60 positive -3 None {'components': 135, 'retained': 90, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_042 heldout_pose 60 positive -3 None {'components': 138, 'retained': 88, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}
+heldout_043 heldout_pose 60 positive -3 None {'components': 140, 'retained': 85, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_044 heldout_pose 60 positive -3 None {'components': 138, 'retained': 82, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_045 heldout_pose 60 positive -3 None {'components': 141, 'retained': 98, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_046 heldout_pose 60 positive -3 None {'components': 141, 'retained': 91, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}
+heldout_047 heldout_pose 60 positive -3 None {'components': 141, 'retained': 100, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_048 sampling_density 0 positive -3 None {'components': 102, 'retained': 93, 'coarse': 32879, 'seeds': 5, 'iterations': 35, 'models': 0, 'overflow': 0}
+heldout_049 sampling_density 0 positive -3 None {'components': 104, 'retained': 92, 'coarse': 32879, 'seeds': 6, 'iterations': 66, 'models': 0, 'overflow': 0}
+heldout_050 sampling_density 30 positive -3 None {'components': 119, 'retained': 106, 'coarse': 32879, 'seeds': 6, 'iterations': 8, 'models': 0, 'overflow': 0}
+heldout_051 sampling_density 30 positive -3 None {'components': 119, 'retained': 107, 'coarse': 32879, 'seeds': 5, 'iterations': 7, 'models': 0, 'overflow': 0}
+heldout_052 sampling_density 60 positive -3 None {'components': 205, 'retained': 53, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_053 sampling_density 60 positive -3 None {'components': 202, 'retained': 49, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_054 sampling_density 0 positive -3 None {'components': 50, 'retained': 39, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_055 sampling_density 0 positive -3 None {'components': 47, 'retained': 38, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_056 sampling_density 30 positive -3 None {'components': 55, 'retained': 44, 'coarse': 32879, 'seeds': 8, 'iterations': 200, 'models': 8, 'overflow': 0}
+heldout_057 sampling_density 30 positive -3 None {'components': 55, 'retained': 48, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_058 sampling_density 60 positive 0 True {'components': 97, 'retained': 81, 'coarse': 32879, 'seeds': 3, 'iterations': 75, 'models': 3, 'overflow': 0}
+heldout_059 sampling_density 60 positive 0 True {'components': 98, 'retained': 83, 'coarse': 32879, 'seeds': 2, 'iterations': 50, 'models': 2, 'overflow': 0}
+heldout_060 sampling_density 0 positive -2 None {'components': 14, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_061 sampling_density 0 positive -2 None {'components': 3, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_062 sampling_density 30 positive -2 None {'components': 16, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_063 sampling_density 30 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_064 sampling_density 60 positive -2 None {'components': 4, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_065 sampling_density 60 positive -2 None {'components': 39, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_066 sampling_density 0 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_067 sampling_density 0 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_068 sampling_density 30 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_069 sampling_density 30 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_070 sampling_density 60 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_071 sampling_density 60 positive -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_072 noise_blur 25 positive 0 True {'components': 71, 'retained': 62, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_073 noise_blur 25 positive 0 True {'components': 71, 'retained': 63, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_074 noise_blur 25 positive 0 True {'components': 71, 'retained': 62, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_075 noise_blur 25 positive 0 True {'components': 71, 'retained': 63, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_076 noise_blur 25 positive 0 True {'components': 71, 'retained': 62, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_077 noise_blur 25 positive 0 True {'components': 71, 'retained': 63, 'coarse': 32879, 'seeds': 4, 'iterations': 100, 'models': 4, 'overflow': 0}
+heldout_078 noise_blur 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_079 noise_blur 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_080 noise_blur 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_081 noise_blur 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_082 noise_blur 45 positive -3 None {'components': 97, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_083 noise_blur 45 positive -3 None {'components': 96, 'retained': 84, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_084 noise_blur 60 positive -3 None {'components': 141, 'retained': 101, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_085 noise_blur 60 positive -3 None {'components': 141, 'retained': 97, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_086 noise_blur 60 positive -3 None {'components': 141, 'retained': 104, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_087 noise_blur 60 positive -3 None {'components': 141, 'retained': 94, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_088 noise_blur 60 positive -3 None {'components': 141, 'retained': 102, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_089 noise_blur 60 positive -3 None {'components': 139, 'retained': 95, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_090 negative 0 mirror -3 None {'components': 67, 'retained': 50, 'coarse': 32879, 'seeds': 13, 'iterations': 325, 'models': 13, 'overflow': 0}
+heldout_091 negative 0 quarter_turn -3 None {'components': 67, 'retained': 50, 'coarse': 32879, 'seeds': 15, 'iterations': 375, 'models': 15, 'overflow': 0}
+heldout_092 negative 0 thin_stroke -2 None {'components': 33, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_093 negative 0 diagonal_stroke -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+heldout_094 negative 0 clutter -2 None {'components': 5, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_095 negative 0 missing_rows -3 None {'components': 59, 'retained': 43, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_096 negative 0 missing_checker -3 None {'components': 52, 'retained': 40, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_097 negative 0 random_codes -3 None {'components': 67, 'retained': 51, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}
+heldout_098 negative 0 blank -2 None {'components': 0, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_099 negative 0 random_pixels -2 None {'components': 2, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+heldout_100 negative 30 mirror -3 None {'components': 74, 'retained': 66, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_101 negative 30 quarter_turn -3 None {'components': 74, 'retained': 66, 'coarse': 32879, 'seeds': 9, 'iterations': 225, 'models': 9, 'overflow': 0}
+heldout_102 negative 30 thin_stroke -2 None {'components': 33, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_103 negative 30 diagonal_stroke -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+heldout_104 negative 30 clutter -2 None {'components': 2, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_105 negative 30 missing_rows -3 None {'components': 66, 'retained': 58, 'coarse': 32879, 'seeds': 7, 'iterations': 175, 'models': 7, 'overflow': 0}
+heldout_106 negative 30 missing_checker -3 None {'components': 59, 'retained': 52, 'coarse': 32879, 'seeds': 5, 'iterations': 125, 'models': 5, 'overflow': 0}
+heldout_107 negative 30 random_codes -3 None {'components': 76, 'retained': 66, 'coarse': 32879, 'seeds': 12, 'iterations': 300, 'models': 12, 'overflow': 0}
+heldout_108 negative 30 blank -2 None {'components': 0, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_109 negative 30 random_pixels -2 None {'components': 2, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+heldout_110 negative 60 mirror -3 None {'components': 142, 'retained': 79, 'coarse': 32879, 'seeds': 1, 'iterations': 25, 'models': 1, 'overflow': 0}
+heldout_111 negative 60 quarter_turn -3 None {'components': 142, 'retained': 79, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_112 negative 60 thin_stroke -2 None {'components': 54, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_113 negative 60 diagonal_stroke -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+heldout_114 negative 60 clutter -2 None {'components': 13, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_115 negative 60 missing_rows -3 None {'components': 117, 'retained': 64, 'coarse': 32879, 'seeds': 1, 'iterations': 25, 'models': 1, 'overflow': 0}
+heldout_116 negative 60 missing_checker -3 None {'components': 113, 'retained': 63, 'coarse': 32879, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_117 negative 60 random_codes -3 None {'components': 140, 'retained': 82, 'coarse': 32879, 'seeds': 1, 'iterations': 25, 'models': 1, 'overflow': 0}
+heldout_118 negative 60 blank -2 None {'components': 0, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 0}
+heldout_119 negative 60 random_pixels -2 None {'components': 1, 'retained': 0, 'coarse': 0, 'seeds': 0, 'iterations': 0, 'models': 0, 'overflow': 1}
+{
+  "heldout_pose": {
+    "cases": 48,
+    "statuses": {
+      "0": 29,
+      "-3": 19
+    },
+    "accepted": 29,
+    "false_accepts": 0,
+    "max_error_px": 0.13522245655979145
+  },
+  "negative": {
+    "cases": 30,
+    "statuses": {
+      "-3": 15,
+      "-2": 15
+    },
+    "accepted": 0,
+    "false_accepts": 0,
+    "max_error_px": null
+  },
+  "noise_blur": {
+    "cases": 18,
+    "statuses": {
+      "0": 6,
+      "-3": 12
+    },
+    "accepted": 6,
+    "false_accepts": 0,
+    "max_error_px": 0.06386100894886895
+  },
+  "sampling_density": {
+    "cases": 24,
+    "statuses": {
+      "-3": 10,
+      "0": 2,
+      "-2": 12
+    },
+    "accepted": 2,
+    "false_accepts": 0,
+    "max_error_px": 0.06272654910949205
+  }
+}
++ ../smart_pen_host_venv_20261028/bin/python test_support_oracle.py
+{'passed': True, 'cases': 100, 'seed': 7681, 'perimeter_samples': 20000, 'max_dense_sampling_gap': 6.243672245886955e-09}
++ ../smart_pen_host_venv_20261028/bin/python run_regression.py
+1 continuous/results.json 0 baseline 0 True
+2 continuous/results.json 1 baseline -3 None
+3 continuous/results.json 2 baseline 0 True
+4 continuous/results.json 3 baseline -3 None
+5 continuous/results.json 4 baseline 0 True
+6 continuous/results.json 5 baseline 0 True
+7 continuous/results.json 6 baseline 0 True
+8 continuous/results.json 7 baseline -3 None
+9 continuous/results.json 8 baseline 0 True
+10 continuous/results.json 9 baseline 0 True
+11 continuous/results.json 10 baseline 0 True
+12 continuous/results.json 11 baseline 0 True
+13 continuous/results.json 12 baseline 0 True
+14 continuous/results.json 13 baseline 0 True
+15 continuous/results.json 14 baseline 0 True
+16 continuous/results.json 15 baseline 0 True
+17 continuous/results.json 16 baseline -3 None
+18 continuous/results.json 17 baseline 0 True
+19 continuous/results.json 18 baseline 0 True
+20 continuous/results.json 19 baseline 0 True
+21 continuous/results.json 20 baseline 0 True
+22 continuous/results.json 21 baseline 0 True
+23 continuous/results.json 22 baseline 0 True
+24 continuous/results.json 23 baseline 0 True
+25 continuous/results.json 24 baseline 0 True
+26 continuous/results.json 25 baseline 0 True
+27 continuous/results.json 26 baseline 0 True
+28 continuous/results.json 27 baseline 0 True
+29 continuous/results.json 28 baseline -3 None
+30 continuous/results.json 29 baseline 0 True
+31 continuous/results.json 30 baseline 0 True
+32 continuous/results.json 31 baseline 0 True
+33 continuous/results.json 32 baseline 0 True
+34 continuous/results.json 33 baseline 0 True
+35 continuous/results.json 34 baseline 0 True
+36 continuous/results.json 35 baseline 0 True
+37 continuous/results.json 36 baseline 0 True
+38 continuous/results.json 37 baseline 0 True
+39 continuous/results.json 38 baseline 0 True
+40 continuous/results.json 39 baseline 0 True
+41 continuous/results.json 40 baseline 0 True
+42 continuous/results.json 41 baseline 0 True
+43 continuous/results.json 42 baseline 0 True
+44 continuous/results.json 43 baseline 0 True
+45 continuous/results.json 44 baseline 0 True
+46 continuous/results.json 45 baseline 0 True
+47 continuous/results.json 46 baseline 0 True
+48 continuous/results.json 47 baseline 0 True
+49 continuous/results.json 48 baseline 0 True
+50 continuous/results.json 49 baseline 0 True
+51 continuous/results.json 50 baseline 0 True
+52 continuous/results.json 51 baseline 0 True
+53 continuous/results.json 52 baseline 0 True
+54 continuous/results.json 53 baseline 0 True
+55 continuous/results.json 54 baseline 0 True
+56 continuous/results.json 55 baseline 0 True
+57 continuous/results.json 56 baseline 0 True
+58 continuous/results.json 57 baseline 0 True
+59 continuous/results.json 58 baseline 0 True
+60 continuous/results.json 59 baseline 0 True
+61 continuous/results.json 60 baseline 0 True
+62 continuous/results.json 61 baseline 0 True
+63 continuous/results.json 62 baseline 0 True
+64 continuous/results.json 63 baseline 0 True
+65 continuous/results.json 64 baseline 0 True
+66 continuous/results.json 65 baseline 0 True
+67 continuous/results.json 66 baseline 0 True
+68 continuous/results.json 67 baseline 0 True
+69 continuous/results.json 68 baseline 0 True
+70 continuous/results.json 69 baseline 0 True
+71 continuous/results.json 70 baseline 0 True
+72 continuous/results.json 71 baseline 0 True
+73 continuous/results.json 72 baseline 0 True
+74 continuous/results.json 73 baseline 0 True
+75 continuous/results.json 74 baseline 0 True
+76 continuous/results.json 75 baseline 0 True
+77 continuous/results.json 76 baseline 0 True
+78 continuous/results.json 77 baseline 0 True
+79 continuous/results.json 78 baseline 0 True
+80 continuous/results.json 79 baseline 0 True
+81 continuous/results.json 80 baseline 0 True
+82 continuous/results.json 81 baseline 0 True
+83 continuous/results.json 82 baseline 0 True
+84 continuous/results.json 83 baseline 0 True
+85 continuous/results.json 84 baseline 0 True
+86 continuous/results.json 85 baseline 0 True
+87 continuous/results.json 86 baseline 0 True
+88 continuous/results.json 87 baseline 0 True
+89 continuous/results.json 88 baseline 0 True
+90 continuous/results.json 89 baseline 0 True
+91 continuous/results.json 90 baseline 0 True
+92 continuous/results.json 91 baseline 0 True
+93 continuous/results.json 92 baseline 0 True
+94 continuous/results.json 93 baseline 0 True
+95 continuous/results.json 94 baseline 0 True
+96 continuous/results.json 95 baseline 0 True
+97 continuous/results.json 96 baseline 0 True
+98 continuous/results.json 97 baseline 0 True
+99 continuous/results.json 98 baseline 0 True
+100 continuous/results.json 99 baseline 0 True
+101 continuous/results.json 100 baseline 0 True
+102 continuous/results.json 101 baseline 0 True
+103 continuous/results.json 102 baseline 0 True
+104 continuous/results.json 103 baseline 0 True
+105 continuous/results.json 104 baseline 0 True
+106 continuous/results.json 105 baseline 0 True
+107 continuous/results.json 106 baseline 0 True
+108 continuous/results.json 107 baseline 0 True
+109 continuous/results.json 108 rotation -3 None
+110 continuous/results.json 109 rotation -3 None
+111 continuous/results.json 110 rotation -3 None
+112 continuous/results.json 111 rotation -3 None
+113 continuous/results.json 112 rotation -3 None
+114 continuous/results.json 113 rotation -3 None
+115 continuous/results.json 114 rotation -3 None
+116 continuous/results.json 115 rotation -3 None
+117 continuous/results.json 116 rotation -3 None
+118 continuous/results.json 117 rotation -3 None
+119 continuous/results.json 118 rotation -3 None
+120 continuous/results.json 119 rotation -3 None
+121 continuous/results.json 120 rotation -3 None
+122 continuous/results.json 121 rotation -3 None
+123 continuous/results.json 122 rotation -3 None
+124 continuous/results.json 123 rotation -3 None
+125 continuous/results.json 124 rotation -3 None
+126 continuous/results.json 125 rotation -3 None
+127 continuous/results.json 126 rotation -3 None
+128 continuous/results.json 127 rotation -3 None
+129 continuous/results.json 128 rotation -3 None
+130 continuous/results.json 129 rotation -3 None
+131 continuous/results.json 130 rotation -3 None
+132 continuous/results.json 131 rotation -3 None
+133 continuous/results.json 132 rotation -3 None
+134 continuous/results.json 133 rotation -3 None
+135 continuous/results.json 134 rotation -3 None
+136 continuous/results.json 135 rotation -3 None
+137 continuous/results.json 136 rotation -3 None
+138 continuous/results.json 137 rotation -3 None
+139 continuous/results.json 138 rotation -3 None
+140 continuous/results.json 139 rotation -3 None
+141 continuous/results.json 140 rotation 0 True
+142 continuous/results.json 141 rotation -3 None
+143 continuous/results.json 142 rotation 0 True
+144 continuous/results.json 143 rotation -3 None
+145 continuous/results.json 144 rotation -3 None
+146 continuous/results.json 145 rotation -3 None
+147 continuous/results.json 146 rotation -3 None
+148 continuous/results.json 147 rotation -3 None
+149 continuous/results.json 148 rotation -3 None
+150 continuous/results.json 149 rotation -3 None
+151 continuous/results.json 150 rotation 0 True
+152 continuous/results.json 151 rotation -3 None
+153 continuous/results.json 152 rotation 0 True
+154 continuous/results.json 153 rotation 0 True
+155 continuous/results.json 154 rotation 0 True
+156 continuous/results.json 155 rotation 0 True
+157 continuous/results.json 156 rotation 0 True
+158 continuous/results.json 157 rotation 0 True
+159 continuous/results.json 158 rotation 0 True
+160 continuous/results.json 159 rotation 0 True
+161 continuous/results.json 160 rotation 0 True
+162 continuous/results.json 161 rotation -3 None
+163 continuous/results.json 162 rotation 0 True
+164 continuous/results.json 163 rotation -3 None
+165 continuous/results.json 164 rotation -3 None
+166 continuous/results.json 165 rotation -3 None
+167 continuous/results.json 166 rotation -3 None
+168 continuous/results.json 167 rotation -3 None
+169 continuous/results.json 168 rotation -3 None
+170 continuous/results.json 169 rotation -3 None
+171 continuous/results.json 170 rotation 0 True
+172 continuous/results.json 171 rotation -3 None
+173 continuous/results.json 172 rotation 0 True
+174 continuous/results.json 173 rotation 0 True
+175 continuous/results.json 174 rotation 0 True
+176 continuous/results.json 175 rotation 0 True
+177 continuous/results.json 176 rotation 0 True
+178 continuous/results.json 177 rotation 0 True
+179 continuous/results.json 178 rotation 0 True
+180 continuous/results.json 179 rotation 0 True
+181 continuous/results.json 180 rotation 0 True
+182 continuous/results.json 181 rotation 0 True
+183 continuous/results.json 182 rotation 0 True
+184 continuous/results.json 183 rotation 0 True
+185 continuous/results.json 184 rotation 0 True
+186 continuous/results.json 185 rotation 0 True
+187 continuous/results.json 186 rotation 0 True
+188 continuous/results.json 187 rotation 0 True
+189 continuous/results.json 188 rotation 0 True
+190 continuous/results.json 189 rotation 0 True
+191 continuous/results.json 190 rotation 0 True
+192 continuous/results.json 191 rotation 0 True
+193 continuous/results.json 192 rotation 0 True
+194 continuous/results.json 193 rotation 0 True
+195 continuous/results.json 194 rotation 0 True
+196 continuous/results.json 195 rotation 0 True
+197 continuous/results.json 196 rotation 0 True
+198 continuous/results.json 197 rotation 0 True
+199 continuous/results.json 198 rotation 0 True
+200 continuous/results.json 199 rotation 0 True
+201 continuous/results.json 200 rotation 0 True
+202 continuous/results.json 201 rotation 0 True
+203 continuous/results.json 202 rotation 0 True
+204 continuous/results.json 203 rotation 0 True
+205 continuous/results.json 204 fractional_fov 0 True
+206 continuous/results.json 205 fractional_fov 0 True
+207 continuous/results.json 206 fractional_fov 0 True
+208 continuous/results.json 207 fractional_fov 0 True
+209 continuous/results.json 208 fractional_fov 0 True
+210 continuous/results.json 209 fractional_fov 0 True
+211 continuous/results.json 210 fractional_fov 0 True
+212 continuous/results.json 211 fractional_fov 0 True
+213 continuous/results.json 212 fractional_fov 0 True
+214 continuous/results.json 213 fractional_fov 0 True
+215 continuous/results.json 214 fractional_fov 0 True
+216 continuous/results.json 215 fractional_fov 0 True
+217 continuous/results.json 216 fractional_fov 0 True
+218 continuous/results.json 217 fractional_fov 0 True
+219 continuous/results.json 218 fractional_fov 0 True
+220 continuous/results.json 219 fractional_fov 0 True
+221 continuous/results.json 220 fractional_fov 0 True
+222 continuous/results.json 221 fractional_fov 0 True
+223 continuous/results.json 222 fractional_fov 0 True
+224 continuous/results.json 223 fractional_fov 0 True
+225 continuous/results.json 224 fractional_fov 0 True
+226 continuous/results.json 225 fractional_fov 0 True
+227 continuous/results.json 226 fractional_fov 0 True
+228 continuous/results.json 227 fractional_fov 0 True
+229 continuous/results.json 228 fractional_fov 0 True
+230 continuous/results.json 229 fractional_fov 0 True
+231 continuous/results.json 230 fractional_fov 0 True
+232 continuous/results.json 231 fractional_fov 0 True
+233 continuous/results.json 232 fractional_fov 0 True
+234 continuous/results.json 233 fractional_fov 0 True
+235 continuous/results.json 234 fractional_fov 0 True
+236 continuous/results.json 235 fractional_fov 0 True
+237 continuous/results.json 236 fractional_fov 0 True
+238 continuous/results.json 237 fractional_fov 0 True
+239 continuous/results.json 238 fractional_fov 0 True
+240 continuous/results.json 239 fractional_fov 0 True
+241 continuous/results.json 240 blur 0 True
+242 continuous/results.json 241 blur 0 True
+243 continuous/results.json 242 blur 0 True
+244 continuous/results.json 243 blur 0 True
+245 continuous/results.json 244 blur 0 True
+246 continuous/results.json 245 blur 0 True
+247 continuous/results.json 246 blur 0 True
+248 continuous/results.json 247 blur -2 None
+249 continuous/results.json 248 noise 0 True
+250 continuous/results.json 249 noise 0 True
+251 continuous/results.json 250 noise 0 True
+252 continuous/results.json 251 damage -2 None
+FALSE_ACCEPT continuous/results.json 252 {'group': 'damage', 'fov': 5, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True} {'status': 0, 'diagnostics': {'components': 52, 'retained': 38, 'coarse': 32879, 'seeds': 16, 'iterations': 400, 'models': 16, 'overflow': 0}, 'x': 126, 'y': 246, 'dots': 38, 'windows': 1, 'directions': [1, 1, 1, 2, 3, 0, 0, 1, 3, 1, 2, 2, 2, 1, 2, 3, 2, 0, 0, 0, 2, 2, 2, 2, 2, 3, 1, 3, 0, 1, 2, 3, 0, 1, 1, 2], 'H': [12.000000000000005, 1.2967930057184856e-15, -1441.250000000001, 4.256546388483217e-15, 11.999999999999998, -2886.484523809524, 4.22810112778528e-17, -3.728993156874906e-17, 1.0000000000000038], 'Hinv': [0.08333333333333287, 3.6421750602598e-16, 120.10416666666669, -8.770835492570923e-16, 0.0833333333333341, 240.54037698412705, -3.523417606487734e-18, 3.107494297395757e-18, 1.0000000000000002], 'roi': [60, 60, 80, 80], 'abi_version': 4, 'correct': False, 'exact_symbols': True, 'square_support': True, 'complete_support': True, 'orientation_correct': True, 'coordinate_correct': True, 'max_grid_error_px': 0.07241929917687472, 'min_basis_cosine': 1.0, 'allowed': False, 'circle_support': True, 'circle_margin_px': 2.035197538499233, 'method': 'analytic fractional-sinusoid extrema; floating tolerance1e-8px', 'spec': {'group': 'damage', 'fov': 5, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True}, 'fixture_index': 252, 'source': 'continuous/results.json', 'baseline_status': -2, 'image_sha256': '0d52747e90d8fe56f5b42fd13c593b9801fafb1cde1822de7e69e69391bf53be', 'host_seconds': 0.12157858599675819, 'fixture': 'regression_false_252.pgm'}
+253 continuous/results.json 252 damage 0 False
+254 continuous/results.json 253 damage -2 None
+255 continuous/results.json 254 damage -2 None
+256 continuous/results.json 255 damage -2 None
+257 continuous/results.json 256 damage -2 None
+258 continuous/results.json 257 damage -2 None
+259 continuous/results.json 258 damage -2 None
+260 continuous/results.json 259 damage -2 None
+261 continuous/results.json 260 model_boundary 0 True
+262 continuous/results.json 261 model_boundary -3 None
+263 continuous/results.json 262 model_boundary 0 True
+264 continuous/results.json 263 model_boundary -3 None
+265 continuous/results.json 264 model_boundary 0 True
+266 continuous/results.json 265 model_boundary -2 None
+267 continuous/results.json 266 model_boundary -3 None
+268 continuous/results.json 267 wrong_section -3 None
+269 continuous/results.json 268 blur 0 True
+270 continuous/results.json 269 blur 0 True
+271 continuous/results.json 270 blur 0 True
+272 continuous/results.json 271 blur 0 True
+273 continuous/results.json 272 blur 0 True
+274 continuous/results.json 273 blur 0 True
+275 continuous/results.json 274 blur 0 True
+276 continuous/results.json 275 blur 0 True
+277 continuous/results.json 276 noise 0 True
+278 continuous/results.json 277 noise 0 True
+279 continuous/results.json 278 noise 0 True
+280 continuous/results.json 279 damage -2 None
+FALSE_ACCEPT continuous/results.json 280 {'group': 'damage', 'fov': 6, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True} {'status': 0, 'diagnostics': {'components': 69, 'retained': 59, 'coarse': 32879, 'seeds': 10, 'iterations': 250, 'models': 10, 'overflow': 0}, 'x': 127, 'y': 247, 'dots': 59, 'windows': 6, 'directions': [1, 3, 1, 2, 2, 1, 1, 2, 3, 2, 0, 1, 0, 2, 2, 2, 2, 3, 3, 1, 3, 0, 1, 2, 3, 0, 1, 1, 2, 3, 3, 1, 0, 1, 2, 0], 'H': [10.034083499563765, 0.020037635818855922, -1210.5032915111992, 0.04130045061342793, 10.019520083402606, -2415.712485161827, 0.0003778920721322886, 0.00023182214234601333, 0.8926866728939531], 'Hinv': [0.09511943714759218, -0.002987486270379087, 120.89962486095017, -0.009505100115394613, 0.09422296268408463, 242.08900942640634, -3.779757170834877e-05, -2.3204134574207294e-05, 1.0061664688303533], 'roi': [60, 60, 80, 80], 'abi_version': 4, 'correct': False, 'exact_symbols': True, 'square_support': True, 'complete_support': True, 'orientation_correct': True, 'coordinate_correct': True, 'max_grid_error_px': 0.05332097296923813, 'min_basis_cosine': 0.9999985689589274, 'allowed': False, 'circle_support': True, 'circle_margin_px': 3.3626646154164845, 'method': 'analytic fractional-sinusoid extrema; floating tolerance1e-8px', 'spec': {'group': 'damage', 'fov': 6, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True}, 'fixture_index': 280, 'source': 'continuous/results.json', 'baseline_status': -2, 'image_sha256': 'fb2375d6c73ab02c114a94db8ce5795eb14b09b8b16c8fb78494810404a1876a', 'host_seconds': 0.11029633699217811, 'fixture': 'regression_false_280.pgm'}
+281 continuous/results.json 280 damage 0 False
+282 continuous/results.json 281 damage -2 None
+283 continuous/results.json 282 damage -3 None
+284 continuous/results.json 283 damage -2 None
+285 continuous/results.json 284 damage -2 None
+286 continuous/results.json 285 damage -2 None
+287 continuous/results.json 286 damage -2 None
+288 continuous/results.json 287 damage -2 None
+289 continuous/results.json 288 model_boundary 0 True
+290 continuous/results.json 289 model_boundary -3 None
+291 continuous/results.json 290 model_boundary 0 True
+292 continuous/results.json 291 model_boundary -3 None
+293 continuous/results.json 292 model_boundary 0 True
+294 continuous/results.json 293 model_boundary -2 None
+295 continuous/results.json 294 model_boundary -3 None
+296 continuous/results.json 295 wrong_section -3 None
+297 continuous/results.json 296 blur 0 True
+298 continuous/results.json 297 blur 0 True
+299 continuous/results.json 298 blur 0 True
+300 continuous/results.json 299 blur 0 True
+301 continuous/results.json 300 blur 0 True
+302 continuous/results.json 301 blur 0 True
+303 continuous/results.json 302 blur -2 None
+304 continuous/results.json 303 blur -2 None
+305 continuous/results.json 304 noise 0 True
+306 continuous/results.json 305 noise 0 True
+307 continuous/results.json 306 noise 0 True
+308 continuous/results.json 307 damage -2 None
+FALSE_ACCEPT continuous/results.json 308 {'group': 'damage', 'fov': 7, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True} {'status': 0, 'diagnostics': {'components': 90, 'retained': 81, 'coarse': 32879, 'seeds': 11, 'iterations': 275, 'models': 11, 'overflow': 0}, 'x': 128, 'y': 248, 'dots': 81, 'windows': 16, 'directions': [2, 3, 2, 0, 1, 3, 2, 2, 2, 2, 3, 1, 1, 3, 0, 1, 2, 1, 0, 1, 1, 2, 3, 0, 1, 0, 1, 2, 0, 2, 2, 0, 1, 1, 0, 3], 'H': [8.564221142565343, -0.017306665824796428, -1024.252637762029, -0.0033083532321702596, 8.550879728148445, -2056.2974323885346, -5.54192753793684e-05, -0.00016804071600123838, 1.0496616047823888], 'Hinv': [0.1175409033732691, 0.002591654938573928, 119.77268973927382, 0.0015994187373442332, 0.12166481479610133, 239.90327357936116, 6.461891271709642e-06, 1.9614197695163224e-05, 0.9974178618793573], 'roi': [60, 60, 80, 80], 'abi_version': 4, 'correct': False, 'exact_symbols': True, 'square_support': True, 'complete_support': True, 'orientation_correct': True, 'coordinate_correct': True, 'max_grid_error_px': 0.041750757262848597, 'min_basis_cosine': 0.9999997589544762, 'allowed': False, 'circle_support': True, 'circle_margin_px': 1.4537125274997749, 'method': 'analytic fractional-sinusoid extrema; floating tolerance1e-8px', 'spec': {'group': 'damage', 'fov': 7, 'ox': 120.0566931414322, 'oy': 240.4970668717917, 'damage': 'edge_stroke', 'must_reject': True}, 'fixture_index': 308, 'source': 'continuous/results.json', 'baseline_status': -2, 'image_sha256': '0f5b618fc7e58b4309ba77c0f52a920bb9689b4b250f037b4fc18deac5e79cab', 'host_seconds': 0.11022781598148867, 'fixture': 'regression_false_308.pgm'}
+309 continuous/results.json 308 damage 0 False
+310 continuous/results.json 309 damage -2 None
+311 continuous/results.json 310 damage -3 None
+312 continuous/results.json 311 damage -2 None
+313 continuous/results.json 312 damage -2 None
+314 continuous/results.json 313 damage -2 None
+315 continuous/results.json 314 damage -2 None
+316 continuous/results.json 315 damage -2 None
+317 continuous/results.json 316 model_boundary 0 True
+318 continuous/results.json 317 model_boundary -3 None
+319 continuous/results.json 318 model_boundary 0 True
+320 continuous/results.json 319 model_boundary -3 None
+321 continuous/results.json 320 model_boundary -3 None
+322 continuous/results.json 321 model_boundary 0 True
+323 continuous/results.json 322 model_boundary -3 None
+324 continuous/results.json 323 wrong_section -3 None
+325 continuous/results.json 324 fake_dots -3 None
+326 continuous/results.json 325 fake_dots -3 None
+327 continuous/results.json 326 fake_dots -3 None
+328 continuous/results.json 327 fake_dots -3 None
+329 continuous/results.json 328 fake_dots -3 None
+330 continuous/results.json 329 fake_dots -3 None
+331 continuous/results.json 330 fake_dots -3 None
+332 continuous/results.json 331 fake_dots -3 None
+333 continuous/results.json 332 fake_dots -3 None
+334 continuous/results.json 333 fake_dots -3 None
+335 continuous/results.json 334 fake_dots -3 None
+336 continuous/results.json 335 fake_dots -3 None
+337 continuous/results.json 336 fake_dots -3 None
+338 continuous/results.json 337 fake_dots -3 None
+339 continuous/results.json 338 fake_dots -3 None
+340 continuous/results.json 339 fake_dots -3 None
+341 v3_adversarial/results.json 0 corrupt_code -3 None
+342 v3_adversarial/results.json 1 corrupt_code -3 None
+343 v3_adversarial/results.json 2 corrupt_code -3 None
+344 v3_adversarial/results.json 3 corrupt_code -3 None
+345 v3_adversarial/results.json 4 corrupt_code -3 None
+346 v3_adversarial/results.json 5 corrupt_code -3 None
+347 v3_adversarial/results.json 6 corrupt_code -3 None
+348 v3_adversarial/results.json 7 corrupt_code -3 None
+349 v3_adversarial/results.json 8 corrupt_code -3 None
+350 v3_adversarial/results.json 9 corrupt_code -3 None
+351 v3_adversarial/results.json 10 corrupt_code -3 None
+352 v3_adversarial/results.json 11 corrupt_code -3 None
+353 v3_adversarial/results.json 12 corrupt_code -3 None
+354 v3_adversarial/results.json 13 corrupt_code -3 None
+355 v3_adversarial/results.json 14 corrupt_code -3 None
+356 v3_adversarial/results.json 15 corrupt_code -3 None
+357 v3_adversarial/results.json 16 corrupt_code -3 None
+358 v3_adversarial/results.json 17 corrupt_code -3 None
+359 v3_adversarial/results.json 18 corrupt_code -3 None
+360 v3_adversarial/results.json 19 corrupt_code -3 None
+361 v3_adversarial/results.json 20 canonical_negative -3 None
+362 v3_adversarial/results.json 21 canonical_negative -3 None
+363 v3_adversarial/results.json 22 corrupt_code -3 None
+364 v3_adversarial/results.json 23 corrupt_code -3 None
+365 v3_adversarial/results.json 24 corrupt_code -3 None
+366 v3_adversarial/results.json 25 corrupt_code -3 None
+367 v3_adversarial/results.json 26 corrupt_code -3 None
+368 v3_adversarial/results.json 27 corrupt_code -3 None
+369 v3_adversarial/results.json 28 corrupt_code -3 None
+370 v3_adversarial/results.json 29 corrupt_code -3 None
+371 v3_adversarial/results.json 30 corrupt_code -3 None
+372 v3_adversarial/results.json 31 corrupt_code -3 None
+373 v3_adversarial/results.json 32 corrupt_code -3 None
+374 v3_adversarial/results.json 33 corrupt_code -3 None
+375 v3_adversarial/results.json 34 corrupt_code -3 None
+376 v3_adversarial/results.json 35 corrupt_code -3 None
+377 v3_adversarial/results.json 36 corrupt_code -3 None
+378 v3_adversarial/results.json 37 corrupt_code -3 None
+379 v3_adversarial/results.json 38 corrupt_code -3 None
+380 v3_adversarial/results.json 39 corrupt_code -3 None
+381 v3_adversarial/results.json 40 corrupt_code -3 None
+382 v3_adversarial/results.json 41 corrupt_code -3 None
+383 v3_adversarial/results.json 42 canonical_negative -3 None
+384 v3_adversarial/results.json 43 canonical_negative -3 None
+385 v3_adversarial/results.json 44 corrupt_code -3 None
+386 v3_adversarial/results.json 45 corrupt_code -3 None
+387 v3_adversarial/results.json 46 corrupt_code -3 None
+388 v3_adversarial/results.json 47 corrupt_code -3 None
+389 v3_adversarial/results.json 48 corrupt_code -3 None
+390 v3_adversarial/results.json 49 corrupt_code -3 None
+391 v3_adversarial/results.json 50 corrupt_code -3 None
+392 v3_adversarial/results.json 51 corrupt_code -3 None
+393 v3_adversarial/results.json 52 corrupt_code -3 None
+394 v3_adversarial/results.json 53 corrupt_code -3 None
+395 v3_adversarial/results.json 54 corrupt_code -3 None
+396 v3_adversarial/results.json 55 corrupt_code -3 None
+397 v3_adversarial/results.json 56 corrupt_code -3 None
+398 v3_adversarial/results.json 57 corrupt_code -3 None
+399 v3_adversarial/results.json 58 corrupt_code -3 None
+400 v3_adversarial/results.json 59 corrupt_code -3 None
+401 v3_adversarial/results.json 60 corrupt_code -3 None
+402 v3_adversarial/results.json 61 corrupt_code -3 None
+403 v3_adversarial/results.json 62 corrupt_code -3 None
+404 v3_adversarial/results.json 63 corrupt_code -3 None
+405 v3_adversarial/results.json 64 canonical_negative -3 None
+406 v3_adversarial/results.json 65 canonical_negative -3 None
+407 v3_adversarial/results.json 66 two_windows 0 True
+408 v3_adversarial/results.json 67 two_windows -3 None
+{
+  "continuous/results.json": {
+    "n": 340,
+    "status": {
+      "0": 227,
+      "-3": 86,
+      "-2": 27
+    },
+    "correct": 224,
+    "false_accepts": 3,
+    "forbidden_negative_accept": 3,
+    "coordinate_or_symbol_wrong": 0,
+    "square_support_failures": 4,
+    "circle_support_failures": 0,
+    "lost_old_accept": 37,
+    "new_accept": 11
+  },
+  "v3_adversarial/results.json": {
+    "n": 68,
+    "status": {
+      "-3": 67,
+      "0": 1
+    },
+    "correct": 1,
+    "false_accepts": 0,
+    "forbidden_negative_accept": 0,
+    "coordinate_or_symbol_wrong": 0,
+    "square_support_failures": 0,
+    "circle_support_failures": 0,
+    "lost_old_accept": 0,
+    "new_accept": 0
+  }
+}
+EXIT 1: ../smart_pen_host_venv_20261028/bin/python run_regression.py
++ ../smart_pen_host_venv_20261028/bin/python replay_legacy44.py
+PASS 44 legacy cold cases, matching warm calls for successful cold cases
++ ../smart_pen_host_venv_20261028/bin/python safety_v4.py
+cc -std=c11 -O1 -g -Wall -Wextra -Werror -pedantic -fsanitize=address,undefined -fno-omit-frame-pointer -I/workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/vision /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/safety_v4.c /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/vision/roi_projective.c /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/codec/anoto.c -lm -o /tmp/tmplwx2d9q5/safety
+PASS V4 ASan/UBSan safety: calls=56 random32 workspace=36480 max_coarse=32879 max_seeds=10 max_iterations=250 max_models=10
++ ../smart_pen_host_venv_20261028/bin/python seedcap_v4.py
+cc -std=c11 -O1 -g -Wall -Wextra -Werror -pedantic -fsanitize=address,undefined -fno-omit-frame-pointer -DPEN_PROJECTIVE_MAX_SEEDS=1 -I/workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/vision /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/seedcap_v4.c /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/vision/roi_projective.c /workspace/scratch/fe148e758944/smart_pen_tilt_v4_review_run_20261030/source/firmware/codec/anoto.c -lm -o /tmp/tmpq32hozbs/seedcap
+PASS injected seedcap1: status=-4 overflow=1 seeds=1 coarse=15682 models=0 unchanged_result=1
++ ../smart_pen_host_venv_20261028/bin/python source/software/verify_host.py --upstream-pc-src ../smart_pen_original_20261028/digital_pen_ov5640/pc/src
+test_empty_not_pass (test_acceptance.TestEvidence.test_empty_not_pass) ... ok
+test_error (test_acceptance.TestEvidence.test_error) ... ok
+test_false_contact (test_acceptance.TestEvidence.test_false_contact) ... ok
+test_invalid_bit (test_acceptance.TestEvidence.test_invalid_bit) ... ok
+test_invalid_not_zero (test_acceptance.TestEvidence.test_invalid_not_zero) ... ok
+test_no_contact (test_acceptance.TestEvidence.test_no_contact) ... ok
+test_reject_nan (test_acceptance.TestEvidence.test_reject_nan) ... ok
+test_reject_reverse_time (test_acceptance.TestEvidence.test_reject_reverse_time) ... ok
+test_ack_security_boundaries (test_bench_wire.BenchWireTests.test_ack_security_boundaries) ... ok
+test_fragment_crosswire (test_bench_wire.BenchWireTests.test_fragment_crosswire) ... ok
+test_corrupt_and_transfer (test_ble.BleTests.test_corrupt_and_transfer) ... ok
+test_loss_reorder_timeout_reconnect (test_ble.BleTests.test_loss_reorder_timeout_reconnect) ... ok
+test_roundtrip_and_ack (test_ble.BleTests.test_roundtrip_and_ack) ... ok
+test_front (test_calibration_geometry.CalibrationGeometry.test_front) ... ok
+test_nan (test_calibration_geometry.CalibrationGeometry.test_nan) ... ok
+test_negative_depth (test_calibration_geometry.CalibrationGeometry.test_negative_depth) ... ok
+test_no_contact (test_calibration_geometry.CalibrationGeometry.test_no_contact) ... ok
+test_plane_error (test_calibration_geometry.CalibrationGeometry.test_plane_error) ... ok
+test_reflection (test_calibration_geometry.CalibrationGeometry.test_reflection) ... ok
+test_scale_not_rotation (test_calibration_geometry.CalibrationGeometry.test_scale_not_rotation) ... ok
+test_tilted (test_calibration_geometry.CalibrationGeometry.test_tilted) ... ok
+test_fail_closed (test_codec.Codec.test_fail_closed) ... ok
+test_reference (test_codec.Codec.test_reference) ... ok
+test_c_state_machine (test_contact_power.ContactPower.test_c_state_machine) ... contact_power: buffered edges, gaps, readiness, release, sleep guards, stuck faults, clock recovery PASS
+ok
+test_512_deterministic_random_vectors (test_crosswire.CrosswireTests.test_512_deterministic_random_vectors) ... ok
+test_corruption_and_semantics_fail_closed_in_both (test_crosswire.CrosswireTests.test_corruption_and_semantics_fail_closed_in_both) ... ok
+test_signed_unsigned_edges (test_crosswire.CrosswireTests.test_signed_unsigned_edges) ... ok
+test_commit_failure_has_no_ack_or_row (test_host.HostTests.test_commit_failure_has_no_ack_or_row) ... ok
+test_continuity_and_duplicate (test_host.HostTests.test_continuity_and_duplicate) ... ok
+test_durable_contiguous_reconnect (test_host.HostTests.test_durable_contiguous_reconnect) ... ok
+test_reserved_fields_with_valid_crc (test_host.HostTests.test_reserved_fields_with_valid_crc) ... ok
+test_roundtrip_and_crc (test_host.HostTests.test_roundtrip_and_crc) ... ok
+test_safe_boundaries (test_host.HostTests.test_safe_boundaries) ... ok
+test_semantics (test_host.HostTests.test_semantics) ... ok
+test_sequence_rollover_and_clock_reset_are_boundaries (test_host.HostTests.test_sequence_rollover_and_clock_reset_are_boundaries) ... ok
+test_browser_reconnect_retains_open_process_restart_splits (test_live_web.LiveTests.test_browser_reconnect_retains_open_process_restart_splits) ... /workspace/scratch/fe148e758944/smart_pen_host_venv_20261028/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+ok
+test_finish_and_start_fence (test_live_web.LiveTests.test_finish_and_start_fence) ... ok
+test_invalid_bench_and_backpressure (test_live_web.LiveTests.test_invalid_bench_and_backpressure) ... ok
+test_live_order_undo_clear_restart_and_page (test_live_web.LiveTests.test_live_order_undo_clear_restart_and_page) ... ok
+test_view_lease_and_timeout_loss (test_live_web.LiveTests.test_view_lease_and_timeout_loss) ... ok
+test_integrated_actual_c_modules (test_recorder.RecorderTests.test_integrated_actual_c_modules) ... recorder pipeline: raw edge -> debounce -> durable sequence -> replay ACK + midburst FULL latch PASS
+ok
+test_capacity (test_registry.RegistryTests.test_capacity) ... ok
+test_duplicate_alias_invalid (test_registry.RegistryTests.test_duplicate_alias_invalid) ... ok
+test_unique_and_unknown (test_registry.RegistryTests.test_unique_and_unknown) ... ok
+test_overlapping_windows (test_roi_consensus.Consensus.test_overlapping_windows) ... ok
+test_bounded_workspace_and_no_heap (test_roi_continuous.ContinuousROI.test_bounded_workspace_and_no_heap) ... ok
+test_fixed_rotation_scale_blur_damage_regressions (test_roi_continuous.ContinuousROI.test_fixed_rotation_scale_blur_damage_regressions) ... ok
+test_independent_deep_edge_ink_regression (test_roi_continuous.ContinuousROI.test_independent_deep_edge_ink_regression) ... ok
+test_large_edge_component_and_interior_damage_fail_closed (test_roi_continuous.ContinuousROI.test_large_edge_component_and_interior_damage_fail_closed) ... ok
+test_padded_stride_and_determinism (test_roi_continuous.ContinuousROI.test_padded_stride_and_determinism) ... ok
+test_profile_c_full_frames_select_current_pixel_roi (test_roi_continuous.ContinuousROI.test_profile_c_full_frames_select_current_pixel_roi) ... ok
+test_reject_blank_bad_arguments_and_wrong_section (test_roi_continuous.ContinuousROI.test_reject_blank_bad_arguments_and_wrong_section) ... ok
+test_v3_actual_default_seed_overflow_rejects (test_roi_continuous.ContinuousROI.test_v3_actual_default_seed_overflow_rejects) ... ok
+test_v3_conflicting_complete_windows_never_first_success (test_roi_continuous.ContinuousROI.test_v3_conflicting_complete_windows_never_first_success) ... ok
+test_v3_no_complete_window_is_not_inpainted (test_roi_continuous.ContinuousROI.test_v3_no_complete_window_is_not_inpainted) ... ok
+test_v3_refine_recovers_complete_fractional_and_rotated_windows (test_roi_continuous.ContinuousROI.test_v3_refine_recovers_complete_fractional_and_rotated_windows) ... ok
+test_native (test_roi_continuous_safety.ContinuousSafety.test_native) ... continuous ROI native bounded traversal/buffer/output contract PASS
+ok
+test_api_buffer_and_workspace_contract (test_roi_opt.RoiOptimized.test_api_buffer_and_workspace_contract) ... ok
+test_blank_occlusion_wrong_section_never_reuse_previous_result (test_roi_opt.RoiOptimized.test_blank_occlusion_wrong_section_never_reuse_previous_result) ... ok
+test_extended_orthogonal_anisotropic_acquisition (test_roi_opt.RoiOptimized.test_extended_orthogonal_anisotropic_acquisition) ... ok
+test_invalid_hints_fail_closed_or_reacquire (test_roi_opt.RoiOptimized.test_invalid_hints_fail_closed_or_reacquire) ... ok
+test_opt_object_has_no_heap_dependency (test_roi_opt.RoiOptimized.test_opt_object_has_no_heap_dependency) ... ok
+test_stale_geometry_hint_falls_back (test_roi_opt.RoiOptimized.test_stale_geometry_hint_falls_back) ... ok
+test_unmodeled_projective_and_shear_never_false_success (test_roi_opt.RoiOptimized.test_unmodeled_projective_and_shear_never_false_success) ... ok
+test_warm_start_redecodes_current_pixels_and_reuses_workspace (test_roi_opt.RoiOptimized.test_warm_start_redecodes_current_pixels_and_reuses_workspace) ... ok
+test_native (test_roi_opt_safety.RoiOptSafety.test_native) ... ROI optimized native safety/current pixels/warm start passed
+ok
+test_native_default_and_overflow (test_roi_refine_v3_safety.RefineV3Safety.test_native_default_and_overflow) ... V3 all-point fitter degeneracy/nonfinite/seed-overflow safety PASS
+V3 all-point fitter degeneracy/nonfinite/seed-overflow safety PASS
+ok
+test_native (test_roi_safety.RoiSafety.test_native) ... ROI native safety and positive fixture passed
+ok
+test_adversarial_geometry_and_section (test_roi_vision.RoiVision.test_adversarial_geometry_and_section) ... ok
+test_missing_dots_fail_closed (test_roi_vision.RoiVision.test_missing_dots_fail_closed) ... ok
+test_negative_images (test_roi_vision.RoiVision.test_negative_images) ... ok
+test_padded_stride (test_roi_vision.RoiVision.test_padded_stride) ... ok
+test_perspective_and_other_offsets_never_false_success (test_roi_vision.RoiVision.test_perspective_and_other_offsets_never_false_success) ... ok
+test_translation_rotation_scale_and_noise (test_roi_vision.RoiVision.test_translation_rotation_scale_and_noise) ... ok
+test_truncated_input (test_roi_vision.RoiVision.test_truncated_input) ... ok
+test_actual_c_fault_injection (test_storage.StorageTests.test_actual_c_fault_injection) ... storage: restart/replay/authACK/full/corruption +52 data cuts +12 ACK cuts +512 erase cuts PASS
+ok
+test_actual_adapter_disabled_and_enabled (test_storage_idf_mock.StorageIdfTests.test_actual_adapter_disabled_and_enabled) ... storage IDF disabled: zero writes PASS
+storage actual IDF adapter mocked APIs: disabled/security/NVS/epoch/readback/ACK/reclaim PASS
+ok
+test_image_to_coordinate (test_synthetic_image.Synthetic.test_image_to_coordinate) ... ok
+test_configuration_never_silently_downgrades_security (test_update_idf_mock.UpdateAdapterTests.test_configuration_never_silently_downgrades_security) ... disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+disabled/unsafe SDK configuration has zero hardware update calls PASS
+ok
+test_sdk_fault_call_order (test_update_idf_mock.UpdateAdapterTests.test_sdk_fault_call_order) ... SDK mock: inactive slot, digest/signature/descriptor rejection, truncation, write fault, durable floor before health commit, explicit rollback PASS
+ok
+test_portable_policy (test_update_policy.UpdatePolicyTests.test_portable_policy) ... update policy: gates, ranges, anti-downgrade, partial/corrupt image, ordering, boot diagnostics PASS
+ok
+test_actual_rest_websocket_export (test_upstream_web.UpstreamTests.test_actual_rest_websocket_export) ... ok
+test_mock_radio_ack_after_durable_commit (test_windows_ble.WindowsBleTests.test_mock_radio_ack_after_durable_commit) ... ROI synthetic calls=64 host median_ms=12.374 max_ms=24.170 (not MCU timing)
+{"synthetic_bench": true, "session": "123", "through_seq": 0}
+ok
+test_old_replay_ack_is_exact_even_when_host_frontier_ahead (test_windows_ble.WindowsBleTests.test_old_replay_ack_is_exact_even_when_host_frontier_ahead) ... {"synthetic_bench": true, "session": "123", "through_seq": 2}
+ok
+test_synthetic_optin_required (test_windows_ble.WindowsBleTests.test_synthetic_optin_required) ... ok
+
+----------------------------------------------------------------------
+Ran 85 tests in 20.568s
+
+OK
+portable: CRC, all-byte corruption, contact, calibration, torn write, sync failure, reboot, full PASS
+FULL HOST GATE PASS: no skipped tests. Radio/camera/physical flash remain untested.

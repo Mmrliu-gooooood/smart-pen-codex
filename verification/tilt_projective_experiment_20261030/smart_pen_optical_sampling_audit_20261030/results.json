@@ -1,0 +1,245 @@
+{
+  "synthetic_only": true,
+  "manifest_verification": {
+    "smart_pen_continuous_roi_v3_candidate_20261029/verification/V3_SNAPSHOT.json": {
+      "sha256": "1636084759c3ebfc358574f669ea5292b11ae4421145401e7c2ccaed12664ccf",
+      "verified_files": 394
+    },
+    "smart_pen_camera_capture_v2_candidate_20261029/verification/source_manifest.json": {
+      "sha256": "43bde08406f902d6ee16d3affc2c05de35dc771a9d1bf5749cf84cdfdceeb601",
+      "verified_files": 192
+    },
+    "renderer": {
+      "path": "smart_pen_continuous_roi_v3_candidate_20261029/tools/continuous_roi_sweep.py",
+      "sha256": "b2a15def24c09d5e014ea6618a14e212e9d24427aafddbf6c54fb60bd2932db5"
+    }
+  },
+  "cases": [
+    {
+      "fov": 6,
+      "ox": 120.0566931414322,
+      "oy": 240.4970668717917,
+      "ratio": 1.0,
+      "perspective_y": 0.0,
+      "phase": 0,
+      "camera_tilt_deg": 0,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": 0,
+      "sha256": "1d88d58f94809ab39abb8a093153f596445db02c60ee9d143198c005b4a311d2",
+      "fit_diagnostics": {
+        "cold_candidates": 26901,
+        "seeds": 2,
+        "iterations": 10,
+        "refined_models": 2
+      },
+      "x": 126,
+      "y": 247,
+      "roi": 96,
+      "left": 52,
+      "top": 52,
+      "dots": 86,
+      "windows": 12,
+      "edge_components": 11,
+      "edge_pixels": 66,
+      "attempts": 1,
+      "candidates": 26903,
+      "fitted_angle": -0.0093418899923563,
+      "fitted_pitch": 9.998189926147461,
+      "fitted_y_scale": 1.0003029108047485,
+      "exact_symbols": true,
+      "window_supported": true,
+      "transform_max_error_px": 0.0726867124747849,
+      "correct": true,
+      "refine_seeds": 2,
+      "refine_iterations": 10,
+      "refine_models": 2,
+      "oracle_complete_windows_4px_guard": {
+        "96": 12,
+        "80": 2
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 125.56063577297901,
+      "oy": 242.33823776961853,
+      "ratio": 1.0,
+      "perspective_y": 0.0,
+      "phase": 17,
+      "camera_tilt_deg": 0,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": 0,
+      "sha256": "9ff10078d7ad0774c852cd066436401f325c687a410379c65e9e4753930ee612",
+      "fit_diagnostics": {
+        "cold_candidates": 26901,
+        "seeds": 3,
+        "iterations": 15,
+        "refined_models": 3
+      },
+      "x": 132,
+      "y": 248,
+      "roi": 96,
+      "left": 52,
+      "top": 52,
+      "dots": 89,
+      "windows": 15,
+      "edge_components": 11,
+      "edge_pixels": 67,
+      "attempts": 1,
+      "candidates": 26904,
+      "fitted_angle": -0.00940373819321394,
+      "fitted_pitch": 9.996207237243652,
+      "fitted_y_scale": 1.0000969171524048,
+      "exact_symbols": true,
+      "window_supported": true,
+      "transform_max_error_px": 0.08560714322961278,
+      "correct": true,
+      "refine_seeds": 3,
+      "refine_iterations": 15,
+      "refine_models": 3,
+      "oracle_complete_windows_4px_guard": {
+        "96": 9,
+        "80": 1
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 120.0566931414322,
+      "oy": 240.4970668717917,
+      "ratio": 0.8660254037844387,
+      "perspective_y": 0.012499999999999997,
+      "phase": 0,
+      "camera_tilt_deg": 30,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -3,
+      "sha256": "491d09714cf1276679b7784e0af52337b0287e71dc8f4165639c7c8ad191aa8b",
+      "fit_diagnostics": {
+        "cold_candidates": 26901,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 15,
+        "80": 6
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 125.56063577297901,
+      "oy": 242.33823776961853,
+      "ratio": 0.8660254037844387,
+      "perspective_y": 0.012499999999999997,
+      "phase": 17,
+      "camera_tilt_deg": 30,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -3,
+      "sha256": "486a693d67bed3bbc8f592bccc34c312553f01cdd9374408d0b40f05ced3c7e8",
+      "fit_diagnostics": {
+        "cold_candidates": 26901,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 15,
+        "80": 3
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 120.0566931414322,
+      "oy": 240.4970668717917,
+      "ratio": 0.7071067811865476,
+      "perspective_y": 0.017677669529663684,
+      "phase": 0,
+      "camera_tilt_deg": 45,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -2,
+      "sha256": "1417d67a0d87572f4db0a4a70ee7603a7f88345799fca74e73d5410f3c3a8a28",
+      "fit_diagnostics": {
+        "cold_candidates": 0,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 22,
+        "80": 7
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 125.56063577297901,
+      "oy": 242.33823776961853,
+      "ratio": 0.7071067811865476,
+      "perspective_y": 0.017677669529663684,
+      "phase": 17,
+      "camera_tilt_deg": 45,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -2,
+      "sha256": "2f1695e5bd61cae9e921f8c31afdbf5708257e4eaa115688dc9a0583d1500009",
+      "fit_diagnostics": {
+        "cold_candidates": 0,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 20,
+        "80": 5
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 120.0566931414322,
+      "oy": 240.4970668717917,
+      "ratio": 0.5000000000000001,
+      "perspective_y": 0.021650635094610963,
+      "phase": 0,
+      "camera_tilt_deg": 60,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -2,
+      "sha256": "29fc8b67d4ef5022040046cae74461d9bf109fc30509faa0d055af0de9b9b94a",
+      "fit_diagnostics": {
+        "cold_candidates": 0,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 42,
+        "80": 15
+      }
+    },
+    {
+      "fov": 6,
+      "ox": 125.56063577297901,
+      "oy": 242.33823776961853,
+      "ratio": 0.5000000000000001,
+      "perspective_y": 0.021650635094610963,
+      "phase": 17,
+      "camera_tilt_deg": 60,
+      "Z_mm": 12,
+      "focal_pixels": 400,
+      "status": -2,
+      "sha256": "45a9285937e56a611156cf4dbc85b2e71e72040a766cb9e1ea612b463734995e",
+      "fit_diagnostics": {
+        "cold_candidates": 0,
+        "seeds": 0,
+        "iterations": 0,
+        "refined_models": 0
+      },
+      "oracle_complete_windows_4px_guard": {
+        "96": 38,
+        "80": 12
+      }
+    }
+  ]
+}

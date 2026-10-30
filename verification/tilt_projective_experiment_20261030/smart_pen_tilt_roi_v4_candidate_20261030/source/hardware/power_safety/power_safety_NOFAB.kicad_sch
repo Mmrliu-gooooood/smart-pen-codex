@@ -1,0 +1,758 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid 62962633-0e3b-42ab-a40b-f5a68c0233c4) (paper "A4") (title_block (title "Camera power gate / NO FAB") (date "2026-10-28") (rev "NEW-P0")) (lib_symbols (symbol "PowerSafety:TPS22918" (pin_names (offset 0.8)) (in_bom yes) (on_board yes) (property "Reference" "U" (at 0 16 0) (effects (font (size 1.27 1.27)))) (property "Value" "TPS22918" (at 0 -16 0) (effects (font (size 1.27 1.27)))) (symbol "TPS22918_0_1" (rectangle (start -12.7 12.7) (end 12.7 -12.7) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "TPS22918_1_1" (pin power_in line (at -17.78 7.62 0) (length 5.08) (name "VIN" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))(pin power_in line (at 0 -17.78 90) (length 5.08) (name "GND" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))(pin input line (at -17.78 -5.08 0) (length 5.08) (name "ON" (effects (font (size 1 1)))) (number "3" (effects (font (size 1 1)))))(pin passive line (at 10.16 -17.78 90) (length 5.08) (name "CT" (effects (font (size 1 1)))) (number "4" (effects (font (size 1 1)))))(pin passive line (at 17.78 -5.08 180) (length 5.08) (name "QOD" (effects (font (size 1 1)))) (number "5" (effects (font (size 1 1)))))(pin power_out line (at 17.78 7.62 180) (length 5.08) (name "VOUT" (effects (font (size 1 1)))) (number "6" (effects (font (size 1 1)))))))(symbol "PowerSafety:Connector_TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connector_TestPoint"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Connector_TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Connector_TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "PowerSafety:Device_C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Device_C"
+			(at 0.635 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Device_C"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Device_C_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Device_C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Device_C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "PowerSafety:Device_R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Device_R"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Device_R"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Device_R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Device_R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Device_R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "PowerSafety:Jumper_Jumper_2_Open"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_Jumper_2_Open"
+			(at 0 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Jumper SPST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper_Jumper_2_Open_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper_Jumper_2_Open_0_1"
+			(arc
+				(start -1.524 1.27)
+				(mid 0 1.778)
+				(end 1.524 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper_Jumper_2_Open_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "PowerSafety:Connector_Generic_Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connector_Generic_Conn_01x02"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Connector_Generic_Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "PowerSafety:power_PWR_FLAG"
+		(power)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "power_PWR_FLAG"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "power_PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power_PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)) (wire (pts (xy 101.6 72.39) (xy 96.52 72.39)) (stroke (width 0) (type default)) (uuid 5635b6db-42b6-4a6f-9dde-71cfd4e7d09e))(label "3V3_AON" (at 96.52 72.39 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 186e2fc9-f3ad-46d0-bd80-9ea1c5d98750))(wire (pts (xy 119.38 97.79) (xy 119.38 102.87)) (stroke (width 0) (type default)) (uuid 4b72a105-3af6-41ac-a4b9-9706061150e4))(label "GND" (at 119.38 102.87 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8a263176-b76e-4995-8db5-6ab3f1e3340d))(wire (pts (xy 101.6 85.09) (xy 96.52 85.09)) (stroke (width 0) (type default)) (uuid 6c774c18-b970-41b2-a773-2547bbcdd0cb))(label "CAM_ON" (at 96.52 85.09 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 4a0f8910-74c0-4e5a-ae0b-3537a64eab8d))(wire (pts (xy 129.54 97.79) (xy 129.54 102.87)) (stroke (width 0) (type default)) (uuid d1989747-832f-4b0f-86d8-e4d2afe2015a))(label "CAM_CT" (at 129.54 102.87 0) (effects (font (size 1 1)) (justify left bottom)) (uuid b2dba74a-95bd-4e52-bfd6-2a2872e8c9c5))(wire (pts (xy 137.16 85.09) (xy 142.24 85.09)) (stroke (width 0) (type default)) (uuid c2b9dbd4-14b9-41ed-8135-8daf8fce4813))(label "CAM_QOD" (at 142.24 85.09 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9b9b27f5-4308-4d85-b189-4fa01066474d))(wire (pts (xy 137.16 72.39) (xy 142.24 72.39)) (stroke (width 0) (type default)) (uuid 6a2427fc-18ec-4c0e-88a8-4bb61445e256))(label "CAM_3V3_PRELINK" (at 142.24 72.39 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 6674e3da-91b3-4be1-aeb8-1e70b1400ed1))(wire (pts (xy 64.77 54.61) (xy 64.77 59.69)) (stroke (width 0) (type default)) (uuid f98feb54-8336-4eeb-a38b-ed7616a91380))(hierarchical_label "CAM_PWR_EN" (shape input) (at 64.77 59.69 0) (effects (font (size 1 1)) (justify left)) (uuid a568b584-d57a-40ed-a19c-f6a71ac22d81))(wire (pts (xy 35.56 71.12) (xy 35.56 66.04)) (stroke (width 0) (type default)) (uuid c6698021-5648-4896-aa15-059c158cf8d2))(label "3V3_AON" (at 35.56 66.04 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1cb4bec2-c203-461a-8bab-cc105e17da9c))(wire (pts (xy 35.56 78.74) (xy 35.56 83.82)) (stroke (width 0) (type default)) (uuid c9a0e66d-c8bd-4488-bb94-25b526a60f76))(label "GND" (at 35.56 83.82 0) (effects (font (size 1 1)) (justify left bottom)) (uuid db442191-2b31-420d-bbd4-aadb18ec6150))(wire (pts (xy 180.34 71.12) (xy 180.34 66.04)) (stroke (width 0) (type default)) (uuid 1dbb0610-2440-40d8-a995-94f91566c792))(label "CAM_3V3_PRELINK" (at 180.34 66.04 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 07a5ca33-68ac-4cec-a485-551170477739))(wire (pts (xy 180.34 78.74) (xy 180.34 83.82)) (stroke (width 0) (type default)) (uuid 5906c243-e983-4ebe-ac92-e5f0b109881a))(label "GND" (at 180.34 83.82 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9a7442de-c6a9-49bb-a4bc-1c6dfb0b1512))(wire (pts (xy 144.78 125.73) (xy 144.78 120.65)) (stroke (width 0) (type default)) (uuid 87365a96-b94f-421f-8baa-fa8fb03d75c0))(label "CAM_CT" (at 144.78 120.65 0) (effects (font (size 1 1)) (justify left bottom)) (uuid e491b9b8-4d6a-439f-a377-e46c0ebf33fc))(wire (pts (xy 144.78 133.35) (xy 144.78 138.43)) (stroke (width 0) (type default)) (uuid 7d8a8725-0df2-4581-a8a0-606ab84c335c))(label "GND" (at 144.78 138.43 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 8a700e11-c331-43ae-a433-34e9861355ec))(wire (pts (xy 64.77 120.65) (xy 64.77 115.57)) (stroke (width 0) (type default)) (uuid 27c1e3fb-0b62-4d1c-b4c0-b5e5b5317de1))(label "CAM_ON" (at 64.77 115.57 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 652105c3-aa14-4fae-9acb-93c14cf9061a))(wire (pts (xy 64.77 128.27) (xy 64.77 133.35)) (stroke (width 0) (type default)) (uuid 0f5d8765-8581-4f6d-a03c-17cb980b9889))(label "GND" (at 64.77 133.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1f4aa78d-f2d3-472a-a0e4-88d2fc1750d2))(wire (pts (xy 35.56 111.76) (xy 35.56 106.68)) (stroke (width 0) (type default)) (uuid c1c5bb04-d456-46ab-a9dd-c370e4e463b7))(label "CAM_PWR_EN" (at 35.56 106.68 0) (effects (font (size 1 1)) (justify left bottom)) (uuid a4abf69e-7495-414f-972c-e9d230b4fc72))(wire (pts (xy 35.56 119.38) (xy 35.56 124.46)) (stroke (width 0) (type default)) (uuid 8c5d8be4-a617-41ff-beeb-7a3b87eabca2))(label "CAM_ON" (at 35.56 124.46 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 1c08203a-9293-4dbe-a794-726e0af38039))(wire (pts (xy 190.5 120.65) (xy 190.5 115.57)) (stroke (width 0) (type default)) (uuid d674797a-3914-4c53-8355-edddccbc6d4c))(label "CAM_3V3_PRELINK" (at 190.5 115.57 0) (effects (font (size 1 1)) (justify left bottom)) (uuid bb1d4680-a2ed-4e97-84b9-96797df54ddd))(wire (pts (xy 190.5 128.27) (xy 190.5 133.35)) (stroke (width 0) (type default)) (uuid 82155f69-480b-4761-a09e-6c88544e687a))(label "CAM_QOD" (at 190.5 133.35 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 9444b2e7-64c6-4467-bb17-f27f0db4bd50))(wire (pts (xy 229.87 64.77) (xy 224.79 64.77)) (stroke (width 0) (type default)) (uuid 13178bf2-9c9c-4169-a5bc-cd2448ffffe7))(label "CAM_3V3_PRELINK" (at 224.79 64.77 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 5ac06daa-65cc-4fc3-a6d7-4a7fa562ec03))(wire (pts (xy 240.03 64.77) (xy 245.11 64.77)) (stroke (width 0) (type default)) (uuid 62459863-3cad-4b85-b353-a09bb6819dc3))(label "CAM_3V3_SW" (at 245.11 64.77 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 812974fc-47ab-4939-8cce-6df50b647840))(wire (pts (xy 245.11 110.49) (xy 240.03 110.49)) (stroke (width 0) (type default)) (uuid b0bf51ae-d3a1-470d-a353-ca3482c8fdaa))(label "CAM_3V3_SW" (at 240.03 110.49 0) (effects (font (size 1 1)) (justify right bottom)) (uuid 9e29baaa-faf5-447a-84f8-1d547817215f))(wire (pts (xy 245.11 113.03) (xy 240.03 113.03)) (stroke (width 0) (type default)) (uuid d8ff70bc-71dc-4636-93ea-b88f336dee2f))(label "GND" (at 240.03 113.03 0) (effects (font (size 1 1)) (justify right bottom)) (uuid e185f8b3-b339-4193-91ec-daaa44d5fdca))(wire (pts (xy 15.24 59.69) (xy 15.24 64.77)) (stroke (width 0) (type default)) (uuid ea2ea8be-69fc-417e-8b92-7f0f4ee8056f))(label "3V3_AON" (at 15.24 64.77 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 4fcfe089-fdde-4035-8b4c-f6a0e9a6a70c))(wire (pts (xy 15.24 80.01) (xy 15.24 85.09)) (stroke (width 0) (type default)) (uuid 59238b1d-f498-45f1-87d4-327990d6ea32))(label "GND" (at 15.24 85.09 0) (effects (font (size 1 1)) (justify left bottom)) (uuid 2db78218-f503-4f91-a419-20aa9e3bdf0e))(text "相机供电门控候选 / NO FAB / 2026-10-28" (at 15 13 0) (effects (font (size 2.5 2.5)) (justify left top)) (uuid 46f8012c-b9d3-4fef-a814-5a25e2319871))(text "新设计，不是历史原件恢复。JP1开路；未批准的摄像头禁止接电。" (at 15 22 0) (effects (font (size 1.5 1.5)) (justify left top)) (uuid 02cfb46e-83eb-4f1b-a166-1d1d954df659))(text "3V3_AON 输入；CAM_PWR_EN = GPIO41 候选；高有效，复位高阻由R1拉低。" (at 15 32 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid d17bd836-3d1d-4c39-9d73-4c3780ab4762))(text "JP1是实物开路调试桥，不是软件开关；J1封装和线序待实际模块确认。" (at 15 160 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid 33aeff28-21a0-404e-a5e5-df75ac9685df))(text "CAM_3V3_SW仅用于已批准3.3V模块或下游调压器，绝非裸传感器所有电源。" (at 15 167 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid b3b04fb7-ae94-4dc6-b2d1-8bd2f77c88da))(text "本器件不提供限流、过压或反灌保护；其他电源或I/O不得倒灌输出。" (at 15 174 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid 0fae6223-8691-4ffe-99f3-737ece40c401))(text "上电前隔离I/O；关电前停XCLK/置复位并隔离I/O；禁止3.3V当1.8V VIO。" (at 15 181 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid d0398a18-f41f-4cea-b929-d50a0fbea551))(text "CT定时与放电只作候选；实际负载、电容、浪涌、关断和掉电必须测试。" (at 15 188 0) (effects (font (size 1.4 1.4)) (justify left top)) (uuid 6c1bdd8e-de57-4dcd-8140-91fd6dda2a06))(symbol (lib_id "PowerSafety:TPS22918") (at 119.38 80.01 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4cfe96fb-0047-4ec7-923d-f52290007695) (property "Reference" "U1" (at 109.38 57.010000000000005 0) (effects (font (size 1.3 1.3)))) (property "Value" "TPS22918DBVR" (at 109.38 103.01 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 119.38 80.01 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "U1") (unit 1)))))(symbol (lib_id "PowerSafety:Connector_TestPoint") (at 64.77 54.61 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 6199ab03-76ed-4b3f-9f27-4e3e8b94b11f) (property "Reference" "TP1" (at 69.77 52.61 0) (effects (font (size 1.3 1.3)))) (property "Value" "ENABLE MEASURE" (at 69.77 56.61 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 64.77 54.61 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "TP1") (unit 1)))))(symbol (lib_id "PowerSafety:Device_C") (at 35.56 74.93 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid d161e38b-11ab-40ac-8378-16461c87b625) (property "Reference" "C1" (at 40.56 72.93 0) (effects (font (size 1.3 1.3)))) (property "Value" "10uF 10V X7R" (at 40.56 76.93 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 35.56 74.93 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "C1") (unit 1)))))(symbol (lib_id "PowerSafety:Device_C") (at 180.34 74.93 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 3a816fc3-062f-4747-8a43-5186ca76d01d) (property "Reference" "C2" (at 185.34 72.93 0) (effects (font (size 1.3 1.3)))) (property "Value" "1uF 10V X7R" (at 185.34 76.93 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 180.34 74.93 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "C2") (unit 1)))))(symbol (lib_id "PowerSafety:Device_C") (at 144.78 129.54 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 97596c2b-fb29-40f8-8c18-fb67d17896d3) (property "Reference" "C3" (at 149.78 127.53999999999999 0) (effects (font (size 1.3 1.3)))) (property "Value" "1nF 25V C0G" (at 149.78 131.54 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 144.78 129.54 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "C3") (unit 1)))))(symbol (lib_id "PowerSafety:Device_R") (at 64.77 124.46000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 2ef0c6d1-5cf9-43ff-8c9f-92543e172b53) (property "Reference" "R1" (at 69.77 122.46000000000001 0) (effects (font (size 1.3 1.3)))) (property "Value" "100k 1%" (at 69.77 126.46000000000001 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 64.77 124.46000000000001 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "R1") (unit 1)))))(symbol (lib_id "PowerSafety:Device_R") (at 35.56 115.57000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid d73761fa-725f-441a-87fe-8876870eb324) (property "Reference" "R2" (at 40.56 113.57000000000001 0) (effects (font (size 1.3 1.3)))) (property "Value" "1k 1%" (at 40.56 117.57000000000001 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 35.56 115.57000000000001 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "R2") (unit 1)))))(symbol (lib_id "PowerSafety:Device_R") (at 190.5 124.46000000000001 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid e3cb91cd-f201-45a9-8fc9-d9dd952b97f6) (property "Reference" "R3" (at 195.5 122.46000000000001 0) (effects (font (size 1.3 1.3)))) (property "Value" "100R 1%" (at 195.5 126.46000000000001 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 190.5 124.46000000000001 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "R3") (unit 1)))))(symbol (lib_id "PowerSafety:Jumper_Jumper_2_Open") (at 234.95000000000002 64.77 0) (unit 1) (in_bom yes) (on_board yes) (dnp yes) (uuid e2251247-8df5-4ace-9a24-ccbba67524ae) (property "Reference" "JP1" (at 239.95000000000002 62.769999999999996 0) (effects (font (size 1.3 1.3)))) (property "Value" "OPEN / DO NOT BRIDGE" (at 239.95000000000002 66.77 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 234.95000000000002 64.77 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "JP1") (unit 1)))))(symbol (lib_id "PowerSafety:Connector_Generic_Conn_01x02") (at 250.19 110.49 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid 4405edd1-24db-479b-9b5b-cc8396d9a194) (property "Reference" "J1" (at 255.19 103.49 0) (effects (font (size 1.3 1.3)))) (property "Value" "APPROVED LOAD / TBD" (at 255.19 118.49 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 250.19 110.49 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "J1") (unit 1)))))(symbol (lib_id "PowerSafety:power_PWR_FLAG") (at 15.24 59.69 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid 9c92cda7-bcb1-490d-9726-07292d8669b0) (property "Reference" "#FLG01" (at 20.240000000000002 57.69 0) (effects (font (size 1.3 1.3)))) (property "Value" "PWR_FLAG" (at 20.240000000000002 61.69 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 15.24 59.69 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "#FLG01") (unit 1)))))(symbol (lib_id "PowerSafety:power_PWR_FLAG") (at 15.24 80.01 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid 70fb6885-d0db-435c-97b2-3a30d4533bc9) (property "Reference" "#FLG02" (at 20.240000000000002 78.01 0) (effects (font (size 1.3 1.3)))) (property "Value" "PWR_FLAG" (at 20.240000000000002 82.01 0) (effects (font (size 1.1 1.1)))) (property "Footprint" "" (at 15.24 80.01 0) (effects (font (size 1 1)) hide)) (instances (project "power_safety_NOFAB" (path "/62962633-0e3b-42ab-a40b-f5a68c0233c4" (reference "#FLG02") (unit 1))))) (sheet_instances (path "/" (page "1"))))

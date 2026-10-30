@@ -1,0 +1,51 @@
+{
+  "base_commit": "f29309c1e6887ffc2956c5f721097fc430e0d18b",
+  "upstream_checkpoint": "0f8b569176c77dad34aaf83bb008eb118c9f1208",
+  "status": "EXPERIMENTAL_GRAY8_WINDOW_DECODER_NOT_REAL_CAMERA_ACCEPTANCE",
+  "full_host_gate": {
+    "tests": 63,
+    "failures": 0,
+    "skips": 0,
+    "portable_c": "PASS",
+    "log": "verification/roi_hostgate_20261028.log"
+  },
+  "roi_tests": {
+    "python_tests": 9,
+    "raw_gray_calls": 67,
+    "native_safety_positive_and_invalid_arguments": "PASS",
+    "seven_by_seven": "49 detected dots and four coordinate-consistent windows at -9,0,13 degrees"
+  },
+  "benchmark": {
+    "samples": 256,
+    "exact_success": 256,
+    "rejected": 0,
+    "false_success": 0,
+    "median_ms": 14.3925,
+    "max_ms": 156.8794
+  },
+  "sanitizers": {
+    "address": "PASS",
+    "undefined_behavior": "PASS",
+    "leak": "NOT_RUN: ptrace sandbox unsupported; ASAN_OPTIONS=detect_leaks=0",
+    "command": "cc -std=c11 -g -Wall -Wextra -Werror -pedantic -fsanitize=address,undefined -fno-omit-frame-pointer tests/test_roi_safety.c firmware/vision/roi.c firmware/codec/anoto.c -lm -o /tmp/roi-safety-san && ASAN_OPTIONS=detect_leaks=0 /tmp/roi-safety-san tests/fixtures/roi/reference.pgm"
+  },
+  "not_verified": [
+    "real camera RAW",
+    "SC035 sensor driver",
+    "physical pen coordinates or ink",
+    "MCU timing/stack budget",
+    "full tilt/perspective/mirror handling"
+  ],
+  "code_sha256": {
+    "firmware/vision/roi.c": "626c76c9dad8faacddea0b54ac33556ff942216dbf779f247dd46cc46ffa3a3d",
+    "firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2"
+  },
+  "host_stack_usage": {
+    "compiler": "host cc -std=c11 -O2 -fstack-usage",
+    "pen_roi_decode_bytes": 13168,
+    "classification": "dynamic,bounded",
+    "phase_bytes": 80,
+    "not_target_measurement": true
+  },
+  "independent_review": "No blocking bounds, overflow or failure-output issue found; clarified similarity (not general affine) grid and large stack limitation."
+}

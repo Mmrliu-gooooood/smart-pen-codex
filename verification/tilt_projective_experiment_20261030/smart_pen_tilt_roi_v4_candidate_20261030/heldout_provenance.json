@@ -1,0 +1,45 @@
+{
+  "synthetic_only": true,
+  "compiler": "cc (Debian 14.2.0-19) 14.2.0",
+  "files": {
+    "heldout.py": "888fdccb25795719427dc4ddbc22527499634d308498e700f43303a65a4821a3",
+    "binding.py": "09825eed845480b67d05f8d3ae39e9e2621d06d73ecc81d297f1cfa01c18955b",
+    "run_heldout.py": "98b21b0d5b0935556726f549ce6151d1697f9428270468ec09899698a60a0404",
+    "safety_v4.c": "c7f96711a88fd1084e794fe571d6620933646beebdaf995a3f4599e87857a1f6",
+    "safety_v4.py": "c6625f8e2c7003f7320af908632b1b3a36ae98b75f5ff05478297765968e968e",
+    "source/firmware/vision/roi_projective.c": "0297869a82ef13fc4727d735c274d70db16f744f85cfca2566407bffc08ff42e",
+    "source/firmware/vision/roi_projective.h": "b4f5d8cfc4e8ad28ade828c0334afa87aef43030b7b35013f42961ca8864cbeb",
+    "source/firmware/vision/roi_opt.c": "508f6fb7d7b96e51be47eed75f44f17a768a725a7516ac0354456c8fd44b996a",
+    "source/firmware/vision/roi_opt.h": "ccadb210be379f3fce8e2ae8e02b4b6521a37804c2a48b9f6a3f02689a8dbe18",
+    "source/firmware/vision/roi_continuous.h": "fa0e6be6b4df4752d948f6222e06c21303c847f1b59b9cdd798ccc9f827ed062",
+    "source/firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "source/firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "source/firmware/codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d"
+  },
+  "heldout_results_sha256": "ff8ec7db317b6917821ef7850ed5008abe2aef70f8adfd4cfd72ce775f11b68e",
+  "lsan": "unsupported under execution-environment ptrace; leak check disabled for ASan+UBSan rerun",
+  "final_files": {
+    "heldout.py": "888fdccb25795719427dc4ddbc22527499634d308498e700f43303a65a4821a3",
+    "binding.py": "09825eed845480b67d05f8d3ae39e9e2621d06d73ecc81d297f1cfa01c18955b",
+    "run_heldout.py": "98b21b0d5b0935556726f549ce6151d1697f9428270468ec09899698a60a0404",
+    "safety_v4.c": "c7f96711a88fd1084e794fe571d6620933646beebdaf995a3f4599e87857a1f6",
+    "safety_v4.py": "c6625f8e2c7003f7320af908632b1b3a36ae98b75f5ff05478297765968e968e",
+    "source/firmware/vision/roi_projective.c": "0297869a82ef13fc4727d735c274d70db16f744f85cfca2566407bffc08ff42e",
+    "source/firmware/vision/roi_projective.h": "b4f5d8cfc4e8ad28ade828c0334afa87aef43030b7b35013f42961ca8864cbeb",
+    "source/firmware/vision/roi_opt.c": "508f6fb7d7b96e51be47eed75f44f17a768a725a7516ac0354456c8fd44b996a",
+    "source/firmware/vision/roi_opt.h": "ccadb210be379f3fce8e2ae8e02b4b6521a37804c2a48b9f6a3f02689a8dbe18",
+    "source/firmware/vision/roi_continuous.h": "fa0e6be6b4df4752d948f6222e06c21303c847f1b59b9cdd798ccc9f827ed062",
+    "source/firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "source/firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "source/firmware/codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d"
+  },
+  "post_heldout_change": "Only configurable seed-cap #ifndef and static assert upper bound added; default cap remains256; final cap1 fault injection run separately.",
+  "seedcap_files": {
+    "seedcap_v4.c": "95136194ab32813f2704c5599b79a4612ba4576f8a06736f19e26148e3333381",
+    "seedcap_v4.py": "65c95b89a83180141cbb09a687bab4a340c1cf7e55097c71b1d6b792ecc8bfe1"
+  },
+  "repro_verifier_files": {
+    "verify_eight_oracle.py": "01204c189edfab27ca83f80aa3c86ac9ec27c5d7a04f738bef0123183cf6535b",
+    "heldout_selftest.py": "947ef5222dfd4d40d4761968f413b5d7f98661a6d3e9155cb55eeed26ea90501"
+  }
+}

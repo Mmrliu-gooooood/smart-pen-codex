@@ -1,0 +1,10 @@
+References,Quantity,Value,Footprint,MPN_status,Qualification
+U1,1,LIS2DW12TR,Package_LGA:LGA-12_2x2mm_P0.5mm,LIS2DW12TR,Official pin map and package checked; availability and assembly quote not approved
+R1 R2,2,10k 1%,Resistor_SMD:R_0603_1608Metric,TBD,Only pickup-board I2C pullups; check harness rise time
+R3,1,100k 1%,Resistor_SMD:R_0603_1608Metric,TBD,Leakage and contact latency bench validation required
+R4,1,1k 1%,Resistor_SMD:R_0603_1608Metric,TBD,Internal dry contact only
+C1 C2,2,100n X7R 16V,Capacitor_SMD:C_0603_1608Metric,TBD,Effective capacitance and exact MPN pending
+C3,1,1u X7R 16V,Capacitor_SMD:C_0603_1608Metric,TBD,Effective capacitance and exact MPN pending
+C4,1,1n C0G 5% 16V,Capacitor_SMD:C_0603_1608Metric,TBD,Noise-bounce-latency tradeoff not hardware validated
+J1,1,6 internal solder pads,Pen:Host_6,PCB copper,No connector purchase; harness strain relief required
+J2,1,2 internal solder pads,Pen:Contact_2,PCB copper,External mechanical contact not selected

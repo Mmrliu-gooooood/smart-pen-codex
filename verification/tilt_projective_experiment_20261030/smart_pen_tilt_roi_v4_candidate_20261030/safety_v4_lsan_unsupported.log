@@ -1,0 +1,10 @@
+cc -std=c11 -O1 -g -Wall -Wextra -Werror -pedantic -fsanitize=address,undefined -fno-omit-frame-pointer -I/workspace/scratch/fe148e758944/smart_pen_tilt_roi_v4_candidate_20261030/source/firmware/vision /workspace/scratch/fe148e758944/smart_pen_tilt_roi_v4_candidate_20261030/safety_v4.c /workspace/scratch/fe148e758944/smart_pen_tilt_roi_v4_candidate_20261030/source/firmware/vision/roi_projective.c /workspace/scratch/fe148e758944/smart_pen_tilt_roi_v4_candidate_20261030/source/firmware/codec/anoto.c -lm -o /tmp/tmp1xfhn42b/safety
+==18==LeakSanitizer has encountered a fatal error.
+==18==HINT: For debugging, try setting environment variable LSAN_OPTIONS=verbosity=1:log_threads=1
+==18==HINT: LeakSanitizer does not work under ptrace (strace, gdb, etc)
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_tilt_roi_v4_candidate_20261030/safety_v4.py", line 8, in <module>
+    subprocess.run([out,str(p.parent/'smart_pen_optical_sampling_audit_20261030/tilt0_phase0.pgm')],check=True,env=env)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/tmp1xfhn42b/safety', '/workspace/scratch/fe148e758944/smart_pen_optical_sampling_audit_20261030/tilt0_phase0.pgm']' returned non-zero exit status 1.

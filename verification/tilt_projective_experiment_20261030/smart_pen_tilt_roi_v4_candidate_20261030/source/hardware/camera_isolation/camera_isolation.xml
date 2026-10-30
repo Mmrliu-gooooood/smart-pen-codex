@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/camera_isolation/camera_isolation.kicad_sch</source>
+    <date>2026-10-28T17:46:06+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/">
+      <title_block>
+        <title>2026-10-28 REBUILD / NO FAB</title>
+        <company/>
+        <rev>R0</rev>
+        <date/>
+        <source>dvp_translation.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/">
+      <title_block>
+        <title>2026-10-28 REBUILD / NO FAB</title>
+        <company/>
+        <rev>R0</rev>
+        <date/>
+        <source>controls_sccb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/">
+      <title_block>
+        <title>2026-10-28 REBUILD / NO FAB</title>
+        <company/>
+        <rev>R0</rev>
+        <date/>
+        <source>safe_bias_interfaces.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>camera_isolation.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>ff81359b-4ad7-4070-8116-d5bcdeb44e03</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>d6a8fa28-880c-49e1-bfc4-ca0509303278</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>faa8c099-a916-44b7-8a2b-585c2dbe6eb0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>17c48a4e-1992-4db2-81ba-89d2b5e7e362</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>45bfb54c-92b2-4c17-b680-34a5d1d3dde4</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>ba1664d9-7067-4d0b-8cca-854e64228231</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74AXC8T245PWR</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="SN74AXC8T245PWR" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>54840595-81ef-4883-b1bf-fa175713a8d8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74AXC4T245PWR</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="SN74AXC4T245PWR" description=""/>
+      <property name="Sheetname" value="dvp_translation"/>
+      <property name="Sheetfile" value="dvp_translation.kicad_sch"/>
+      <sheetpath names="/dvp_translation/" tstamps="/c5a4a7bc-e4da-41cc-9523-d9627a98e658/"/>
+      <tstamps>d66e3411-4ba8-4bf8-a60d-0787cd605609</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>7ab194fa-c2c1-48dd-b630-5c75d7a53e60</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>9cf76a99-2dab-44a0-bf4c-3840cb19c082</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>9670f3d3-7c9b-46c5-861f-d6223866ed50</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>6e14fac5-66e9-46e3-a9b7-2d35d899d924</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>DNP_IO_COMMISSION</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="OPEN_LINK" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>f9f86092-89e6-4bb4-a9da-66228b86bb0b</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>DNP_SCCB_COMMISSION</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="OPEN_LINK" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>ddf1b475-e0c7-4946-a210-8b00f5ea3dfe</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PMV30UN2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PMV30UN2" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>f430ed77-2707-4244-8637-6a79d9958439</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>c9c3a1f4-6a2a-4bc5-8df1-e3f7c6c71259</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>0c593c0d-62ad-4c20-9901-d596b5bf925a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>a94bcd11-5745-4c57-9045-4ac445f8b4be</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>938c2941-c35f-4f65-a1e0-c32d0dd07844</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>a1f94bfa-22f0-481f-852b-94b193dd7fd7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SN74AXC4T245PWR</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="SN74AXC4T245PWR" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>ec7dd657-c2b9-49a9-ad8b-069852e432ce</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TCA9517DGKR</value>
+      <footprint>Package_SO:VSSOP-8_3x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:VSSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="TCA9517DGKR" description=""/>
+      <property name="Sheetname" value="controls_sccb"/>
+      <property name="Sheetfile" value="controls_sccb.kicad_sch"/>
+      <sheetpath names="/controls_sccb/" tstamps="/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa/"/>
+      <tstamps>c5961692-1efe-4f60-8c57-fa8eaa8c2e9c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HOST_3V3_SEMANTIC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT20" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>3afcbc4e-ed6b-4b94-91d2-7e7992870a44</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SENSOR_1V8_SEMANTIC_NOT_FPC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT18" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>1981219d-8159-4ca1-986f-5b2a46505418</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>5b134b68-6be0-46be-8289-b34c76b79b86</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>2f43af2f-183d-45cc-8000-f159d1b218aa</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f02f1b15-03c7-4e69-bc2c-ecc0ebefb6d6</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f79d9b1c-afe0-4f2b-904f-f85c842ab97d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>c9d42e0c-8347-4b67-9f96-24b8f0ae1521</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>abea21b2-bbda-4641-b86f-5fbe080fea8c</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>418d85ce-8a8f-419f-bec7-160c2f176a65</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>0ed4522a-640b-465c-9a2f-d2b30bc88542</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>0de318e3-cf18-40a7-abec-a6b37660bae1</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f227feb2-c41b-4255-a1f8-67612520772a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>69161d9c-bea9-447e-9c06-21dfca8aa31b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f491d6d3-9884-4bac-8d17-489c4030533d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>7f153e56-7db7-42d5-95a5-9e9282d81856</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>99fee32e-00fd-461e-a60a-d1afd7658a04</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>9f9076f0-29d4-4c30-a8b7-f093b47fb756</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>e47547ac-7dca-4547-8f33-e8ab9b715c32</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>3f540ed1-89ed-45f3-8cd7-68bf364a7024</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>a26a501e-3068-498d-90a1-4a2256025636</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>7bcdd413-9816-4640-b531-f96dd3247b1d</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>3b855c0f-0443-4ad3-ab65-ca7f89fe7c86</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f984fde1-fdd9-46be-9cc7-24f458756429</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>fd2cfbb1-66b5-4559-b3d9-6ab9bae3c9b7</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>a5998846-4e5a-41e0-a34e-e258bc2792fc</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>c672b192-ac5c-4b46-bcff-0a68961b973d</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>72594cd2-3ebf-43c9-a7be-ae3eeed5abb1</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f45ab85e-331d-43aa-ae45-1162bbecd182</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>4.7k 1% RESET_CANDIDATE</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>8567e4b7-8486-4662-8003-d893a743ed1d</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>f1d2d746-1036-4640-9d2e-c77556b10c10</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10k 1% INITIAL_100kHz</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>d15c6272-0dd7-42aa-8d2e-d0161f9fe61a</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>10k 1% INITIAL_100kHz</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>ea548c8c-141e-4a75-b2e8-d4f70d4e7c28</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10k 1% INITIAL_100kHz</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>7a640888-67d2-49b1-9330-91f6a8f1f20f</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>10k 1% INITIAL_100kHz</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="safe_bias_interfaces"/>
+      <property name="Sheetfile" value="safe_bias_interfaces.kicad_sch"/>
+      <sheetpath names="/safe_bias_interfaces/" tstamps="/8104da8f-6cf9-427b-9f28-cb894ad3b690/"/>
+      <tstamps>5c83d41a-34f8-4882-82d8-c19b3a531f6c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Pen" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="OPEN_LINK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPEN_LINK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="PMV30UN2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PMV30UN2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="PORT18">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PORT18</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="PORT20">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PORT20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="SN74AXC4T245PWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AXC4T245PWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="1DIR" type="input"/>
+        <pin num="3" name="2DIR" type="input"/>
+        <pin num="4" name="1A1" type="bidirectional"/>
+        <pin num="5" name="1A2" type="bidirectional"/>
+        <pin num="6" name="2A1" type="bidirectional"/>
+        <pin num="7" name="2A2" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="2B2" type="bidirectional"/>
+        <pin num="11" name="2B1" type="bidirectional"/>
+        <pin num="12" name="1B2" type="bidirectional"/>
+        <pin num="13" name="1B1" type="bidirectional"/>
+        <pin num="14" name="2OE_N" type="input"/>
+        <pin num="15" name="1OE_N" type="input"/>
+        <pin num="16" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="SN74AXC8T245PWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AXC8T245PWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="DIR1" type="input"/>
+        <pin num="3" name="A1" type="bidirectional"/>
+        <pin num="4" name="A2" type="bidirectional"/>
+        <pin num="5" name="A3" type="bidirectional"/>
+        <pin num="6" name="A4" type="bidirectional"/>
+        <pin num="7" name="A5" type="bidirectional"/>
+        <pin num="8" name="A6" type="bidirectional"/>
+        <pin num="9" name="A7" type="bidirectional"/>
+        <pin num="10" name="A8" type="bidirectional"/>
+        <pin num="11" name="DIR2" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="B8" type="bidirectional"/>
+        <pin num="15" name="B7" type="bidirectional"/>
+        <pin num="16" name="B6" type="bidirectional"/>
+        <pin num="17" name="B5" type="bidirectional"/>
+        <pin num="18" name="B4" type="bidirectional"/>
+        <pin num="19" name="B3" type="bidirectional"/>
+        <pin num="20" name="B2" type="bidirectional"/>
+        <pin num="21" name="B1" type="bidirectional"/>
+        <pin num="22" name="OE_N" type="input"/>
+        <pin num="23" name="VCCB" type="power_in"/>
+        <pin num="24" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="TCA9517DGKR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9517DGKR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="SCLA" type="bidirectional"/>
+        <pin num="3" name="SDAA" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="SDAB" type="bidirectional"/>
+        <pin num="7" name="SCLB" type="bidirectional"/>
+        <pin num="8" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Pen">
+      <uri>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/camera_isolation/Pen.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3_AON" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="1DIR" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="2DIR" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="2" name="CAM_BUS_EN" class="Default">
+      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="CAM_D0" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="CAM_D1" class="Default">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="CAM_D2" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="CAM_D3" class="Default">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="CAM_D4" class="Default">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="CAM_D5" class="Default">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="CAM_D6" class="Default">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="CAM_D7" class="Default">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="CAM_HREF" class="Default">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="2A1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="CAM_IO_EN" class="Default">
+      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="CAM_ISO_OE_N" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="OE_N" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="2OE_N" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="1OE_N" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="2OE_N" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="1OE_N" pintype="input"/>
+    </net>
+    <net code="14" name="CAM_PCLK" class="Default">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="1A1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="CAM_PWDN_UART_RX" class="Default">
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="2A1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="CAM_RESET_UART_TX" class="Default">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="1A2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="CAM_SCL" class="Default">
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="SCLB" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="CAM_SDA" class="Default">
+      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="SDAB" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="CAM_VSYNC" class="Default">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="1A2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="CAM_XCLK" class="Default">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="1A1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="DIR2" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="DIR1" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="1DIR" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="2DIR" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="22" name="IO_ENABLE_LINK" class="Default">
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="ISO_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="SCCB_ENABLE_LINK" class="Default">
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="SCCB_EN_SAFE" class="Default">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="26" name="SENS_D0" class="Default">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="SENS_D1" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="SENS_D2" class="Default">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="B3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="SENS_D3" class="Default">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="B4" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="SENS_D4" class="Default">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="B5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="SENS_D5" class="Default">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="B6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="SENS_D6" class="Default">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="B7" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="SENS_D7" class="Default">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="B8" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="SENS_EXTCLK" class="Default">
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="1B1" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="SENS_HREF" class="Default">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="R34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="2B1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="SENS_PCLK" class="Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="1B1" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="SENS_SCL" class="Default">
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="R42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="SCLA" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="SENS_SDA" class="Default">
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="R43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SDAA" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="SENS_TRIG_IN" class="Default">
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="2B1" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="SENS_VIO_1V8" class="Default">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="R42" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VCCA" pintype="power_in"/>
+    </net>
+    <net code="41" name="SENS_VSYNC" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="1B2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="SENS_XSHUTDN_N" class="Default">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="1B2" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="UNUSED_A_INPUT" class="Default">
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="2A2" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="UNUSED_B_INPUT" class="Default">
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="2B2" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U2-2A2-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="2A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-2B2-Pad10)" class="Default">
+      <node ref="U3" pin="10" pinfunction="2B2" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

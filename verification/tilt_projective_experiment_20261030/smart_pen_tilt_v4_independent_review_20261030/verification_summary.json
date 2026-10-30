@@ -1,0 +1,42 @@
+{
+  "decision": "NOT_ADOPTED",
+  "freeze_manifest_sha256": "14d0db5c3b3dd96b6b70d3e9afa349d3afc2eeeba85e729ec68a402868ae5384",
+  "manifest_files_checked": 462,
+  "all_actual_files_unchanged": 465,
+  "legacy_files_checked": 394,
+  "semantic_reproduction": {
+    "candidate_eight.json": true,
+    "candidate_eight_oracle.json": true,
+    "heldout_results.json": true,
+    "regression_results.json": true,
+    "regression_summary.json": true,
+    "legacy44_results.json": true,
+    "heldout_oracle_selftest.json": true,
+    "support_oracle_selftest.json": true
+  },
+  "eight": {
+    "n": 8,
+    "accepted": 6
+  },
+  "heldout": {
+    "n": 120,
+    "correct": 37,
+    "rejected": 83
+  },
+  "regression": {
+    "n": 408,
+    "correct": 225,
+    "quality_contract_violations": 3,
+    "rejected": 180
+  },
+  "old_abi_cold": 44,
+  "old_abi_warm": 12,
+  "host_tests": 85,
+  "host_skips": 0,
+  "reproduce_exit": 1,
+  "expected_red_gate": "three original must_reject edge_stroke accepts; coordinate/symbol/orientation correct",
+  "independent_numerical_checks": 39,
+  "asan_ubsan_pass": true,
+  "lsan_tested": false,
+  "hardware_sdk_performance_tested": false
+}

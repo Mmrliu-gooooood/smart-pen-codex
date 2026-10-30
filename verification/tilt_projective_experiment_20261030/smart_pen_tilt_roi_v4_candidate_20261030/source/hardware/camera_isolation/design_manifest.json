@@ -1,0 +1,798 @@
+[
+  {
+    "sheet": "dvp_translation",
+    "ref": "U1",
+    "value": "SN74AXC8T245PWR",
+    "lib": "SN74AXC8T245PWR",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND",
+      "11": "GND",
+      "12": "GND",
+      "13": "GND",
+      "22": "CAM_ISO_OE_N",
+      "23": "SENS_VIO_1V8",
+      "24": "SENS_VIO_1V8",
+      "3": "CAM_D0",
+      "21": "SENS_D0",
+      "4": "CAM_D1",
+      "20": "SENS_D1",
+      "5": "CAM_D2",
+      "19": "SENS_D2",
+      "6": "CAM_D3",
+      "18": "SENS_D3",
+      "7": "CAM_D4",
+      "17": "SENS_D4",
+      "8": "CAM_D5",
+      "16": "SENS_D5",
+      "9": "CAM_D6",
+      "15": "SENS_D6",
+      "10": "CAM_D7",
+      "14": "SENS_D7"
+    },
+    "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "U2",
+    "value": "SN74AXC4T245PWR",
+    "lib": "SN74AXC4T245PWR",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "GND",
+      "4": "CAM_PCLK",
+      "5": "CAM_VSYNC",
+      "6": "CAM_HREF",
+      "7": null,
+      "8": "GND",
+      "9": "GND",
+      "10": "UNUSED_B_INPUT",
+      "11": "SENS_HREF",
+      "12": "SENS_VSYNC",
+      "13": "SENS_PCLK",
+      "14": "CAM_ISO_OE_N",
+      "15": "CAM_ISO_OE_N",
+      "16": "SENS_VIO_1V8"
+    },
+    "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "#FLG01",
+    "value": "EXTERNAL_QUALIFIED_SUPPLY",
+    "lib": "PWR_FLAG",
+    "nets": {
+      "1": "3V3_AON"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "#FLG02",
+    "value": "EXTERNAL_QUALIFIED_SUPPLY",
+    "lib": "PWR_FLAG",
+    "nets": {
+      "1": "SENS_VIO_1V8"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "#FLG03",
+    "value": "EXTERNAL_QUALIFIED_SUPPLY",
+    "lib": "PWR_FLAG",
+    "nets": {
+      "1": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "C1",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "C2",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "SENS_VIO_1V8",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "C3",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "C4",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "SENS_VIO_1V8",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "R6",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "UNUSED_B_INPUT",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "dvp_translation",
+    "ref": "R7",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "UNUSED_A_INPUT",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "U3",
+    "value": "SN74AXC4T245PWR",
+    "lib": "SN74AXC4T245PWR",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "3V3_AON",
+      "3": "3V3_AON",
+      "4": "CAM_XCLK",
+      "5": "CAM_RESET_UART_TX",
+      "6": "CAM_PWDN_UART_RX",
+      "7": "UNUSED_A_INPUT",
+      "8": "GND",
+      "9": "GND",
+      "10": null,
+      "11": "SENS_TRIG_IN",
+      "12": "SENS_XSHUTDN_N",
+      "13": "SENS_EXTCLK",
+      "14": "CAM_ISO_OE_N",
+      "15": "CAM_ISO_OE_N",
+      "16": "SENS_VIO_1V8"
+    },
+    "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "U4",
+    "value": "TCA9517DGKR",
+    "lib": "TCA9517DGKR",
+    "nets": {
+      "1": "SENS_VIO_1V8",
+      "2": "SENS_SCL",
+      "3": "SENS_SDA",
+      "4": "GND",
+      "5": "SCCB_EN_SAFE",
+      "6": "CAM_SDA",
+      "7": "CAM_SCL",
+      "8": "3V3_AON"
+    },
+    "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "JP1",
+    "value": "DNP_IO_COMMISSION",
+    "lib": "OPEN_LINK",
+    "nets": {
+      "1": "CAM_IO_EN",
+      "2": "IO_ENABLE_LINK"
+    },
+    "footprint": "",
+    "dnp": true
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "R1",
+    "value": "1k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "IO_ENABLE_LINK",
+      "2": "ISO_GATE"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "Q1",
+    "value": "PMV30UN2",
+    "lib": "PMV30UN2",
+    "nets": {
+      "1": "ISO_GATE",
+      "2": "GND",
+      "3": "CAM_ISO_OE_N"
+    },
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "R2",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "ISO_GATE",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "R3",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_ISO_OE_N",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "JP2",
+    "value": "DNP_SCCB_COMMISSION",
+    "lib": "OPEN_LINK",
+    "nets": {
+      "1": "CAM_BUS_EN",
+      "2": "SCCB_ENABLE_LINK"
+    },
+    "footprint": "",
+    "dnp": true
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "R4",
+    "value": "100R 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SCCB_ENABLE_LINK",
+      "2": "SCCB_EN_SAFE"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "R5",
+    "value": "4.7k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SCCB_EN_SAFE",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "C5",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "C6",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "SENS_VIO_1V8",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "C7",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "controls_sccb",
+    "ref": "C8",
+    "value": "100n X7R",
+    "lib": "C",
+    "nets": {
+      "1": "SENS_VIO_1V8",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "J1",
+    "value": "HOST_3V3_SEMANTIC",
+    "lib": "PORT20",
+    "nets": {
+      "1": "CAM_D0",
+      "2": "CAM_D1",
+      "3": "CAM_D2",
+      "4": "CAM_D3",
+      "5": "CAM_D4",
+      "6": "CAM_D5",
+      "7": "CAM_D6",
+      "8": "CAM_D7",
+      "9": "CAM_PCLK",
+      "10": "CAM_VSYNC",
+      "11": "CAM_HREF",
+      "12": "CAM_XCLK",
+      "13": "CAM_RESET_UART_TX",
+      "14": "CAM_PWDN_UART_RX",
+      "15": "CAM_SCL",
+      "16": "CAM_SDA",
+      "17": "CAM_IO_EN",
+      "18": "CAM_BUS_EN",
+      "19": "3V3_AON",
+      "20": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "J2",
+    "value": "SENSOR_1V8_SEMANTIC_NOT_FPC",
+    "lib": "PORT18",
+    "nets": {
+      "1": "SENS_D0",
+      "2": "SENS_D1",
+      "3": "SENS_D2",
+      "4": "SENS_D3",
+      "5": "SENS_D4",
+      "6": "SENS_D5",
+      "7": "SENS_D6",
+      "8": "SENS_D7",
+      "9": "SENS_PCLK",
+      "10": "SENS_VSYNC",
+      "11": "SENS_HREF",
+      "12": "SENS_EXTCLK",
+      "13": "SENS_XSHUTDN_N",
+      "14": "SENS_TRIG_IN",
+      "15": "SENS_SCL",
+      "16": "SENS_SDA",
+      "17": "SENS_VIO_1V8",
+      "18": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R10",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D0",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R11",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D1",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R12",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D2",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R13",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D3",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R14",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D4",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R15",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D5",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R16",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D6",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R17",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_D7",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R18",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_PCLK",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R19",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_VSYNC",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R20",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_HREF",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R21",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_XCLK",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R22",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_RESET_UART_TX",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R23",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_PWDN_UART_RX",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R24",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D0",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R25",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D1",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R26",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D2",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R27",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D3",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R28",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D4",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R29",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D5",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R30",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D6",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R31",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_D7",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R32",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_PCLK",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R33",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_VSYNC",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R34",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_HREF",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R35",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_EXTCLK",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R36",
+    "value": "4.7k 1% RESET_CANDIDATE",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_XSHUTDN_N",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R37",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_TRIG_IN",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R40",
+    "value": "10k 1% INITIAL_100kHz",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_SCL",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R41",
+    "value": "10k 1% INITIAL_100kHz",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_SDA",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R42",
+    "value": "10k 1% INITIAL_100kHz",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_SCL",
+      "2": "SENS_VIO_1V8"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "safe_bias_interfaces",
+    "ref": "R43",
+    "value": "10k 1% INITIAL_100kHz",
+    "lib": "R",
+    "nets": {
+      "1": "SENS_SDA",
+      "2": "SENS_VIO_1V8"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  }
+]

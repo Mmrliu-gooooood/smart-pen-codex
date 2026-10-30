@@ -1,0 +1,516 @@
+[
+  {
+    "sheet": "mcu_core",
+    "ref": "U1",
+    "value": "ESP32-S3-PICO-1-N8R8",
+    "lib": "ESP32-S3-PICO-1-N8R8",
+    "nets": {
+      "2": "3V3_AON",
+      "3": "3V3_AON",
+      "20": "3V3_AON",
+      "55": "3V3_AON",
+      "56": "3V3_AON",
+      "46": "3V3_AON",
+      "1": "RF_SIP",
+      "4": "CHIP_EN",
+      "5": "BOOT_N",
+      "8": "STRAP_GPIO3",
+      "51": "STRAP_GPIO45",
+      "52": "STRAP_GPIO46",
+      "57": "GND",
+      "6": "PICKUP_INT_N",
+      "7": "NIB_CONTACT_N",
+      "9": "BATTERY_ADC",
+      "10": "AON_I2C_SCL",
+      "11": "AON_I2C_SDA",
+      "12": "CAM_D0",
+      "13": "CAM_D1",
+      "14": "CAM_D2",
+      "15": "CAM_D3",
+      "16": "CAM_D4",
+      "17": "CAM_D5",
+      "18": "CAM_D6",
+      "19": "CAM_D7",
+      "21": "CAM_PCLK",
+      "22": "CAM_VSYNC",
+      "23": "CAM_HREF",
+      "24": "USB_EN1",
+      "25": "USB_DM_MCU",
+      "26": "USB_DP_MCU",
+      "27": "USB_EN2",
+      "36": "ILLUM_STROBE",
+      "37": "CAM_BUS_EN",
+      "43": "CAM_XCLK",
+      "44": "CAM_SCL",
+      "45": "CAM_SDA",
+      "47": "CAM_PWR_EN",
+      "48": "CAM_IO_EN",
+      "49": "CAM_RESET_UART_TX",
+      "50": "CAM_PWDN_UART_RX"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R1",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CHIP_EN",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R2",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "BOOT_N",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R3",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "STRAP_GPIO3",
+      "2": "3V3_AON"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R4",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "STRAP_GPIO45",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R5",
+    "value": "10k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "STRAP_GPIO46",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C1",
+    "value": "1u",
+    "lib": "C",
+    "nets": {
+      "1": "CHIP_EN",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "SW1",
+    "value": "RESET",
+    "lib": "SW_NO",
+    "nets": {
+      "1": "CHIP_EN",
+      "2": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "SW2",
+    "value": "BOOT",
+    "lib": "SW_NO",
+    "nets": {
+      "1": "BOOT_N",
+      "2": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C2",
+    "value": "22u",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C3",
+    "value": "100n",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C4",
+    "value": "100n",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C5",
+    "value": "100n",
+    "lib": "C",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R6",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_PWR_EN",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R7",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_IO_EN",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R8",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "CAM_BUS_EN",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "R9",
+    "value": "100k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "ILLUM_STROBE",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "L1",
+    "value": "RF_MATCH_TBD",
+    "lib": "L",
+    "nets": {
+      "1": "RF_SIP",
+      "2": "RF_ANT"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C6",
+    "value": "DNP RF_TUNE",
+    "lib": "C",
+    "nets": {
+      "1": "RF_SIP",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "C7",
+    "value": "DNP RF_TUNE",
+    "lib": "C",
+    "nets": {
+      "1": "RF_ANT",
+      "2": "GND"
+    },
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": "mcu_core",
+    "ref": "AE1",
+    "value": "ANTENNA_TBD_NO_FOOTPRINT",
+    "lib": "PORT2",
+    "nets": {
+      "1": "RF_ANT",
+      "2": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J1",
+    "value": "USB4105-GF-A16P",
+    "lib": "USB4105-GF-A16P",
+    "nets": {
+      "A1": "GND",
+      "A4": "VBUS_5V",
+      "A5": "USB_CC1",
+      "A6": "USB_DP",
+      "A7": "USB_DM",
+      "A8": null,
+      "A9": "VBUS_5V",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "VBUS_5V",
+      "B5": "USB_CC2",
+      "B6": "USB_DP",
+      "B7": "USB_DM",
+      "B8": null,
+      "B9": "VBUS_5V",
+      "B12": "GND",
+      "S1": "GND"
+    },
+    "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "U2",
+    "value": "TPD4E05U06DQAR",
+    "lib": "TPD4E05U06DQAR",
+    "nets": {
+      "1": "USB_DP",
+      "2": "USB_DM",
+      "3": "GND",
+      "4": "USB_CC1",
+      "5": "USB_CC2",
+      "8": "GND"
+    },
+    "footprint": "Package_SON:USON-10_2.5x1.0mm_P0.5mm",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R10",
+    "value": "5.1k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R11",
+    "value": "5.1k 1%",
+    "lib": "R",
+    "nets": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R12",
+    "value": "22R SI_TBD",
+    "lib": "R",
+    "nets": {
+      "1": "USB_DP",
+      "2": "USB_DP_MCU"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "R13",
+    "value": "22R SI_TBD",
+    "lib": "R",
+    "nets": {
+      "1": "USB_DM",
+      "2": "USB_DM_MCU"
+    },
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "D1",
+    "value": "TPD1E10B06DYAR",
+    "lib": "TVS_BIDIR",
+    "nets": {
+      "1": "VBUS_5V",
+      "2": "GND"
+    },
+    "footprint": "Diode_SMD:D_SOD-523",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J2",
+    "value": "LOGICAL_CAMERA_ONLY_NOT_FPC",
+    "lib": "PORT20",
+    "nets": {
+      "1": "CAM_D0",
+      "2": "CAM_D1",
+      "3": "CAM_D2",
+      "4": "CAM_D3",
+      "5": "CAM_D4",
+      "6": "CAM_D5",
+      "7": "CAM_D6",
+      "8": "CAM_D7",
+      "9": "CAM_PCLK",
+      "10": "CAM_VSYNC",
+      "11": "CAM_HREF",
+      "12": "CAM_XCLK",
+      "13": "CAM_SCL",
+      "14": "CAM_SDA",
+      "15": "CAM_RESET_UART_TX",
+      "16": "CAM_PWDN_UART_RX",
+      "17": "CAM_PWR_EN",
+      "18": "CAM_IO_EN",
+      "19": "CAM_BUS_EN",
+      "20": "ILLUM_STROBE"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J3",
+    "value": "PICKUP_INTERNAL",
+    "lib": "PORT6",
+    "nets": {
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "AON_I2C_SCL",
+      "4": "AON_I2C_SDA",
+      "5": "PICKUP_INT_N",
+      "6": "NIB_CONTACT_N"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J4",
+    "value": "UART_TEST_CAMERA_OFF_ONLY",
+    "lib": "PORT3",
+    "nets": {
+      "1": "CAM_RESET_UART_TX",
+      "2": "CAM_PWDN_UART_RX",
+      "3": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J5",
+    "value": "ADC_SAFE_EXTERNAL_ONLY",
+    "lib": "PORT2",
+    "nets": {
+      "1": "BATTERY_ADC",
+      "2": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J6",
+    "value": "POWER_CORE",
+    "lib": "PORT3",
+    "nets": {
+      "1": "VBUS_5V",
+      "2": "3V3_AON",
+      "3": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "J7",
+    "value": "CHARGER_MODE",
+    "lib": "PORT3",
+    "nets": {
+      "1": "USB_EN1",
+      "2": "USB_EN2",
+      "3": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "#FLG01",
+    "value": "PWR_FLAG",
+    "lib": "PWR_FLAG",
+    "nets": {
+      "1": "3V3_AON"
+    },
+    "footprint": "",
+    "dnp": false
+  },
+  {
+    "sheet": "usb_entry",
+    "ref": "#FLG02",
+    "value": "PWR_FLAG",
+    "lib": "PWR_FLAG",
+    "nets": {
+      "1": "GND"
+    },
+    "footprint": "",
+    "dnp": false
+  }
+]

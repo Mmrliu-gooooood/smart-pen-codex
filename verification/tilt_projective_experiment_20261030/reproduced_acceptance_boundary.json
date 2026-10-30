@@ -1,0 +1,42 @@
+{
+  "decision": "NOT_ADOPTED",
+  "actual_full_exit": 1,
+  "only_failed_gate": [
+    "EXIT 1: /workspace/scratch/fe148e758944/smart_pen_host_venv_20261028/bin/python run_regression.py"
+  ],
+  "eight": [
+    6,
+    2
+  ],
+  "heldout": [
+    37,
+    83
+  ],
+  "regression": {
+    "correct": 225,
+    "quality_contract_violations": 3,
+    "rejected": 180,
+    "coordinate_errors": 0
+  },
+  "legacy_cold": 44,
+  "legacy_warm": 12,
+  "host_tests": 85,
+  "host_skips": 0,
+  "independent_numeric_ASan_UBSan_checks": 39,
+  "LSan_tested": false,
+  "SDK_or_hardware_tested": false,
+  "semantic_equality_ignoring_only_host_timing": {
+    "candidate_eight.json": true,
+    "candidate_eight_oracle.json": true,
+    "heldout_results.json": true,
+    "regression_results.json": true,
+    "regression_summary.json": true,
+    "legacy44_results.json": true,
+    "heldout_oracle_selftest.json": true,
+    "support_oracle_selftest.json": true
+  },
+  "publication_reconstructs_exact_candidate_files": 465,
+  "publication_reconstructs_exact_old_V3_files": 394,
+  "excluded_review_host_ELF_bytes": 493624,
+  "old_union_preserved": 10861
+}
