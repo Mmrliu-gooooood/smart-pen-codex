@@ -1,0 +1,108 @@
+{
+  "status": "THREE_NATIVE_REMOVAL_CASES_REJECTED",
+  "cases": [
+    {
+      "net": "USB_DP",
+      "removed_uuid": "0a76bb91-a6a4-47df-9042-f41dd9b28567",
+      "strict_drc": [
+        2,
+        234,
+        0
+      ],
+      "matching_unconnected_findings": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Track [USB_DP] on F.Cu, length 1.9799 mm",
+              "pos": {
+                "x": 13.4,
+                "y": 17.8
+              },
+              "uuid": "db36d39d-117a-4915-92d3-a7b55c2fcb72"
+            },
+            {
+              "description": "Track [USB_DP] on F.Cu, length 1.0960 mm",
+              "pos": {
+                "x": 12.625,
+                "y": 14.0
+              },
+              "uuid": "bdf6f8a6-3984-494a-99a8-6ed1dd17dde2"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    },
+    {
+      "net": "CAM_ON",
+      "removed_uuid": "69ad6001-ac7e-42e9-abf0-7cfd8b64c920",
+      "strict_drc": [
+        1,
+        234,
+        0
+      ],
+      "matching_unconnected_findings": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Track [CAM_ON] on F.Cu, length 2.7336 mm",
+              "pos": {
+                "x": 6.65,
+                "y": 70.9
+              },
+              "uuid": "f50aa801-170b-4339-91cd-374a0faa5f75"
+            },
+            {
+              "description": "Track [CAM_ON] on F.Cu, length 1.5524 mm",
+              "pos": {
+                "x": 8.4,
+                "y": 67.95
+              },
+              "uuid": "b12b6f66-2a7b-42dc-beba-81bbcea722eb"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "removed_uuid": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "strict_drc": [
+        1,
+        234,
+        0
+      ],
+      "matching_unconnected_findings": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Track [CAM_3V3_PRELINK] on In2.Cu, length 0.7000 mm",
+              "pos": {
+                "x": 10.4,
+                "y": 72.6
+              },
+              "uuid": "00a07bd2-54a7-410a-b042-d1e57d18d34e"
+            },
+            {
+              "description": "Track [CAM_3V3_PRELINK] on B.Cu, length 0.3000 mm",
+              "pos": {
+                "x": 10.4,
+                "y": 73.3
+              },
+              "uuid": "541a16d9-509c-4de0-beb8-3f31d2919c95"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    }
+  ],
+  "final_native_unchanged": true
+}

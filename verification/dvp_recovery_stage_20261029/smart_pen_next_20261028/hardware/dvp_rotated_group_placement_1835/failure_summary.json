@@ -1,0 +1,87 @@
+{
+  "status": "STOPPED_BOUNDED_LOCAL_PLANNING_NOT_IMPOSSIBILITY_PROOF",
+  "cases": [
+    {
+      "file": "source_trial/rejected_late_entry.json",
+      "configuration": "all tongue starts59mm, fails afterD0",
+      "found": [
+        "SENS_D0"
+      ],
+      "failed": [
+        {
+          "net": "SENS_D1",
+          "reason": "bounded/exhausted 3196720"
+        }
+      ],
+      "not_native_accepted": true
+    },
+    {
+      "file": "source_trial/rejected_coplanar_port_starts.json",
+      "configuration": "data tongue starts38.1 uniformly; artificial group barrier",
+      "found": [
+        "SENS_D0"
+      ],
+      "failed": [
+        {
+          "net": "SENS_D1",
+          "reason": "bounded/exhausted 3103350"
+        }
+      ],
+      "not_native_accepted": true
+    },
+    {
+      "file": "source_trial/rejected_unplanned_source_vias.json",
+      "configuration": "data tongue starts38.0+.3*(index%4), no grouped source vias",
+      "found": [
+        "SENS_D0",
+        "SENS_D1",
+        "SENS_D2",
+        "SENS_D3",
+        "SENS_D4",
+        "SENS_D5"
+      ],
+      "failed": [
+        {
+          "net": "SENS_D6",
+          "reason": "bounded/exhausted 3059826"
+        }
+      ],
+      "not_native_accepted": true
+    },
+    {
+      "file": "source_trial/rejected_0p3_entry_pitch_with_vias.json",
+      "configuration": "same .3 entry pitch with8 grouped source vias",
+      "found": [
+        "SENS_D0",
+        "SENS_D1",
+        "SENS_D2",
+        "SENS_D3",
+        "SENS_D4",
+        "SENS_D5"
+      ],
+      "failed": [
+        {
+          "net": "SENS_D6",
+          "reason": "bounded/exhausted 3049288"
+        }
+      ],
+      "not_native_accepted": true
+    },
+    {
+      "file": "source_trial/progress.json",
+      "configuration": "data .65 entry pitch with8 grouped source vias; final stopped",
+      "found": [
+        "SENS_D0",
+        "SENS_D1"
+      ],
+      "failed": [
+        {
+          "net": "SENS_D2",
+          "reason": "bounded/exhausted 3083466"
+        }
+      ],
+      "not_native_accepted": true
+    }
+  ],
+  "scope": "12 endpoint role/model comparisons only; not full electrical placement qualification"
+}

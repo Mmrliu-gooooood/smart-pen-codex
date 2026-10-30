@@ -1,0 +1,126 @@
+{
+  "source_sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+  "cases": [
+    {
+      "ref": "R206",
+      "XY_budget": [
+        2.45,
+        0.95
+      ],
+      "target": "REF_HousingRight",
+      "height_sensitivity_NOT_part_choice": [
+        {
+          "height": 0.1,
+          "volume": 0.0
+        },
+        {
+          "height": 0.3,
+          "volume": 0.0
+        },
+        {
+          "height": 0.414,
+          "volume": 0.0
+        },
+        {
+          "height": 0.415,
+          "volume": 0.0
+        },
+        {
+          "height": 0.464,
+          "volume": 0.0
+        },
+        {
+          "height": 0.465,
+          "volume": 3.8003849637433876e-05
+        },
+        {
+          "height": 0.55,
+          "volume": 0.01565675384963506
+        },
+        {
+          "height": 0.7,
+          "volume": 0.043219253849630865
+        },
+        {
+          "height": 1.45,
+          "volume": 0.18103175384960998
+        },
+        {
+          "height": 2,
+          "volume": 0.2820942538495946
+        }
+      ]
+    },
+    {
+      "ref": "J107.2",
+      "XY_budget": [
+        1.8,
+        2.2
+      ],
+      "target": "Lower_common_datum_STUDY",
+      "height_sensitivity_NOT_part_choice": [
+        {
+          "height": 0.1,
+          "volume": 0.0
+        },
+        {
+          "height": 0.3,
+          "volume": 0.0
+        },
+        {
+          "height": 0.414,
+          "volume": 0.0
+        },
+        {
+          "height": 0.415,
+          "volume": 2.5852958937024883e-06
+        },
+        {
+          "height": 0.464,
+          "volume": 0.0006150852958937114
+        },
+        {
+          "height": 0.465,
+          "volume": 0.0006275852958937115
+        },
+        {
+          "height": 0.55,
+          "volume": 0.0016900852958937262
+        },
+        {
+          "height": 0.7,
+          "volume": 0.003565085295893752
+        },
+        {
+          "height": 1.45,
+          "volume": 0.012940085295893886
+        },
+        {
+          "height": 2,
+          "volume": 0.019815085295893986
+        }
+      ]
+    },
+    {
+      "ref": "R206_body_sensitivity",
+      "XY_sensitivity": [
+        1.6,
+        0.8
+      ],
+      "height": 0.55,
+      "volume": 0.0,
+      "NOT_selected": true
+    },
+    {
+      "ref": "J107_copper_XY_with_2mm_termination_sensitivity",
+      "XY_sensitivity": [
+        1.4,
+        1.8
+      ],
+      "height": 2,
+      "volume": 0.0,
+      "NOT_selected": true
+    }
+  ],
+  "separated_control_volume": 0.0
+}

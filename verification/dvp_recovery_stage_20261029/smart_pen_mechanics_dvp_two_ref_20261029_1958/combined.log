@@ -1,0 +1,338 @@
+{
+  "status": "TWO_REF_NOMINAL_CLEARANCE_CANDIDATE_ONLY_NOFAB",
+  "R206_pose": [
+    9,
+    46,
+    0,
+    "B.Cu"
+  ],
+  "J107_pose": [
+    3.2,
+    84,
+    180,
+    "B.Cu"
+  ],
+  "J107_pads": [
+    [
+      2,
+      81.5
+    ],
+    [
+      2,
+      83.9
+    ],
+    [
+      2,
+      86.3
+    ]
+  ],
+  "contexts": [
+    {
+      "context": "RevC",
+      "two_ref_collisions": [],
+      "nearest_non_board": [
+        {
+          "moved": "CTX_J107.2",
+          "other": "CTX_J107.3",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "CTX_J107.3",
+          "other": "CTX_J107.2",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "CTX_J107.1",
+          "other": "CTX_J107.2",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "CTX_J107.2",
+          "other": "CTX_J107.1",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "CTX_R206",
+          "other": "M1p6x8_at_78",
+          "distance_mm": 0.6027493689319671
+        },
+        {
+          "moved": "CTX_R206",
+          "other": "CTX_power",
+          "distance_mm": 0.6046693311223963
+        },
+        {
+          "moved": "CTX_R206",
+          "other": "HousingRight",
+          "distance_mm": 0.8794167436004379
+        },
+        {
+          "moved": "CTX_R206",
+          "other": "CTX_U202",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "CTX_J107.3",
+          "other": "CTX_R501_dd55",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "CTX_J107.1",
+          "other": "CTX_U501",
+          "distance_mm": 0.9313431161500042
+        },
+        {
+          "moved": "CTX_J107.2",
+          "other": "CTX_U501",
+          "distance_mm": 0.9313431161500042
+        },
+        {
+          "moved": "CTX_R206",
+          "other": "CTX_R226",
+          "distance_mm": 1.0500000000000114
+        }
+      ],
+      "all29_ref_remaining_collisions": [],
+      "negative_controls": [
+        {
+          "ref": "R206",
+          "restored_predecessor_collision_mm3": 0.1810317538496099
+        }
+      ]
+    },
+    {
+      "context": "RevD_BENCH",
+      "two_ref_collisions": [],
+      "nearest_non_board": [
+        {
+          "moved": "REF_CTX_J107_2",
+          "other": "REF_CTX_J107_3",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107_3",
+          "other": "REF_CTX_J107_2",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107_1",
+          "other": "REF_CTX_J107_2",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_J107_2",
+          "other": "REF_CTX_J107_1",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_M1p6x8_at_78",
+          "distance_mm": 0.6027493689319671
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_power",
+          "distance_mm": 0.6046693311223963
+        },
+        {
+          "moved": "REF_CTX_J107_1",
+          "other": "Common_base",
+          "distance_mm": 0.8499999999999996
+        },
+        {
+          "moved": "REF_CTX_J107_2",
+          "other": "Common_base",
+          "distance_mm": 0.8499999999999996
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_HousingRight",
+          "distance_mm": 0.8794167436004379
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_U202",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107_3",
+          "other": "REF_CTX_R501_dd55",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107_1",
+          "other": "REF_CTX_U501",
+          "distance_mm": 0.9313431161500042
+        }
+      ],
+      "all29_ref_remaining_collisions": [
+        {
+          "moved": "REF_CTX_R222",
+          "other": "Cassette_top_collar",
+          "volume_mm3": 0.5552262731829058
+        }
+      ],
+      "negative_controls": [
+        {
+          "ref": "R206",
+          "restored_predecessor_collision_mm3": 0.1810317538496099
+        }
+      ]
+    },
+    {
+      "context": "ACCESS19",
+      "two_ref_collisions": [],
+      "nearest_non_board": [
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "REF_CTX_J107.3",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107.3",
+          "other": "REF_CTX_J107.2",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "REF_CTX_J107.2",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "REF_CTX_J107.1",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "Lower_common_datum_STUDY",
+          "distance_mm": 0.4499999999999993
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "Lower_common_datum_STUDY",
+          "distance_mm": 0.49244289008980285
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_M1p6x8_at_78",
+          "distance_mm": 0.6027493689319671
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_power",
+          "distance_mm": 0.6046693311223963
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_HousingRight",
+          "distance_mm": 0.8794167436004379
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_U202",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107.3",
+          "other": "REF_CTX_R501_dd55",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "REF_CTX_U501",
+          "distance_mm": 0.9313431161500042
+        }
+      ],
+      "all29_ref_remaining_collisions": [],
+      "negative_controls": [
+        {
+          "ref": "R206",
+          "restored_predecessor_collision_mm3": 0.1810317538496099
+        },
+        {
+          "ref": "J107",
+          "restored_predecessor_collision_mm3": 0.01981508529589361
+        }
+      ]
+    },
+    {
+      "context": "ACCESS20",
+      "two_ref_collisions": [],
+      "nearest_non_board": [
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "REF_CTX_J107.3",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107.3",
+          "other": "REF_CTX_J107.2",
+          "distance_mm": 0.19999999999998863
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "REF_CTX_J107.2",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "REF_CTX_J107.1",
+          "distance_mm": 0.20000000000000284
+        },
+        {
+          "moved": "REF_CTX_J107.2",
+          "other": "Lower_common_datum_STUDY",
+          "distance_mm": 0.4499999999999993
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "Lower_common_datum_STUDY",
+          "distance_mm": 0.49244289008980285
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_M1p6x8_at_78",
+          "distance_mm": 0.6027493689319671
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_power",
+          "distance_mm": 0.6046693311223963
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_HousingRight",
+          "distance_mm": 0.8794167436004379
+        },
+        {
+          "moved": "REF_CTX_R206",
+          "other": "REF_CTX_U202",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107.3",
+          "other": "REF_CTX_R501_dd55",
+          "distance_mm": 0.9300000000000002
+        },
+        {
+          "moved": "REF_CTX_J107.1",
+          "other": "REF_CTX_U501",
+          "distance_mm": 0.9313431161500042
+        }
+      ],
+      "all29_ref_remaining_collisions": [],
+      "negative_controls": [
+        {
+          "ref": "R206",
+          "restored_predecessor_collision_mm3": 0.1810317538496099
+        },
+        {
+          "ref": "J107",
+          "restored_predecessor_collision_mm3": 0.01981508529589361
+        }
+      ]
+    }
+  ],
+  "scope": "full budgets retained; no real hardware/process/tolerance qualification; external bench R222 remains blocked"
+}

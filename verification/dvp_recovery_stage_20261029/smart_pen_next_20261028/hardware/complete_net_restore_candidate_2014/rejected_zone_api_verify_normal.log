@@ -1,0 +1,34 @@
+/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/complete_net_restore_candidate_2014/verify.py:58: SyntaxWarning: invalid decimal literal
+  source=row['translator_pin'];head='J202.'+row['J202_pin'];sp=[k for k,q in pads.items()if q.GetParentFootprint().GetReference()+'.'+q.GetNumber()==source];hp=[k for k,q in pads.items()if q.GetParentFootprint().GetReference()+'.'+q.GetNumber()==head];req(len(sp)==len(hp)==1and hp[0]in reaches(sp[0]),'12CHAIN '+row['net']);chain.append(row['net'])
+05:15:56: Debug: Adding duplicate image handler for 'PNG file'
+05:15:56: Debug: Adding duplicate image handler for 'JPEG file'
+05:15:56: Debug: Adding duplicate image handler for 'TIFF file'
+05:15:56: Debug: Adding duplicate image handler for 'GIF file'
+05:15:56: Debug: Adding duplicate image handler for 'PNM file'
+05:15:56: Debug: Adding duplicate image handler for 'PCX file'
+05:15:56: Debug: Adding duplicate image handler for 'IFF file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows icon file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:15:56: Debug: Adding duplicate image handler for 'TGA file'
+05:15:56: Debug: Adding duplicate image handler for 'XPM file'
+05:15:56: Debug: Adding duplicate image handler for 'PNG file'
+05:15:56: Debug: Adding duplicate image handler for 'JPEG file'
+05:15:56: Debug: Adding duplicate image handler for 'TIFF file'
+05:15:56: Debug: Adding duplicate image handler for 'GIF file'
+05:15:56: Debug: Adding duplicate image handler for 'PNM file'
+05:15:56: Debug: Adding duplicate image handler for 'PCX file'
+05:15:56: Debug: Adding duplicate image handler for 'IFF file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows icon file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:15:56: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:15:56: Debug: Adding duplicate image handler for 'TGA file'
+05:15:56: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/complete_net_restore_candidate_2014/verify.py", line 33, in <module>
+    b.BuildConnectivity();cn=b.GetConnectivity();ts={uid(t):t for t in b.GetTracks()};graph=collections.defaultdict(set);pads={uid(q):q for f in b.GetFootprints()for q in f.Pads()}
+                                                                       ~~~~~~~~~~~^^
+  File "/usr/lib/python3/dist-packages/pcbnew.py", line 20245, in GetTracks
+    def GetTracks(self):              return list(self.Tracks())
+                                             ~~~~^^^^^^^^^^^^^^^
+TypeError: 'SwigPyObject' object is not iterable

@@ -1,0 +1,1696 @@
+{
+  "status": "READONLY_NOFAB_NOT_A_ROUTED_BOARD",
+  "source_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "scan_scope": "native finite copper/pad gap <.15mm, full straight lanes y32..89; tail/fanout/reference and body not qualified",
+  "lanes": [
+    {
+      "layer": "F.Cu",
+      "x": 12.0,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "4eb44a34-62a5-4b1a-bfdc-2a8083ec1e11",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.25,
+            68.25
+          ]
+        },
+        {
+          "uuid": "5c039718-18a2-4c5a-a391-d92b714eaaef",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.25,
+            63.75
+          ]
+        },
+        {
+          "uuid": "d78c92fa-2f37-46b2-9d6b-64d8dd83b028",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.15,
+            62.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "F.Cu",
+      "x": 12.3,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "4eb44a34-62a5-4b1a-bfdc-2a8083ec1e11",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.25,
+            68.25
+          ]
+        },
+        {
+          "uuid": "5c039718-18a2-4c5a-a391-d92b714eaaef",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.25,
+            63.75
+          ]
+        },
+        {
+          "uuid": "d78c92fa-2f37-46b2-9d6b-64d8dd83b028",
+          "net": "CAM_IO_EN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.15,
+            62.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "F.Cu",
+      "x": 12.6,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "F.Cu",
+      "x": 12.9,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "F.Cu",
+      "x": 13.2,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "F.Cu",
+      "x": 13.5,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 12.0,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "164e3f76-3ab5-4cdc-917c-bf96026bbff7",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            64.475
+          ]
+        },
+        {
+          "uuid": "3b0e94e0-ccfb-470e-99a3-25756f5166ee",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.35,
+            29.075
+          ]
+        },
+        {
+          "uuid": "81a2d79a-a5e8-4ec7-a228-f6a1c173c902",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.85,
+            67.125
+          ]
+        },
+        {
+          "uuid": "86ba4d09-7602-4ee7-8a68-f46b8ea35695",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.85,
+            64.675
+          ]
+        },
+        {
+          "uuid": "a4e33fa7-42a7-4b05-a580-5434c3f659f0",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            38.925
+          ]
+        },
+        {
+          "uuid": "afde90b2-5953-43bf-b14e-d97484db855a",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            71.725
+          ]
+        },
+        {
+          "uuid": "de38b50f-94e7-49cd-926f-c0292deaa2c8",
+          "net": "PICKUP_INT_N",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.8,
+            64.525
+          ]
+        },
+        {
+          "uuid": "06f3219b-1b1e-4998-9ebc-09f212b12d58",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.125,
+            64.425
+          ]
+        },
+        {
+          "uuid": "100baf46-522f-4850-a747-415abe217d22",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.875,
+            33.675
+          ]
+        },
+        {
+          "uuid": "145f38a3-7609-4c83-9fdb-fa83dad14c78",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.875,
+            34.275
+          ]
+        },
+        {
+          "uuid": "1ed617fb-da1e-46e6-a695-7f22f5485aba",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.025,
+            37.975
+          ]
+        },
+        {
+          "uuid": "207cceed-6af6-4361-b754-e9b0a0cd8089",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.925,
+            75.4
+          ]
+        },
+        {
+          "uuid": "28f3199a-987d-4f93-b7aa-9ca8327a9d34",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.975,
+            36.15
+          ]
+        },
+        {
+          "uuid": "3b7ad40f-4e22-4dcc-957b-58a56d79ebac",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.1,
+            64.375
+          ]
+        },
+        {
+          "uuid": "49326a32-84ff-4d93-a9e1-242cf1a76ed6",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.95,
+            35.525
+          ]
+        },
+        {
+          "uuid": "4a7b44c6-411b-4814-8c47-4faab74c146f",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            36.775
+          ]
+        },
+        {
+          "uuid": "4c8b3536-b910-4557-8b88-960ec7684155",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.975,
+            36.75
+          ]
+        },
+        {
+          "uuid": "5a81514d-6a1b-436e-b9cc-65c78b1a62c1",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.05,
+            38.0
+          ]
+        },
+        {
+          "uuid": "63429003-b1f9-48ae-a649-cd57d5c950ed",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.775,
+            31.225
+          ]
+        },
+        {
+          "uuid": "766c3cee-f84b-4f07-a7b6-0d64dcc5a5bf",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.175,
+            72.5
+          ]
+        },
+        {
+          "uuid": "78ffdf6b-3338-4eeb-9c62-9ddc6a22cccc",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.025,
+            37.375
+          ]
+        },
+        {
+          "uuid": "7a115c19-da3c-447b-be43-1713ee329cbb",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.95,
+            36.125
+          ]
+        },
+        {
+          "uuid": "88894ce7-dc4b-4e06-b135-b36caf8eb483",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.775,
+            31.825
+          ]
+        },
+        {
+          "uuid": "8b6c3c37-64a9-4a48-9a04-20e40634dafb",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.8,
+            31.85
+          ]
+        },
+        {
+          "uuid": "90375756-2881-4919-b125-134d36ea795a",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.925,
+            73.0
+          ]
+        },
+        {
+          "uuid": "9fbd5951-ea90-4e98-aceb-f47948a8e174",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.85,
+            33.075
+          ]
+        },
+        {
+          "uuid": "ac73260f-6460-4030-93cd-9bfd34d882f8",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            76.625
+          ]
+        },
+        {
+          "uuid": "aed9c3eb-7aa2-4796-8de9-d2b0372ed010",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.9,
+            34.3
+          ]
+        },
+        {
+          "uuid": "b9221f29-dba4-4276-8e77-80015cdd16d7",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.1,
+            64.4
+          ]
+        },
+        {
+          "uuid": "bf4e0366-a909-4614-b7c0-faf4ddaf0a1b",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.825,
+            33.05
+          ]
+        },
+        {
+          "uuid": "bf7d8607-d14d-4ff2-a165-e2b100f74897",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.075,
+            38.6
+          ]
+        },
+        {
+          "uuid": "c233033a-7840-448f-9c42-0faca132bb97",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.825,
+            32.45
+          ]
+        },
+        {
+          "uuid": "ca5336fb-d4e3-4c48-bf17-e00a4e82e77f",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.7,
+            76.95
+          ]
+        },
+        {
+          "uuid": "ddc3a755-daa0-4cd4-b7d3-2f555e241dae",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.175,
+            64.575
+          ]
+        },
+        {
+          "uuid": "ddf3d4ca-4768-435c-8350-6a4132d23600",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.725,
+            76.775
+          ]
+        },
+        {
+          "uuid": "dfbaa95e-3f9f-49e4-b71e-696178c0b54f",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.075,
+            64.35
+          ]
+        },
+        {
+          "uuid": "ec236480-496c-4374-a082-adcda4685ed0",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.85,
+            33.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 12.3,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "06f3219b-1b1e-4998-9ebc-09f212b12d58",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.125,
+            64.425
+          ]
+        },
+        {
+          "uuid": "1ed617fb-da1e-46e6-a695-7f22f5485aba",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.025,
+            37.975
+          ]
+        },
+        {
+          "uuid": "3b7ad40f-4e22-4dcc-957b-58a56d79ebac",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.1,
+            64.375
+          ]
+        },
+        {
+          "uuid": "4a7b44c6-411b-4814-8c47-4faab74c146f",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            36.775
+          ]
+        },
+        {
+          "uuid": "5a81514d-6a1b-436e-b9cc-65c78b1a62c1",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.05,
+            38.0
+          ]
+        },
+        {
+          "uuid": "766c3cee-f84b-4f07-a7b6-0d64dcc5a5bf",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.175,
+            72.5
+          ]
+        },
+        {
+          "uuid": "78ffdf6b-3338-4eeb-9c62-9ddc6a22cccc",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.025,
+            37.375
+          ]
+        },
+        {
+          "uuid": "b9221f29-dba4-4276-8e77-80015cdd16d7",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.1,
+            64.4
+          ]
+        },
+        {
+          "uuid": "bf7d8607-d14d-4ff2-a165-e2b100f74897",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.075,
+            38.6
+          ]
+        },
+        {
+          "uuid": "ddc3a755-daa0-4cd4-b7d3-2f555e241dae",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.175,
+            64.575
+          ]
+        },
+        {
+          "uuid": "dfbaa95e-3f9f-49e4-b71e-696178c0b54f",
+          "net": "AON_I2C_SDA",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.075,
+            64.35
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 12.6,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 12.9,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 13.2,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "In3.Cu",
+      "x": 13.5,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 12.0,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "03300dea-2220-4060-b7f0-19703b327038",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            60.175
+          ]
+        },
+        {
+          "uuid": "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.175,
+            61.0
+          ]
+        },
+        {
+          "uuid": "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            58.4
+          ]
+        },
+        {
+          "uuid": "2087c463-729c-47ac-864d-c13a4a242a50",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.725,
+            75.25
+          ]
+        },
+        {
+          "uuid": "394ecdfd-4b61-4daa-b968-1f79bc45f66b",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.725,
+            75.35
+          ]
+        },
+        {
+          "uuid": "5c03687b-de9b-432a-91bf-568282cbb2f5",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            62.25
+          ]
+        },
+        {
+          "uuid": "63381fc6-1e9c-4019-9fd3-3008347d0a3e",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            62.0
+          ]
+        },
+        {
+          "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            55.75
+          ]
+        },
+        {
+          "uuid": "88b6c202-9db8-4d69-a9e5-89c282231c8c",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            69.5
+          ]
+        },
+        {
+          "uuid": "90c1ed15-7c6a-43aa-abf8-1564aefebe72",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            38.975
+          ]
+        },
+        {
+          "uuid": "a4f92da2-2a4b-4dc5-b5a7-d3d94653cf1d",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.725,
+            38.85
+          ]
+        },
+        {
+          "uuid": "acb21f26-8293-493b-a1fa-15c6beb1cf0d",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            75.225
+          ]
+        },
+        {
+          "uuid": "bbed36de-39e7-4bf3-96bc-176f5aa53870",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.725,
+            38.95
+          ]
+        },
+        {
+          "uuid": "cee55fb3-52d7-4281-b8d2-d590452873d8",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.7,
+            38.825
+          ]
+        },
+        {
+          "uuid": "d2c86432-65f9-4477-8442-bea953e00a10",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            69.75
+          ]
+        },
+        {
+          "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            60.75
+          ]
+        },
+        {
+          "uuid": "790724a8-0a17-495d-9c6e-e7d9a5d41214",
+          "net": "SENS_TRIG_IN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            10.4,
+            86.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 12.3,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "03300dea-2220-4060-b7f0-19703b327038",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            60.175
+          ]
+        },
+        {
+          "uuid": "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.175,
+            61.0
+          ]
+        },
+        {
+          "uuid": "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+          "net": "3V3_AON",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            12.0,
+            58.4
+          ]
+        },
+        {
+          "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            55.75
+          ]
+        },
+        {
+          "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            60.75
+          ]
+        },
+        {
+          "uuid": "790724a8-0a17-495d-9c6e-e7d9a5d41214",
+          "net": "SENS_TRIG_IN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            10.4,
+            86.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 12.6,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            55.75
+          ]
+        },
+        {
+          "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            60.75
+          ]
+        },
+        {
+          "uuid": "790724a8-0a17-495d-9c6e-e7d9a5d41214",
+          "net": "SENS_TRIG_IN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            10.4,
+            86.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 12.9,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            55.75
+          ]
+        },
+        {
+          "uuid": "b9011739-3a4d-47b9-8ada-5a4b0a88e728",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            57.0
+          ]
+        },
+        {
+          "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            60.75
+          ]
+        },
+        {
+          "uuid": "790724a8-0a17-495d-9c6e-e7d9a5d41214",
+          "net": "SENS_TRIG_IN",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            10.4,
+            86.65
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 13.2,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [
+        {
+          "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            11.75,
+            55.75
+          ]
+        },
+        {
+          "uuid": "b9011739-3a4d-47b9-8ada-5a4b0a88e728",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            57.0
+          ]
+        },
+        {
+          "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+          "net": "USB_EN1",
+          "type": "track",
+          "clearance_below_0p15": true,
+          "center_xy": [
+            13.0,
+            60.75
+          ]
+        }
+      ],
+      "keepout_blockers": []
+    },
+    {
+      "layer": "B.Cu",
+      "x": 13.5,
+      "y": [
+        32,
+        89
+      ],
+      "width": 0.15,
+      "pad_blockers": [],
+      "copper_blockers": [],
+      "keepout_blockers": []
+    }
+  ],
+  "unique_obstructing_net_objects": {
+    "3V3_AON": [
+      {
+        "uuid": "03300dea-2220-4060-b7f0-19703b327038",
+        "net": "3V3_AON",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.0,
+          60.175
+        ]
+      },
+      {
+        "uuid": "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+        "net": "3V3_AON",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.175,
+          61.0
+        ]
+      },
+      {
+        "uuid": "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+        "net": "3V3_AON",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.0,
+          58.4
+        ]
+      }
+    ],
+    "AON_I2C_SDA": [
+      {
+        "uuid": "06f3219b-1b1e-4998-9ebc-09f212b12d58",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.125,
+          64.425
+        ]
+      },
+      {
+        "uuid": "100baf46-522f-4850-a747-415abe217d22",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.875,
+          33.675
+        ]
+      },
+      {
+        "uuid": "145f38a3-7609-4c83-9fdb-fa83dad14c78",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.875,
+          34.275
+        ]
+      },
+      {
+        "uuid": "1ed617fb-da1e-46e6-a695-7f22f5485aba",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.025,
+          37.975
+        ]
+      },
+      {
+        "uuid": "207cceed-6af6-4361-b754-e9b0a0cd8089",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.925,
+          75.4
+        ]
+      },
+      {
+        "uuid": "28f3199a-987d-4f93-b7aa-9ca8327a9d34",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.975,
+          36.15
+        ]
+      },
+      {
+        "uuid": "3b7ad40f-4e22-4dcc-957b-58a56d79ebac",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.1,
+          64.375
+        ]
+      },
+      {
+        "uuid": "49326a32-84ff-4d93-a9e1-242cf1a76ed6",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.95,
+          35.525
+        ]
+      },
+      {
+        "uuid": "4a7b44c6-411b-4814-8c47-4faab74c146f",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.0,
+          36.775
+        ]
+      },
+      {
+        "uuid": "4c8b3536-b910-4557-8b88-960ec7684155",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.975,
+          36.75
+        ]
+      },
+      {
+        "uuid": "5a81514d-6a1b-436e-b9cc-65c78b1a62c1",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.05,
+          38.0
+        ]
+      },
+      {
+        "uuid": "63429003-b1f9-48ae-a649-cd57d5c950ed",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.775,
+          31.225
+        ]
+      },
+      {
+        "uuid": "766c3cee-f84b-4f07-a7b6-0d64dcc5a5bf",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.175,
+          72.5
+        ]
+      },
+      {
+        "uuid": "78ffdf6b-3338-4eeb-9c62-9ddc6a22cccc",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.025,
+          37.375
+        ]
+      },
+      {
+        "uuid": "7a115c19-da3c-447b-be43-1713ee329cbb",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.95,
+          36.125
+        ]
+      },
+      {
+        "uuid": "88894ce7-dc4b-4e06-b135-b36caf8eb483",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.775,
+          31.825
+        ]
+      },
+      {
+        "uuid": "8b6c3c37-64a9-4a48-9a04-20e40634dafb",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.8,
+          31.85
+        ]
+      },
+      {
+        "uuid": "90375756-2881-4919-b125-134d36ea795a",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.925,
+          73.0
+        ]
+      },
+      {
+        "uuid": "9fbd5951-ea90-4e98-aceb-f47948a8e174",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.85,
+          33.075
+        ]
+      },
+      {
+        "uuid": "ac73260f-6460-4030-93cd-9bfd34d882f8",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          76.625
+        ]
+      },
+      {
+        "uuid": "aed9c3eb-7aa2-4796-8de9-d2b0372ed010",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.9,
+          34.3
+        ]
+      },
+      {
+        "uuid": "b9221f29-dba4-4276-8e77-80015cdd16d7",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.1,
+          64.4
+        ]
+      },
+      {
+        "uuid": "bf4e0366-a909-4614-b7c0-faf4ddaf0a1b",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.825,
+          33.05
+        ]
+      },
+      {
+        "uuid": "bf7d8607-d14d-4ff2-a165-e2b100f74897",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.075,
+          38.6
+        ]
+      },
+      {
+        "uuid": "c233033a-7840-448f-9c42-0faca132bb97",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.825,
+          32.45
+        ]
+      },
+      {
+        "uuid": "ca5336fb-d4e3-4c48-bf17-e00a4e82e77f",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.7,
+          76.95
+        ]
+      },
+      {
+        "uuid": "ddc3a755-daa0-4cd4-b7d3-2f555e241dae",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.175,
+          64.575
+        ]
+      },
+      {
+        "uuid": "ddf3d4ca-4768-435c-8350-6a4132d23600",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.725,
+          76.775
+        ]
+      },
+      {
+        "uuid": "dfbaa95e-3f9f-49e4-b71e-696178c0b54f",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.075,
+          64.35
+        ]
+      },
+      {
+        "uuid": "ec236480-496c-4374-a082-adcda4685ed0",
+        "net": "AON_I2C_SDA",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.85,
+          33.65
+        ]
+      }
+    ],
+    "CAM_IO_EN": [
+      {
+        "uuid": "4eb44a34-62a5-4b1a-bfdc-2a8083ec1e11",
+        "net": "CAM_IO_EN",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.25,
+          68.25
+        ]
+      },
+      {
+        "uuid": "5c039718-18a2-4c5a-a391-d92b714eaaef",
+        "net": "CAM_IO_EN",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.25,
+          63.75
+        ]
+      },
+      {
+        "uuid": "d78c92fa-2f37-46b2-9d6b-64d8dd83b028",
+        "net": "CAM_IO_EN",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.15,
+          62.65
+        ]
+      }
+    ],
+    "PICKUP_INT_N": [
+      {
+        "uuid": "164e3f76-3ab5-4cdc-917c-bf96026bbff7",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          64.475
+        ]
+      },
+      {
+        "uuid": "3b0e94e0-ccfb-470e-99a3-25756f5166ee",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.35,
+          29.075
+        ]
+      },
+      {
+        "uuid": "81a2d79a-a5e8-4ec7-a228-f6a1c173c902",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.85,
+          67.125
+        ]
+      },
+      {
+        "uuid": "86ba4d09-7602-4ee7-8a68-f46b8ea35695",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.85,
+          64.675
+        ]
+      },
+      {
+        "uuid": "a4e33fa7-42a7-4b05-a580-5434c3f659f0",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          38.925
+        ]
+      },
+      {
+        "uuid": "afde90b2-5953-43bf-b14e-d97484db855a",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          71.725
+        ]
+      },
+      {
+        "uuid": "de38b50f-94e7-49cd-926f-c0292deaa2c8",
+        "net": "PICKUP_INT_N",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.8,
+          64.525
+        ]
+      }
+    ],
+    "SENS_TRIG_IN": [
+      {
+        "uuid": "790724a8-0a17-495d-9c6e-e7d9a5d41214",
+        "net": "SENS_TRIG_IN",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          10.4,
+          86.65
+        ]
+      }
+    ],
+    "USB_EN1": [
+      {
+        "uuid": "2087c463-729c-47ac-864d-c13a4a242a50",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.725,
+          75.25
+        ]
+      },
+      {
+        "uuid": "394ecdfd-4b61-4daa-b968-1f79bc45f66b",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.725,
+          75.35
+        ]
+      },
+      {
+        "uuid": "5c03687b-de9b-432a-91bf-568282cbb2f5",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.0,
+          62.25
+        ]
+      },
+      {
+        "uuid": "63381fc6-1e9c-4019-9fd3-3008347d0a3e",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          62.0
+        ]
+      },
+      {
+        "uuid": "7db29bab-2c54-4a06-b783-e6bfd50624b7",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          55.75
+        ]
+      },
+      {
+        "uuid": "88b6c202-9db8-4d69-a9e5-89c282231c8c",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          12.0,
+          69.5
+        ]
+      },
+      {
+        "uuid": "90c1ed15-7c6a-43aa-abf8-1564aefebe72",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          38.975
+        ]
+      },
+      {
+        "uuid": "a4f92da2-2a4b-4dc5-b5a7-d3d94653cf1d",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.725,
+          38.85
+        ]
+      },
+      {
+        "uuid": "acb21f26-8293-493b-a1fa-15c6beb1cf0d",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          75.225
+        ]
+      },
+      {
+        "uuid": "bbed36de-39e7-4bf3-96bc-176f5aa53870",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.725,
+          38.95
+        ]
+      },
+      {
+        "uuid": "cee55fb3-52d7-4281-b8d2-d590452873d8",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.7,
+          38.825
+        ]
+      },
+      {
+        "uuid": "d2c86432-65f9-4477-8442-bea953e00a10",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          11.75,
+          69.75
+        ]
+      },
+      {
+        "uuid": "e9578fa6-43fa-465c-942f-4ffb1a024999",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          13.0,
+          60.75
+        ]
+      },
+      {
+        "uuid": "b9011739-3a4d-47b9-8ada-5a4b0a88e728",
+        "net": "USB_EN1",
+        "type": "track",
+        "clearance_below_0p15": true,
+        "center_xy": [
+          13.0,
+          57.0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+04:55:30: Debug: Adding duplicate image handler for 'PNG file'
+04:55:30: Debug: Adding duplicate image handler for 'JPEG file'
+04:55:30: Debug: Adding duplicate image handler for 'TIFF file'
+04:55:30: Debug: Adding duplicate image handler for 'GIF file'
+04:55:30: Debug: Adding duplicate image handler for 'PNM file'
+04:55:30: Debug: Adding duplicate image handler for 'PCX file'
+04:55:30: Debug: Adding duplicate image handler for 'IFF file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows icon file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows cursor file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+04:55:30: Debug: Adding duplicate image handler for 'TGA file'
+04:55:30: Debug: Adding duplicate image handler for 'XPM file'
+04:55:30: Debug: Adding duplicate image handler for 'PNG file'
+04:55:30: Debug: Adding duplicate image handler for 'JPEG file'
+04:55:30: Debug: Adding duplicate image handler for 'TIFF file'
+04:55:30: Debug: Adding duplicate image handler for 'GIF file'
+04:55:30: Debug: Adding duplicate image handler for 'PNM file'
+04:55:30: Debug: Adding duplicate image handler for 'PCX file'
+04:55:30: Debug: Adding duplicate image handler for 'IFF file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows icon file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows cursor file'
+04:55:30: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+04:55:30: Debug: Adding duplicate image handler for 'TGA file'
+04:55:30: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "TWELVE_TRANSLATOR_TO_J202_CHAINS_ONLY_NOFAB",
+  "pcb_sha256": "184dce12e82219e5d4bb3e1f20f84cf2bc6e06c1494f5b23862f5e1978024f81",
+  "source_unchanged": true,
+  "same_102_ref_value_footprint_padnets": true,
+  "new_6_pose_changes": [
+    "J105",
+    "J107",
+    "R206",
+    "R225",
+    "R226",
+    "R227"
+  ],
+  "total_pose_changes_from_9a03": 29,
+  "same_critical_ports": true,
+  "tracks": 60,
+  "vias": 16,
+  "connected_chains": [
+    "SENS_D0",
+    "SENS_D1",
+    "SENS_D2",
+    "SENS_D3",
+    "SENS_D4",
+    "SENS_D5",
+    "SENS_D6",
+    "SENS_D7",
+    "SENS_PCLK",
+    "SENS_VSYNC",
+    "SENS_HREF",
+    "SENS_EXTCLK"
+  ],
+  "open_chain_negative_tests_rejected": [
+    "SENS_D0",
+    "SENS_D1",
+    "SENS_D2",
+    "SENS_D3",
+    "SENS_D4",
+    "SENS_D5",
+    "SENS_D6",
+    "SENS_D7",
+    "SENS_PCLK",
+    "SENS_VSYNC",
+    "SENS_HREF",
+    "SENS_EXTCLK"
+  ],
+  "strict_drc": [
+    0,
+    262,
+    0
+  ],
+  "remaining_unconnected_by_net": {
+    "CHIP_EN": 3,
+    "GND": 101,
+    "3V3_AON": 38,
+    "RF_SIP": 2,
+    "RF_ANT": 2,
+    "BOOT_N": 2,
+    "STRAP_GPIO3": 1,
+    "STRAP_GPIO45": 1,
+    "STRAP_GPIO46": 1,
+    "CAM_PWR_EN": 3,
+    "CAM_IO_EN": 2,
+    "CAM_BUS_EN": 2,
+    "ILLUM_STROBE": 1,
+    "PICKUP_INT_N": 1,
+    "NIB_CONTACT_N": 3,
+    "BATTERY_ADC": 1,
+    "AON_I2C_SCL": 2,
+    "AON_I2C_SDA": 2,
+    "CAM_D0": 2,
+    "CAM_D1": 2,
+    "CAM_D2": 2,
+    "CAM_D3": 2,
+    "CAM_D4": 2,
+    "CAM_D5": 2,
+    "CAM_D6": 2,
+    "CAM_D7": 2,
+    "CAM_PCLK": 2,
+    "CAM_VSYNC": 2,
+    "CAM_HREF": 2,
+    "USB_EN1": 1,
+    "USB_DM_MCU": 1,
+    "USB_DP_MCU": 1,
+    "USB_EN2": 1,
+    "CAM_XCLK": 2,
+    "CAM_SCL": 2,
+    "CAM_SDA": 2,
+    "CAM_RESET_UART_TX": 3,
+    "CAM_PWDN_UART_RX": 3,
+    "SENS_VIO_1V8": 11,
+    "UNUSED_B_INPUT": 1,
+    "UNUSED_A_INPUT": 1,
+    "SENS_D7": 1,
+    "SENS_D6": 1,
+    "SENS_D5": 1,
+    "SENS_D4": 1,
+    "SENS_D3": 1,
+    "SENS_D2": 1,
+    "SENS_D1": 1,
+    "SENS_D0": 1,
+    "CAM_ISO_OE_N": 6,
+    "SENS_HREF": 1,
+    "SENS_VSYNC": 1,
+    "SENS_PCLK": 1,
+    "ISO_GATE": 2,
+    "IO_ENABLE_LINK": 1,
+    "SCCB_ENABLE_LINK": 1,
+    "SCCB_EN_SAFE": 2,
+    "SENS_TRIG_IN": 2,
+    "SENS_XSHUTDN_N": 2,
+    "SENS_EXTCLK": 1,
+    "SENS_SCL": 2,
+    "SENS_SDA": 2,
+    "USB_DP": 1,
+    "USB_DM": 1,
+    "CAM_3V3_PRELINK": 3,
+    "CAM_3V3_SW": 1,
+    "CAM_CT": 1,
+    "CAM_ON": 2,
+    "CAM_QOD": 1,
+    "CONTACT": 1
+  },
+  "no_plane_fill_and_no_old_routing": true,
+  "remaining": "Bias stubs, MCU-side wiring, supplies/grounds/decoupling, other interfaces, return planes and mechanical qualification remain open."
+}

@@ -1,0 +1,5126 @@
+{
+  "status": "CONDITIONAL_EXISTING_ENVELOPE_SCREEN_NOFAB",
+  "native_candidate_sha256": "184dce12e82219e5d4bb3e1f20f84cf2bc6e06c1494f5b23862f5e1978024f81",
+  "accepted_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "changed_refs": [
+    "R222",
+    "R221",
+    "R229",
+    "R231",
+    "C203",
+    "R224",
+    "R233",
+    "C204",
+    "R226",
+    "R230",
+    "U201",
+    "R206",
+    "R223",
+    "R218",
+    "R227",
+    "R219",
+    "J107",
+    "R235",
+    "R228",
+    "C202",
+    "U203",
+    "R234",
+    "C201",
+    "C205",
+    "R232",
+    "C206",
+    "U202",
+    "R225",
+    "J105"
+  ],
+  "new_or_moved_B_refs": [
+    "R222",
+    "R221",
+    "R226",
+    "R206",
+    "R223",
+    "R218",
+    "R227",
+    "R219",
+    "J107",
+    "R225",
+    "J105"
+  ],
+  "contexts": [
+    {
+      "context": "RevC",
+      "source_sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "contracts": {
+        "CTX_R222": {
+          "ref": "R222",
+          "old_pose": [
+            4.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.225,
+            0.8147931763285041,
+            70.525,
+            0.2250000000000001,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "CTX_R221": {
+          "ref": "R221",
+          "old_pose": [
+            1.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            3.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.225,
+            1.5647931763285041,
+            70.525,
+            -2.775,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "CTX_R229": {
+          "ref": "R229",
+          "old_pose": [
+            4.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            3.194793176328504,
+            85.625,
+            -1.275,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "CTX_R231": {
+          "ref": "R231",
+          "old_pose": [
+            10.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            3.194793176328504,
+            85.625,
+            4.725,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "CTX_C203": {
+          "ref": "C203",
+          "old_pose": [
+            1.1,
+            45.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            43.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            83.3875,
+            4.575000000000001,
+            4.644793176328504,
+            84.33749999999999
+          ]
+        },
+        "CTX_R224": {
+          "ref": "R224",
+          "old_pose": [
+            1.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            39.1,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            87.42500000000001,
+            -4.275,
+            3.8947931763285037,
+            88.375
+          ]
+        },
+        "CTX_R233": {
+          "ref": "R233",
+          "old_pose": [
+            1.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            75.625,
+            -4.275,
+            3.8947931763285037,
+            76.57499999999999
+          ]
+        },
+        "CTX_C204": {
+          "ref": "C204",
+          "old_pose": [
+            10.8,
+            44.4,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            48.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            77.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            78.6125
+          ]
+        },
+        "CTX_R226": {
+          "ref": "R226",
+          "old_pose": [
+            7.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            0.8147931763285041,
+            82.525,
+            1.7249999999999996,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "CTX_R230": {
+          "ref": "R230",
+          "old_pose": [
+            7.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            3.194793176328504,
+            85.625,
+            1.7249999999999996,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "CTX_U201": {
+          "ref": "U201",
+          "old_pose": [
+            6.0,
+            34.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            34.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            7.900000000000006,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -4.950000000000003,
+            3.194793176328504,
+            89.4,
+            2.950000000000003,
+            4.544793176328504,
+            96.6
+          ]
+        },
+        "CTX_R206": {
+          "ref": "R206",
+          "old_pose": [
+            7.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            9.0,
+            47.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            0.7750000000000004,
+            0.8147931763285041,
+            79.525,
+            3.2249999999999996,
+            2.264793176328504,
+            80.475
+          ]
+        },
+        "CTX_R223": {
+          "ref": "R223",
+          "old_pose": [
+            7.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            58.6,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.2249999999999996,
+            0.8147931763285041,
+            67.92500000000001,
+            0.22499999999999964,
+            2.264793176328504,
+            68.875
+          ]
+        },
+        "CTX_R218": {
+          "ref": "R218",
+          "old_pose": [
+            1.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            1.5647931763285041,
+            85.025,
+            -1.275,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "CTX_R227": {
+          "ref": "R227",
+          "old_pose": [
+            10.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            0.8147931763285041,
+            82.525,
+            4.725,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "CTX_R219": {
+          "ref": "R219",
+          "old_pose": [
+            4.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            0.8147931763285041,
+            85.025,
+            1.725,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "CTX_J107.1": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            44.4,
+            -4.6,
+            2.264793176328504,
+            46.6
+          ]
+        },
+        "CTX_J107.2": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            41.99999999999999,
+            -4.6,
+            2.264793176328504,
+            44.199999999999996
+          ]
+        },
+        "CTX_J107.3": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            39.6,
+            -4.6,
+            2.264793176328504,
+            41.800000000000004
+          ]
+        },
+        "CTX_R235": {
+          "ref": "R235",
+          "old_pose": [
+            10.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            60.6,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            65.92500000000001,
+            4.824999999999999,
+            4.644793176328504,
+            66.875
+          ]
+        },
+        "CTX_R228": {
+          "ref": "R228",
+          "old_pose": [
+            1.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            85.625,
+            -4.275,
+            3.8947931763285037,
+            86.57499999999999
+          ]
+        },
+        "CTX_C202": {
+          "ref": "C202",
+          "old_pose": [
+            10.8,
+            30.8,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            36.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            89.66250000000001,
+            5.975000000000001,
+            4.644793176328504,
+            90.6125
+          ]
+        },
+        "CTX_U203": {
+          "ref": "U203",
+          "old_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            67.4,
+            1.5499999999999972,
+            4.544793176328504,
+            74.6
+          ]
+        },
+        "CTX_R234": {
+          "ref": "R234",
+          "old_pose": [
+            4.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            3.194793176328504,
+            75.625,
+            1.725,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "CTX_C201": {
+          "ref": "C201",
+          "old_pose": [
+            1.15,
+            32.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            31.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            95.3875,
+            5.975000000000001,
+            4.644793176328504,
+            96.33749999999999
+          ]
+        },
+        "CTX_C205": {
+          "ref": "C205",
+          "old_pose": [
+            1.15,
+            55.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            53.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            73.3875,
+            4.575000000000001,
+            4.644793176328504,
+            74.33749999999999
+          ]
+        },
+        "CTX_R232": {
+          "ref": "R232",
+          "old_pose": [
+            10.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            75.625,
+            4.824999999999999,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "CTX_C206": {
+          "ref": "C206",
+          "old_pose": [
+            10.8,
+            54.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            58.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            67.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            68.6125
+          ]
+        },
+        "CTX_U202": {
+          "ref": "U202",
+          "old_pose": [
+            6.0,
+            46.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            46.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            77.4,
+            1.5499999999999972,
+            4.544793176328504,
+            84.6
+          ]
+        },
+        "CTX_R225": {
+          "ref": "R225",
+          "old_pose": [
+            4.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            43.3,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            0.8147931763285041,
+            83.225,
+            -1.275,
+            2.264793176328504,
+            84.17500000000001
+          ]
+        },
+        "CTX_J105.1": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.9,
+            0.26479317632850385,
+            48.4,
+            -4.1,
+            2.264793176328504,
+            50.6
+          ]
+        },
+        "CTX_J105.2": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.4999999999999996,
+            0.26479317632850385,
+            48.4,
+            -1.6999999999999997,
+            2.264793176328504,
+            50.6
+          ]
+        }
+      },
+      "results": {
+        "CTX_R222": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "CTX_R221": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "HousingLeft",
+              "first_obstacle_height_mm": 3.468762552472151
+            }
+          ]
+        },
+        "CTX_R229": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R231": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C203": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R224": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R233": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C204": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R226": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            }
+          ]
+        },
+        "CTX_R230": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_U201": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R206": {
+          "budget_hits": [
+            {
+              "other": "HousingRight",
+              "volume_mm3": 0.1810317538496099
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "HousingRight",
+              "first_obstacle_height_mm": 0.46479317632850314
+            },
+            {
+              "other": "RearCalibrationShim",
+              "first_obstacle_height_mm": 2.6647931763285024
+            }
+          ]
+        },
+        "CTX_R223": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "CTX_R218": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            }
+          ]
+        },
+        "CTX_R227": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            }
+          ]
+        },
+        "CTX_R219": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            }
+          ]
+        },
+        "CTX_J107.1": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_J107.2": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_J107.3": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R235": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R228": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C202": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_U203": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R234": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C201": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C205": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R232": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_C206": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_U202": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_R225": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            }
+          ]
+        },
+        "CTX_J105.1": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "CTX_J105.2": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        }
+      }
+    },
+    {
+      "context": "RevD_BENCH",
+      "source_sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "contracts": {
+        "REF_CTX_R222": {
+          "ref": "R222",
+          "old_pose": [
+            4.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.225,
+            0.8147931763285041,
+            70.525,
+            0.2250000000000001,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R221": {
+          "ref": "R221",
+          "old_pose": [
+            1.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            3.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.225,
+            1.5647931763285041,
+            70.525,
+            -2.775,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R229": {
+          "ref": "R229",
+          "old_pose": [
+            4.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            3.194793176328504,
+            85.625,
+            -1.275,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_R231": {
+          "ref": "R231",
+          "old_pose": [
+            10.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            3.194793176328504,
+            85.625,
+            4.725,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C203": {
+          "ref": "C203",
+          "old_pose": [
+            1.1,
+            45.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            43.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            83.3875,
+            4.575000000000001,
+            4.644793176328504,
+            84.33749999999999
+          ]
+        },
+        "REF_CTX_R224": {
+          "ref": "R224",
+          "old_pose": [
+            1.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            39.1,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            87.42500000000001,
+            -4.275,
+            3.8947931763285037,
+            88.375
+          ]
+        },
+        "REF_CTX_R233": {
+          "ref": "R233",
+          "old_pose": [
+            1.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            75.625,
+            -4.275,
+            3.8947931763285037,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C204": {
+          "ref": "C204",
+          "old_pose": [
+            10.8,
+            44.4,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            48.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            77.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            78.6125
+          ]
+        },
+        "REF_CTX_R226": {
+          "ref": "R226",
+          "old_pose": [
+            7.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            0.8147931763285041,
+            82.525,
+            1.7249999999999996,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R230": {
+          "ref": "R230",
+          "old_pose": [
+            7.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            3.194793176328504,
+            85.625,
+            1.7249999999999996,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_U201": {
+          "ref": "U201",
+          "old_pose": [
+            6.0,
+            34.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            34.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            7.900000000000006,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -4.950000000000003,
+            3.194793176328504,
+            89.4,
+            2.950000000000003,
+            4.544793176328504,
+            96.6
+          ]
+        },
+        "REF_CTX_R206": {
+          "ref": "R206",
+          "old_pose": [
+            7.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            9.0,
+            47.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            0.7750000000000004,
+            0.8147931763285041,
+            79.525,
+            3.2249999999999996,
+            2.264793176328504,
+            80.475
+          ]
+        },
+        "REF_CTX_R223": {
+          "ref": "R223",
+          "old_pose": [
+            7.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            58.6,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.2249999999999996,
+            0.8147931763285041,
+            67.92500000000001,
+            0.22499999999999964,
+            2.264793176328504,
+            68.875
+          ]
+        },
+        "REF_CTX_R218": {
+          "ref": "R218",
+          "old_pose": [
+            1.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            1.5647931763285041,
+            85.025,
+            -1.275,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_R227": {
+          "ref": "R227",
+          "old_pose": [
+            10.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            0.8147931763285041,
+            82.525,
+            4.725,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R219": {
+          "ref": "R219",
+          "old_pose": [
+            4.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            0.8147931763285041,
+            85.025,
+            1.725,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_J107_1": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            44.4,
+            -4.6,
+            2.264793176328504,
+            46.6
+          ]
+        },
+        "REF_CTX_J107_2": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            41.99999999999999,
+            -4.6,
+            2.264793176328504,
+            44.199999999999996
+          ]
+        },
+        "REF_CTX_J107_3": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            39.6,
+            -4.6,
+            2.264793176328504,
+            41.800000000000004
+          ]
+        },
+        "REF_CTX_R235": {
+          "ref": "R235",
+          "old_pose": [
+            10.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            60.6,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            65.92500000000001,
+            4.824999999999999,
+            4.644793176328504,
+            66.875
+          ]
+        },
+        "REF_CTX_R228": {
+          "ref": "R228",
+          "old_pose": [
+            1.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            85.625,
+            -4.275,
+            3.8947931763285037,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C202": {
+          "ref": "C202",
+          "old_pose": [
+            10.8,
+            30.8,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            36.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            89.66250000000001,
+            5.975000000000001,
+            4.644793176328504,
+            90.6125
+          ]
+        },
+        "REF_CTX_U203": {
+          "ref": "U203",
+          "old_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            67.4,
+            1.5499999999999972,
+            4.544793176328504,
+            74.6
+          ]
+        },
+        "REF_CTX_R234": {
+          "ref": "R234",
+          "old_pose": [
+            4.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            3.194793176328504,
+            75.625,
+            1.725,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C201": {
+          "ref": "C201",
+          "old_pose": [
+            1.15,
+            32.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            31.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            95.3875,
+            5.975000000000001,
+            4.644793176328504,
+            96.33749999999999
+          ]
+        },
+        "REF_CTX_C205": {
+          "ref": "C205",
+          "old_pose": [
+            1.15,
+            55.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            53.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            73.3875,
+            4.575000000000001,
+            4.644793176328504,
+            74.33749999999999
+          ]
+        },
+        "REF_CTX_R232": {
+          "ref": "R232",
+          "old_pose": [
+            10.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            75.625,
+            4.824999999999999,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C206": {
+          "ref": "C206",
+          "old_pose": [
+            10.8,
+            54.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            58.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            67.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            68.6125
+          ]
+        },
+        "REF_CTX_U202": {
+          "ref": "U202",
+          "old_pose": [
+            6.0,
+            46.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            46.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            77.4,
+            1.5499999999999972,
+            4.544793176328504,
+            84.6
+          ]
+        },
+        "REF_CTX_R225": {
+          "ref": "R225",
+          "old_pose": [
+            4.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            43.3,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            0.8147931763285041,
+            83.225,
+            -1.275,
+            2.264793176328504,
+            84.17500000000001
+          ]
+        },
+        "REF_CTX_J105_1": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.9,
+            0.26479317632850385,
+            48.4,
+            -4.1,
+            2.264793176328504,
+            50.6
+          ]
+        },
+        "REF_CTX_J105_2": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.4999999999999996,
+            0.26479317632850385,
+            48.4,
+            -1.6999999999999997,
+            2.264793176328504,
+            50.6
+          ]
+        }
+      },
+      "results": {
+        "REF_CTX_R222": {
+          "budget_hits": [
+            {
+              "other": "Cassette_top_collar",
+              "volume_mm3": 0.5552262731829141
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "Cassette_top_collar",
+              "first_obstacle_height_mm": 1.0647931763285037
+            },
+            {
+              "other": "Cassette_upper_shim_TRIAL",
+              "first_obstacle_height_mm": 2.0647931763285037
+            },
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            }
+          ]
+        },
+        "REF_CTX_R221": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Cassette_top_collar",
+              "first_obstacle_height_mm": 1.9055414407395164
+            },
+            {
+              "other": "Collar_screw_-6.2",
+              "first_obstacle_height_mm": 2.464793176328503
+            },
+            {
+              "other": "Cassette_upper_shim_TRIAL",
+              "first_obstacle_height_mm": 3.1839295905264957
+            },
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 3.468762552472151
+            }
+          ]
+        },
+        "REF_CTX_R229": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R231": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C203": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R224": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R233": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C204": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R226": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_R230": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_U201": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R206": {
+          "budget_hits": [
+            {
+              "other": "REF_HousingRight",
+              "volume_mm3": 0.1810317538496099
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 0.46479317632850314
+            },
+            {
+              "other": "REF_RearCalibrationShim",
+              "first_obstacle_height_mm": 2.6647931763285024
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_R223": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "REF_Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "REF_CTX_R218": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_R227": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_R219": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_J107_1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_J107_2": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_J107_3": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_R235": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R228": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C202": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_U203": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R234": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C201": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C205": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R232": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_C206": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_U202": {
+          "budget_hits": [],
+          "first_height_obstacles": []
+        },
+        "REF_CTX_R225": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_J105_1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        },
+        "REF_CTX_J105_2": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Common_base",
+              "first_obstacle_height_mm": 13.264793176328503
+            }
+          ]
+        }
+      }
+    },
+    {
+      "context": "ACCESS19",
+      "source_sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "contracts": {
+        "REF_CTX_R222": {
+          "ref": "R222",
+          "old_pose": [
+            4.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.225,
+            0.8147931763285041,
+            70.525,
+            0.2250000000000001,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R221": {
+          "ref": "R221",
+          "old_pose": [
+            1.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            3.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.225,
+            1.5647931763285041,
+            70.525,
+            -2.775,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R229": {
+          "ref": "R229",
+          "old_pose": [
+            4.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            3.194793176328504,
+            85.625,
+            -1.275,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_R231": {
+          "ref": "R231",
+          "old_pose": [
+            10.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            3.194793176328504,
+            85.625,
+            4.725,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C203": {
+          "ref": "C203",
+          "old_pose": [
+            1.1,
+            45.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            43.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            83.3875,
+            4.575000000000001,
+            4.644793176328504,
+            84.33749999999999
+          ]
+        },
+        "REF_CTX_R224": {
+          "ref": "R224",
+          "old_pose": [
+            1.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            39.1,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            87.42500000000001,
+            -4.275,
+            3.8947931763285037,
+            88.375
+          ]
+        },
+        "REF_CTX_R233": {
+          "ref": "R233",
+          "old_pose": [
+            1.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            75.625,
+            -4.275,
+            3.8947931763285037,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C204": {
+          "ref": "C204",
+          "old_pose": [
+            10.8,
+            44.4,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            48.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            77.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            78.6125
+          ]
+        },
+        "REF_CTX_R226": {
+          "ref": "R226",
+          "old_pose": [
+            7.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            0.8147931763285041,
+            82.525,
+            1.7249999999999996,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R230": {
+          "ref": "R230",
+          "old_pose": [
+            7.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            3.194793176328504,
+            85.625,
+            1.7249999999999996,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_U201": {
+          "ref": "U201",
+          "old_pose": [
+            6.0,
+            34.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            34.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            7.900000000000006,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -4.950000000000003,
+            3.194793176328504,
+            89.4,
+            2.950000000000003,
+            4.544793176328504,
+            96.6
+          ]
+        },
+        "REF_CTX_R206": {
+          "ref": "R206",
+          "old_pose": [
+            7.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            9.0,
+            47.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            0.7750000000000004,
+            0.8147931763285041,
+            79.525,
+            3.2249999999999996,
+            2.264793176328504,
+            80.475
+          ]
+        },
+        "REF_CTX_R223": {
+          "ref": "R223",
+          "old_pose": [
+            7.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            58.6,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.2249999999999996,
+            0.8147931763285041,
+            67.92500000000001,
+            0.22499999999999964,
+            2.264793176328504,
+            68.875
+          ]
+        },
+        "REF_CTX_R218": {
+          "ref": "R218",
+          "old_pose": [
+            1.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            1.5647931763285041,
+            85.025,
+            -1.275,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_R227": {
+          "ref": "R227",
+          "old_pose": [
+            10.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            0.8147931763285041,
+            82.525,
+            4.725,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R219": {
+          "ref": "R219",
+          "old_pose": [
+            4.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            0.8147931763285041,
+            85.025,
+            1.725,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_J107.1": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            44.4,
+            -4.6,
+            2.264793176328504,
+            46.6
+          ]
+        },
+        "REF_CTX_J107.2": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            41.99999999999999,
+            -4.6,
+            2.264793176328504,
+            44.199999999999996
+          ]
+        },
+        "REF_CTX_J107.3": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            39.6,
+            -4.6,
+            2.264793176328504,
+            41.800000000000004
+          ]
+        },
+        "REF_CTX_R235": {
+          "ref": "R235",
+          "old_pose": [
+            10.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            60.6,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            65.92500000000001,
+            4.824999999999999,
+            4.644793176328504,
+            66.875
+          ]
+        },
+        "REF_CTX_R228": {
+          "ref": "R228",
+          "old_pose": [
+            1.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            85.625,
+            -4.275,
+            3.8947931763285037,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C202": {
+          "ref": "C202",
+          "old_pose": [
+            10.8,
+            30.8,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            36.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            89.66250000000001,
+            5.975000000000001,
+            4.644793176328504,
+            90.6125
+          ]
+        },
+        "REF_CTX_U203": {
+          "ref": "U203",
+          "old_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            67.4,
+            1.5499999999999972,
+            4.544793176328504,
+            74.6
+          ]
+        },
+        "REF_CTX_R234": {
+          "ref": "R234",
+          "old_pose": [
+            4.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            3.194793176328504,
+            75.625,
+            1.725,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C201": {
+          "ref": "C201",
+          "old_pose": [
+            1.15,
+            32.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            31.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            95.3875,
+            5.975000000000001,
+            4.644793176328504,
+            96.33749999999999
+          ]
+        },
+        "REF_CTX_C205": {
+          "ref": "C205",
+          "old_pose": [
+            1.15,
+            55.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            53.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            73.3875,
+            4.575000000000001,
+            4.644793176328504,
+            74.33749999999999
+          ]
+        },
+        "REF_CTX_R232": {
+          "ref": "R232",
+          "old_pose": [
+            10.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            75.625,
+            4.824999999999999,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C206": {
+          "ref": "C206",
+          "old_pose": [
+            10.8,
+            54.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            58.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            67.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            68.6125
+          ]
+        },
+        "REF_CTX_U202": {
+          "ref": "U202",
+          "old_pose": [
+            6.0,
+            46.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            46.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            77.4,
+            1.5499999999999972,
+            4.544793176328504,
+            84.6
+          ]
+        },
+        "REF_CTX_R225": {
+          "ref": "R225",
+          "old_pose": [
+            4.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            43.3,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            0.8147931763285041,
+            83.225,
+            -1.275,
+            2.264793176328504,
+            84.17500000000001
+          ]
+        },
+        "REF_CTX_J105.1": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.9,
+            0.26479317632850385,
+            48.4,
+            -4.1,
+            2.264793176328504,
+            50.6
+          ]
+        },
+        "REF_CTX_J105.2": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.4999999999999996,
+            0.26479317632850385,
+            48.4,
+            -1.6999999999999997,
+            2.264793176328504,
+            50.6
+          ]
+        }
+      },
+      "results": {
+        "REF_CTX_R222": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "REF_Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "REF_CTX_R221": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "GND_insulated_arc",
+              "first_obstacle_height_mm": 0
+            },
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 3.468762552472151
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 3.714793176328503
+            },
+            {
+              "other": "Cassette_left_keeper",
+              "first_obstacle_height_mm": 4.464793176328503
+            }
+          ]
+        },
+        "REF_CTX_R229": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.1102992255511595
+            }
+          ]
+        },
+        "REF_CTX_R231": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.507025606658693
+            }
+          ]
+        },
+        "REF_CTX_C203": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.610306014719336
+            }
+          ]
+        },
+        "REF_CTX_R224": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 1.497154713407698
+            }
+          ]
+        },
+        "REF_CTX_R233": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 1.497154713407698
+            }
+          ]
+        },
+        "REF_CTX_C204": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.610306014719336
+            }
+          ]
+        },
+        "REF_CTX_R226": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.281299584983085
+            }
+          ]
+        },
+        "REF_CTX_R230": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.821713232326077
+            }
+          ]
+        },
+        "REF_CTX_U201": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.342599270205509
+            }
+          ]
+        },
+        "REF_CTX_R206": {
+          "budget_hits": [
+            {
+              "other": "REF_HousingRight",
+              "volume_mm3": 0.1810317538496099
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 0.46479317632850314
+            },
+            {
+              "other": "REF_RearCalibrationShim",
+              "first_obstacle_height_mm": 2.6647931763285024
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 9.803982456350592
+            }
+          ]
+        },
+        "REF_CTX_R223": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "REF_Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "REF_CTX_R218": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 9.569885578208165
+            }
+          ]
+        },
+        "REF_CTX_R227": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 8.9666119593157
+            }
+          ]
+        },
+        "REF_CTX_R219": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.281299584983085
+            }
+          ]
+        },
+        "REF_CTX_J107.1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 7.391195423519013
+            }
+          ]
+        },
+        "REF_CTX_J107.2": {
+          "budget_hits": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "volume_mm3": 0.01981508529589361
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 0.41479317632850243
+            }
+          ]
+        },
+        "REF_CTX_J107.3": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 7.391195423519013
+            }
+          ]
+        },
+        "REF_CTX_R235": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.435393472627919
+            }
+          ]
+        },
+        "REF_CTX_R228": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 1.497154713407698
+            }
+          ]
+        },
+        "REF_CTX_C202": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 2.4211996121284023
+            }
+          ]
+        },
+        "REF_CTX_U203": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.1969251624611985
+            }
+          ]
+        },
+        "REF_CTX_R234": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.821713232326077
+            }
+          ]
+        },
+        "REF_CTX_C201": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 2.4211996121284023
+            }
+          ]
+        },
+        "REF_CTX_C205": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.610306014719336
+            }
+          ]
+        },
+        "REF_CTX_R232": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.435393472627919
+            }
+          ]
+        },
+        "REF_CTX_C206": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.610306014719336
+            }
+          ]
+        },
+        "REF_CTX_U202": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.1969251624611985
+            }
+          ]
+        },
+        "REF_CTX_R225": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 9.569885578208165
+            }
+          ]
+        },
+        "REF_CTX_J105.1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 7.959527586290041
+            }
+          ]
+        },
+        "REF_CTX_J105.2": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 9.680317432913466
+            }
+          ]
+        }
+      }
+    },
+    {
+      "context": "ACCESS20",
+      "source_sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "contracts": {
+        "REF_CTX_R222": {
+          "ref": "R222",
+          "old_pose": [
+            4.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.225,
+            0.8147931763285041,
+            70.525,
+            0.2250000000000001,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R221": {
+          "ref": "R221",
+          "old_pose": [
+            1.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            3.0,
+            56.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.225,
+            1.5647931763285041,
+            70.525,
+            -2.775,
+            2.264793176328504,
+            71.475
+          ]
+        },
+        "REF_CTX_R229": {
+          "ref": "R229",
+          "old_pose": [
+            4.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            3.194793176328504,
+            85.625,
+            -1.275,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_R231": {
+          "ref": "R231",
+          "old_pose": [
+            10.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            3.194793176328504,
+            85.625,
+            4.725,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C203": {
+          "ref": "C203",
+          "old_pose": [
+            1.1,
+            45.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            43.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            83.3875,
+            4.575000000000001,
+            4.644793176328504,
+            84.33749999999999
+          ]
+        },
+        "REF_CTX_R224": {
+          "ref": "R224",
+          "old_pose": [
+            1.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            39.1,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            87.42500000000001,
+            -4.275,
+            3.8947931763285037,
+            88.375
+          ]
+        },
+        "REF_CTX_R233": {
+          "ref": "R233",
+          "old_pose": [
+            1.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            75.625,
+            -4.275,
+            3.8947931763285037,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C204": {
+          "ref": "C204",
+          "old_pose": [
+            10.8,
+            44.4,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            48.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            77.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            78.6125
+          ]
+        },
+        "REF_CTX_R226": {
+          "ref": "R226",
+          "old_pose": [
+            7.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            0.8147931763285041,
+            82.525,
+            1.7249999999999996,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R230": {
+          "ref": "R230",
+          "old_pose": [
+            7.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7249999999999996,
+            3.194793176328504,
+            85.625,
+            1.7249999999999996,
+            4.644793176328504,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_U201": {
+          "ref": "U201",
+          "old_pose": [
+            6.0,
+            34.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            34.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            7.900000000000006,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -4.950000000000003,
+            3.194793176328504,
+            89.4,
+            2.950000000000003,
+            4.544793176328504,
+            96.6
+          ]
+        },
+        "REF_CTX_R206": {
+          "ref": "R206",
+          "old_pose": [
+            7.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            9.0,
+            47.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            0.7750000000000004,
+            0.8147931763285041,
+            79.525,
+            3.2249999999999996,
+            2.264793176328504,
+            80.475
+          ]
+        },
+        "REF_CTX_R223": {
+          "ref": "R223",
+          "old_pose": [
+            7.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            58.6,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -2.2249999999999996,
+            0.8147931763285041,
+            67.92500000000001,
+            0.22499999999999964,
+            2.264793176328504,
+            68.875
+          ]
+        },
+        "REF_CTX_R218": {
+          "ref": "R218",
+          "old_pose": [
+            1.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            1.5647931763285041,
+            85.025,
+            -1.275,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_R227": {
+          "ref": "R227",
+          "old_pose": [
+            10.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.2750000000000004,
+            0.8147931763285041,
+            82.525,
+            4.725,
+            2.264793176328504,
+            83.475
+          ]
+        },
+        "REF_CTX_R219": {
+          "ref": "R219",
+          "old_pose": [
+            4.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            41.5,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            0.8147931763285041,
+            85.025,
+            1.725,
+            2.264793176328504,
+            85.975
+          ]
+        },
+        "REF_CTX_J107.1": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            44.4,
+            -4.6,
+            2.264793176328504,
+            46.6
+          ]
+        },
+        "REF_CTX_J107.2": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            41.99999999999999,
+            -4.6,
+            2.264793176328504,
+            44.199999999999996
+          ]
+        },
+        "REF_CTX_J107.3": {
+          "ref": "J107",
+          "old_pose": [
+            7.0,
+            84.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            2.7,
+            84.0,
+            180.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.4,
+            0.26479317632850385,
+            39.6,
+            -4.6,
+            2.264793176328504,
+            41.800000000000004
+          ]
+        },
+        "REF_CTX_R235": {
+          "ref": "R235",
+          "old_pose": [
+            10.5,
+            60.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            60.6,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            65.92500000000001,
+            4.824999999999999,
+            4.644793176328504,
+            66.875
+          ]
+        },
+        "REF_CTX_R228": {
+          "ref": "R228",
+          "old_pose": [
+            1.5,
+            42.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            1.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            0.6999999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -6.725,
+            3.194793176328504,
+            85.625,
+            -4.275,
+            3.8947931763285037,
+            86.57499999999999
+          ]
+        },
+        "REF_CTX_C202": {
+          "ref": "C202",
+          "old_pose": [
+            10.8,
+            30.8,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            36.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            89.66250000000001,
+            5.975000000000001,
+            4.644793176328504,
+            90.6125
+          ]
+        },
+        "REF_CTX_U203": {
+          "ref": "U203",
+          "old_pose": [
+            6.0,
+            56.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            67.4,
+            1.5499999999999972,
+            4.544793176328504,
+            74.6
+          ]
+        },
+        "REF_CTX_R234": {
+          "ref": "R234",
+          "old_pose": [
+            4.5,
+            52.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            7.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -0.7250000000000001,
+            3.194793176328504,
+            75.625,
+            1.725,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C201": {
+          "ref": "C201",
+          "old_pose": [
+            1.15,
+            32.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            11.75,
+            31.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            3.5249999999999986,
+            3.194793176328504,
+            95.3875,
+            5.975000000000001,
+            4.644793176328504,
+            96.33749999999999
+          ]
+        },
+        "REF_CTX_C205": {
+          "ref": "C205",
+          "old_pose": [
+            1.15,
+            55.5,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            53.1375,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000002
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            73.3875,
+            4.575000000000001,
+            4.644793176328504,
+            74.33749999999999
+          ]
+        },
+        "REF_CTX_R232": {
+          "ref": "R232",
+          "old_pose": [
+            10.5,
+            50.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.6,
+            50.9,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.4499999999999993,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.375,
+            3.194793176328504,
+            75.625,
+            4.824999999999999,
+            4.644793176328504,
+            76.57499999999999
+          ]
+        },
+        "REF_CTX_C206": {
+          "ref": "C206",
+          "old_pose": [
+            10.8,
+            54.0,
+            90.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            10.35,
+            58.8625,
+            0.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.450000000000003,
+            1.4499999999999997,
+            0.9500000000000011
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            2.1249999999999982,
+            3.194793176328504,
+            67.66250000000001,
+            4.575000000000001,
+            4.644793176328504,
+            68.6125
+          ]
+        },
+        "REF_CTX_U202": {
+          "ref": "U202",
+          "old_pose": [
+            6.0,
+            46.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            6.0,
+            46.0,
+            -90.0,
+            "F.Cu"
+          ],
+          "retained_budget_XYZ": [
+            5.099999999999994,
+            1.35,
+            7.199999999999999
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.549999999999997,
+            3.194793176328504,
+            77.4,
+            1.5499999999999972,
+            4.544793176328504,
+            84.6
+          ]
+        },
+        "REF_CTX_R225": {
+          "ref": "R225",
+          "old_pose": [
+            4.5,
+            40.0,
+            0.0,
+            "F.Cu"
+          ],
+          "new_pose": [
+            4.5,
+            43.3,
+            0.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            2.45,
+            1.4499999999999997,
+            0.9500000000000028
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.725,
+            0.8147931763285041,
+            83.225,
+            -1.275,
+            2.264793176328504,
+            84.17500000000001
+          ]
+        },
+        "REF_CTX_J105.1": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -5.9,
+            0.26479317632850385,
+            48.4,
+            -4.1,
+            2.264793176328504,
+            50.6
+          ]
+        },
+        "REF_CTX_J105.2": {
+          "ref": "J105",
+          "old_pose": [
+            2.0,
+            83.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "new_pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ],
+          "retained_budget_XYZ": [
+            1.8,
+            2.0,
+            2.2
+          ],
+          "height_qualified": false,
+          "height_basis": "inherited frozen context envelope, NOT newly verified manufacturer maximum or solder assembly height",
+          "bounds": [
+            -3.4999999999999996,
+            0.26479317632850385,
+            48.4,
+            -1.6999999999999997,
+            2.264793176328504,
+            50.6
+          ]
+        }
+      },
+      "results": {
+        "REF_CTX_R222": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "REF_Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "REF_CTX_R221": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "GND_insulated_arc",
+              "first_obstacle_height_mm": 0
+            },
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 3.468762552472151
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 3.714793176328503
+            },
+            {
+              "other": "Cassette_left_keeper",
+              "first_obstacle_height_mm": 4.464793176328503
+            }
+          ]
+        },
+        "REF_CTX_R229": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.667418662588073
+            }
+          ]
+        },
+        "REF_CTX_R231": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.1102992255511595
+            }
+          ]
+        },
+        "REF_CTX_C203": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.205164593821268
+            }
+          ]
+        },
+        "REF_CTX_R224": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 2.324661053937382
+            }
+          ]
+        },
+        "REF_CTX_R233": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 2.324661053937382
+            }
+          ]
+        },
+        "REF_CTX_C204": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.205164593821268
+            }
+          ]
+        },
+        "REF_CTX_R226": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.79206560073245
+            }
+          ]
+        },
+        "REF_CTX_R230": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 5.332479248075444
+            }
+          ]
+        },
+        "REF_CTX_U201": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.959750834298585
+            }
+          ]
+        },
+        "REF_CTX_R206": {
+          "budget_hits": [
+            {
+              "other": "REF_HousingRight",
+              "volume_mm3": 0.1810317538496099
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 0.46479317632850314
+            },
+            {
+              "other": "REF_RearCalibrationShim",
+              "first_obstacle_height_mm": 2.6647931763285024
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.344977270765952
+            }
+          ]
+        },
+        "REF_CTX_R223": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_HousingLeft",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_HousingRight",
+              "first_obstacle_height_mm": 2.264793176328504
+            },
+            {
+              "other": "REF_D001_spring_RESERVED_ENVELOPE",
+              "first_obstacle_height_mm": 4.389793176328504
+            },
+            {
+              "other": "REF_Slider",
+              "first_obstacle_height_mm": 5.064793176328504
+            }
+          ]
+        },
+        "REF_CTX_R218": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.127005015245079
+            }
+          ]
+        },
+        "REF_CTX_R227": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 9.569885578208165
+            }
+          ]
+        },
+        "REF_CTX_R219": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.79206560073245
+            }
+          ]
+        },
+        "REF_CTX_J107.1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 8.158009615591528
+            }
+          ]
+        },
+        "REF_CTX_J107.2": {
+          "budget_hits": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "volume_mm3": 0.01981508529589361
+            }
+          ],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 0.41479317632850243
+            }
+          ]
+        },
+        "REF_CTX_J107.3": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 8.158009615591528
+            }
+          ]
+        },
+        "REF_CTX_R235": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.044638776525254
+            }
+          ]
+        },
+        "REF_CTX_R228": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 2.324661053937382
+            }
+          ]
+        },
+        "REF_CTX_C202": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.1289221082174383
+            }
+          ]
+        },
+        "REF_CTX_U203": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.747970826208649
+            }
+          ]
+        },
+        "REF_CTX_R234": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 5.332479248075444
+            }
+          ]
+        },
+        "REF_CTX_C201": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 3.1289221082174383
+            }
+          ]
+        },
+        "REF_CTX_C205": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.205164593821268
+            }
+          ]
+        },
+        "REF_CTX_R232": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.044638776525254
+            }
+          ]
+        },
+        "REF_CTX_C206": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.205164593821268
+            }
+          ]
+        },
+        "REF_CTX_U202": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Upper_nonlocating_cover_STUDY",
+              "first_obstacle_height_mm": 4.747970826208649
+            }
+          ]
+        },
+        "REF_CTX_R225": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "REF_CTX_power",
+              "first_obstacle_height_mm": 1.7500000000000004
+            },
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.127005015245079
+            }
+          ]
+        },
+        "REF_CTX_J105.1": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 8.65854012158681
+            }
+          ]
+        },
+        "REF_CTX_J105.2": {
+          "budget_hits": [],
+          "first_height_obstacles": [
+            {
+              "other": "Lower_common_datum_STUDY",
+              "first_obstacle_height_mm": 10.229716277024453
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "warning": "Budget intersections are model conflicts, not a claim about unknown actual component maximum heights. Zero intersections do not qualify unmodeled battery, optics, wire bends, solder tools, assembly, strength or thermal clearance."
+}

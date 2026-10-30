@@ -1,0 +1,66 @@
+[
+  {
+    "uuid": "5c03687b-de9b-432a-91bf-568282cbb2f5",
+    "action": "remove_old_unused_tail",
+    "old_nm": [
+      12000000,
+      62250000,
+      12000000,
+      69500000
+    ]
+  },
+  {
+    "uuid": "63381fc6-1e9c-4019-9fd3-3008347d0a3e",
+    "action": "remove_old_unused_tail",
+    "old_nm": [
+      11750000,
+      62000000,
+      12000000,
+      62250000
+    ]
+  },
+  {
+    "uuid": "88b6c202-9db8-4d69-a9e5-89c282231c8c",
+    "action": "remove_old_unused_tail",
+    "old_nm": [
+      12000000,
+      69500000,
+      11750000,
+      69750000
+    ]
+  },
+  {
+    "uuid": "90c1ed15-7c6a-43aa-abf8-1564aefebe72",
+    "action": "trim_to_new_branch",
+    "old_nm": [
+      11750000,
+      38975000,
+      11750000,
+      55750000
+    ],
+    "new_nm": [
+      11750000,
+      38975000,
+      11750000,
+      55200000
+    ]
+  },
+  {
+    "uuid": "d2c86432-65f9-4477-8442-bea953e00a10",
+    "action": "trim_to_new_branch",
+    "old_nm": [
+      11750000,
+      69750000,
+      11750000,
+      75225000
+    ],
+    "new_nm": [
+      11750000,
+      70000000,
+      11750000,
+      75225000
+    ]
+  }
+]
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'VECTOR2< int > *', no destructor found.

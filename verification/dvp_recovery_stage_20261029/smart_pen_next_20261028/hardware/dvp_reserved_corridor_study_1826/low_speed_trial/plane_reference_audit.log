@@ -1,0 +1,59 @@
+03:35:24: Debug: Adding duplicate image handler for 'PNG file'
+03:35:24: Debug: Adding duplicate image handler for 'JPEG file'
+03:35:24: Debug: Adding duplicate image handler for 'TIFF file'
+03:35:24: Debug: Adding duplicate image handler for 'GIF file'
+03:35:24: Debug: Adding duplicate image handler for 'PNM file'
+03:35:24: Debug: Adding duplicate image handler for 'PCX file'
+03:35:24: Debug: Adding duplicate image handler for 'IFF file'
+03:35:24: Debug: Adding duplicate image handler for 'Windows icon file'
+03:35:24: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:35:24: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:35:24: Debug: Adding duplicate image handler for 'TGA file'
+03:35:24: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "FRESH_FILL_AND_ALL_THROUGH_DRILL_CORRECTED_REFERENCE_SCREEN_NOT_PI_EMI_QUALIFICATION",
+  "note": "Both old/new filled planes subtract every through drill; new ground via bore is not falsely counted as solid copper. Existing signal copper identities checked separately. Threshold for numerical area noise 1e-8 mm2.",
+  "plane_delta": {
+    "In1.Cu": {
+      "old_drill_corrected_area_mm2": 1153.041323145343,
+      "new_drill_corrected_area_mm2": 1151.307347305255,
+      "lost_mm2": 1.7339759993935,
+      "gained_mm2": 1.502975e-07
+    },
+    "In2.Cu": {
+      "old_drill_corrected_area_mm2": 699.4238887831575,
+      "new_drill_corrected_area_mm2": 694.3997003418835,
+      "lost_mm2": 5.0241885612865,
+      "gained_mm2": 1.51816e-07
+    },
+    "In4.Cu": {
+      "old_drill_corrected_area_mm2": 1151.106323145343,
+      "new_drill_corrected_area_mm2": 1149.372347305255,
+      "lost_mm2": 1.7339759993935,
+      "gained_mm2": 1.502975e-07
+    }
+  },
+  "old_track_new_reference_loss_by_net": {
+    "3V3_AON": 5.037e-05
+  },
+  "old_track_new_reference_unique_union_mm2": {
+    "3V3_AON": 5.037e-05
+  },
+  "affected_old_tracks": [
+    {
+      "net": "3V3_AON",
+      "uuid": "dbdba37d-7014-4428-a10e-e0f88505ceb8",
+      "layer": "In3.Cu",
+      "a": [
+        9.375,
+        62.125
+      ],
+      "z": [
+        10.175,
+        62.125
+      ],
+      "new_reference_loss_mm2": 5.037e-05
+    }
+  ],
+  "new_RF_region_intrusions": []
+}

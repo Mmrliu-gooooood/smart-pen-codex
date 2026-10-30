@@ -1,0 +1,134 @@
+{
+  "status": "SCOPED_STATIC_REVIEW_PASS_NOT_BASELINE_NOFAB",
+  "source_manifest": "61e55b7d8217d476d4a1218af890af655aeb3f008d472e85bea099d308a9461b",
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "bytes": 4515,
+      "sha256": "4b662c9c9a5c496576f8784d65cfdbc59965b48831f1aa5b876b51664e2a717b"
+    },
+    {
+      "path": "bound_preflight.json",
+      "bytes": 3334,
+      "sha256": "853db7ca625464bd45659d42cc9e19e0ddafe04077671750cbe8476190445998"
+    },
+    {
+      "path": "bound_preflight.log",
+      "bytes": 3334,
+      "sha256": "853db7ca625464bd45659d42cc9e19e0ddafe04077671750cbe8476190445998"
+    },
+    {
+      "path": "bound_preflight.native_drc.json",
+      "bytes": 29217,
+      "sha256": "8adc0a02cca7ba12fef176156e5350088756dc23cb0f23347c4c7989bf010827"
+    },
+    {
+      "path": "bound_preflight.native_drc.log",
+      "bytes": 233,
+      "sha256": "e1b6431e0d9197dbce8d47ceda00bbbbfa362b964c3aadca7bacd2d1a764426e"
+    },
+    {
+      "path": "final_input_integrity.json",
+      "bytes": 49,
+      "sha256": "add957fa542f489fa8aece676719ec6d0e659af7361fc6ef33f0723cdde95ba3"
+    },
+    {
+      "path": "fresh_baseline_drc.json",
+      "bytes": 29206,
+      "sha256": "781ff508ad62342ca0312a91e78c69a64ab396f12d8685b83ac453c96bb55165"
+    },
+    {
+      "path": "fresh_baseline_drc.log",
+      "bytes": 193,
+      "sha256": "c34deac736e9951ca146c3f1bca633be085ead46e088e883b648c3fa92943165"
+    },
+    {
+      "path": "fresh_candidate_drc.json",
+      "bytes": 29227,
+      "sha256": "837f65759ece2f6c069b421e3c4c28b342dc55b41ec777284961a57f6d9461b9"
+    },
+    {
+      "path": "fresh_candidate_drc.log",
+      "bytes": 194,
+      "sha256": "e07cf767805afed24b03f6fa64212189c9505f8f23417cf13d8b105d1f1d170d"
+    },
+    {
+      "path": "independent.log",
+      "bytes": 10644,
+      "sha256": "358a476940e52a85a1670689b91d96e739dc43ee5f740ebecbbfb8b62c13b38a"
+    },
+    {
+      "path": "independent_checks.py",
+      "bytes": 4270,
+      "sha256": "5b8a3a3fba96523f3d63b707cfcf1579b6c85626f44ce1292e78ac4510aad605"
+    },
+    {
+      "path": "independent_optimized.log",
+      "bytes": 10644,
+      "sha256": "986e8957f12b05f0d6a19ae09eff0d86b906ba58d029f624c1f2938225b7aaae"
+    },
+    {
+      "path": "independent_results.json",
+      "bytes": 9845,
+      "sha256": "5e5c73820fbbb7d381564ddd025fec063cd796619f8ec49a6fb0f1500d87787f"
+    },
+    {
+      "path": "input_integrity.json",
+      "bytes": 127,
+      "sha256": "5d00a775317c7ee57864c8ec7f1e348931af39dd4d38f990b25a5a8c6d592520"
+    },
+    {
+      "path": "negative_results.json",
+      "bytes": 474,
+      "sha256": "d1e59231c43d29389951e3cc2372139ccc0efe1cee7cde32eafaf1f15e96db55"
+    },
+    {
+      "path": "negative_tests.log",
+      "bytes": 2869,
+      "sha256": "9194dfb5d2308f05a421293e55d0bc000cb181cb4ad7a56a171204e922798c1f"
+    },
+    {
+      "path": "plane.log",
+      "bytes": 2246,
+      "sha256": "2561b40cd8f539d84300f177510c4d8d463df07e12413f6bebb6f9fe1298a6b1"
+    },
+    {
+      "path": "plane_reference_audit.json",
+      "bytes": 1447,
+      "sha256": "a0111896ae033a198f6df20bc9790ac22e6d85797b4c79df4679205463e56ffc"
+    },
+    {
+      "path": "replay.log",
+      "bytes": 332,
+      "sha256": "cca3da75cefa330b12eb24a7074bce676a2d577dfa608b50f6633f5ca20569c3"
+    },
+    {
+      "path": "toolchain.json",
+      "bytes": 411,
+      "sha256": "af57fc06b6312c11235f66b46eb5ccdb8f8142efb9c2434ba073092a31e35478"
+    },
+    {
+      "path": "verify.log",
+      "bytes": 1825,
+      "sha256": "5de09aef665d0524dd32449bfe84cad2bd942aca48e3c40ffa1ca93d3698754a"
+    },
+    {
+      "path": "verify_optimized.log",
+      "bytes": 1825,
+      "sha256": "157989d16e601f4180acf7e47e43b055d3c01593bad452116e685f9ec657502e"
+    },
+    {
+      "path": "verify_result.json",
+      "bytes": 12210,
+      "sha256": "155936f3d7e1af6de3cdf38503c9e2c6005d5d62c5f40032c7f673f9c166200a"
+    }
+  ],
+  "dependencies": [
+    "../dvp_reserved_corridor_study_1826/low_speed_trial",
+    "../j202_low_speed_reference_candidate"
+  ],
+  "excluded_from_delivery": [
+    "reproduction/ (verified copy of input)",
+    "replayed_native/ (regenerated verified input)"
+  ]
+}

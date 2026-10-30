@@ -1,0 +1,119 @@
+{
+  "status": "FRESH_FILL_AND_ALL_THROUGH_DRILL_CORRECTED_REFERENCE_SCREEN_NOT_PI_EMI_QUALIFICATION",
+  "note": "Both old/new filled planes subtract every through drill; new ground via bore is not falsely counted as solid copper. Existing signal copper identities checked separately. Threshold for numerical area noise 1e-8 mm2.",
+  "plane_delta": {
+    "In1.Cu": {
+      "old_drill_corrected_area_mm2": 1153.041323145343,
+      "new_drill_corrected_area_mm2": 1151.3073472582785,
+      "lost_mm2": 1.7339760093115,
+      "gained_mm2": 1.41276e-07
+    },
+    "In2.Cu": {
+      "old_drill_corrected_area_mm2": 699.4238887831575,
+      "new_drill_corrected_area_mm2": 694.6878575342225,
+      "lost_mm2": 4.7360313845715,
+      "gained_mm2": 9.626e-08
+    },
+    "In4.Cu": {
+      "old_drill_corrected_area_mm2": 1151.106323145343,
+      "new_drill_corrected_area_mm2": 1149.3723472582785,
+      "lost_mm2": 1.7339760093115,
+      "gained_mm2": 1.41276e-07
+    }
+  },
+  "old_track_new_reference_loss_by_net": {
+    "3V3_AON": 5.037e-05,
+    "USB_EN2": 9.238000000000001e-08
+  },
+  "old_track_new_reference_unique_union_mm2": {
+    "3V3_AON": 5.037e-05,
+    "USB_EN2": 3.62225e-08
+  },
+  "affected_old_tracks": [
+    {
+      "net": "3V3_AON",
+      "uuid": "dbdba37d-7014-4428-a10e-e0f88505ceb8",
+      "layer": "In3.Cu",
+      "a": [
+        9.375,
+        62.125
+      ],
+      "z": [
+        10.175,
+        62.125
+      ],
+      "new_reference_loss_mm2": 5.037e-05
+    },
+    {
+      "net": "USB_EN2",
+      "uuid": "3f4e4934-8322-4633-bbfe-e33029e8e260",
+      "layer": "F.Cu",
+      "a": [
+        6.9,
+        89.6
+      ],
+      "z": [
+        6.9,
+        89.625
+      ],
+      "new_reference_loss_mm2": 1.4723e-08
+    },
+    {
+      "net": "USB_EN2",
+      "uuid": "5f6eecc3-350d-4666-ae7e-5baca9d12b12",
+      "layer": "F.Cu",
+      "a": [
+        6.925,
+        89.575
+      ],
+      "z": [
+        6.9,
+        89.6
+      ],
+      "new_reference_loss_mm2": 1.4723e-08
+    },
+    {
+      "net": "USB_EN2",
+      "uuid": "977847b7-3177-46c4-8078-9ada1c71fbc8",
+      "layer": "F.Cu",
+      "a": [
+        6.875,
+        89.65
+      ],
+      "z": [
+        6.875,
+        89.7
+      ],
+      "new_reference_loss_mm2": 1.4723e-08
+    },
+    {
+      "net": "USB_EN2",
+      "uuid": "c8f89302-9a40-47c5-88c0-bbebd75c2f48",
+      "layer": "F.Cu",
+      "a": [
+        6.9,
+        89.625
+      ],
+      "z": [
+        6.875,
+        89.65
+      ],
+      "new_reference_loss_mm2": 1.4723e-08
+    },
+    {
+      "net": "USB_EN2",
+      "uuid": "e06bbbd4-8515-4de3-aa4a-79655f9603e1",
+      "layer": "F.Cu",
+      "a": [
+        6.875,
+        89.7
+      ],
+      "z": [
+        6.85,
+        89.725
+      ],
+      "new_reference_loss_mm2": 3.3488e-08
+    }
+  ],
+  "new_RF_region_intrusions": []
+}

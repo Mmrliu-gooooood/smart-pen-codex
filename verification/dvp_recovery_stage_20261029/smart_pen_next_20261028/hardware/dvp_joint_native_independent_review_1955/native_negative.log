@@ -1,0 +1,32 @@
+04:57:15: Debug: Adding duplicate image handler for 'PNG file'
+04:57:15: Debug: Adding duplicate image handler for 'JPEG file'
+04:57:15: Debug: Adding duplicate image handler for 'TIFF file'
+04:57:15: Debug: Adding duplicate image handler for 'GIF file'
+04:57:15: Debug: Adding duplicate image handler for 'PNM file'
+04:57:15: Debug: Adding duplicate image handler for 'PCX file'
+04:57:15: Debug: Adding duplicate image handler for 'IFF file'
+04:57:15: Debug: Adding duplicate image handler for 'Windows icon file'
+04:57:15: Debug: Adding duplicate image handler for 'Windows cursor file'
+04:57:15: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+04:57:15: Debug: Adding duplicate image handler for 'TGA file'
+04:57:15: Debug: Adding duplicate image handler for 'XPM file'
+[
+  {
+    "case": "narrow_parallel_clearance",
+    "expected": "clearance",
+    "types": [
+      "clearance",
+      "clearance",
+      "clearance"
+    ],
+    "exit": 5
+  },
+  {
+    "case": "undersized_annulus",
+    "expected": "annular_width",
+    "types": [
+      "annular_width"
+    ],
+    "exit": 5
+  }
+]

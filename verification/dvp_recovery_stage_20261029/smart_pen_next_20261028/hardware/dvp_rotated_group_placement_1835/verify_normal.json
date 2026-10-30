@@ -1,0 +1,31 @@
+{
+  "status": "PLACEMENT_ONLY_NOT_ELECTRICAL_SUCCESSOR",
+  "baseline_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "placement_sha256": "7d197c4db87e936bd26fc9bb6052036aaf42c3a0e3e92032eac445e4909a6ff1",
+  "same_ref_value_footprint_pad_net_count": 102,
+  "changed_footprints": 27,
+  "all_other_source_files_byte_identical": true,
+  "no_old_copper_or_fill_retained": true,
+  "courtyard_overlaps": [],
+  "strict_drc_counts": [
+    0,
+    274,
+    0
+  ],
+  "kicad_path": "/usr/bin/kicad-cli",
+  "kicad_sha256": "d5daf01b170249572de1065faa0870b6006d8463fe4f075c018bf6ba85ca34d8",
+  "version": "9.0.2",
+  "command": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--all-track-errors",
+    "--format",
+    "json",
+    "--schematic-parity",
+    "-o",
+    "drc_strict.json",
+    "native/mainboard_revD.kicad_pcb"
+  ],
+  "no_electrical_continuity_claim": true
+}

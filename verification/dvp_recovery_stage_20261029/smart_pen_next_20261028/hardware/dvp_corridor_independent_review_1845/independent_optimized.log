@@ -1,0 +1,366 @@
+03:47:17: Debug: Adding duplicate image handler for 'PNG file'
+03:47:17: Debug: Adding duplicate image handler for 'JPEG file'
+03:47:17: Debug: Adding duplicate image handler for 'TIFF file'
+03:47:17: Debug: Adding duplicate image handler for 'GIF file'
+03:47:17: Debug: Adding duplicate image handler for 'PNM file'
+03:47:17: Debug: Adding duplicate image handler for 'PCX file'
+03:47:17: Debug: Adding duplicate image handler for 'IFF file'
+03:47:17: Debug: Adding duplicate image handler for 'Windows icon file'
+03:47:17: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:47:17: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:47:17: Debug: Adding duplicate image handler for 'TGA file'
+03:47:17: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "scope": "INDEPENDENT_STATIC_ONLY_NOFAB",
+  "sources_equal": [
+    "mainboard_revD.kicad_pro",
+    "mainboard_revD.kicad_sch",
+    "mainboard_revD.kicad_dru",
+    "schematic/physical_interfaces.kicad_sch",
+    "schematic/pickup_on_main.kicad_sch",
+    "schematic/usb_entry.kicad_sch",
+    "schematic/recovery_fixture.kicad_sch",
+    "schematic/mcu_core.kicad_sch",
+    "schematic/mainboard_revD.kicad_sch",
+    "schematic/usb_main_port.kicad_sch",
+    "schematic/safe_bias_interfaces.kicad_sch",
+    "schematic/dvp_translation.kicad_sch",
+    "schematic/controls_sccb.kicad_sch",
+    "schematic/camera_gate_on_main.kicad_sch"
+  ],
+  "full_drc_delta": {
+    "violations": {
+      "counts": [
+        17,
+        17
+      ],
+      "added": [],
+      "removed": []
+    },
+    "unconnected_items": {
+      "counts": [
+        21,
+        21
+      ],
+      "added": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [GND] of J103 on B.Cu",
+              "pos": {
+                "x": 5.4,
+                "y": 52.0
+              },
+              "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+            },
+            {
+              "description": "Track [GND] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 5.325,
+                "y": 52.0
+              },
+              "uuid": "15cbce26-470a-4505-a74f-7b06bb41aa46"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 3 [GND] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 56.6
+              },
+              "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566"
+            },
+            {
+              "description": "Track [GND] on F.Cu, length 0.0280 mm",
+              "pos": {
+                "x": 8.8625,
+                "y": 58.275
+              },
+              "uuid": "16c97449-f238-4ac3-b972-8838f19d3311"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 7 [NIB_CONTACT_N] of U101 on F.Cu",
+              "pos": {
+                "x": 2.575,
+                "y": 9.8
+              },
+              "uuid": "f1587f41-ea24-45ef-8d04-8a7208ccd2d0"
+            },
+            {
+              "description": "Track [NIB_CONTACT_N] on B.Cu, length 2.1000 mm",
+              "pos": {
+                "x": 3.325,
+                "y": 7.5
+              },
+              "uuid": "353750d3-a6bb-4e5b-98e5-1381162cdbae"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 4.2500 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 48.25
+              },
+              "uuid": "79a91219-cdd0-4486-bb5a-1d36ca32da3b"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 16 [SENS_HREF] of J202 on B.Cu",
+              "pos": {
+                "x": 5.25,
+                "y": 90.5
+              },
+              "uuid": "a4ca738e-53d7-4259-9c88-585e982f29ac"
+            },
+            {
+              "description": "Track [SENS_HREF] on B.Cu, length 4.7376 mm",
+              "pos": {
+                "x": 7.25,
+                "y": 49.5
+              },
+              "uuid": "37693ba0-cfa3-4b1f-8b30-d527a6b23d97"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "removed": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [GND] of J103 on B.Cu",
+              "pos": {
+                "x": 5.4,
+                "y": 52.0
+              },
+              "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+            },
+            {
+              "description": "Pad 2 [GND] of R234 on F.Cu",
+              "pos": {
+                "x": 5.325,
+                "y": 52.0
+              },
+              "uuid": "dba7a44e-4c68-4401-ab5d-bb89b91f18e6"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 3 [GND] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 56.6
+              },
+              "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566"
+            },
+            {
+              "description": "Pad 9 [GND] of U203 on F.Cu",
+              "pos": {
+                "x": 8.8625,
+                "y": 58.275
+              },
+              "uuid": "f9ed0d01-5b50-44a0-9242-ff0a719ee33d"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 7 [NIB_CONTACT_N] of U101 on F.Cu",
+              "pos": {
+                "x": 2.575,
+                "y": 9.8
+              },
+              "uuid": "f1587f41-ea24-45ef-8d04-8a7208ccd2d0"
+            },
+            {
+              "description": "Track [NIB_CONTACT_N] on B.Cu, length 0.2121 mm",
+              "pos": {
+                "x": 3.325,
+                "y": 9.6
+              },
+              "uuid": "3ae69a0e-7cb6-4633-afd1-c6e1e83756f7"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 0.1414 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 52.5
+              },
+              "uuid": "e0ce1bf0-0101-469c-9295-119925da5dec"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 16 [SENS_HREF] of J202 on B.Cu",
+              "pos": {
+                "x": 5.25,
+                "y": 90.5
+              },
+              "uuid": "a4ca738e-53d7-4259-9c88-585e982f29ac"
+            },
+            {
+              "description": "Track [SENS_HREF] on F.Cu, length 0.3536 mm",
+              "pos": {
+                "x": 3.65,
+                "y": 52.6
+              },
+              "uuid": "806e91c4-6018-40f1-bfee-af9338cb308d"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    },
+    "schematic_parity": {
+      "counts": [
+        0,
+        0
+      ],
+      "added": [],
+      "removed": []
+    }
+  },
+  "new_vias": [
+    {
+      "net": "USB_EN1",
+      "x_mm": 8.325,
+      "y_mm": 70.275,
+      "ring_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_ground_via_center_mm": 3.794897890589416,
+      "coarse_connector_body_top_gap_mm": 19.5
+    },
+    {
+      "net": "USB_EN1",
+      "x_mm": 9.9,
+      "y_mm": 62.65,
+      "ring_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_ground_via_center_mm": 0.7566372975210778,
+      "coarse_connector_body_top_gap_mm": 27.125
+    },
+    {
+      "net": "SENS_TRIG_IN",
+      "x_mm": 11.35,
+      "y_mm": 89.125,
+      "ring_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_ground_via_center_mm": 0.6823672031978091,
+      "coarse_connector_body_top_gap_mm": 0.6500000000000057
+    },
+    {
+      "net": "SENS_TRIG_IN",
+      "x_mm": 13.425,
+      "y_mm": 89.7,
+      "ring_mm": 0.45,
+      "drill_mm": 0.2,
+      "nearest_ground_via_center_mm": 0.6823672031978091,
+      "coarse_connector_body_top_gap_mm": 0.07500000000000284
+    }
+  ],
+  "new_trace_length_mm": {
+    "USB_EN1": 21.648706704297272,
+    "SENS_TRIG_IN": 18.115432893255075
+  },
+  "new_trace_union_area_without_nearest_reference_mm2": {
+    "USB_EN1": 0.2177483839765,
+    "SENS_TRIG_IN": 0.1809835824655
+  },
+  "actual_ports": {
+    "J301": [
+      {
+        "number": "1",
+        "net": "CAM_3V3_SW",
+        "x_mm": 5.8,
+        "y_mm": 88.7
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "x_mm": 8.2,
+        "y_mm": 88.7
+      }
+    ],
+    "J103": [
+      {
+        "number": "1",
+        "net": "CONTACT",
+        "x_mm": 3.0,
+        "y_mm": 52.0
+      },
+      {
+        "number": "2",
+        "net": "GND",
+        "x_mm": 5.4,
+        "y_mm": 52.0
+      }
+    ]
+  },
+  "note": "Reference area and nearest ground-via center do not establish dynamic return impedance or EMI. Body gap is only coarse nominal y90 screen, not toleranced connector underside."
+}

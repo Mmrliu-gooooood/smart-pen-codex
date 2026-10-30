@@ -1,0 +1,544 @@
+{
+  "source_sha": "7d197c4db87e936bd26fc9bb6052036aaf42c3a0e3e92032eac445e4909a6ff1",
+  "scope": "analytical topology proposal only; no native board changed; power/return not assessed",
+  "routes": [
+    {
+      "net": "SENS_D0",
+      "layer": "F.Cu",
+      "source": [
+        7.625,
+        36.8625
+      ],
+      "source_via": null,
+      "trunk": 13.5,
+      "trunk_entry_y": 37.7,
+      "head_exit_y": 88.6,
+      "head_via": [
+        12.25,
+        88.6
+      ]
+    },
+    {
+      "net": "SENS_D1",
+      "layer": "F.Cu",
+      "source": [
+        6.975,
+        36.8625
+      ],
+      "source_via": null,
+      "trunk": 13.2,
+      "trunk_entry_y": 38.0,
+      "head_exit_y": 88.3,
+      "head_via": [
+        11.75,
+        88.3
+      ]
+    },
+    {
+      "net": "SENS_D2",
+      "layer": "F.Cu",
+      "source": [
+        6.325,
+        36.8625
+      ],
+      "source_via": null,
+      "trunk": 12.9,
+      "trunk_entry_y": 38.300000000000004,
+      "head_exit_y": 88.0,
+      "head_via": [
+        10.75,
+        88.0
+      ]
+    },
+    {
+      "net": "SENS_D3",
+      "layer": "F.Cu",
+      "source": [
+        5.675,
+        36.8625
+      ],
+      "source_via": null,
+      "trunk": 12.6,
+      "trunk_entry_y": 38.6,
+      "head_exit_y": 87.69999999999999,
+      "head_via": [
+        10.25,
+        87.69999999999999
+      ]
+    },
+    {
+      "net": "SENS_D4",
+      "layer": "In3.Cu",
+      "source": [
+        5.025,
+        36.8625
+      ],
+      "source_via": [
+        5.025,
+        37.7
+      ],
+      "trunk": 13.5,
+      "trunk_entry_y": 37.7,
+      "head_exit_y": 87.39999999999999,
+      "head_via": [
+        9.25,
+        87.39999999999999
+      ]
+    },
+    {
+      "net": "SENS_D5",
+      "layer": "In3.Cu",
+      "source": [
+        4.375,
+        36.8625
+      ],
+      "source_via": [
+        4.375,
+        38.0
+      ],
+      "trunk": 13.2,
+      "trunk_entry_y": 38.0,
+      "head_exit_y": 87.1,
+      "head_via": [
+        8.75,
+        87.1
+      ]
+    },
+    {
+      "net": "SENS_D6",
+      "layer": "In3.Cu",
+      "source": [
+        3.725,
+        36.8625
+      ],
+      "source_via": [
+        3.725,
+        38.300000000000004
+      ],
+      "trunk": 12.9,
+      "trunk_entry_y": 38.300000000000004,
+      "head_exit_y": 86.8,
+      "head_via": [
+        7.75,
+        86.8
+      ]
+    },
+    {
+      "net": "SENS_D7",
+      "layer": "In3.Cu",
+      "source": [
+        3.075,
+        36.8625
+      ],
+      "source_via": [
+        3.075,
+        38.6
+      ],
+      "trunk": 12.6,
+      "trunk_entry_y": 38.6,
+      "head_exit_y": 86.5,
+      "head_via": [
+        7.25,
+        86.5
+      ]
+    },
+    {
+      "net": "SENS_PCLK",
+      "layer": "B.Cu",
+      "source": [
+        6.325,
+        48.8625
+      ],
+      "source_via": [
+        6.325,
+        49.5625
+      ],
+      "trunk": 13.5,
+      "trunk_entry_y": 49.5625,
+      "head_exit_y": 86.0,
+      "head_via": null
+    },
+    {
+      "net": "SENS_VSYNC",
+      "layer": "B.Cu",
+      "source": [
+        5.675,
+        48.8625
+      ],
+      "source_via": [
+        5.675,
+        49.5625
+      ],
+      "trunk": 13.2,
+      "trunk_entry_y": 49.5625,
+      "head_exit_y": 85.7,
+      "head_via": null
+    },
+    {
+      "net": "SENS_HREF",
+      "layer": "B.Cu",
+      "source": [
+        5.025,
+        48.8625
+      ],
+      "source_via": [
+        5.025,
+        49.5625
+      ],
+      "trunk": 12.9,
+      "trunk_entry_y": 49.5625,
+      "head_exit_y": 85.4,
+      "head_via": null
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "source": [
+        6.325,
+        58.8625
+      ],
+      "source_via": [
+        6.325,
+        59.5625
+      ],
+      "trunk": 12.6,
+      "trunk_entry_y": 59.5625,
+      "head_exit_y": 85.1,
+      "head_via": null
+    }
+  ],
+  "pad_clearance_conflicts": [
+    {
+      "route": "SENS_D0",
+      "object_index": 1,
+      "ref": "U201",
+      "pad": "22",
+      "net": "CAM_ISO_OE_N",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D0",
+      "object_index": 1,
+      "ref": "U201",
+      "pad": "23",
+      "net": "SENS_VIO_1V8",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D0",
+      "object_index": 1,
+      "ref": "U201",
+      "pad": "24",
+      "net": "SENS_VIO_1V8",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D3",
+      "object_index": 18,
+      "ref": "R225",
+      "pad": "2",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D3",
+      "object_index": 19,
+      "ref": "R226",
+      "pad": "1",
+      "net": "SENS_D2",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D3",
+      "object_index": 19,
+      "ref": "R226",
+      "pad": "2",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D3",
+      "object_index": 19,
+      "ref": "R227",
+      "pad": "2",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D3",
+      "object_index": 19,
+      "ref": "R225",
+      "pad": "2",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D4",
+      "object_index": 29,
+      "ref": "J107",
+      "pad": "3",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D5",
+      "object_index": 36,
+      "ref": "J107",
+      "pad": "3",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D6",
+      "object_index": 39,
+      "ref": "R225",
+      "pad": "1",
+      "net": "SENS_D1",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D6",
+      "object_index": 43,
+      "ref": "J107",
+      "pad": "3",
+      "net": "GND",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D7",
+      "object_index": 46,
+      "ref": "R225",
+      "pad": "1",
+      "net": "SENS_D1",
+      "layer": "F.Cu"
+    },
+    {
+      "route": "SENS_D7",
+      "object_index": 50,
+      "ref": "J107",
+      "pad": "3",
+      "net": "GND",
+      "layer": "F.Cu"
+    }
+  ],
+  "new_route_pair_conflicts": [
+    {
+      "a": "SENS_D1",
+      "b": "SENS_D0",
+      "i": 9,
+      "j": 4,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D1",
+      "b": "SENS_D0",
+      "i": 10,
+      "j": 4,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D1",
+      "b": "SENS_D0",
+      "i": 10,
+      "j": 4,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D1",
+      "b": "SENS_D0",
+      "i": 10,
+      "j": 4,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_D2",
+      "b": "SENS_D1",
+      "i": 15,
+      "j": 10,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D3",
+      "b": "SENS_D2",
+      "i": 21,
+      "j": 16,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D3",
+      "b": "SENS_D2",
+      "i": 22,
+      "j": 16,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D3",
+      "b": "SENS_D2",
+      "i": 22,
+      "j": 16,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D3",
+      "b": "SENS_D2",
+      "i": 22,
+      "j": 16,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_D4",
+      "b": "SENS_D3",
+      "i": 28,
+      "j": 22,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D5",
+      "b": "SENS_D4",
+      "i": 33,
+      "j": 25,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D5",
+      "b": "SENS_D4",
+      "i": 35,
+      "j": 29,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D5",
+      "b": "SENS_D4",
+      "i": 36,
+      "j": 29,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D5",
+      "b": "SENS_D4",
+      "i": 36,
+      "j": 29,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D5",
+      "b": "SENS_D4",
+      "i": 36,
+      "j": 29,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_D6",
+      "b": "SENS_D5",
+      "i": 40,
+      "j": 32,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D6",
+      "b": "SENS_D5",
+      "i": 42,
+      "j": 36,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D7",
+      "b": "SENS_D6",
+      "i": 47,
+      "j": 39,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D7",
+      "b": "SENS_D6",
+      "i": 49,
+      "j": 43,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D7",
+      "b": "SENS_D6",
+      "i": 50,
+      "j": 43,
+      "layer": "F.Cu"
+    },
+    {
+      "a": "SENS_D7",
+      "b": "SENS_D6",
+      "i": 50,
+      "j": 43,
+      "layer": "In3.Cu"
+    },
+    {
+      "a": "SENS_D7",
+      "b": "SENS_D6",
+      "i": 50,
+      "j": 43,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_VSYNC",
+      "b": "SENS_PCLK",
+      "i": 60,
+      "j": 53,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_VSYNC",
+      "b": "SENS_PCLK",
+      "i": 60,
+      "j": 54,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_VSYNC",
+      "b": "SENS_PCLK",
+      "i": 61,
+      "j": 54,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_PCLK",
+      "i": 66,
+      "j": 53,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_PCLK",
+      "i": 66,
+      "j": 54,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_VSYNC",
+      "i": 66,
+      "j": 59,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_VSYNC",
+      "i": 66,
+      "j": 60,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_PCLK",
+      "i": 67,
+      "j": 54,
+      "layer": "B.Cu"
+    },
+    {
+      "a": "SENS_HREF",
+      "b": "SENS_VSYNC",
+      "i": 67,
+      "j": 60,
+      "layer": "B.Cu"
+    }
+  ],
+  "objects": 76
+}

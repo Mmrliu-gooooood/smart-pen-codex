@@ -1,0 +1,49 @@
+03:41:21: Debug: Adding duplicate image handler for 'PNG file'
+03:41:21: Debug: Adding duplicate image handler for 'JPEG file'
+03:41:21: Debug: Adding duplicate image handler for 'TIFF file'
+03:41:21: Debug: Adding duplicate image handler for 'GIF file'
+03:41:21: Debug: Adding duplicate image handler for 'PNM file'
+03:41:21: Debug: Adding duplicate image handler for 'PCX file'
+03:41:21: Debug: Adding duplicate image handler for 'IFF file'
+03:41:21: Debug: Adding duplicate image handler for 'Windows icon file'
+03:41:21: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:41:21: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:41:21: Debug: Adding duplicate image handler for 'TGA file'
+03:41:21: Debug: Adding duplicate image handler for 'XPM file'
+Copper delta 19 124 2
+{
+  "status": "SCOPED_LOW_SPEED_REROUTE_ONLY_NOFAB",
+  "pcb_sha256": "1d844c44e62e75a01f82e743e87b084707dd50d78afa94c9513aea6b034f5d94",
+  "base_sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "source_project_files_unchanged": 14,
+  "footprints_unchanged": 102,
+  "all_pad_components_equal": true,
+  "plane_islands_in_core": {
+    "3V3_AON": 6,
+    "GND": 4
+  },
+  "new_foreign_intersections": [],
+  "reserved_lanes_clear": 12,
+  "full_counts": {
+    "violations": 17,
+    "unconnected_items": 21,
+    "schematic_parity": 0
+  },
+  "historical_baseline_counts": [
+    17,
+    21,
+    0
+  ],
+  "fresh_baseline_counts": [
+    17,
+    21,
+    0
+  ],
+  "historical_difference_note": "An initial command omitted --all-track-errors and gave an incomplete 16 findings. Corrected full-mode baseline and candidate both have 17 findings; no old short repaired.",
+  "full_violation_multiset_equal": true,
+  "delta_counts": {
+    "removed": 19,
+    "added": 124,
+    "modified": 2
+  }
+}

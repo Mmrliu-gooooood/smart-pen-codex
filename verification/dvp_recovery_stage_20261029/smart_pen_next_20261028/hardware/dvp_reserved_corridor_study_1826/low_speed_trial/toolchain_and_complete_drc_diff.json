@@ -1,0 +1,466 @@
+{
+  "executable": "/usr/bin/kicad-cli",
+  "executable_sha256": "d5daf01b170249572de1065faa0870b6006d8463fe4f075c018bf6ba85ca34d8",
+  "version_stdout": "9.0.2",
+  "environment": {
+    "XDG_CONFIG_HOME": "/tmp/pen-layout-config",
+    "XDG_CACHE_HOME": "/tmp/pen-layout-cache",
+    "XDG_DATA_HOME": "/tmp/pen-layout-data"
+  },
+  "native_files": {
+    "baseline": {
+      "kicad_pcb": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_pcb",
+        "sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038"
+      },
+      "kicad_pro": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_pro",
+        "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+      },
+      "kicad_dru": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_dru",
+        "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+      },
+      "kicad_sch": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_sch",
+        "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+      }
+    },
+    "candidate": {
+      "kicad_pcb": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/native/mainboard_revD.kicad_pcb",
+        "sha256": "1d844c44e62e75a01f82e743e87b084707dd50d78afa94c9513aea6b034f5d94"
+      },
+      "kicad_pro": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/native/mainboard_revD.kicad_pro",
+        "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+      },
+      "kicad_dru": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/native/mainboard_revD.kicad_dru",
+        "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+      },
+      "kicad_sch": {
+        "path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/native/mainboard_revD.kicad_sch",
+        "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+      }
+    }
+  },
+  "project_binding": "Same-basename mainboard_revD.kicad_pro/.kicad_dru alongside each native PCB. Hashes must match baseline. DRC invokes explicit PCB path with --all-track-errors --severity-all --schematic-parity --format json --exit-code-violations. No alternate rules or exclusions changed.",
+  "fill_actions": {
+    "baseline": "Historical frozen board cached planes; read-only CLI DRC did not save or refill. Separate baseline fresh-fill replay is checked below if produced.",
+    "candidate": "pcbnew.ZONE_FILLER.Fill followed by SaveBoard after reroute and exact tail trim; serialized delta replay also freshly fills and requires byte equality."
+  },
+  "historical_to_fresh_baseline": {
+    "violations": {
+      "before": 17,
+      "after": 17,
+      "added": [],
+      "removed": []
+    },
+    "unconnected_items": {
+      "before": 21,
+      "after": 21,
+      "added": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 0.1414 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 52.5
+              },
+              "uuid": "e0ce1bf0-0101-469c-9295-119925da5dec"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 3 [SENS_D1] of J202 on B.Cu",
+              "pos": {
+                "x": 11.75,
+                "y": 90.5
+              },
+              "uuid": "bf731bbc-5388-4e00-ad38-5b08098c54f1"
+            },
+            {
+              "description": "Track [SENS_D1] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 3.675,
+                "y": 40.0
+              },
+              "uuid": "83820599-02cc-4411-83c8-f3bd8379db9e"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+              "pos": {
+                "x": 12.25,
+                "y": 90.5
+              },
+              "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+            },
+            {
+              "description": "Track [SENS_D0] on F.Cu, length 0.7500 mm",
+              "pos": {
+                "x": 0.7,
+                "y": 40.0
+              },
+              "uuid": "4f421a23-cc56-4078-9dc7-30971cb9712e"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "removed": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 4.2500 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 48.25
+              },
+              "uuid": "79a91219-cdd0-4486-bb5a-1d36ca32da3b"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [SENS_D1] of R225 on F.Cu",
+              "pos": {
+                "x": 3.675,
+                "y": 40.0
+              },
+              "uuid": "8c9186c7-8653-478a-a0ca-ac4603d968db"
+            },
+            {
+              "description": "Pad 3 [SENS_D1] of J202 on B.Cu",
+              "pos": {
+                "x": 11.75,
+                "y": 90.5
+              },
+              "uuid": "bf731bbc-5388-4e00-ad38-5b08098c54f1"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+              "pos": {
+                "x": 12.25,
+                "y": 90.5
+              },
+              "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+            },
+            {
+              "description": "Track [SENS_D0] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 0.675,
+                "y": 40.0
+              },
+              "uuid": "31f73ccb-49e0-493d-88c2-5c5fbc6f2940"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    },
+    "schematic_parity": {
+      "before": 0,
+      "after": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "fresh_baseline_to_candidate": {
+    "violations": {
+      "before": 17,
+      "after": 17,
+      "added": [],
+      "removed": []
+    },
+    "unconnected_items": {
+      "before": 21,
+      "after": 21,
+      "added": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [GND] of J103 on B.Cu",
+              "pos": {
+                "x": 5.4,
+                "y": 52.0
+              },
+              "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+            },
+            {
+              "description": "Pad 2 [GND] of R234 on F.Cu",
+              "pos": {
+                "x": 5.325,
+                "y": 52.0
+              },
+              "uuid": "dba7a44e-4c68-4401-ab5d-bb89b91f18e6"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 3 [GND] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 56.6
+              },
+              "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566"
+            },
+            {
+              "description": "Pad 9 [GND] of U203 on F.Cu",
+              "pos": {
+                "x": 8.8625,
+                "y": 58.275
+              },
+              "uuid": "f9ed0d01-5b50-44a0-9242-ff0a719ee33d"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 4.2500 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 48.25
+              },
+              "uuid": "79a91219-cdd0-4486-bb5a-1d36ca32da3b"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+              "pos": {
+                "x": 12.25,
+                "y": 90.5
+              },
+              "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+            },
+            {
+              "description": "Track [SENS_D0] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 0.675,
+                "y": 40.0
+              },
+              "uuid": "31f73ccb-49e0-493d-88c2-5c5fbc6f2940"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 15 [SENS_VSYNC] of J202 on B.Cu",
+              "pos": {
+                "x": 5.75,
+                "y": 90.5
+              },
+              "uuid": "4d260b4b-4090-45ee-840c-277a99c3362d"
+            },
+            {
+              "description": "Track [SENS_VSYNC] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 0.675,
+                "y": 52.0
+              },
+              "uuid": "65247f0f-9ea4-4493-97ec-8b3a73d3aedf"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "removed": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [GND] of J103 on B.Cu",
+              "pos": {
+                "x": 5.4,
+                "y": 52.0
+              },
+              "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02"
+            },
+            {
+              "description": "Track [GND] on F.Cu, length 0.0250 mm",
+              "pos": {
+                "x": 5.325,
+                "y": 52.0
+              },
+              "uuid": "15cbce26-470a-4505-a74f-7b06bb41aa46"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 3 [GND] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 56.6
+              },
+              "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566"
+            },
+            {
+              "description": "Track [GND] on F.Cu, length 0.0280 mm",
+              "pos": {
+                "x": 8.8625,
+                "y": 58.275
+              },
+              "uuid": "16c97449-f238-4ac3-b972-8838f19d3311"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 1 [CAM_RESET_UART_TX] of J104 on B.Cu",
+              "pos": {
+                "x": 10.0,
+                "y": 53.0
+              },
+              "uuid": "b77bef4d-0019-4547-9a60-9bc24355847a"
+            },
+            {
+              "description": "Track [CAM_RESET_UART_TX] on In2.Cu, length 0.1414 mm",
+              "pos": {
+                "x": 5.125,
+                "y": 52.5
+              },
+              "uuid": "e0ce1bf0-0101-469c-9295-119925da5dec"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 2 [SENS_D0] of J202 on B.Cu",
+              "pos": {
+                "x": 12.25,
+                "y": 90.5
+              },
+              "uuid": "281e9ed3-6235-46e9-8c04-dd571aa305cb"
+            },
+            {
+              "description": "Track [SENS_D0] on F.Cu, length 0.7500 mm",
+              "pos": {
+                "x": 0.7,
+                "y": 40.0
+              },
+              "uuid": "4f421a23-cc56-4078-9dc7-30971cb9712e"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 15 [SENS_VSYNC] of J202 on B.Cu",
+              "pos": {
+                "x": 5.75,
+                "y": 90.5
+              },
+              "uuid": "4d260b4b-4090-45ee-840c-277a99c3362d"
+            },
+            {
+              "description": "Track [SENS_VSYNC] on F.Cu, length 0.7500 mm",
+              "pos": {
+                "x": 0.7,
+                "y": 52.0
+              },
+              "uuid": "bac6189d-2a92-44a9-b913-3fe5355a8ad9"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ]
+    },
+    "schematic_parity": {
+      "before": 0,
+      "after": 0,
+      "added": [],
+      "removed": []
+    }
+  },
+  "interpretation": "Initial direct CLI omitted --all-track-errors. Repeated complete-mode commands restore all 17 findings; no version drift or short repair. Incomplete reports retained as rejected evidence."
+}

@@ -1,0 +1,5 @@
+(footprint "Commission_OPEN_NO_PASTE" (version 20241229) (generator "gate_study") (layer "F.Cu") (attr smd) (property "Reference" "REF**" (at 0 0)(layer "F.Fab")(effects(font(size .5 .5)(thickness .1)))) (property "Value" "Commission_OPEN_NO_PASTE"(at 0 0)(layer "F.Fab")(effects(font(size .5 .5)(thickness .1))))
+(pad "1" smd rect (at -0.75 0)(size 1 0.8)(layers "F.Cu" "F.Mask"))
+(pad "2" smd rect (at 0.75 0)(size 1 0.8)(layers "F.Cu" "F.Mask"))
+(fp_rect(start -1.25 -0.4)(end 1.25 0.4)(stroke(width .05)(type default))(fill none)(layer "F.Fab"))
+(fp_rect(start -1.5 -0.65)(end 1.5 0.65)(stroke(width .05)(type default))(fill none)(layer "F.CrtYd")))

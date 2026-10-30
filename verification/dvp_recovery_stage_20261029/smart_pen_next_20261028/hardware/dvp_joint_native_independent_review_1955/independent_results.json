@@ -1,0 +1,727 @@
+{
+  "status": "TWELVE_LOCAL_CHAINS_STATIC_CHECKED_ONLY_NOFAB",
+  "pcb_sha256": "184dce12e82219e5d4bb3e1f20f84cf2bc6e06c1494f5b23862f5e1978024f81",
+  "source_equal_to_accepted": [
+    "SmartPenInterfaces.kicad_sym",
+    "mainboard_revD.kicad_pro",
+    "Pen.kicad_sym",
+    "mainboard_revD.kicad_sch",
+    "mainboard_revD.kicad_dru",
+    "PowerSafety.kicad_sym",
+    "schematic/physical_interfaces.kicad_sch",
+    "schematic/pickup_on_main.kicad_sch",
+    "schematic/usb_entry.kicad_sch",
+    "schematic/recovery_fixture.kicad_sch",
+    "schematic/mcu_core.kicad_sch",
+    "schematic/mainboard_revD.kicad_sch",
+    "schematic/MCU.kicad_sym",
+    "schematic/usb_main_port.kicad_sch",
+    "schematic/safe_bias_interfaces.kicad_sch",
+    "schematic/dvp_translation.kicad_sch",
+    "schematic/SmartPenUSB.kicad_sym",
+    "schematic/ISO.kicad_sym",
+    "schematic/controls_sccb.kicad_sch",
+    "schematic/camera_gate_on_main.kicad_sch"
+  ],
+  "chains": [
+    {
+      "net": "SENS_D0",
+      "from": "U201.21",
+      "to": "J202.2",
+      "pad_groups": [
+        [
+          "J202.2",
+          "U201.21"
+        ],
+        [
+          "R224.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 60.7625
+    },
+    {
+      "net": "SENS_D1",
+      "from": "U201.20",
+      "to": "J202.3",
+      "pad_groups": [
+        [
+          "J202.3",
+          "U201.20"
+        ],
+        [
+          "R225.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 61.3125
+    },
+    {
+      "net": "SENS_D2",
+      "from": "U201.19",
+      "to": "J202.5",
+      "pad_groups": [
+        [
+          "J202.5",
+          "U201.19"
+        ],
+        [
+          "R226.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 62.3625
+    },
+    {
+      "net": "SENS_D3",
+      "from": "U201.18",
+      "to": "J202.6",
+      "pad_groups": [
+        [
+          "J202.6",
+          "U201.18"
+        ],
+        [
+          "R227.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 62.9125
+    },
+    {
+      "net": "SENS_D4",
+      "from": "U201.17",
+      "to": "J202.8",
+      "pad_groups": [
+        [
+          "J202.8",
+          "U201.17"
+        ],
+        [
+          "R228.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 2,
+      "track_length_mm": 66.3625
+    },
+    {
+      "net": "SENS_D5",
+      "from": "U201.16",
+      "to": "J202.9",
+      "pad_groups": [
+        [
+          "J202.9",
+          "U201.16"
+        ],
+        [
+          "R229.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 2,
+      "track_length_mm": 66.91250000000001
+    },
+    {
+      "net": "SENS_D6",
+      "from": "U201.15",
+      "to": "J202.11",
+      "pad_groups": [
+        [
+          "J202.11",
+          "U201.15"
+        ],
+        [
+          "R230.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 2,
+      "track_length_mm": 67.9625
+    },
+    {
+      "net": "SENS_D7",
+      "from": "U201.14",
+      "to": "J202.12",
+      "pad_groups": [
+        [
+          "J202.12",
+          "U201.14"
+        ],
+        [
+          "R231.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 2,
+      "track_length_mm": 68.5125
+    },
+    {
+      "net": "SENS_PCLK",
+      "from": "U202.13",
+      "to": "J202.14",
+      "pad_groups": [
+        [
+          "J202.14",
+          "U202.13"
+        ],
+        [
+          "R232.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 56.0625
+    },
+    {
+      "net": "SENS_VSYNC",
+      "from": "U202.12",
+      "to": "J202.15",
+      "pad_groups": [
+        [
+          "J202.15",
+          "U202.12"
+        ],
+        [
+          "R233.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 56.612500000000004
+    },
+    {
+      "net": "SENS_HREF",
+      "from": "U202.11",
+      "to": "J202.16",
+      "pad_groups": [
+        [
+          "J202.16",
+          "U202.11"
+        ],
+        [
+          "R234.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 57.1625
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "from": "U203.13",
+      "to": "J202.18",
+      "pad_groups": [
+        [
+          "J202.18",
+          "U203.13"
+        ],
+        [
+          "R235.1"
+        ]
+      ],
+      "tracks": 5,
+      "vias": 1,
+      "track_length_mm": 46.2625
+    }
+  ],
+  "finite_copper_negative_tests": [
+    {
+      "net": "SENS_D0",
+      "removed": "0facc6d6-4b0c-467a-a404-7984f467da84",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D1",
+      "removed": "021a85b8-5b04-4a4f-9b2b-b32f94fe41b9",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D2",
+      "removed": "01f5e1ba-4f2f-446a-b2e7-0e747c7296dd",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D3",
+      "removed": "7c893a0f-9220-488a-85df-ebc387cc91b2",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D4",
+      "removed": "75b1fe5c-8e84-4f1c-aa23-15409aa7b2e2",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D5",
+      "removed": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D6",
+      "removed": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_D7",
+      "removed": "ebc4aa3d-c2f9-469a-83d9-91d95d464b18",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_PCLK",
+      "removed": "d1e9b8ad-20d1-42b3-bf8c-e77183c3c579",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_VSYNC",
+      "removed": "eb7b89e5-1b75-4692-bba7-f663ef52879d",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_HREF",
+      "removed": "7a79f6a2-1e48-4f89-82e9-43430cae0f6d",
+      "disconnected": true
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "removed": "c788c144-98d8-43e1-9dad-1ac8272e9407",
+      "disconnected": true
+    }
+  ],
+  "fresh_counts": [
+    0,
+    262,
+    0
+  ],
+  "pose_changes_6": [
+    "J105",
+    "R226",
+    "R206",
+    "R227",
+    "J107",
+    "R225"
+  ],
+  "pose_changes_29_from_accepted": {
+    "R229": {
+      "accepted": [
+        4500000,
+        42000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        4500000,
+        40900000,
+        0.0,
+        0
+      ]
+    },
+    "R231": {
+      "accepted": [
+        10500000,
+        42000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        10500000,
+        40900000,
+        0.0,
+        0
+      ]
+    },
+    "C203": {
+      "accepted": [
+        1100000,
+        45500000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        10350000,
+        43137500,
+        0.0,
+        0
+      ]
+    },
+    "R224": {
+      "accepted": [
+        1500000,
+        40000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        1500000,
+        39100000,
+        0.0,
+        0
+      ]
+    },
+    "R233": {
+      "accepted": [
+        1500000,
+        52000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        1500000,
+        50900000,
+        0.0,
+        0
+      ]
+    },
+    "C204": {
+      "accepted": [
+        10800000,
+        44400000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        10350000,
+        48862500,
+        0.0,
+        0
+      ]
+    },
+    "R230": {
+      "accepted": [
+        7500000,
+        42000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        7500000,
+        40900000,
+        0.0,
+        0
+      ]
+    },
+    "U201": {
+      "accepted": [
+        6000000,
+        34000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        6000000,
+        34000000,
+        -90.0,
+        0
+      ]
+    },
+    "R235": {
+      "accepted": [
+        10500000,
+        60000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        10600000,
+        60600000,
+        0.0,
+        0
+      ]
+    },
+    "R228": {
+      "accepted": [
+        1500000,
+        42000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        1500000,
+        40900000,
+        0.0,
+        0
+      ]
+    },
+    "C202": {
+      "accepted": [
+        10800000,
+        30800000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        11750000,
+        36862500,
+        0.0,
+        0
+      ]
+    },
+    "U203": {
+      "accepted": [
+        6000000,
+        56000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        6000000,
+        56000000,
+        -90.0,
+        0
+      ]
+    },
+    "R234": {
+      "accepted": [
+        4500000,
+        52000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        7500000,
+        50900000,
+        0.0,
+        0
+      ]
+    },
+    "C201": {
+      "accepted": [
+        1150000,
+        32000000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        11750000,
+        31137500,
+        0.0,
+        0
+      ]
+    },
+    "C205": {
+      "accepted": [
+        1150000,
+        55500000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        10350000,
+        53137500,
+        0.0,
+        0
+      ]
+    },
+    "R232": {
+      "accepted": [
+        10500000,
+        50000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        10600000,
+        50900000,
+        0.0,
+        0
+      ]
+    },
+    "C206": {
+      "accepted": [
+        10800000,
+        54000000,
+        90.0,
+        0
+      ],
+      "candidate": [
+        10350000,
+        58862500,
+        0.0,
+        0
+      ]
+    },
+    "U202": {
+      "accepted": [
+        6000000,
+        46000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        6000000,
+        46000000,
+        -90.0,
+        0
+      ]
+    },
+    "R222": {
+      "accepted": [
+        4500000,
+        60000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        6000000,
+        56000000,
+        0.0,
+        2
+      ]
+    },
+    "R221": {
+      "accepted": [
+        1500000,
+        60000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        3000000,
+        56000000,
+        0.0,
+        2
+      ]
+    },
+    "J105": {
+      "accepted": [
+        2000000,
+        83500000,
+        -90.0,
+        2
+      ],
+      "candidate": [
+        2000000,
+        77500000,
+        -90.0,
+        2
+      ]
+    },
+    "R226": {
+      "accepted": [
+        7500000,
+        40000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        7500000,
+        44000000,
+        0.0,
+        2
+      ]
+    },
+    "R206": {
+      "accepted": [
+        7500000,
+        52000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        9000000,
+        47000000,
+        0.0,
+        2
+      ]
+    },
+    "R223": {
+      "accepted": [
+        7500000,
+        60000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        6000000,
+        58600000,
+        0.0,
+        2
+      ]
+    },
+    "R218": {
+      "accepted": [
+        1500000,
+        50000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        4500000,
+        41500000,
+        0.0,
+        2
+      ]
+    },
+    "R227": {
+      "accepted": [
+        10500000,
+        40000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        10500000,
+        44000000,
+        0.0,
+        2
+      ]
+    },
+    "R219": {
+      "accepted": [
+        4500000,
+        50000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        7500000,
+        41500000,
+        0.0,
+        2
+      ]
+    },
+    "J107": {
+      "accepted": [
+        7000000,
+        84000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        2700000,
+        84000000,
+        180.0,
+        2
+      ]
+    },
+    "R225": {
+      "accepted": [
+        4500000,
+        40000000,
+        0.0,
+        0
+      ],
+      "candidate": [
+        4500000,
+        43300000,
+        0.0,
+        2
+      ]
+    }
+  },
+  "filled_reference_polygons": [],
+  "ground_via_count": 0,
+  "power_track_count": 0,
+  "return_path_qualification": "NOT POSSIBLE: no planes or ground wiring. Refill and ground return restoration require new assessment.",
+  "existing_ignored_severities": [
+    "footprint_filters_mismatch",
+    "footprint_type_mismatch",
+    "missing_courtyard",
+    "npth_inside_courtyard",
+    "pth_inside_courtyard"
+  ],
+  "exclusions": []
+}

@@ -1,0 +1,432 @@
+{
+  "status": "NOFAB_NINETEEN_COMPLETE_TRACK_NETS_ONLY",
+  "pcb_sha256": "4d7bd85ae460928a48967c00adae133c05df5ef259a6789470c04e986b856f8a",
+  "exact_original_objects_restored": 392,
+  "previous_76_copper_and_all_102_footprints_unchanged": true,
+  "other_native_text_source_and_zone_fill_unchanged": true,
+  "strict_drc": [
+    0,
+    233,
+    0
+  ],
+  "nineteen_net_pad_connectivity": [
+    {
+      "net": "BOOT_N",
+      "pads": [
+        {
+          "uuid": "5845eef2-59eb-425e-b42d-6e48dc1ec686",
+          "terminal": "U101.5"
+        },
+        {
+          "uuid": "c4846127-35dd-46ab-b3ee-124ecdd59fed",
+          "terminal": "J108.2"
+        },
+        {
+          "uuid": "c3dcf967-696b-4427-9416-32ff489fa010",
+          "terminal": "R102.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "pads": [
+        {
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8",
+          "terminal": "R303.1"
+        },
+        {
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a",
+          "terminal": "U301.6"
+        },
+        {
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066",
+          "terminal": "JP301.1"
+        },
+        {
+          "uuid": "7b1f3ef9-b1f4-44d3-a61b-9c91031cb69a",
+          "terminal": "C302.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "CAM_CT",
+      "pads": [
+        {
+          "uuid": "996816b8-acbe-43eb-8e56-ec699bfd7474",
+          "terminal": "U301.4"
+        },
+        {
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd",
+          "terminal": "C303.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "CAM_ON",
+      "pads": [
+        {
+          "uuid": "8f08869c-7172-4594-a917-d13912afcd03",
+          "terminal": "U301.3"
+        },
+        {
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360",
+          "terminal": "R302.2"
+        },
+        {
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5",
+          "terminal": "R301.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "CAM_QOD",
+      "pads": [
+        {
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71",
+          "terminal": "R303.2"
+        },
+        {
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d",
+          "terminal": "U301.5"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "CHIP_EN",
+      "pads": [
+        {
+          "uuid": "5ef2c1d9-af27-49fa-9570-8c1767a55d19",
+          "terminal": "U101.4"
+        },
+        {
+          "uuid": "caba73c2-9cbd-4dc7-9830-395d9237e61b",
+          "terminal": "C101.1"
+        },
+        {
+          "uuid": "97650b12-f2a1-4194-90de-3f91891033d7",
+          "terminal": "J108.1"
+        },
+        {
+          "uuid": "0068ce29-f50a-421d-ab3f-a3649025519e",
+          "terminal": "R101.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "pads": [
+        {
+          "uuid": "48ab9ade-6b67-4841-94f2-646072dc0e25",
+          "terminal": "U101.36"
+        },
+        {
+          "uuid": "9298d916-6dcf-4e7e-9351-c0334219dd26",
+          "terminal": "R109.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "ISO_GATE",
+      "pads": [
+        {
+          "uuid": "2ffaa437-a807-4c1f-9eab-1ca0557bf96b",
+          "terminal": "Q201.1"
+        },
+        {
+          "uuid": "4012f543-6c38-4dde-8903-d5f39772485a",
+          "terminal": "R202.1"
+        },
+        {
+          "uuid": "fb10f88d-3a76-4268-8d56-1ffb04fe1dfc",
+          "terminal": "R201.2"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "RF_ANT",
+      "pads": [
+        {
+          "uuid": "c35867cc-3d2e-42b0-bc0c-3e435c00d405",
+          "terminal": "L101.2"
+        },
+        {
+          "uuid": "b1b18f94-fcc1-4446-9f3c-9c817dbedb25",
+          "terminal": "C107.1"
+        },
+        {
+          "uuid": "9f6cdc91-2456-4b62-8faf-9a31972da34d",
+          "terminal": "AE101.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "RF_SIP",
+      "pads": [
+        {
+          "uuid": "82d03515-1508-4e09-ba1f-651fd8b825b2",
+          "terminal": "U101.1"
+        },
+        {
+          "uuid": "106f99f4-fbae-4a4b-81e4-69b1bfca9ac5",
+          "terminal": "L101.1"
+        },
+        {
+          "uuid": "b00d61e1-c0c9-4487-80a1-03d316f20e95",
+          "terminal": "C106.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "pads": [
+        {
+          "uuid": "0896d964-6756-4d6a-af09-c212e5a9b408",
+          "terminal": "JP202.2"
+        },
+        {
+          "uuid": "4ebf73fc-a542-4ebe-bcdd-3f39aae2644e",
+          "terminal": "R204.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "pads": [
+        {
+          "uuid": "c02534a4-c323-4d55-ada3-1d32f5d79628",
+          "terminal": "R205.1"
+        },
+        {
+          "uuid": "293c36fb-7c5d-4959-8f18-777daef453e5",
+          "terminal": "R204.2"
+        },
+        {
+          "uuid": "8e850a43-b548-4496-afdd-b87f1bad10fe",
+          "terminal": "U204.5"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "pads": [
+        {
+          "uuid": "c2377e68-52b5-4981-888d-fb9daad7354b",
+          "terminal": "U101.8"
+        },
+        {
+          "uuid": "ad8810f0-ee75-4fd7-8af1-077404ec727a",
+          "terminal": "R103.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "pads": [
+        {
+          "uuid": "7bd7e36b-309c-4b1b-8516-e7547233caeb",
+          "terminal": "U101.51"
+        },
+        {
+          "uuid": "bc7d59d0-90e6-46e6-837c-91b4b1bb6fa0",
+          "terminal": "R104.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "pads": [
+        {
+          "uuid": "d82fdade-360e-4109-99cf-d7bedb33b3cd",
+          "terminal": "U101.52"
+        },
+        {
+          "uuid": "9c69307e-868b-4e5d-88f6-8f075bd6e136",
+          "terminal": "R105.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "USB_DM",
+      "pads": [
+        {
+          "uuid": "1c2d6cf6-af35-44e2-bde5-dbfcffe87327",
+          "terminal": "J109.2"
+        },
+        {
+          "uuid": "81aa16d5-d49e-4e4a-8e76-d4bef6cf7114",
+          "terminal": "R113.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "USB_DM_MCU",
+      "pads": [
+        {
+          "uuid": "7b41bdd8-e03e-431e-b30e-6927229faf6b",
+          "terminal": "U101.25"
+        },
+        {
+          "uuid": "67e85047-96b6-4b29-be1c-86fcf843df5b",
+          "terminal": "R113.2"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "USB_DP",
+      "pads": [
+        {
+          "uuid": "3039db19-eafe-416e-bcc6-ab795d51fac3",
+          "terminal": "J109.1"
+        },
+        {
+          "uuid": "f31ba187-7ab1-45f0-a251-7eef423fb666",
+          "terminal": "R112.1"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    },
+    {
+      "net": "USB_DP_MCU",
+      "pads": [
+        {
+          "uuid": "ee22aa88-db3b-4d33-84cb-4eb94d9c8e24",
+          "terminal": "U101.26"
+        },
+        {
+          "uuid": "48671c02-a28b-40c2-a533-0ae7d5742196",
+          "terminal": "R112.2"
+        }
+      ],
+      "all_actual_pads_one_component": true
+    }
+  ],
+  "nineteen_single_object_removal_negatives": [
+    {
+      "net": "BOOT_N",
+      "removed_uuid": "3082a087-df00-4eda-b477-fd24d7cd718e",
+      "expected_disconnected": true
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "removed_uuid": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "expected_disconnected": true
+    },
+    {
+      "net": "CAM_CT",
+      "removed_uuid": "20934ec2-15db-4756-a523-a16063963645",
+      "expected_disconnected": true
+    },
+    {
+      "net": "CAM_ON",
+      "removed_uuid": "69ad6001-ac7e-42e9-abf0-7cfd8b64c920",
+      "expected_disconnected": true
+    },
+    {
+      "net": "CAM_QOD",
+      "removed_uuid": "1e490a33-144f-4ba8-830f-48ef92837616",
+      "expected_disconnected": true
+    },
+    {
+      "net": "CHIP_EN",
+      "removed_uuid": "193c0e0f-c2f6-49b9-93dd-c6b76f757915",
+      "expected_disconnected": true
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "removed_uuid": "571912ba-ff30-40f8-b459-95f644fa9e95",
+      "expected_disconnected": true
+    },
+    {
+      "net": "ISO_GATE",
+      "removed_uuid": "58db7894-3bde-4a29-abf2-27692f50f934",
+      "expected_disconnected": true
+    },
+    {
+      "net": "RF_ANT",
+      "removed_uuid": "12b0d7aa-fcb4-43f9-be3c-dca2e9b1176c",
+      "expected_disconnected": true
+    },
+    {
+      "net": "RF_SIP",
+      "removed_uuid": "1b6e5524-193c-4b64-8e47-8253b23d76cb",
+      "expected_disconnected": true
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "removed_uuid": "3e7e1970-e04d-4161-b3ab-2297d6a69f30",
+      "expected_disconnected": true
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "removed_uuid": "0154d68c-5751-44f7-ba80-856ff6c7f1b7",
+      "expected_disconnected": true
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "removed_uuid": "9ce67ba9-70a8-4905-8645-e626112196e4",
+      "expected_disconnected": true
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "removed_uuid": "2210cdef-cbd7-49ce-9f85-6d753d42d806",
+      "expected_disconnected": true
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "removed_uuid": "118b0293-cdf3-4b20-91f6-e25674f1a364",
+      "expected_disconnected": true
+    },
+    {
+      "net": "USB_DM",
+      "removed_uuid": "32b91d05-361d-4dab-a6a9-58bf604459b5",
+      "expected_disconnected": true
+    },
+    {
+      "net": "USB_DM_MCU",
+      "removed_uuid": "29e3b50c-3c6a-4902-bcb7-f150104b7fa9",
+      "expected_disconnected": true
+    },
+    {
+      "net": "USB_DP",
+      "removed_uuid": "0a76bb91-a6a4-47df-9042-f41dd9b28567",
+      "expected_disconnected": true
+    },
+    {
+      "net": "USB_DP_MCU",
+      "removed_uuid": "487d0754-a589-4950-b0ac-20286c846d3b",
+      "expected_disconnected": true
+    }
+  ],
+  "previous_12_chain_connectivity": [
+    "SENS_D0",
+    "SENS_D1",
+    "SENS_D2",
+    "SENS_D3",
+    "SENS_D4",
+    "SENS_D5",
+    "SENS_D6",
+    "SENS_D7",
+    "SENS_PCLK",
+    "SENS_VSYNC",
+    "SENS_HREF",
+    "SENS_EXTCLK"
+  ],
+  "no_power_ground_or_zone_restoration": true
+}

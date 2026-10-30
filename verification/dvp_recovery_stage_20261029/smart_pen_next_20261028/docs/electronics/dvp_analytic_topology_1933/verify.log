@@ -1,0 +1,35 @@
+{
+  "pair_checks": "analytic centerline distance including actual widths; all pairs of unlike nets on shared layers",
+  "different_net_min_copper_gap_mm": 0.14999999999999894,
+  "at_object_indices": [
+    13,
+    8
+  ],
+  "mutual_drill_edge_gap_mm": 0.6200609733428295,
+  "assumed_drill_gap_screen_mm": 0.25,
+  "rectangular_x_edge_gap_mm": 0.425,
+  "negative_controls": [
+    {
+      "index": 0,
+      "coincident_other_net_gap_mm": -0.15,
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "coincident_other_net_gap_mm": -0.45,
+      "rejected": true
+    },
+    {
+      "index": 25,
+      "coincident_other_net_gap_mm": -0.45,
+      "rejected": true
+    },
+    {
+      "index": 53,
+      "coincident_other_net_gap_mm": -0.45,
+      "rejected": true
+    }
+  ],
+  "pad_conflict_count": 29,
+  "must_not_be_native_DRC_or_manufacturing_approval": true
+}

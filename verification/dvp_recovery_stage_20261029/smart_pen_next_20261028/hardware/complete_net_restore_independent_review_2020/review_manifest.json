@@ -1,0 +1,129 @@
+{
+  "status": "NINETEEN_TRACK_NETS_STATIC_ONLY_NOFAB",
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "bytes": 4283,
+      "sha256": "005e543bed4f249c73e4516cf136fe0fb4b78deec073110e64241239bdc96fa5"
+    },
+    {
+      "path": "input_manifest.json",
+      "bytes": 18596,
+      "sha256": "9dad722c58c1f91b8d7faa3475d9a62c9ba7c130af12b65aaca7b4fccac86b1b"
+    },
+    {
+      "path": "final_integrity.json",
+      "bytes": 51,
+      "sha256": "e1165eb6ef419528e921dc536043880510b2bb308bac510c9367df9eaefea674"
+    },
+    {
+      "path": "toolchain.json",
+      "bytes": 275,
+      "sha256": "f354b6df46b0e4ea37c50a3aa4ace6e791ab2eb236283f3cff8fbfcbad627844"
+    },
+    {
+      "path": "independent.py",
+      "bytes": 3793,
+      "sha256": "41f2500bdde8a9f12ffc6e8682cad16373f19403a7e6a120480ac7fda9b3e922"
+    },
+    {
+      "path": "finite_copper.py",
+      "bytes": 1605,
+      "sha256": "c6259ac8126c6db8911e2c6f66dcde6a2b1056a182d4f5c76f4f8838a28e22ed"
+    },
+    {
+      "path": "independent_results.json",
+      "bytes": 10113,
+      "sha256": "47fd003a9a318af9e48e80e227a7c06bee4fc199851877c4c13a88e4dbb1b463"
+    },
+    {
+      "path": "independent.log",
+      "bytes": 11709,
+      "sha256": "8f8abcc1c9757ebc5001ea13734fadacb0f59919b14376a8a5506895a35da6fb"
+    },
+    {
+      "path": "independent_O.log",
+      "bytes": 11709,
+      "sha256": "1caf4317f561688a10993dc0ab248f91b1b483f3ec7ee1df6b5770abfa762b2f"
+    },
+    {
+      "path": "fresh_drc.json",
+      "bytes": 183605,
+      "sha256": "535c439afd5f7255a0af6de324190440c903eb97a9910b1c61a3a57e521ee233"
+    },
+    {
+      "path": "fresh_drc.log",
+      "bytes": 192,
+      "sha256": "798f01fde8da301cf5ac5eeda824b75e40544fb76e782dcacedecf0a5029de13"
+    },
+    {
+      "path": "rerun_normal.log",
+      "bytes": 12764,
+      "sha256": "16ce395eb4a3c5b573b1cb75671b65d79ed35c42e8bf373ba9e333aa6686dc46"
+    },
+    {
+      "path": "rerun_optimized.log",
+      "bytes": 12764,
+      "sha256": "94e764faf9515c554d379f9884d492813ef5847c1538bf01448dfb3b8dd20519"
+    },
+    {
+      "path": "replay_independent.log",
+      "bytes": 923,
+      "sha256": "6bd478f8858943ffee1d7cbb5388d74a71be57ff845f99e4ee389b8adf4416af"
+    },
+    {
+      "path": "native_negative_independent.py",
+      "bytes": 1745,
+      "sha256": "c9066bb90548bc12f142c0ac32777f23343371684489b1882c578e687ec95330"
+    },
+    {
+      "path": "native_negative_independent.log",
+      "bytes": 2516,
+      "sha256": "b290386c9fd78b14ad96932d4ac20089d138af24eb0c0056ba78f6721bfd6c1d"
+    },
+    {
+      "path": "native_negative_independent_results.json",
+      "bytes": 2516,
+      "sha256": "b290386c9fd78b14ad96932d4ac20089d138af24eb0c0056ba78f6721bfd6c1d"
+    },
+    {
+      "path": "negative_independent_RF_ANT.json",
+      "bytes": 184899,
+      "sha256": "fe18619f7be90b717bb1d0a33cea402db3e5cda3c3939e78d7618154778620fd"
+    },
+    {
+      "path": "negative_independent_RF_ANT.log",
+      "bytes": 242,
+      "sha256": "807e5e6aa9683ee941c92fc17844123be99f9e945099fd9fb3d5be35a33c4557"
+    },
+    {
+      "path": "negative_independent_USB_DM_MCU.json",
+      "bytes": 184903,
+      "sha256": "336ef453b3104f1a76369b5c84e6a4298147f89787584f2698504e465903ea1f"
+    },
+    {
+      "path": "negative_independent_USB_DM_MCU.log",
+      "bytes": 246,
+      "sha256": "2da26b1c2eea6a7f1913f37edd3a730da29e1fd7c40bba2dddf1cb41d567242d"
+    },
+    {
+      "path": "negative_independent_CAM_QOD.json",
+      "bytes": 185376,
+      "sha256": "a1b8c192e638b17c0e4ae407c005cf93d80aaff45de3eef191b04fc61b0fd0be"
+    },
+    {
+      "path": "negative_independent_CAM_QOD.log",
+      "bytes": 243,
+      "sha256": "35a74d6863f8f7eac4e434138c65713533805f27ac3326b112973a8c8dbb88d5"
+    }
+  ],
+  "dependencies": [
+    "../complete_net_restore_candidate_2014/manifest.json (85 files)",
+    "candidate dependencies.json (6 primary inputs)"
+  ],
+  "excluded": [
+    "native/duplicate source",
+    "replayed_native/derived duplicate",
+    "other copied author files"
+  ]
+}

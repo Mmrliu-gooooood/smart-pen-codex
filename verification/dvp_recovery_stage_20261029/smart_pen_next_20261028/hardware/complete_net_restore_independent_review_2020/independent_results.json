@@ -1,0 +1,560 @@
+{
+  "status": "NINETEEN_COMPLETE_TRACK_NETS_ONLY_NOFAB",
+  "source_equal_to_accepted": [
+    "SmartPenInterfaces.kicad_sym",
+    "mainboard_revD.kicad_pro",
+    "Pen.kicad_sym",
+    "mainboard_revD.kicad_sch",
+    "mainboard_revD.kicad_dru",
+    "PowerSafety.kicad_sym",
+    "schematic/physical_interfaces.kicad_sch",
+    "schematic/pickup_on_main.kicad_sch",
+    "schematic/usb_entry.kicad_sch",
+    "schematic/recovery_fixture.kicad_sch",
+    "schematic/mcu_core.kicad_sch",
+    "schematic/mainboard_revD.kicad_sch",
+    "schematic/MCU.kicad_sym",
+    "schematic/usb_main_port.kicad_sch",
+    "schematic/safe_bias_interfaces.kicad_sch",
+    "schematic/dvp_translation.kicad_sch",
+    "schematic/SmartPenUSB.kicad_sym",
+    "schematic/ISO.kicad_sym",
+    "schematic/controls_sccb.kicad_sch",
+    "schematic/camera_gate_on_main.kicad_sch"
+  ],
+  "exact_original_added_objects": 392,
+  "old_76_unchanged": true,
+  "finite_copper_whole_net_results": [
+    {
+      "net": "BOOT_N",
+      "actual_pad_terminals": [
+        "U101.5",
+        "J108.2",
+        "R102.1"
+      ],
+      "components": [
+        [
+          "J108.2",
+          "R102.1",
+          "U101.5"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "actual_pad_terminals": [
+        "R303.1",
+        "U301.6",
+        "JP301.1",
+        "C302.1"
+      ],
+      "components": [
+        [
+          "C302.1",
+          "JP301.1",
+          "R303.1",
+          "U301.6"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_CT",
+      "actual_pad_terminals": [
+        "U301.4",
+        "C303.1"
+      ],
+      "components": [
+        [
+          "C303.1",
+          "U301.4"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_ON",
+      "actual_pad_terminals": [
+        "U301.3",
+        "R302.2",
+        "R301.1"
+      ],
+      "components": [
+        [
+          "R301.1",
+          "R302.2",
+          "U301.3"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_QOD",
+      "actual_pad_terminals": [
+        "R303.2",
+        "U301.5"
+      ],
+      "components": [
+        [
+          "R303.2",
+          "U301.5"
+        ]
+      ]
+    },
+    {
+      "net": "CHIP_EN",
+      "actual_pad_terminals": [
+        "U101.4",
+        "C101.1",
+        "J108.1",
+        "R101.1"
+      ],
+      "components": [
+        [
+          "C101.1",
+          "J108.1",
+          "R101.1",
+          "U101.4"
+        ]
+      ]
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "actual_pad_terminals": [
+        "U101.36",
+        "R109.1"
+      ],
+      "components": [
+        [
+          "R109.1",
+          "U101.36"
+        ]
+      ]
+    },
+    {
+      "net": "ISO_GATE",
+      "actual_pad_terminals": [
+        "Q201.1",
+        "R202.1",
+        "R201.2"
+      ],
+      "components": [
+        [
+          "Q201.1",
+          "R201.2",
+          "R202.1"
+        ]
+      ]
+    },
+    {
+      "net": "RF_ANT",
+      "actual_pad_terminals": [
+        "L101.2",
+        "C107.1",
+        "AE101.1"
+      ],
+      "components": [
+        [
+          "AE101.1",
+          "C107.1",
+          "L101.2"
+        ]
+      ]
+    },
+    {
+      "net": "RF_SIP",
+      "actual_pad_terminals": [
+        "U101.1",
+        "L101.1",
+        "C106.1"
+      ],
+      "components": [
+        [
+          "C106.1",
+          "L101.1",
+          "U101.1"
+        ]
+      ]
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "actual_pad_terminals": [
+        "JP202.2",
+        "R204.1"
+      ],
+      "components": [
+        [
+          "JP202.2",
+          "R204.1"
+        ]
+      ]
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "actual_pad_terminals": [
+        "R205.1",
+        "R204.2",
+        "U204.5"
+      ],
+      "components": [
+        [
+          "R204.2",
+          "R205.1",
+          "U204.5"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "actual_pad_terminals": [
+        "U101.8",
+        "R103.1"
+      ],
+      "components": [
+        [
+          "R103.1",
+          "U101.8"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "actual_pad_terminals": [
+        "U101.51",
+        "R104.1"
+      ],
+      "components": [
+        [
+          "R104.1",
+          "U101.51"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "actual_pad_terminals": [
+        "U101.52",
+        "R105.1"
+      ],
+      "components": [
+        [
+          "R105.1",
+          "U101.52"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "actual_pad_terminals": [
+        "J109.2",
+        "R113.1"
+      ],
+      "components": [
+        [
+          "J109.2",
+          "R113.1"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_MCU",
+      "actual_pad_terminals": [
+        "U101.25",
+        "R113.2"
+      ],
+      "components": [
+        [
+          "R113.2",
+          "U101.25"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "actual_pad_terminals": [
+        "J109.1",
+        "R112.1"
+      ],
+      "components": [
+        [
+          "J109.1",
+          "R112.1"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_MCU",
+      "actual_pad_terminals": [
+        "U101.26",
+        "R112.2"
+      ],
+      "components": [
+        [
+          "R112.2",
+          "U101.26"
+        ]
+      ]
+    }
+  ],
+  "finite_copper_removal_negatives": [
+    {
+      "net": "BOOT_N",
+      "removed_uuid": "3082a087-df00-4eda-b477-fd24d7cd718e",
+      "components_after": [
+        [
+          "J108.2",
+          "U101.5"
+        ],
+        [
+          "R102.1"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "removed_uuid": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "components_after": [
+        [
+          "C302.1",
+          "JP301.1"
+        ],
+        [
+          "R303.1",
+          "U301.6"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_CT",
+      "removed_uuid": "20934ec2-15db-4756-a523-a16063963645",
+      "components_after": [
+        [
+          "C303.1"
+        ],
+        [
+          "U301.4"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_ON",
+      "removed_uuid": "69ad6001-ac7e-42e9-abf0-7cfd8b64c920",
+      "components_after": [
+        [
+          "R301.1",
+          "U301.3"
+        ],
+        [
+          "R302.2"
+        ]
+      ]
+    },
+    {
+      "net": "CAM_QOD",
+      "removed_uuid": "1e490a33-144f-4ba8-830f-48ef92837616",
+      "components_after": [
+        [
+          "R303.2"
+        ],
+        [
+          "U301.5"
+        ]
+      ]
+    },
+    {
+      "net": "CHIP_EN",
+      "removed_uuid": "193c0e0f-c2f6-49b9-93dd-c6b76f757915",
+      "components_after": [
+        [
+          "C101.1",
+          "J108.1",
+          "R101.1"
+        ],
+        [
+          "U101.4"
+        ]
+      ]
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "removed_uuid": "571912ba-ff30-40f8-b459-95f644fa9e95",
+      "components_after": [
+        [
+          "R109.1"
+        ],
+        [
+          "U101.36"
+        ]
+      ]
+    },
+    {
+      "net": "ISO_GATE",
+      "removed_uuid": "58db7894-3bde-4a29-abf2-27692f50f934",
+      "components_after": [
+        [
+          "Q201.1",
+          "R202.1"
+        ],
+        [
+          "R201.2"
+        ]
+      ]
+    },
+    {
+      "net": "RF_ANT",
+      "removed_uuid": "12b0d7aa-fcb4-43f9-be3c-dca2e9b1176c",
+      "components_after": [
+        [
+          "AE101.1"
+        ],
+        [
+          "C107.1",
+          "L101.2"
+        ]
+      ]
+    },
+    {
+      "net": "RF_SIP",
+      "removed_uuid": "1b6e5524-193c-4b64-8e47-8253b23d76cb",
+      "components_after": [
+        [
+          "C106.1",
+          "L101.1"
+        ],
+        [
+          "U101.1"
+        ]
+      ]
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "removed_uuid": "3e7e1970-e04d-4161-b3ab-2297d6a69f30",
+      "components_after": [
+        [
+          "JP202.2"
+        ],
+        [
+          "R204.1"
+        ]
+      ]
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "removed_uuid": "0154d68c-5751-44f7-ba80-856ff6c7f1b7",
+      "components_after": [
+        [
+          "R204.2",
+          "R205.1"
+        ],
+        [
+          "U204.5"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "removed_uuid": "9ce67ba9-70a8-4905-8645-e626112196e4",
+      "components_after": [
+        [
+          "R103.1"
+        ],
+        [
+          "U101.8"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "removed_uuid": "2210cdef-cbd7-49ce-9f85-6d753d42d806",
+      "components_after": [
+        [
+          "R104.1"
+        ],
+        [
+          "U101.51"
+        ]
+      ]
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "removed_uuid": "118b0293-cdf3-4b20-91f6-e25674f1a364",
+      "components_after": [
+        [
+          "R105.1"
+        ],
+        [
+          "U101.52"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "removed_uuid": "32b91d05-361d-4dab-a6a9-58bf604459b5",
+      "components_after": [
+        [
+          "J109.2"
+        ],
+        [
+          "R113.1"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_MCU",
+      "removed_uuid": "29e3b50c-3c6a-4902-bcb7-f150104b7fa9",
+      "components_after": [
+        [
+          "R113.2"
+        ],
+        [
+          "U101.25"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "removed_uuid": "0a76bb91-a6a4-47df-9042-f41dd9b28567",
+      "components_after": [
+        [
+          "J109.1"
+        ],
+        [
+          "R112.1"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_MCU",
+      "removed_uuid": "487d0754-a589-4950-b0ac-20286c846d3b",
+      "components_after": [
+        [
+          "R112.2"
+        ],
+        [
+          "U101.26"
+        ]
+      ]
+    }
+  ],
+  "twelve_DVP_chains": [
+    "SENS_D0",
+    "SENS_D1",
+    "SENS_D2",
+    "SENS_D3",
+    "SENS_D4",
+    "SENS_D5",
+    "SENS_D6",
+    "SENS_D7",
+    "SENS_PCLK",
+    "SENS_VSYNC",
+    "SENS_HREF",
+    "SENS_EXTCLK"
+  ],
+  "fresh_DRC": [
+    0,
+    233,
+    0
+  ],
+  "unconnected_reduction": 29,
+  "pad_count_minus_net_count": 29,
+  "filled_planes": [],
+  "GND_AON_SW_tracks": 0,
+  "return_qualification": "Absent. RF/USB/CAM_ON inherited geometry does not imply qualified return, impedance, ground bounce or load behavior."
+}

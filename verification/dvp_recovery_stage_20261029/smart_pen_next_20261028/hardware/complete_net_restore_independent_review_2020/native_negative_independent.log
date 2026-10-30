@@ -1,0 +1,107 @@
+[
+  {
+    "net": "RF_ANT",
+    "removed_uuid": "12b0d7aa-fcb4-43f9-be3c-dca2e9b1176c",
+    "exit": 5,
+    "counts": [
+      1,
+      234,
+      0
+    ],
+    "new_net_airwire": [
+      {
+        "description": "Missing connection between items",
+        "items": [
+          {
+            "description": "Track [RF_ANT] on F.Cu, length 0.9650 mm",
+            "pos": {
+              "x": 8.535,
+              "y": 0.9
+            },
+            "uuid": "80c1e5bf-3890-4ed6-9966-50b833b4aca1"
+          },
+          {
+            "description": "Track [RF_ANT] on F.Cu, length 1.9000 mm",
+            "pos": {
+              "x": 9.5,
+              "y": 0.0
+            },
+            "uuid": "897c1d92-9f4e-44c7-9902-662b86f05dd1"
+          }
+        ],
+        "severity": "error",
+        "type": "unconnected_items"
+      }
+    ]
+  },
+  {
+    "net": "USB_DM_MCU",
+    "removed_uuid": "29e3b50c-3c6a-4902-bcb7-f150104b7fa9",
+    "exit": 5,
+    "counts": [
+      1,
+      234,
+      0
+    ],
+    "new_net_airwire": [
+      {
+        "description": "Missing connection between items",
+        "items": [
+          {
+            "description": "Pad 25 [USB_DM_MCU] of U101 on F.Cu",
+            "pos": {
+              "x": 7.4,
+              "y": 13.425
+            },
+            "uuid": "7b41bdd8-e03e-431e-b30e-6927229faf6b"
+          },
+          {
+            "description": "Track [USB_DM_MCU] on F.Cu, length 0.9546 mm",
+            "pos": {
+              "x": 7.4,
+              "y": 13.975
+            },
+            "uuid": "a10909c3-bcc1-4410-9909-1b3732154b32"
+          }
+        ],
+        "severity": "error",
+        "type": "unconnected_items"
+      }
+    ]
+  },
+  {
+    "net": "CAM_QOD",
+    "removed_uuid": "1e490a33-144f-4ba8-830f-48ef92837616",
+    "exit": 5,
+    "counts": [
+      2,
+      234,
+      0
+    ],
+    "new_net_airwire": [
+      {
+        "description": "Missing connection between items",
+        "items": [
+          {
+            "description": "Track [CAM_QOD] on B.Cu, length 2.4749 mm",
+            "pos": {
+              "x": 5.65,
+              "y": 70.0
+            },
+            "uuid": "b9d79f08-83c5-41e7-9042-8042a99fddf3"
+          },
+          {
+            "description": "Track [CAM_QOD] on B.Cu, length 0.1414 mm",
+            "pos": {
+              "x": 7.4,
+              "y": 67.4
+            },
+            "uuid": "343ffaf5-9847-465a-8c03-543ad03bfcb6"
+          }
+        ],
+        "severity": "error",
+        "type": "unconnected_items"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+03:37:59: Debug: Adding duplicate image handler for 'PNG file'
+03:37:59: Debug: Adding duplicate image handler for 'JPEG file'
+03:37:59: Debug: Adding duplicate image handler for 'TIFF file'
+03:37:59: Debug: Adding duplicate image handler for 'GIF file'
+03:37:59: Debug: Adding duplicate image handler for 'PNM file'
+03:37:59: Debug: Adding duplicate image handler for 'PCX file'
+03:37:59: Debug: Adding duplicate image handler for 'IFF file'
+03:37:59: Debug: Adding duplicate image handler for 'Windows icon file'
+03:37:59: Debug: Adding duplicate image handler for 'Windows cursor file'
+03:37:59: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+03:37:59: Debug: Adding duplicate image handler for 'TGA file'
+03:37:59: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/verify.py", line 18, in <module>
+    req(blocks(B/'native/mainboard_revD.kicad_pcb','footprint')==blocks(candidate,'footprint'),'FOOTPRINT_CHANGE')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/dvp_reserved_corridor_study_1826/low_speed_trial/verify.py", line 8, in req
+    if not v:raise RuntimeError(m)
+             ^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: FOOTPRINT_CHANGE

@@ -1,0 +1,17 @@
+{
+  "executable": "/usr/bin/kicad-cli",
+  "sha256": "d5daf01b170249572de1065faa0870b6006d8463fe4f075c018bf6ba85ca34d8",
+  "version": "9.0.2",
+  "flags": [
+    "pcb",
+    "drc",
+    "--all-track-errors",
+    "--severity-all",
+    "--schematic-parity",
+    "--format",
+    "json",
+    "--exit-code-violations"
+  ],
+  "candidate_report": "fresh_candidate_drc.json",
+  "baseline_report": "fresh_baseline_drc.json"
+}
