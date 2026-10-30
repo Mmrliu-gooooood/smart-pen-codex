@@ -1,0 +1,1145 @@
+{
+  "verdict": "ACCEPT_SCOPED_STATIC_BIAS_BRANCH_ROUTING_WITH_EXPLICIT_MUTUAL_REFERENCE_EXCEPTION_NOT_SI_OR_PRODUCT_QUALIFICATION",
+  "pcb_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+  "manifest_sha256": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c",
+  "frozen_files_unchanged": 115,
+  "fresh_DRC": [
+    0,
+    59,
+    0
+  ],
+  "fresh_parent_DRC": [
+    0,
+    67,
+    0
+  ],
+  "source": "Independently read local TI SCES875C PW24 pin/function table and sections7.3.4,7.4,8.4. Both DIR grounded gives enabled B-to-A, A1-A8 output ports. Internal288k typical pulldowns exist; external100k additional existing bias, not proof of otherwise floating failure.",
+  "source_pdf_sha256": "6cf4003c438c0546fb86f0932613896197dd19a75bdb307f385eb6e75535126e",
+  "supply_core_sizes": {
+    "GND": 94,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "all8partitions": {
+    "CAM_D7": {
+      "before": [
+        [
+          "R217.1"
+        ],
+        [
+          "U101.19"
+        ],
+        [
+          "U201.10"
+        ]
+      ],
+      "after": [
+        [
+          "R217.1",
+          "U201.10"
+        ],
+        [
+          "U101.19"
+        ]
+      ]
+    },
+    "CAM_D0": {
+      "before": [
+        [
+          "R210.1"
+        ],
+        [
+          "U101.12"
+        ],
+        [
+          "U201.3"
+        ]
+      ],
+      "after": [
+        [
+          "R210.1",
+          "U201.3"
+        ],
+        [
+          "U101.12"
+        ]
+      ]
+    },
+    "CAM_D1": {
+      "before": [
+        [
+          "R211.1"
+        ],
+        [
+          "U101.13"
+        ],
+        [
+          "U201.4"
+        ]
+      ],
+      "after": [
+        [
+          "R211.1",
+          "U201.4"
+        ],
+        [
+          "U101.13"
+        ]
+      ]
+    },
+    "CAM_D2": {
+      "before": [
+        [
+          "R212.1"
+        ],
+        [
+          "U101.14"
+        ],
+        [
+          "U201.5"
+        ]
+      ],
+      "after": [
+        [
+          "R212.1",
+          "U201.5"
+        ],
+        [
+          "U101.14"
+        ]
+      ]
+    },
+    "CAM_D3": {
+      "before": [
+        [
+          "R213.1"
+        ],
+        [
+          "U101.15"
+        ],
+        [
+          "U201.6"
+        ]
+      ],
+      "after": [
+        [
+          "R213.1",
+          "U201.6"
+        ],
+        [
+          "U101.15"
+        ]
+      ]
+    },
+    "CAM_D4": {
+      "before": [
+        [
+          "R214.1"
+        ],
+        [
+          "U101.16"
+        ],
+        [
+          "U201.7"
+        ]
+      ],
+      "after": [
+        [
+          "R214.1",
+          "U201.7"
+        ],
+        [
+          "U101.16"
+        ]
+      ]
+    },
+    "CAM_D5": {
+      "before": [
+        [
+          "R215.1"
+        ],
+        [
+          "U101.17"
+        ],
+        [
+          "U201.8"
+        ]
+      ],
+      "after": [
+        [
+          "R215.1",
+          "U201.8"
+        ],
+        [
+          "U101.17"
+        ]
+      ]
+    },
+    "CAM_D6": {
+      "before": [
+        [
+          "R216.1"
+        ],
+        [
+          "U101.18"
+        ],
+        [
+          "U201.9"
+        ]
+      ],
+      "after": [
+        [
+          "R216.1",
+          "U201.9"
+        ],
+        [
+          "U101.18"
+        ]
+      ]
+    }
+  },
+  "mode_equality": {
+    "verify": "equal",
+    "physical": "equal",
+    "raw_delta": "equal",
+    "source_check": "equal",
+    "reference_classification": "equal",
+    "negative": "equal",
+    "replay_rollback": "equal",
+    "pre_via_reference": "equal",
+    "reference_interaction": "equal"
+  },
+  "negative_cuts": [
+    {
+      "target": "CAM_D0",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "8667adc39851b1ba2052f5b32f663a168981e04c983b3699bc0a5744816d80f9"
+    },
+    {
+      "target": "CAM_D1",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "2ec128a92de4ccb3c737b578b3998f69e52f583b615d0f5e1fd06d78945ecb78"
+    },
+    {
+      "target": "CAM_D2",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "b6cee100905e0fe7d210c030309886531359261486c8fa19583bd5110a1ee7ae"
+    },
+    {
+      "target": "CAM_D3",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "40a1715fb5a4b1165f6c729fa0b0269dbe68bc5fbb6528fb137f75f852dc97d7"
+    },
+    {
+      "target": "CAM_D4",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "0216c8f1a64119d008b02845262e84142a4c273a3aa9b2763efbdf7998d183ec"
+    },
+    {
+      "target": "CAM_D5",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "38fec52b0482dcf8a799fbd337e63d78f2ae83dee9bb0ab6069879500f97df32"
+    },
+    {
+      "target": "CAM_D6",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "edc10a4ba9a88ec739d652215b848d9bef8a9ff82669b65d6a05fcffc3388d91"
+    },
+    {
+      "target": "CAM_D7",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        0,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "1cc91b4262557182104a2efe3f4ca36a9cdcee1ed846603a915039baa5d628c0"
+    },
+    {
+      "target": "ALL8",
+      "partition_increase": 8,
+      "DRC_unconnected_parity": [
+        0,
+        67,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "3a92ee3cc10ec2e17422e40788ad23483b611ca97322ae03f3d8cde4c9210022"
+    },
+    {
+      "target": "R210_GND_VIA",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        1,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "2e429d20417b6c8ed8f611c2f97f1c98df2d4535b5dc7c0ad752b78d4453a7a6"
+    },
+    {
+      "target": "R217_GND_VIA",
+      "partition_increase": 1,
+      "DRC_unconnected_parity": [
+        1,
+        60,
+        0
+      ],
+      "unrelated_nets_unchanged": true,
+      "pcb_sha256": "034967236b1d86fbef0a5d170cce46bbb6cf6a93ba2bf485aa2afa5cb519ccf6"
+    }
+  ],
+  "replay": {
+    "replay_all_native_files_byte_equal": true,
+    "replay_native_file_count": 54,
+    "inverse_patch_actual_applied": true,
+    "rollback_all_native_files_byte_equal": true,
+    "rollback_native_file_count": 54,
+    "rollback_DRC_unconnected_parity": [
+      0,
+      67,
+      0
+    ],
+    "changes": [
+      {
+        "path": "mainboard_revD.kicad_pcb",
+        "before_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+        "after_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad"
+      }
+    ],
+    "note": "Real inverse unified diff applied to candidate tree, not replacing PCB with baseline copy; no upstream source edited"
+  },
+  "raw_exact_projection": {
+    "raw_changed_blocks": [
+      {
+        "uuid": "250ee487-3dda-4ee0-806c-2397f2308ec3",
+        "kind": "footprint",
+        "reference": "R217"
+      },
+      {
+        "uuid": "8771a409-38c0-4701-b584-0ea83f1f7c1a",
+        "kind": "footprint",
+        "reference": "R210"
+      },
+      {
+        "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+        "kind": "zone",
+        "reference": null
+      }
+    ],
+    "raw_old_block_counts": {
+      "footprint": 103,
+      "gr_line": 6,
+      "gr_text": 1,
+      "segment": 1141,
+      "via": 157,
+      "zone": 9
+    },
+    "exact_retained_projection_count": 1182,
+    "plane_delta_first_all_positive_losses": [],
+    "positive_loss_without_threshold": [
+      {
+        "uuid": "f59ca65f-50a0-430d-af9e-254985f50673",
+        "reference": "In1.Cu",
+        "area_mm2": 5.3279e-08,
+        "self_subtraction_residual_mm2": 5.3279e-08,
+        "plane_delta_first_loss_mm2": 0.0,
+        "net": "3V3_AON",
+        "vertices_nm": [
+          [
+            [
+              7760489,
+              4523387
+            ],
+            [
+              7813768,
+              4615667
+            ],
+            [
+              7813768,
+              4615669
+            ]
+          ]
+        ]
+      },
+      {
+        "uuid": "6c42eafe-953a-59e8-8572-97a1e1dea857",
+        "reference": "In1.Cu",
+        "area_mm2": 4.2455e-09,
+        "self_subtraction_residual_mm2": 4.2455e-09,
+        "plane_delta_first_loss_mm2": 0.0,
+        "net": "CAM_ISO_OE_N",
+        "vertices_nm": [
+          [
+            [
+              8539129,
+              71613829
+            ],
+            [
+              8519938,
+              71624910
+            ],
+            [
+              8446890,
+              71644482
+            ],
+            [
+              8446889,
+              71644482
+            ],
+            [
+              8519938,
+              71624910
+            ],
+            [
+              8539130,
+              71613829
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "pre_via_report": {
+    "candidate_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+    "matched_baseline_refill_byte_equal": true,
+    "removed_new_signal_vias": [
+      "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+      "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+      "4d1c41de-d62f-5e8c-9d3b-67bfd598f993",
+      "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+      "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+      "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+      "ce9db837-2779-5e9e-9634-05c7d7326772",
+      "e1766672-54f0-54e8-90a9-82e524ff795e",
+      "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b"
+    ],
+    "all_new_tracks_pre_signal_via_reference_coverage_complete": true,
+    "track_count": 39,
+    "tracks": [
+      {
+        "uuid": "0f09941f-7592-5c90-a1de-e1d38324d8ad",
+        "net": "GND",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "2fdbb47f-960f-5d62-85fc-3217ff123f7c",
+        "net": "GND",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "8ff5d9e6-4b30-5a31-93f9-e5af9926348e",
+        "net": "CAM_D0",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "f207e6d1-8487-57b6-8241-470530ebb8b9",
+        "net": "CAM_D0",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "227da871-bb78-52e8-9125-5bcefee6f8eb",
+        "net": "CAM_D1",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "9bf73556-139e-58dd-a0c8-cfcff554597f",
+        "net": "CAM_D1",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "49c45a7b-0036-5513-b254-6a89ec422cb6",
+        "net": "CAM_D1",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "7d000749-c12a-58d4-a2df-9627c14e7bc8",
+        "net": "CAM_D1",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "d336c67c-8610-509d-922f-4312eee0f486",
+        "net": "CAM_D1",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "f7e5cd87-f581-5364-b0ac-ef54f75f6441",
+        "net": "CAM_D1",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "4638c23c-7dcc-5fcd-8545-e95b73c903f0",
+        "net": "CAM_D2",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "6f6d0987-343e-51fb-90e3-fba0cc07d0e3",
+        "net": "CAM_D2",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "da6d924e-b14d-576f-9a45-6d072ef63df7",
+        "net": "CAM_D2",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "dff2a403-f873-5d55-ad4b-cfe6b7c76d65",
+        "net": "CAM_D2",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "002f05e5-196a-56f6-8b9d-b9300265d219",
+        "net": "CAM_D2",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "2a1dc346-1a96-5c28-87b7-43b6cf8363b2",
+        "net": "CAM_D2",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "46ef8519-c920-525d-a728-5b578b92ed67",
+        "net": "CAM_D2",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "cc54fd2b-be16-5622-b5b8-4d0198f06d21",
+        "net": "CAM_D2",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "02644332-30e8-56ef-98ba-554811e00810",
+        "net": "CAM_D3",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "5d077972-83f0-5e36-a4e4-2629d3527462",
+        "net": "CAM_D3",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "22379563-d943-5ac6-ae7a-7125e82cae53",
+        "net": "CAM_D3",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "58bf1a5f-19ab-5d6e-ad95-d1332e925668",
+        "net": "CAM_D3",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "af1be53f-da3e-5212-b6d5-e9396bbae512",
+        "net": "CAM_D3",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "c6d475a6-dadc-5440-a939-128a5c724eef",
+        "net": "CAM_D3",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "880e2554-134d-59b3-8a29-2e53751c682d",
+        "net": "CAM_D4",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "ec847584-731c-5ba2-abca-4c2c7d230c49",
+        "net": "CAM_D4",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "8f855630-307a-5a5e-adec-da092528f94d",
+        "net": "CAM_D5",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "a14f9ae3-34de-5840-99de-baf8a36c1fe5",
+        "net": "CAM_D5",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "c19a6e50-fe3e-5d39-866e-3c803c28ea92",
+        "net": "CAM_D5",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "90788cd9-dfde-5a60-be59-ce7975c0a2c3",
+        "net": "CAM_D6",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "99663fe8-f307-5158-b795-d466bd4e99b8",
+        "net": "CAM_D6",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "329f4763-2c99-5cfe-826f-7b7b908f4341",
+        "net": "CAM_D6",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "b2eef0dc-0d2c-5e69-9137-f41cde9f226b",
+        "net": "CAM_D6",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "b7e25db5-2057-5b53-a5b0-34d5c08e8c00",
+        "net": "CAM_D6",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "1af17e8e-797f-567c-b370-4c2791f17ad0",
+        "net": "CAM_D7",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "6c878bf8-2881-50f4-99b7-69912c8840c2",
+        "net": "CAM_D7",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "b53baccf-00cf-5d28-97c0-b42ee9de76ee",
+        "net": "CAM_D7",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "b63b2a4a-89ef-5133-a2ea-14f183961272",
+        "net": "CAM_D7",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      },
+      {
+        "uuid": "eb90f4fd-6468-561b-8de4-e063e157938a",
+        "net": "CAM_D7",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "missing_pre_new_signal_vias_mm2": 0.0
+      }
+    ],
+    "scope": "Matched-project explanatory counterfactual only. Proves no inherited dominant-GND gap on new paths before their nine signal-via holes; not SI, return-current or actual postfill zero-uncovered claim."
+  },
+  "reference_interaction": {
+    "candidate_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+    "matched_project_counterfactuals": [
+      {
+        "net": "CAM_D2",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "actual_uncovered_mm2": 0.1360946328385,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.1360946328385,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+        "removed_neighbor_signal_vias": [
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "1fc551315c8961e21d6ed9a849e8ee41713da1636a52d583d69a92c47640140e",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D2",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "actual_uncovered_mm2": 0.1309676039085,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.1298982659395,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.001069411871,
+        "removed_neighbor_signal_vias": [
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "1fc551315c8961e21d6ed9a849e8ee41713da1636a52d583d69a92c47640140e",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D3",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "actual_uncovered_mm2": 0.129838330806,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.129838330806,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b"
+        ],
+        "counterfactual_sha256": "f67e54b11a2d194eec3236fb8f8869555ace7d1cdca0b6a92d7f421b1faa4b63",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D3",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "actual_uncovered_mm2": 0.1299181914555,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.1298565103735,
+        "incremental_missing_due_other_new_signal_vias_mm2": 6.1716038e-05,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b"
+        ],
+        "counterfactual_sha256": "f67e54b11a2d194eec3236fb8f8869555ace7d1cdca0b6a92d7f421b1faa4b63",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D4",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "actual_uncovered_mm2": 0.0649506440515,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.0649506440515,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "f8b403b3581b2dae62bc2719d5462c8749bf69d6decb1148deb148e3b29250e5",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D4",
+        "layer": "B.Cu",
+        "reference": "In4.Cu",
+        "actual_uncovered_mm2": 0.0649400471615,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.0649400471615,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "f8b403b3581b2dae62bc2719d5462c8749bf69d6decb1148deb148e3b29250e5",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D6",
+        "layer": "F.Cu",
+        "reference": "In1.Cu",
+        "actual_uncovered_mm2": 0.129825964826,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.129825964826,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "a44dc00b1adf0f92c95d683ea8d254e761cc979cf9707c10d0bde84fb280c74f",
+        "baseline_matched_project_refill_byte_equal": true
+      },
+      {
+        "net": "CAM_D6",
+        "layer": "In3.Cu",
+        "reference": "In4.Cu",
+        "actual_uncovered_mm2": 0.130343244459,
+        "counterfactual_own_plus_inherited_uncovered_mm2": 0.129888768439,
+        "incremental_missing_due_other_new_signal_vias_mm2": 0.0004544951355,
+        "removed_neighbor_signal_vias": [
+          "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+          "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+          "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+          "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+        ],
+        "counterfactual_sha256": "a44dc00b1adf0f92c95d683ea8d254e761cc979cf9707c10d0bde84fb280c74f",
+        "baseline_matched_project_refill_byte_equal": true
+      }
+    ],
+    "actual_multi_new_net_holes": [
+      {
+        "reference": "In1.Cu",
+        "area_mm2": 1.753234775742,
+        "bbox_mm": [
+          5.2995,
+          28.6495,
+          7.3505,
+          30.1755
+        ],
+        "signal_vias": [
+          {
+            "uuid": "e1766672-54f0-54e8-90a9-82e524ff795e",
+            "net": "CAM_D2",
+            "xy_mm": [
+              6.975,
+              29.1
+            ]
+          },
+          {
+            "uuid": "ce9db837-2779-5e9e-9634-05c7d7326772",
+            "net": "CAM_D3",
+            "xy_mm": [
+              6.325,
+              29.8
+            ]
+          },
+          {
+            "uuid": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+            "net": "CAM_D4",
+            "xy_mm": [
+              5.675,
+              29.1
+            ]
+          },
+          {
+            "uuid": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+            "net": "CAM_D6",
+            "xy_mm": [
+              6.275,
+              29.025
+            ]
+          }
+        ]
+      },
+      {
+        "reference": "In4.Cu",
+        "area_mm2": 1.753234775742,
+        "bbox_mm": [
+          5.2995,
+          28.6495,
+          7.3505,
+          30.1755
+        ],
+        "signal_vias": [
+          {
+            "uuid": "e1766672-54f0-54e8-90a9-82e524ff795e",
+            "net": "CAM_D2",
+            "xy_mm": [
+              6.975,
+              29.1
+            ]
+          },
+          {
+            "uuid": "ce9db837-2779-5e9e-9634-05c7d7326772",
+            "net": "CAM_D3",
+            "xy_mm": [
+              6.325,
+              29.8
+            ]
+          },
+          {
+            "uuid": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+            "net": "CAM_D4",
+            "xy_mm": [
+              5.675,
+              29.1
+            ]
+          },
+          {
+            "uuid": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+            "net": "CAM_D6",
+            "xy_mm": [
+              6.275,
+              29.025
+            ]
+          }
+        ]
+      }
+    ],
+    "nearest_ground_stitches_descriptive_only": [
+      {
+        "signal_via": "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "net": "CAM_D1",
+        "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+        "nearest_GND_xy_mm": [
+          8.925,
+          30.0375
+        ],
+        "centre_distance_mm": 1.3215166476439106
+      },
+      {
+        "signal_via": "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "net": "CAM_D1",
+        "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+        "nearest_GND_xy_mm": [
+          5.3,
+          27.15
+        ],
+        "centre_distance_mm": 2.6751168198790873
+      },
+      {
+        "signal_via": "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "net": "CAM_D2",
+        "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+        "nearest_GND_xy_mm": [
+          8.925,
+          30.0375
+        ],
+        "centre_distance_mm": 2.163655760512748
+      },
+      {
+        "signal_via": "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+        "net": "CAM_D2",
+        "nearest_GND_via": "028dd767-3bd4-4660-a801-de4664cfb82b",
+        "nearest_GND_xy_mm": [
+          0.8,
+          24.0
+        ],
+        "centre_distance_mm": 2.351196503910296
+      },
+      {
+        "signal_via": "4d1c41de-d62f-5e8c-9d3b-67bfd598f993",
+        "net": "CAM_D3",
+        "nearest_GND_via": "2ab2424a-c59e-4900-ba5c-eeea696a1cb4",
+        "nearest_GND_xy_mm": [
+          4.1,
+          22.0
+        ],
+        "centre_distance_mm": 1.0201102881551583
+      },
+      {
+        "signal_via": "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "net": "CAM_D3",
+        "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+        "nearest_GND_xy_mm": [
+          8.925,
+          30.0375
+        ],
+        "centre_distance_mm": 2.610824821775678
+      },
+      {
+        "signal_via": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "net": "CAM_D4",
+        "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+        "nearest_GND_xy_mm": [
+          5.3,
+          27.15
+        ],
+        "centre_distance_mm": 1.985730344231059
+      },
+      {
+        "signal_via": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "net": "CAM_D6",
+        "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+        "nearest_GND_xy_mm": [
+          5.3,
+          27.15
+        ],
+        "centre_distance_mm": 2.1133504205408054
+      },
+      {
+        "signal_via": "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "net": "CAM_D6",
+        "nearest_GND_via": "a320ebf8-e3a2-54e3-949d-407acc576479",
+        "nearest_GND_xy_mm": [
+          3.375,
+          29.5
+        ],
+        "centre_distance_mm": 1.0770329614269007
+      }
+    ],
+    "limits": [
+      "Counterfactual copper deletions are diagnostic TEST specimens, never design proposals",
+      "Whole merged-hole category is not identical to foreign incremental coverage loss",
+      "No return-current density, inductance, coupled noise, edge-rate or loaded-output qualification",
+      "Actual new-via reference coupling remains explicitly disclosed; all U101 long links remain disconnected"
+    ]
+  },
+  "mechanical_binding": {
+    "status": "PASS_EXACT_AUTHOR_FREEZE_BINDING_NO_GLOBAL_RELEASE",
+    "pcb_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+    "packages": [
+      {
+        "kind": "hardware",
+        "manifest_sha256": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c",
+        "verified_files": 115
+      },
+      {
+        "kind": "mechanical",
+        "manifest_sha256": "8613efbde985e92fc644e32a24984b32cc046c5615fd7e0200e59fa8c99b4403",
+        "verified_files": 13
+      }
+    ],
+    "mechanical_report_retained_unmodified": true,
+    "electrical_independent_verdict": "separate; not inferred here"
+  },
+  "exceptions": [
+    "D2/D3/D4/D6 share a local new-via reference void, not an old foreign-via failure. Positive neighbor contributions remain: D2B/In4 .001069411871mm2; D3B/In4 .000061716038mm2; D6In3/In4 .0004544951355mm2. These geometry areas are not noise or inductance limits.",
+    "Two intended resistor pad-exit courtyard continuations remain mechanical exceptions only, not body or process waivers.",
+    "Old all-net reference zero-loss is separate from added-path mutual coupling. Mixed In2 is not treated as GND."
+  ],
+  "electrical_gates": [
+    "Added100k output loads and3.536\u201312.387mm stubs are not timing-qualified. Actual fastest edges, branch capacitance, reflection/settling, loadedVOH, simultaneous-switching coupling, return impedance and receiver setup/hold require future analysis/authorized qualification.",
+    "All8 U101 long links remain disconnected; no sensor/MCU functional-bus claim.",
+    "33uA at3.3V/100k is nominal arithmetic only, not worst-case electrical approval.",
+    "Inherited SCCB source-hole, C207 return-loop, power/OE/sequencing, RF/FPC, battery/thermal, manufacturing/assembly and firmware gates remain.",
+    "NOFAB/NO POWER; JP201/JP202/JP301 OPEN, provider NULL."
+  ],
+  "evidence_sha256": {
+    "independent_verify_optimized.json": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a",
+    "independent_raw_delta_normal.json": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7",
+    "independent_replay_rollback_optimized.json": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde",
+    "independent_source_check_normal.json": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb",
+    "independent_verify_normal.json": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a",
+    "independent_physical_normal.json": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a",
+    "independent_reference_classification_optimized.json": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2",
+    "independent_physical_optimized.json": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a",
+    "independent_raw_delta_optimized.json": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7",
+    "independent_interaction_report_normal.json": "cc20e7d8025c42b8ca4702352eaec05d13e768d0c636d5adcd124d522e98049f",
+    "independent_reference_classification_normal.json": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2",
+    "independent_exact.json": "51d5b69d125c0039f4850c85810f8ad8757441c40f1415227e39a4078a5911f5",
+    "independent_source_check_optimized.json": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb",
+    "independent_pre_via_report_normal.json": "8fdc81e89549aefc94c5d7fb24a2cc9c2528f5745787eb50ca06523cbb32cac4",
+    "independent_negative_optimized.json": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee",
+    "independent_negative_normal.json": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee",
+    "independent_replay_rollback_normal.json": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde"
+  }
+}

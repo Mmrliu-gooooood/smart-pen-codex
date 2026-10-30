@@ -1,0 +1,896 @@
+{
+  "status": "LOCAL_VERIFIED_NOT_PUBLISHED",
+  "alias_paths": 492,
+  "alias_bytes": 45191095,
+  "new_source_blobs": 165,
+  "new_source_bytes": 31203543,
+  "verified_published_dependency_blobs": 44,
+  "published_base": {
+    "status": "VERIFIED_PUBLISHED_DEPENDENCIES",
+    "remote_commit": "95a3292a953ce4d876ec1f20863e32f5fcd2eb0e",
+    "remote_tree": "9fa97ec1cf0a422bccdf14a7765f8183b450c3db",
+    "exact_head_CI_run": "41066551268",
+    "exact_head_CI_conclusion": "success",
+    "CI_evidence": "Root/uploader terminal verification message 2026-10-30 13:53 UTC",
+    "local_payload_commit_same_tree": "4f8f1291625883b07c187f5c01a960e19a58fb60",
+    "not_used_unpublished_status_tree": "63ca6bb",
+    "uploader_state_sha256": "f22666d2fe68609c0b51e71a943169910764e16c71112ce5090c7c7003998103",
+    "remote_tree_evidence": "Uploader persisted stage_remote_verified and identical local payload tree; each dependency git blob re-read from that exact tree",
+    "dependency_aliases": 50,
+    "dependency_unique_blobs": 44,
+    "unique_blob_bytes": 7597597,
+    "blobs": [
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/assembly_context_audit_0818_20261030/all103_sync.json",
+        "bytes": 614225,
+        "sha256": "7fa9a5e700f0fc3600c8de2c191e410a84380545c63c4c11457b64a5da085c98",
+        "git_blob_sha1": "7991aca3b62135b000ba1598b24a642529d2ceac"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/assembly_context_audit_0818_20261030/inventory.json",
+        "bytes": 3602369,
+        "sha256": "89d931253e7ccf05fff902fa442abbc100305fa89d11ee89d859a235ffbe4a0e",
+        "git_blob_sha1": "cbb17f3b9711804d0eaebf8bd95727b281c57bc0"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/README.md",
+        "bytes": 7713,
+        "sha256": "9bd3d84fcabbfccd1bd484965e30579d3fb64748023e7e93f9f9bbd31760f021",
+        "git_blob_sha1": "3228fa8b1f86789d9d752d83591ef4f14816349a"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/bom.log",
+        "bytes": 141,
+        "sha256": "73aaf307f6fd032b5d6d88272e6fecade28716c9d5dc7f58c8c8adad872dddd3",
+        "git_blob_sha1": "3923a422bc20dbe65413e915b019679ade525636"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/drc.json",
+        "bytes": 54878,
+        "sha256": "e4d22354c10eba3e07a454e825bde66517a71cc5ffbc4b892977fd2edc5b9e8d",
+        "git_blob_sha1": "d73a6f9fc2cdf8f6bfa55d2cc9fa298c5bd9ac52"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/drc.log",
+        "bytes": 210,
+        "sha256": "6cbe1d9162cf6f469bf314d7b512f7045bf10f5e101e71c0dc8fb9cd9dd478f4",
+        "git_blob_sha1": "f7ebd307a24504ba3d910460920923c4d8e30a83"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/erc.json",
+        "bytes": 2752,
+        "sha256": "931bcff7940eacf7e0a153d45bde22b054e593e78be1affb4ab840aab87c7fec",
+        "git_blob_sha1": "f96151eb19f7e60379520ff694016f1a7c6ce822"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/erc.log",
+        "bytes": 623,
+        "sha256": "ea49673be7e70a71a8c99a1a03ba00685e4ffc2897ee0823ab8afd7a78985092",
+        "git_blob_sha1": "26cd563d75c8901d3ff881c09d0e5d61c08a5a19"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/base/netlist.xml",
+        "bytes": 134943,
+        "sha256": "d1123f803b09693629e6428b07e92679fbdd4ceff67744670270b4a3aa2fa3cf",
+        "git_blob_sha1": "ce36370e11c54ddf4ecc4abaef98395405e834ac"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/bom.log",
+        "bytes": 146,
+        "sha256": "72d1e7dc926307a37501d8ab0ae79a47c2f856444f1c9671974b1ec0337eb2fc",
+        "git_blob_sha1": "06e49759c83cf41d415fbd88a4f4871a514e1888"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/drc.json",
+        "bytes": 53320,
+        "sha256": "5f0237c2a174cc237c10ce25ab22060aa07f3444e4b9aa123b7b4d6316c007b3",
+        "git_blob_sha1": "7c129bb54341d5741133389dce72f8ad4c00653a"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/drc.log",
+        "bytes": 215,
+        "sha256": "ef623b39a7c10722171d9beaf8bf0838f5619a4081a5c423fac88e2b5a972a85",
+        "git_blob_sha1": "e19f2c3cd729011d187ad1a54b5e0296be93db28"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/erc.json",
+        "bytes": 2752,
+        "sha256": "a170eebde41e0b45fa89c01ac65acdaaab1773160231d59f50e3c7cd9654a9d5",
+        "git_blob_sha1": "d7eb5762aa06a0b6c1aa27dac7404ad335148ba4"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/erc.log",
+        "bytes": 628,
+        "sha256": "91fca5593fa5fe07d84eca705a9ee39ca538303dc4d48a0163be9353af5d9872",
+        "git_blob_sha1": "df26d4b8aa28d4769518f1bf94e64ac7064c11d7"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/checks/candidate/netlist.xml",
+        "bytes": 134922,
+        "sha256": "abdb246a5c5268cea670555ceea7f74f57b218dd452d805001b1d80ea903e0ed",
+        "git_blob_sha1": "3684a2a7fef3839ec669e3be5764c004afb72e10"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/cli_results.json",
+        "bytes": 4181,
+        "sha256": "098cbaecbe533db828c979f725345aee84ba54b38f016782a6bf20d442f3e4dc",
+        "git_blob_sha1": "537af5d71e97ce27ec899d96d08dd9b1484467ad"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/cut_one.py",
+        "bytes": 2571,
+        "sha256": "091f2900f20eb739a3b6e62d351ad6ab633572d92d4f15b1e7b3f9424e953a57",
+        "git_blob_sha1": "9442d1a553767fa7b06d296872d0a2063aed482c"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/freeze.py",
+        "bytes": 2210,
+        "sha256": "72a10c0850c5a3df051781b5eb9ef575be44c366fbc386201783d51ab42cc423",
+        "git_blob_sha1": "b24d9bb74bb2a33c46f1776ca66d593a7f48c87f"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/geometry_native.py",
+        "bytes": 4781,
+        "sha256": "2d0988a06267bb27813447c25337f47bc158ca9d53c8f5f1c9b759c0643cd61f",
+        "git_blob_sha1": "c21386b0daaa2bfac2a245f402945cc1ad7efdb7"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/group_views.png",
+        "bytes": 374856,
+        "sha256": "73ad6c602208844f0fd7836a4ed712645d670a3bcf1cac91317288bba859b78f",
+        "git_blob_sha1": "bd55981557e5bf92508d1b27dece56a230410fa3"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/group_views.svg",
+        "bytes": 1226301,
+        "sha256": "097b9234912c105d08858f5a0fd923886602ad93f7dd229e772b9938a7a3cebb",
+        "git_blob_sha1": "e90dd26ce826a5698f78448e6cb5754166d0438f"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_bypass_advisory_1148/installation_obstacles.json",
+        "bytes": 10597,
+        "sha256": "f75c7b0adf4daeadae4f7148fac777338a8e9ecca83087f146580091ad0c9c79",
+        "git_blob_sha1": "3d765b951872a09fc36136d4a1afb0923d7778ca"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_local_repair_delta_normal.json",
+        "bytes": 2699,
+        "sha256": "40a951f3b4d1019e4adafa1079e13486d3b616ec24231e2dcae54fd29964dbd9",
+        "git_blob_sha1": "56a827f3c009f3424fbbddf7ad8e382fd5fcf584"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/local_repair_delta.py",
+        "bytes": 2196,
+        "sha256": "7c656dd9d38e9c445e9ce62c4f684ead63ca68f6075c15c3ea7212c19341fadd",
+        "git_blob_sha1": "cf741a0473311daf2ece1a40961eee82affcb843"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/manifest.json",
+        "bytes": 11752,
+        "sha256": "daf598f9fe33f7bf527182e87f18fcc6856a3362a178905833f4d7c8ca753789",
+        "git_blob_sha1": "893f7e3de2d6f6ff74557d00b6d534730abf5689"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/materialization.json",
+        "bytes": 13515,
+        "sha256": "669187b9f4a1f0c90089fa90b21e6e63f8b54255207f7352ba895c4240ad9c41",
+        "git_blob_sha1": "1ba208e6342fcb872ba477db4d6aebc698c9d789"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/materialize.py",
+        "bytes": 3826,
+        "sha256": "377b5c94777eb08349f88e691c2457c73ba26cd24630bc786090eb55dab78bcd",
+        "git_blob_sha1": "6ad2101aa30b63b50ea86390360ef48a63885bf2"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/native/mainboard_revD.kicad_pcb",
+        "bytes": 967877,
+        "sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+        "git_blob_sha1": "d80bc3af183433fdfd71410067d1b3e4e8246d6d"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/native_forward.patch",
+        "bytes": 216792,
+        "sha256": "c5317e2c12442e8dcf54157322c3683a21a2c3e9a3240a484f51395311babce5",
+        "git_blob_sha1": "7bdb13bb321b629054ac5a84df9cf4bef780f922"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/negative.py",
+        "bytes": 640,
+        "sha256": "ab9c45e4b2ee198c4bb33cbbb41bb78ca38da55ae0b31ee88597cc93009bb72e",
+        "git_blob_sha1": "f4c2eca5c0a12b5e746811355a8cc47cf21480e8"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_negative_normal.json",
+        "bytes": 15890,
+        "sha256": "e2d9af48c0d6e164fd426fcd99849763c0c834fff76ed0b6bb71db18dcac5fe1",
+        "git_blob_sha1": "084b1bb2ff262421db3eed1002d6f540bcbd341c"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/control_envelope_native_1051/physical.py",
+        "bytes": 1202,
+        "sha256": "0d65f23d3ab52c73c7dff690b71e8c55e46f28260cd1ca086c2c8b9adf31d598",
+        "git_blob_sha1": "6f3e8aa930b32e9145a2b0d5f0d2a58649e938a1"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_physical_normal.json",
+        "bytes": 1228,
+        "sha256": "c4f2254c148a66f56fbda1b3a8400813bb52c8426549842beac6e866182b463e",
+        "git_blob_sha1": "ce92044b38793b4e9ca22cf1a97406b9f463e2c2"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_reference_classification_normal.json",
+        "bytes": 5616,
+        "sha256": "2d0cf5cf2f12161ae10523c9b007fa41f6a61306c433878cdbc3a48d0b32ae7f",
+        "git_blob_sha1": "987c7d94fe5f0cbba78ca0e1c098afeb647d739a"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/reference_classification.py",
+        "bytes": 2295,
+        "sha256": "0376eb46ba9955ca139dc71c95c21155df4ea2ccc1609d54678dd568b4f85e5c",
+        "git_blob_sha1": "e37ef9fb6f2417bd9d1205b4c67f6c976b53aa09"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/reference_diagnostic.json",
+        "bytes": 1305,
+        "sha256": "af4faf98a28f36b7360b4818062f35c97bacdfcf1659aeea4a22c3144cf0aed5",
+        "git_blob_sha1": "80332ea047d71c91a226c7b5f444124a426d2710"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/render.py",
+        "bytes": 3222,
+        "sha256": "0f29c4d823d3e57050fa74dce41aa4a0c5e9dbdead9b5134e68299ce0b6feb15",
+        "git_blob_sha1": "091aa36a17e352b6e82a53fd4d119d8e18873ea9"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_replay_rollback_normal.json",
+        "bytes": 656,
+        "sha256": "719a9dc8d6394525a121e9164b7810b2d4dd3c7b5530803d695d498d1ab2c589",
+        "git_blob_sha1": "33a1460f99c4a51b10af96b047f7d3d61ebda9ed"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/replay_rollback.py",
+        "bytes": 2594,
+        "sha256": "a6537ee5300e299d8ca9907a332a3fcb3f56ec04c17af5f6ad87c14d9b1a8750",
+        "git_blob_sha1": "409bf9970a08f12cffc7b4c1588050ba2b5307a7"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/sccb_local_reference_1216/rollback_drc.json",
+        "bytes": 54892,
+        "sha256": "f288298e50023a8e900d7b8bf824af53e05afef4e123d20ddc48c1809f5338ca",
+        "git_blob_sha1": "bb656aee4c1936b4c9f720d633d355a00c00f70d"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/run_checks.py",
+        "bytes": 1523,
+        "sha256": "64e2beb97f7f438ff90230a1999f6ffa0e4377e22e39d80269689342a465e139",
+        "git_blob_sha1": "e9728f4ef6f159f23c59c93e09a5ad4bb90b1c81"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/selected_final.json",
+        "bytes": 8346,
+        "sha256": "4d6aba55a845b5475e94d854486d924b794b45b889895544bab127757244c829",
+        "git_blob_sha1": "bfae92cc534e70ad01d5c50392c9c72183ca114f"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/verify.py",
+        "bytes": 8664,
+        "sha256": "b790db63e4827677e3e276ece5efbcbb44f9a518801673cf3fa347766448a3e8",
+        "git_blob_sha1": "51d4536a1adc8d64957a19044f29571d05632c3b"
+      },
+      {
+        "repo_path": "verification/post_r28_accepted_static_1225/smart_pen_next_20261028/hardware/review_sccb_local_reference_1222/independent_verify_normal.json",
+        "bytes": 35533,
+        "sha256": "9b822002e851778500de74ef5b29f9ed27104446df765f45461b0f95a9037fa4",
+        "git_blob_sha1": "a13aa3e46bd7e6ee51bc0bc2e943e387ee12bf59"
+      }
+    ],
+    "historical_map_note": "SOURCE_MAP origin labels record preparation-time publication state only. This metadata supersedes LOCAL_QUEUED427_NOT_PUBLISHED; those44 blobs are now published. Source aliases/hashes and original map remain unchanged."
+  },
+  "electrical": {
+    "runs": 40,
+    "all_pass": true,
+    "all_mode_pairs_stdout_equal": true,
+    "stdout_evidence_matches": [
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_source_check_normal.json",
+        "sha256": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_source_check_optimized.json",
+        "sha256": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_verify_normal.json",
+        "sha256": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_verify_optimized.json",
+        "sha256": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_physical_normal.json",
+        "sha256": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_physical_optimized.json",
+        "sha256": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_raw_delta_normal.json",
+        "sha256": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_raw_delta_optimized.json",
+        "sha256": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_reference_classification_normal.json",
+        "sha256": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_reference_classification_optimized.json",
+        "sha256": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_replay_rollback_normal.json",
+        "sha256": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_replay_rollback_optimized.json",
+        "sha256": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_negative_normal.json",
+        "sha256": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "key": "independent_negative_optimized.json",
+        "sha256": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_exact.json",
+        "sha256": "51d5b69d125c0039f4850c85810f8ad8757441c40f1415227e39a4078a5911f5"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_exact.json",
+        "sha256": "51d5b69d125c0039f4850c85810f8ad8757441c40f1415227e39a4078a5911f5"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_source_check_normal.json",
+        "sha256": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_source_check_optimized.json",
+        "sha256": "fcdfd303727c53417d588fb8db6893c96e9791360910709f2a82a417a11f28bb"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_verify_normal.json",
+        "sha256": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_verify_optimized.json",
+        "sha256": "3c0ef27827a6db8c9af6a23375539fd8e10d55c011f8fc03a74254223c56e91a"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_physical_normal.json",
+        "sha256": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_physical_optimized.json",
+        "sha256": "c2aa58141fadeed6bc212513ae3dee16eab21c0e9510f7faf17377123f7d029a"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_raw_delta_normal.json",
+        "sha256": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_raw_delta_optimized.json",
+        "sha256": "27f23eca161b993399bcc694a67dcb1f2d094b8a65cf6a2737440b53a9c3f1f7"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_reference_classification_normal.json",
+        "sha256": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_reference_classification_optimized.json",
+        "sha256": "f2899e42878fc9ad169b1d90f3359bdd2d0d995d5fa17017fbb0fbf71aae2ca2"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_replay_rollback_normal.json",
+        "sha256": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_replay_rollback_optimized.json",
+        "sha256": "4670ad7bb5f4b3727d81070ef0c1a8272d8e1b86872bc443eddb24436b29acde"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_negative_normal.json",
+        "sha256": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "key": "independent_negative_optimized.json",
+        "sha256": "cac893834043551c091e7b24ed215ba9c30383daf76119531210f26d602b7dee"
+      }
+    ],
+    "generated_previa_interaction_exact_matches": [
+      {
+        "name": "data_bias_relocate_1242",
+        "file": "pre_via_reference.json",
+        "sha256": "8fdc81e89549aefc94c5d7fb24a2cc9c2528f5745787eb50ca06523cbb32cac4"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "file": "pre_via_reference_optimized.json",
+        "sha256": "8fdc81e89549aefc94c5d7fb24a2cc9c2528f5745787eb50ca06523cbb32cac4"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "file": "reference_interaction.json",
+        "sha256": "cc20e7d8025c42b8ca4702352eaec05d13e768d0c636d5adcd124d522e98049f"
+      },
+      {
+        "name": "data_bias_relocate_1242",
+        "file": "reference_interaction_optimized.json",
+        "sha256": "cc20e7d8025c42b8ca4702352eaec05d13e768d0c636d5adcd124d522e98049f"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "file": "pre_via_reference.json",
+        "sha256": "8fdc81e89549aefc94c5d7fb24a2cc9c2528f5745787eb50ca06523cbb32cac4"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "file": "pre_via_reference_optimized.json",
+        "sha256": "8fdc81e89549aefc94c5d7fb24a2cc9c2528f5745787eb50ca06523cbb32cac4"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "file": "reference_interaction.json",
+        "sha256": "cc20e7d8025c42b8ca4702352eaec05d13e768d0c636d5adcd124d522e98049f"
+      },
+      {
+        "name": "review_data_bias_1312",
+        "file": "reference_interaction_optimized.json",
+        "sha256": "cc20e7d8025c42b8ca4702352eaec05d13e768d0c636d5adcd124d522e98049f"
+      }
+    ],
+    "actual_DRC_parent": [
+      0,
+      67,
+      0
+    ],
+    "actual_DRC_candidate": [
+      0,
+      59,
+      0
+    ],
+    "original_workspace_python_open_denials": 0,
+    "native_syscall_isolation_not_claimed": true
+  },
+  "mechanical": {
+    "status": "PASS_ISOLATED_NOMINAL_MECHANICS_NOFAB_NOPOWER",
+    "accepted_scripts": 25,
+    "accepted_runs": 50,
+    "all_accepted_exit_zero": true,
+    "normal_optimized_json_equal": false,
+    "pairs": [
+      {
+        "script": "assembly_data8_author_binding_20261030_1312/check.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/placement.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/verify.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_data8_support_sync_20261030_1314/build.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_data8_support_sync_20261030_1314/check_saved.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_dvp_route_masks_20261030_1228/export.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_outline_sync_20261030_1239/build.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_outline_sync_20261030_1239/contact_check.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_outline_sync_20261030_1239/verify_exports.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/check_inherited_margin.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/check_preservation.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/check_preserved_interfaces.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/clearances.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_contacts.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "all_json_byte_equal": false,
+        "differing_json_paths": [
+          "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json"
+        ]
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/verify_results.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/independent_exits_native.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/native_extra.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/placement.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/verify.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_data8_saved_support_20261030_1323/independent_reopen.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_outline_sync_20261030_1247/independent_saved.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      },
+      {
+        "script": "independent_support_tongue_20261030_1258/independent_saved.py",
+        "all_json_byte_equal": true,
+        "differing_json_paths": []
+      }
+    ],
+    "outputs_differing_from_frozen": [
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": false,
+        "paths": [
+          "assembly_data8_review_20261030_1256/results.json"
+        ]
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": true,
+        "paths": [
+          "assembly_data8_review_20261030_1256/results.json"
+        ]
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": false,
+        "paths": [
+          "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json"
+        ]
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": true,
+        "paths": [
+          "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json"
+        ]
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": false,
+        "paths": [
+          "independent_data8_mechanical_20261030_1308/results.json"
+        ]
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": true,
+        "paths": [
+          "independent_data8_mechanical_20261030_1308/results.json"
+        ]
+      }
+    ],
+    "final492_frozen_inputs_unchanged": true,
+    "changed_inputs": [],
+    "excluded_obsolete_trial_not_executed": true,
+    "skipped_obsolete_scheduler_rows": 2,
+    "source_map_sha256": "1d6f173f3a7d9c69b949ed70f7c7f0c200838e606f74169fcda4a27526ab0c84",
+    "python_guards_in_subprocesses": true,
+    "native_syscall_sandbox_claim": false,
+    "notes": [
+      "FCStd ZIP regenerated byte identity not assumed; saved CAD checks establish geometry validity and exact accepted source bindings.",
+      "Inventory relocation is memory-only. Every run uses own output folder and frozen dependency view."
+    ],
+    "documented_output_delta_checks": [
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": false,
+        "path": "assembly_data8_review_20261030_1256/results.json",
+        "equal_except_exact_documented_fields": true
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": true,
+        "path": "assembly_data8_review_20261030_1256/results.json",
+        "equal_except_exact_documented_fields": true
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": false,
+        "path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json",
+        "equal_except_exact_documented_fields": true
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": true,
+        "path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json",
+        "equal_except_exact_documented_fields": true
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": false,
+        "path": "independent_data8_mechanical_20261030_1308/results.json",
+        "equal_except_exact_documented_fields": true
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": true,
+        "path": "independent_data8_mechanical_20261030_1308/results.json",
+        "equal_except_exact_documented_fields": true
+      }
+    ],
+    "all_geometry_results_match_frozen_except_documented_binding_or_regenerated_container_hash": true,
+    "exact_json_pointer_delta_whitelist": [
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": false,
+        "path": "assembly_data8_review_20261030_1256/results.json",
+        "allowed_pointers": [
+          "/manifests/1/files_verified",
+          "/manifests/1/manifest_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/manifests/1/manifest_sha256",
+            "before": "NOT_YET_FROZEN",
+            "after": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c"
+          },
+          {
+            "pointer": "/manifests/1/files_verified",
+            "before": 0,
+            "after": 115
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      },
+      {
+        "script": "assembly_data8_review_20261030_1256/screen.py",
+        "optimized": true,
+        "path": "assembly_data8_review_20261030_1256/results.json",
+        "allowed_pointers": [
+          "/manifests/1/files_verified",
+          "/manifests/1/manifest_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/manifests/1/manifest_sha256",
+            "before": "NOT_YET_FROZEN",
+            "after": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c"
+          },
+          {
+            "pointer": "/manifests/1/files_verified",
+            "before": 0,
+            "after": 115
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": false,
+        "path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json",
+        "allowed_pointers": [
+          "/0/candidate_sha256",
+          "/1/candidate_sha256",
+          "/2/candidate_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/0/candidate_sha256",
+            "before": "6d19f324779712aad1913a5d6513141d426bfdcc98deccacff08e32ea0e713b0",
+            "after": "12c5611522169e093277213071c0f3200af9bb8d8680b07ed554d37c5b84a4aa"
+          },
+          {
+            "pointer": "/1/candidate_sha256",
+            "before": "c41e308d933d53d88b5c99a283525a47666ee93c3219790e6415723a839577b3",
+            "after": "c54afde276c2c136124013abccad8f5ca167269084a7b72040d4ca7e041442ad"
+          },
+          {
+            "pointer": "/2/candidate_sha256",
+            "before": "a342ef61f47b1445c002c7786ca3881f2aac872f6f45d1c8c32b6487e7637ddb",
+            "after": "b5815d88e68130d86f8bc474414496c22055d603f61808b8c8283d5efc2b0b97"
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      },
+      {
+        "script": "assembly_support_tongue_variant_20261030_1251/test_exact_contexts.py",
+        "optimized": true,
+        "path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/exact_context_tests.json",
+        "allowed_pointers": [
+          "/0/candidate_sha256",
+          "/1/candidate_sha256",
+          "/2/candidate_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/0/candidate_sha256",
+            "before": "6d19f324779712aad1913a5d6513141d426bfdcc98deccacff08e32ea0e713b0",
+            "after": "f919b0f93a5f8128be0eed31e7d726e735d1261ef04c4e8ea6ce24449d652b27"
+          },
+          {
+            "pointer": "/1/candidate_sha256",
+            "before": "c41e308d933d53d88b5c99a283525a47666ee93c3219790e6415723a839577b3",
+            "after": "19178fdbe7f3504ff6584b9771af6d1b346884e4def9fbcf6aa82cc23fdc46c4"
+          },
+          {
+            "pointer": "/2/candidate_sha256",
+            "before": "a342ef61f47b1445c002c7786ca3881f2aac872f6f45d1c8c32b6487e7637ddb",
+            "after": "59195cf5111b1750d67c988786379f65515a457fc891afef961727a54e6b7529"
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": false,
+        "path": "independent_data8_mechanical_20261030_1308/results.json",
+        "allowed_pointers": [
+          "/manifests/1/files_verified",
+          "/manifests/1/manifest_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/manifests/1/manifest_sha256",
+            "before": "NOT_YET_FROZEN",
+            "after": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c"
+          },
+          {
+            "pointer": "/manifests/1/files_verified",
+            "before": 0,
+            "after": 115
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      },
+      {
+        "script": "independent_data8_mechanical_20261030_1308/screen.py",
+        "optimized": true,
+        "path": "independent_data8_mechanical_20261030_1308/results.json",
+        "allowed_pointers": [
+          "/manifests/1/files_verified",
+          "/manifests/1/manifest_sha256"
+        ],
+        "diffs": [
+          {
+            "pointer": "/manifests/1/manifest_sha256",
+            "before": "NOT_YET_FROZEN",
+            "after": "8f534ddbb2ec79d4f9a2e625fe0850fc42076e4f61716819cdecefe3dfed027c"
+          },
+          {
+            "pointer": "/manifests/1/files_verified",
+            "before": 0,
+            "after": 115
+          }
+        ],
+        "all_differences_exactly_whitelisted": true,
+        "regenerated_fcstd_hashes_match_actual_files": true
+      }
+    ],
+    "all_output_delta_pointers_whitelisted": true
+  },
+  "recovered_native_exit": "First optimized negative suite stopped at CAM_D4 with empty child output; exact isolated cut and whole suite retried without source changes; initial cause unestablished. Original failed attempt retained.",
+  "frozen_original_source_hashes_unchanged": true,
+  "initial_reconstruction_against_r28_plus_then_local427_overlay": true,
+  "subsequent44_dependency_exact_published_tree_recheck": true,
+  "final_source_map_sha256": "1d6f173f3a7d9c69b949ed70f7c7f0c200838e606f74169fcda4a27526ab0c84",
+  "limits": [
+    "NOFAB/NOPOWER; nominal static only",
+    "Eight U101 long links unconnected; reference/stub/timing/load exceptions remain",
+    "Three zero-gap CAD specimens are rejected negative controls only",
+    "Cached AXC8 PDF excluded; freeze provenance not rerun",
+    "Python audit only; full native syscall isolation not claimed"
+  ]
+}

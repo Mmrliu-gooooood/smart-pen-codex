@@ -1,0 +1,387 @@
+{
+  "status": "RESEARCH_ONLY_INTEGRATED_NOMINAL_GEOMETRY",
+  "pcb_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+  "native_contract_report_sha256": "b8ed5d04a90d9cb0f7a883d99cafec5a85f8fa583cd8fb86e8ba620bd6752aed",
+  "contexts": [
+    {
+      "context": "RevC",
+      "source_path": "assembly_outline_sync_20261030_1239/RevC_exact_outline_NOFAB.FCStd",
+      "source_sha256": "c5476c0ad58911ab485195d89c93ee27ea75295da0ab224715e3d37b28bff047",
+      "saved_path": "RevC_data8_support_RESEARCH_NOFAB.FCStd",
+      "native_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+      "full_static_entities": 104,
+      "static_refs": 97,
+      "operation_refs": [
+        "C106",
+        "C107",
+        "J104",
+        "J108",
+        "JP201",
+        "JP202"
+      ],
+      "all103_native_contracts_bound": true,
+      "unchanged_board_and_supports": true,
+      "unchanged_objects_except_two_bodies": 124,
+      "body_changes": {
+        "INSTALL_R210_35": {
+          "before": [
+            -6.725,
+            3.194793176328504,
+            100.525,
+            -4.2749999999999995,
+            3.8947931763285037,
+            101.47500000000001
+          ],
+          "after": [
+            2.2750000000000004,
+            3.194793176328504,
+            98.525,
+            4.7250000000000005,
+            3.8947931763285037,
+            99.47500000000001
+          ]
+        },
+        "INSTALL_R217_10": {
+          "before": [
+            -6.22,
+            3.194793176328504,
+            104.41,
+            -5.58,
+            4.644793176328504,
+            105.97
+          ],
+          "after": [
+            -4.82,
+            3.194793176328504,
+            97.22,
+            -4.18,
+            4.644793176328504,
+            98.78
+          ]
+        }
+      },
+      "hits": [],
+      "nearest": [
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R215_17",
+          "gap_mm": 0.4549999999999996
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R216_52",
+          "gap_mm": 0.5500000000000003
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 0.6200000000000045
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R212_42",
+          "gap_mm": 1.1853269591129674
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R211_55",
+          "gap_mm": 1.8033441158026429
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 1.9250000000000114
+        }
+      ],
+      "STEP_valid": true,
+      "STEP_solids": 126,
+      "STEP_volume_exchange_residual_mm3": -4.0486620491719805e-06,
+      "saved_reopened_shapes_match": true
+    },
+    {
+      "context": "RevD_BENCH",
+      "source_path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/RevD_BENCH_support_proposal_NOFAB.FCStd",
+      "source_sha256": "6d19f324779712aad1913a5d6513141d426bfdcc98deccacff08e32ea0e713b0",
+      "saved_path": "RevD_BENCH_data8_support_RESEARCH_NOFAB.FCStd",
+      "native_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+      "full_static_entities": 104,
+      "static_refs": 97,
+      "operation_refs": [
+        "C106",
+        "C107",
+        "J104",
+        "J108",
+        "JP201",
+        "JP202"
+      ],
+      "all103_native_contracts_bound": true,
+      "unchanged_board_and_supports": true,
+      "unchanged_objects_except_two_bodies": 162,
+      "body_changes": {
+        "INSTALL_R210_35": {
+          "before": [
+            -6.725,
+            3.194793176328504,
+            100.525,
+            -4.2749999999999995,
+            3.8947931763285037,
+            101.47500000000001
+          ],
+          "after": [
+            2.2750000000000004,
+            3.194793176328504,
+            98.525,
+            4.7250000000000005,
+            3.8947931763285037,
+            99.47500000000001
+          ]
+        },
+        "INSTALL_R217_10": {
+          "before": [
+            -6.22,
+            3.194793176328504,
+            104.41,
+            -5.58,
+            4.644793176328504,
+            105.97
+          ],
+          "after": [
+            -4.82,
+            3.194793176328504,
+            97.22,
+            -4.18,
+            4.644793176328504,
+            98.78
+          ]
+        }
+      },
+      "hits": [],
+      "nearest": [
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R215_17",
+          "gap_mm": 0.4549999999999996
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R216_52",
+          "gap_mm": 0.5500000000000003
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 0.6200000000000045
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R212_42",
+          "gap_mm": 1.1853269591129674
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R211_55",
+          "gap_mm": 1.8033441158026429
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 1.9250000000000114
+        }
+      ],
+      "STEP_valid": true,
+      "STEP_solids": 164,
+      "STEP_volume_exchange_residual_mm3": -6.017366104060784e-06,
+      "saved_reopened_shapes_match": true
+    },
+    {
+      "context": "ACCESS19",
+      "source_path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/ACCESS19_support_proposal_NOFAB.FCStd",
+      "source_sha256": "c41e308d933d53d88b5c99a283525a47666ee93c3219790e6415723a839577b3",
+      "saved_path": "ACCESS19_data8_support_RESEARCH_NOFAB.FCStd",
+      "native_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+      "full_static_entities": 104,
+      "static_refs": 97,
+      "operation_refs": [
+        "C106",
+        "C107",
+        "J104",
+        "J108",
+        "JP201",
+        "JP202"
+      ],
+      "all103_native_contracts_bound": true,
+      "unchanged_board_and_supports": true,
+      "unchanged_objects_except_two_bodies": 135,
+      "body_changes": {
+        "INSTALL_R210_35": {
+          "before": [
+            -6.725,
+            3.194793176328504,
+            100.525,
+            -4.2749999999999995,
+            3.8947931763285037,
+            101.47500000000001
+          ],
+          "after": [
+            2.2750000000000004,
+            3.194793176328504,
+            98.525,
+            4.7250000000000005,
+            3.8947931763285037,
+            99.47500000000001
+          ]
+        },
+        "INSTALL_R217_10": {
+          "before": [
+            -6.22,
+            3.194793176328504,
+            104.41,
+            -5.58,
+            4.644793176328504,
+            105.97
+          ],
+          "after": [
+            -4.82,
+            3.194793176328504,
+            97.22,
+            -4.18,
+            4.644793176328504,
+            98.78
+          ]
+        }
+      },
+      "hits": [],
+      "nearest": [
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R215_17",
+          "gap_mm": 0.4549999999999996
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R216_52",
+          "gap_mm": 0.5500000000000003
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 0.6200000000000045
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R212_42",
+          "gap_mm": 1.1853269591129674
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "Upper_nonlocating_cover_STUDY",
+          "gap_mm": 1.5062339710094554
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R211_55",
+          "gap_mm": 1.8033441158026429
+        }
+      ],
+      "STEP_valid": true,
+      "STEP_solids": 137,
+      "STEP_volume_exchange_residual_mm3": -0.0012792779234587215,
+      "saved_reopened_shapes_match": true
+    },
+    {
+      "context": "ACCESS20",
+      "source_path": "assembly_support_tongue_variant_20261030_1251/corrected_connected/ACCESS20_support_proposal_NOFAB.FCStd",
+      "source_sha256": "a342ef61f47b1445c002c7786ca3881f2aac872f6f45d1c8c32b6487e7637ddb",
+      "saved_path": "ACCESS20_data8_support_RESEARCH_NOFAB.FCStd",
+      "native_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+      "full_static_entities": 104,
+      "static_refs": 97,
+      "operation_refs": [
+        "C106",
+        "C107",
+        "J104",
+        "J108",
+        "JP201",
+        "JP202"
+      ],
+      "all103_native_contracts_bound": true,
+      "unchanged_board_and_supports": true,
+      "unchanged_objects_except_two_bodies": 135,
+      "body_changes": {
+        "INSTALL_R210_35": {
+          "before": [
+            -6.725,
+            3.194793176328504,
+            100.525,
+            -4.2749999999999995,
+            3.8947931763285037,
+            101.47500000000001
+          ],
+          "after": [
+            2.2750000000000004,
+            3.194793176328504,
+            98.525,
+            4.7250000000000005,
+            3.8947931763285037,
+            99.47500000000001
+          ]
+        },
+        "INSTALL_R217_10": {
+          "before": [
+            -6.22,
+            3.194793176328504,
+            104.41,
+            -5.58,
+            4.644793176328504,
+            105.97
+          ],
+          "after": [
+            -4.82,
+            3.194793176328504,
+            97.22,
+            -4.18,
+            4.644793176328504,
+            98.78
+          ]
+        }
+      },
+      "hits": [],
+      "nearest": [
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R215_17",
+          "gap_mm": 0.4549999999999996
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R216_52",
+          "gap_mm": 0.5500000000000003
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 0.6200000000000045
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_R212_42",
+          "gap_mm": 1.1853269591129674
+        },
+        {
+          "moved": "INSTALL_R217_10",
+          "other": "INSTALL_R211_55",
+          "gap_mm": 1.8033441158026429
+        },
+        {
+          "moved": "INSTALL_R210_35",
+          "other": "INSTALL_U201_29",
+          "gap_mm": 1.9250000000000114
+        }
+      ],
+      "STEP_valid": true,
+      "STEP_solids": 137,
+      "STEP_volume_exchange_residual_mm3": -0.001061540260707261,
+      "saved_reopened_shapes_match": true
+    }
+  ]
+}

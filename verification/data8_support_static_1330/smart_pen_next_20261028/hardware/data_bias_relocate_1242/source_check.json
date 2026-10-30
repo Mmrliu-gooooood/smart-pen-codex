@@ -1,0 +1,176 @@
+{
+  "status": "EXACT_PW_ROLE_AND_PHYSICAL_CORE_VERIFIED_NOT_DYNAMIC_QUALIFICATION",
+  "rows": [
+    {
+      "net": "CAM_D0",
+      "pin": "U201.3",
+      "function": "A1",
+      "resistor": "R210",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R210.1"
+        ],
+        [
+          "U101.12"
+        ],
+        [
+          "U201.3"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D1",
+      "pin": "U201.4",
+      "function": "A2",
+      "resistor": "R211",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R211.1"
+        ],
+        [
+          "U101.13"
+        ],
+        [
+          "U201.4"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D2",
+      "pin": "U201.5",
+      "function": "A3",
+      "resistor": "R212",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R212.1"
+        ],
+        [
+          "U101.14"
+        ],
+        [
+          "U201.5"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D3",
+      "pin": "U201.6",
+      "function": "A4",
+      "resistor": "R213",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R213.1"
+        ],
+        [
+          "U101.15"
+        ],
+        [
+          "U201.6"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D4",
+      "pin": "U201.7",
+      "function": "A5",
+      "resistor": "R214",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R214.1"
+        ],
+        [
+          "U101.16"
+        ],
+        [
+          "U201.7"
+        ]
+      ],
+      "bias_side": "B.Cu"
+    },
+    {
+      "net": "CAM_D5",
+      "pin": "U201.8",
+      "function": "A6",
+      "resistor": "R215",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R215.1"
+        ],
+        [
+          "U101.17"
+        ],
+        [
+          "U201.8"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D6",
+      "pin": "U201.9",
+      "function": "A7",
+      "resistor": "R216",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R216.1"
+        ],
+        [
+          "U101.18"
+        ],
+        [
+          "U201.9"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    },
+    {
+      "net": "CAM_D7",
+      "pin": "U201.10",
+      "function": "A8",
+      "resistor": "R217",
+      "value": "100k 1%",
+      "resistor_ground_in_main_core": true,
+      "before_components": [
+        [
+          "R217.1"
+        ],
+        [
+          "U101.19"
+        ],
+        [
+          "U201.10"
+        ]
+      ],
+      "bias_side": "F.Cu"
+    }
+  ],
+  "both_direction_inputs_main_GND": true,
+  "AON_core_count": 41,
+  "SENS_core_count": 12,
+  "GND_core_count": 94,
+  "enabled_role": "A outputs with B-to-A direction; disabled I/O input circuits remain active",
+  "manufacturer_source": "TI SCES875C Table4-1,7-1 and sections7.3.4/8.4; external100k unchanged, typical internal288k not worst-case assurance",
+  "limits": [
+    "No asserted sensor/MCU functionality",
+    "No universal leakage/loadedVOH/edge/stub acceptance",
+    "Full pad islands not merely logical GND labels"
+  ]
+}

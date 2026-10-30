@@ -1,0 +1,347 @@
+{
+  "candidate_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+  "matched_project_counterfactuals": [
+    {
+      "net": "CAM_D2",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "actual_uncovered_mm2": 0.1360946328385,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.1360946328385,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+      "removed_neighbor_signal_vias": [
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "1fc551315c8961e21d6ed9a849e8ee41713da1636a52d583d69a92c47640140e",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D2",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "actual_uncovered_mm2": 0.1309676039085,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.1298982659395,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.001069411871,
+      "removed_neighbor_signal_vias": [
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "1fc551315c8961e21d6ed9a849e8ee41713da1636a52d583d69a92c47640140e",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D3",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "actual_uncovered_mm2": 0.129838330806,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.129838330806,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b"
+      ],
+      "counterfactual_sha256": "f67e54b11a2d194eec3236fb8f8869555ace7d1cdca0b6a92d7f421b1faa4b63",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D3",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "actual_uncovered_mm2": 0.1299181914555,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.1298565103735,
+      "incremental_missing_due_other_new_signal_vias_mm2": 6.1716038e-05,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b"
+      ],
+      "counterfactual_sha256": "f67e54b11a2d194eec3236fb8f8869555ace7d1cdca0b6a92d7f421b1faa4b63",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D4",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "actual_uncovered_mm2": 0.0649506440515,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.0649506440515,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "f8b403b3581b2dae62bc2719d5462c8749bf69d6decb1148deb148e3b29250e5",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D4",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "actual_uncovered_mm2": 0.0649400471615,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.0649400471615,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "f8b403b3581b2dae62bc2719d5462c8749bf69d6decb1148deb148e3b29250e5",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D6",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "actual_uncovered_mm2": 0.129825964826,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.129825964826,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "a44dc00b1adf0f92c95d683ea8d254e761cc979cf9707c10d0bde84fb280c74f",
+      "baseline_matched_project_refill_byte_equal": true
+    },
+    {
+      "net": "CAM_D6",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "actual_uncovered_mm2": 0.130343244459,
+      "counterfactual_own_plus_inherited_uncovered_mm2": 0.129888768439,
+      "incremental_missing_due_other_new_signal_vias_mm2": 0.0004544951355,
+      "removed_neighbor_signal_vias": [
+        "e1766672-54f0-54e8-90a9-82e524ff795e",
+        "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+        "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+        "ce9db837-2779-5e9e-9634-05c7d7326772",
+        "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+        "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+        "4d1c41de-d62f-5e8c-9d3b-67bfd598f993"
+      ],
+      "counterfactual_sha256": "a44dc00b1adf0f92c95d683ea8d254e761cc979cf9707c10d0bde84fb280c74f",
+      "baseline_matched_project_refill_byte_equal": true
+    }
+  ],
+  "actual_multi_new_net_holes": [
+    {
+      "reference": "In1.Cu",
+      "area_mm2": 1.753234775742,
+      "bbox_mm": [
+        5.2995,
+        28.6495,
+        7.3505,
+        30.1755
+      ],
+      "signal_vias": [
+        {
+          "uuid": "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "net": "CAM_D2",
+          "xy_mm": [
+            6.975,
+            29.1
+          ]
+        },
+        {
+          "uuid": "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "net": "CAM_D3",
+          "xy_mm": [
+            6.325,
+            29.8
+          ]
+        },
+        {
+          "uuid": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "net": "CAM_D4",
+          "xy_mm": [
+            5.675,
+            29.1
+          ]
+        },
+        {
+          "uuid": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "net": "CAM_D6",
+          "xy_mm": [
+            6.275,
+            29.025
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "In4.Cu",
+      "area_mm2": 1.753234775742,
+      "bbox_mm": [
+        5.2995,
+        28.6495,
+        7.3505,
+        30.1755
+      ],
+      "signal_vias": [
+        {
+          "uuid": "e1766672-54f0-54e8-90a9-82e524ff795e",
+          "net": "CAM_D2",
+          "xy_mm": [
+            6.975,
+            29.1
+          ]
+        },
+        {
+          "uuid": "ce9db837-2779-5e9e-9634-05c7d7326772",
+          "net": "CAM_D3",
+          "xy_mm": [
+            6.325,
+            29.8
+          ]
+        },
+        {
+          "uuid": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+          "net": "CAM_D4",
+          "xy_mm": [
+            5.675,
+            29.1
+          ]
+        },
+        {
+          "uuid": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+          "net": "CAM_D6",
+          "xy_mm": [
+            6.275,
+            29.025
+          ]
+        }
+      ]
+    }
+  ],
+  "nearest_ground_stitches_descriptive_only": [
+    {
+      "signal_via": "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+      "net": "CAM_D1",
+      "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+      "nearest_GND_xy_mm": [
+        8.925,
+        30.0375
+      ],
+      "centre_distance_mm": 1.3215166476439106
+    },
+    {
+      "signal_via": "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+      "net": "CAM_D1",
+      "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+      "nearest_GND_xy_mm": [
+        5.3,
+        27.15
+      ],
+      "centre_distance_mm": 2.6751168198790873
+    },
+    {
+      "signal_via": "e1766672-54f0-54e8-90a9-82e524ff795e",
+      "net": "CAM_D2",
+      "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+      "nearest_GND_xy_mm": [
+        8.925,
+        30.0375
+      ],
+      "centre_distance_mm": 2.163655760512748
+    },
+    {
+      "signal_via": "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+      "net": "CAM_D2",
+      "nearest_GND_via": "028dd767-3bd4-4660-a801-de4664cfb82b",
+      "nearest_GND_xy_mm": [
+        0.8,
+        24.0
+      ],
+      "centre_distance_mm": 2.351196503910296
+    },
+    {
+      "signal_via": "4d1c41de-d62f-5e8c-9d3b-67bfd598f993",
+      "net": "CAM_D3",
+      "nearest_GND_via": "2ab2424a-c59e-4900-ba5c-eeea696a1cb4",
+      "nearest_GND_xy_mm": [
+        4.1,
+        22.0
+      ],
+      "centre_distance_mm": 1.0201102881551583
+    },
+    {
+      "signal_via": "ce9db837-2779-5e9e-9634-05c7d7326772",
+      "net": "CAM_D3",
+      "nearest_GND_via": "6a1f6550-e96e-5e51-8a19-9cd3c49599f7",
+      "nearest_GND_xy_mm": [
+        8.925,
+        30.0375
+      ],
+      "centre_distance_mm": 2.610824821775678
+    },
+    {
+      "signal_via": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+      "net": "CAM_D4",
+      "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+      "nearest_GND_xy_mm": [
+        5.3,
+        27.15
+      ],
+      "centre_distance_mm": 1.985730344231059
+    },
+    {
+      "signal_via": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+      "net": "CAM_D6",
+      "nearest_GND_via": "22e31f16-cc68-4328-b0b6-1ea2f025aa0c",
+      "nearest_GND_xy_mm": [
+        5.3,
+        27.15
+      ],
+      "centre_distance_mm": 2.1133504205408054
+    },
+    {
+      "signal_via": "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+      "net": "CAM_D6",
+      "nearest_GND_via": "a320ebf8-e3a2-54e3-949d-407acc576479",
+      "nearest_GND_xy_mm": [
+        3.375,
+        29.5
+      ],
+      "centre_distance_mm": 1.0770329614269007
+    }
+  ],
+  "limits": [
+    "Counterfactual copper deletions are diagnostic TEST specimens, never design proposals",
+    "Whole merged-hole category is not identical to foreign incremental coverage loss",
+    "No return-current density, inductance, coupled noise, edge-rate or loaded-output qualification",
+    "Actual new-via reference coupling remains explicitly disclosed; all U101 long links remain disconnected"
+  ]
+}

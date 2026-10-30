@@ -1,0 +1,21 @@
+# Exact native outline synchronization — NOFAB / NO POWER
+
+Basis: accepted static PCB `dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697`. This is a **baseline discrepancy model**, not a repaired support system or manufacturing release.
+
+Run `/usr/bin/python3 build.py` then `/usr/bin/python3 contact_check.py` from any working directory. Requires installed pcbnew and FreeCAD Part. Native extraction runs separately from CAD export. Four editable derivative FCStd files and corresponding STEP assemblies are generated; source documents are read only. STEP exchange is checked for validity, solid counts and volume using max(.002 mm³,1e−6 relative) exchange tolerance; this does not waive dimensional contact tests on native BReps. STEP uses `Part.export` (complete-compound `Shape.exportStep` silently terminated in this environment). All artifact claims refer to completed results, not that unsuccessful export trial.
+
+Native six-segment Edge.Cuts is transformed without moving electrical datums: X=x−7, Z=127−y, B face Y=2.264793176328504. Full thickness budget remains .93 mm; it is not a measured board thickness. Exact area 1372.2 mm², board volume 1276.146 mm³, overall outline 14×99.8 mm. Historical CAD board was a **14×101.5 rectangular budget**, not the native stepped perimeter. Removed volume45.384 mm³ includes actual RF step plus1.7 mm front-end trim. No board material added and no new positive-volume board/mechanics intersections.
+
+All historical mechanical objects remain geometrically unchanged. All old CTX component boxes are replaced by current full ledger envelopes at exact native poses, including J202−1.7Y and accepted C207/R240/R241 moves.97 static refs comprise104 per-terminal/body solids. Six other refs J108/J104/JP201/JP202/C106/C107 retain explicit unqualified-operation metadata, totaling103 contracts. Historical98-body accounting included a fictitious J108 body; it is not recreated. U205/C209 package-plus-mount budgets remain provisional. ACCESS includes J103 reference installation boxes but its alternative harness remains unimplemented/unqualified; reference boxes do not certify harness installation.
+
+## Known retained gates
+- Native trim adds1.7 mm head clearance. Actual clipped ACCESS head feature was already .25 mm away from the historical rectangle and is now1.95 mm away; RevD actual gap becomes1.7 mm. ACCESS right rear lateral finger loses2 mm contact at the native RF step. Rear right recessed catch is not a primary support. Separate corrected derivatives are required.
+- RevC is cassette/harness context, not a qualified board-retention fixture. RevD is an external bench, not the pen enclosure. Historical collar collision is not silently repaired here; accepted separate R222 local relief remains separate evidence.
+- Native service pads/courtyards are not probe, solder-tool, jumper access, insertion-motion, or strain-relief qualification. No zero-operation-clearance assumption.
+- Positive-volume board collision absence does not establish support, preload, tolerances, strength, printability, RF performance, electrical completion or safe power. Cells remain unqualified, two-pen budget CNY760 unchanged.
+- Historical OD19/20 shells and their source print-clearance assumptions are retained, not accepted as the nominal15–18 mm pen target.
+
+## Verification / frozen scope
+`OUTLINE_OUTPUT=/tmp/chosen-replay /usr/bin/python3 -O build.py` replays without touching deliverables. Normal/-O result JSON matched exactly. `verify_exports.py` reloads each STEP, checks validity and matching solid counts; maximum observed volume exchange difference .001233 mm³ (ACCESS19). Native .93-mm board BRep remains exact; negative −1.7Z shift adds22.134 mm³ outside accepted outline and is detected. `contact_check.py` directly clips real support BReps, not source labels, and measures their distances to both board solids. The historical maximum right-rear catch projection loss is distinguished from the intentionally recessed .1-mm secondary support, which had no initial face contact.
+
+Manifest allowlist excludes temporary FreeCAD `.FCBak` backups. No claim is made that the entire assembly has zero component/harness interference; this derivative isolates exact outline/support discrepancies, preserving known source limitations and accepted separate collar remedy.

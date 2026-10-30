@@ -1,0 +1,101 @@
+{
+  "raw_changed_blocks": [
+    {
+      "uuid": "250ee487-3dda-4ee0-806c-2397f2308ec3",
+      "kind": "footprint",
+      "reference": "R217"
+    },
+    {
+      "uuid": "8771a409-38c0-4701-b584-0ea83f1f7c1a",
+      "kind": "footprint",
+      "reference": "R210"
+    },
+    {
+      "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "kind": "zone",
+      "reference": null
+    },
+    {
+      "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "kind": "zone",
+      "reference": null
+    },
+    {
+      "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "kind": "zone",
+      "reference": null
+    }
+  ],
+  "raw_old_block_counts": {
+    "footprint": 103,
+    "gr_line": 6,
+    "gr_text": 1,
+    "segment": 1141,
+    "via": 157,
+    "zone": 9
+  },
+  "exact_retained_projection_count": 1182,
+  "plane_delta_first_all_positive_losses": [],
+  "positive_loss_without_threshold": [
+    {
+      "uuid": "f59ca65f-50a0-430d-af9e-254985f50673",
+      "reference": "In1.Cu",
+      "area_mm2": 5.3279e-08,
+      "self_subtraction_residual_mm2": 5.3279e-08,
+      "plane_delta_first_loss_mm2": 0.0,
+      "net": "3V3_AON",
+      "vertices_nm": [
+        [
+          [
+            7760489,
+            4523387
+          ],
+          [
+            7813768,
+            4615667
+          ],
+          [
+            7813768,
+            4615669
+          ]
+        ]
+      ]
+    },
+    {
+      "uuid": "6c42eafe-953a-59e8-8572-97a1e1dea857",
+      "reference": "In1.Cu",
+      "area_mm2": 4.2455e-09,
+      "self_subtraction_residual_mm2": 4.2455e-09,
+      "plane_delta_first_loss_mm2": 0.0,
+      "net": "CAM_ISO_OE_N",
+      "vertices_nm": [
+        [
+          [
+            8539129,
+            71613829
+          ],
+          [
+            8519938,
+            71624910
+          ],
+          [
+            8446890,
+            71644482
+          ],
+          [
+            8446889,
+            71644482
+          ],
+          [
+            8519938,
+            71624910
+          ],
+          [
+            8539130,
+            71613829
+          ]
+        ]
+      ]
+    }
+  ]
+}

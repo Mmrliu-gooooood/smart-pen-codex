@@ -1,0 +1,897 @@
+{
+  "status": "DATA8_BIAS_RELOCATION_CANDIDATE_NOFAB_NOPOWER",
+  "base_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+  "pcb_sha256": "4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad",
+  "model_sha256": "d87fd2c831cc37500c9ec7670707ec1feb1d4f220164f0ad90faf230cef464dd",
+  "removed": [
+    "08ed16ac-f327-4a75-bebd-4ff1d19c6766",
+    "61ac111d-5da5-4a45-af0c-e3c7e2a25a70",
+    "6c138ec5-62bc-4bd9-8fb1-9196e2905a29",
+    "76683b85-4699-4601-a4a9-03a7888fa5f5",
+    "9346e7ab-a3ec-41c6-b299-e2a86c5eb673",
+    "9f6cb6ff-d840-4372-ab6d-a00da7931711",
+    "d60d7508-841f-4875-bd34-5e24054dbf8f",
+    "9afbea35-da8e-472b-b639-4f49b8a305cc",
+    "ddd65cf8-f6a5-44f1-89cf-9228b1450472"
+  ],
+  "removed_raw_sha256": {
+    "08ed16ac-f327-4a75-bebd-4ff1d19c6766": "d3e0d43310ad7a16d7a0131c2ded5347f0d05e55ef26c20ad9e8209eef103491",
+    "61ac111d-5da5-4a45-af0c-e3c7e2a25a70": "dffd0214800ef10adb10e0e890ee376ff7caf47c27bd15298525e1cd0ec251a8",
+    "6c138ec5-62bc-4bd9-8fb1-9196e2905a29": "31842f7f2b75705a717f8e70d32a220bd938d68ac8b20cc3964bed783a5d5d74",
+    "76683b85-4699-4601-a4a9-03a7888fa5f5": "c36879f72d011b94b6ef182d9192d879439da7b9877975c12c748dffa9098f9a",
+    "9346e7ab-a3ec-41c6-b299-e2a86c5eb673": "68cbfd213abcc32edcbf912aca61b7dfb9fccbe7e46dbce829a28898cbe7038e",
+    "9afbea35-da8e-472b-b639-4f49b8a305cc": "9bee9282aba078ab308e3d78bed8e0f26ab1c8a5b0f0a11fe34309f1db4d82d2",
+    "9f6cb6ff-d840-4372-ab6d-a00da7931711": "b3cf0b33a2c5e3f34b326bd65889ef8a71920b6279aedc089b1b8074c3a5da6d",
+    "d60d7508-841f-4875-bd34-5e24054dbf8f": "c162e677e32bfa8b33ea4dae12f3213d2cd70cc9a131180bc08cf3aa8854b387",
+    "ddd65cf8-f6a5-44f1-89cf-9228b1450472": "e9efab46bee4dca5a8387b7593156f8950d327b62300a0d274fb97d7755d4265"
+  },
+  "added": [
+    "002f05e5-196a-56f6-8b9d-b9300265d219",
+    "02644332-30e8-56ef-98ba-554811e00810",
+    "0f09941f-7592-5c90-a1de-e1d38324d8ad",
+    "1af17e8e-797f-567c-b370-4c2791f17ad0",
+    "22379563-d943-5ac6-ae7a-7125e82cae53",
+    "227da871-bb78-52e8-9125-5bcefee6f8eb",
+    "2a1dc346-1a96-5c28-87b7-43b6cf8363b2",
+    "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+    "2fdbb47f-960f-5d62-85fc-3217ff123f7c",
+    "329f4763-2c99-5cfe-826f-7b7b908f4341",
+    "4638c23c-7dcc-5fcd-8545-e95b73c903f0",
+    "46ef8519-c920-525d-a728-5b578b92ed67",
+    "49c45a7b-0036-5513-b254-6a89ec422cb6",
+    "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+    "4d1c41de-d62f-5e8c-9d3b-67bfd598f993",
+    "58bf1a5f-19ab-5d6e-ad95-d1332e925668",
+    "5d077972-83f0-5e36-a4e4-2629d3527462",
+    "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+    "6c878bf8-2881-50f4-99b7-69912c8840c2",
+    "6f6d0987-343e-51fb-90e3-fba0cc07d0e3",
+    "7d000749-c12a-58d4-a2df-9627c14e7bc8",
+    "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+    "880e2554-134d-59b3-8a29-2e53751c682d",
+    "89f1fee7-4566-5555-a5ef-5b5cd2009b01",
+    "8f855630-307a-5a5e-adec-da092528f94d",
+    "8ff5d9e6-4b30-5a31-93f9-e5af9926348e",
+    "90788cd9-dfde-5a60-be59-ce7975c0a2c3",
+    "99663fe8-f307-5158-b795-d466bd4e99b8",
+    "9bf73556-139e-58dd-a0c8-cfcff554597f",
+    "a14f9ae3-34de-5840-99de-baf8a36c1fe5",
+    "a320ebf8-e3a2-54e3-949d-407acc576479",
+    "af1be53f-da3e-5212-b6d5-e9396bbae512",
+    "b2eef0dc-0d2c-5e69-9137-f41cde9f226b",
+    "b53baccf-00cf-5d28-97c0-b42ee9de76ee",
+    "b63b2a4a-89ef-5133-a2ea-14f183961272",
+    "b7e25db5-2057-5b53-a5b0-34d5c08e8c00",
+    "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+    "c19a6e50-fe3e-5d39-866e-3c803c28ea92",
+    "c6d475a6-dadc-5440-a939-128a5c724eef",
+    "cc54fd2b-be16-5622-b5b8-4d0198f06d21",
+    "ce9db837-2779-5e9e-9634-05c7d7326772",
+    "d336c67c-8610-509d-922f-4312eee0f486",
+    "da6d924e-b14d-576f-9a45-6d072ef63df7",
+    "dff2a403-f873-5d55-ad4b-cfe6b7c76d65",
+    "e1766672-54f0-54e8-90a9-82e524ff795e",
+    "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+    "eb90f4fd-6468-561b-8de4-e063e157938a",
+    "ec847584-731c-5ba2-abca-4c2c7d230c49",
+    "f207e6d1-8487-57b6-8241-470530ebb8b9",
+    "f7e5cd87-f581-5364-b0ac-ef54f75f6441"
+  ],
+  "mapping": [
+    {
+      "uuid": "89f1fee7-4566-5555-a5ef-5b5cd2009b01",
+      "net": "GND",
+      "type": "via",
+      "a": [
+        11.325,
+        26.8
+      ],
+      "b": [
+        11.325,
+        26.8
+      ],
+      "width": 0.6,
+      "drill": 0.3,
+      "layer": "through"
+    },
+    {
+      "uuid": "2fdbb47f-960f-5d62-85fc-3217ff123f7c",
+      "net": "GND",
+      "type": "track",
+      "a": [
+        11.325,
+        28.0
+      ],
+      "b": [
+        11.325,
+        26.8
+      ],
+      "width": 0.3,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a320ebf8-e3a2-54e3-949d-407acc576479",
+      "net": "GND",
+      "type": "via",
+      "a": [
+        3.375,
+        29.5
+      ],
+      "b": [
+        3.375,
+        29.5
+      ],
+      "width": 0.6,
+      "drill": 0.3,
+      "layer": "through"
+    },
+    {
+      "uuid": "0f09941f-7592-5c90-a1de-e1d38324d8ad",
+      "net": "GND",
+      "type": "track",
+      "a": [
+        2.5,
+        29.51
+      ],
+      "b": [
+        3.375,
+        29.5
+      ],
+      "width": 0.3,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e1766672-54f0-54e8-90a9-82e524ff795e",
+      "net": "CAM_D2",
+      "type": "via",
+      "a": [
+        6.975,
+        29.1
+      ],
+      "b": [
+        6.975,
+        29.1
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "85f464c9-148b-5e32-8335-bbaa5f876d9e",
+      "net": "CAM_D4",
+      "type": "via",
+      "a": [
+        5.675,
+        29.1
+      ],
+      "b": [
+        5.675,
+        29.1
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "4af0f858-b8aa-5244-b362-b2f27bca49e3",
+      "net": "CAM_D6",
+      "type": "via",
+      "a": [
+        4.375,
+        29.1
+      ],
+      "b": [
+        4.375,
+        29.1
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "63bcea1c-4004-50ac-8624-7d7b2cfc1830",
+      "net": "CAM_D1",
+      "type": "via",
+      "a": [
+        7.625,
+        29.8
+      ],
+      "b": [
+        7.625,
+        29.8
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "ce9db837-2779-5e9e-9634-05c7d7326772",
+      "net": "CAM_D3",
+      "type": "via",
+      "a": [
+        6.325,
+        29.8
+      ],
+      "b": [
+        6.325,
+        29.8
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "2ee6fb5d-cb63-593b-8cc9-e178c8c2a6d1",
+      "net": "CAM_D6",
+      "type": "via",
+      "a": [
+        6.275,
+        29.025
+      ],
+      "b": [
+        6.275,
+        29.025
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "bf43ba73-90fd-5fc7-bc3b-74d0a923d880",
+      "net": "CAM_D1",
+      "type": "via",
+      "a": [
+        2.725,
+        26.425
+      ],
+      "b": [
+        2.725,
+        26.425
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "e7c8d7e5-aeb0-594a-a9fc-a42dfc78c70b",
+      "net": "CAM_D2",
+      "type": "via",
+      "a": [
+        2.725,
+        25.35
+      ],
+      "b": [
+        2.725,
+        25.35
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "4d1c41de-d62f-5e8c-9d3b-67bfd598f993",
+      "net": "CAM_D3",
+      "type": "via",
+      "a": [
+        3.8,
+        22.975
+      ],
+      "b": [
+        3.8,
+        22.975
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "da6d924e-b14d-576f-9a45-6d072ef63df7",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        6.975,
+        31.1375
+      ],
+      "b": [
+        6.975,
+        29.1
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "880e2554-134d-59b3-8a29-2e53751c682d",
+      "net": "CAM_D4",
+      "type": "track",
+      "a": [
+        5.675,
+        31.1375
+      ],
+      "b": [
+        5.675,
+        29.1
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "90788cd9-dfde-5a60-be59-ce7975c0a2c3",
+      "net": "CAM_D6",
+      "type": "track",
+      "a": [
+        4.375,
+        31.1375
+      ],
+      "b": [
+        4.375,
+        29.1
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "9bf73556-139e-58dd-a0c8-cfcff554597f",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        7.625,
+        31.1375
+      ],
+      "b": [
+        7.625,
+        29.8
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "02644332-30e8-56ef-98ba-554811e00810",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        6.325,
+        31.1375
+      ],
+      "b": [
+        6.325,
+        29.8
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ec847584-731c-5ba2-abca-4c2c7d230c49",
+      "net": "CAM_D4",
+      "type": "track",
+      "a": [
+        5.675,
+        29.1
+      ],
+      "b": [
+        2.9,
+        32.075
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "b2eef0dc-0d2c-5e69-9137-f41cde9f226b",
+      "net": "CAM_D6",
+      "type": "track",
+      "a": [
+        4.375,
+        29.1
+      ],
+      "b": [
+        5.275,
+        28.625
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "329f4763-2c99-5cfe-826f-7b7b908f4341",
+      "net": "CAM_D6",
+      "type": "track",
+      "a": [
+        5.275,
+        28.625
+      ],
+      "b": [
+        5.875,
+        28.625
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "b7e25db5-2057-5b53-a5b0-34d5c08e8c00",
+      "net": "CAM_D6",
+      "type": "track",
+      "a": [
+        5.875,
+        28.625
+      ],
+      "b": [
+        6.275,
+        29.025
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "99663fe8-f307-5158-b795-d466bd4e99b8",
+      "net": "CAM_D6",
+      "type": "track",
+      "a": [
+        6.275,
+        29.025
+      ],
+      "b": [
+        6.675,
+        28.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f7e5cd87-f581-5364-b0ac-ef54f75f6441",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        7.625,
+        29.8
+      ],
+      "b": [
+        7.4,
+        28.875
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "d336c67c-8610-509d-922f-4312eee0f486",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        7.4,
+        28.875
+      ],
+      "b": [
+        6.25,
+        27.7
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "7d000749-c12a-58d4-a2df-9627c14e7bc8",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        6.25,
+        27.7
+      ],
+      "b": [
+        5.125,
+        27.675
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "49c45a7b-0036-5513-b254-6a89ec422cb6",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        5.125,
+        27.675
+      ],
+      "b": [
+        2.725,
+        26.425
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "227da871-bb78-52e8-9125-5bcefee6f8eb",
+      "net": "CAM_D1",
+      "type": "track",
+      "a": [
+        2.725,
+        26.425
+      ],
+      "b": [
+        3.675,
+        26.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "cc54fd2b-be16-5622-b5b8-4d0198f06d21",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        6.975,
+        29.1
+      ],
+      "b": [
+        5.625,
+        27.7
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "46ef8519-c920-525d-a728-5b578b92ed67",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        5.625,
+        27.7
+      ],
+      "b": [
+        5.125,
+        27.675
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "2a1dc346-1a96-5c28-87b7-43b6cf8363b2",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        5.125,
+        27.675
+      ],
+      "b": [
+        4.975,
+        27.6
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "002f05e5-196a-56f6-8b9d-b9300265d219",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        4.975,
+        27.6
+      ],
+      "b": [
+        2.725,
+        25.35
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "dff2a403-f873-5d55-ad4b-cfe6b7c76d65",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        2.725,
+        25.35
+      ],
+      "b": [
+        2.875,
+        25.125
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "4638c23c-7dcc-5fcd-8545-e95b73c903f0",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        2.875,
+        25.125
+      ],
+      "b": [
+        6.125,
+        25.125
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6f6d0987-343e-51fb-90e3-fba0cc07d0e3",
+      "net": "CAM_D2",
+      "type": "track",
+      "a": [
+        6.125,
+        25.125
+      ],
+      "b": [
+        6.675,
+        26.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "58bf1a5f-19ab-5d6e-ad95-d1332e925668",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        6.325,
+        29.8
+      ],
+      "b": [
+        7.275,
+        29.475
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "af1be53f-da3e-5212-b6d5-e9396bbae512",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        7.275,
+        29.475
+      ],
+      "b": [
+        7.425,
+        29.25
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c6d475a6-dadc-5440-a939-128a5c724eef",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        7.425,
+        29.25
+      ],
+      "b": [
+        7.425,
+        28.95
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "22379563-d943-5ac6-ae7a-7125e82cae53",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        7.425,
+        28.95
+      ],
+      "b": [
+        3.8,
+        22.975
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "5d077972-83f0-5e36-a4e4-2629d3527462",
+      "net": "CAM_D3",
+      "type": "track",
+      "a": [
+        3.8,
+        22.975
+      ],
+      "b": [
+        3.325,
+        24.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8ff5d9e6-4b30-5a31-93f9-e5af9926348e",
+      "net": "CAM_D0",
+      "type": "track",
+      "a": [
+        8.275,
+        31.1375
+      ],
+      "b": [
+        8.4,
+        29.875
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f207e6d1-8487-57b6-8241-470530ebb8b9",
+      "net": "CAM_D0",
+      "type": "track",
+      "a": [
+        8.4,
+        29.875
+      ],
+      "b": [
+        9.675,
+        28.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6c878bf8-2881-50f4-99b7-69912c8840c2",
+      "net": "CAM_D7",
+      "type": "track",
+      "a": [
+        2.5,
+        28.49
+      ],
+      "b": [
+        2.95,
+        28.95
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b63b2a4a-89ef-5133-a2ea-14f183961272",
+      "net": "CAM_D7",
+      "type": "track",
+      "a": [
+        2.95,
+        28.95
+      ],
+      "b": [
+        3.55,
+        28.975
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1af17e8e-797f-567c-b370-4c2791f17ad0",
+      "net": "CAM_D7",
+      "type": "track",
+      "a": [
+        3.55,
+        28.975
+      ],
+      "b": [
+        3.825,
+        29.175
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b53baccf-00cf-5d28-97c0-b42ee9de76ee",
+      "net": "CAM_D7",
+      "type": "track",
+      "a": [
+        3.825,
+        29.175
+      ],
+      "b": [
+        3.925,
+        29.475
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "eb90f4fd-6468-561b-8de4-e063e157938a",
+      "net": "CAM_D7",
+      "type": "track",
+      "a": [
+        3.925,
+        29.475
+      ],
+      "b": [
+        3.725,
+        31.1375
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8f855630-307a-5a5e-adec-da092528f94d",
+      "net": "CAM_D5",
+      "type": "track",
+      "a": [
+        3.675,
+        28.0
+      ],
+      "b": [
+        4.75,
+        28.8
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a14f9ae3-34de-5840-99de-baf8a36c1fe5",
+      "net": "CAM_D5",
+      "type": "track",
+      "a": [
+        4.75,
+        28.8
+      ],
+      "b": [
+        4.85,
+        29.075
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c19a6e50-fe3e-5d39-866e-3c803c28ea92",
+      "net": "CAM_D5",
+      "type": "track",
+      "a": [
+        4.85,
+        29.075
+      ],
+      "b": [
+        5.025,
+        31.1375
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    }
+  ],
+  "poses": {
+    "R210": [
+      10.5,
+      28,
+      0
+    ],
+    "R217": [
+      2.5,
+      29,
+      -90
+    ]
+  },
+  "plane_patch": null,
+  "refill_byte_stable": true,
+  "source_net_value_changes": []
+}

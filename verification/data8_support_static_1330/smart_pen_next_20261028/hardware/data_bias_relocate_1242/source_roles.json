@@ -1,0 +1,67 @@
+{
+  "accepted_parent_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+  "part": "SN74AXC8T245PWR",
+  "package": "PW 24pin",
+  "role": "A ports are B-to-A outputs when enabled; input circuits remain active when disabled",
+  "pin_map": {
+    "U201.3": {
+      "function": "A1",
+      "net": "CAM_D0",
+      "bias": "R210.1"
+    },
+    "U201.4": {
+      "function": "A2",
+      "net": "CAM_D1",
+      "bias": "R211.1"
+    },
+    "U201.5": {
+      "function": "A3",
+      "net": "CAM_D2",
+      "bias": "R212.1"
+    },
+    "U201.6": {
+      "function": "A4",
+      "net": "CAM_D3",
+      "bias": "R213.1"
+    },
+    "U201.7": {
+      "function": "A5",
+      "net": "CAM_D4",
+      "bias": "R214.1"
+    },
+    "U201.8": {
+      "function": "A6",
+      "net": "CAM_D5",
+      "bias": "R215.1"
+    },
+    "U201.9": {
+      "function": "A7",
+      "net": "CAM_D6",
+      "bias": "R216.1"
+    },
+    "U201.10": {
+      "function": "A8",
+      "net": "CAM_D7",
+      "bias": "R217.1"
+    }
+  },
+  "DIR1_U201_2": "GND",
+  "DIR2_U201_11": "GND",
+  "OE_U201_22": "CAM_ISO_OE_N",
+  "existing_external_resistors": "100k 1% to GND unchanged",
+  "primary_source": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+  "revision": "SCES875C January2024",
+  "sections": [
+    "4 Table4-1 PW pin mapping",
+    "7.3.4 typical288k internal pulldowns",
+    "7.4 Table7-1 direction and always-active input circuits",
+    "8.4 short trace lengths to avoid loading"
+  ],
+  "limits": [
+    "External100k are additional existing bias, not proof isolated pin otherwise floats",
+    "No loaded VOH/leakage/edge/stub or timing acceptance",
+    "No MCU long route or sensor attached"
+  ],
+  "local_source_file": "smart_pen_next_20261028/docs/electronics/camera_safeoff_addendum_0719/sources/axc8.pdf",
+  "local_source_sha256": "6cf4003c438c0546fb86f0932613896197dd19a75bdb307f385eb6e75535126e"
+}

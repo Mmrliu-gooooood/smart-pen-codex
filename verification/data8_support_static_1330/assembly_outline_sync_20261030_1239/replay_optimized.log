@@ -1,0 +1,100 @@
+{
+  "pcb_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+  "native_vertices": [
+    [
+      12.0,
+      6.0
+    ],
+    [
+      14.0,
+      6.0
+    ],
+    [
+      14.0,
+      93.3
+    ],
+    [
+      0.0,
+      93.3
+    ],
+    [
+      0.0,
+      -6.5
+    ],
+    [
+      12.0,
+      -6.5
+    ],
+    [
+      12.0,
+      6.0
+    ]
+  ],
+  "native_thickness_attribute_mm": 0.83,
+  "budget_thickness_mm": 0.93,
+  "transform": "X=x-7; Z=127-y; B Y=2.264793176328504; F budget Y=B+.93",
+  "outline_bounds": [
+    -7.0,
+    2.264793176328504,
+    33.7,
+    7.0,
+    3.194793176328504,
+    133.5
+  ],
+  "native_area_mm2": 1372.1999999999998,
+  "board_volume_mm3": 1276.1460000000002,
+  "historical_rectangle_volume_mm3": 1321.5300000000004,
+  "removed_mm3": 45.38400000000003,
+  "static_ref_count": 97,
+  "static_entity_count": 104,
+  "contexts": [
+    {
+      "context": "RevC",
+      "source_sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "mechanical_objects": 21,
+      "board_collisions": [],
+      "file": "RevC_exact_outline_NOFAB.FCStd",
+      "board_valid": true,
+      "mechanical_changed": false,
+      "head_datum_nominal_gap_mm": null,
+      "right_RF_X_finger_gap_mm": null,
+      "roundtrip_shape_count": 126
+    },
+    {
+      "context": "RevD_BENCH",
+      "source_sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "mechanical_objects": 59,
+      "board_collisions": [],
+      "file": "RevD_BENCH_exact_outline_NOFAB.FCStd",
+      "board_valid": true,
+      "mechanical_changed": false,
+      "head_datum_nominal_gap_mm": 1.7,
+      "right_RF_X_finger_gap_mm": null,
+      "roundtrip_shape_count": 164
+    },
+    {
+      "context": "ACCESS19",
+      "source_sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "mechanical_objects": 32,
+      "board_collisions": [],
+      "file": "ACCESS19_exact_outline_NOFAB.FCStd",
+      "board_valid": true,
+      "mechanical_changed": false,
+      "head_datum_nominal_gap_mm": 1.7,
+      "right_RF_X_finger_gap_mm": 2.0,
+      "roundtrip_shape_count": 137
+    },
+    {
+      "context": "ACCESS20",
+      "source_sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "mechanical_objects": 32,
+      "board_collisions": [],
+      "file": "ACCESS20_exact_outline_NOFAB.FCStd",
+      "board_valid": true,
+      "mechanical_changed": false,
+      "head_datum_nominal_gap_mm": 1.7,
+      "right_RF_X_finger_gap_mm": 2.0,
+      "roundtrip_shape_count": 137
+    }
+  ]
+}
