@@ -9,7 +9,7 @@
 - [5ed5f0ad 原生PCB](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_native_0522/native/mainboard_revD.kicad_pcb)，[作者报告](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_native_0522/README.md)，[独立审查](verification/imu_control_stage_20261030/smart_pen_next_20261028/hardware/imu_control_independent_review_0543/REVIEW.md)。同目录工程、规则、源、库必须一起看；仅供研究审查，不是制造选择。
 - 完整原生 DRC **0 violation / 106 unconnected / 0 parity，exit 5**；ERC **0错误 / 1条既有警告**。零DRC violation不等于连接完成。AON **38/39**、GND **70/102**、SENS **12/12**实体pad到相应核心；源R503仍47k/RC0603FR-0747KL。
 - **新发现的时钟参考退化未放行**：EXTCLK在In2和In4各新增 **0.0017414094705 mm²**投影缺口，不能写为零。IRQ最近核心地孔距3.779302mm不证明回流合格；合并孔、小AON侵蚀岛、53条短段、courtyard、EP孔工艺、短供电逃线和MEMS应力等仍待资格验证。
-- 另有较新的 **0/96/0 工作版尚未独立审查，未纳入本次追加**；本页不把它当已审查后继或放行版本。后续若独审并冻结，应另行更新，而非改写历史证据。
+- **本次可重建的最新独审快照仍是上述5ed5f0ad / 0/106/0。** 另行后续0/96/0控制阶段已收到独立静态复核报告（manifest `ef450fe3a80f14535ee1ff99b9b1dcaad2906bbf8603458bab06da1746ef044e`），但其源码与新增证据**不在本次r25截止清单内**，不随本追加发布，也不是成品或动态合规结论。后续OE R203 10k被动释放的典型模型存在AXC输入Δt/Δv 10ns/V红旗：五个OE典型Ci合计22.5pF，估算105–148ns/V；这不是实测值，但必须单独处理，不能被静态DRC/独审掩盖。相关补充正在另行冻结，待后续明确版本与审查后再独立归档。
 
 ## 解码软件：保留V3，V4明确未采纳
 
