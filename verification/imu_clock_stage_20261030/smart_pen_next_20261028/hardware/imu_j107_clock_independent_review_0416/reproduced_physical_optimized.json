@@ -1,0 +1,133 @@
+{
+  "native_all_layer_new_copper_pad_hole_edge_rule_errors": [],
+  "new_via_courtyard_intersections": [
+    {
+      "index": 15,
+      "ref": "U501",
+      "side": "F.Courtyard",
+      "overlap_mm2": 0.0292142662045
+    }
+  ],
+  "clock_reference_coverage": [
+    {
+      "index": 28,
+      "ref": "In4.Cu",
+      "total_projection_gap_mm2": 0.0649894137275,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.0002747270555,
+      "outside_actual_native_own_holes_mm2": 0.0
+    },
+    {
+      "index": 29,
+      "ref": "In4.Cu",
+      "total_projection_gap_mm2": 0.159065747372,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.0,
+      "outside_actual_native_own_holes_mm2": 0.0
+    },
+    {
+      "index": 30,
+      "ref": "In2.Cu",
+      "total_projection_gap_mm2": 0.129978776328,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.000549410844,
+      "outside_actual_native_own_holes_mm2": 0.0
+    },
+    {
+      "index": 30,
+      "ref": "In4.Cu",
+      "total_projection_gap_mm2": 0.129978776328,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.000549410844,
+      "outside_actual_native_own_holes_mm2": 0.0
+    },
+    {
+      "index": 31,
+      "ref": "In4.Cu",
+      "total_projection_gap_mm2": 0.159065747372,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.0,
+      "outside_actual_native_own_holes_mm2": 0.0
+    },
+    {
+      "index": 32,
+      "ref": "In4.Cu",
+      "total_projection_gap_mm2": 0.0649893626005,
+      "outside_ideal_antipad_edge_sliver_mm2": 0.0002746837885,
+      "outside_actual_native_own_holes_mm2": 0.0
+    }
+  ],
+  "exact_native_clock_antipad_holes": [
+    {
+      "via_index": 29,
+      "layer": "In1.Cu",
+      "bounds_mm": [
+        3.8745,
+        79.3245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445512997293
+    },
+    {
+      "via_index": 31,
+      "layer": "In1.Cu",
+      "bounds_mm": [
+        3.8745,
+        89.0245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445513015387
+    },
+    {
+      "via_index": 29,
+      "layer": "In2.Cu",
+      "bounds_mm": [
+        3.8745,
+        79.3245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445513015387
+    },
+    {
+      "via_index": 31,
+      "layer": "In2.Cu",
+      "bounds_mm": [
+        3.8745,
+        89.0245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.4455129753665
+    },
+    {
+      "via_index": 29,
+      "layer": "In4.Cu",
+      "bounds_mm": [
+        3.8745,
+        79.3245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445512997293
+    },
+    {
+      "via_index": 31,
+      "layer": "In4.Cu",
+      "bounds_mm": [
+        3.8745,
+        89.0245,
+        0.751,
+        0.751
+      ],
+      "area_mm2": 0.445513015387
+    }
+  ],
+  "R503": "47k 1%",
+  "JP301": "OPEN",
+  "boundary_nominal_mm": {
+    "JP201_courtyard_gap": 0.18,
+    "J107_courtyard_gap": 0.43,
+    "clock_upper_via_to_AON_copper_gap": 0.2,
+    "extra_over_rule_not_manufacturing_tolerance": 0.05
+  },
+  "mechanics_link": "../../docs/electronics/imu_access_corridor_0345/mechanical_screen.json",
+  "mechanics_scope": "same J107 case2 pose; full2mm budget four contexts; no actual harness/assembly/stress qualification"
+}

@@ -1,0 +1,138 @@
+{
+  "status": "TWO_PLACEMENTS_REJECTED_NO_NATIVE",
+  "cases": [
+    {
+      "pose": [
+        3.2,
+        88
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "USB_EN1",
+          "xy": [
+            2.0,
+            85.5
+          ]
+        },
+        {
+          "number": "2",
+          "net": "USB_EN2",
+          "xy": [
+            2.0,
+            87.9
+          ]
+        },
+        {
+          "number": "3",
+          "net": "GND",
+          "xy": [
+            2.0,
+            90.3
+          ]
+        }
+      ],
+      "foreign_old_copper_clearance_failures": [
+        {
+          "pad": "3",
+          "other": "01419084-3892-5710-8589-b0e5adee8cea",
+          "net": "SENS_VIO_1V8",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.261709831243
+        },
+        {
+          "pad": "3",
+          "other": "f7801833-8d01-5126-942c-4b3abb3a4ec5",
+          "net": "SENS_VIO_1V8",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.2108453187255
+        },
+        {
+          "pad": "3",
+          "other": "J202.21",
+          "net": "SENS_SCL",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.21
+        },
+        {
+          "pad": "3",
+          "other": "J202.22",
+          "net": "SENS_SDA",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.21
+        },
+        {
+          "pad": "3",
+          "other": "J202.23",
+          "net": "SENS_VIO_1V8",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.21
+        }
+      ],
+      "courtyard_failures": [
+        {
+          "other": "J202",
+          "overlap_mm2": 3.2636
+        }
+      ],
+      "accept": false
+    },
+    {
+      "pose": [
+        5.2,
+        84
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "USB_EN1",
+          "xy": [
+            4.0,
+            81.5
+          ]
+        },
+        {
+          "number": "2",
+          "net": "USB_EN2",
+          "xy": [
+            4.0,
+            83.9
+          ]
+        },
+        {
+          "number": "3",
+          "net": "GND",
+          "xy": [
+            4.0,
+            86.3
+          ]
+        }
+      ],
+      "foreign_old_copper_clearance_failures": [
+        {
+          "pad": "1",
+          "other": "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+          "net": "SENS_EXTCLK",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.345
+        },
+        {
+          "pad": "2",
+          "other": "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+          "net": "SENS_EXTCLK",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.345
+        },
+        {
+          "pad": "3",
+          "other": "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+          "net": "SENS_EXTCLK",
+          "layer": "B.Cu",
+          "clearance_overlap_mm2": 0.345
+        }
+      ],
+      "courtyard_failures": [],
+      "accept": false
+    }
+  ]
+}

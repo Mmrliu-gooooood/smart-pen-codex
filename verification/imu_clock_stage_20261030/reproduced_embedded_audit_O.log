@@ -1,0 +1,2936 @@
+{
+  "status": "DIRECT_EMBEDDED_LIB_SYMBOL_PIN_AUDIT",
+  "matched_physical_electrical_pads": 364,
+  "mechanical_unnumbered_not_symbol_pins": [
+    "J202.#264d5c9f-974e-44da-91ef-75afe4035ef4",
+    "J202.#a458acf1-5f00-4ae0-8824-961347b224ec"
+  ],
+  "source_files": {
+    "mainboard_revD.kicad_sch": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "schematic/physical_interfaces.kicad_sch": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+    "schematic/pickup_on_main.kicad_sch": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe",
+    "schematic/usb_entry.kicad_sch": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+    "schematic/recovery_fixture.kicad_sch": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+    "schematic/mcu_core.kicad_sch": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+    "schematic/mainboard_revD.kicad_sch": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+    "schematic/usb_main_port.kicad_sch": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+    "schematic/safe_bias_interfaces.kicad_sch": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+    "schematic/dvp_translation.kicad_sch": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+    "schematic/controls_sccb.kicad_sch": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+    "schematic/camera_gate_on_main.kicad_sch": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+  },
+  "rows": [
+    {
+      "physical_pad": "Q201.1",
+      "function": "G",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:PMV30UN2",
+      "instance_uuid": "f430ed77-2707-4244-8637-6a79d9958439"
+    },
+    {
+      "physical_pad": "Q201.2",
+      "function": "S",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:PMV30UN2",
+      "instance_uuid": "f430ed77-2707-4244-8637-6a79d9958439"
+    },
+    {
+      "physical_pad": "Q201.3",
+      "function": "D",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:PMV30UN2",
+      "instance_uuid": "f430ed77-2707-4244-8637-6a79d9958439"
+    },
+    {
+      "physical_pad": "JP202.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:OPEN_LINK",
+      "instance_uuid": "ddf1b475-e0c7-4946-a210-8b00f5ea3dfe"
+    },
+    {
+      "physical_pad": "JP202.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:OPEN_LINK",
+      "instance_uuid": "ddf1b475-e0c7-4946-a210-8b00f5ea3dfe"
+    },
+    {
+      "physical_pad": "R205.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a1f94bfa-22f0-481f-852b-94b193dd7fd7"
+    },
+    {
+      "physical_pad": "R205.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a1f94bfa-22f0-481f-852b-94b193dd7fd7"
+    },
+    {
+      "physical_pad": "R202.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0c593c0d-62ad-4c20-9901-d596b5bf925a"
+    },
+    {
+      "physical_pad": "R202.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0c593c0d-62ad-4c20-9901-d596b5bf925a"
+    },
+    {
+      "physical_pad": "C104.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "daa22a0c-60d7-4d92-afe7-dea262b1c17b"
+    },
+    {
+      "physical_pad": "C104.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "daa22a0c-60d7-4d92-afe7-dea262b1c17b"
+    },
+    {
+      "physical_pad": "R502.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R2",
+      "instance_uuid": "1af3dc93-d1d4-5a04-9184-7858ab56e82d"
+    },
+    {
+      "physical_pad": "R502.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R2",
+      "instance_uuid": "1af3dc93-d1d4-5a04-9184-7858ab56e82d"
+    },
+    {
+      "physical_pad": "JP201.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:OPEN_LINK",
+      "instance_uuid": "f9f86092-89e6-4bb4-a9da-66228b86bb0b"
+    },
+    {
+      "physical_pad": "JP201.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:OPEN_LINK",
+      "instance_uuid": "f9f86092-89e6-4bb4-a9da-66228b86bb0b"
+    },
+    {
+      "physical_pad": "R241.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "ea548c8c-141e-4a75-b2e8-d4f70d4e7c28"
+    },
+    {
+      "physical_pad": "R241.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "ea548c8c-141e-4a75-b2e8-d4f70d4e7c28"
+    },
+    {
+      "physical_pad": "R229.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "3b855c0f-0443-4ad3-ab65-ca7f89fe7c86"
+    },
+    {
+      "physical_pad": "R229.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "3b855c0f-0443-4ad3-ab65-ca7f89fe7c86"
+    },
+    {
+      "physical_pad": "J106.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "988827e5-e6ae-4890-92c0-4e13cb2a0a4b"
+    },
+    {
+      "physical_pad": "J106.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "988827e5-e6ae-4890-92c0-4e13cb2a0a4b"
+    },
+    {
+      "physical_pad": "J106.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "988827e5-e6ae-4890-92c0-4e13cb2a0a4b"
+    },
+    {
+      "physical_pad": "R217.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0ed4522a-640b-465c-9a2f-d2b30bc88542"
+    },
+    {
+      "physical_pad": "R217.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0ed4522a-640b-465c-9a2f-d2b30bc88542"
+    },
+    {
+      "physical_pad": "U101.1",
+      "function": "LNA_IN",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.2",
+      "function": "VDD3P3",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.3",
+      "function": "VDD3P3",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.4",
+      "function": "CHIP_PU",
+      "type": "input",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.5",
+      "function": "GPIO0",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.6",
+      "function": "GPIO1",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.7",
+      "function": "GPIO2",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.8",
+      "function": "GPIO3",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.9",
+      "function": "GPIO4",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.10",
+      "function": "GPIO5",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.11",
+      "function": "GPIO6",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.12",
+      "function": "GPIO7",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.13",
+      "function": "GPIO8",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.14",
+      "function": "GPIO9",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.15",
+      "function": "GPIO10",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.16",
+      "function": "GPIO11",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.17",
+      "function": "GPIO12",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.18",
+      "function": "GPIO13",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.19",
+      "function": "GPIO14",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.20",
+      "function": "VDD3P3_RTC",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.21",
+      "function": "GPIO15_XTAL32K_P",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.22",
+      "function": "GPIO16_XTAL32K_N",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.23",
+      "function": "GPIO17",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.24",
+      "function": "GPIO18",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.25",
+      "function": "GPIO19",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.26",
+      "function": "GPIO20",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.27",
+      "function": "GPIO21",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.28",
+      "function": "SPICS1_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.29",
+      "function": "VDD_SPI",
+      "type": "power_out",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.30",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.31",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.32",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.33",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.34",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.35",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.36",
+      "function": "GPIO48_SPICLK_N",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.37",
+      "function": "GPIO47_SPICLK_P",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.38",
+      "function": "GPIO33_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.39",
+      "function": "GPIO34_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.40",
+      "function": "GPIO35_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.41",
+      "function": "GPIO36_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.42",
+      "function": "GPIO37_PSRAM",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.43",
+      "function": "GPIO38",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.44",
+      "function": "GPIO39_MTCK",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.45",
+      "function": "GPIO40_MTDO",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.46",
+      "function": "VDD3P3_CPU",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.47",
+      "function": "GPIO41_MTDI",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.48",
+      "function": "GPIO42_MTMS",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.49",
+      "function": "GPIO43_U0TXD",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.50",
+      "function": "GPIO44_U0RXD",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.51",
+      "function": "GPIO45",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.52",
+      "function": "GPIO46",
+      "type": "bidirectional",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.53",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.54",
+      "function": "NC",
+      "type": "no_connect",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.55",
+      "function": "VDDA",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.56",
+      "function": "VDDA",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:ESP32-S3-PICO-1-N8R8",
+      "instance_uuid": "ad500765-92dc-4199-8694-504abaf04657"
+    },
+    {
+      "physical_pad": "C103.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "3d4a1b8e-cecd-43c1-b43d-4f64b97589a9"
+    },
+    {
+      "physical_pad": "C103.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "3d4a1b8e-cecd-43c1-b43d-4f64b97589a9"
+    },
+    {
+      "physical_pad": "R231.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "fd2cfbb1-66b5-4559-b3d9-6ab9bae3c9b7"
+    },
+    {
+      "physical_pad": "R231.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "fd2cfbb1-66b5-4559-b3d9-6ab9bae3c9b7"
+    },
+    {
+      "physical_pad": "C203.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "faa8c099-a916-44b7-8a2b-585c2dbe6eb0"
+    },
+    {
+      "physical_pad": "C203.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "faa8c099-a916-44b7-8a2b-585c2dbe6eb0"
+    },
+    {
+      "physical_pad": "R224.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "9f9076f0-29d4-4c30-a8b7-f093b47fb756"
+    },
+    {
+      "physical_pad": "R224.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "9f9076f0-29d4-4c30-a8b7-f093b47fb756"
+    },
+    {
+      "physical_pad": "R213.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f79d9b1c-afe0-4f2b-904f-f85c842ab97d"
+    },
+    {
+      "physical_pad": "R213.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f79d9b1c-afe0-4f2b-904f-f85c842ab97d"
+    },
+    {
+      "physical_pad": "R215.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "abea21b2-bbda-4641-b86f-5fbe080fea8c"
+    },
+    {
+      "physical_pad": "R215.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "abea21b2-bbda-4641-b86f-5fbe080fea8c"
+    },
+    {
+      "physical_pad": "C101.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "3006d930-19e1-4094-95a9-eba8c045b86b"
+    },
+    {
+      "physical_pad": "C101.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "3006d930-19e1-4094-95a9-eba8c045b86b"
+    },
+    {
+      "physical_pad": "J108.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "0edd195f-1c0d-4fd1-9bff-d8d5bd78abf7"
+    },
+    {
+      "physical_pad": "J108.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "0edd195f-1c0d-4fd1-9bff-d8d5bd78abf7"
+    },
+    {
+      "physical_pad": "J108.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "0edd195f-1c0d-4fd1-9bff-d8d5bd78abf7"
+    },
+    {
+      "physical_pad": "R237.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f1d2d746-1036-4640-9d2e-c77556b10c10"
+    },
+    {
+      "physical_pad": "R237.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f1d2d746-1036-4640-9d2e-c77556b10c10"
+    },
+    {
+      "physical_pad": "R233.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c672b192-ac5c-4b46-bcff-0a68961b973d"
+    },
+    {
+      "physical_pad": "R233.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c672b192-ac5c-4b46-bcff-0a68961b973d"
+    },
+    {
+      "physical_pad": "R102.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "81ca277c-7848-4cac-be30-2cd882d6946f"
+    },
+    {
+      "physical_pad": "R102.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "81ca277c-7848-4cac-be30-2cd882d6946f"
+    },
+    {
+      "physical_pad": "C208.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "6e14fac5-66e9-46e3-a9b7-2d35d899d924"
+    },
+    {
+      "physical_pad": "C208.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "6e14fac5-66e9-46e3-a9b7-2d35d899d924"
+    },
+    {
+      "physical_pad": "C503.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C3",
+      "instance_uuid": "ef684bb4-f06f-5111-99dc-9d4770bed7ff"
+    },
+    {
+      "physical_pad": "C503.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C3",
+      "instance_uuid": "ef684bb4-f06f-5111-99dc-9d4770bed7ff"
+    },
+    {
+      "physical_pad": "C204.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "17c48a4e-1992-4db2-81ba-89d2b5e7e362"
+    },
+    {
+      "physical_pad": "C204.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "17c48a4e-1992-4db2-81ba-89d2b5e7e362"
+    },
+    {
+      "physical_pad": "L101.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:L",
+      "instance_uuid": "2dc9ae40-79d1-4a9a-9fb8-26cdf88a8bc6"
+    },
+    {
+      "physical_pad": "L101.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:L",
+      "instance_uuid": "2dc9ae40-79d1-4a9a-9fb8-26cdf88a8bc6"
+    },
+    {
+      "physical_pad": "R104.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "2cce0922-51fe-4294-96b5-6acd8d7f58aa"
+    },
+    {
+      "physical_pad": "R104.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "2cce0922-51fe-4294-96b5-6acd8d7f58aa"
+    },
+    {
+      "physical_pad": "R230.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f984fde1-fdd9-46be-9cc7-24f458756429"
+    },
+    {
+      "physical_pad": "R230.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f984fde1-fdd9-46be-9cc7-24f458756429"
+    },
+    {
+      "physical_pad": "U201.1",
+      "function": "VCCA",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.2",
+      "function": "DIR1",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.3",
+      "function": "A1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.4",
+      "function": "A2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.5",
+      "function": "A3",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.6",
+      "function": "A4",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.7",
+      "function": "A5",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.8",
+      "function": "A6",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.9",
+      "function": "A7",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.10",
+      "function": "A8",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.11",
+      "function": "DIR2",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.12",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.13",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.14",
+      "function": "B8",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.15",
+      "function": "B7",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.16",
+      "function": "B6",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.17",
+      "function": "B5",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.18",
+      "function": "B4",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.19",
+      "function": "B3",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.20",
+      "function": "B2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.21",
+      "function": "B1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.22",
+      "function": "OE_N",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.23",
+      "function": "VCCB",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "U201.24",
+      "function": "VCCB",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC8T245PWR",
+      "instance_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8"
+    },
+    {
+      "physical_pad": "R201.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c9c3a1f4-6a2a-4bc5-8df1-e3f7c6c71259"
+    },
+    {
+      "physical_pad": "R201.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c9c3a1f4-6a2a-4bc5-8df1-e3f7c6c71259"
+    },
+    {
+      "physical_pad": "R109.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "db05c6c6-285c-4eff-a8c5-e712fe1984a6"
+    },
+    {
+      "physical_pad": "R109.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "db05c6c6-285c-4eff-a8c5-e712fe1984a6"
+    },
+    {
+      "physical_pad": "R243.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "5c83d41a-34f8-4882-82d8-c19b3a531f6c"
+    },
+    {
+      "physical_pad": "R243.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "5c83d41a-34f8-4882-82d8-c19b3a531f6c"
+    },
+    {
+      "physical_pad": "C106.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "907be87d-4f20-4f13-8884-fa9e31875466"
+    },
+    {
+      "physical_pad": "C106.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "907be87d-4f20-4f13-8884-fa9e31875466"
+    },
+    {
+      "physical_pad": "R101.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "b4b61c8e-f1da-48c5-b659-62bb34f794b8"
+    },
+    {
+      "physical_pad": "R101.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "b4b61c8e-f1da-48c5-b659-62bb34f794b8"
+    },
+    {
+      "physical_pad": "J109.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/usb_main_port.kicad_sch",
+      "embedded_lib_id": "SmartPen:USB_LINK",
+      "instance_uuid": "f5b2cdf6-27c9-5437-a580-7bd369c7a950"
+    },
+    {
+      "physical_pad": "J109.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/usb_main_port.kicad_sch",
+      "embedded_lib_id": "SmartPen:USB_LINK",
+      "instance_uuid": "f5b2cdf6-27c9-5437-a580-7bd369c7a950"
+    },
+    {
+      "physical_pad": "J109.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/usb_main_port.kicad_sch",
+      "embedded_lib_id": "SmartPen:USB_LINK",
+      "instance_uuid": "f5b2cdf6-27c9-5437-a580-7bd369c7a950"
+    },
+    {
+      "physical_pad": "R210.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "5b134b68-6be0-46be-8289-b34c76b79b86"
+    },
+    {
+      "physical_pad": "R210.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "5b134b68-6be0-46be-8289-b34c76b79b86"
+    },
+    {
+      "physical_pad": "C502.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C2",
+      "instance_uuid": "9528e32e-2f84-5783-9f92-8508eaa1afcd"
+    },
+    {
+      "physical_pad": "C502.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C2",
+      "instance_uuid": "9528e32e-2f84-5783-9f92-8508eaa1afcd"
+    },
+    {
+      "physical_pad": "R113.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "f6d2cbe7-dc29-4e4a-bcfc-729f43619fcf"
+    },
+    {
+      "physical_pad": "R113.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "f6d2cbe7-dc29-4e4a-bcfc-729f43619fcf"
+    },
+    {
+      "physical_pad": "C107.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "473a0b0c-3c9d-475f-b58d-62d8b72ac94c"
+    },
+    {
+      "physical_pad": "C107.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "473a0b0c-3c9d-475f-b58d-62d8b72ac94c"
+    },
+    {
+      "physical_pad": "R204.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "938c2941-c35f-4f65-a1e0-c32d0dd07844"
+    },
+    {
+      "physical_pad": "R204.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "938c2941-c35f-4f65-a1e0-c32d0dd07844"
+    },
+    {
+      "physical_pad": "R106.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "1f57a838-073b-43b5-acb1-268db5a92728"
+    },
+    {
+      "physical_pad": "R106.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "1f57a838-073b-43b5-acb1-268db5a92728"
+    },
+    {
+      "physical_pad": "R235.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f45ab85e-331d-43aa-ae45-1162bbecd182"
+    },
+    {
+      "physical_pad": "R235.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f45ab85e-331d-43aa-ae45-1162bbecd182"
+    },
+    {
+      "physical_pad": "R207.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "ba1664d9-7067-4d0b-8cca-854e64228231"
+    },
+    {
+      "physical_pad": "R207.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "ba1664d9-7067-4d0b-8cca-854e64228231"
+    },
+    {
+      "physical_pad": "R212.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f02f1b15-03c7-4e69-bc2c-ecc0ebefb6d6"
+    },
+    {
+      "physical_pad": "R212.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f02f1b15-03c7-4e69-bc2c-ecc0ebefb6d6"
+    },
+    {
+      "physical_pad": "C105.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "e0b4766c-5e29-4157-9472-dffe98880fa9"
+    },
+    {
+      "physical_pad": "C105.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "e0b4766c-5e29-4157-9472-dffe98880fa9"
+    },
+    {
+      "physical_pad": "C102.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "92b2f3e9-8d6e-46ce-a165-05f37ea4e731"
+    },
+    {
+      "physical_pad": "C102.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:C",
+      "instance_uuid": "92b2f3e9-8d6e-46ce-a165-05f37ea4e731"
+    },
+    {
+      "physical_pad": "R112.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "e3db0d57-2e05-406c-b582-e68d07812b51"
+    },
+    {
+      "physical_pad": "R112.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "e3db0d57-2e05-406c-b582-e68d07812b51"
+    },
+    {
+      "physical_pad": "U204.1",
+      "function": "VCCA",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.2",
+      "function": "SCLA",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.3",
+      "function": "SDAA",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.4",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.5",
+      "function": "EN",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.6",
+      "function": "SDAB",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.7",
+      "function": "SCLB",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "U204.8",
+      "function": "VCCB",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:TCA9517DGKR",
+      "instance_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c"
+    },
+    {
+      "physical_pad": "R228.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7bcdd413-9816-4640-b531-f96dd3247b1d"
+    },
+    {
+      "physical_pad": "R228.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7bcdd413-9816-4640-b531-f96dd3247b1d"
+    },
+    {
+      "physical_pad": "C202.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "d6a8fa28-880c-49e1-bfc4-ca0509303278"
+    },
+    {
+      "physical_pad": "C202.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "d6a8fa28-880c-49e1-bfc4-ca0509303278"
+    },
+    {
+      "physical_pad": "U203.1",
+      "function": "VCCA",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.2",
+      "function": "1DIR",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.3",
+      "function": "2DIR",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.4",
+      "function": "1A1",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.5",
+      "function": "1A2",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.6",
+      "function": "2A1",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.7",
+      "function": "2A2",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.8",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.9",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.10",
+      "function": "2B2",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.11",
+      "function": "2B1",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.12",
+      "function": "1B2",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.13",
+      "function": "1B1",
+      "type": "bidirectional",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.14",
+      "function": "2OE_N",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.15",
+      "function": "1OE_N",
+      "type": "input",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U203.16",
+      "function": "VCCB",
+      "type": "power_in",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce"
+    },
+    {
+      "physical_pad": "U501.1",
+      "function": "SCL",
+      "type": "input",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.2",
+      "function": "CS",
+      "type": "input",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.3",
+      "function": "SA0",
+      "type": "input",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.4",
+      "function": "SDA",
+      "type": "bidirectional",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.5",
+      "function": "NC",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.6",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.7",
+      "function": "RES",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.8",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.9",
+      "function": "VDD",
+      "type": "power_in",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.10",
+      "function": "VDDIO",
+      "type": "power_in",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.11",
+      "function": "INT2",
+      "type": "output",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "U501.12",
+      "function": "INT1",
+      "type": "output",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_U1",
+      "instance_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec"
+    },
+    {
+      "physical_pad": "R103.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "5290d2a0-0de0-42db-b4d5-fec4a12d32fd"
+    },
+    {
+      "physical_pad": "R103.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "5290d2a0-0de0-42db-b4d5-fec4a12d32fd"
+    },
+    {
+      "physical_pad": "R216.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "418d85ce-8a8f-419f-bec7-160c2f176a65"
+    },
+    {
+      "physical_pad": "R216.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "418d85ce-8a8f-419f-bec7-160c2f176a65"
+    },
+    {
+      "physical_pad": "R203.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a94bcd11-5745-4c57-9045-4ac445f8b4be"
+    },
+    {
+      "physical_pad": "R203.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a94bcd11-5745-4c57-9045-4ac445f8b4be"
+    },
+    {
+      "physical_pad": "R234.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "72594cd2-3ebf-43c9-a7be-ae3eeed5abb1"
+    },
+    {
+      "physical_pad": "R234.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "72594cd2-3ebf-43c9-a7be-ae3eeed5abb1"
+    },
+    {
+      "physical_pad": "R211.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "2f43af2f-183d-45cc-8000-f159d1b218aa"
+    },
+    {
+      "physical_pad": "R211.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "2f43af2f-183d-45cc-8000-f159d1b218aa"
+    },
+    {
+      "physical_pad": "R501.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R1",
+      "instance_uuid": "986d3105-eb95-5715-a27b-2aa2c02156ca"
+    },
+    {
+      "physical_pad": "R501.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R1",
+      "instance_uuid": "986d3105-eb95-5715-a27b-2aa2c02156ca"
+    },
+    {
+      "physical_pad": "C501.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C1",
+      "instance_uuid": "d6619e04-33f9-5101-9a65-d89d3d03801b"
+    },
+    {
+      "physical_pad": "C501.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C1",
+      "instance_uuid": "d6619e04-33f9-5101-9a65-d89d3d03801b"
+    },
+    {
+      "physical_pad": "C201.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "ff81359b-4ad7-4070-8116-d5bcdeb44e03"
+    },
+    {
+      "physical_pad": "C201.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "ff81359b-4ad7-4070-8116-d5bcdeb44e03"
+    },
+    {
+      "physical_pad": "R236.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "8567e4b7-8486-4662-8003-d893a743ed1d"
+    },
+    {
+      "physical_pad": "R236.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "8567e4b7-8486-4662-8003-d893a743ed1d"
+    },
+    {
+      "physical_pad": "R242.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7a640888-67d2-49b1-9330-91f6a8f1f20f"
+    },
+    {
+      "physical_pad": "R242.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7a640888-67d2-49b1-9330-91f6a8f1f20f"
+    },
+    {
+      "physical_pad": "C207.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "9670f3d3-7c9b-46c5-861f-d6223866ed50"
+    },
+    {
+      "physical_pad": "C207.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "9670f3d3-7c9b-46c5-861f-d6223866ed50"
+    },
+    {
+      "physical_pad": "R240.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "d15c6272-0dd7-42aa-8d2e-d0161f9fe61a"
+    },
+    {
+      "physical_pad": "R240.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "d15c6272-0dd7-42aa-8d2e-d0161f9fe61a"
+    },
+    {
+      "physical_pad": "C205.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "7ab194fa-c2c1-48dd-b630-5c75d7a53e60"
+    },
+    {
+      "physical_pad": "C205.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "7ab194fa-c2c1-48dd-b630-5c75d7a53e60"
+    },
+    {
+      "physical_pad": "R232.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a5998846-4e5a-41e0-a34e-e258bc2792fc"
+    },
+    {
+      "physical_pad": "R232.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a5998846-4e5a-41e0-a34e-e258bc2792fc"
+    },
+    {
+      "physical_pad": "R107.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "0488b179-587b-4b4f-aaf6-32d1c1c83901"
+    },
+    {
+      "physical_pad": "R107.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "0488b179-587b-4b4f-aaf6-32d1c1c83901"
+    },
+    {
+      "physical_pad": "R108.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "aa947350-beec-4b38-9456-530c745375dd"
+    },
+    {
+      "physical_pad": "R108.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "aa947350-beec-4b38-9456-530c745375dd"
+    },
+    {
+      "physical_pad": "J301.1",
+      "function": "Pin_1",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Connector_Generic_Conn_01x02",
+      "instance_uuid": "4405edd1-24db-479b-9b5b-cc8396d9a194"
+    },
+    {
+      "physical_pad": "J301.2",
+      "function": "Pin_2",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Connector_Generic_Conn_01x02",
+      "instance_uuid": "4405edd1-24db-479b-9b5b-cc8396d9a194"
+    },
+    {
+      "physical_pad": "C206.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "9cf76a99-2dab-44a0-bf4c-3840cb19c082"
+    },
+    {
+      "physical_pad": "C206.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/controls_sccb.kicad_sch",
+      "embedded_lib_id": "ISO:C",
+      "instance_uuid": "9cf76a99-2dab-44a0-bf4c-3840cb19c082"
+    },
+    {
+      "physical_pad": "AE101.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:PORT2",
+      "instance_uuid": "1a596df3-6c5f-48da-919b-7c92d136fad2"
+    },
+    {
+      "physical_pad": "AE101.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:PORT2",
+      "instance_uuid": "1a596df3-6c5f-48da-919b-7c92d136fad2"
+    },
+    {
+      "physical_pad": "U202.1",
+      "function": "VCCA",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.2",
+      "function": "1DIR",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.3",
+      "function": "2DIR",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.4",
+      "function": "1A1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.5",
+      "function": "1A2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.6",
+      "function": "2A1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.7",
+      "function": "2A2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.8",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.9",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.10",
+      "function": "2B2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.11",
+      "function": "2B1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.12",
+      "function": "1B2",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.13",
+      "function": "1B1",
+      "type": "bidirectional",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.14",
+      "function": "2OE_N",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.15",
+      "function": "1OE_N",
+      "type": "input",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "U202.16",
+      "function": "VCCB",
+      "type": "power_in",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:SN74AXC4T245PWR",
+      "instance_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609"
+    },
+    {
+      "physical_pad": "R222.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7f153e56-7db7-42d5-95a5-9e9282d81856"
+    },
+    {
+      "physical_pad": "R222.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "7f153e56-7db7-42d5-95a5-9e9282d81856"
+    },
+    {
+      "physical_pad": "R221.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f491d6d3-9884-4bac-8d17-489c4030533d"
+    },
+    {
+      "physical_pad": "R221.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f491d6d3-9884-4bac-8d17-489c4030533d"
+    },
+    {
+      "physical_pad": "R303.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "e3cb91cd-f201-45a9-8fc9-d9dd952b97f6"
+    },
+    {
+      "physical_pad": "R303.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "e3cb91cd-f201-45a9-8fc9-d9dd952b97f6"
+    },
+    {
+      "physical_pad": "J105.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT2",
+      "instance_uuid": "9c560708-cbf6-4c45-a087-22f0d2e4d172"
+    },
+    {
+      "physical_pad": "J105.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT2",
+      "instance_uuid": "9c560708-cbf6-4c45-a087-22f0d2e4d172"
+    },
+    {
+      "physical_pad": "R105.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "1e1f4ae5-fc0f-4f26-9332-82a361c9119c"
+    },
+    {
+      "physical_pad": "R105.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/mcu_core.kicad_sch",
+      "embedded_lib_id": "MCU:R",
+      "instance_uuid": "1e1f4ae5-fc0f-4f26-9332-82a361c9119c"
+    },
+    {
+      "physical_pad": "J104.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT3",
+      "instance_uuid": "9630d8a3-257f-4138-9bbb-eff8e0aae0df"
+    },
+    {
+      "physical_pad": "J104.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT3",
+      "instance_uuid": "9630d8a3-257f-4138-9bbb-eff8e0aae0df"
+    },
+    {
+      "physical_pad": "J104.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT3",
+      "instance_uuid": "9630d8a3-257f-4138-9bbb-eff8e0aae0df"
+    },
+    {
+      "physical_pad": "C504.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C4",
+      "instance_uuid": "183a43ab-7d52-57f6-9553-7ffb0d9a9c48"
+    },
+    {
+      "physical_pad": "C504.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_C4",
+      "instance_uuid": "183a43ab-7d52-57f6-9553-7ffb0d9a9c48"
+    },
+    {
+      "physical_pad": "R226.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "3f540ed1-89ed-45f3-8cd7-68bf364a7024"
+    },
+    {
+      "physical_pad": "R226.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "3f540ed1-89ed-45f3-8cd7-68bf364a7024"
+    },
+    {
+      "physical_pad": "U301.1",
+      "function": "VIN",
+      "type": "power_in",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "U301.2",
+      "function": "GND",
+      "type": "power_in",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "U301.3",
+      "function": "ON",
+      "type": "input",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "U301.4",
+      "function": "CT",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "U301.5",
+      "function": "QOD",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "U301.6",
+      "function": "VOUT",
+      "type": "power_out",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:TPS22918",
+      "instance_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695"
+    },
+    {
+      "physical_pad": "TP301.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Connector_TestPoint",
+      "instance_uuid": "6199ab03-76ed-4b3f-9f27-4e3e8b94b11f"
+    },
+    {
+      "physical_pad": "R206.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "45bfb54c-92b2-4c17-b680-34a5d1d3dde4"
+    },
+    {
+      "physical_pad": "R206.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/dvp_translation.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "45bfb54c-92b2-4c17-b680-34a5d1d3dde4"
+    },
+    {
+      "physical_pad": "R223.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "99fee32e-00fd-461e-a60a-d1afd7658a04"
+    },
+    {
+      "physical_pad": "R223.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "99fee32e-00fd-461e-a60a-d1afd7658a04"
+    },
+    {
+      "physical_pad": "R218.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0de318e3-cf18-40a7-abec-a6b37660bae1"
+    },
+    {
+      "physical_pad": "R218.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "0de318e3-cf18-40a7-abec-a6b37660bae1"
+    },
+    {
+      "physical_pad": "R227.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a26a501e-3068-498d-90a1-4a2256025636"
+    },
+    {
+      "physical_pad": "R227.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "a26a501e-3068-498d-90a1-4a2256025636"
+    },
+    {
+      "physical_pad": "R504.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R4",
+      "instance_uuid": "3cccb648-3e61-55e8-ae38-d17b1cc529f5"
+    },
+    {
+      "physical_pad": "R504.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R4",
+      "instance_uuid": "3cccb648-3e61-55e8-ae38-d17b1cc529f5"
+    },
+    {
+      "physical_pad": "R219.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f227feb2-c41b-4255-a1f8-67612520772a"
+    },
+    {
+      "physical_pad": "R219.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "f227feb2-c41b-4255-a1f8-67612520772a"
+    },
+    {
+      "physical_pad": "J107.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "1e42d0ce-39f4-437a-9599-810a66b47610"
+    },
+    {
+      "physical_pad": "J107.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "1e42d0ce-39f4-437a-9599-810a66b47610"
+    },
+    {
+      "physical_pad": "J107.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/usb_entry.kicad_sch",
+      "embedded_lib_id": "MCU:PORT3",
+      "instance_uuid": "1e42d0ce-39f4-437a-9599-810a66b47610"
+    },
+    {
+      "physical_pad": "J202.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.3",
+      "function": "3",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.4",
+      "function": "4",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.5",
+      "function": "5",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.6",
+      "function": "6",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.7",
+      "function": "7",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.8",
+      "function": "8",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.9",
+      "function": "9",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.10",
+      "function": "10",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.11",
+      "function": "11",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.12",
+      "function": "12",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.13",
+      "function": "13",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.14",
+      "function": "14",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.15",
+      "function": "15",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.16",
+      "function": "16",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.17",
+      "function": "17",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.18",
+      "function": "18",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.19",
+      "function": "19",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.20",
+      "function": "20",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.21",
+      "function": "21",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.22",
+      "function": "22",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.23",
+      "function": "23",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "J202.24",
+      "function": "24",
+      "type": "passive",
+      "source_file": "schematic/physical_interfaces.kicad_sch",
+      "embedded_lib_id": "SmartPenInterfaces:PORT24",
+      "instance_uuid": "1981219d-8159-4ca1-986f-5b2a46505418"
+    },
+    {
+      "physical_pad": "C301.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "d161e38b-11ab-40ac-8378-16461c87b625"
+    },
+    {
+      "physical_pad": "C301.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "d161e38b-11ab-40ac-8378-16461c87b625"
+    },
+    {
+      "physical_pad": "R503.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R3",
+      "instance_uuid": "28134389-b1ba-5cd0-ac4d-f695bb1cd2b2"
+    },
+    {
+      "physical_pad": "R503.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_R3",
+      "instance_uuid": "28134389-b1ba-5cd0-ac4d-f695bb1cd2b2"
+    },
+    {
+      "physical_pad": "JP301.1",
+      "function": "A",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Jumper_Jumper_2_Open",
+      "instance_uuid": "e2251247-8df5-4ace-9a24-ccbba67524ae"
+    },
+    {
+      "physical_pad": "JP301.2",
+      "function": "B",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Jumper_Jumper_2_Open",
+      "instance_uuid": "e2251247-8df5-4ace-9a24-ccbba67524ae"
+    },
+    {
+      "physical_pad": "R220.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "69161d9c-bea9-447e-9c06-21dfca8aa31b"
+    },
+    {
+      "physical_pad": "R220.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "69161d9c-bea9-447e-9c06-21dfca8aa31b"
+    },
+    {
+      "physical_pad": "C303.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "97596c2b-fb29-40f8-8c18-fb67d17896d3"
+    },
+    {
+      "physical_pad": "C303.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "97596c2b-fb29-40f8-8c18-fb67d17896d3"
+    },
+    {
+      "physical_pad": "C302.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "3a816fc3-062f-4747-8a43-5186ca76d01d"
+    },
+    {
+      "physical_pad": "C302.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_C",
+      "instance_uuid": "3a816fc3-062f-4747-8a43-5186ca76d01d"
+    },
+    {
+      "physical_pad": "R214.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c9d42e0c-8347-4b67-9f96-24b8f0ae1521"
+    },
+    {
+      "physical_pad": "R214.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "c9d42e0c-8347-4b67-9f96-24b8f0ae1521"
+    },
+    {
+      "physical_pad": "R302.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "d73761fa-725f-441a-87fe-8876870eb324"
+    },
+    {
+      "physical_pad": "R302.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "d73761fa-725f-441a-87fe-8876870eb324"
+    },
+    {
+      "physical_pad": "J103.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_J2",
+      "instance_uuid": "7712bac1-b279-5bb5-b088-13f2703bef88"
+    },
+    {
+      "physical_pad": "J103.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/pickup_on_main.kicad_sch",
+      "embedded_lib_id": "Pen:S_J2",
+      "instance_uuid": "7712bac1-b279-5bb5-b088-13f2703bef88"
+    },
+    {
+      "physical_pad": "R301.1",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "2ef0c6d1-5cf9-43ff-8c9f-92543e172b53"
+    },
+    {
+      "physical_pad": "R301.2",
+      "function": "~",
+      "type": "passive",
+      "source_file": "schematic/camera_gate_on_main.kicad_sch",
+      "embedded_lib_id": "PowerSafety:Device_R",
+      "instance_uuid": "2ef0c6d1-5cf9-43ff-8c9f-92543e172b53"
+    },
+    {
+      "physical_pad": "R225.1",
+      "function": "1",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "e47547ac-7dca-4547-8f33-e8ab9b715c32"
+    },
+    {
+      "physical_pad": "R225.2",
+      "function": "2",
+      "type": "passive",
+      "source_file": "schematic/safe_bias_interfaces.kicad_sch",
+      "embedded_lib_id": "ISO:R",
+      "instance_uuid": "e47547ac-7dca-4547-8f33-e8ab9b715c32"
+    }
+  ]
+}

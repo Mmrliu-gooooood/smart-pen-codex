@@ -1,0 +1,591 @@
+{
+  "status": "TWO_J107_POSE_SCREEN_NOFAB",
+  "source_review_manifest_sha256": "2847de9961a14e96b3d9eac20026ee933a935f088547331d78535b398f0e674e",
+  "contexts": [
+    {
+      "context": "RevC",
+      "source_sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "rows": [
+        {
+          "ref": "J107",
+          "pose": [
+            3.2,
+            88
+          ],
+          "translation_mm": 4.031128874149275,
+          "hits": [
+            {
+              "moved": "CTX_J107.3",
+              "other": "CTX_J202_open",
+              "volume_mm3": 6.839999999999998
+            }
+          ],
+          "nearest_non_board": [
+            {
+              "moved": "CTX_J107.3",
+              "other": "CTX_J202_open",
+              "distance_mm": 0.0
+            },
+            {
+              "moved": "CTX_J107.2",
+              "other": "CTX_J202_open",
+              "distance_mm": 0.4999999999999929
+            },
+            {
+              "moved": "CTX_J107.1",
+              "other": "CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.2",
+              "other": "CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.1",
+              "other": "CTX_C503_dd55",
+              "distance_mm": 1.3294359706281458
+            },
+            {
+              "moved": "CTX_J107.1",
+              "other": "CTX_U501",
+              "distance_mm": 1.6400914608643031
+            }
+          ],
+          "moved_bounds": {
+            "CTX_J107.1": [
+              -5.9,
+              0.26479317632850385,
+              40.4,
+              -4.1,
+              2.264793176328504,
+              42.6
+            ],
+            "CTX_J107.2": [
+              -5.9,
+              0.26479317632850385,
+              37.99999999999999,
+              -4.1,
+              2.264793176328504,
+              40.199999999999996
+            ],
+            "CTX_J107.3": [
+              -5.9,
+              0.26479317632850385,
+              35.6,
+              -4.1,
+              2.264793176328504,
+              37.800000000000004
+            ]
+          }
+        },
+        {
+          "ref": "J107",
+          "pose": [
+            5.2,
+            84
+          ],
+          "translation_mm": 2.5,
+          "hits": [],
+          "nearest_non_board": [
+            {
+              "moved": "CTX_J107.1",
+              "other": "CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.2",
+              "other": "CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.2",
+              "other": "CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.3",
+              "other": "CTX_R502",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.3",
+              "other": "CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "CTX_J107.3",
+              "other": "CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            }
+          ],
+          "moved_bounds": {
+            "CTX_J107.1": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              44.4,
+              -2.0999999999999996,
+              2.264793176328504,
+              46.6
+            ],
+            "CTX_J107.2": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              41.99999999999999,
+              -2.0999999999999996,
+              2.264793176328504,
+              44.199999999999996
+            ],
+            "CTX_J107.3": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              39.6,
+              -2.0999999999999996,
+              2.264793176328504,
+              41.800000000000004
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "context": "RevD_BENCH",
+      "source_sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "rows": [
+        {
+          "ref": "J107",
+          "pose": [
+            3.2,
+            88
+          ],
+          "translation_mm": 4.031128874149275,
+          "hits": [
+            {
+              "moved": "REF_CTX_J107_3",
+              "other": "REF_CTX_J202_open",
+              "volume_mm3": 6.839999999999998
+            }
+          ],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107_3",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.0
+            },
+            {
+              "moved": "REF_CTX_J107_2",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.4999999999999929
+            },
+            {
+              "moved": "REF_CTX_J107_1",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_2",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_1",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 1.3294359706281458
+            },
+            {
+              "moved": "REF_CTX_J107_1",
+              "other": "Common_base",
+              "distance_mm": 1.6378339354159186
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107_1": [
+              -5.9,
+              0.26479317632850385,
+              40.4,
+              -4.1,
+              2.264793176328504,
+              42.6
+            ],
+            "REF_CTX_J107_2": [
+              -5.9,
+              0.26479317632850385,
+              37.99999999999999,
+              -4.1,
+              2.264793176328504,
+              40.199999999999996
+            ],
+            "REF_CTX_J107_3": [
+              -5.9,
+              0.26479317632850385,
+              35.6,
+              -4.1,
+              2.264793176328504,
+              37.800000000000004
+            ]
+          }
+        },
+        {
+          "ref": "J107",
+          "pose": [
+            5.2,
+            84
+          ],
+          "translation_mm": 2.5,
+          "hits": [],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107_1",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_2",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_2",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_3",
+              "other": "REF_CTX_R502",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_3",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107_3",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107_1": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              44.4,
+              -2.0999999999999996,
+              2.264793176328504,
+              46.6
+            ],
+            "REF_CTX_J107_2": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              41.99999999999999,
+              -2.0999999999999996,
+              2.264793176328504,
+              44.199999999999996
+            ],
+            "REF_CTX_J107_3": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              39.6,
+              -2.0999999999999996,
+              2.264793176328504,
+              41.800000000000004
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "context": "ACCESS19",
+      "source_sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "rows": [
+        {
+          "ref": "J107",
+          "pose": [
+            3.2,
+            88
+          ],
+          "translation_mm": 4.031128874149275,
+          "hits": [
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_J202_open",
+              "volume_mm3": 6.839999999999998
+            }
+          ],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.0
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.4999999999999929
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 1.3294359706281458
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "COMPLIANT_FRAME_KINEMATIC_NOT_MATERIAL_QUALIFIED",
+              "distance_mm": 1.3825288533924862
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107.1": [
+              -5.9,
+              0.26479317632850385,
+              40.4,
+              -4.1,
+              2.264793176328504,
+              42.6
+            ],
+            "REF_CTX_J107.2": [
+              -5.9,
+              0.26479317632850385,
+              37.99999999999999,
+              -4.1,
+              2.264793176328504,
+              40.199999999999996
+            ],
+            "REF_CTX_J107.3": [
+              -5.9,
+              0.26479317632850385,
+              35.6,
+              -4.1,
+              2.264793176328504,
+              37.800000000000004
+            ]
+          }
+        },
+        {
+          "ref": "J107",
+          "pose": [
+            5.2,
+            84
+          ],
+          "translation_mm": 2.5,
+          "hits": [],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_R502",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107.1": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              44.4,
+              -2.0999999999999996,
+              2.264793176328504,
+              46.6
+            ],
+            "REF_CTX_J107.2": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              41.99999999999999,
+              -2.0999999999999996,
+              2.264793176328504,
+              44.199999999999996
+            ],
+            "REF_CTX_J107.3": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              39.6,
+              -2.0999999999999996,
+              2.264793176328504,
+              41.800000000000004
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "context": "ACCESS20",
+      "source_sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "rows": [
+        {
+          "ref": "J107",
+          "pose": [
+            3.2,
+            88
+          ],
+          "translation_mm": 4.031128874149275,
+          "hits": [
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_J202_open",
+              "volume_mm3": 6.839999999999998
+            }
+          ],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.0
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_J202_open",
+              "distance_mm": 0.4999999999999929
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 1.3294359706281458
+            },
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "COMPLIANT_FRAME_KINEMATIC_NOT_MATERIAL_QUALIFIED",
+              "distance_mm": 1.3825288533924862
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107.1": [
+              -5.9,
+              0.26479317632850385,
+              40.4,
+              -4.1,
+              2.264793176328504,
+              42.6
+            ],
+            "REF_CTX_J107.2": [
+              -5.9,
+              0.26479317632850385,
+              37.99999999999999,
+              -4.1,
+              2.264793176328504,
+              40.199999999999996
+            ],
+            "REF_CTX_J107.3": [
+              -5.9,
+              0.26479317632850385,
+              35.6,
+              -4.1,
+              2.264793176328504,
+              37.800000000000004
+            ]
+          }
+        },
+        {
+          "ref": "J107",
+          "pose": [
+            5.2,
+            84
+          ],
+          "translation_mm": 2.5,
+          "hits": [],
+          "nearest_non_board": [
+            {
+              "moved": "REF_CTX_J107.1",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_U501",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.2",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_R502",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_C503_dd55",
+              "distance_mm": 0.9300000000000002
+            },
+            {
+              "moved": "REF_CTX_J107.3",
+              "other": "REF_CTX_R501_dd55",
+              "distance_mm": 0.9300000000000002
+            }
+          ],
+          "moved_bounds": {
+            "REF_CTX_J107.1": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              44.4,
+              -2.0999999999999996,
+              2.264793176328504,
+              46.6
+            ],
+            "REF_CTX_J107.2": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              41.99999999999999,
+              -2.0999999999999996,
+              2.264793176328504,
+              44.199999999999996
+            ],
+            "REF_CTX_J107.3": [
+              -3.9000000000000004,
+              0.26479317632850385,
+              39.6,
+              -2.0999999999999996,
+              2.264793176328504,
+              41.800000000000004
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "exact retained envelopes, only two refs individually varied; combine selected disjoint groups and recheck before acceptance"
+}

@@ -1,0 +1,565 @@
+{
+  "status": "REJECTED_PLAN_ONLY_NOT_NATIVE",
+  "source_sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c",
+  "old_copper_count": 789,
+  "footprints": [
+    {
+      "ref": "C503",
+      "value": "10uF 10V X7R +/-10%",
+      "position": [
+        5.3,
+        84.5
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "position": [
+            4.35,
+            84.5
+          ],
+          "size": [
+            1.0,
+            1.45
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position": [
+            6.25,
+            84.5
+          ],
+          "size": [
+            1.0,
+            1.45
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "C502",
+      "value": "100nF 16V X7R +/-10%",
+      "position": [
+        6.2,
+        82.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "position": [
+            5.72,
+            82.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position": [
+            6.68,
+            82.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "position": [
+        4.0,
+        82.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "AON_I2C_SCL",
+          "position": [
+            3.2375,
+            81.25
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3_AON",
+          "position": [
+            3.2375,
+            81.75
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "3",
+          "net": "3V3_AON",
+          "position": [
+            3.2375,
+            82.25
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "4",
+          "net": "AON_I2C_SDA",
+          "position": [
+            3.2375,
+            82.75
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "5",
+          "net": "GND",
+          "position": [
+            3.75,
+            82.7625
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "6",
+          "net": "GND",
+          "position": [
+            4.25,
+            82.7625
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "7",
+          "net": "GND",
+          "position": [
+            4.7625,
+            82.75
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "8",
+          "net": "GND",
+          "position": [
+            4.7625,
+            82.25
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "9",
+          "net": "3V3_AON",
+          "position": [
+            4.7625,
+            81.75
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "10",
+          "net": "3V3_AON",
+          "position": [
+            4.7625,
+            81.25
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "11",
+          "net": "unconnected-(U501-INT2-Pad11)",
+          "position": [
+            4.25,
+            81.2375
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "12",
+          "net": "PICKUP_INT_N",
+          "position": [
+            3.75,
+            81.2375
+          ],
+          "size": [
+            0.375,
+            0.35
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "C501",
+      "value": "100nF 16V X7R +/-10%",
+      "position": [
+        6.2,
+        80.7
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "position": [
+            5.72,
+            80.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position": [
+            6.68,
+            80.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ],
+          "layers": [
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "J107",
+      "value": "CHARGER_MODE",
+      "position": [
+        3.2,
+        84.0
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "USB_EN1",
+          "position": [
+            2.0,
+            81.5
+          ],
+          "size": [
+            1.5,
+            2.0
+          ],
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "USB_EN2",
+          "position": [
+            2.0,
+            83.9
+          ],
+          "size": [
+            1.5,
+            2.0
+          ],
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "number": "3",
+          "net": "GND",
+          "position": [
+            2.0,
+            86.3
+          ],
+          "size": [
+            1.5,
+            2.0
+          ],
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R503",
+      "value": "47k 1%",
+      "position": [
+        2.5,
+        11.5
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "position": [
+            1.675,
+            11.5
+          ],
+          "size": [
+            0.8,
+            0.95
+          ],
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "number": "2",
+          "net": "NIB_CONTACT_N",
+          "position": [
+            3.325,
+            11.5
+          ],
+          "size": [
+            0.8,
+            0.95
+          ],
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "net": "3V3_AON",
+      "position": [
+        2.65,
+        79.9
+      ],
+      "errors": []
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.45,
+        83.4
+      ],
+      "errors": [
+        [
+          "copper",
+          "GND",
+          "SENS_EXTCLK",
+          "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "3V3_AON",
+          "C503.1",
+          "F.Cu"
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        7.3,
+        81.3
+      ],
+      "errors": [
+        [
+          "copper",
+          "GND",
+          "SENS_D7",
+          "106b739a-c755-518c-9507-8fc3f75c01fe",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "SENS_D7",
+          "8a917c42-50ea-5732-a54f-5272c1dbd926",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "SENS_D6",
+          "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+          "F.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "CAM_3V3_SW",
+          "e904715d-0171-57fd-9c9f-eb4616eb8cb1",
+          "In2.Cu"
+        ]
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        5.72,
+        79.7
+      ],
+      "errors": [
+        [
+          "copper",
+          "3V3_AON",
+          "SENS_HREF",
+          "72418199-6f7c-5f51-af8c-08daa359c618",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "3V3_AON",
+          "SENS_VSYNC",
+          "2db58bad-270e-529c-9804-b4c332bb0bc0",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "3V3_AON",
+          "SENS_VSYNC",
+          "fa402946-35dd-50ad-a05c-a87bd998aeeb",
+          "B.Cu"
+        ]
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        4.35,
+        85.8
+      ],
+      "errors": [
+        [
+          "copper",
+          "3V3_AON",
+          "SENS_EXTCLK",
+          "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+          "B.Cu"
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        7.2,
+        84.5
+      ],
+      "errors": [
+        [
+          "copper",
+          "GND",
+          "SENS_D7",
+          "4e37ffa3-aba7-52ef-9252-83e919096365",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "SENS_D7",
+          "8446369d-100a-534e-ae4e-2fdb25084570",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "SENS_D7",
+          "8a917c42-50ea-5732-a54f-5272c1dbd926",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "CAM_3V3_SW",
+          "c64f39cd-c82b-5d59-99f8-9f124ba71f81",
+          "In2.Cu"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "source_sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c",
+  "rules": {
+    "max_error": 0.005,
+    "min_clearance": 0.0,
+    "min_connection": 0.0,
+    "min_copper_edge_clearance": 0.25,
+    "min_groove_width": 0.0,
+    "min_hole_clearance": 0.25,
+    "min_hole_to_hole": 0.25,
+    "min_microvia_diameter": 0.2,
+    "min_microvia_drill": 0.1,
+    "min_resolved_spokes": 2,
+    "min_silk_clearance": 0.0,
+    "min_text_height": 0.8,
+    "min_text_thickness": 0.08,
+    "min_through_hole_diameter": 0.2,
+    "min_track_width": 0.0,
+    "min_via_annular_width": 0.1,
+    "min_via_diameter": 0.45,
+    "solder_mask_to_copper_clearance": 0.0,
+    "use_height_for_length_calcs": true
+  },
+  "existing_vias": [
+    {
+      "diameter": 0.45,
+      "drill": 0.2,
+      "count": 17
+    },
+    {
+      "diameter": 0.6,
+      "drill": 0.3,
+      "count": 89
+    }
+  ],
+  "positions": [
+    {
+      "net": "3V3_AON",
+      "position": [
+        2.2,
+        82
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "USB_EN1",
+              "J107.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.1",
+              "USB_EN1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "USB_EN1",
+              "J107.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.1",
+              "USB_EN1",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        2.2,
+        80.4
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "USB_EN1",
+              "J107.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.1",
+              "USB_EN1",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "USB_EN1",
+              "J107.1",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.1",
+              "USB_EN1",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        5.2,
+        83.3
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        3,
+        83.4
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "USB_EN2",
+              "J107.2",
+              "B.Cu"
+            ],
+            [
+              "via_pad",
+              "J107.2",
+              "USB_EN2",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "USB_EN2",
+              "J107.2",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        5.55,
+        83.3
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        3.4,
+        83.4
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_VIO_1V8",
+              "154a30ea-c649-5f1a-8780-50b41706f342",
+              "In3.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        2.65,
+        79.9
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": []
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        4.45,
+        83.4
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "3V3_AON",
+              "C503.1",
+              "F.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_EXTCLK",
+              "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        7.3,
+        81.3
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "106b739a-c755-518c-9507-8fc3f75c01fe",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "8a917c42-50ea-5732-a54f-5272c1dbd926",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D6",
+              "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+              "F.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_3V3_SW",
+              "e904715d-0171-57fd-9c9f-eb4616eb8cb1",
+              "In2.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "106b739a-c755-518c-9507-8fc3f75c01fe",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "8a917c42-50ea-5732-a54f-5272c1dbd926",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_3V3_SW",
+              "e904715d-0171-57fd-9c9f-eb4616eb8cb1",
+              "In2.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        5.72,
+        79.7
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_HREF",
+              "72418199-6f7c-5f51-af8c-08daa359c618",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_VSYNC",
+              "fa402946-35dd-50ad-a05c-a87bd998aeeb",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_VSYNC",
+              "2db58bad-270e-529c-9804-b4c332bb0bc0",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_VSYNC",
+              "fa402946-35dd-50ad-a05c-a87bd998aeeb",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "position": [
+        4.35,
+        85.8
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_EXTCLK",
+              "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+              "B.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "3V3_AON",
+              "SENS_EXTCLK",
+              "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "position": [
+        7.2,
+        84.5
+      ],
+      "variants": [
+        {
+          "diameter": 0.6,
+          "drill": 0.3,
+          "annulus": 0.15,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "4e37ffa3-aba7-52ef-9252-83e919096365",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "8446369d-100a-534e-ae4e-2fdb25084570",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "8a917c42-50ea-5732-a54f-5272c1dbd926",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_3V3_SW",
+              "c64f39cd-c82b-5d59-99f8-9f124ba71f81",
+              "In2.Cu"
+            ]
+          ]
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2,
+          "annulus": 0.125,
+          "errors": [
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "4e37ffa3-aba7-52ef-9252-83e919096365",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "SENS_D7",
+              "8446369d-100a-534e-ae4e-2fdb25084570",
+              "B.Cu"
+            ],
+            [
+              "copper",
+              "GND",
+              "CAM_3V3_SW",
+              "c64f39cd-c82b-5d59-99f8-9f124ba71f81",
+              "In2.Cu"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "attempts": [
+    {
+      "tag": "VDDIO_C501",
+      "errors": []
+    },
+    {
+      "tag": "VDD_C502",
+      "errors": []
+    },
+    {
+      "tag": "CS_SA0",
+      "errors": []
+    },
+    {
+      "tag": "CS_SA0_core",
+      "errors": []
+    },
+    {
+      "tag": "GND8",
+      "errors": []
+    },
+    {
+      "tag": "GND7",
+      "errors": []
+    },
+    {
+      "tag": "GND5",
+      "errors": []
+    },
+    {
+      "tag": "GND6",
+      "errors": []
+    },
+    {
+      "tag": "CS_AONvia",
+      "errors": [
+        [
+          "copper",
+          "3V3_AON",
+          "USB_EN1",
+          "J107.1",
+          "B.Cu"
+        ],
+        [
+          "via_pad",
+          "J107.1",
+          "USB_EN1",
+          "B.Cu"
+        ]
+      ]
+    },
+    {
+      "tag": "rightGNDvia",
+      "errors": [
+        [
+          "copper",
+          "GND",
+          "SENS_HREF",
+          "72418199-6f7c-5f51-af8c-08daa359c618",
+          "B.Cu"
+        ],
+        [
+          "copper",
+          "GND",
+          "SENS_VSYNC",
+          "2db58bad-270e-529c-9804-b4c332bb0bc0",
+          "B.Cu"
+        ]
+      ]
+    },
+    {
+      "tag": "bottomGNDvia",
+      "errors": [
+        [
+          "copper",
+          "GND",
+          "SENS_VIO_1V8",
+          "154a30ea-c649-5f1a-8780-50b41706f342",
+          "In3.Cu"
+        ]
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "tag": "VDDIO_C501",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        4.7625,
+        81.25
+      ],
+      "end": [
+        5.2,
+        81.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "VDDIO_C501",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        5.2,
+        81.25
+      ],
+      "end": [
+        5.72,
+        80.7
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "VDD_C502",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        4.7625,
+        81.75
+      ],
+      "end": [
+        5.2,
+        81.75
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "VDD_C502",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        5.2,
+        81.75
+      ],
+      "end": [
+        5.72,
+        82.0
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "CS_SA0",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        3.2375,
+        81.75
+      ],
+      "end": [
+        2.65,
+        81.75
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "CS_SA0",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.65,
+        81.75
+      ],
+      "end": [
+        2.65,
+        82.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "CS_SA0",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.65,
+        82.25
+      ],
+      "end": [
+        3.2375,
+        82.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "CS_SA0_core",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.65,
+        82.0
+      ],
+      "end": [
+        2.65,
+        80.4
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "CS_SA0_core",
+      "type": "track",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "start": [
+        2.65,
+        80.4
+      ],
+      "end": [
+        2.2,
+        80.4
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND8",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        4.7625,
+        82.25
+      ],
+      "end": [
+        5.1,
+        82.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND8",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        5.1,
+        82.25
+      ],
+      "end": [
+        5.1,
+        82.95
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND8",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        5.1,
+        82.95
+      ],
+      "end": [
+        5.55,
+        83.3
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND7",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        4.7625,
+        82.75
+      ],
+      "end": [
+        5.1,
+        82.75
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND5",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        3.75,
+        82.7625
+      ],
+      "end": [
+        3.75,
+        83.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND5",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        3.75,
+        83.25
+      ],
+      "end": [
+        3.4,
+        83.4
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND6",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        4.25,
+        82.7625
+      ],
+      "end": [
+        4.25,
+        83.25
+      ],
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "tag": "GND6",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start": [
+        4.25,
+        83.25
+      ],
+      "end": [
+        3.75,
+        83.25
+      ],
+      "width": 0.25,
+      "drill": null
+    }
+  ]
+}

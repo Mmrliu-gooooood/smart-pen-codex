@@ -1,0 +1,2285 @@
+{
+  "NOFAB": true,
+  "staging_only": true,
+  "packs": [
+    {
+      "dir": "smart_pen_next_20261028/hardware/imu_power_return_candidate_0333",
+      "manifest": "smart_pen_next_20261028/hardware/imu_power_return_candidate_0333/MANIFEST.sha256",
+      "sha256": "25fb2d3019852e5050ff7897a3c4acec984f423f9bbf4045c8e737c1f3714122",
+      "listed": 10
+    },
+    {
+      "dir": "smart_pen_next_20261028/hardware/imu_small_via_comparison_0341",
+      "manifest": "smart_pen_next_20261028/hardware/imu_small_via_comparison_0341/MANIFEST.sha256",
+      "sha256": "6b256ee2b4ab6bbfd75f8f7ea4a7d3d6c0fe28e5eabe8bed97faab3a5c506933",
+      "listed": 4
+    },
+    {
+      "dir": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345",
+      "manifest": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/manifest.json",
+      "sha256": "44db3611ac9ad6853ad2d496ea26042fb84ca2dabfe19b015dc40063eda67013",
+      "listed": 12
+    },
+    {
+      "dir": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357",
+      "manifest": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/manifest.json",
+      "sha256": "53fdac310f1b3ed4b8279e8ba04f402d99f13e60aabcd661fdf24897ba2e18e8",
+      "listed": 20
+    },
+    {
+      "dir": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405",
+      "manifest": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/manifest.json",
+      "sha256": "ca5ec099df919088b81b3a3d0c2d7f9da981e07728cb4626162355aa5da83ab4",
+      "listed": 380
+    },
+    {
+      "dir": "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416",
+      "manifest": "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/review_manifest.json",
+      "sha256": "5429ee39b2a668fae2a8078dedaaeb1c3e912e83ff455574706c8dd228be20cd",
+      "listed": 72
+    },
+    {
+      "dir": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416",
+      "manifest": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/manifest.json",
+      "sha256": "8891416945714b9bfeca9727d053e509826973e9d113457e6a803bbf5bd13689",
+      "listed": 8
+    }
+  ],
+  "dependencies": [
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_power_return_candidate_0333/geometry.py",
+      "sha256": "8b3ad2e61a0156ce99f7ace0d8ea18ff369e2fe08f0e4fc709d1492e8d8e6617"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/dependencies.json",
+      "original_path": "smart_pen_mechanics_dvp_joint_audit_20261029_1950/screen_results_normal.json",
+      "sha256": "3459959556573cb75498a9c8227785c1396d9cbd53577b5c073c8d6be6b8e152"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_power_return_candidate_0333/geometry.py",
+      "sha256": "8b3ad2e61a0156ce99f7ace0d8ea18ff369e2fe08f0e4fc709d1492e8d8e6617"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/manifest.json",
+      "sha256": "44db3611ac9ad6853ad2d496ea26042fb84ca2dabfe19b015dc40063eda67013"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/explore.py",
+      "sha256": "06133caf6f55d005d6550fec920a4aca3c08c2cd2b8fbfd04568c80ea9339ed8"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/mechanical_screen.json",
+      "sha256": "9fe86a35cd3ec89222a69c506c8695dde9410864f18ecec4513044d0c7d4ec8f"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/manifest.json",
+      "sha256": "53fdac310f1b3ed4b8279e8ba04f402d99f13e60aabcd661fdf24897ba2e18e8"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_j107_clock_joint_0357/normal.json",
+      "sha256": "e719eb5e4edc811e54330ddd8e6269447b4f4bd1baf10515ac729360fecd50f2"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/manifest.json",
+      "sha256": "44db3611ac9ad6853ad2d496ea26042fb84ca2dabfe19b015dc40063eda67013"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/mechanical_screen.json",
+      "sha256": "9fe86a35cd3ec89222a69c506c8695dde9410864f18ecec4513044d0c7d4ec8f"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/materialize.py",
+      "sha256": "5fa78b24ab1ed4fd43f545df8a0c5d026b0c55e0fe1781e20b641c2d69eb53cc"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_power_return_candidate_0333/geometry.py",
+      "sha256": "8b3ad2e61a0156ce99f7ace0d8ea18ff369e2fe08f0e4fc709d1492e8d8e6617"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/complete_net_restore_independent_review_2020/restoration.json",
+      "sha256": "7eb6723202a331711a8aceff46f53e931e379c0092ccd647077cacf1d25d8d21"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/dependencies.json",
+      "original_path": "smart_pen_next_20261028/docs/electronics/dvp_topology_handoff_1852/topology.json",
+      "sha256": "0730f4f94eea83f93f5e48e265aa2f9a3fc6995852ce2b26f2af314390539e2e"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/manifest.json",
+      "sha256": "ca5ec099df919088b81b3a3d0c2d7f9da981e07728cb4626162355aa5da83ab4"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/mainboard_revD.kicad_pcb",
+      "sha256": "d6c91327a9335a0039c10cd34943664095ca476524b7b5bced8afa4dc0219c22"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/netlist.xml",
+      "sha256": "3baaea7ebcfa96b891d6e1b23063684d163a31afce6782ecf5a590664cab00d6"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/drc.json",
+      "sha256": "8cbbe185743c7f4f0857337e6e95abff83b7d448fcf3ae5c595f316e00cc8125"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/rollback_format_audit.json",
+      "sha256": "b40630ef128f53f52a905615e1f3f6ed12473dfa35d64f5b8b5438777914e10b"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/mainboard_revD.kicad_sch",
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/physical_interfaces.kicad_sch",
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/pickup_on_main.kicad_sch",
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/usb_entry.kicad_sch",
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/recovery_fixture.kicad_sch",
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/mcu_core.kicad_sch",
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/mainboard_revD.kicad_sch",
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/usb_main_port.kicad_sch",
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/safe_bias_interfaces.kicad_sch",
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/dvp_translation.kicad_sch",
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/controls_sccb.kicad_sch",
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e"
+    },
+    {
+      "declared_by": "smart_pen_next_20261028/docs/electronics/post_imu_recovery_index_0416/dependencies.json",
+      "original_path": "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native/schematic/camera_gate_on_main.kicad_sch",
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+    }
+  ],
+  "selected_nonfinal_comparison_dependencies": [],
+  "exclusions": [
+    "Unlisted files from gnd_fixed_branch_candidate_2159 and power_backbone_plan_2022",
+    "Executable build outputs and any unlisted moving trials",
+    "Private vendor originals"
+  ],
+  "prior_reused": [
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pcb",
+      "bytes": 774447,
+      "sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c",
+      "git_blob_sha1": "1090725f24cafe336ff1ce5048b19684c25805fb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "repo_path": "verification/translator_recovery_stage_20261030/smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "local_source": "verified_revisions_r17/verification/translator_recovery_stage_20261030/smart_pen_next_20261028/hardware/translator_domain_candidate_0130/finite_copper.py",
+      "bytes": 1793,
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee",
+      "git_blob_sha1": "4015c281db2975dc65e804d98c703ba8b80d94db",
+      "batch": "verified_revisions_r17"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "repo_path": "verification/translator_recovery_stage_20261030/smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "local_source": "verified_revisions_r17/verification/translator_recovery_stage_20261030/smart_pen_next_20261028/hardware/translator_domain_candidate_0130/native_polygon.py",
+      "bytes": 872,
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "git_blob_sha1": "8eb9e3619e3b6769e412cd1a9f36403726487e67",
+      "batch": "verified_revisions_r17"
+    },
+    {
+      "original_path": "smart_pen_mechanics_dvp_joint_audit_20261029_1950/screen_results_normal.json",
+      "repo_path": "verification/dvp_recovery_stage_20261029/smart_pen_mechanics_dvp_joint_audit_20261029_1950/screen_results_normal.json",
+      "local_source": "verified_revisions_r14/verification/dvp_recovery_stage_20261029/smart_pen_mechanics_dvp_joint_audit_20261029_1950/screen_results_normal.json",
+      "bytes": 134983,
+      "sha256": "3459959556573cb75498a9c8227785c1396d9cbd53577b5c073c8d6be6b8e152",
+      "git_blob_sha1": "0f4f572b5ccfdc7bdf1163ad1980f8de676d37bf",
+      "batch": "verified_revisions_r14"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/materialize.py",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/materialize.py",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/materialize.py",
+      "bytes": 2438,
+      "sha256": "5fa78b24ab1ed4fd43f545df8a0c5d026b0c55e0fe1781e20b641c2d69eb53cc",
+      "git_blob_sha1": "942a77a292ec0dd925d1ef808e582baa2bfacadc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/dvp_topology_handoff_1852/topology.json",
+      "repo_path": "verification/dvp_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/dvp_topology_handoff_1852/topology.json",
+      "local_source": "verified_revisions_r14/verification/dvp_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/dvp_topology_handoff_1852/topology.json",
+      "bytes": 19081,
+      "sha256": "0730f4f94eea83f93f5e48e265aa2f9a3fc6995852ce2b26f2af314390539e2e",
+      "git_blob_sha1": "99458f41069cab5d4577ac5c98f91139705c697d",
+      "batch": "verified_revisions_r14"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/README.md",
+      "bytes": 5954,
+      "sha256": "ee4dada6135c2774f56027161e262374ff1c4e97921ad088f0dc56c4184b926d",
+      "git_blob_sha1": "e789f1ddbeb9a016733daffb92c5bd3633b15db6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/affected_files.json",
+      "bytes": 5029,
+      "sha256": "9d94973de44ec5598e5e47ec1b03027b30644eb76453995c09c26bc6e82e03b6",
+      "git_blob_sha1": "ac12f567b56e51952916b509e98d8238e70e079d",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.log",
+      "bytes": 2394,
+      "sha256": "8b4e8ef33ac84975677c8a5753a9b05b1be5de3a95e758191a6b60f127f54276",
+      "git_blob_sha1": "b33c888fcbc150934c88043f9f27618d3c17d04f",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check.py",
+      "bytes": 2185,
+      "sha256": "13d50f00368af7c49de955022cd246817f9a2ac94844d69302058874465d6ac1",
+      "git_blob_sha1": "2dd4f28def9ff8768dc7bce2c1d7067944b6cb6a",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/check_optimized.log",
+      "bytes": 2394,
+      "sha256": "ad69527fe092435df1939c21791de190f668450af4623fa28515b0904f8e1116",
+      "git_blob_sha1": "940da9264cb5676db8a9d264c588bbd1963d58fe",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/dependencies.json",
+      "bytes": 892,
+      "sha256": "782acd5fd2dabe734db94d960643c889249c992bc0d314d46ff1d99e3c47faf9",
+      "git_blob_sha1": "4a2cfa299062b05b7a313d2d60bf82f89e635db5",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.log",
+      "bytes": 1596,
+      "sha256": "aad91c6073da235635ad80f4ac7f79a11f2a24631687e8ed40f5b8769bafe922",
+      "git_blob_sha1": "09cdbaa9dba16e2babfa3b226f910085983400ee",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/draw.py",
+      "bytes": 2511,
+      "sha256": "96afdec8cd1549ffaedbc2932a751898c44e13646c1be38ca28a692bb80e4416",
+      "git_blob_sha1": "382ebdc8e1afa3bb217a2c87c4cfc662e3517442",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/native_polygon.py",
+      "bytes": 872,
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "git_blob_sha1": "8eb9e3619e3b6769e412cd1a9f36403726487e67",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/normalized_comparison.png",
+      "bytes": 128083,
+      "sha256": "54755e36477e3bd798d362ba7f74c8ef1b27ee03a8770f3257cfe7ecab794e14",
+      "git_blob_sha1": "9d2b840c0112d5e4a2b03d68ebd23fca09e2cec9",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result.json",
+      "bytes": 14748,
+      "sha256": "38df842205e1fdacec0bb01d70ca9f0bdac4ffbc657e5494fda2f7ba6ebfa426",
+      "git_blob_sha1": "72ec80c1c2ee479488fc00a96309ae4dc395c64e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/result_optimized.json",
+      "bytes": 14748,
+      "sha256": "38df842205e1fdacec0bb01d70ca9f0bdac4ffbc657e5494fda2f7ba6ebfa426",
+      "git_blob_sha1": "72ec80c1c2ee479488fc00a96309ae4dc395c64e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/validate_voids.py",
+      "bytes": 3267,
+      "sha256": "ad94854348db1e87035e564293fe673b6c0df1f940510f7b82dbd89fcdc5ae82",
+      "git_blob_sha1": "c8dbe9309089bacab1fd4bb9112869a331c01b6f",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.json",
+      "bytes": 307950,
+      "sha256": "6a12e75bf00a98e2b647936d2c2fef6dbc5ad7ff25c3b74308b086846914356d",
+      "git_blob_sha1": "aacb48e514783cab906b5d3aa88011765c1e9fa6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids.log",
+      "bytes": 2394,
+      "sha256": "fbb486a27bf531ca8d010b501222af871c39c37b2d2ec72ed41371629f6b81d9",
+      "git_blob_sha1": "5b8611a209f773ce89a9afa59f0ccd39512607f0",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.json",
+      "bytes": 307950,
+      "sha256": "6a12e75bf00a98e2b647936d2c2fef6dbc5ad7ff25c3b74308b086846914356d",
+      "git_blob_sha1": "aacb48e514783cab906b5d3aa88011765c1e9fa6",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/voids_optimized.log",
+      "bytes": 2394,
+      "sha256": "e4e8da1abefec53b1025ebc9f9b564fc1e677ec98227c7fa89c57f6719ed2dd6",
+      "git_blob_sha1": "21e6e95428cc40641c3e3b56541b18c88776f434",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "repo_path": "verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "local_source": "verified_revisions_r15/verification/power_recovery_stage_20261029/smart_pen_next_20261028/docs/electronics/filled_polygon_erosion_erratum_v2_2327/manifest.json",
+      "bytes": 2623,
+      "sha256": "9def5b5758a1383e0276a3cb7256d4c23c3bf931791946ba8ae50e4681d087d1",
+      "git_blob_sha1": "29b18bafc5384d40880795229c5118c93b1b181e",
+      "batch": "verified_revisions_r15"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/BOM.csv",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/BOM.csv",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/BOM.csv",
+      "bytes": 6903,
+      "sha256": "c72be6e4b432ad04d6e45ee224142a3503bbfe6e556b1b2f941ddf43492e90b1",
+      "git_blob_sha1": "e13d8e3d2c6b4e8c674ebbd783faabe9f89fd92e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/README.md",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/README.md",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/README.md",
+      "bytes": 6425,
+      "sha256": "20115850863b4113e16a7c08fc6afdcaad23b59c7ba6efc4705249a5cc837cce",
+      "git_blob_sha1": "27acc8443f0d6d722bc1f67095f60a573f029a13",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.csv",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.csv",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.csv",
+      "bytes": 6889,
+      "sha256": "347cc97269e0b11bec6df9f0b651407e6a867df9c63f0d561f5ef9a5c31376b7",
+      "git_blob_sha1": "83bb99b58a2a398224af85ce9af31db3a08098d8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/bom.log",
+      "bytes": 145,
+      "sha256": "f7e5773f13994a49e1af7669188e2368d02e8f30f6b66299770b01e9a1c45bc4",
+      "git_blob_sha1": "df18f6ef47d814d337f9f6107a83cc38880111da",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.json",
+      "bytes": 106179,
+      "sha256": "ac74531668256393b2f004387be44c9879c1948e44e39ff5142619fb857c59bd",
+      "git_blob_sha1": "13de4ce8145cad3cd69c1db7457707c3b7fad469",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/drc.log",
+      "bytes": 215,
+      "sha256": "0836ad29e81f567ffd8b9d252192142293dbb4badeb2f9b58595410b5728d4e6",
+      "git_blob_sha1": "ba0cadd2631a330ec0609f962e1c79019cd41bcb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.json",
+      "bytes": 2752,
+      "sha256": "31826b336502fcb1a77c2340481a16a9e01269557fb00019052512ecfc997166",
+      "git_blob_sha1": "253c5deb457d0ad264babe0ce22ab1d454c9c7f0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/erc.log",
+      "bytes": 1021,
+      "sha256": "769e6d5b9a8fe7a919328dad5782801b283fac6909b12042bfd96900762b37e1",
+      "git_blob_sha1": "87509f033fb6c71fa896a0ec6534a2da1c00c9b4",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.xml",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.xml",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/base/netlist.xml",
+      "bytes": 133323,
+      "sha256": "105a420ddba666f2802b7fb46ab52ed75b92b2e397f97d65e8c9dc9a192410c0",
+      "git_blob_sha1": "8118b3c30bec7e17dce933b8a125cf912cc58f23",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.csv",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.csv",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.csv",
+      "bytes": 6903,
+      "sha256": "c72be6e4b432ad04d6e45ee224142a3503bbfe6e556b1b2f941ddf43492e90b1",
+      "git_blob_sha1": "e13d8e3d2c6b4e8c674ebbd783faabe9f89fd92e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/bom.log",
+      "bytes": 150,
+      "sha256": "767506b66ad574326b1c4bdd656638f3598cb1513754cf7a5749ce72782f8ec5",
+      "git_blob_sha1": "b9af71b59b51322b85ef1af106fa8b8b4498ae89",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.json",
+      "bytes": 106175,
+      "sha256": "91d925de0e2fe3bb738a6a5cf9939f7b39b610cb9e0dc363743cdd8defb8e55b",
+      "git_blob_sha1": "4a35db743b2e7ab9229f1d47713048128a1e6aca",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/drc.log",
+      "bytes": 220,
+      "sha256": "c3ae08c8417df058fa94e25e8a18260271c1f1a06c21ad4fba4fd0feaf934da2",
+      "git_blob_sha1": "b68500c3c4d6c1d6c1e3e67c84157559b96c83da",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.json",
+      "bytes": 2752,
+      "sha256": "c6f99483044871c35e4a68f3f918259614b57cfb123eb5290162697063e7e624",
+      "git_blob_sha1": "0c480f91031a69d55386d78499899cd06ecf6fda",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/erc.log",
+      "bytes": 632,
+      "sha256": "b3ff1f3891371d8a7fe1aba82338b96fcaef4fdb550aa257a274b826f1aa0dd5",
+      "git_blob_sha1": "aefc910b7cc07152d32086581a538b6c14581a03",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.xml",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.xml",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/candidate/netlist.xml",
+      "bytes": 133404,
+      "sha256": "64efcfe728e251feb4ef71657bf9c632afbc5d1c60f709932f81133eb35d375a",
+      "git_blob_sha1": "3697f5c4bf37cd15a558ed33ef3a6161ec6713ef",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.json",
+      "bytes": 106687,
+      "sha256": "0242e5c7a2f28379b743d5f587254ca80dc6589cd065bd9ba6a3f914758f2553",
+      "git_blob_sha1": "7a15436f24075d557623702e652050b8f51e43b0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/checks/negative_pcb_value_only_100k/drc.log",
+      "bytes": 4507,
+      "sha256": "a68019db4dbeb180ee46cc9399e257e90b144ae3221f82c41ac3a44662801e7d",
+      "git_blob_sha1": "ff54cb37af821bf0946def509126e4b3b2274606",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/cli_results.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/cli_results.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/cli_results.json",
+      "bytes": 4189,
+      "sha256": "df041472d7b59dc8a938f65c1bbd49f8d46b76f63b402d7c272192b5a29e8fca",
+      "git_blob_sha1": "1bc88ba199e5f3c07fbcb663f62e4cd8e191e093",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/dependencies.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/dependencies.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/dependencies.json",
+      "bytes": 371,
+      "sha256": "70ed36d4ba164f1b340e68324072d622c947e160bd40ade0566643f40da8dfba",
+      "git_blob_sha1": "43e5f66539e8b62c87edd2c8fd3efa64ab031c10",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/drc_unconnected_raw_difference.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/drc_unconnected_raw_difference.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/drc_unconnected_raw_difference.json",
+      "bytes": 9647,
+      "sha256": "38add53dcac12646988da763e7bfe226992fee71ac18a019835e0426478cc3b8",
+      "git_blob_sha1": "108135b86a8f9f59711144aaf27e4fdd53110b54",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/freeze.py",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/freeze.py",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/freeze.py",
+      "bytes": 1122,
+      "sha256": "0059ce37ececbd8c9c65cd74a9f575c3b82c47ae6b4684c6540a3d8899b569a4",
+      "git_blob_sha1": "34f3c95625e3d8b02236efcb5ad069aaf7f3ff6e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262",
+      "git_blob_sha1": "04235447ec7be105e3df8650ff319c40c1be7f0c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584",
+      "git_blob_sha1": "db4e1dd66f314434919fc6bb060955dc12bc791b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977",
+      "git_blob_sha1": "caa70ceaff20296ffd1264ac78004a49ee358b8e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739",
+      "git_blob_sha1": "c121bb81e62c664ec753abd2162c048bf1843d33",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19",
+      "git_blob_sha1": "60eded4770fcfcfbf4e28e81d57f408d7bc7ce17",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5",
+      "git_blob_sha1": "657f21259661df49a8df57806c4395e74c3d6da2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5",
+      "git_blob_sha1": "e9c59f9e61837de8f66da3ebfe68e007a286f6cb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca",
+      "git_blob_sha1": "bbe1485719cd4358b77d6501e4e2e772041763bd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5",
+      "git_blob_sha1": "c35c68649f0072aa199d46e8f3b5ea0368c1d6a9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73",
+      "git_blob_sha1": "e029edcc67c47720e80a0e30c37cd2bad5a8c622",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434",
+      "git_blob_sha1": "ba77034c16d1f103cf19de0a89fb857eec9f0da8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902",
+      "git_blob_sha1": "5e849658cf0a018544e7b8e86e5e4f2ca7b14e67",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401",
+      "git_blob_sha1": "f1016f8a95018defc0c35701cdc0ac70ff66896b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2",
+      "git_blob_sha1": "4948a2609d95d2180ddf2b0852d28ca2766f7848",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32",
+      "git_blob_sha1": "9fa4b74e6d4283e14583016a727c1281f2253eb4",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3",
+      "git_blob_sha1": "ed0a961864ce6074104ce691182acc1c15c9ec11",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Contact_2.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Contact_2.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa",
+      "git_blob_sha1": "bfef423b9f2284a6557983fb0e425912f2d6f1e8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Host_6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Host_6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50",
+      "git_blob_sha1": "7e99b0252caf112ae449a1d352213e9f81a903ca",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/PowerSafety.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/PowerSafety.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b",
+      "git_blob_sha1": "4417dfb6a0041849b4c0c788b2719e0bc0282aa3",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572",
+      "git_blob_sha1": "f548ff9efedffce12ad40b00066cc5080c26f16b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e",
+      "git_blob_sha1": "19ac830594fc6e9cd7bf3f7016d995051e795c71",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55",
+      "git_blob_sha1": "9920825d05a0c3042a4a2f02073d18582fecf64e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24",
+      "git_blob_sha1": "cb8f09bcdd3985c21ca721b2af8d01aacb4fc1d0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04",
+      "git_blob_sha1": "c442d3511c5fb5bd82618276c4a69c0e587e5c2a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b",
+      "git_blob_sha1": "61f31d6c62ff26f193939a7cead9712828f829cc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169",
+      "git_blob_sha1": "9011d0edd36ad0d43b85eae766f2078cf370acd2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4",
+      "git_blob_sha1": "98d44f3fd6b0e203fd7b66ad45ab24e10543860a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639",
+      "git_blob_sha1": "98cdb2a736a9fc7c8f3837ea868992a42d1aa313",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd",
+      "git_blob_sha1": "922fb79932055683cd9f1c58ed5bf593c8a8a4e9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71",
+      "git_blob_sha1": "eca2e668724038f48618df7a699faac389777c81",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6",
+      "git_blob_sha1": "e6ea8f52483a1ad64b8d90f9bf2d52c2bb7c17dd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/fp-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/fp-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f",
+      "git_blob_sha1": "5b67c722d32ae377c70e6dee67e25fd6b37d4a84",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_dru",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_dru",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+      "git_blob_sha1": "416b23d215162c0bd813c527b951a1f9cb19323a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_prl",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_prl",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_prl",
+      "bytes": 2065,
+      "sha256": "a820ed461086175009ac8e438305c2b61f546f918ca3197cb30a80d9974aae70",
+      "git_blob_sha1": "0ba7f91a91967e06eb977b1acc8186a2a7a21394",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pro",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pro",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "git_blob_sha1": "b863a660ff56ac3ced490cd841d05eb292282e53",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+      "git_blob_sha1": "5f75717d30a03857d3fa6920eb9436bbe2c3735c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/ISO.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/ISO.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/ISO.kicad_sym",
+      "bytes": 19549,
+      "sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "git_blob_sha1": "604a12bc6b6dd0b1293832166cab0b022ec1f3ac",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/MCU.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/MCU.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+      "git_blob_sha1": "7b00f8a1f9d8a9df1945b3d267c4875a0fdf0658",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/SmartPenUSB.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/SmartPenUSB.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862",
+      "git_blob_sha1": "31c7a8c9c9544b9c0f949d02934a1a40d97c1238",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/camera_gate_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/camera_gate_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122",
+      "git_blob_sha1": "a70658896de6e967185742f91961a788f1060b0f",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/controls_sccb.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/controls_sccb.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/controls_sccb.kicad_sch",
+      "bytes": 39738,
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "git_blob_sha1": "a9d111315a256d898581377a40df9fbf33dd0ddb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/dvp_translation.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/dvp_translation.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+      "git_blob_sha1": "3e557c04db04dc41bd466a423c09f83a7abeccae",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+      "git_blob_sha1": "78992024e63114760db896ee7b283789bdd5cfff",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mcu_core.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mcu_core.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+      "git_blob_sha1": "753d191de8ce16780f6aa66b4e122a88e4395f49",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/physical_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/physical_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+      "git_blob_sha1": "28aeddf94f106997d6264fb649adc019d9a8ffa0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/pickup_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/pickup_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28654,
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe",
+      "git_blob_sha1": "ab573303cd90280b6b8ad89cf8cd9ee03347713b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/recovery_fixture.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/recovery_fixture.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+      "git_blob_sha1": "671721bb778df1580e04c9cd5ce883c9f7f7542e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/safe_bias_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/safe_bias_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+      "git_blob_sha1": "4722e8e9ff8ed4add725c6614f5a8afe41d215fc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc",
+      "git_blob_sha1": "d5998e788bf70127849be3ce6db4a2d93942b6ef",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_entry.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_entry.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+      "git_blob_sha1": "b4948af5e1acd5bfbfe7f63737529224b70851fe",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_main_port.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_main_port.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+      "git_blob_sha1": "b731d5c8fd179c1f881bf58e8bcec5ffc2f38e4b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb",
+      "git_blob_sha1": "d33c0e61593cc20f697394011974478a27c0f968",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262",
+      "git_blob_sha1": "04235447ec7be105e3df8650ff319c40c1be7f0c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584",
+      "git_blob_sha1": "db4e1dd66f314434919fc6bb060955dc12bc791b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977",
+      "git_blob_sha1": "caa70ceaff20296ffd1264ac78004a49ee358b8e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739",
+      "git_blob_sha1": "c121bb81e62c664ec753abd2162c048bf1843d33",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19",
+      "git_blob_sha1": "60eded4770fcfcfbf4e28e81d57f408d7bc7ce17",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5",
+      "git_blob_sha1": "657f21259661df49a8df57806c4395e74c3d6da2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5",
+      "git_blob_sha1": "e9c59f9e61837de8f66da3ebfe68e007a286f6cb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca",
+      "git_blob_sha1": "bbe1485719cd4358b77d6501e4e2e772041763bd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5",
+      "git_blob_sha1": "c35c68649f0072aa199d46e8f3b5ea0368c1d6a9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73",
+      "git_blob_sha1": "e029edcc67c47720e80a0e30c37cd2bad5a8c622",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434",
+      "git_blob_sha1": "ba77034c16d1f103cf19de0a89fb857eec9f0da8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902",
+      "git_blob_sha1": "5e849658cf0a018544e7b8e86e5e4f2ca7b14e67",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401",
+      "git_blob_sha1": "f1016f8a95018defc0c35701cdc0ac70ff66896b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2",
+      "git_blob_sha1": "4948a2609d95d2180ddf2b0852d28ca2766f7848",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32",
+      "git_blob_sha1": "9fa4b74e6d4283e14583016a727c1281f2253eb4",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3",
+      "git_blob_sha1": "ed0a961864ce6074104ce691182acc1c15c9ec11",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Contact_2.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Contact_2.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa",
+      "git_blob_sha1": "bfef423b9f2284a6557983fb0e425912f2d6f1e8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Host_6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Host_6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50",
+      "git_blob_sha1": "7e99b0252caf112ae449a1d352213e9f81a903ca",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/PowerSafety.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/PowerSafety.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b",
+      "git_blob_sha1": "4417dfb6a0041849b4c0c788b2719e0bc0282aa3",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572",
+      "git_blob_sha1": "f548ff9efedffce12ad40b00066cc5080c26f16b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e",
+      "git_blob_sha1": "19ac830594fc6e9cd7bf3f7016d995051e795c71",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55",
+      "git_blob_sha1": "9920825d05a0c3042a4a2f02073d18582fecf64e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24",
+      "git_blob_sha1": "cb8f09bcdd3985c21ca721b2af8d01aacb4fc1d0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04",
+      "git_blob_sha1": "c442d3511c5fb5bd82618276c4a69c0e587e5c2a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b",
+      "git_blob_sha1": "61f31d6c62ff26f193939a7cead9712828f829cc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169",
+      "git_blob_sha1": "9011d0edd36ad0d43b85eae766f2078cf370acd2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4",
+      "git_blob_sha1": "98d44f3fd6b0e203fd7b66ad45ab24e10543860a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639",
+      "git_blob_sha1": "98cdb2a736a9fc7c8f3837ea868992a42d1aa313",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd",
+      "git_blob_sha1": "922fb79932055683cd9f1c58ed5bf593c8a8a4e9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71",
+      "git_blob_sha1": "eca2e668724038f48618df7a699faac389777c81",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6",
+      "git_blob_sha1": "e6ea8f52483a1ad64b8d90f9bf2d52c2bb7c17dd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/fp-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/fp-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f",
+      "git_blob_sha1": "5b67c722d32ae377c70e6dee67e25fd6b37d4a84",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_dru",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_dru",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+      "git_blob_sha1": "416b23d215162c0bd813c527b951a1f9cb19323a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pcb",
+      "bytes": 774448,
+      "sha256": "8d7c862bcadda4fb73c01d9c9b5187f1e45894a565de8df2f5cf4b69911c7977",
+      "git_blob_sha1": "643b4b8899f2f4290e1c95a8fb4debb9f4b488d0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_prl",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_prl",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_prl",
+      "bytes": 2065,
+      "sha256": "a820ed461086175009ac8e438305c2b61f546f918ca3197cb30a80d9974aae70",
+      "git_blob_sha1": "0ba7f91a91967e06eb977b1acc8186a2a7a21394",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pro",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pro",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "git_blob_sha1": "b863a660ff56ac3ced490cd841d05eb292282e53",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+      "git_blob_sha1": "5f75717d30a03857d3fa6920eb9436bbe2c3735c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/ISO.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/ISO.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/ISO.kicad_sym",
+      "bytes": 19549,
+      "sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "git_blob_sha1": "604a12bc6b6dd0b1293832166cab0b022ec1f3ac",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/MCU.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/MCU.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+      "git_blob_sha1": "7b00f8a1f9d8a9df1945b3d267c4875a0fdf0658",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/SmartPenUSB.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/SmartPenUSB.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862",
+      "git_blob_sha1": "31c7a8c9c9544b9c0f949d02934a1a40d97c1238",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/camera_gate_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/camera_gate_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122",
+      "git_blob_sha1": "a70658896de6e967185742f91961a788f1060b0f",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/controls_sccb.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/controls_sccb.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/controls_sccb.kicad_sch",
+      "bytes": 39738,
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "git_blob_sha1": "a9d111315a256d898581377a40df9fbf33dd0ddb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/dvp_translation.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/dvp_translation.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+      "git_blob_sha1": "3e557c04db04dc41bd466a423c09f83a7abeccae",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+      "git_blob_sha1": "78992024e63114760db896ee7b283789bdd5cfff",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mcu_core.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mcu_core.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+      "git_blob_sha1": "753d191de8ce16780f6aa66b4e122a88e4395f49",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/physical_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/physical_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+      "git_blob_sha1": "28aeddf94f106997d6264fb649adc019d9a8ffa0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/pickup_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/pickup_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28654,
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe",
+      "git_blob_sha1": "ab573303cd90280b6b8ad89cf8cd9ee03347713b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/recovery_fixture.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/recovery_fixture.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+      "git_blob_sha1": "671721bb778df1580e04c9cd5ce883c9f7f7542e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/safe_bias_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/safe_bias_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+      "git_blob_sha1": "4722e8e9ff8ed4add725c6614f5a8afe41d215fc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc",
+      "git_blob_sha1": "d5998e788bf70127849be3ce6db4a2d93942b6ef",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_entry.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_entry.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+      "git_blob_sha1": "b4948af5e1acd5bfbfe7f63737529224b70851fe",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_main_port.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_main_port.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+      "git_blob_sha1": "b731d5c8fd179c1f881bf58e8bcec5ffc2f38e4b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/native_negative/pcb_value_only_100k/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb",
+      "git_blob_sha1": "d33c0e61593cc20f697394011974478a27c0f968",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/materialize.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/materialize.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/materialize.log",
+      "bytes": 735,
+      "sha256": "fcb2966182ed738c83bddfdc7f8399acba4d384959f9abeaf6ab9afed152ff96",
+      "git_blob_sha1": "3dcfaabf13a74031d0532d2494570c063f78a9a5",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262",
+      "git_blob_sha1": "04235447ec7be105e3df8650ff319c40c1be7f0c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584",
+      "git_blob_sha1": "db4e1dd66f314434919fc6bb060955dc12bc791b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977",
+      "git_blob_sha1": "caa70ceaff20296ffd1264ac78004a49ee358b8e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739",
+      "git_blob_sha1": "c121bb81e62c664ec753abd2162c048bf1843d33",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19",
+      "git_blob_sha1": "60eded4770fcfcfbf4e28e81d57f408d7bc7ce17",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5",
+      "git_blob_sha1": "657f21259661df49a8df57806c4395e74c3d6da2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5",
+      "git_blob_sha1": "e9c59f9e61837de8f66da3ebfe68e007a286f6cb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca",
+      "git_blob_sha1": "bbe1485719cd4358b77d6501e4e2e772041763bd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5",
+      "git_blob_sha1": "c35c68649f0072aa199d46e8f3b5ea0368c1d6a9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73",
+      "git_blob_sha1": "e029edcc67c47720e80a0e30c37cd2bad5a8c622",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434",
+      "git_blob_sha1": "ba77034c16d1f103cf19de0a89fb857eec9f0da8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902",
+      "git_blob_sha1": "5e849658cf0a018544e7b8e86e5e4f2ca7b14e67",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401",
+      "git_blob_sha1": "f1016f8a95018defc0c35701cdc0ac70ff66896b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2",
+      "git_blob_sha1": "4948a2609d95d2180ddf2b0852d28ca2766f7848",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32",
+      "git_blob_sha1": "9fa4b74e6d4283e14583016a727c1281f2253eb4",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3",
+      "git_blob_sha1": "ed0a961864ce6074104ce691182acc1c15c9ec11",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Contact_2.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Contact_2.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa",
+      "git_blob_sha1": "bfef423b9f2284a6557983fb0e425912f2d6f1e8",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Host_6.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Host_6.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50",
+      "git_blob_sha1": "7e99b0252caf112ae449a1d352213e9f81a903ca",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/PowerSafety.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/PowerSafety.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b",
+      "git_blob_sha1": "4417dfb6a0041849b4c0c788b2719e0bc0282aa3",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572",
+      "git_blob_sha1": "f548ff9efedffce12ad40b00066cc5080c26f16b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e",
+      "git_blob_sha1": "19ac830594fc6e9cd7bf3f7016d995051e795c71",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55",
+      "git_blob_sha1": "9920825d05a0c3042a4a2f02073d18582fecf64e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24",
+      "git_blob_sha1": "cb8f09bcdd3985c21ca721b2af8d01aacb4fc1d0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04",
+      "git_blob_sha1": "c442d3511c5fb5bd82618276c4a69c0e587e5c2a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b",
+      "git_blob_sha1": "61f31d6c62ff26f193939a7cead9712828f829cc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169",
+      "git_blob_sha1": "9011d0edd36ad0d43b85eae766f2078cf370acd2",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4",
+      "git_blob_sha1": "98d44f3fd6b0e203fd7b66ad45ab24e10543860a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639",
+      "git_blob_sha1": "98cdb2a736a9fc7c8f3837ea868992a42d1aa313",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd",
+      "git_blob_sha1": "922fb79932055683cd9f1c58ed5bf593c8a8a4e9",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71",
+      "git_blob_sha1": "eca2e668724038f48618df7a699faac389777c81",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6",
+      "git_blob_sha1": "e6ea8f52483a1ad64b8d90f9bf2d52c2bb7c17dd",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/fp-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/fp-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f",
+      "git_blob_sha1": "5b67c722d32ae377c70e6dee67e25fd6b37d4a84",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_dru",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_dru",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+      "git_blob_sha1": "416b23d215162c0bd813c527b951a1f9cb19323a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pcb",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pcb",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pcb",
+      "bytes": 774447,
+      "sha256": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c",
+      "git_blob_sha1": "1090725f24cafe336ff1ce5048b19684c25805fb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_prl",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_prl",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_prl",
+      "bytes": 2065,
+      "sha256": "a820ed461086175009ac8e438305c2b61f546f918ca3197cb30a80d9974aae70",
+      "git_blob_sha1": "0ba7f91a91967e06eb977b1acc8186a2a7a21394",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pro",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pro",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "git_blob_sha1": "b863a660ff56ac3ced490cd841d05eb292282e53",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+      "git_blob_sha1": "5f75717d30a03857d3fa6920eb9436bbe2c3735c",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/ISO.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/ISO.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/ISO.kicad_sym",
+      "bytes": 19549,
+      "sha256": "65ee3841da8a436b0bcdb9f16f3514f081816dca8035232789609d2608ddc89f",
+      "git_blob_sha1": "604a12bc6b6dd0b1293832166cab0b022ec1f3ac",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/MCU.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/MCU.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+      "git_blob_sha1": "7b00f8a1f9d8a9df1945b3d267c4875a0fdf0658",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/SmartPenUSB.kicad_sym",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/SmartPenUSB.kicad_sym",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862",
+      "git_blob_sha1": "31c7a8c9c9544b9c0f949d02934a1a40d97c1238",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/camera_gate_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/camera_gate_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122",
+      "git_blob_sha1": "a70658896de6e967185742f91961a788f1060b0f",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/controls_sccb.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/controls_sccb.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/controls_sccb.kicad_sch",
+      "bytes": 39738,
+      "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+      "git_blob_sha1": "a9d111315a256d898581377a40df9fbf33dd0ddb",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/dvp_translation.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/dvp_translation.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+      "git_blob_sha1": "3e557c04db04dc41bd466a423c09f83a7abeccae",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mainboard_revD.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mainboard_revD.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+      "git_blob_sha1": "78992024e63114760db896ee7b283789bdd5cfff",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mcu_core.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mcu_core.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+      "git_blob_sha1": "753d191de8ce16780f6aa66b4e122a88e4395f49",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/physical_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/physical_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+      "git_blob_sha1": "28aeddf94f106997d6264fb649adc019d9a8ffa0",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/pickup_on_main.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/pickup_on_main.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28654,
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe",
+      "git_blob_sha1": "ab573303cd90280b6b8ad89cf8cd9ee03347713b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/recovery_fixture.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/recovery_fixture.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+      "git_blob_sha1": "671721bb778df1580e04c9cd5ce883c9f7f7542e",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/safe_bias_interfaces.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/safe_bias_interfaces.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+      "git_blob_sha1": "4722e8e9ff8ed4add725c6614f5a8afe41d215fc",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc",
+      "git_blob_sha1": "d5998e788bf70127849be3ce6db4a2d93942b6ef",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_entry.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_entry.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+      "git_blob_sha1": "b4948af5e1acd5bfbfe7f63737529224b70851fe",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_main_port.kicad_sch",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_main_port.kicad_sch",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+      "git_blob_sha1": "b731d5c8fd179c1f881bf58e8bcec5ffc2f38e4b",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/sym-lib-table",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/sym-lib-table",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/native/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb",
+      "git_blob_sha1": "d33c0e61593cc20f697394011974478a27c0f968",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/source_delta.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/source_delta.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay/source_delta.json",
+      "bytes": 907,
+      "sha256": "df8af84a98550f6ed777a06008f1a451f0b2b6f0194161fdec65ed79e131782f",
+      "git_blob_sha1": "e6b1640283ca38f3c93c9bd239b2d1d7be8a2c0d",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.json",
+      "bytes": 689,
+      "sha256": "485f527a762f1a95b67a8d250906686368fd5243c6fee3414d86b522f34ce63e",
+      "git_blob_sha1": "f5864f6534e009f62bd6dbdd84bbbfd5dac981a7",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.py",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.py",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/replay_and_negative.py",
+      "bytes": 1908,
+      "sha256": "5f1beec02874527cbd80f6ffd1c59cc0a4be2aa3a839142d497ee5f663ba7747",
+      "git_blob_sha1": "a0c8fb3c124d15ea442f6a7212d5379d7bfe2149",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/run_checks.py",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/run_checks.py",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/run_checks.py",
+      "bytes": 1507,
+      "sha256": "26e3b4b925b007bae8a128063b6e2dc63f1ac068a0a5a9fc3a2d2a077440c597",
+      "git_blob_sha1": "7950a7f37a717b8a26c5d030cbbc51b18593c2ab",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/source_delta.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/source_delta.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/source_delta.json",
+      "bytes": 907,
+      "sha256": "df8af84a98550f6ed777a06008f1a451f0b2b6f0194161fdec65ed79e131782f",
+      "git_blob_sha1": "e6b1640283ca38f3c93c9bd239b2d1d7be8a2c0d",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification.json",
+      "bytes": 1028,
+      "sha256": "af0613ac82c2865a2c4f9611f6d29b55af6057c115dccf97a45540eba16315fb",
+      "git_blob_sha1": "f06367f22f0f782f87b0601f350e8d9e21a1fe03",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification_optimized.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification_optimized.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verification_optimized.json",
+      "bytes": 1028,
+      "sha256": "af0613ac82c2865a2c4f9611f6d29b55af6057c115dccf97a45540eba16315fb",
+      "git_blob_sha1": "f06367f22f0f782f87b0601f350e8d9e21a1fe03",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.py",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.py",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify.py",
+      "bytes": 5436,
+      "sha256": "854839321e93ff56f12a8adeb950c8a41d47cf21807db2a840fc73ecc5231247",
+      "git_blob_sha1": "9c969fed5149b02a817e90acfd781cd33e54565a",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_optimized.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_optimized.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_optimized.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_airwire_representatives.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_airwire_representatives.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_airwire_representatives.log",
+      "bytes": 737,
+      "sha256": "4104dc870d9227e55937d5b10502634382526e71adb179b31c0d5f177c40f149",
+      "git_blob_sha1": "8c0edfbe7a72930178d278672124572103c1d319",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_library_path.log",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_library_path.log",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/verify_rejected_library_path.log",
+      "bytes": 612,
+      "sha256": "8c738e0607ac74b8468ad72ee73b9ba547bb39d05196edad5aa5433e26d6474b",
+      "git_blob_sha1": "1f25d757bd8fb061af5d505fe3fb296dd9d27ec7",
+      "batch": "verified_revisions_r21"
+    },
+    {
+      "original_path": "smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/manifest.json",
+      "repo_path": "verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/manifest.json",
+      "local_source": "verified_revisions_r21/verification/pressure_source_stage_20261030/smart_pen_next_20261028/hardware/pressure_pullup_revision_0318/manifest.json",
+      "bytes": 34597,
+      "sha256": "36e709e63bcb4f2ba8dd913a1e93b2e5abcbe6cfa1c3d99f37a22ebee55b29f5",
+      "git_blob_sha1": "e0e8ce4204297a94ee4a9c6cdfbed392b2b93c04",
+      "batch": "verified_revisions_r21"
+    }
+  ],
+  "overlays": [
+    [
+      "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405",
+      "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416"
+    ]
+  ],
+  "absolute_paths_preserved": [
+    "smart_pen_next_20261028/docs/electronics/imu_access_corridor_0345/mechanical_screen.py",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/base/bom.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/base/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/base/erc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/base/netlist.xml",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/bom.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/erc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/checks/candidate/netlist.xml",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/cli_results.json",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native_negative/aon_access/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native_negative/clock_middle/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native_negative/ground_access/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/native_negative/rollback/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_native_0405/rejected_ground_negative_expected_type.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/base/bom.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/base/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/base/erc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/base/netlist.xml",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/candidate/bom.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/candidate/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/candidate/erc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/checks/candidate/netlist.xml",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/cli_results.json",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/native_negative/aon_access/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/native_negative/clock_middle/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/native_negative/ground_access/drc.log",
+    "smart_pen_next_20261028/hardware/imu_j107_clock_independent_review_0416/native_negative/rollback/drc.log"
+  ],
+  "reproduction_limit": "Exact allowlisted sources and declared dependency files only; frozen originals are not rewritten. Prior review author copies are reconstructed from frozen author allowlists. No physical power, temperature, timing, battery or manufacturing qualification."
+}

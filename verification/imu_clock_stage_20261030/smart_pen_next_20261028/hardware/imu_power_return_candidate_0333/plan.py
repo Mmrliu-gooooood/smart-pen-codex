@@ -1,0 +1,19 @@
+from geometry import *
+A='3V3_AON';G='GND';F=p.F_Cu
+segments=[
+(A,[(4.7625,81.25),(5.2,81.25),(5.72,80.7)],.25,'VDDIO_C501'),
+(A,[(4.7625,81.75),(5.2,81.75),(5.72,82)],.25,'VDD_C502'),
+(A,[(3.2375,81.75),(2.65,81.75),(2.65,82.25),(3.2375,82.25)],.25,'CS_SA0'),
+(A,[(2.65,82),(2.65,80.4),(2.2,80.4)],.25,'CS_SA0_core'),
+(G,[(4.7625,82.25),(5.1,82.25),(5.1,82.95),(5.55,83.3)],.25,'GND8'),
+(G,[(4.7625,82.75),(5.1,82.75)],.25,'GND7'),
+(G,[(3.75,82.7625),(3.75,83.25),(3.4,83.4)],.25,'GND5'),
+(G,[(4.25,82.7625),(4.25,83.25),(3.75,83.25)],.25,'GND6'),
+]
+for n,pts,w,tag in segments:
+ items=[track(n,F,a,c,w)for a,c in zip(pts,pts[1:])];er=errors(items);attempts.append(dict(tag=tag,errors=er));
+ if not er:add(items,tag)
+for n,pos,tag in [(A,(2.2,80.4),'CS_AONvia'),(G,(5.55,83.3),'rightGNDvia'),(G,(3.4,83.4),'bottomGNDvia')]:
+ its=[via(n,pos)];er=errors(its);attempts.append(dict(tag=tag,errors=er));
+ if not er:add(its,tag)
+print(json.dumps(dict(attempts=attempts,objects=spec),indent=2))
