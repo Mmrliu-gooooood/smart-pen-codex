@@ -1,0 +1,21 @@
+{
+  "synthetic_only": true,
+  "expected_status": {
+    "v3_seed_overflow.pgm": -4,
+    "v3_window_agree.pgm": 0,
+    "v3_window_conflict.pgm": -4,
+    "v3_no_complete_window.pgm": -3
+  },
+  "sources": {
+    "v3_seed_overflow.pgm": "smart_pen_continuous_v3_independent_review_20261029/overflow_pitch3.pgm",
+    "v3_window_agree.pgm": "verification/v3_adversarial/case_066.pgm",
+    "v3_window_conflict.pgm": "verification/v3_adversarial/case_067.pgm",
+    "v3_no_complete_window.pgm": "smart_pen_continuous_fit_diagnostic_20261029/pixels/case_109.pgm"
+  },
+  "pgm_sha256": {
+    "v3_seed_overflow.pgm": "99d8498d6e12c96c9bdf6413f56ab806846755613f96aeb5e319de4ad7d2bcbb",
+    "v3_window_agree.pgm": "99f3e1196a31b1df1c97a283d53e12bd4bbd918e95e4c273180796190d1046ef",
+    "v3_window_conflict.pgm": "f9371ac69e870ac68c9d311f54901d619c1edb5211cdf76f26b43f3c1dbfc530",
+    "v3_no_complete_window.pgm": "0d5fe3e8e90941ea6619e41a75c103520b8fee78cf36d3d43acc3159400527eb"
+  }
+}

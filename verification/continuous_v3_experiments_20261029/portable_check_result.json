@@ -1,0 +1,63 @@
+{
+  "scope": "local synthetic host verification, no target execution or real-time claim",
+  "copied_original_files_verified": 296,
+  "diagnostic_raw_pixel_hashes_verified": 132,
+  "diagnostic_truth_usage": "post-hoc diagnosis only, never C inputs",
+  "diagnostic_no_complete_window_count": 20,
+  "target_sdk_rebuilt": false,
+  "device_measured": false,
+  "original_85_host_gate_rerun": false,
+  "original_340_sweep_rerun": false,
+  "full_diagnostic_experiments_rerun": false,
+  "sanitizer_rerun": false,
+  "targeted_host_tests_passed": 13,
+  "targeted_host_tests_skipped": 0,
+  "default64_and_cap1_native_tests": "passed, non-sanitized host build",
+  "independent_reproduction": {
+    "passed": true,
+    "reused_r6_files_verified": 154,
+    "compared_frozen_jsons": [
+      "legacy44.json",
+      "replay72.json",
+      "phase48.json",
+      "fragments6.json",
+      "missing_window20.json",
+      "observed_support54.json",
+      "overflow_probe.json",
+      "summary.json"
+    ],
+    "summary": {
+      "legacy_api_identical": 44,
+      "replay72": {
+        "0": 50,
+        "-3": 8,
+        "-1": 1,
+        "-2": 13
+      },
+      "positive54": {
+        "0": 49,
+        "-3": 5
+      },
+      "v2_positive_ok": 29,
+      "new_positive_accepts": 20,
+      "phase48_ok": 48,
+      "fragment_probes": 6,
+      "missing20_rejected": 20,
+      "workspace_bytes": 32640,
+      "max_grid_error_px": 0.1564354867846823
+    },
+    "actual_default65_overflow": {
+      "pitch": 3,
+      "status": -4,
+      "cold": 864,
+      "seeds": 65,
+      "iterations": 0,
+      "refined": 0
+    },
+    "overflow_pgm_byte_exact": true,
+    "v3_result_bytes": 192,
+    "v2_result_bytes": 184,
+    "original_opt_cold_warm_result_prior_bytes_match_v2": true
+  },
+  "frozen_originals_and_reused_dependencies_unchanged": true
+}

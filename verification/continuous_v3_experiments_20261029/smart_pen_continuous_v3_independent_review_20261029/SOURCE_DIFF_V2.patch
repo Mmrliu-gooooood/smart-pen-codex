@@ -1,0 +1,241 @@
+--- ../smart_pen_continuous_roi_candidate_20261028/firmware/vision/roi_opt.c	2026-10-29 08:58:30.379855915 +0900
++++ snapshot/firmware/vision/roi_opt.c	2026-10-29 09:51:03.136265547 +0900
+@@ -61,35 +61,45 @@
+ }
+ static double residual(double v){return v-round(v);}
+ 
++/* Shared current-pixel phase normalization; no decoded symbols or truth. */
++static void coordinates(pen_roi_workspace *ws,int n,double pitch,double cs,double sn,double ratio,
++ double *origin_x,double *origin_y){
++ double *u=ws->u,*v=ws->v;
++ for(int i=0;i<n;i++){
++  u[i]=(ws->points[i].x*cs+ws->points[i].y*sn)/pitch;
++  v[i]=(-ws->points[i].x*sn+ws->points[i].y*cs)/(pitch*ratio);
++ }
++ double ox=phase(u,n),oy=phase(v,n);
++ for(int iter=0;iter<3;iter++){
++  double sx=0,sy=0;int nx=0,ny=0;
++  for(int i=0;i<n;i++){
++   double dx=residual(u[i]-ox),dy=residual(v[i]-oy);
++   if(fabs(dx)>fabs(dy)){sy+=dy;ny++;}else{sx+=dx;nx++;}
++  }
++  if(nx)ox+=sx/nx;
++  if(ny)oy+=sy/ny;
++ }
++ *origin_x=ox;*origin_y=oy;
++}
++
+ /* One current-frame model hypothesis. All arrays live in caller workspace. */
+ static int candidate(pen_roi_workspace *ws,int n,const pen_roi_config *cfg,
+- double pitch,double angle,double ratio,fit *fitted){
++ double pitch,double angle,double ratio,fit *fitted,int *seed){
++ if(seed)*seed=0;
+  pen_roi_opt_result *candidate=&fitted->result;
+  double cs=cos(angle*PI/180),sn=sin(angle*PI/180);
+  double *u=ws->u,*v=ws->v,*xx=ws->xx,*yy=ws->yy;
+- for(int i=0;i<n;i++){
+-  u[i]=(ws->points[i].x*cs+ws->points[i].y*sn)/pitch;
+-  v[i]=(-ws->points[i].x*sn+ws->points[i].y*cs)/(pitch*ratio);
+- }
+-   double ox=phase(u,n),oy=phase(v,n);
+-   /* Remove phase bias from unequal counts of UP/LEFT/RIGHT/DOWN. Once the
+-    * dominant direction is known, the perpendicular residual should be 0. */
+-   for(int iter=0;iter<3;iter++){
+-    double sx=0,sy=0;int nx=0,ny=0;
+-    for(int i=0;i<n;i++){
+-     double dx=residual(u[i]-ox),dy=residual(v[i]-oy);
+-     if(fabs(dx)>fabs(dy)){sy+=dy;ny++;}else{sx+=dx;nx++;}
+-    }
+-    if(nx)ox+=sx/nx;
+-    if(ny)oy+=sy/ny;
+-   }
++ double ox,oy;coordinates(ws,n,pitch,cs,sn,ratio,&ox,&oy);
+    int minx=1000,miny=1000,maxx=-1000,maxy=-1000,good=1;double error=0;
+    uint8_t *dirs=ws->dirs;
+    for(int i=0;i<n;i++){
+     xx[i]=round(u[i]-ox);yy[i]=round(v[i]-oy);
+     double dx=u[i]-ox-xx[i],dy=v[i]-oy-yy[i];
+     double ax=fabs(dx),ay=fabs(dy),major=fmax(ax,ay),minor=fmin(ax,ay);
+-    if(major<.10||major>.30||minor>.065){good=0;break;}
++    /* Seed capture is NOT acceptance. Strict legacy calls still stop at the
++     * first strict failure; V3 also measures a wider initializer basin. */
++    if(seed&&(major>.45||minor>.25))return 0;
++    if(major<.10||major>.30||minor>.065){good=0;if(!seed)break;}
+     error+=minor*minor+(major-1.0/6)*(major-1.0/6);
+     dirs[i]=ax>ay?(dx<0?1:2):(dy<0?0:3);
+     int ix=(int)xx[i],iy=(int)yy[i];
+@@ -98,6 +108,7 @@
+     if(iy<miny)miny=iy;
+     if(iy>maxy)maxy=iy;
+    }
++   if(seed&&error/n<=1.0/64)*seed=1;
+    if(!good||maxx-minx>=SIDE||maxy-miny>=SIDE)return 0;
+    int *grid=ws->grid;for(int i=0;i<SIDE*SIDE;i++)grid[i]=-1;
+    for(int i=0;i<n;i++){
+@@ -152,7 +163,7 @@
+   for(int a=-1;a<=1;a++)for(int p=-1;p<=1;p++)for(int r=-1;r<=1;r++){
+    double pitch=hint.pitch_px+p*.25,angle=hint.angle_deg+a,ratio=hint.y_scale+r*.025;
+    if(pitch<8||pitch>32||angle < -60||angle>60||ratio<.6||ratio>1.4)continue;
+-   tested++;int rc=candidate(ws,n,cfg,pitch,angle,ratio,&c);
++   tested++;int rc=candidate(ws,n,cfg,pitch,angle,ratio,&c,NULL);
+    if(rc<0)return rc;
+    if(rc&&merge_candidate(&best,&c,&found))return PEN_ROI_AMBIGUOUS;
+   }
+@@ -160,7 +171,7 @@
+  }
+  if(!found){
+   for(int a=-60;a<=60;a+=2)for(int p=16;p<=64;p++)for(int r=6;r<=14;r++){
+-   tested++;int rc=candidate(ws,n,cfg,p*.5,(double)a,r*.1,&c);
++   tested++;int rc=candidate(ws,n,cfg,p*.5,(double)a,r*.1,&c,NULL);
+    if(rc<0)return rc;
+    if(rc&&merge_candidate(&best,&c,&found))return PEN_ROI_AMBIGUOUS;
+   }
+@@ -177,3 +188,79 @@
+  const pen_roi_config *cfg,pen_roi_workspace *ws,pen_roi_prior *prior,pen_roi_opt_result *out){
+  return pen_roi_decode_opt_transform(g,length,w,h,stride,cfg,ws,prior,out,NULL);
+ }
++
++/* All-point orthogonal anisotropic least squares. Corrected lattice positions
++ * come only from current residual directions, never a decoded codeword. */
++static int refine_geometry(pen_roi_workspace *ws,int n,pen_roi_refine_seed *s,uint32_t *iterations){
++ for(unsigned iteration=0;iteration<5;iteration++){
++  (*iterations)++;
++  double cs=cos(s->angle*PI/180),sn=sin(s->angle*PI/180),ox,oy;
++  coordinates(ws,n,s->pitch,cs,sn,s->ratio,&ox,&oy);
++  double qmx=0,qmy=0,pmx=0,pmy=0;
++  for(int i=0;i<n;i++){
++   double ix=round(ws->u[i]-ox),iy=round(ws->v[i]-oy);
++   double dx=ws->u[i]-ox-ix,dy=ws->v[i]-oy-iy;
++   ws->xx[i]=ix;ws->yy[i]=iy;
++   if(fabs(dx)>fabs(dy))ws->xx[i]+=dx<0?-1.0/6:1.0/6;
++   else ws->yy[i]+=dy<0?-1.0/6:1.0/6;
++   qmx+=ws->xx[i];qmy+=ws->yy[i];pmx+=ws->points[i].x;pmy+=ws->points[i].y;
++  }
++  qmx/=n;qmy/=n;pmx/=n;pmy/=n;
++  double xx=0,yy=0,ax=0,ay=0,bx=0,by=0;
++  for(int i=0;i<n;i++){
++   double qx=ws->xx[i]-qmx,qy=ws->yy[i]-qmy;
++   double px=ws->points[i].x-pmx,py=ws->points[i].y-pmy;
++   xx+=qx*qx;yy+=qy*qy;ax+=qx*px;ay+=qx*py;bx+=qy*px;by+=qy*py;
++  }
++  if(!isfinite(xx)||!isfinite(yy)||xx<1||yy<1)return 0;
++  double m00=ax*ax/xx+by*by/yy,m01=ax*ay/xx-by*bx/yy,m11=ay*ay/xx+bx*bx/yy;
++  /* Repeated eigenvalues leave orientation unconstrained: never choose atan2(0,0). */
++  double gap=hypot(m00-m11,2*m01);
++  if(!isfinite(gap)||gap<1e-10*(fabs(m00)+fabs(m11)+1))return 0;
++  double rad=.5*atan2(2*m01,m00-m11);cs=cos(rad);sn=sin(rad);
++  double pitch=(ax*cs+ay*sn)/xx,ypitch=(-bx*sn+by*cs)/yy;
++  double ratio=ypitch/pitch,angle=rad*180/PI;
++  if(!isfinite(pitch)||!isfinite(ratio)||!isfinite(angle)||pitch<8||pitch>32||
++     angle < -60||angle>60||ratio<.6||ratio>1.4)return 0;
++  s->pitch=pitch;s->angle=angle;s->ratio=ratio;
++ }
++ return 1;
++}
++_Static_assert(PEN_ROI_REFINE_MAX_SEEDS>0&&PEN_ROI_REFINE_MAX_SEEDS<=64,"refinement seed bound");
++int pen_roi_decode_refined_transform(const uint8_t *g,size_t length,unsigned w,unsigned h,unsigned stride,
++ const pen_roi_config *cfg,pen_roi_workspace *ws,pen_roi_refine_seed *seeds,
++ pen_roi_opt_result *out,pen_roi_grid_transform *transform,pen_roi_refine_diagnostics *diagnostics){
++ pen_roi_refine_diagnostics d={0,0,0,0};
++ if(diagnostics)*diagnostics=d;
++ if(!g||!cfg||!out||!ws||!seeds||w<16||h<16||w>256||h>256||stride<w||
++    (size_t)(h-1)>(SIZE_MAX-w)/stride||length<(size_t)(h-1)*stride+w||
++    cfg->paper_width<6||cfg->paper_height<6||cfg->paper_width>4096||cfg->paper_height>4096||
++    cfg->section_u>=63||cfg->section_v>=63)return PEN_ROI_ARGUMENT;
++ int n=detect(g,w,h,stride,ws->points,ws);
++ if(n<0)return PEN_ROI_DETECTION;
++ fit best,c;memset(&best,0,sizeof best);memset(&c,0,sizeof c);int found=0;
++ for(int a=-60;a<=60;a+=2)for(int p=16;p<=64;p++)for(int r=6;r<=14;r++){
++  int seed=0;d.cold_candidates++;
++  int rc=candidate(ws,n,cfg,p*.5,(double)a,r*.1,&c,&seed);
++  if(rc<0){if(diagnostics)*diagnostics=d;return rc;}
++  if(rc&&merge_candidate(&best,&c,&found)){if(diagnostics)*diagnostics=d;return PEN_ROI_AMBIGUOUS;}
++  if(seed){
++   if(d.seeds==PEN_ROI_REFINE_MAX_SEEDS){d.seeds++;if(diagnostics)*diagnostics=d;return PEN_ROI_AMBIGUOUS;}
++   seeds[d.seeds].pitch=p*.5;seeds[d.seeds].angle=a;seeds[d.seeds].ratio=r*.1;d.seeds++;
++  }
++ }
++ /* No first-success shortcut and no sorting/truncation of qualified seeds. */
++ for(uint32_t i=0;i<d.seeds;i++){
++  if(!refine_geometry(ws,n,&seeds[i],&d.iterations))continue;
++  d.refined_models++;
++  int rc=candidate(ws,n,cfg,seeds[i].pitch,seeds[i].angle,seeds[i].ratio,&c,NULL);
++  if(rc<0){if(diagnostics)*diagnostics=d;return rc;}
++  if(rc&&merge_candidate(&best,&c,&found)){if(diagnostics)*diagnostics=d;return PEN_ROI_AMBIGUOUS;}
++ }
++ if(diagnostics)*diagnostics=d;
++ if(!found)return PEN_ROI_NO_GRID;
++ best.result.candidates=d.cold_candidates+d.refined_models;
++ best.result.used_warm_start=0;*out=best.result;
++ if(transform)*transform=best.transform;
++ return PEN_ROI_OK;
++}
+--- ../smart_pen_continuous_roi_candidate_20261028/firmware/vision/roi_opt.h	2026-10-29 08:58:30.379357099 +0900
++++ snapshot/firmware/vision/roi_opt.h	2026-10-29 09:51:03.136185796 +0900
+@@ -46,4 +46,18 @@
+ int pen_roi_decode_opt(const uint8_t *gray,size_t length,unsigned width,unsigned height,
+  unsigned stride,const pen_roi_config *config,pen_roi_workspace *workspace,
+  pen_roi_prior *prior,pen_roi_opt_result *result);
++/* V3 experimental cold augmentation. Original APIs above remain unchanged.
++ * Caller supplies MAX_SEEDS records; no aliasing with workspace/input/outputs.
++ * Every qualified coarse initializer is considered; overflow fails AMBIGUOUS.
++ * Original strict validation/consensus gates are never relaxed. Diagnostics
++ * are explicitly overwritten on EVERY call (including failure), unlike result
++ * and transform, which remain untouched on failure. No fake/warm prior API. */
++#ifndef PEN_ROI_REFINE_MAX_SEEDS
++#define PEN_ROI_REFINE_MAX_SEEDS 64u
++#endif
++typedef struct { double pitch,angle,ratio; } pen_roi_refine_seed;
++typedef struct { uint32_t cold_candidates,seeds,iterations,refined_models; } pen_roi_refine_diagnostics;
++int pen_roi_decode_refined_transform(const uint8_t *gray,size_t length,unsigned width,unsigned height,
++ unsigned stride,const pen_roi_config *config,pen_roi_workspace *workspace,pen_roi_refine_seed *seeds,
++ pen_roi_opt_result *result,pen_roi_grid_transform *transform,pen_roi_refine_diagnostics *diagnostics);
+ #endif
+--- ../smart_pen_continuous_roi_candidate_20261028/firmware/vision/roi_continuous.c	2026-10-29 09:07:12.256705252 +0900
++++ snapshot/firmware/vision/roi_continuous.c	2026-10-29 09:51:03.136329807 +0900
+@@ -71,10 +71,13 @@
+   if((unsigned)n<=PEN_CONTINUOUS_ROI_MAX_DOTS){selected=1;break;}
+  }
+  if(!selected)return PEN_ROI_DETECTION;
+- pen_roi_grid_transform t;
+- int rc=pen_roi_decode_opt_transform(ws->crop,(size_t)side*side,side,side,side,cfg,
+-  &ws->core,NULL,&result.roi,&t);
++ pen_roi_grid_transform t;pen_roi_refine_diagnostics diagnostics;
++ int rc=pen_roi_decode_refined_transform(ws->crop,(size_t)side*side,side,side,side,cfg,
++  &ws->core,ws->seeds,&result.roi,&t,&diagnostics);
+  if(rc)return rc;
++ result.refine_seeds=(uint16_t)diagnostics.seeds;
++ result.refine_iterations=(uint16_t)diagnostics.iterations;
++ result.refine_models=(uint16_t)diagnostics.refined_models;
+  /* Core recomputes threshold on the filtered pixels. Never allow its result
+   * to exceed the stricter wrapper policy, even if threshold extrema changed. */
+  if(result.roi.decoded.dots>PEN_CONTINUOUS_ROI_MAX_DOTS)return PEN_ROI_DETECTION;
+--- ../smart_pen_continuous_roi_candidate_20261028/firmware/vision/roi_continuous.h	2026-10-29 09:07:12.256326625 +0900
++++ snapshot/firmware/vision/roi_continuous.h	2026-10-29 09:51:03.136299357 +0900
+@@ -7,7 +7,8 @@
+  * Border-connected components removed only if <=24px, extent <=6px,
+  * inward depth <=4px. Dot-sized ink cannot be distinguished by this policy.
+  * Requires 36..100 retained dots; original core remains capped at 128.
+- * One full cold search, no prior or cached coordinates, no decode-driven retry.
++ * One full cold search plus <=64 current-pixel continuous refinements.
++ * No prior/cached coordinates, no decode-driven ROI retry.
+  * Evidence outside the selected ROI is not checked. Reject != no paper present.
+  * Coordinates are paper WINDOW/grid diagnostics, never physical nib or VALID.
+  * No heap; caller-owned workspace must NOT be on a default small task stack.
+@@ -20,6 +21,7 @@
+ #define PEN_CONTINUOUS_EDGE_MAX_DEPTH 4u
+ typedef struct {
+  pen_roi_workspace core;
++ pen_roi_refine_seed seeds[PEN_ROI_REFINE_MAX_SEEDS];
+  uint8_t crop[PEN_CONTINUOUS_ROI_MAX_SIDE*PEN_CONTINUOUS_ROI_MAX_SIDE];
+ } pen_continuous_workspace;
+ typedef struct {
+@@ -32,6 +34,8 @@
+   * frame=crop+(left,top). Paper uses continuous encoded cell coordinates.
+   * These invert the FITTED orthogonal model; not a calibrated homography. */
+  double paper_to_frame[6],frame_to_paper[6];
++ /* V3-only result ABI: do not cast to the frozen V2 result. */
++ uint16_t refine_seeds,refine_iterations,refine_models;
+ } pen_continuous_result;
+ /* Original PEN_ROI status codes. Every failure preserves all output bytes.
+  * DETECTION includes crop selection, contrast, excessive density/component,
