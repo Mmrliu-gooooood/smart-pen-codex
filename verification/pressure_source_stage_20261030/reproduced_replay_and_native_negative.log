@@ -1,0 +1,24 @@
+{
+  "replay_all_native_bytes_equal": true,
+  "negative_name": "PCB R503 100k versus schematic 47k",
+  "negative_returncode": 5,
+  "negative_counts": [
+    0,
+    134,
+    1
+  ],
+  "command": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--all-track-errors",
+    "--schematic-parity",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "/workspace/scratch/fe148e758944/pen_publication/r21_isolated_reproduction/workspace/smart_pen_next_20261028/hardware/pressure_pullup_independent_review_0328/checks/negative_pcb_value_only_100k/drc.json",
+    "/workspace/scratch/fe148e758944/pen_publication/r21_isolated_reproduction/workspace/smart_pen_next_20261028/hardware/pressure_pullup_independent_review_0328/native_negative/pcb_value_only_100k/mainboard_revD.kicad_pcb"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_delta": {
+    "mainboard_revD.kicad_pcb": "only instance value+hidden MPN; all geometry/source nodes unchanged",
+    "schematic/pickup_on_main.kicad_sch": "only instance value+hidden MPN; all geometry/source nodes unchanged"
+  },
+  "parts": 102,
+  "nets": 90,
+  "NIB_CONTACT_N": [
+    {
+      "ref": "C504",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R503",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    {
+      "ref": "R504",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    {
+      "ref": "U101",
+      "pin": "7",
+      "pinfunction": "GPIO2",
+      "pintype": "bidirectional"
+    }
+  ],
+  "R503_BOM": {
+    "Reference": "R503",
+    "Value": "47k 1%",
+    "Footprint": "Resistor_SMD:R_0603_1608Metric",
+    "MPN": "RC0603FR-0747KL",
+    "Qty": "1",
+    "DNP": ""
+  },
+  "old_nominal_3v3_uA": 32.67326732673267,
+  "new_min_uA": 61.87991171799261,
+  "new_max_uA": 75.75757575757575,
+  "fresh_raw_airwire_changes": 4,
+  "status": "NOFAB_NOPOWER_CONDITIONAL_SOURCE_ONLY"
+}

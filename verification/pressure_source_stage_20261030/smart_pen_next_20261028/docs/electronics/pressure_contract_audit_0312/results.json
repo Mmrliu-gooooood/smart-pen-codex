@@ -1,0 +1,144 @@
+{
+  "source": "smart_pen_next_20261028/hardware/mcu_supply_access_candidate_0300/native/mainboard_revD.kicad_pcb",
+  "sha256": "8fe809b685633dd86dddc36ec33961d61ef7fad9fca52286bc47bd72a4f614e5",
+  "components": [
+    {
+      "ref": "C504",
+      "value": "1n C0G",
+      "footprint": "C_0603_1608Metric",
+      "side": "B.Cu",
+      "fields": {
+        "Reference": "C504",
+        "Value": "1n C0G",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "pads": [
+        {
+          "number": "1",
+          "net": "NIB_CONTACT_N",
+          "xy": [
+            3.475,
+            9.75
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy": [
+            5.025,
+            9.75
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R504",
+      "value": "1k 1%",
+      "footprint": "R_0603_1608Metric",
+      "side": "B.Cu",
+      "fields": {
+        "Reference": "R504",
+        "Value": "1k 1%",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "pads": [
+        {
+          "number": "1",
+          "net": "NIB_CONTACT_N",
+          "xy": [
+            2.175,
+            54.25
+          ]
+        },
+        {
+          "number": "2",
+          "net": "CONTACT",
+          "xy": [
+            3.825,
+            54.25
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "R503",
+      "value": "100k 1%",
+      "footprint": "R_0603_1608Metric",
+      "side": "B.Cu",
+      "fields": {
+        "Reference": "R503",
+        "Value": "100k 1%",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3_AON",
+          "xy": [
+            1.675,
+            11.5
+          ]
+        },
+        {
+          "number": "2",
+          "net": "NIB_CONTACT_N",
+          "xy": [
+            3.325,
+            11.5
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "J103",
+      "value": "DRY CONTACT PADS",
+      "footprint": "WireLands2_P2.4",
+      "side": "B.Cu",
+      "fields": {
+        "Reference": "J103",
+        "Value": "DRY CONTACT PADS",
+        "Datasheet": "",
+        "Description": ""
+      },
+      "pads": [
+        {
+          "number": "1",
+          "net": "CONTACT",
+          "xy": [
+            3.0,
+            52.0
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy": [
+            5.4,
+            52.0
+          ]
+        }
+      ]
+    }
+  ],
+  "assumed_AON_V": [
+    3,
+    3.6
+  ],
+  "calculation": {
+    "100000": {
+      "min_current_uA": 29.40859319093039,
+      "max_low_v": 0.03639199688034316,
+      "nominal_uA": 32.67326732673267,
+      "release_75pct_us": 147.0165169967644
+    },
+    "47000": {
+      "min_current_uA": 61.87991171799261,
+      "max_low_v": 0.07655707704928377,
+      "nominal_uA": 68.74999999999999,
+      "release_75pct_us": 69.09776298847927
+    }
+  }
+}

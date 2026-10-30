@@ -1,0 +1,37 @@
+{
+  "status": "NOFAB_NOPOWER_CONDITIONAL_MINIMUM_LOAD_CORRECTION_ONLY",
+  "native_files": 53,
+  "components": 102,
+  "nets": 90,
+  "net_pin_function_mapping_exact": true,
+  "only_R503_value_MPN_changes": [
+    "mainboard_revD.kicad_pcb",
+    "schematic/pickup_on_main.kicad_sch"
+  ],
+  "full_drc": [
+    0,
+    134,
+    0
+  ],
+  "raw_airwire_representative_changes": 7,
+  "per_net_airwire_counts_unchanged": true,
+  "erc_errors": 0,
+  "erc_warnings": 1,
+  "old_R503": {
+    "min_A": 2.940859319093039e-05,
+    "max_A": 3.6003600360036005e-05,
+    "max_R503_W": 0.0001283296646496333
+  },
+  "new_R503": {
+    "min_A": 6.187991171799261e-05,
+    "max_A": 7.575757575757576e-05,
+    "max_R503_W": 0.00026704545454545454
+  },
+  "condition": "AON 3.0..3.6 V; both resistors +/-1%; contact 0..1 ohm; excludes leakage, temperature drift, ESD and real rail qualification",
+  "negative_cases": [
+    "old_value",
+    "wrong_MPN",
+    "missing_MPN"
+  ],
+  "board_sha": "6902c742f9e3995e20cffd1946a8e2c47197cdffe7b4d6357b14a2c0b3857d0c"
+}

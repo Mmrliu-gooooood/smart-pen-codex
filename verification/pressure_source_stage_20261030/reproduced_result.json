@@ -1,0 +1,53 @@
+{
+  "scope": "Exact R503 source delta, conditional load, fresh netlist/BOM/ERC/DRC and source-mismatch counterfactual. No physical qualification. Frozen raw snapshots unchanged; new raw representatives separately generated.",
+  "commands": [
+    {
+      "label": "author_fresh_tools",
+      "exit": 0
+    },
+    {
+      "label": "review_fresh_tools",
+      "exit": 0
+    },
+    {
+      "label": "independent",
+      "exit": 0
+    },
+    {
+      "label": "independent_O",
+      "exit": 0
+    },
+    {
+      "label": "author",
+      "exit": 0
+    },
+    {
+      "label": "author_O",
+      "exit": 0
+    },
+    {
+      "label": "review_verify",
+      "exit": 0
+    },
+    {
+      "label": "review_verify_O",
+      "exit": 0
+    },
+    {
+      "label": "replay_and_native_negative",
+      "exit": 0
+    }
+  ],
+  "full_drc": [
+    0,
+    134,
+    0
+  ],
+  "erc_errors": 0,
+  "erc_warnings": 1,
+  "negative": [
+    0,
+    134,
+    1
+  ]
+}
