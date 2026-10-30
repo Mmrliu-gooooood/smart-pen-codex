@@ -1,0 +1,57 @@
+{
+  "kicad": "9.0.2",
+  "boards": [
+    {
+      "board": "power",
+      "sha256": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc",
+      "erc_exit": 0,
+      "drc_exit": 0,
+      "counts": {
+        "erc": 0,
+        "violations": {},
+        "unconnected": 0,
+        "parity": {}
+      },
+      "expected": {
+        "erc": 0,
+        "violations": {},
+        "unconnected": 0,
+        "parity": {}
+      },
+      "matches_recorded_baseline": true,
+      "status": "STATIC_CHECKS_ONLY_NOFAB"
+    },
+    {
+      "board": "mainboard",
+      "sha256": "228b04b42c45ebb37ca96a27d84a4f7a48f3e2b805c63dff0c2c6a5be2e6fb69",
+      "erc_exit": 0,
+      "drc_exit": 5,
+      "counts": {
+        "erc": 0,
+        "violations": {
+          "via_dangling": 33,
+          "track_dangling": 3
+        },
+        "unconnected": 2,
+        "parity": {
+          "missing_footprint": 16
+        }
+      },
+      "expected": {
+        "erc": 0,
+        "violations": {
+          "via_dangling": 33,
+          "track_dangling": 3
+        },
+        "unconnected": 2,
+        "parity": {
+          "missing_footprint": 16
+        }
+      },
+      "matches_recorded_baseline": true,
+      "status": "INCOMPLETE_NOFAB"
+    }
+  ],
+  "all_expected": true,
+  "manufacturing_approved": false
+}
