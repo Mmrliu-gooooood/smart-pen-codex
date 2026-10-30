@@ -1,0 +1,301 @@
+[
+  {
+    "script": "assembly_control_margin_review_20261030_1101/screen.py",
+    "script_sha256": "f7b9f7f97b8815acd44a0a96d5bc8ca708682208dc34ee115cc665e30d4a4f9f",
+    "frozen_expected_output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 1.049,
+        "log": "assembly_control_margin_review_20261030_1101__screen_normal.log",
+        "output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.342,
+        "log": "assembly_control_margin_review_20261030_1101__screen_optimized.log",
+        "output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "assembly_control_margin_review_20261030_1101/margins.py",
+    "script_sha256": "3c25719e0ab0783ff8228feb63ca142d0474a71c421e4f812fe25a7372c9f169",
+    "frozen_expected_output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 0.074,
+        "log": "assembly_control_margin_review_20261030_1101__margins_normal.log",
+        "output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 0.323,
+        "log": "assembly_control_margin_review_20261030_1101__margins_optimized.log",
+        "output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "assembly_sccb_final_review_20261030_1218/screen.py",
+    "script_sha256": "a02073ba8076e650f92e652347abc9044a8f84a66b616d653771975d13bab9c1",
+    "frozen_expected_output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 1.126,
+        "log": "assembly_sccb_final_review_20261030_1218__screen_normal.log",
+        "output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 2.955,
+        "log": "assembly_sccb_final_review_20261030_1218__screen_optimized.log",
+        "output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "assembly_sccb_final_review_20261030_1218/placement_screen.py",
+    "script_sha256": "feb0d13a956e2955e8733f0213624ae900f78d8ebc07cae83ed66748e4571b7b",
+    "frozen_expected_output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 22.036,
+        "log": "assembly_sccb_final_review_20261030_1218__placement_screen_normal.log",
+        "output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 24.818,
+        "log": "assembly_sccb_final_review_20261030_1218__placement_screen_optimized.log",
+        "output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "assembly_sccb_final_review_20261030_1218/source_junction.py",
+    "script_sha256": "55b7103b84e398dd1a6444bb7c36d9bfc3909ca4dabd3ebe3892a78365af07e3",
+    "frozen_expected_output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 1.759,
+        "log": "assembly_sccb_final_review_20261030_1218__source_junction_normal.log",
+        "output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 2.853,
+        "log": "assembly_sccb_final_review_20261030_1218__source_junction_optimized.log",
+        "output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_control_mechanical_20261030_1104/screen.py",
+    "script_sha256": "f7b9f7f97b8815acd44a0a96d5bc8ca708682208dc34ee115cc665e30d4a4f9f",
+    "frozen_expected_output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 2.579,
+        "log": "independent_control_mechanical_20261030_1104__screen_normal.log",
+        "output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.937,
+        "log": "independent_control_mechanical_20261030_1104__screen_optimized.log",
+        "output_sha256": "250729a9e00af8d52447207ee3b2ca3738e01191a96378ee46096abdc55a6b19"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_control_mechanical_20261030_1104/independent_geometry.py",
+    "script_sha256": "6f18c11e7d9180af0cbebf784fc85988d4e0bad38cc9fd9c4490687287e7b18f",
+    "frozen_expected_output_sha256": "8785d1d89d541481ae590df36f39b0887c801cbf68e9c0bb4bec138ce1337ab9",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 18.907,
+        "log": "independent_control_mechanical_20261030_1104__independent_geometry_normal.log",
+        "output_sha256": "8785d1d89d541481ae590df36f39b0887c801cbf68e9c0bb4bec138ce1337ab9"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 3.639,
+        "log": "independent_control_mechanical_20261030_1104__independent_geometry_optimized.log",
+        "output_sha256": "8785d1d89d541481ae590df36f39b0887c801cbf68e9c0bb4bec138ce1337ab9"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_control_mechanical_20261030_1104/margins.py",
+    "script_sha256": "3c25719e0ab0783ff8228feb63ca142d0474a71c421e4f812fe25a7372c9f169",
+    "frozen_expected_output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 0.089,
+        "log": "independent_control_mechanical_20261030_1104__margins_normal.log",
+        "output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 0.389,
+        "log": "independent_control_mechanical_20261030_1104__margins_optimized.log",
+        "output_sha256": "60d00b7860e1aff161103e8d984acfe8f3535dd075f59b9802ef5a70eacb9a93"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_sccb_mechanical_20261030_1222/screen.py",
+    "script_sha256": "a02073ba8076e650f92e652347abc9044a8f84a66b616d653771975d13bab9c1",
+    "frozen_expected_output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 0.816,
+        "log": "independent_sccb_mechanical_20261030_1222__screen_normal.log",
+        "output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.014,
+        "log": "independent_sccb_mechanical_20261030_1222__screen_optimized.log",
+        "output_sha256": "44c04d9376f14bbdc4b958da582a206ec50de6f96f0ce005b4f8de2f6eb3c78e"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_sccb_mechanical_20261030_1222/independent_corner.py",
+    "script_sha256": "af5dbf126b61dfdc955eedd186f51b15f226d818185bfe794a543819d8df485d",
+    "frozen_expected_output_sha256": "b93f6d7cf3762a10877f96016aa9b30265e32e9021d780f6526c4694680cc86c",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 1.336,
+        "log": "independent_sccb_mechanical_20261030_1222__independent_corner_normal.log",
+        "output_sha256": "b93f6d7cf3762a10877f96016aa9b30265e32e9021d780f6526c4694680cc86c"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.753,
+        "log": "independent_sccb_mechanical_20261030_1222__independent_corner_optimized.log",
+        "output_sha256": "b93f6d7cf3762a10877f96016aa9b30265e32e9021d780f6526c4694680cc86c"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_sccb_mechanical_20261030_1222/native_extra.py",
+    "script_sha256": "b3497ef53491c8ab02abad5d9efff8920e382a54fde6de478fb96d239b462b20",
+    "frozen_expected_output_sha256": "8760f704e30faf6501bcbd72893c55d514def5815e781c2e22407d9064abd68e",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 0.7,
+        "log": "independent_sccb_mechanical_20261030_1222__native_extra_normal.log",
+        "output_sha256": "8760f704e30faf6501bcbd72893c55d514def5815e781c2e22407d9064abd68e"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.121,
+        "log": "independent_sccb_mechanical_20261030_1222__native_extra_optimized.log",
+        "output_sha256": "8760f704e30faf6501bcbd72893c55d514def5815e781c2e22407d9064abd68e"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_sccb_mechanical_20261030_1222/placement_screen.py",
+    "script_sha256": "feb0d13a956e2955e8733f0213624ae900f78d8ebc07cae83ed66748e4571b7b",
+    "frozen_expected_output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 16.36,
+        "log": "independent_sccb_mechanical_20261030_1222__placement_screen_normal.log",
+        "output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 18.487,
+        "log": "independent_sccb_mechanical_20261030_1222__placement_screen_optimized.log",
+        "output_sha256": "cb7de991b80fd565e93e1b9d17b07f017b9cb9603862778d1757b323ed930217"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  },
+  {
+    "script": "independent_sccb_mechanical_20261030_1222/source_junction.py",
+    "script_sha256": "55b7103b84e398dd1a6444bb7c36d9bfc3909ca4dabd3ebe3892a78365af07e3",
+    "frozen_expected_output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a",
+    "runs": [
+      {
+        "mode": "normal",
+        "exit_code": 0,
+        "seconds": 0.6,
+        "log": "independent_sccb_mechanical_20261030_1222__source_junction_normal.log",
+        "output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a"
+      },
+      {
+        "mode": "optimized",
+        "exit_code": 0,
+        "seconds": 1.032,
+        "log": "independent_sccb_mechanical_20261030_1222__source_junction_optimized.log",
+        "output_sha256": "75b2d90b73a9ec104e3e9b2fe7d52709720c0e6286d5b60411ac04c71fd8908a"
+      }
+    ],
+    "normal_optimized_byte_equal": true,
+    "matches_frozen_output": true
+  }
+]

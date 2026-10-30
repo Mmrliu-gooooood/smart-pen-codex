@@ -1,0 +1,165 @@
+{
+  "status": "READ_ONLY_MINIMUM_EXTERNAL_MECHANICAL_INPUTS_IDENTIFIED",
+  "inputs": [
+    {
+      "path": "assembly_context_audit_0818_20261030/inventory.json",
+      "bytes": 3602369,
+      "sha256": "89d931253e7ccf05fff902fa442abbc100305fa89d11ee89d859a235ffbe4a0e",
+      "role": "frozen mechanics context dataset",
+      "prior_reuse": []
+    },
+    {
+      "path": "assembly_context_audit_0818_20261030/all103_sync.json",
+      "bytes": 614225,
+      "sha256": "7fa9a5e700f0fc3600c8de2c191e410a84380545c63c4c11457b64a5da085c98",
+      "role": "frozen mechanics context dataset",
+      "prior_reuse": []
+    },
+    {
+      "path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "original_absolute": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+      "context": "RevC",
+      "bytes": 278184,
+      "sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "role": "project-generated prior mechanical context; not full assembled product qualification",
+      "prior_reuse": [
+        {
+          "repo_path": "verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd",
+          "local_source": "verified_revisions_r11/verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevC_gate508e.FCStd"
+        }
+      ]
+    },
+    {
+      "path": "smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "original_absolute": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+      "context": "RevD_BENCH",
+      "bytes": 346772,
+      "sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135",
+      "role": "project-generated prior mechanical context; not full assembled product qualification",
+      "prior_reuse": [
+        {
+          "repo_path": "verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd",
+          "local_source": "verified_revisions_r11/verification/gate_full_stage_20261029/smart_pen_mechanics_next_20261028/mechanical/gate508e_joint_screen_0247/RevD_gate508e.FCStd"
+        }
+      ]
+    },
+    {
+      "path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+      "original_absolute": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+      "context": "ACCESS19",
+      "bytes": 631422,
+      "sha256": "7c1f1b50e8788e96ea088008a861b850905e1d8c2ae0b8a0b593abf7a31e3c46",
+      "role": "project-generated prior mechanical context; not full assembled product qualification",
+      "prior_reuse": [
+        {
+          "repo_path": "verification/mcu_supply_access_stage_20261030/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd",
+          "local_source": "verified_revisions_r20/verification/mcu_supply_access_stage_20261030/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD19_t0p93_NOFAB.FCStd"
+        }
+      ]
+    },
+    {
+      "path": "smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+      "original_absolute": "/workspace/scratch/fe148e758944/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+      "context": "ACCESS20",
+      "bytes": 616501,
+      "sha256": "7bce85c964b68eb75ac85bc4ebd52749ed2ded5affe277c382e48d059bb6f026",
+      "role": "project-generated prior mechanical context; not full assembled product qualification",
+      "prior_reuse": [
+        {
+          "repo_path": "verification/mcu_supply_access_stage_20261030/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd",
+          "local_source": "verified_revisions_r20/verification/mcu_supply_access_stage_20261030/smart_pen_mechanics_next_20261028/mechanical/compliant_retainer_longarc_0415/access_revision/ACCESS_retainer_OD20_t0p93_NOFAB.FCStd"
+        }
+      ]
+    }
+  ],
+  "input_count": 6,
+  "input_bytes": 6089473,
+  "new_dataset_count": 2,
+  "new_dataset_bytes": 4216594,
+  "reused_CAD_count": 4,
+  "scripts": [
+    {
+      "path": "independent_control_mechanical_20261030_1104/independent_geometry.py",
+      "bytes": 4159,
+      "sha256": "6f18c11e7d9180af0cbebf784fc85988d4e0bad38cc9fd9c4490687287e7b18f"
+    },
+    {
+      "path": "independent_control_mechanical_20261030_1104/margins.py",
+      "bytes": 1447,
+      "sha256": "3c25719e0ab0783ff8228feb63ca142d0474a71c421e4f812fe25a7372c9f169"
+    },
+    {
+      "path": "independent_control_mechanical_20261030_1104/screen.py",
+      "bytes": 7577,
+      "sha256": "f7b9f7f97b8815acd44a0a96d5bc8ca708682208dc34ee115cc665e30d4a4f9f"
+    },
+    {
+      "path": "assembly_control_margin_review_20261030_1101/margins.py",
+      "bytes": 1447,
+      "sha256": "3c25719e0ab0783ff8228feb63ca142d0474a71c421e4f812fe25a7372c9f169"
+    },
+    {
+      "path": "assembly_control_margin_review_20261030_1101/screen.py",
+      "bytes": 7577,
+      "sha256": "f7b9f7f97b8815acd44a0a96d5bc8ca708682208dc34ee115cc665e30d4a4f9f"
+    },
+    {
+      "path": "independent_sccb_mechanical_20261030_1222/independent_corner.py",
+      "bytes": 2696,
+      "sha256": "af5dbf126b61dfdc955eedd186f51b15f226d818185bfe794a543819d8df485d"
+    },
+    {
+      "path": "independent_sccb_mechanical_20261030_1222/native_extra.py",
+      "bytes": 2339,
+      "sha256": "b3497ef53491c8ab02abad5d9efff8920e382a54fde6de478fb96d239b462b20"
+    },
+    {
+      "path": "independent_sccb_mechanical_20261030_1222/placement_screen.py",
+      "bytes": 2906,
+      "sha256": "feb0d13a956e2955e8733f0213624ae900f78d8ebc07cae83ed66748e4571b7b"
+    },
+    {
+      "path": "independent_sccb_mechanical_20261030_1222/screen.py",
+      "bytes": 9106,
+      "sha256": "a02073ba8076e650f92e652347abc9044a8f84a66b616d653771975d13bab9c1"
+    },
+    {
+      "path": "independent_sccb_mechanical_20261030_1222/source_junction.py",
+      "bytes": 2433,
+      "sha256": "55b7103b84e398dd1a6444bb7c36d9bfc3909ca4dabd3ebe3892a78365af07e3"
+    },
+    {
+      "path": "assembly_sccb_final_review_20261030_1218/placement_screen.py",
+      "bytes": 2906,
+      "sha256": "feb0d13a956e2955e8733f0213624ae900f78d8ebc07cae83ed66748e4571b7b"
+    },
+    {
+      "path": "assembly_sccb_final_review_20261030_1218/screen.py",
+      "bytes": 9106,
+      "sha256": "a02073ba8076e650f92e652347abc9044a8f84a66b616d653771975d13bab9c1"
+    },
+    {
+      "path": "assembly_sccb_final_review_20261030_1218/source_junction.py",
+      "bytes": 2433,
+      "sha256": "55b7103b84e398dd1a6444bb7c36d9bfc3909ca4dabd3ebe3892a78365af07e3"
+    }
+  ],
+  "script_count": 13,
+  "native_author_requirements": [
+    "tail_courtyard_native_0949",
+    "ground_pair_native_1007",
+    "unused_bias_native_1017",
+    "control_envelope_native_1051",
+    "sccb_local_reference_1216"
+  ],
+  "native_author_requirement_detail": "screen.py loops read native PCB + manifest.json and hash every manifest-listed file; also selected_final.json. Retain full explicit author allowlists or deterministic verified reconstruction. All103 native footprint expectations remain unchanged.",
+  "relocation": "Only inventory contexts[*].path need relocation; every other context field and source hash unchanged. Launcher patches json.load result in memory, leaves frozen inventory bytes unchanged. Python filesystem audit rejects original workspace accesses outside isolated root after launcher reads its own report. FreeCAD receives only relocated verified context paths.",
+  "environment": "/usr/bin/python3; pcbnew; /usr/lib/freecad-python3/lib; FreeCAD/Part; QT_QPA_PLATFORM=offscreen. Run each script normal and -O in isolated workspace; launch margins after screen and placement outputs are deterministic geometry, not dynamic/fab approval.",
+  "gates": [
+    "NOFAB",
+    "NOPOWER",
+    "scoped static and nominal mechanical only",
+    "project contexts are historic geometry not physical assembly proof"
+  ],
+  "not_executed_original_scripts": true
+}

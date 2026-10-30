@@ -1,0 +1,1105 @@
+{
+  "stages": [
+    {
+      "stage": "sccb_local_reference_1216",
+      "sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+      "parent_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+      "all103_contract_equal": true,
+      "reference_zone_definitions_equal": false,
+      "declared_internal_patch": {
+        "net": "3V3_AON",
+        "layer": "In2.Cu",
+        "rectangle_mm": [
+          11.25,
+          64,
+          12.6,
+          65.8
+        ]
+      },
+      "expected_moved_poses": {
+        "R240": [
+          11,
+          70.5,
+          180
+        ],
+        "R241": [
+          11.85,
+          73.35,
+          90
+        ],
+        "C207": [
+          10.85,
+          65,
+          -90
+        ]
+      },
+      "outline": [
+        0.0,
+        -6.5,
+        14.0,
+        93.3
+      ],
+      "declared_target_refs": {
+        "CAM_SCL": [
+          "R240",
+          "U204"
+        ],
+        "CAM_SDA": [
+          "R241",
+          "U204"
+        ]
+      },
+      "new_tracks": 26,
+      "new_outer_tracks": 15,
+      "new_inner_tracks": 11,
+      "new_vias": 5,
+      "rows": [
+        {
+          "type": "track",
+          "net": "GND",
+          "start": [
+            10.85,
+            65.775
+          ],
+          "end": [
+            12.0,
+            65.775
+          ],
+          "width": 0.3,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "C207",
+              "entity": "CTX_C207",
+              "side": "F.Cu",
+              "area_mm2": 0.17784991745,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.129688028487,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.25284991745,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "C207"
+          ]
+        },
+        {
+          "type": "via",
+          "net": "GND",
+          "start": [
+            12.0,
+            65.775
+          ],
+          "end": [
+            12.0,
+            65.775
+          ],
+          "width": 0.6,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [
+            {
+              "ref": "C207",
+              "entity": "CTX_C207",
+              "side": "F.Cu",
+              "signed_gap_mm": 0.3750000000000007
+            }
+          ],
+          "segment_declared_refs": []
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            8.1125,
+            64.025
+          ],
+          "end": [
+            10.85,
+            64.225
+          ],
+          "width": 0.3,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U204",
+              "entity": "CTX_U204",
+              "side": "F.Cu",
+              "area_mm2": 0.279749966225,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "C207",
+              "entity": "CTX_C207",
+              "side": "F.Cu",
+              "area_mm2": 0.17822990282,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.122469396545,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.354949977675,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.25342990334,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "C207",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            10.85,
+            64.225
+          ],
+          "end": [
+            12.05,
+            64.875
+          ],
+          "width": 0.3,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "C207",
+              "entity": "CTX_C207",
+              "side": "F.Cu",
+              "area_mm2": 0.19741184863,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.174043332549,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "C207",
+              "side": "F.Cu",
+              "area_mm2": 0.28270755621,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "C207"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            10.325,
+            72.0
+          ],
+          "end": [
+            11.85,
+            72.525
+          ],
+          "width": 0.3,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "R241",
+              "entity": "CTX_R241",
+              "side": "F.Cu",
+              "area_mm2": 0.18605777702,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "R203",
+              "entity": "CTX_R203",
+              "side": "F.Cu",
+              "area_mm2": 0.1622615070265,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "R241",
+              "side": "F.Cu",
+              "area_mm2": 0.0693790217245,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "R203",
+              "side": "F.Cu",
+              "area_mm2": 0.0432986206915,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "R241",
+              "side": "F.Cu",
+              "area_mm2": 0.265377357948,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "R203",
+              "side": "F.Cu",
+              "area_mm2": 0.241581610903,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R203",
+            "R241"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            10.325,
+            70.5
+          ],
+          "end": [
+            10.325,
+            69.475
+          ],
+          "width": 0.3,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "R240",
+              "entity": "CTX_R240",
+              "side": "F.Cu",
+              "area_mm2": 0.17784991745,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "R240",
+              "side": "F.Cu",
+              "area_mm2": 0.17409991745,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "R240",
+              "side": "F.Cu",
+              "area_mm2": 0.25284991745,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R240"
+          ]
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "start": [
+            10.325,
+            69.475
+          ],
+          "end": [
+            10.325,
+            69.475
+          ],
+          "width": 0.45,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [
+            {
+              "ref": "R240",
+              "entity": "CTX_R240",
+              "side": "F.Cu",
+              "signed_gap_mm": 0.3250000000000114
+            },
+            {
+              "ref": "U301",
+              "entity": "CTX_U301",
+              "side": "B.Cu",
+              "signed_gap_mm": 0.47499999999998865
+            }
+          ],
+          "segment_declared_refs": []
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "start": [
+            12.05,
+            64.875
+          ],
+          "end": [
+            12.05,
+            64.875
+          ],
+          "width": 0.6,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [
+            {
+              "ref": "C207",
+              "entity": "CTX_C207",
+              "side": "F.Cu",
+              "signed_gap_mm": 0.42500000000000143
+            },
+            {
+              "ref": "C301",
+              "entity": "CTX_C301",
+              "side": "B.Cu",
+              "signed_gap_mm": 0.5344159634139329
+            }
+          ],
+          "segment_declared_refs": []
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            11.125,
+            65.025
+          ],
+          "end": [
+            12.05,
+            64.875
+          ],
+          "width": 0.5,
+          "layer": "B.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U301",
+              "entity": "CTX_U301",
+              "side": "B.Cu",
+              "area_mm2": 0.000215797109,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "C301",
+              "side": "B.Cu",
+              "area_mm2": 0.0017080918585,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "U301",
+              "side": "B.Cu",
+              "area_mm2": 0.024865040006,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "C301",
+              "side": "B.Cu",
+              "area_mm2": 0.1645003698975,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "C301",
+            "U301"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "start": [
+            10.9,
+            64.875
+          ],
+          "end": [
+            11.125,
+            65.025
+          ],
+          "width": 0.5,
+          "layer": "B.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U301",
+              "entity": "CTX_U301",
+              "side": "B.Cu",
+              "area_mm2": 0.000217471882,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "C301",
+              "entity": "CTX_C301",
+              "side": "B.Cu",
+              "area_mm2": 0.039831977005,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "C301",
+              "side": "B.Cu",
+              "area_mm2": 0.052458777752,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "U301",
+              "side": "B.Cu",
+              "area_mm2": 0.016784635785,
+              "declared_target_ref": true
+            },
+            {
+              "ref": "C301",
+              "side": "B.Cu",
+              "area_mm2": 0.197240502496,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "C301",
+            "U301"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SCL",
+          "start": [
+            9.3,
+            64.95
+          ],
+          "end": [
+            10.775,
+            68.125
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R240",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SCL",
+          "start": [
+            10.775,
+            68.125
+          ],
+          "end": [
+            11.825,
+            70.5
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "R240",
+              "entity": "CTX_R240",
+              "side": "F.Cu",
+              "area_mm2": 0.086742400799,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "R240",
+              "side": "F.Cu",
+              "area_mm2": 0.078510005178,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "R240",
+              "side": "F.Cu",
+              "area_mm2": 0.127743892538,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R240",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SCL",
+          "start": [
+            8.1125,
+            64.675
+          ],
+          "end": [
+            9.3,
+            64.95
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U204",
+              "entity": "CTX_U204",
+              "side": "F.Cu",
+              "area_mm2": 0.133939769011,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.1724326844005,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R240",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            6.25,
+            67.65
+          ],
+          "end": [
+            6.35,
+            67.075
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            12.125,
+            75.125
+          ],
+          "end": [
+            12.125,
+            77.025
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            11.85,
+            74.175
+          ],
+          "end": [
+            12.125,
+            75.125
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "R241",
+              "entity": "CTX_R241",
+              "side": "F.Cu",
+              "area_mm2": 0.07130245623,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "R241",
+              "side": "F.Cu",
+              "area_mm2": 0.0127434744055,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "R241",
+              "side": "F.Cu",
+              "area_mm2": 0.1103421164,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            6.35,
+            67.075
+          ],
+          "end": [
+            7.05,
+            65.475
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U204",
+              "entity": "CTX_U204",
+              "side": "F.Cu",
+              "area_mm2": 0.1848464589845,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.1848464589845,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.2167739394305,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            7.05,
+            65.475
+          ],
+          "end": [
+            8.1125,
+            65.325
+          ],
+          "width": 0.15,
+          "layer": "F.Cu",
+          "envelope_hits": [
+            {
+              "ref": "U204",
+              "entity": "CTX_U204",
+              "side": "F.Cu",
+              "area_mm2": 0.178634315546,
+              "declared_target_ref": true
+            }
+          ],
+          "fab_bbox_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.084583098406,
+              "declared_target_ref": true
+            }
+          ],
+          "courtyard_hits": [
+            {
+              "ref": "U204",
+              "side": "F.Cu",
+              "area_mm2": 0.178634315546,
+              "declared_target_ref": true
+            }
+          ],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "via",
+          "net": "CAM_SDA",
+          "start": [
+            12.125,
+            77.025
+          ],
+          "end": [
+            12.125,
+            77.025
+          ],
+          "width": 0.45,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [
+            {
+              "ref": "R243",
+              "entity": "CTX_R243",
+              "side": "F.Cu",
+              "signed_gap_mm": 0.4550735254367816
+            }
+          ],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "via",
+          "net": "CAM_SDA",
+          "start": [
+            6.25,
+            67.65
+          ],
+          "end": [
+            6.25,
+            67.65
+          ],
+          "width": 0.45,
+          "layer": "F.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [
+            {
+              "ref": "C209",
+              "entity": "package_plus_assumed_solder",
+              "side": "F.Cu",
+              "signed_gap_mm": 0.36296258384355207
+            },
+            {
+              "ref": "R301",
+              "entity": "CTX_R301",
+              "side": "B.Cu",
+              "signed_gap_mm": 0.47500000000000286
+            }
+          ],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            12.125,
+            77.025
+          ],
+          "end": [
+            12.125,
+            75.45
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            10.525,
+            73.85
+          ],
+          "end": [
+            10.35,
+            73.925
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            12.125,
+            75.45
+          ],
+          "end": [
+            10.525,
+            73.85
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            10.175,
+            73.8
+          ],
+          "end": [
+            9.95,
+            73.625
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            6.1,
+            68.175
+          ],
+          "end": [
+            6.25,
+            67.65
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            7.9,
+            71.3
+          ],
+          "end": [
+            7.9,
+            70.225
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            7.95,
+            71.5
+          ],
+          "end": [
+            7.9,
+            71.3
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            10.35,
+            73.925
+          ],
+          "end": [
+            10.175,
+            73.8
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            6.175,
+            68.475
+          ],
+          "end": [
+            6.1,
+            68.175
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            7.9,
+            70.225
+          ],
+          "end": [
+            6.175,
+            68.475
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        },
+        {
+          "type": "track",
+          "net": "CAM_SDA",
+          "start": [
+            9.95,
+            73.625
+          ],
+          "end": [
+            7.95,
+            71.5
+          ],
+          "width": 0.15,
+          "layer": "In3.Cu",
+          "envelope_hits": [],
+          "fab_bbox_hits": [],
+          "courtyard_hits": [],
+          "via_near_envelopes": [],
+          "segment_declared_refs": [
+            "R241",
+            "U204"
+          ]
+        }
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "stage": "control_envelope_native_1051",
+      "manifest_sha256": "bba53ef748716b28c7e841615fc8634b70dced334d6daf528e5ada90f1ff9ff7",
+      "files_verified": 113
+    },
+    {
+      "stage": "sccb_local_reference_1216",
+      "manifest_sha256": "daf598f9fe33f7bf527182e87f18fcc6856a3362a178905833f4d7c8ca753789",
+      "files_verified": 104
+    }
+  ],
+  "numeric_geometry": "KiCad ERROR_OUTSIDE,50nm polygon chord approximation; finite physical width; area threshold1e-8mm2",
+  "scope": "retained full budgets and provisional U205/C209; native Fab graphical bounding boxes conservative; courtyard geometry. Projection overlap is not fabricated protrusion or process pass. J108 no fitted body, explicit mixed-side operation qualification still open."
+}

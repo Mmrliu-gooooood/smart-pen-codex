@@ -1,0 +1,130 @@
+{
+  "status": "FIVE_REAL_NATIVE_CONTROL_BIAS_CUTS_TEST_SPECIMENS_NOFAB",
+  "cuts": [
+    {
+      "target": "CAM_PWDN_UART_RX",
+      "removed_uuids": [
+        "aafb5cab-f258-55d9-b8e4-4b07ba163c46",
+        "6cfaf750-f9bd-5823-9069-782c2596eb4d",
+        "284350ec-c431-51c9-a665-66a438142884",
+        "8dfe9fc1-a187-50b8-be1f-702d241467c7",
+        "6510fc9b-9b53-51c9-a228-385727a35091",
+        "a8c27c5d-d923-5db7-b3bd-23cfa8dc9cd9",
+        "43d72752-a1f8-5131-8561-a8beddd49d10",
+        "3fef94eb-442b-5c21-a12e-aa85bc2a75a7"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        70,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "78531f7ac21f5e039988dc93c44e535333b8e7c71c733c4c36217bc83b0f0207"
+    },
+    {
+      "target": "CAM_RESET_UART_TX",
+      "removed_uuids": [
+        "0499e4f2-b613-54b5-855c-a0fce3294908",
+        "d99bca07-698d-5705-8d15-36fe9472132e",
+        "a16eb970-2fb4-5223-ba01-373374f634aa",
+        "f52352a7-82a4-57fd-ba68-884c87567462",
+        "47ca09a5-4cdc-512a-a19a-832c892026c8",
+        "c4a7324f-1105-51ca-9902-8dcbc4ad7372",
+        "62d7cae8-e089-5d55-b6c8-99271818b68b",
+        "6fb17e41-6619-5ff4-9089-0c86217930f0",
+        "fa111303-eb59-527c-8f73-83ad83cc93b6",
+        "756c3b32-7567-5b15-9a4c-e74803f914c4",
+        "50d30357-f32c-5661-a63e-c13aca824d57",
+        "ce73def4-9dee-5de2-bde7-3315b98b5c24"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        70,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "933ab88ea99f8d51fc7c0d4a13fe7a32de3987edf281fa71e2c72803751def8f"
+    },
+    {
+      "target": "BOTH",
+      "removed_uuids": [
+        "0499e4f2-b613-54b5-855c-a0fce3294908",
+        "aafb5cab-f258-55d9-b8e4-4b07ba163c46",
+        "d99bca07-698d-5705-8d15-36fe9472132e",
+        "a16eb970-2fb4-5223-ba01-373374f634aa",
+        "f52352a7-82a4-57fd-ba68-884c87567462",
+        "47ca09a5-4cdc-512a-a19a-832c892026c8",
+        "c4a7324f-1105-51ca-9902-8dcbc4ad7372",
+        "62d7cae8-e089-5d55-b6c8-99271818b68b",
+        "6fb17e41-6619-5ff4-9089-0c86217930f0",
+        "fa111303-eb59-527c-8f73-83ad83cc93b6",
+        "756c3b32-7567-5b15-9a4c-e74803f914c4",
+        "50d30357-f32c-5661-a63e-c13aca824d57",
+        "ce73def4-9dee-5de2-bde7-3315b98b5c24",
+        "6cfaf750-f9bd-5823-9069-782c2596eb4d",
+        "284350ec-c431-51c9-a665-66a438142884",
+        "8dfe9fc1-a187-50b8-be1f-702d241467c7",
+        "6510fc9b-9b53-51c9-a228-385727a35091",
+        "a8c27c5d-d923-5db7-b3bd-23cfa8dc9cd9",
+        "43d72752-a1f8-5131-8561-a8beddd49d10",
+        "3fef94eb-442b-5c21-a12e-aa85bc2a75a7"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        71,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "2a5400724239f11fe6f589c4f954441deea3c89b0659d1a6292062c99e3e0866"
+    },
+    {
+      "target": "VIA_CAM_RESET_UART_TX",
+      "removed_uuids": [
+        "0499e4f2-b613-54b5-855c-a0fce3294908"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        2,
+        70,
+        0
+      ],
+      "predicted_violations": [
+        [
+          "track_dangling",
+          "a16eb970-2fb4-5223-ba01-373374f634aa"
+        ],
+        [
+          "track_dangling",
+          "f52352a7-82a4-57fd-ba68-884c87567462"
+        ]
+      ],
+      "pcb_sha256": "1d7de74b7e3c80bcd891f6af83bcc2b8cb9eaf478e7bafe2a50037c9bf34d248"
+    },
+    {
+      "target": "VIA_CAM_PWDN_UART_RX",
+      "removed_uuids": [
+        "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        2,
+        70,
+        0
+      ],
+      "predicted_violations": [
+        [
+          "track_dangling",
+          "6510fc9b-9b53-51c9-a228-385727a35091"
+        ],
+        [
+          "track_dangling",
+          "8dfe9fc1-a187-50b8-be1f-702d241467c7"
+        ]
+      ],
+      "pcb_sha256": "9bd6cf183092313520f51962ee58e234d3f98084544f59e5642bcf4e4fc5715b"
+    }
+  ]
+}

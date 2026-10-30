@@ -1,0 +1,96 @@
+{
+  "finite_geometry_errors": [],
+  "changed_vias_all_layer_all_pad_checks": [
+    {
+      "uuid": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+      "net": "GND",
+      "xy": [
+        1.25,
+        87.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "1ba49ad4-6eae-515d-aad4-1eb40505061b",
+      "net": "SENS_VIO_1V8",
+      "xy": [
+        3.5,
+        89.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "xy": [
+        12.1,
+        85.5
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "xy": [
+        12.7,
+        86.2
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "xy": [
+        12.9,
+        86.9
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "xy": [
+        13.1,
+        87.6
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "d04eca23-4164-5b2f-8673-95fe528f421f",
+      "net": "SENS_EXTCLK",
+      "xy": [
+        4.25,
+        88.175
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    }
+  ],
+  "changed_via_courtyard_overlaps": [
+    {
+      "via": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+      "ref": "J202",
+      "layer": "B.Courtyard",
+      "area_mm2": 0.028769428843
+    },
+    {
+      "via": "1ba49ad4-6eae-515d-aad4-1eb40505061b",
+      "ref": "J202",
+      "layer": "B.Courtyard",
+      "area_mm2": 0.28277386938
+    },
+    {
+      "via": "d04eca23-4164-5b2f-8673-95fe528f421f",
+      "ref": "J202",
+      "layer": "B.Courtyard",
+      "area_mm2": 0.110519414254
+    }
+  ],
+  "scope": "Nominal finite CAD; full J202 operating envelope and underbody/tenting/process must be reviewed separately. No pad overlap waivers."
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "label": "base",
+    "kind": "netlist",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/base/netlist.xml",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/ground_local_native_0920/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "base",
+    "kind": "bom",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "bom",
+      "--fields",
+      "Reference,Value,Footprint,MPN,MPN_candidate,${QUANTITY},${DNP}",
+      "--labels",
+      "Reference,Value,Footprint,MPN,MPN_candidate,Qty,DNP",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/base/bom.csv",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/ground_local_native_0920/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "base",
+    "kind": "erc",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/base/erc.json",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/ground_local_native_0920/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 5
+  },
+  {
+    "label": "base",
+    "kind": "drc",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--all-track-errors",
+      "--schematic-parity",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/base/drc.json",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/ground_local_native_0920/native/mainboard_revD.kicad_pcb"
+    ],
+    "exit": 5
+  },
+  {
+    "label": "candidate",
+    "kind": "netlist",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/candidate/netlist.xml",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "candidate",
+    "kind": "bom",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "bom",
+      "--fields",
+      "Reference,Value,Footprint,MPN,MPN_candidate,${QUANTITY},${DNP}",
+      "--labels",
+      "Reference,Value,Footprint,MPN,MPN_candidate,Qty,DNP",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/candidate/bom.csv",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 0
+  },
+  {
+    "label": "candidate",
+    "kind": "erc",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/candidate/erc.json",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/native/mainboard_revD.kicad_sch"
+    ],
+    "exit": 5
+  },
+  {
+    "label": "candidate",
+    "kind": "drc",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--all-track-errors",
+      "--schematic-parity",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/checks/candidate/drc.json",
+      "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail100_routing_native_0927/native/mainboard_revD.kicad_pcb"
+    ],
+    "exit": 5
+  }
+]

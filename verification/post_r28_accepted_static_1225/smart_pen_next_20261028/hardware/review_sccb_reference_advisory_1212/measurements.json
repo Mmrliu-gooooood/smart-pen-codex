@@ -1,0 +1,140 @@
+{
+  "vias": [
+    {
+      "net": "CAM_SDA",
+      "xy": [
+        6.25,
+        67.65
+      ],
+      "nearest_GND": [
+        {
+          "xy": [
+            4.9,
+            69.0
+          ],
+          "distance_mm": 1.909188309203674
+        },
+        {
+          "xy": [
+            3.8875,
+            66.875
+          ],
+          "distance_mm": 2.4863690896566437
+        },
+        {
+          "xy": [
+            1.9,
+            70.35
+          ],
+          "distance_mm": 5.1198144497627975
+        }
+      ]
+    },
+    {
+      "net": "CAM_SDA",
+      "xy": [
+        12.125,
+        77.025
+      ],
+      "nearest_GND": [
+        {
+          "xy": [
+            7.6,
+            74.0
+          ],
+          "distance_mm": 5.443000091861109
+        },
+        {
+          "xy": [
+            11.9,
+            86.3
+          ],
+          "distance_mm": 9.277728709118403
+        },
+        {
+          "xy": [
+            12.0,
+            67.0
+          ],
+          "distance_mm": 10.02577927145816
+        }
+      ]
+    }
+  ],
+  "planes": [
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "min_thickness_mm": 0.15
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "min_thickness_mm": 0.15
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "3V3_AON",
+      "min_thickness_mm": 0.15
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "min_thickness_mm": 0.15
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "min_thickness_mm": 0.15
+    }
+  ],
+  "small_crossing": [
+    {
+      "uuid": "428e208b-062b-5b02-a701-014bf0941a6f",
+      "segment": [
+        [
+          10.525,
+          73.85
+        ],
+        [
+          10.175,
+          73.8
+        ]
+      ],
+      "area_mm2": 5.0342019e-05,
+      "bbox_mm": [
+        10.319977,
+        73.744949,
+        10.358829,
+        73.7505
+      ],
+      "foreign_via": [
+        10.4,
+        73.3
+      ]
+    }
+  ],
+  "foreign_source_hole_counterfactual": [
+    {
+      "signal": "F.Cu",
+      "ref": "In1.Cu",
+      "before_missing_mm2": 0.1314379517365,
+      "after_foreign_vias_removed_missing_mm2": 0.129838556582,
+      "recovered_projection_mm2": 0.0015993840145
+    },
+    {
+      "signal": "In3.Cu",
+      "ref": "In4.Cu",
+      "before_missing_mm2": 0.130993091541,
+      "after_foreign_vias_removed_missing_mm2": 0.129949028969,
+      "recovered_projection_mm2": 0.0010442354
+    },
+    {
+      "signal": "In3.Cu",
+      "ref": "In2.Cu",
+      "before_missing_mm2": 0.4969196672505,
+      "after_foreign_vias_removed_missing_mm2": 0.4958756046785,
+      "recovered_projection_mm2": 0.0010442354
+    }
+  ]
+}

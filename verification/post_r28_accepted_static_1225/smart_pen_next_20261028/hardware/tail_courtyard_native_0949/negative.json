@@ -1,0 +1,89 @@
+{
+  "status": "THREE_TARGET_SPECIFIC_NATIVE_CUTS_NOT_FABRICATION_BOARDS",
+  "cuts": [
+    {
+      "target": "J202.18",
+      "net": "SENS_EXTCLK",
+      "removed_uuid": "ff1c9db9-7e8f-5a73-9d76-3ffafed66723",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "a77e016f-7e9d-547a-8bec-10b643888625"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_EXTCLK] on B.Cu, length 1.7500 mm",
+              "pos": {
+                "x": 2.5,
+                "y": 88.1
+              },
+              "uuid": "a77e016f-7e9d-547a-8bec-10b643888625"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "415b90f28e2d19669e52300a02dd2a0dab9ec78d80800056ec69a9ea2b35d52f"
+    },
+    {
+      "target": "J202.23",
+      "net": "SENS_VIO_1V8",
+      "removed_uuid": "01419084-3892-5710-8589-b0e5adee8cea",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "f7801833-8d01-5126-942c-4b3abb3a4ec5"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_VIO_1V8] on B.Cu, length 0.9500 mm",
+              "pos": {
+                "x": 1.75,
+                "y": 85.6
+              },
+              "uuid": "f7801833-8d01-5126-942c-4b3abb3a4ec5"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "de6ad8a02dd15ed5581e94e776c66bd06b11d2ffc85a6e6d7c77b39fba746dcd"
+    },
+    {
+      "target": "J202.24",
+      "net": "GND",
+      "removed_uuid": "b13e01f6-1537-41d8-9bf3-4757f6464100",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [],
+      "violations": [],
+      "pcb_sha256": "1a5988ab86345c2ee8f10d1b066cf6df30312a3fcbfcc711392deda8694ab991"
+    }
+  ]
+}

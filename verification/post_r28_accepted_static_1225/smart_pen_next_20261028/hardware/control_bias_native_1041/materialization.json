@@ -1,0 +1,373 @@
+{
+  "status": "CONTROL_BIAS2_EXPERIMENT_NOFAB_NOPOWER",
+  "base_sha256": "2a5400724239f11fe6f589c4f954441deea3c89b0659d1a6292062c99e3e0866",
+  "pcb_sha256": "30f01510b106f16b5628850d5d8d08375ae3fd53e2c6b083b29f6a356a4301a1",
+  "source_model": "hardware/control_bias_native_1041/selected_final.json",
+  "model_sha256": "1de126096361cff0a73a79611a99f00a61ffaf5804fe1115251cbf5d45182136",
+  "removed": [],
+  "added": [
+    "05e49830-330c-5a0b-b9e6-5a4f648e052b",
+    "07d38a6e-91cc-58cc-99d6-2cc494501e94",
+    "08831de9-0b21-50f6-8bce-13193f6bd476",
+    "12380e8d-11f8-534f-bf60-ca65e61216fa",
+    "2d68f3b8-d16e-5a33-b95f-6353fe7c23f9",
+    "2da17dd7-d1f6-5abf-88dc-4c52a0a145f4",
+    "2ebcba29-47a7-5ac7-8dc0-042d1920651a",
+    "36fb972c-98af-54d6-8f56-8127e1a9da13",
+    "3bb64e59-37d4-52ec-beae-097062eb775a",
+    "4ee17d16-3a10-5264-bd70-7f91fdecc8b8",
+    "55d27a24-7d33-54d2-aafe-c2c745cd1c55",
+    "5a8e9a0d-de23-5080-b7bd-e86e4b5f2c06",
+    "5e922884-6a03-52d1-89e5-f29219881002",
+    "749f4eba-71ff-5a10-a54c-07471091ed1b",
+    "7ab0e264-42a9-58c8-8b32-aa416be2d2c8",
+    "800e2ef4-146e-5d6e-81f0-9a0053a0b70b",
+    "dba26ef5-d859-5c9a-bb36-f9c5b32ea1ea",
+    "e45bc42c-a610-5c17-86e4-064c6073173b",
+    "ec6d31aa-246e-5801-96a5-e780a42e093d",
+    "f2b8c953-65d3-572f-a439-27553644e743",
+    "f5bc687a-4499-575d-9dc2-658c323c5f34"
+  ],
+  "mapping": [
+    {
+      "uuid": "55d27a24-7d33-54d2-aafe-c2c745cd1c55",
+      "net": "CAM_RESET_UART_TX",
+      "type": "via",
+      "a": [
+        11.275,
+        55.025
+      ],
+      "b": [
+        11.275,
+        55.025
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "dba26ef5-d859-5c9a-bb36-f9c5b32ea1ea",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "via",
+      "a": [
+        6.725,
+        60.775
+      ],
+      "b": [
+        6.725,
+        60.775
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "layer": "through"
+    },
+    {
+      "uuid": "e45bc42c-a610-5c17-86e4-064c6073173b",
+      "net": "CAM_RESET_UART_TX",
+      "type": "track",
+      "a": [
+        5.675,
+        53.1375
+      ],
+      "b": [
+        5.875,
+        54.125
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "12380e8d-11f8-534f-bf60-ca65e61216fa",
+      "net": "CAM_RESET_UART_TX",
+      "type": "track",
+      "a": [
+        5.875,
+        54.125
+      ],
+      "b": [
+        11.275,
+        55.025
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "4ee17d16-3a10-5264-bd70-7f91fdecc8b8",
+      "net": "CAM_RESET_UART_TX",
+      "type": "track",
+      "a": [
+        11.275,
+        55.025
+      ],
+      "b": [
+        7.475,
+        56.725
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "05e49830-330c-5a0b-b9e6-5a4f648e052b",
+      "net": "CAM_RESET_UART_TX",
+      "type": "track",
+      "a": [
+        7.475,
+        56.725
+      ],
+      "b": [
+        6.175,
+        56.725
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "2d68f3b8-d16e-5a33-b95f-6353fe7c23f9",
+      "net": "CAM_RESET_UART_TX",
+      "type": "track",
+      "a": [
+        6.175,
+        56.725
+      ],
+      "b": [
+        5.175,
+        56.0
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "749f4eba-71ff-5a10-a54c-07471091ed1b",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        5.025,
+        53.1375
+      ],
+      "b": [
+        5.025,
+        53.925
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "08831de9-0b21-50f6-8bce-13193f6bd476",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        5.025,
+        53.925
+      ],
+      "b": [
+        5.725,
+        54.55
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "5e922884-6a03-52d1-89e5-f29219881002",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        5.725,
+        54.55
+      ],
+      "b": [
+        9.725,
+        56.95
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f2b8c953-65d3-572f-a439-27553644e743",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        9.725,
+        56.95
+      ],
+      "b": [
+        10.275,
+        58.15
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "07d38a6e-91cc-58cc-99d6-2cc494501e94",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        10.275,
+        58.15
+      ],
+      "b": [
+        10.275,
+        59.575
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "36fb972c-98af-54d6-8f56-8127e1a9da13",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        10.275,
+        59.575
+      ],
+      "b": [
+        9.05,
+        59.575
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "3bb64e59-37d4-52ec-beae-097062eb775a",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        9.05,
+        59.575
+      ],
+      "b": [
+        7.85,
+        60.75
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7ab0e264-42a9-58c8-8b32-aa416be2d2c8",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        7.85,
+        60.75
+      ],
+      "b": [
+        7.6,
+        60.8
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2ebcba29-47a7-5ac7-8dc0-042d1920651a",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        7.6,
+        60.8
+      ],
+      "b": [
+        7.325,
+        60.7
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "800e2ef4-146e-5d6e-81f0-9a0053a0b70b",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        7.325,
+        60.7
+      ],
+      "b": [
+        6.725,
+        60.775
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "5a8e9a0d-de23-5080-b7bd-e86e4b5f2c06",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        6.725,
+        60.775
+      ],
+      "b": [
+        6.2,
+        60.525
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "ec6d31aa-246e-5801-96a5-e780a42e093d",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        6.2,
+        60.525
+      ],
+      "b": [
+        6.075,
+        60.475
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f5bc687a-4499-575d-9dc2-658c323c5f34",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        6.075,
+        60.475
+      ],
+      "b": [
+        5.725,
+        59.825
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "2da17dd7-d1f6-5abf-88dc-4c52a0a145f4",
+      "net": "CAM_PWDN_UART_RX",
+      "type": "track",
+      "a": [
+        5.725,
+        59.825
+      ],
+      "b": [
+        5.175,
+        58.6
+      ],
+      "width": 0.15,
+      "drill": null,
+      "layer": "B.Cu"
+    }
+  ],
+  "objects": 1285,
+  "inverse_prefill_parent_bytes_exact": true,
+  "refill_byte_stable": true,
+  "source_and_footprint_changes": []
+}

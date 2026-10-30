@@ -1,0 +1,101 @@
+{
+  "new_vias": [
+    "0499e4f2-b613-54b5-855c-a0fce3294908",
+    "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+  ],
+  "actual_native_hole_reports": [
+    {
+      "net": "CAM_RESET_UART_TX",
+      "via": "0499e4f2-b613-54b5-855c-a0fce3294908",
+      "signal_layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "per_zone_containing_hole_counts": [
+        0,
+        0
+      ],
+      "union_containing_holes": 1,
+      "actual_hole_area_mm2": 0.4455129440325,
+      "actual_hole_bbox_mm": [
+        11.0995,
+        54.3745,
+        0.751,
+        0.751
+      ],
+      "via_centers_in_actual_hole": [
+        "0499e4f2-b613-54b5-855c-a0fce3294908"
+      ],
+      "new_input_uncovered_mm2": 0.064874914372,
+      "uncovered_outside_actual_hole_mm2": 0.0
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "via": "0499e4f2-b613-54b5-855c-a0fce3294908",
+      "signal_layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "per_zone_containing_hole_counts": [
+        0,
+        0
+      ],
+      "union_containing_holes": 1,
+      "actual_hole_area_mm2": 0.4455129440325,
+      "actual_hole_bbox_mm": [
+        11.0995,
+        54.3745,
+        0.751,
+        0.751
+      ],
+      "via_centers_in_actual_hole": [
+        "0499e4f2-b613-54b5-855c-a0fce3294908"
+      ],
+      "new_input_uncovered_mm2": 0.0649025127865,
+      "uncovered_outside_actual_hole_mm2": 0.0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "via": "aafb5cab-f258-55d9-b8e4-4b07ba163c46",
+      "signal_layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "per_zone_containing_hole_counts": [
+        0,
+        1
+      ],
+      "union_containing_holes": 1,
+      "actual_hole_area_mm2": 0.445512997293,
+      "actual_hole_bbox_mm": [
+        11.4745,
+        57.2245,
+        0.751,
+        0.751
+      ],
+      "via_centers_in_actual_hole": [
+        "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+      ],
+      "new_input_uncovered_mm2": 0.0649173472175,
+      "uncovered_outside_actual_hole_mm2": 0.0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "via": "aafb5cab-f258-55d9-b8e4-4b07ba163c46",
+      "signal_layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "per_zone_containing_hole_counts": [
+        0,
+        1
+      ],
+      "union_containing_holes": 1,
+      "actual_hole_area_mm2": 0.445512997293,
+      "actual_hole_bbox_mm": [
+        11.4745,
+        57.2245,
+        0.751,
+        0.751
+      ],
+      "via_centers_in_actual_hole": [
+        "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+      ],
+      "new_input_uncovered_mm2": 0.064950783007,
+      "uncovered_outside_actual_hole_mm2": 0.0
+    }
+  ],
+  "scope": "Classification uses native actual hole of same-layer filled-zone UNION (not individual zone edge notches), no ideal/expanded-hole masking, not SI/current/thermal qualification"
+}

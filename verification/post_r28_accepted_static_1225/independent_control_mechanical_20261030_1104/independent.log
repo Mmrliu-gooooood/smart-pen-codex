@@ -1,0 +1,83 @@
+20:05:21: Debug: Adding duplicate image handler for 'PNG file'
+20:05:21: Debug: Adding duplicate image handler for 'JPEG file'
+20:05:21: Debug: Adding duplicate image handler for 'TIFF file'
+20:05:21: Debug: Adding duplicate image handler for 'GIF file'
+20:05:21: Debug: Adding duplicate image handler for 'PNM file'
+20:05:21: Debug: Adding duplicate image handler for 'PCX file'
+20:05:21: Debug: Adding duplicate image handler for 'IFF file'
+20:05:21: Debug: Adding duplicate image handler for 'Windows icon file'
+20:05:21: Debug: Adding duplicate image handler for 'Windows cursor file'
+20:05:21: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+20:05:21: Debug: Adding duplicate image handler for 'TGA file'
+20:05:21: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "board_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+  "outline": [
+    0.0,
+    -6.5,
+    14.0,
+    93.3
+  ],
+  "additional_pad_attributes_equal": true,
+  "new_tracks": 18,
+  "new_vias": 2,
+  "independent_OCC_full_width_margins": [
+    {
+      "ref": "J104_review_expanded_rectangle",
+      "bounds": [
+        8.955,
+        51.755,
+        11.045,
+        57.845
+      ],
+      "minimum": {
+        "type": "via",
+        "net": "CAM_RESET_UART_TX",
+        "gap_mm": 0.20500000000000007
+      },
+      "closest_track": {
+        "type": "track",
+        "net": "CAM_RESET_UART_TX",
+        "gap_mm": 0.20958922617430498
+      }
+    },
+    {
+      "ref": "C206",
+      "bounds": [
+        9.124999999999998,
+        58.3875,
+        11.575000000000001,
+        59.33749999999999
+      ],
+      "minimum": {
+        "type": "via",
+        "net": "CAM_PWDN_UART_RX",
+        "gap_mm": 0.6091350310351442
+      },
+      "closest_track": {
+        "type": "track",
+        "net": "CAM_PWDN_UART_RX",
+        "gap_mm": 0.7591350310351421
+      }
+    },
+    {
+      "ref": "J104_actual_native_cached",
+      "bounds": [
+        9.005,
+        51.805,
+        10.995,
+        57.795
+      ],
+      "minimum": {
+        "type": "via",
+        "net": "CAM_RESET_UART_TX",
+        "gap_mm": 0.2550000000000008
+      },
+      "closest_track": {
+        "type": "track",
+        "net": "CAM_RESET_UART_TX",
+        "gap_mm": 0.26040873084828414
+      }
+    }
+  ]
+}

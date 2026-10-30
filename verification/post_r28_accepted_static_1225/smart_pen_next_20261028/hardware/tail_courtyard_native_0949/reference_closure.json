@@ -1,0 +1,95 @@
+{
+  "independently_localized_adjacent_clearance_gap_vertices_mm": [
+    [
+      4.325,
+      87.80635
+    ],
+    [
+      4.299435,
+      87.7995
+    ],
+    [
+      4.2755,
+      87.7995
+    ],
+    [
+      4.325,
+      87.778996
+    ]
+  ],
+  "old_clock_projection_in_gap_mm2": 0.000595034125,
+  "new_clock_projection_in_gap_mm2": 0.0,
+  "adjacent_AON_SDA_via_raw_geometry_unchanged": true,
+  "clock_avoids_gap_not_claim_gap_filled": true,
+  "parent_and_candidate_total_net_lengths": [
+    {
+      "GND": {
+        "planar_length_mm": 126.93579867581684,
+        "segments": 145,
+        "vias": 53,
+        "per_layer_mm": {
+          "F.Cu": 92.34208401807973,
+          "In3.Cu": 0,
+          "B.Cu": 34.5937146577371
+        }
+      },
+      "SENS_VIO_1V8": {
+        "planar_length_mm": 101.56623080170922,
+        "segments": 37,
+        "vias": 7,
+        "per_layer_mm": {
+          "F.Cu": 13.780878419260283,
+          "In3.Cu": 85.13535238244894,
+          "B.Cu": 2.65
+        }
+      },
+      "SENS_EXTCLK": {
+        "planar_length_mm": 44.5625,
+        "segments": 7,
+        "vias": 3,
+        "per_layer_mm": {
+          "F.Cu": 1.0,
+          "In3.Cu": 8.475,
+          "B.Cu": 35.0875
+        }
+      }
+    },
+    {
+      "GND": {
+        "planar_length_mm": 127.50634279280212,
+        "segments": 145,
+        "vias": 53,
+        "per_layer_mm": {
+          "F.Cu": 92.34208401807973,
+          "In3.Cu": 0,
+          "B.Cu": 35.16425877472238
+        }
+      },
+      "SENS_VIO_1V8": {
+        "planar_length_mm": 101.56808201893048,
+        "segments": 38,
+        "vias": 7,
+        "per_layer_mm": {
+          "F.Cu": 13.780878419260283,
+          "In3.Cu": 83.6372035996702,
+          "B.Cu": 4.15
+        }
+      },
+      "SENS_EXTCLK": {
+        "planar_length_mm": 47.94195860595227,
+        "segments": 10,
+        "vias": 3,
+        "per_layer_mm": {
+          "F.Cu": 1.0,
+          "In3.Cu": 9.454458605952276,
+          "B.Cu": 37.4875
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Route length changes require whole-clock timing/return qualification; geometry is not timing approval",
+    "Own-antipad and all residual uncovered areas remain fully reported in verify.json",
+    "Existing local supply vias retain diameter/drill; no current/thermal qualification"
+  ]
+}

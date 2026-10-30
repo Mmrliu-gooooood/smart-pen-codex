@@ -1,0 +1,51 @@
+{
+  "status": "THREE_REAL_NATIVE_GROUND_CUTS_TEST_SPECIMENS_NOFAB",
+  "cuts": [
+    {
+      "target": "R219.2",
+      "removed_uuids": [
+        "d52a9418-6d55-5883-abac-3d51ba89aa70",
+        "357b6b72-697e-5d26-a707-10cad6f88c47"
+      ],
+      "exact_named_pad_components_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        74,
+        0
+      ],
+      "pcb_sha256": "042d196b31d825fba93573dd8f6c2c4edad223489485f35d3ad3c4da81edd58e"
+    },
+    {
+      "target": "R229.2",
+      "removed_uuids": [
+        "ded15938-d663-57af-8c07-b93932e056f8",
+        "10fcce4e-c0a6-5748-a104-27c8c727bbcf",
+        "4921e48e-371f-56e2-b8e1-c1069f3d9464"
+      ],
+      "exact_named_pad_components_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        74,
+        0
+      ],
+      "pcb_sha256": "77c4584df5d36e0edf327b07d00a437bd65882acc34592c5438d1fce980c9f55"
+    },
+    {
+      "target": "BOTH",
+      "removed_uuids": [
+        "d52a9418-6d55-5883-abac-3d51ba89aa70",
+        "357b6b72-697e-5d26-a707-10cad6f88c47",
+        "ded15938-d663-57af-8c07-b93932e056f8",
+        "10fcce4e-c0a6-5748-a104-27c8c727bbcf",
+        "4921e48e-371f-56e2-b8e1-c1069f3d9464"
+      ],
+      "exact_named_pad_components_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        75,
+        0
+      ],
+      "pcb_sha256": "8684d20fa449402ab1309b9af17d1cb64e0e6c4935532a36febaf362b0060f09"
+    }
+  ]
+}

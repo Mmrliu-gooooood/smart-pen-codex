@@ -1,0 +1,307 @@
+{
+  "verdict": "ACCEPT_SCOPED_STATIC_CONTROL_PAIR_ALTERNATIVE_AND_CORRECTED_UNION_CLASSIFIER",
+  "candidate_pcb_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+  "candidate_manifest_sha256": "bba53ef748716b28c7e841615fc8634b70dced334d6daf528e5ada90f1ff9ff7",
+  "accepted_parent_pcb_sha256": "2a5400724239f11fe6f589c4f954441deea3c89b0659d1a6292062c99e3e0866",
+  "not_based_on_mechanically_gated1041": true,
+  "frozen_files_verified_before_after": 113,
+  "dependencies_verified_before_after": 7,
+  "native_KiCad": "9.0.2",
+  "actual_DRC_unconnected_parity": [
+    0,
+    69,
+    0
+  ],
+  "exact_pair_merges": {
+    "CAM_RESET_UART_TX": [
+      "R222.1",
+      "U203.5"
+    ],
+    "CAM_PWDN_UART_RX": [
+      "R223.1",
+      "U203.6"
+    ]
+  },
+  "all_other_net_partitions_unchanged": true,
+  "core_GND_AON_SENS": [
+    94,
+    41,
+    12
+  ],
+  "new_tracks_vias": [
+    18,
+    2
+  ],
+  "old_raw_copper_FP_outline_source_unchanged": true,
+  "netlist_pinfunctions_unchanged": true,
+  "source_semantics_and_native_causal_hole_check": {
+    "pinroles": {
+      "U203.5": {
+        "net": "CAM_RESET_UART_TX",
+        "function": "1A2"
+      },
+      "U203.6": {
+        "net": "CAM_PWDN_UART_RX",
+        "function": "2A1"
+      },
+      "U203.2": {
+        "net": "3V3_AON",
+        "function": "1DIR"
+      },
+      "U203.3": {
+        "net": "3V3_AON",
+        "function": "2DIR"
+      },
+      "U203.12": {
+        "net": "SENS_XSHUTDN_N",
+        "function": "1B2"
+      },
+      "U203.11": {
+        "net": "SENS_TRIG_IN",
+        "function": "2B1"
+      }
+    },
+    "physical_target_net_components": {
+      "CAM_RESET_UART_TX": [
+        [
+          "J104.1"
+        ],
+        [
+          "R222.1",
+          "U203.5"
+        ],
+        [
+          "U101.49"
+        ]
+      ],
+      "CAM_PWDN_UART_RX": [
+        [
+          "J104.2"
+        ],
+        [
+          "R223.1",
+          "U203.6"
+        ],
+        [
+          "U101.50"
+        ]
+      ]
+    },
+    "actual_direction_VCCA_and_bias_grounds_in_expected_core": true,
+    "pad_sides": {
+      "U203.5": "F",
+      "U203.6": "F",
+      "R222.1": "B",
+      "R223.1": "B"
+    },
+    "own_via_hole_causal_native_refill_check": [
+      {
+        "net": "CAM_RESET_UART_TX",
+        "reference": "In1.Cu",
+        "uncovered_without_own_vias_mm2": 0.0
+      },
+      {
+        "net": "CAM_RESET_UART_TX",
+        "reference": "In4.Cu",
+        "uncovered_without_own_vias_mm2": 0.0
+      },
+      {
+        "net": "CAM_PWDN_UART_RX",
+        "reference": "In1.Cu",
+        "uncovered_without_own_vias_mm2": 0.0
+      },
+      {
+        "net": "CAM_PWDN_UART_RX",
+        "reference": "In4.Cu",
+        "uncovered_without_own_vias_mm2": 0.0
+      }
+    ],
+    "removed_vias": [
+      {
+        "net": "CAM_RESET_UART_TX",
+        "xy_mm": [
+          11.475,
+          54.75
+        ],
+        "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908"
+      },
+      {
+        "net": "CAM_PWDN_UART_RX",
+        "xy_mm": [
+          11.85,
+          57.6
+        ],
+        "uuid": "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+      }
+    ],
+    "datasheet_semantics": "Previously visually reviewed same hash TI SCES877B p4,p20: PW pin5=1A2,pin6=2A1,pins2/3=1DIR/2DIR; DIR high selects A as input when enabled. No conclusion from UART RX/TX names.",
+    "scope": "Static source/physical topology only. Diagnostic broken specimen, never candidate. No dynamic/loaded/timing/sequence approval."
+  },
+  "independent_union_classifier": {
+    "reports": [
+      {
+        "net": "CAM_RESET_UART_TX",
+        "reference": "In1.Cu",
+        "zone_count": 2,
+        "per_zone_contains_hole": [
+          0,
+          0
+        ],
+        "union_holes": 1,
+        "union_reverse_order_material_difference_nm2": 0,
+        "actual_union_hole_area_mm2": 0.4455129440325,
+        "uncovered_mm2": 0.064874914372,
+        "outside_actual_union_hole_area_nm2": 0.0,
+        "other_vias_in_hole": [],
+        "zone_outline_x_ranges_mm": [
+          [
+            0.3,
+            11.7
+          ],
+          [
+            11.4,
+            13.7
+          ]
+        ]
+      },
+      {
+        "net": "CAM_PWDN_UART_RX",
+        "reference": "In1.Cu",
+        "zone_count": 2,
+        "per_zone_contains_hole": [
+          0,
+          1
+        ],
+        "union_holes": 1,
+        "union_reverse_order_material_difference_nm2": 0,
+        "actual_union_hole_area_mm2": 0.445512997293,
+        "uncovered_mm2": 0.0649173472175,
+        "outside_actual_union_hole_area_nm2": 0.0,
+        "other_vias_in_hole": [],
+        "zone_outline_x_ranges_mm": [
+          [
+            0.3,
+            11.7
+          ],
+          [
+            11.4,
+            13.7
+          ]
+        ]
+      },
+      {
+        "net": "CAM_RESET_UART_TX",
+        "reference": "In4.Cu",
+        "zone_count": 2,
+        "per_zone_contains_hole": [
+          0,
+          0
+        ],
+        "union_holes": 1,
+        "union_reverse_order_material_difference_nm2": 0,
+        "actual_union_hole_area_mm2": 0.4455129440325,
+        "uncovered_mm2": 0.0649025127865,
+        "outside_actual_union_hole_area_nm2": 0.0,
+        "other_vias_in_hole": [],
+        "zone_outline_x_ranges_mm": [
+          [
+            0.3,
+            11.7
+          ],
+          [
+            11.4,
+            13.7
+          ]
+        ]
+      },
+      {
+        "net": "CAM_PWDN_UART_RX",
+        "reference": "In4.Cu",
+        "zone_count": 2,
+        "per_zone_contains_hole": [
+          0,
+          1
+        ],
+        "union_holes": 1,
+        "union_reverse_order_material_difference_nm2": 0,
+        "actual_union_hole_area_mm2": 0.445512997293,
+        "uncovered_mm2": 0.064950783007,
+        "outside_actual_union_hole_area_nm2": 0.0,
+        "other_vias_in_hole": [],
+        "zone_outline_x_ranges_mm": [
+          [
+            0.3,
+            11.7
+          ],
+          [
+            11.4,
+            13.7
+          ]
+        ]
+      }
+    ],
+    "verdict": "Union before hole extraction correct; RESET per-zone notches are not a union copper gap. No expanded masks; outside-hole equality required exactly zero."
+  },
+  "independent_retained_reference": {
+    "projection_count": 1150,
+    "all_positive_loss_regions_including_subthreshold": []
+  },
+  "classifier_issue": "Per-zone hole extraction is invalid for a via clearance straddling overlapping same-net zones; the corrected same-layer union-before-hole extraction is correct. RESET [0,0] per-zone containing holes becomes1 actual union hole, not missing plane continuity. No expansion or increased threshold: outside-hole area exactly0nm2, reverse union order identical.",
+  "alternative1041_delta": {
+    "removed": 21,
+    "added": 20,
+    "all_partitions_equal": true,
+    "common_old_projection_count": 1150,
+    "common_old_reference_loss": []
+  },
+  "new_planar_lengths_mm": {
+    "RESET": 21.157251457,
+    "PWDN": 15.878596428
+  },
+  "five_negative_counts": {
+    "CAM_PWDN_UART_RX": [
+      0,
+      70,
+      0
+    ],
+    "CAM_RESET_UART_TX": [
+      0,
+      70,
+      0
+    ],
+    "BOTH": [
+      0,
+      71,
+      0
+    ],
+    "VIA_CAM_RESET_UART_TX": [
+      2,
+      70,
+      0
+    ],
+    "VIA_CAM_PWDN_UART_RX": [
+      2,
+      70,
+      0
+    ]
+  },
+  "normal_optimized_frozen_equal_report_hashes": {
+    "verify": "30664a7c2528c13eac6d1c92a5785b083c460970ed5fc9f4130985ab5b600453",
+    "physical": "a3c050caec01cadd9313b6c87bee7d9cb3c45d6018448a6e5be4ec61603395e3",
+    "new_reference_hole": "d6425f3e0d4797f72bb41ff33cb936639aa06602c64755dcff4dd1a4b76a949f",
+    "alternative_delta": "e8de7a2a9012bc93a9656472e8dc6f268d47442fc74ea2e39de8f1e4daf0c06d",
+    "negative": "6f8f0e8488e3ae865a49bda1561fdfefd8f3cd0b6e9b1bfc28013a4712d7f9d6",
+    "replay_rollback": "2c6f774e45813a2adc1e3a0dd2a8fc8c939631b71a9e8ddbb56a5924a1c08559",
+    "raw_delta": "d34088a01fe5b46f325f0619ffed303ee8da91c45a741cf529a56e34639d6b1e"
+  },
+  "native_replay_reverse_patch_files": 54,
+  "mechanics": "Exact full-envelope screen separate. Claimed nominal J104/C206 clearances are not fabrication tolerance/process approval. This verdict does not adopt gated1041.",
+  "restrictions": [
+    "NO FAB / NO POWER / NO ADOPTION AUTHORIZATION",
+    "JP201/JP202/JP301 OPEN; provider NULL",
+    "Only existing100k bias pairs complete; MCU/J104 remain separate",
+    "New own-via uncovered areas are nonzero, not SI approval",
+    "No timing/UART/load/threshold/leakage/sequence or manufacturing qualification",
+    "All inherited reference/clock/FPC/RF/interface/thermal/battery/process gates remain"
+  ]
+}

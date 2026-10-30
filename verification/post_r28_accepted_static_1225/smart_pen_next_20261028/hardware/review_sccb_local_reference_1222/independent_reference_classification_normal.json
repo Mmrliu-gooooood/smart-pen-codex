@@ -1,0 +1,205 @@
+{
+  "reports": [
+    {
+      "net": "CAM_SCL",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.0,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.0,
+      "intersecting_native_union_holes": []
+    },
+    {
+      "net": "CAM_SDA",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.1314379517365,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.066487256558,
+      "intersecting_native_union_holes": [
+        {
+          "area_uncovered_mm2": 0.0649506951785,
+          "via_centers": [
+            {
+              "uuid": "4a30ec69-3d39-5dbb-8b4e-c9e6056cf8aa",
+              "net": "CAM_SDA",
+              "added": true
+            }
+          ],
+          "isolated_own_new_vias": true
+        },
+        {
+          "area_uncovered_mm2": 0.0664871056115,
+          "via_centers": [
+            {
+              "uuid": "4b3929c1-e613-5103-8421-a2d0d3db98dc",
+              "net": "CAM_SDA",
+              "added": true
+            },
+            {
+              "uuid": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+              "net": "CAM_CT",
+              "added": false
+            },
+            {
+              "uuid": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+              "net": "CAM_ON",
+              "added": false
+            }
+          ],
+          "isolated_own_new_vias": false
+        }
+      ]
+    },
+    {
+      "net": "CAM_SDA",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_plane_nets": [
+        "3V3_AON"
+      ],
+      "uncovered_mm2": 0.4968693196805,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.4968693196805,
+      "intersecting_native_union_holes": [
+        {
+          "area_uncovered_mm2": 0.0659919285015,
+          "via_centers": [
+            {
+              "uuid": "4b3929c1-e613-5103-8421-a2d0d3db98dc",
+              "net": "CAM_SDA",
+              "added": true
+            },
+            {
+              "uuid": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+              "net": "CAM_CT",
+              "added": false
+            },
+            {
+              "uuid": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+              "net": "CAM_ON",
+              "added": false
+            }
+          ],
+          "isolated_own_new_vias": false
+        }
+      ]
+    },
+    {
+      "net": "CAM_SDA",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.130942743971,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.0659920487925,
+      "intersecting_native_union_holes": [
+        {
+          "area_uncovered_mm2": 0.0649506951785,
+          "via_centers": [
+            {
+              "uuid": "4a30ec69-3d39-5dbb-8b4e-c9e6056cf8aa",
+              "net": "CAM_SDA",
+              "added": true
+            }
+          ],
+          "isolated_own_new_vias": true
+        },
+        {
+          "area_uncovered_mm2": 0.0659919285015,
+          "via_centers": [
+            {
+              "uuid": "4b3929c1-e613-5103-8421-a2d0d3db98dc",
+              "net": "CAM_SDA",
+              "added": true
+            },
+            {
+              "uuid": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+              "net": "CAM_CT",
+              "added": false
+            },
+            {
+              "uuid": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+              "net": "CAM_ON",
+              "added": false
+            }
+          ],
+          "isolated_own_new_vias": false
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.3134313817805,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.0,
+      "intersecting_native_union_holes": [
+        {
+          "area_uncovered_mm2": 0.1452030706965,
+          "via_centers": [
+            {
+              "uuid": "74b99033-aad4-5080-9b59-c00695f2485c",
+              "net": "3V3_AON",
+              "added": true
+            }
+          ],
+          "isolated_own_new_vias": true
+        },
+        {
+          "area_uncovered_mm2": 0.1682282829185,
+          "via_centers": [
+            {
+              "uuid": "c12f3299-feac-5c22-9c36-cfab1d55e7f2",
+              "net": "3V3_AON",
+              "added": true
+            }
+          ],
+          "isolated_own_new_vias": true
+        }
+      ]
+    },
+    {
+      "net": "3V3_AON",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.3118684128075,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.0,
+      "intersecting_native_union_holes": [
+        {
+          "area_uncovered_mm2": 0.311868602698,
+          "via_centers": [
+            {
+              "uuid": "c12f3299-feac-5c22-9c36-cfab1d55e7f2",
+              "net": "3V3_AON",
+              "added": true
+            }
+          ],
+          "isolated_own_new_vias": true
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_plane_nets": [
+        "GND"
+      ],
+      "uncovered_mm2": 0.0,
+      "uncovered_outside_isolated_own_new_via_holes_mm2": 0.0,
+      "intersecting_native_union_holes": []
+    }
+  ],
+  "scope": "Actual filled same-layer union; all new paths disclosed, not an automatic reference acceptance. In2 is mixed power-plane union, not necessarily GND."
+}

@@ -1,0 +1,97 @@
+{
+  "status": "FOUR_REAL_NATIVE_INPUT_BIAS_CUTS_TEST_SPECIMENS_NOFAB",
+  "cuts": [
+    {
+      "target": "UNUSED_A_INPUT",
+      "removed_uuids": [
+        "16af79a1-b858-5e7b-b201-98b0a7c77edc",
+        "0593d184-bbb7-5d97-993e-c279ac3ef1d2",
+        "e14d1109-257f-5bb1-899a-d68ccbdcdc5a",
+        "18eb43ab-a08b-573f-9ef8-db1613d59d45",
+        "857c8025-50e3-5e19-940b-b29cb78c8f93",
+        "c06b8e04-c696-5a3d-8135-5f116671cf57",
+        "a224a93e-b253-5fb9-a259-2bcaf3bdec97",
+        "a7745c8a-f3b9-5239-b059-dd43203b3001",
+        "e30bf306-8a2b-5adf-83ef-2b9e24fe3d78"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        72,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "2b9b47af232d4d7582494fa0096b3e51847a93cea7f24970bdce44659cfb8e31"
+    },
+    {
+      "target": "UNUSED_B_INPUT",
+      "removed_uuids": [
+        "8c0e839e-7eca-54a6-b744-3f79cb1b0ab7",
+        "f422e1be-c6a4-57b8-91b7-5f7c9ecfdfbc",
+        "d720e73e-6578-55d4-850d-9d2774cb17d6",
+        "1326ebcf-2625-58ce-9e3c-19bc2b0e1942",
+        "ed139fc1-5c0e-5f33-a761-46548ebcd860",
+        "4a6194b5-ccdd-568f-b9a1-018a4257c097"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        72,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "dc86a4592a515fd7770033daad188875335452a4a263cf096ded4ff3eb3fb16f"
+    },
+    {
+      "target": "BOTH",
+      "removed_uuids": [
+        "8c0e839e-7eca-54a6-b744-3f79cb1b0ab7",
+        "f422e1be-c6a4-57b8-91b7-5f7c9ecfdfbc",
+        "d720e73e-6578-55d4-850d-9d2774cb17d6",
+        "1326ebcf-2625-58ce-9e3c-19bc2b0e1942",
+        "ed139fc1-5c0e-5f33-a761-46548ebcd860",
+        "4a6194b5-ccdd-568f-b9a1-018a4257c097",
+        "16af79a1-b858-5e7b-b201-98b0a7c77edc",
+        "0593d184-bbb7-5d97-993e-c279ac3ef1d2",
+        "e14d1109-257f-5bb1-899a-d68ccbdcdc5a",
+        "18eb43ab-a08b-573f-9ef8-db1613d59d45",
+        "857c8025-50e3-5e19-940b-b29cb78c8f93",
+        "c06b8e04-c696-5a3d-8135-5f116671cf57",
+        "a224a93e-b253-5fb9-a259-2bcaf3bdec97",
+        "a7745c8a-f3b9-5239-b059-dd43203b3001",
+        "e30bf306-8a2b-5adf-83ef-2b9e24fe3d78"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        73,
+        0
+      ],
+      "predicted_violations": [],
+      "pcb_sha256": "6d05642f7d15ba10c22266e551d72b8457d703bd7328dca79ff5c1c50812b4d9"
+    },
+    {
+      "target": "VIA_ONLY",
+      "removed_uuids": [
+        "8c0e839e-7eca-54a6-b744-3f79cb1b0ab7"
+      ],
+      "exact_selected_component_splits_only": true,
+      "actual_DRC_unconnected_parity": [
+        2,
+        72,
+        0
+      ],
+      "predicted_violations": [
+        [
+          "track_dangling",
+          "4a6194b5-ccdd-568f-b9a1-018a4257c097"
+        ],
+        [
+          "track_dangling",
+          "ed139fc1-5c0e-5f33-a761-46548ebcd860"
+        ]
+      ],
+      "pcb_sha256": "7cf60045a8bba04149f7c7074c8ef5f4e6b0151977b6a9a645b4431f414737dd"
+    }
+  ]
+}

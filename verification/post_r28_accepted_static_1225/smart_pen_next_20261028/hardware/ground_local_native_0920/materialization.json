@@ -1,0 +1,50 @@
+{
+  "status": "GND1_EXPERIMENT_NOFAB_NOPOWER",
+  "base_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+  "pcb_sha256": "ff70d9171b364e2d89ce13d109f22a2362afe76c340d384e194fb541bed6af8a",
+  "source_model": "hardware/ground_local_native_0920/selected_final.json",
+  "model_sha256": "d29a563f90104c28076c7c0c427e97907c9babb2b739cb00f0b43e5bf2139557",
+  "removed": [],
+  "added": [
+    "00428a52-102c-5014-ab49-a1d2af15bace",
+    "e6151dfb-8b4a-59f9-912c-97bca674b280"
+  ],
+  "mapping": [
+    {
+      "uuid": "e6151dfb-8b4a-59f9-912c-97bca674b280",
+      "type": "track",
+      "a": [
+        5.325,
+        41.5
+      ],
+      "b": [
+        3.825,
+        42.4
+      ],
+      "layer": "B.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R218.2"
+    },
+    {
+      "uuid": "00428a52-102c-5014-ab49-a1d2af15bace",
+      "type": "track",
+      "a": [
+        3.825,
+        42.4
+      ],
+      "b": [
+        5.325,
+        43.3
+      ],
+      "layer": "B.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R218.2"
+    }
+  ],
+  "objects": 1231,
+  "inverse_prefill_parent_bytes_exact": true,
+  "refill_byte_stable": true,
+  "source_and_footprint_changes": []
+}

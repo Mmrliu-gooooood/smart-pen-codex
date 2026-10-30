@@ -1,0 +1,121 @@
+{
+  "sha256": "8684d20fa449402ab1309b9af17d1cb64e0e6c4935532a36febaf362b0060f09",
+  "parent_sha256": "a14b30138f9f74ddbfb28bd20872160a1e83b96c1ed4da91d2805589050f97f4",
+  "changed_outer_tracks": [
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        1.25,
+        88.8
+      ],
+      "end": [
+        0.8,
+        87.4
+      ],
+      "width": 0.25,
+      "same_face_full_budget_projections": [
+        {
+          "ref": "J202",
+          "entity": "CTX_J202_open",
+          "projection_area_mm2": 0.28714085635353725
+        }
+      ]
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "layer": "B.Cu",
+      "start": [
+        1.75,
+        88.8
+      ],
+      "end": [
+        1.75,
+        85.6
+      ],
+      "width": 0.25,
+      "same_face_full_budget_projections": [
+        {
+          "ref": "J202",
+          "entity": "CTX_J202_open",
+          "projection_area_mm2": 0.2745436926061704
+        }
+      ]
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "layer": "B.Cu",
+      "start": [
+        1.75,
+        85.6
+      ],
+      "end": [
+        0.8,
+        85.6
+      ],
+      "width": 0.25,
+      "same_face_full_budget_projections": []
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "start": [
+        2.5,
+        87.525
+      ],
+      "end": [
+        2.5,
+        88.1
+      ],
+      "width": 0.15,
+      "same_face_full_budget_projections": [
+        {
+          "ref": "J202",
+          "entity": "CTX_J202_open",
+          "projection_area_mm2": 0.05383572933822105
+        }
+      ]
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "start": [
+        2.5,
+        88.1
+      ],
+      "end": [
+        4.25,
+        88.1
+      ],
+      "width": 0.15,
+      "same_face_full_budget_projections": [
+        {
+          "ref": "J202",
+          "entity": "CTX_J202_open",
+          "projection_area_mm2": 0.2801714586764462
+        }
+      ]
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "start": [
+        4.25,
+        88.1
+      ],
+      "end": [
+        4.25,
+        88.8
+      ],
+      "width": 0.15,
+      "same_face_full_budget_projections": [
+        {
+          "ref": "J202",
+          "entity": "CTX_J202_open",
+          "projection_area_mm2": 0.12267145867644336
+        }
+      ]
+    }
+  ],
+  "scope": "Finite copper projections only; same-face installation budget overlap does not prove protruding-body collision or accept solder/mask process. Inner routing has no exterior tool volume."
+}

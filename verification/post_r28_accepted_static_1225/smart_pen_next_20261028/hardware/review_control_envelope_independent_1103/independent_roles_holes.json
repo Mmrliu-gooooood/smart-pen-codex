@@ -1,0 +1,103 @@
+{
+  "pinroles": {
+    "U203.5": {
+      "net": "CAM_RESET_UART_TX",
+      "function": "1A2"
+    },
+    "U203.6": {
+      "net": "CAM_PWDN_UART_RX",
+      "function": "2A1"
+    },
+    "U203.2": {
+      "net": "3V3_AON",
+      "function": "1DIR"
+    },
+    "U203.3": {
+      "net": "3V3_AON",
+      "function": "2DIR"
+    },
+    "U203.12": {
+      "net": "SENS_XSHUTDN_N",
+      "function": "1B2"
+    },
+    "U203.11": {
+      "net": "SENS_TRIG_IN",
+      "function": "2B1"
+    }
+  },
+  "physical_target_net_components": {
+    "CAM_RESET_UART_TX": [
+      [
+        "J104.1"
+      ],
+      [
+        "R222.1",
+        "U203.5"
+      ],
+      [
+        "U101.49"
+      ]
+    ],
+    "CAM_PWDN_UART_RX": [
+      [
+        "J104.2"
+      ],
+      [
+        "R223.1",
+        "U203.6"
+      ],
+      [
+        "U101.50"
+      ]
+    ]
+  },
+  "actual_direction_VCCA_and_bias_grounds_in_expected_core": true,
+  "pad_sides": {
+    "U203.5": "F",
+    "U203.6": "F",
+    "R222.1": "B",
+    "R223.1": "B"
+  },
+  "own_via_hole_causal_native_refill_check": [
+    {
+      "net": "CAM_RESET_UART_TX",
+      "reference": "In1.Cu",
+      "uncovered_without_own_vias_mm2": 0.0
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "reference": "In4.Cu",
+      "uncovered_without_own_vias_mm2": 0.0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "reference": "In1.Cu",
+      "uncovered_without_own_vias_mm2": 0.0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "reference": "In4.Cu",
+      "uncovered_without_own_vias_mm2": 0.0
+    }
+  ],
+  "removed_vias": [
+    {
+      "net": "CAM_RESET_UART_TX",
+      "xy_mm": [
+        11.475,
+        54.75
+      ],
+      "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908"
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "xy_mm": [
+        11.85,
+        57.6
+      ],
+      "uuid": "aafb5cab-f258-55d9-b8e4-4b07ba163c46"
+    }
+  ],
+  "datasheet_semantics": "Previously visually reviewed same hash TI SCES877B p4,p20: PW pin5=1A2,pin6=2A1,pins2/3=1DIR/2DIR; DIR high selects A as input when enabled. No conclusion from UART RX/TX names.",
+  "scope": "Static source/physical topology only. Diagnostic broken specimen, never candidate. No dynamic/loaded/timing/sequence approval."
+}

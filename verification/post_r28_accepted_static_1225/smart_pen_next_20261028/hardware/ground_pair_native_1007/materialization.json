@@ -1,0 +1,101 @@
+{
+  "status": "GND2_EXPERIMENT_NOFAB_NOPOWER",
+  "base_sha256": "8684d20fa449402ab1309b9af17d1cb64e0e6c4935532a36febaf362b0060f09",
+  "pcb_sha256": "6d05642f7d15ba10c22266e551d72b8457d703bd7328dca79ff5c1c50812b4d9",
+  "source_model": "hardware/ground_pair_native_1007/selected_final.json",
+  "model_sha256": "31aef3e5b71e4c767ac233de56ae67198e39701c92464d806474d33fbe542231",
+  "removed": [],
+  "added": [
+    "10fcce4e-c0a6-5748-a104-27c8c727bbcf",
+    "357b6b72-697e-5d26-a707-10cad6f88c47",
+    "4921e48e-371f-56e2-b8e1-c1069f3d9464",
+    "d52a9418-6d55-5883-abac-3d51ba89aa70",
+    "ded15938-d663-57af-8c07-b93932e056f8"
+  ],
+  "mapping": [
+    {
+      "uuid": "d52a9418-6d55-5883-abac-3d51ba89aa70",
+      "type": "track",
+      "a": [
+        8.325,
+        41.5
+      ],
+      "b": [
+        8.025,
+        41.6
+      ],
+      "layer": "B.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R219.2"
+    },
+    {
+      "uuid": "357b6b72-697e-5d26-a707-10cad6f88c47",
+      "type": "track",
+      "a": [
+        8.025,
+        41.6
+      ],
+      "b": [
+        8.325,
+        44.0
+      ],
+      "layer": "B.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R219.2"
+    },
+    {
+      "uuid": "ded15938-d663-57af-8c07-b93932e056f8",
+      "type": "track",
+      "a": [
+        5.325,
+        40.9
+      ],
+      "b": [
+        5.325,
+        41.5
+      ],
+      "layer": "F.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R229.2"
+    },
+    {
+      "uuid": "10fcce4e-c0a6-5748-a104-27c8c727bbcf",
+      "type": "track",
+      "a": [
+        5.325,
+        41.5
+      ],
+      "b": [
+        3.825,
+        41.7
+      ],
+      "layer": "F.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R229.2"
+    },
+    {
+      "uuid": "4921e48e-371f-56e2-b8e1-c1069f3d9464",
+      "type": "track",
+      "a": [
+        3.825,
+        41.7
+      ],
+      "b": [
+        3.725,
+        43.1375
+      ],
+      "layer": "F.Cu",
+      "width": 0.3,
+      "net": "GND",
+      "target_pad": "R229.2"
+    }
+  ],
+  "objects": 1249,
+  "inverse_prefill_parent_bytes_exact": true,
+  "refill_byte_stable": true,
+  "source_and_footprint_changes": []
+}

@@ -1,0 +1,105 @@
+{
+  "reports": [
+    {
+      "net": "CAM_RESET_UART_TX",
+      "reference": "In1.Cu",
+      "zone_count": 2,
+      "per_zone_contains_hole": [
+        0,
+        0
+      ],
+      "union_holes": 1,
+      "union_reverse_order_material_difference_nm2": 0,
+      "actual_union_hole_area_mm2": 0.4455129440325,
+      "uncovered_mm2": 0.064874914372,
+      "outside_actual_union_hole_area_nm2": 0.0,
+      "other_vias_in_hole": [],
+      "zone_outline_x_ranges_mm": [
+        [
+          0.3,
+          11.7
+        ],
+        [
+          11.4,
+          13.7
+        ]
+      ]
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "reference": "In1.Cu",
+      "zone_count": 2,
+      "per_zone_contains_hole": [
+        0,
+        1
+      ],
+      "union_holes": 1,
+      "union_reverse_order_material_difference_nm2": 0,
+      "actual_union_hole_area_mm2": 0.445512997293,
+      "uncovered_mm2": 0.0649173472175,
+      "outside_actual_union_hole_area_nm2": 0.0,
+      "other_vias_in_hole": [],
+      "zone_outline_x_ranges_mm": [
+        [
+          0.3,
+          11.7
+        ],
+        [
+          11.4,
+          13.7
+        ]
+      ]
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "reference": "In4.Cu",
+      "zone_count": 2,
+      "per_zone_contains_hole": [
+        0,
+        0
+      ],
+      "union_holes": 1,
+      "union_reverse_order_material_difference_nm2": 0,
+      "actual_union_hole_area_mm2": 0.4455129440325,
+      "uncovered_mm2": 0.0649025127865,
+      "outside_actual_union_hole_area_nm2": 0.0,
+      "other_vias_in_hole": [],
+      "zone_outline_x_ranges_mm": [
+        [
+          0.3,
+          11.7
+        ],
+        [
+          11.4,
+          13.7
+        ]
+      ]
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "reference": "In4.Cu",
+      "zone_count": 2,
+      "per_zone_contains_hole": [
+        0,
+        1
+      ],
+      "union_holes": 1,
+      "union_reverse_order_material_difference_nm2": 0,
+      "actual_union_hole_area_mm2": 0.445512997293,
+      "uncovered_mm2": 0.064950783007,
+      "outside_actual_union_hole_area_nm2": 0.0,
+      "other_vias_in_hole": [],
+      "zone_outline_x_ranges_mm": [
+        [
+          0.3,
+          11.7
+        ],
+        [
+          11.4,
+          13.7
+        ]
+      ]
+    }
+  ],
+  "verdict": "Union before hole extraction correct; RESET per-zone notches are not a union copper gap. No expanded masks; outside-hole equality required exactly zero."
+}

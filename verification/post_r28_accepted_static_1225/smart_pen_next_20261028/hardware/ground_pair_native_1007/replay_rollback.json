@@ -1,0 +1,20 @@
+{
+  "replay_all_native_files_byte_equal": true,
+  "replay_native_file_count": 54,
+  "inverse_patch_actual_applied": true,
+  "rollback_all_native_files_byte_equal": true,
+  "rollback_native_file_count": 54,
+  "rollback_DRC_unconnected_parity": [
+    0,
+    75,
+    0
+  ],
+  "changes": [
+    {
+      "path": "mainboard_revD.kicad_pcb",
+      "before_sha256": "8684d20fa449402ab1309b9af17d1cb64e0e6c4935532a36febaf362b0060f09",
+      "after_sha256": "6d05642f7d15ba10c22266e551d72b8457d703bd7328dca79ff5c1c50812b4d9"
+    }
+  ],
+  "note": "Real inverse unified diff applied to candidate tree, not replacing PCB with baseline copy; no upstream source edited"
+}

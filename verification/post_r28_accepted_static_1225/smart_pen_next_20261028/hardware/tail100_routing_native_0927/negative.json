@@ -1,0 +1,264 @@
+{
+  "status": "EIGHT_TARGET_SPECIFIC_NATIVE_CUTS_NOT_FABRICATION_BOARDS",
+  "cuts": [
+    {
+      "target": "J202.2",
+      "net": "SENS_D0",
+      "removed_uuid": "00b943eb-4df3-51d9-bad6-123f259937b5",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "447874d5-14f0-520a-be6b-e56807ec343e"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_D0] on B.Cu, length 1.0124 mm",
+              "pos": {
+                "x": 13.1,
+                "y": 87.6
+              },
+              "uuid": "447874d5-14f0-520a-be6b-e56807ec343e"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "70f03d1e1234c5c3bbe9b2be7d2f83b792e0ffa1eeead33b35070a7cfb333ccb"
+    },
+    {
+      "target": "J202.3",
+      "net": "SENS_D1",
+      "removed_uuid": "156d568e-0a4d-53d6-bc1b-bd341918793c",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "9efac149-5564-5a5f-af18-8e0521db6f18"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_D1] on B.Cu, length 1.5914 mm",
+              "pos": {
+                "x": 12.9,
+                "y": 86.9
+              },
+              "uuid": "9efac149-5564-5a5f-af18-8e0521db6f18"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "42d0de125f7f1d8339b6e5f18bc4fe95046303661a71ce707b2044388ee96ff0"
+    },
+    {
+      "target": "J202.5",
+      "net": "SENS_D2",
+      "removed_uuid": "52cbf5f7-ed92-5410-ac92-cc5c50609b83",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "f50960a1-b58d-5880-a989-5ab43bb5e8dc"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_D2] on B.Cu, length 1.4009 mm",
+              "pos": {
+                "x": 11.9,
+                "y": 87.0
+              },
+              "uuid": "f50960a1-b58d-5880-a989-5ab43bb5e8dc"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "83784e782e52b4166dbb925d83f5c48c6e486d8ce42dab48fdc61f8b6d6e0362"
+    },
+    {
+      "target": "J202.6",
+      "net": "SENS_D3",
+      "removed_uuid": "08e17075-eadc-5d72-be5d-e1b7ed5c41d6",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "f6415854-5130-52d1-bae8-9c32544baa27"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_D3] on B.Cu, length 1.1011 mm",
+              "pos": {
+                "x": 11.1,
+                "y": 86.9
+              },
+              "uuid": "f6415854-5130-52d1-bae8-9c32544baa27"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "16bf8c68adf506c0d37db6eec35b1905f10b8e351687aad88b8379795f6739c0"
+    },
+    {
+      "target": "J202.12",
+      "net": "SENS_D7",
+      "removed_uuid": "8144c8a9-5a75-50d0-bc13-f261bea59c73",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "defd5ae4-d74d-5fed-b279-b7bbaafa48e1"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_D7] on B.Cu, length 0.3354 mm",
+              "pos": {
+                "x": 7.4,
+                "y": 88.0
+              },
+              "uuid": "defd5ae4-d74d-5fed-b279-b7bbaafa48e1"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "fbeafee8bcf5182ff356c4ae963f81b5fdf5bf6284c86a73512da6accf4ba4ca"
+    },
+    {
+      "target": "J202.18",
+      "net": "SENS_EXTCLK",
+      "removed_uuid": "ff1c9db9-7e8f-5a73-9d76-3ffafed66723",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "via_dangling",
+          "d04eca23-4164-5b2f-8673-95fe528f421f"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Via is not connected or connected on only one layer",
+          "items": [
+            {
+              "description": "Via [SENS_EXTCLK] on F.Cu - B.Cu",
+              "pos": {
+                "x": 4.25,
+                "y": 88.175
+              },
+              "uuid": "d04eca23-4164-5b2f-8673-95fe528f421f"
+            }
+          ],
+          "severity": "warning",
+          "type": "via_dangling"
+        }
+      ],
+      "pcb_sha256": "01b87c7cdf3acbe937ba1d5c0791a39e63d1c6739640e043bd483dac7fe640f5"
+    },
+    {
+      "target": "J202.23",
+      "net": "SENS_VIO_1V8",
+      "removed_uuid": "01419084-3892-5710-8589-b0e5adee8cea",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        1,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [
+        [
+          "track_dangling",
+          "f7801833-8d01-5126-942c-4b3abb3a4ec5"
+        ]
+      ],
+      "violations": [
+        {
+          "description": "Track has unconnected end",
+          "items": [
+            {
+              "description": "Track [SENS_VIO_1V8] on B.Cu, length 1.7500 mm",
+              "pos": {
+                "x": 1.75,
+                "y": 89.7
+              },
+              "uuid": "f7801833-8d01-5126-942c-4b3abb3a4ec5"
+            }
+          ],
+          "severity": "warning",
+          "type": "track_dangling"
+        }
+      ],
+      "pcb_sha256": "6e89d897d44ef9a644eb18a26d112273cee4d121758c40c7c87a9b151f1c11ff"
+    },
+    {
+      "target": "J202.24",
+      "net": "GND",
+      "removed_uuid": "b13e01f6-1537-41d8-9bf3-4757f6464100",
+      "exact_only_named_pad_left_parent_component": true,
+      "actual_DRC_unconnected_parity": [
+        0,
+        76,
+        0
+      ],
+      "predicted_upstream_dangling": [],
+      "violations": [],
+      "pcb_sha256": "dd58a5a439eaaf2df59be08e77f1e8ff06eea069c97d3423bc0c093cb1fec8f0"
+    }
+  ]
+}

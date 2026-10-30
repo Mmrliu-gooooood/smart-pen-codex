@@ -1,0 +1,104 @@
+{
+  "status": "COMPLETE_READ_ONLY_LOCAL_C207_ADVISORY_ON_EXACT_FINAL_NOT_FULL_CANDIDATE_ACCEPTANCE",
+  "snapshot_pcb_sha256": "fb4174727956d095f7a4b2a8ac1f3c3dd3d276f18468b02cf7acb8fac1a87483",
+  "snapshot_note": "Author confirmed placement/removal-only snapshot. Announced fixed AON conductors loaded in memory for finite/refill tests. Ongoing R240/R241/SCCB/plane model changes not accepted here.",
+  "fixed_power_model_sha256": "44b1ac40a952623043d5738f697d6f9e4a4f62b487a0362bbe0610820be4dba4",
+  "installation_obstacles_sha256": "f75c7b0adf4daeadae4f7148fac777338a8e9ecca83087f146580091ad0c9c79",
+  "primary_source": "https://www.ti.com/lit/ds/symlink/tca9517.pdf",
+  "source_revision": "SCPS242D; sections11 and12 recommend ~100nF near supply pins. Section5 identifies VCCB as logic/I/O supply; VCCA is comparator/power-good reference.",
+  "assessment": "Shorter U204.8\u2192C207.1 supply trace is useful geometry, but sum of dedicated leads does not establish smaller high-frequency current loop. Return plane attachment and local apertures must be considered.",
+  "baseline_and_proposed": {
+    "U204_GND_via_mm": [
+      3.8875,
+      66.875
+    ],
+    "old_C207_ground_via_mm": [
+      10,
+      63.4
+    ],
+    "proposed_existing_via_mm": [
+      12,
+      67
+    ],
+    "suggested_local_trial_via_mm": [
+      12,
+      65.775
+    ],
+    "suggested_diameter_drill_mm": [
+      0.6,
+      0.3
+    ],
+    "C207_ground_pad_mm": [
+      10.85,
+      65.775
+    ],
+    "existing_option_ground_trace_mm": 1.6802157599546514,
+    "suggested_ground_trace_mm": 1.1500000000000004,
+    "old_plane_attachment_straight_span_mm": 7.031236111097394,
+    "existing_option_straight_span_mm": 8.11346296287843,
+    "suggested_straight_span_mm": 8.186736605632309
+  },
+  "geometric_return_result": "All attachments are in same filled GND island on In1/In4. Existing(12,67) direct projected path crosses CAM_ON/CAM_3V3_PRELINK clearance features; new(12,65.775) direct projected corridors of widths.15,.3,.5mm have exactlyzero area outside GND union. Widths are descriptive geometry checks, not current/inductance acceptance limits. This favors a local-stitch trial despite slightlygreater endpoint Euclidean span.",
+  "bounded_feasibility": "New(12,65.775) + straight.3F trace passes snapshot/intendedAO finite copper,pads,drill,edges,rules,nativecourtyards/fullbudget screens. Nearer west/south candidates blocked by U301 backside/body/copper. Direct route to old(10,63.4) crosses C207.1/AON after rotation.",
+  "required_before_selection": [
+    "Rebuild/refill exact evolving board with new via; prove all-net preserved connectivity",
+    "Check new GND antipad on In2 does not cut/pinch AON extension or remove retained reference coverage",
+    "Repeat actual native DRC and full mechanical checks for exact finalSHA",
+    "Check complete U204.8-capacitor-U204.4 return geometry, no loop-inductance/current-density inference",
+    "Retain100nX7R/source/capacitor fullbody dimensions; no shrinking",
+    "NOFAB/NOPOWER; no timing,noise,sequence,current,orassembly approval"
+  ],
+  "coordination": "Exactfinalfaf2912 results and baseline trade sent directly tocontinue_ground_routing. No source/candidate edits performed.",
+  "evidence": [
+    "return_search.json",
+    "return_search_east.json",
+    "plane_corridors.json",
+    "plane_continuity.json",
+    "baseline8312_corridors.json",
+    "final_faf2912_corridors.json",
+    "final_local_check.json"
+  ],
+  "exact_accepted_baseline_comparison": {
+    "pcb_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+    "old_return_corridors": "At exact8312, .15/.3/.5mm straight projected corridors fromold(10,63.4) toU204GNDvia are completely within GND on bothIn1/In4.",
+    "old_surface_lead_sum_mm": 5.3625,
+    "new_trial_surface_lead_sum_mm": 4.79479621283621,
+    "surface_change_mm": -0.5677037871637909,
+    "plane_straight_span_change_mm": 1.155500494534915,
+    "simple_lead_plus_straightplane_model_change_mm": 0.587796707371125,
+    "meaning": "No demonstrated loop improvement versus accepted8312; narrower dedicated leads shorten but return-plane span grows. The specific no-detour advantage is only versus the unadopted12,67 trial. These scalar/path proxies are not current/inductance estimates."
+  },
+  "final_exact_specimen": {
+    "pcb_sha256": "faf2912fb2896891b21c1e7f96f8bdc65253cac04ec47b31bfde81e3ded3e424",
+    "GND_return_corridor_result": "Chosen12,65.775 attachment is in sameIn1/In4GND island asU204GNDvia. .15/.3/.5mm projected straight corridors are whollyfilled, zero outsidearea; so observed snapshotcorridor persists inexactfinal.",
+    "AON_patch_result": {
+      "GND_AON_core_sizes": [
+        94,
+        41
+      ],
+      "local_pin_connectivity_checked": [
+        "C207.2",
+        "U204.4",
+        "C207.1",
+        "U204.8",
+        "C301.1",
+        "U301.1"
+      ],
+      "AON_local_stitch_and_old_core_same_filled_islands": [
+        0
+      ],
+      "AON_patch_corridors_from_11_64p875_to_12p05_64p875": [
+        {
+          "corridor_width_mm": 0.3,
+          "area_outside_AON_mm2": 0.0
+        },
+        {
+          "corridor_width_mm": 0.5,
+          "area_outside_AON_mm2": 0.0
+        }
+      ],
+      "interpretation": "NewGNDvia antipad does not sever this sampled localAO connection. Widths descriptive CAD evidence, not current-density/thermal/inductance qualification."
+    },
+    "conclusion": "Support chosenlocalreturn as boundedfeasible geometry andclearplane connection, better than12,67 trial detour. No demonstratedloopimpedance/noise improvement versusaccepted8312; originalreturn corridor also clear. Not independentfullcandidate acceptance."
+  }
+}

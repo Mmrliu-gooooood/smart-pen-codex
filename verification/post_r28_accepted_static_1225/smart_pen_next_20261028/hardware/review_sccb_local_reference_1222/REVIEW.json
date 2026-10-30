@@ -1,0 +1,281 @@
+{
+  "verdict": "ACCEPT_SCOPED_STATIC_ROUTING_WITH_EXPLICIT_REFERENCE_EXCEPTION_NOT_SI_OR_FAB_APPROVAL",
+  "candidate_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+  "parent_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+  "manifest_sha256": "daf598f9fe33f7bf527182e87f18fcc6856a3362a178905833f4d7c8ca753789",
+  "all_104_frozen_manifest_files_unchanged_after_review": true,
+  "actual_DRC": [
+    0,
+    67,
+    0
+  ],
+  "actual_parent_DRC": [
+    0,
+    69,
+    0
+  ],
+  "actual_ERC": "one preserved global_label_dangling warning",
+  "supply_core_sizes": {
+    "GND": 94,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "source_pin_roles": {
+    "U204.7": {
+      "net": "CAM_SCL",
+      "function": "SCLB"
+    },
+    "U204.6": {
+      "net": "CAM_SDA",
+      "function": "SDAB"
+    },
+    "U204.8": {
+      "net": "3V3_AON",
+      "function": "VCCB"
+    }
+  },
+  "CAM_SDA_partition": {
+    "before": [
+      [
+        "R241.1"
+      ],
+      [
+        "U101.45"
+      ],
+      [
+        "U204.6"
+      ]
+    ],
+    "after": [
+      [
+        "R241.1",
+        "U204.6"
+      ],
+      [
+        "U101.45"
+      ]
+    ]
+  },
+  "CAM_SCL_partition": {
+    "before": [
+      [
+        "R240.1"
+      ],
+      [
+        "U101.44"
+      ],
+      [
+        "U204.7"
+      ]
+    ],
+    "after": [
+      [
+        "R240.1",
+        "U204.7"
+      ],
+      [
+        "U101.44"
+      ]
+    ]
+  },
+  "native_replay_inverse": {
+    "replay_all_native_files_byte_equal": true,
+    "replay_native_file_count": 54,
+    "inverse_patch_actual_applied": true,
+    "rollback_all_native_files_byte_equal": true,
+    "rollback_native_file_count": 54,
+    "rollback_DRC_unconnected_parity": [
+      0,
+      69,
+      0
+    ],
+    "changes": [
+      {
+        "path": "mainboard_revD.kicad_pcb",
+        "before_sha256": "8312b1d5ec56f0ab4c396cba2b78449e191f06225bf9aa64ea6522fd1c3c68bb",
+        "after_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697"
+      }
+    ],
+    "note": "Real inverse unified diff applied to candidate tree, not replacing PCB with baseline copy; no upstream source edited"
+  },
+  "normal_optimized_and_cuts": {
+    "verify": "normal/-O exact JSON equality",
+    "physical": "normal/-O exact JSON equality",
+    "reference_classification": "normal/-O exact JSON equality",
+    "local_repair_delta": "normal/-O exact JSON equality",
+    "negative": "normal/-O exact JSON equality",
+    "replay_rollback": "normal/-O exact JSON equality",
+    "negative_counts": {
+      "CAM_SCL": [
+        0,
+        68,
+        0
+      ],
+      "CAM_SDA": [
+        0,
+        68,
+        0
+      ],
+      "BOTH": [
+        0,
+        69,
+        0
+      ],
+      "MAIN_AON_VIA": [
+        2,
+        69,
+        0
+      ],
+      "BIAS_AON_VIA": [
+        1,
+        68,
+        0
+      ],
+      "C207_GND_VIA": [
+        1,
+        68,
+        0
+      ]
+    }
+  },
+  "raw_blocks_and_exact_projection": {
+    "raw_changed_blocks": [
+      {
+        "uuid": "1b1cd0c4-bf1f-47db-9456-27abc178fde8",
+        "kind": "footprint",
+        "reference": "R241"
+      },
+      {
+        "uuid": "dcbb7bc5-75c4-4483-8e57-a4eee90d88eb",
+        "kind": "footprint",
+        "reference": "C207"
+      },
+      {
+        "uuid": "dfba59cf-c034-403f-9ed4-e95f70553c99",
+        "kind": "footprint",
+        "reference": "R240"
+      },
+      {
+        "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+        "kind": "zone",
+        "reference": null
+      },
+      {
+        "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+        "kind": "zone",
+        "reference": null
+      }
+    ],
+    "raw_old_block_counts": {
+      "footprint": 103,
+      "gr_line": 6,
+      "gr_text": 1,
+      "segment": 1129,
+      "via": 155,
+      "zone": 9
+    },
+    "exact_retained_projection_count": 1154,
+    "plane_delta_first_all_positive_losses": [],
+    "positive_loss_without_threshold": [
+      {
+        "uuid": "f59ca65f-50a0-430d-af9e-254985f50673",
+        "reference": "In1.Cu",
+        "area_mm2": 5.3279e-08,
+        "self_subtraction_residual_mm2": 5.3279e-08,
+        "plane_delta_first_loss_mm2": 0.0,
+        "net": "3V3_AON",
+        "vertices_nm": [
+          [
+            [
+              7760489,
+              4523387
+            ],
+            [
+              7813768,
+              4615667
+            ],
+            [
+              7813768,
+              4615669
+            ]
+          ]
+        ]
+      },
+      {
+        "uuid": "6c42eafe-953a-59e8-8572-97a1e1dea857",
+        "reference": "In1.Cu",
+        "area_mm2": 4.2455e-09,
+        "self_subtraction_residual_mm2": 4.2455e-09,
+        "plane_delta_first_loss_mm2": 0.0,
+        "net": "CAM_ISO_OE_N",
+        "vertices_nm": [
+          [
+            [
+              8539129,
+              71613829
+            ],
+            [
+              8519938,
+              71624910
+            ],
+            [
+              8446890,
+              71644482
+            ],
+            [
+              8446889,
+              71644482
+            ],
+            [
+              8519938,
+              71624910
+            ],
+            [
+              8539130,
+              71613829
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "reference_exception": "Source SDA shared clearance with CT/ON remains, mixed In2 AON loss disclosed. Own prior project-matched counterfactual quantifies only diagnostic neighbor contribution, not SI. PRELINK grazing removed by local elbow, all filled zones and via geometry identical to diagnosticfaf291. No fabricated zero-all-new-path-reference claim.",
+  "bypass_trade": "C207 new ground plane span grows1.155500mm against accepted8312; surface lead sum decreases.567704mm, no loop improvement claimed. Actual decoupling unqualified.",
+  "mechanics_scope": "Finite copper and all native courtyard checks reproduced; full-envelope reviewer separate. C301 corner exact two-segment dogleg only, no broad installation/process waiver.",
+  "limits": [
+    "U101.44 andU101.45 remain separate from pullup/U204 branches; not operational complete MCU bus",
+    "Actual edge rates, loading, production stackup, CT/ON coupling, return impedance and EMI unqualified",
+    "NOFAB, NO POWER, JP201/JP202/JP301 OPEN, provider NULL",
+    "Frozen parent8312 retained; diagnosticfaf291 used only for local two-segment comparison"
+  ],
+  "evidence_sha256": {
+    "independent_verify_optimized.json": "9b822002e851778500de74ef5b29f9ed27104446df765f45461b0f95a9037fa4",
+    "independent_replay_rollback_optimized.json": "719a9dc8d6394525a121e9164b7810b2d4dd3c7b5530803d695d498d1ab2c589",
+    "independent_verify_normal.json": "9b822002e851778500de74ef5b29f9ed27104446df765f45461b0f95a9037fa4",
+    "independent_physical_normal.json": "c4f2254c148a66f56fbda1b3a8400813bb52c8426549842beac6e866182b463e",
+    "independent_reference_classification_optimized.json": "2d0cf5cf2f12161ae10523c9b007fa41f6a61306c433878cdbc3a48d0b32ae7f",
+    "independent_physical_optimized.json": "c4f2254c148a66f56fbda1b3a8400813bb52c8426549842beac6e866182b463e",
+    "independent_local_repair_delta_optimized.json": "40a951f3b4d1019e4adafa1079e13486d3b616ec24231e2dcae54fd29964dbd9",
+    "independent_reference_classification_normal.json": "2d0cf5cf2f12161ae10523c9b007fa41f6a61306c433878cdbc3a48d0b32ae7f",
+    "independent_exact.json": "49e33ba86d8e26fb5172d7e365c0e38c8decc247ecda56569c538b0802ebb9fd",
+    "independent_local_repair_delta_normal.json": "40a951f3b4d1019e4adafa1079e13486d3b616ec24231e2dcae54fd29964dbd9",
+    "independent_negative_optimized.json": "e2d9af48c0d6e164fd426fcd99849763c0c834fff76ed0b6bb71db18dcac5fe1",
+    "independent_negative_normal.json": "e2d9af48c0d6e164fd426fcd99849763c0c834fff76ed0b6bb71db18dcac5fe1",
+    "independent_replay_rollback_normal.json": "719a9dc8d6394525a121e9164b7810b2d4dd3c7b5530803d695d498d1ab2c589"
+  }
+}

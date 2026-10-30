@@ -1,0 +1,40 @@
+{
+  "verify": "normal/-O exact JSON equality",
+  "physical": "normal/-O exact JSON equality",
+  "reference_classification": "normal/-O exact JSON equality",
+  "local_repair_delta": "normal/-O exact JSON equality",
+  "negative": "normal/-O exact JSON equality",
+  "replay_rollback": "normal/-O exact JSON equality",
+  "negative_counts": {
+    "CAM_SCL": [
+      0,
+      68,
+      0
+    ],
+    "CAM_SDA": [
+      0,
+      68,
+      0
+    ],
+    "BOTH": [
+      0,
+      69,
+      0
+    ],
+    "MAIN_AON_VIA": [
+      2,
+      69,
+      0
+    ],
+    "BIAS_AON_VIA": [
+      1,
+      68,
+      0
+    ],
+    "C207_GND_VIA": [
+      1,
+      68,
+      0
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "status": "LOCAL_VERIFIED_PROPOSAL_NOT_PUBLISHED",
+  "original_aliases": 1165,
+  "alias_bytes": 42050576,
+  "unique_new_source_files": 415,
+  "unique_new_source_bytes": 25798463,
+  "author_runs": 87,
+  "review_runs": 30,
+  "mechanical_runs": 26,
+  "all_exit_zero": true,
+  "normal_optimized_stdout_equal": true,
+  "sccb_independent_evidence_exact_matches": [
+    "independent_exact.json",
+    "independent_exact.json",
+    "independent_verify_normal.json",
+    "independent_verify_optimized.json",
+    "independent_physical_normal.json",
+    "independent_physical_optimized.json",
+    "independent_reference_classification_normal.json",
+    "independent_reference_classification_optimized.json",
+    "independent_local_repair_delta_normal.json",
+    "independent_local_repair_delta_optimized.json",
+    "independent_replay_rollback_normal.json",
+    "independent_replay_rollback_optimized.json",
+    "independent_negative_normal.json",
+    "independent_negative_optimized.json"
+  ],
+  "actual_DRC": {
+    "ground_local_native_0920": [
+      0,
+      75,
+      0
+    ],
+    "tail100_routing_native_0927": [
+      0,
+      75,
+      0
+    ],
+    "tail_courtyard_native_0949": [
+      0,
+      75,
+      0
+    ],
+    "ground_pair_native_1007": [
+      0,
+      73,
+      0
+    ],
+    "unused_bias_native_1017": [
+      0,
+      71,
+      0
+    ],
+    "control_envelope_native_1051": [
+      0,
+      69,
+      0
+    ],
+    "sccb_local_reference_1216": [
+      0,
+      67,
+      0
+    ]
+  },
+  "source_payload_and_fresh_reconstruction_all_hashes_verified": true,
+  "audit": [
+    {
+      "file": "python_review_audit.jsonl",
+      "denied_original_reads": 0
+    },
+    {
+      "file": "python_audit.jsonl",
+      "denied_original_reads": 0
+    }
+  ],
+  "mechanical": {
+    "scripts": 13,
+    "runs": 26,
+    "all_exit_zero": true,
+    "all_normal_optimized_byte_equal": true,
+    "all_match_frozen_expected": true,
+    "original_inputs_unchanged": true,
+    "isolated_frozen_inputs_unchanged": true,
+    "inventory_relocation_memory_only": true,
+    "no_original_workspace_inputs_in_child_python": true,
+    "all_expected_outputs_match_frozen_SOURCE_MAP": true,
+    "all_reconstructed_SOURCE_MAP_payloads_unchanged_after_checks": 1165,
+    "later_source_map_paths_not_present_in_this_reconstruction": []
+  },
+  "limits": [
+    "NOFAB/NOPOWER; static only",
+    "AXC vendor PDF excluded; freeze provenance not rerun",
+    "Python open guard, no full native syscall tracing; ptrace unavailable",
+    "Original historical PENDING labels retained; scoped acceptance in reviewer evidence"
+  ]
+}

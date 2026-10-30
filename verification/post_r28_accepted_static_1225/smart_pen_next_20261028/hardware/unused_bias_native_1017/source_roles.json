@@ -1,0 +1,35 @@
+{
+  "cached_official_source": "docs/electronics/camera_safeoff_addendum_0719/sources/axc4.pdf",
+  "sha256": "d78a0a3479d912aa2c59579788283835d4ecf64b9f7836c7c594ef38e570bb5c",
+  "official_url": "https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf",
+  "document": "SCES877B December2018 revisedApril2024, cached design source, not claimed latest",
+  "checked_page": 20,
+  "table": "7-1, each2bit section; rendered and visually checked",
+  "interpretation": "With outputs enabled, a low direction control selects B as data source; a high control selects A as data source. This confirms intended frozen-source bias-port naming, not all transient/power-state behavior. The table also notes data-I/O input circuitry remains active; NC-other-port/isolation handling is preserved and is not newly qualified here.",
+  "roles": {
+    "UNUSED_B_INPUT": {
+      "input": "U202.10",
+      "function": "2B2",
+      "direction_pin": "U202.3",
+      "direction_net": "GND",
+      "bias": "R206.1",
+      "ground": "R206.2",
+      "unused_other_port": "U202.7"
+    },
+    "UNUSED_A_INPUT": {
+      "input": "U203.7",
+      "function": "2A2",
+      "direction_pin": "U203.3",
+      "direction_net": "3V3_AON",
+      "bias": "R207.1",
+      "ground": "R207.2",
+      "unused_other_port": "U203.10"
+    }
+  },
+  "source_and_values_changed": false,
+  "limits": [
+    "Existing10k pulldowns retained; no new value/load/leakage qualification",
+    "OE held isolated does not constitute physical sequence or all-floating-node approval",
+    "NC output pins kept unconnected exactly as frozen source; do not infer unused-net name means safe floating input"
+  ]
+}

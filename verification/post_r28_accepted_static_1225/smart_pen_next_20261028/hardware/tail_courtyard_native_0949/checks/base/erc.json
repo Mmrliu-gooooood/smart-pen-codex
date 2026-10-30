@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-30T18:58:44+0900",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/mcu_core/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/f691f788-018e-48eb-b1f2-3582bddce9d3",
+            "violations": [
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'VBUS_5V'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.9431
+                            },
+                            "uuid": "dd07607a-393e-4593-be09-6e2ec5b734d1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                }
+            ]
+        },
+        {
+            "path": "/pickup_on_main/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/f1c53655-120f-56ec-85fc-7cf26f570873",
+            "violations": []
+        },
+        {
+            "path": "/physical_interfaces/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/5a3f0197-fde5-4984-8efa-bd28a1bf463b",
+            "violations": []
+        },
+        {
+            "path": "/camera_gate_on_main/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/62962633-0e3b-42ab-a40b-f5a68c0233c4",
+            "violations": []
+        },
+        {
+            "path": "/usb_entry/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/080b46e2-bea1-4262-8e47-ae79b99e404c",
+            "violations": []
+        },
+        {
+            "path": "/dvp_translation/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/c5a4a7bc-e4da-41cc-9523-d9627a98e658",
+            "violations": []
+        },
+        {
+            "path": "/controls_sccb/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/d358d2c0-0261-4620-a2a2-38c9c5bfbdaa",
+            "violations": []
+        },
+        {
+            "path": "/safe_bias_interfaces/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/8104da8f-6cf9-427b-9f28-cb894ad3b690",
+            "violations": []
+        },
+        {
+            "path": "/usb_main_port/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a/e11fafc5-cea1-5930-8968-6284925f7502",
+            "violations": []
+        },
+        {
+            "path": "/",
+            "uuid_path": "/cebe562b-54ce-58d7-a4f0-094e70dd7d0a",
+            "violations": []
+        }
+    ],
+    "source": "mainboard_revD.kicad_sch"
+}

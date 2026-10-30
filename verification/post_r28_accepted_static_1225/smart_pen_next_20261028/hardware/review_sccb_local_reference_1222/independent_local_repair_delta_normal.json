@@ -1,0 +1,144 @@
+{
+  "diagnostic_parent_sha256": "faf2912fb2896891b21c1e7f96f8bdc65253cac04ec47b31bfde81e3ded3e424",
+  "candidate_sha256": "dcbd2e6501c8294ece5ecf7b41ffcc86ccc7f58f7cb54ececfdf24962a50f697",
+  "removed_geometry": [
+    [
+      "3V3_AON",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000004",
+      [
+        [
+          10900000,
+          64875000
+        ],
+        [
+          12050000,
+          64875000
+        ]
+      ],
+      500000,
+      0
+    ],
+    [
+      "CAM_SDA",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000100",
+      [
+        [
+          10175000,
+          73800000
+        ],
+        [
+          10525000,
+          73850000
+        ]
+      ],
+      150000,
+      0
+    ]
+  ],
+  "added_geometry": [
+    [
+      "3V3_AON",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000004",
+      [
+        [
+          11125000,
+          65025000
+        ],
+        [
+          12050000,
+          64875000
+        ]
+      ],
+      500000,
+      0
+    ],
+    [
+      "3V3_AON",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000004",
+      [
+        [
+          10900000,
+          64875000
+        ],
+        [
+          11125000,
+          65025000
+        ]
+      ],
+      500000,
+      0
+    ],
+    [
+      "CAM_SDA",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000100",
+      [
+        [
+          10350000,
+          73925000
+        ],
+        [
+          10525000,
+          73850000
+        ]
+      ],
+      150000,
+      0
+    ],
+    [
+      "CAM_SDA",
+      "PCB_TRACK",
+      "00000000_00000000_00000000_00000100",
+      [
+        [
+          10175000,
+          73800000
+        ],
+        [
+          10350000,
+          73925000
+        ]
+      ],
+      150000,
+      0
+    ]
+  ],
+  "all_via_geometry_unchanged": true,
+  "all_filled_zone_geometry_identical": [
+    {
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "loss_mm2": 0.0,
+      "gain_mm2": 0.0
+    },
+    {
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "loss_mm2": 0.0,
+      "gain_mm2": 0.0
+    },
+    {
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "loss_mm2": 0.0,
+      "gain_mm2": 0.0
+    },
+    {
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "loss_mm2": 0.0,
+      "gain_mm2": 0.0
+    },
+    {
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "loss_mm2": 0.0,
+      "gain_mm2": 0.0
+    }
+  ],
+  "scope": "Two local segment repairs only relative to1131; full source/moved footprints checked separately against accepted8312; no adoption of1131 source-reference gate"
+}

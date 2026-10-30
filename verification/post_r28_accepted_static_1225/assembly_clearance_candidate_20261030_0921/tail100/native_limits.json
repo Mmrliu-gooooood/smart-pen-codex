@@ -1,0 +1,304 @@
+{
+  "source_sha256": "abd8a388a606582e80ebe5f59da7579f7020cd44be6af494e032b8f69fde8ca0",
+  "J202_pads": [
+    {
+      "pad": "",
+      "net": "",
+      "bounds_mm": [
+        13.39,
+        92.65,
+        13.69,
+        93.65
+      ]
+    },
+    {
+      "pad": "",
+      "net": "",
+      "bounds_mm": [
+        0.31,
+        92.65,
+        0.61,
+        93.65
+      ]
+    },
+    {
+      "pad": "1",
+      "net": "GND",
+      "bounds_mm": [
+        12.6,
+        90.15,
+        12.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "2",
+      "net": "SENS_D0",
+      "bounds_mm": [
+        12.1,
+        90.15,
+        12.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "3",
+      "net": "SENS_D1",
+      "bounds_mm": [
+        11.6,
+        90.15,
+        11.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "4",
+      "net": "GND",
+      "bounds_mm": [
+        11.1,
+        90.15,
+        11.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "5",
+      "net": "SENS_D2",
+      "bounds_mm": [
+        10.6,
+        90.15,
+        10.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "6",
+      "net": "SENS_D3",
+      "bounds_mm": [
+        10.1,
+        90.15,
+        10.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "7",
+      "net": "GND",
+      "bounds_mm": [
+        9.6,
+        90.15,
+        9.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "8",
+      "net": "SENS_D4",
+      "bounds_mm": [
+        9.1,
+        90.15,
+        9.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "9",
+      "net": "SENS_D5",
+      "bounds_mm": [
+        8.6,
+        90.15,
+        8.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "10",
+      "net": "GND",
+      "bounds_mm": [
+        8.1,
+        90.15,
+        8.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "11",
+      "net": "SENS_D6",
+      "bounds_mm": [
+        7.6,
+        90.15,
+        7.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "12",
+      "net": "SENS_D7",
+      "bounds_mm": [
+        7.1,
+        90.15,
+        7.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "13",
+      "net": "GND",
+      "bounds_mm": [
+        6.6,
+        90.15,
+        6.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "14",
+      "net": "SENS_PCLK",
+      "bounds_mm": [
+        6.1,
+        90.15,
+        6.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "15",
+      "net": "SENS_VSYNC",
+      "bounds_mm": [
+        5.6,
+        90.15,
+        5.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "16",
+      "net": "SENS_HREF",
+      "bounds_mm": [
+        5.1,
+        90.15,
+        5.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "17",
+      "net": "GND",
+      "bounds_mm": [
+        4.6,
+        90.15,
+        4.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "18",
+      "net": "SENS_EXTCLK",
+      "bounds_mm": [
+        4.1,
+        90.15,
+        4.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "19",
+      "net": "SENS_XSHUTDN_N",
+      "bounds_mm": [
+        3.6,
+        90.15,
+        3.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "20",
+      "net": "SENS_TRIG_IN",
+      "bounds_mm": [
+        3.1,
+        90.15,
+        3.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "21",
+      "net": "SENS_SCL",
+      "bounds_mm": [
+        2.6,
+        90.15,
+        2.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "22",
+      "net": "SENS_SDA",
+      "bounds_mm": [
+        2.1,
+        90.15,
+        2.4,
+        90.85
+      ]
+    },
+    {
+      "pad": "23",
+      "net": "SENS_VIO_1V8",
+      "bounds_mm": [
+        1.6,
+        90.15,
+        1.9,
+        90.85
+      ]
+    },
+    {
+      "pad": "24",
+      "net": "GND",
+      "bounds_mm": [
+        1.1,
+        90.15,
+        1.4,
+        90.85
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "tail_edge_y": 93.5,
+      "board_length": 100.0,
+      "shift": 0,
+      "mount_pad_to_edge_mm": -0.15000000000000568,
+      "body_to_edge_mm": -0.5,
+      "retained_open_budget_to_edge_mm": -1.5,
+      "note": "negative = clipped/outside; retained open operating envelope need not sit over substrate but must clear enclosure/FFC"
+    },
+    {
+      "tail_edge_y": 93.3,
+      "board_length": 99.8,
+      "shift": 0,
+      "mount_pad_to_edge_mm": -0.3500000000000085,
+      "body_to_edge_mm": -0.7000000000000028,
+      "retained_open_budget_to_edge_mm": -1.7000000000000028,
+      "note": "negative = clipped/outside; retained open operating envelope need not sit over substrate but must clear enclosure/FFC"
+    },
+    {
+      "tail_edge_y": 93.5,
+      "board_length": 100.0,
+      "shift": 1.5,
+      "mount_pad_to_edge_mm": 1.3499999999999943,
+      "body_to_edge_mm": 1.0,
+      "retained_open_budget_to_edge_mm": 0.0,
+      "note": "negative = clipped/outside; retained open operating envelope need not sit over substrate but must clear enclosure/FFC"
+    },
+    {
+      "tail_edge_y": 93.3,
+      "board_length": 99.8,
+      "shift": 1.7,
+      "mount_pad_to_edge_mm": 1.3499999999999943,
+      "body_to_edge_mm": 1.0,
+      "retained_open_budget_to_edge_mm": 0.0,
+      "note": "negative = clipped/outside; retained open operating envelope need not sit over substrate but must clear enclosure/FFC"
+    }
+  ],
+  "source_unmodified": true
+}

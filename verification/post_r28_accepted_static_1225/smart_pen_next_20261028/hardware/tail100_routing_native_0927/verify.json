@@ -1,0 +1,3431 @@
+{
+  "status": "STATIC_TAIL99_8_EXPERIMENT_NOFAB_NOPOWER",
+  "pcb_sha256": "a14b30138f9f74ddbfb28bd20872160a1e83b96c1ed4da91d2805589050f97f4",
+  "parent_sha256": "ff70d9171b364e2d89ce13d109f22a2362afe76c340d384e194fb541bed6af8a",
+  "outline_bounds_mm": [
+    0.0,
+    -6.5,
+    14.0,
+    93.3
+  ],
+  "outline_length_mm": 99.8,
+  "finished_length_tolerance_qualified": false,
+  "DRC_unconnected_parity": [
+    0,
+    75,
+    0
+  ],
+  "all_net_physical_components_exact_parent": {
+    "CAM_BUS_EN": [
+      3,
+      3
+    ],
+    "SCCB_ENABLE_LINK": [
+      1,
+      1
+    ],
+    "SCCB_EN_SAFE": [
+      1,
+      1
+    ],
+    "GND": [
+      12,
+      12
+    ],
+    "ISO_GATE": [
+      1,
+      1
+    ],
+    "3V3_AON": [
+      1,
+      1
+    ],
+    "AON_I2C_SDA": [
+      1,
+      1
+    ],
+    "CAM_IO_EN": [
+      1,
+      1
+    ],
+    "IO_ENABLE_LINK": [
+      1,
+      1
+    ],
+    "CAM_SDA": [
+      3,
+      3
+    ],
+    "SENS_D5": [
+      2,
+      2
+    ],
+    "VBUS_5V": [
+      1,
+      1
+    ],
+    "unconnected-(U205-NC-Pad1)": [
+      1,
+      1
+    ],
+    "CAM_ISO_OE_N": [
+      1,
+      1
+    ],
+    "CAM_D7": [
+      3,
+      3
+    ],
+    "RF_SIP": [
+      1,
+      1
+    ],
+    "CHIP_EN": [
+      1,
+      1
+    ],
+    "BOOT_N": [
+      1,
+      1
+    ],
+    "PICKUP_INT_N": [
+      1,
+      1
+    ],
+    "NIB_CONTACT_N": [
+      1,
+      1
+    ],
+    "STRAP_GPIO3": [
+      1,
+      1
+    ],
+    "BATTERY_ADC": [
+      2,
+      2
+    ],
+    "AON_I2C_SCL": [
+      1,
+      1
+    ],
+    "CAM_D0": [
+      3,
+      3
+    ],
+    "CAM_D1": [
+      3,
+      3
+    ],
+    "CAM_D2": [
+      3,
+      3
+    ],
+    "CAM_D3": [
+      3,
+      3
+    ],
+    "CAM_D4": [
+      3,
+      3
+    ],
+    "CAM_D5": [
+      3,
+      3
+    ],
+    "CAM_D6": [
+      3,
+      3
+    ],
+    "CAM_PCLK": [
+      3,
+      3
+    ],
+    "CAM_VSYNC": [
+      3,
+      3
+    ],
+    "CAM_HREF": [
+      3,
+      3
+    ],
+    "USB_EN1": [
+      2,
+      2
+    ],
+    "USB_DM_MCU": [
+      1,
+      1
+    ],
+    "USB_DP_MCU": [
+      1,
+      1
+    ],
+    "USB_EN2": [
+      2,
+      2
+    ],
+    "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-VDD_SPI-Pad29)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad30)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad31)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad32)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad33)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad34)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad35)": [
+      1,
+      1
+    ],
+    "ILLUM_STROBE": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+      1,
+      1
+    ],
+    "CAM_XCLK": [
+      3,
+      3
+    ],
+    "CAM_SCL": [
+      3,
+      3
+    ],
+    "CAM_PWR_EN": [
+      4,
+      4
+    ],
+    "CAM_RESET_UART_TX": [
+      4,
+      4
+    ],
+    "CAM_PWDN_UART_RX": [
+      4,
+      4
+    ],
+    "STRAP_GPIO45": [
+      1,
+      1
+    ],
+    "STRAP_GPIO46": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad53)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad54)": [
+      1,
+      1
+    ],
+    "SENS_D7": [
+      2,
+      2
+    ],
+    "SENS_D0": [
+      2,
+      2
+    ],
+    "SENS_TRIG_IN": [
+      3,
+      3
+    ],
+    "SENS_VSYNC": [
+      2,
+      2
+    ],
+    "SENS_VIO_1V8": [
+      1,
+      1
+    ],
+    "RF_ANT": [
+      1,
+      1
+    ],
+    "SENS_D6": [
+      2,
+      2
+    ],
+    "SENS_D4": [
+      2,
+      2
+    ],
+    "SENS_D3": [
+      2,
+      2
+    ],
+    "SENS_D2": [
+      2,
+      2
+    ],
+    "SENS_D1": [
+      2,
+      2
+    ],
+    "SENS_SDA": [
+      3,
+      3
+    ],
+    "USB_DP": [
+      1,
+      1
+    ],
+    "USB_DM": [
+      1,
+      1
+    ],
+    "SENS_EXTCLK": [
+      2,
+      2
+    ],
+    "UNUSED_A_INPUT": [
+      2,
+      2
+    ],
+    "SENS_SCL": [
+      3,
+      3
+    ],
+    "unconnected-(U203-2B2-Pad10)": [
+      1,
+      1
+    ],
+    "SENS_XSHUTDN_N": [
+      3,
+      3
+    ],
+    "unconnected-(U501-INT2-Pad11)": [
+      1,
+      1
+    ],
+    "SENS_HREF": [
+      2,
+      2
+    ],
+    "SENS_PCLK": [
+      2,
+      2
+    ],
+    "CAM_3V3_SW": [
+      1,
+      1
+    ],
+    "unconnected-(AE101-Pad2)": [
+      1,
+      1
+    ],
+    "unconnected-(U202-2A2-Pad7)": [
+      1,
+      1
+    ],
+    "UNUSED_B_INPUT": [
+      2,
+      2
+    ],
+    "CAM_3V3_PRELINK": [
+      1,
+      1
+    ],
+    "CAM_QOD": [
+      1,
+      1
+    ],
+    "CAM_ON": [
+      1,
+      1
+    ],
+    "CAM_CT": [
+      1,
+      1
+    ],
+    "CONTACT": [
+      1,
+      1
+    ],
+    "": [
+      2,
+      2
+    ]
+  },
+  "core": {
+    "GND": [
+      "C101.2",
+      "C102.2",
+      "C103.2",
+      "C104.2",
+      "C105.2",
+      "C106.2",
+      "C107.2",
+      "C201.2",
+      "C202.2",
+      "C203.2",
+      "C204.2",
+      "C205.2",
+      "C206.2",
+      "C207.2",
+      "C208.2",
+      "C209.2",
+      "C301.2",
+      "C302.2",
+      "C303.2",
+      "C501.2",
+      "C502.2",
+      "C503.2",
+      "C504.2",
+      "J103.2",
+      "J104.3",
+      "J106.3",
+      "J108.3",
+      "J109.3",
+      "J202.24",
+      "J301.2",
+      "R105.2",
+      "R106.2",
+      "R107.2",
+      "R108.2",
+      "R109.2",
+      "R202.2",
+      "R205.2",
+      "R206.2",
+      "R207.2",
+      "R210.2",
+      "R211.2",
+      "R212.2",
+      "R213.2",
+      "R214.2",
+      "R215.2",
+      "R216.2",
+      "R217.2",
+      "R218.2",
+      "R220.2",
+      "R221.2",
+      "R222.2",
+      "R223.2",
+      "R224.2",
+      "R225.2",
+      "R226.2",
+      "R227.2",
+      "R228.2",
+      "R230.2",
+      "R231.2",
+      "R232.2",
+      "R233.2",
+      "R234.2",
+      "R235.2",
+      "R236.2",
+      "R237.2",
+      "R301.2",
+      "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "U201.11",
+      "U201.12",
+      "U201.13",
+      "U201.2",
+      "U202.2",
+      "U202.3",
+      "U202.8",
+      "U202.9",
+      "U203.8",
+      "U203.9",
+      "U204.4",
+      "U205.3",
+      "U301.2",
+      "U501.5",
+      "U501.6",
+      "U501.7",
+      "U501.8"
+    ],
+    "3V3_AON": [
+      "C102.1",
+      "C103.1",
+      "C104.1",
+      "C105.1",
+      "C201.1",
+      "C203.1",
+      "C205.1",
+      "C207.1",
+      "C209.1",
+      "C301.1",
+      "C501.1",
+      "C502.1",
+      "C503.1",
+      "J106.2",
+      "R101.2",
+      "R102.2",
+      "R103.2",
+      "R203.2",
+      "R240.2",
+      "R241.2",
+      "R501.1",
+      "R502.1",
+      "R503.1",
+      "U101.2",
+      "U101.20",
+      "U101.3",
+      "U101.46",
+      "U101.55",
+      "U101.56",
+      "U201.1",
+      "U202.1",
+      "U203.1",
+      "U203.2",
+      "U203.3",
+      "U204.8",
+      "U205.5",
+      "U301.1",
+      "U501.10",
+      "U501.2",
+      "U501.3",
+      "U501.9"
+    ],
+    "SENS_VIO_1V8": [
+      "C202.1",
+      "C204.1",
+      "C206.1",
+      "C208.1",
+      "J202.23",
+      "R242.2",
+      "R243.2",
+      "U201.23",
+      "U201.24",
+      "U202.16",
+      "U203.16",
+      "U204.1"
+    ]
+  },
+  "changed_copper": [
+    "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+    "b13e01f6-1537-41d8-9bf3-4757f6464100",
+    "1ba49ad4-6eae-515d-aad4-1eb40505061b",
+    "01419084-3892-5710-8589-b0e5adee8cea",
+    "f7801833-8d01-5126-942c-4b3abb3a4ec5",
+    "154a30ea-c649-5f1a-8780-50b41706f342",
+    "8446369d-100a-534e-ae4e-2fdb25084570",
+    "defd5ae4-d74d-5fed-b279-b7bbaafa48e1",
+    "32a6e4be-057b-559b-bfb5-3c6450737671",
+    "246bcdd2-7668-5a04-93fd-22f38dd15d47",
+    "59e2ad67-7080-56e1-963f-68d6ef12d5e7",
+    "03894dc9-e04e-525b-9aa3-ad7aeb81e755",
+    "7bab4942-99b1-58c5-864d-655548679c83",
+    "86679cc7-bfc8-5db0-b669-a8b09193481f",
+    "c0b4f577-ddf7-5149-9706-571153993a8b",
+    "030e9db6-dc15-5d22-a4d6-266f3e02c34f",
+    "89ccb63b-f53b-5199-8ef3-c1811d5f4ba1",
+    "9d435611-05c4-54d4-90ec-23aecde8aa41",
+    "eeab5958-2f86-56e3-86ab-bf84ff9e8683",
+    "78dedf19-d22a-5987-9826-7ec37f378c2d",
+    "f1391c9f-c6e8-5d46-9b37-b38d35685a30",
+    "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+    "9efac149-5564-5a5f-af18-8e0521db6f18",
+    "2731a5af-f3a1-5e42-96fb-38e4936a30ff",
+    "6d0cee76-0fa6-5bec-91c7-3d6ed666647f",
+    "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+    "447874d5-14f0-520a-be6b-e56807ec343e",
+    "72418199-6f7c-5f51-af8c-08daa359c618",
+    "2db58bad-270e-529c-9804-b4c332bb0bc0",
+    "6d1b30ac-fd7f-5bad-a0e8-30a4cb2e8b39",
+    "d04eca23-4164-5b2f-8673-95fe528f421f",
+    "ff1c9db9-7e8f-5a73-9d76-3ffafed66723",
+    "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8"
+  ],
+  "added_copper": [
+    "00b943eb-4df3-51d9-bad6-123f259937b5",
+    "08e17075-eadc-5d72-be5d-e1b7ed5c41d6",
+    "156d568e-0a4d-53d6-bc1b-bd341918793c",
+    "26ba7460-d0cf-5c96-9ceb-c497b2deddce",
+    "52cbf5f7-ed92-5410-ac92-cc5c50609b83",
+    "5c18fa5e-1338-5215-9bb4-ce52faf59731",
+    "8144c8a9-5a75-50d0-bc13-f261bea59c73",
+    "f50960a1-b58d-5880-a989-5ab43bb5e8dc",
+    "f6415854-5130-52d1-bae8-9c32544baa27"
+  ],
+  "unchanged_signal_additional_reference_loss": [
+    {
+      "uuid": "f6e58d9f-87e4-5bf4-926b-b24ae2ab6701",
+      "net": "CAM_3V3_SW",
+      "reference": "In1.Cu",
+      "loss_mm2": 2.3103e-08,
+      "bbox_mm": [
+        6.651115,
+        88.019799,
+        0.099562,
+        0.026678
+      ],
+      "polygon_vertices_mm": [
+        [
+          [
+            6.651115,
+            88.019799
+          ],
+          [
+            6.750677,
+            88.046477
+          ],
+          [
+            6.651117,
+            88.0198
+          ]
+        ]
+      ]
+    }
+  ],
+  "residual_classification": "EXACT_NONZERO_SLIVER_PENDING_INDEPENDENT_PRECISION_REVIEW_NOT_WAIVED_TO_ZERO",
+  "per_net_reference_union_delta": [
+    {
+      "net": "AON_I2C_SDA",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.212081766219,
+      "new_uncovered_union_mm2": 0.212081748125,
+      "delta_mm2": -1.8093999992752074e-08
+    },
+    {
+      "net": "SENS_D3",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.065162555522,
+      "new_uncovered_union_mm2": 0.0649506764655,
+      "delta_mm2": -0.00021187905649999728
+    },
+    {
+      "net": "SENS_D3",
+      "reference": "In4.Cu",
+      "old_uncovered_union_mm2": 0.065162555522,
+      "new_uncovered_union_mm2": 0.064950705453,
+      "delta_mm2": -0.0002118500689999997
+    },
+    {
+      "net": "SENS_D2",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.0649506494815,
+      "new_uncovered_union_mm2": 0.0848160933815,
+      "delta_mm2": 0.019865443899999988
+    },
+    {
+      "net": "SENS_D2",
+      "reference": "In4.Cu",
+      "old_uncovered_union_mm2": 0.0649506440515,
+      "new_uncovered_union_mm2": 0.064871710205,
+      "delta_mm2": -7.893384649999835e-05
+    },
+    {
+      "net": "SENS_D1",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.065162555522,
+      "new_uncovered_union_mm2": 0.0845634741065,
+      "delta_mm2": 0.019400918584500007
+    },
+    {
+      "net": "SENS_D1",
+      "reference": "In4.Cu",
+      "old_uncovered_union_mm2": 0.0651625287905,
+      "new_uncovered_union_mm2": 0.0649464278375,
+      "delta_mm2": -0.0002161009529999952
+    },
+    {
+      "net": "SENS_D0",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.0649506494815,
+      "new_uncovered_union_mm2": 0.067885528052,
+      "delta_mm2": 0.0029348785704999963
+    },
+    {
+      "net": "SENS_D0",
+      "reference": "In4.Cu",
+      "old_uncovered_union_mm2": 0.0649506440515,
+      "new_uncovered_union_mm2": 0.0649282493055,
+      "delta_mm2": -2.2394746000006793e-05
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_union_mm2": 0.291291581208,
+      "new_uncovered_union_mm2": 0.291886615333,
+      "delta_mm2": 0.0005950341249999491
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "reference": "In2.Cu",
+      "old_uncovered_union_mm2": 0.1316427487005,
+      "new_uncovered_union_mm2": 0.1322377828255,
+      "delta_mm2": 0.0005950341250000046
+    },
+    {
+      "net": "CAM_3V3_SW",
+      "reference": "In1.Cu",
+      "old_uncovered_union_mm2": 0.3117817294255,
+      "new_uncovered_union_mm2": 0.311781744583,
+      "delta_mm2": 1.5157500032891846e-08
+    }
+  ],
+  "modified_and_uncovered_signal_reference_report": [
+    {
+      "uuid": "12b0d7aa-fcb4-43f9-be3c-dca2e9b1176c",
+      "net": "RF_ANT",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.012886438759,
+      "new_uncovered_mm2": 0.012886438759,
+      "modified": false
+    },
+    {
+      "uuid": "897c1d92-9f4e-44c7-9902-662b86f05dd1",
+      "net": "RF_ANT",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.357546438759,
+      "new_uncovered_mm2": 0.357546438759,
+      "modified": false
+    },
+    {
+      "uuid": "3082a087-df00-4eda-b477-fd24d7cd718e",
+      "net": "BOOT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309823552,
+      "new_uncovered_mm2": 0.076309823552,
+      "modified": false
+    },
+    {
+      "uuid": "841121a2-d892-481e-bf5e-69ce0966fda7",
+      "net": "BOOT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0211192553775,
+      "new_uncovered_mm2": 0.0211192553775,
+      "modified": false
+    },
+    {
+      "uuid": "99ae2d9c-2f71-440b-a2f7-fbb0cbf3b6a5",
+      "net": "BOOT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.063644648261,
+      "new_uncovered_mm2": 0.063644648261,
+      "modified": false
+    },
+    {
+      "uuid": "0e338de5-4073-47b5-9eef-788182e136d9",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "29bc7a94-06c5-436a-97ae-2b32e73ef850",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.070101591594,
+      "new_uncovered_mm2": 0.070101591594,
+      "modified": false
+    },
+    {
+      "uuid": "5c8abed1-a77c-4a3c-ba3f-47f43e94b691",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.019903948465,
+      "new_uncovered_mm2": 0.019903948465,
+      "modified": false
+    },
+    {
+      "uuid": "162acc17-2c4f-4d9b-92d0-8a9a61f82919",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0763096767825,
+      "new_uncovered_mm2": 0.0763096767825,
+      "modified": false
+    },
+    {
+      "uuid": "162acc17-2c4f-4d9b-92d0-8a9a61f82919",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0763096767825,
+      "new_uncovered_mm2": 0.0763096767825,
+      "modified": false
+    },
+    {
+      "uuid": "7db3ded7-36eb-4ad2-9e07-1dd8464d9b27",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.12897088282,
+      "new_uncovered_mm2": 0.12897088282,
+      "modified": false
+    },
+    {
+      "uuid": "7db3ded7-36eb-4ad2-9e07-1dd8464d9b27",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0763097257835,
+      "new_uncovered_mm2": 0.0763097257835,
+      "modified": false
+    },
+    {
+      "uuid": "cb615ce4-feda-455f-aa4e-17e2d17fa649",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.056636545797,
+      "new_uncovered_mm2": 0.056636545797,
+      "modified": false
+    },
+    {
+      "uuid": "3c8a388a-8f9a-4215-8f55-115f7bc5cf8f",
+      "net": "STRAP_GPIO3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.055101591594,
+      "new_uncovered_mm2": 0.055101591594,
+      "modified": false
+    },
+    {
+      "uuid": "5a16ae65-dcc3-53f1-8ec1-5b50c20c6b3b",
+      "net": "STRAP_GPIO3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649480454395,
+      "new_uncovered_mm2": 0.0649480454395,
+      "modified": false
+    },
+    {
+      "uuid": "9ce67ba9-70a8-4905-8645-e626112196e4",
+      "net": "STRAP_GPIO3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0441994101225,
+      "new_uncovered_mm2": 0.0441994101225,
+      "modified": false
+    },
+    {
+      "uuid": "d88aa022-058a-4088-b68f-fb048300e85a",
+      "net": "STRAP_GPIO3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.002854842322,
+      "new_uncovered_mm2": 0.002854842322,
+      "modified": false
+    },
+    {
+      "uuid": "00a70461-8052-4114-89d1-3891e898546f",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.175101591594,
+      "new_uncovered_mm2": 0.175101591594,
+      "modified": false
+    },
+    {
+      "uuid": "0be1ba01-a5c5-449e-be2c-b87bca346fbd",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "0be1ba01-a5c5-449e-be2c-b87bca346fbd",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "0e19ca35-810c-4c3e-97dc-e239ec80765f",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "13d3710d-a17a-4a14-82cf-da312ef86fae",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "1cfb4de5-d6e9-4eb6-a798-0b278b0893f6",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "1f1043d4-6509-49ff-8cfa-3a9bcd325405",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "1f1043d4-6509-49ff-8cfa-3a9bcd325405",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "21ea18e0-54a1-47ca-b33a-2b0b6d3a88b8",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "2a92d625-ec9c-4711-b493-620039339c83",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "2d63382e-e409-4477-a586-cfdb4deb1623",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "35fdfd5b-b712-5adb-a4a0-43bd0ff5f752",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.064950650307,
+      "new_uncovered_mm2": 0.064950650307,
+      "modified": false
+    },
+    {
+      "uuid": "35fdfd5b-b712-5adb-a4a0-43bd0ff5f752",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064950645463,
+      "new_uncovered_mm2": 0.064950645463,
+      "modified": false
+    },
+    {
+      "uuid": "3d7a63c7-5ba0-41df-a2b6-7f9f3a5e5c7e",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "4176d477-87c6-4330-aec6-948972ac02cb",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "4a831994-fb20-4212-aa55-ce4317c8459a",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "4a831994-fb20-4212-aa55-ce4317c8459a",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "4bddd977-44ea-4d28-804c-0df01bfe1296",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "4bddd977-44ea-4d28-804c-0df01bfe1296",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "5bf6f25c-5b2d-4b7c-b6ba-c7360d947cbc",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "634771d8-fc94-4c98-a344-eec325a2ee93",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "634771d8-fc94-4c98-a344-eec325a2ee93",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "6a568695-ed61-46e8-9142-c36ea300a6cf",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "6a6825b3-b479-4eac-aca9-00cf4ce6d42e",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "6cd2b024-0d5e-43dd-967f-8f8645145e69",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "6e3f7d10-d7a0-478c-a0f5-709de69fcd8a",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.677601591594,
+      "new_uncovered_mm2": 0.677601591594,
+      "modified": false
+    },
+    {
+      "uuid": "709d4006-f16e-40e9-8152-4161c9916bfc",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "709d4006-f16e-40e9-8152-4161c9916bfc",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "79df4f0a-f571-4d43-9280-ea5289865078",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "7e805821-9e35-4fec-ba07-da05e3290158",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.054724630557,
+      "new_uncovered_mm2": 0.054724630557,
+      "modified": false
+    },
+    {
+      "uuid": "81d76b44-8cf9-48bb-90c4-28eef9ec11cb",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "83fc1598-203b-44d4-afbc-68cf84d4921a",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "8ba52616-9784-478a-9353-a7565a0bd9a1",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "8ba52616-9784-478a-9353-a7565a0bd9a1",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "94130b67-de0a-45c5-865c-c66129e6045c",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "9d8b439f-913e-4d06-b0ef-d8a771b1f2d8",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "9ffe984a-de60-4ad2-9b01-6adac2b715fb",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "a47028bb-4267-4241-83d2-13d3e2948543",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "a47028bb-4267-4241-83d2-13d3e2948543",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "a55c172a-067b-4899-9b11-1365f0a049a9",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "afa53b48-0169-4b38-87e4-5de734330a4a",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.040101591594,
+      "new_uncovered_mm2": 0.040101591594,
+      "modified": false
+    },
+    {
+      "uuid": "b93196c4-adcf-4de3-9939-89df18e3c630",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "bf414cc9-c5f9-4cbe-bccb-9c2dacee0db3",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "bf414cc9-c5f9-4cbe-bccb-9c2dacee0db3",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "ca1bf51b-2362-405c-bfdd-afde810bb008",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "cf760386-93e4-494b-9372-cfb6b15335a5",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "de80ccfb-26fe-4470-8804-0516900aebf3",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "de80ccfb-26fe-4470-8804-0516900aebf3",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "e0012f49-978b-4529-b57e-403b95088f66",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "e0012f49-978b-4529-b57e-403b95088f66",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "e03aab84-4773-45b5-beb9-bb109b34556f",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "e0df53ad-2284-408b-921e-e3656dff7581",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.023576680905,
+      "new_uncovered_mm2": 0.023576680905,
+      "modified": false
+    },
+    {
+      "uuid": "e0df53ad-2284-408b-921e-e3656dff7581",
+      "net": "STRAP_GPIO3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.023576680905,
+      "new_uncovered_mm2": 0.023576680905,
+      "modified": false
+    },
+    {
+      "uuid": "e415d98c-dec1-4ce6-aad7-187fa9842f06",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "e4bfe45f-2739-412c-a97f-3e0ac666f173",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "e7a9304e-d80d-4476-a77d-90616e7f7463",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "ef495eb8-39bc-41c1-a3a5-552a566521a3",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.054724630557,
+      "new_uncovered_mm2": 0.054724630557,
+      "modified": false
+    },
+    {
+      "uuid": "f29c07cd-23ef-4156-8ab9-f6357060799f",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "f2b77948-aa88-46aa-97f3-271b9315c794",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.1413832869205,
+      "new_uncovered_mm2": 0.1413832869205,
+      "modified": false
+    },
+    {
+      "uuid": "ffe92cc5-c3c7-474f-8b88-7a1cafbba93a",
+      "net": "STRAP_GPIO3",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.215050795797,
+      "new_uncovered_mm2": 0.215050795797,
+      "modified": false
+    },
+    {
+      "uuid": "8f9a248a-7442-454b-9bff-5f72f5a931f0",
+      "net": "STRAP_GPIO46",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0763097714185,
+      "new_uncovered_mm2": 0.0763097714185,
+      "modified": false
+    },
+    {
+      "uuid": "abcb2fa1-af8e-4eb7-b3fc-df62d1e4f960",
+      "net": "STRAP_GPIO46",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.1308068772905,
+      "new_uncovered_mm2": 0.1308068772905,
+      "modified": false
+    },
+    {
+      "uuid": "b5ccd9d4-0643-41e6-abd8-c94abc682e88",
+      "net": "STRAP_GPIO46",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.036406252889,
+      "new_uncovered_mm2": 0.036406252889,
+      "modified": false
+    },
+    {
+      "uuid": "bec30767-0391-45a4-b52a-aec2ac446db1",
+      "net": "STRAP_GPIO46",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.062601591594,
+      "new_uncovered_mm2": 0.062601591594,
+      "modified": false
+    },
+    {
+      "uuid": "04e3d7a6-eca5-5978-a8d4-204c0710443b",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "0620a06c-4a9b-5be5-a59a-745fa57fab4c",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022107487443,
+      "new_uncovered_mm2": 0.022107487443,
+      "modified": false
+    },
+    {
+      "uuid": "40474950-93ec-5ff7-a525-e0a4d5009231",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "4155beb2-243e-52d0-a33d-697dfe6b7647",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.012965505514,
+      "new_uncovered_mm2": 0.012965505514,
+      "modified": false
+    },
+    {
+      "uuid": "421630af-d359-554c-b1ee-b1f17aa8314e",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "429cc93e-5ce1-535a-9368-849849baefc6",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0228034873335,
+      "new_uncovered_mm2": 0.0228034873335,
+      "modified": false
+    },
+    {
+      "uuid": "44552b64-fcd2-5499-a80e-2cc369416b9a",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "482b1f57-a4b0-5de2-8733-230cf670fe6c",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "5f877f88-50c6-565a-9994-87ca302d17ed",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "718e7ff4-bbee-5680-b288-cfc4fca37425",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0008197316345,
+      "new_uncovered_mm2": 0.0008197316345,
+      "modified": false
+    },
+    {
+      "uuid": "77cf5906-b413-510a-adc2-60dbd35eb8ec",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "78877e51-0107-5fbe-8ee7-a5accea004a2",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "7b0746b3-1756-5647-a96a-af57d28f10c2",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.002728311302,
+      "new_uncovered_mm2": 0.002728311302,
+      "modified": false
+    },
+    {
+      "uuid": "9a8711e1-ef1b-5635-b8c6-86509d347545",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.019345838267,
+      "new_uncovered_mm2": 0.019345838267,
+      "modified": false
+    },
+    {
+      "uuid": "b925944e-cdc4-52b5-9bab-521c000c3120",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "bd90db79-b782-5208-a551-42eb78871864",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649461258705,
+      "new_uncovered_mm2": 0.0649461258705,
+      "modified": false
+    },
+    {
+      "uuid": "beb087ab-38ca-589b-9c23-00114b814a2d",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649494611435,
+      "new_uncovered_mm2": 0.0649494611435,
+      "modified": false
+    },
+    {
+      "uuid": "c4665359-fbd5-5808-ac06-15f8854b9ad8",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0149132267125,
+      "new_uncovered_mm2": 0.0149132267125,
+      "modified": false
+    },
+    {
+      "uuid": "cb59e1b6-019a-5934-b62e-4490dcd8e8b5",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.019070038396,
+      "new_uncovered_mm2": 0.019070038396,
+      "modified": false
+    },
+    {
+      "uuid": "cdfe918b-5123-524c-b535-1938712d5ff1",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064175751622,
+      "new_uncovered_mm2": 0.064175751622,
+      "modified": false
+    },
+    {
+      "uuid": "d744e180-841f-537c-94f7-495f8065fa63",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0091861523035,
+      "new_uncovered_mm2": 0.0091861523035,
+      "modified": false
+    },
+    {
+      "uuid": "df0b8115-ab82-5dee-9378-77ef505d3fe7",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "fd94beb1-d169-5212-9073-cbe4ecff49b1",
+      "net": "CAM_IO_EN",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.019584737466,
+      "new_uncovered_mm2": 0.019584737466,
+      "modified": false
+    },
+    {
+      "uuid": "096c4043-e2a2-59f2-aa1f-68425f958327",
+      "net": "CAM_IO_EN",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649507696065,
+      "new_uncovered_mm2": 0.0649507696065,
+      "modified": false
+    },
+    {
+      "uuid": "7bf6d161-dfc1-5b17-bbaf-d438749b2176",
+      "net": "CAM_IO_EN",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": false
+    },
+    {
+      "uuid": "9c409373-69ea-58d0-9868-3d2e710794b3",
+      "net": "CAM_IO_EN",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.129837988242,
+      "new_uncovered_mm2": 0.129837988242,
+      "modified": false
+    },
+    {
+      "uuid": "9c409373-69ea-58d0-9868-3d2e710794b3",
+      "net": "CAM_IO_EN",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.129837988242,
+      "new_uncovered_mm2": 0.129837988242,
+      "modified": false
+    },
+    {
+      "uuid": "571912ba-ff30-40f8-b459-95f644fa9e95",
+      "net": "ILLUM_STROBE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309823552,
+      "new_uncovered_mm2": 0.076309823552,
+      "modified": false
+    },
+    {
+      "uuid": "ff261ca1-ec0d-4c00-a68f-2163138dafaf",
+      "net": "ILLUM_STROBE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309841343,
+      "new_uncovered_mm2": 0.076309841343,
+      "modified": false
+    },
+    {
+      "uuid": "1d1c491f-892f-564b-a4cc-16230fd0d26f",
+      "net": "PICKUP_INT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": false
+    },
+    {
+      "uuid": "67c24dd0-b83d-55e2-8533-2e8312281bf4",
+      "net": "PICKUP_INT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064925582094,
+      "new_uncovered_mm2": 0.064925582094,
+      "modified": false
+    },
+    {
+      "uuid": "a1391d60-55c8-5465-96b6-3b9a1e1eff97",
+      "net": "PICKUP_INT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064950659286,
+      "new_uncovered_mm2": 0.064950659286,
+      "modified": false
+    },
+    {
+      "uuid": "d3dd73a4-8862-5945-9f30-426cac365267",
+      "net": "PICKUP_INT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0648723172055,
+      "new_uncovered_mm2": 0.0648723172055,
+      "modified": false
+    },
+    {
+      "uuid": "0a73ca4b-5159-53d3-9d2e-a9e090ccdddd",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "0b0a745e-41de-5d92-a794-cacb9bf5723b",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "3d58f8f5-a308-5e54-92d3-d2815268af80",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0498682830165,
+      "new_uncovered_mm2": 0.0498682830165,
+      "modified": false
+    },
+    {
+      "uuid": "e59b7cb5-42ff-5f06-968a-f365f0ee8d5c",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "ec8e33e8-4462-5e0a-bfda-047b19f674e5",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064949823181,
+      "new_uncovered_mm2": 0.064949823181,
+      "modified": false
+    },
+    {
+      "uuid": "cdd37461-a952-5b7b-afd5-fd59522aceb4",
+      "net": "PICKUP_INT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.12990133923,
+      "new_uncovered_mm2": 0.12990133923,
+      "modified": false
+    },
+    {
+      "uuid": "cdd37461-a952-5b7b-afd5-fd59522aceb4",
+      "net": "PICKUP_INT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.12990133923,
+      "new_uncovered_mm2": 0.12990133923,
+      "modified": false
+    },
+    {
+      "uuid": "4f328965-79f7-58ed-ac38-ad097e91dd14",
+      "net": "NIB_CONTACT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064950614154,
+      "new_uncovered_mm2": 0.064950614154,
+      "modified": false
+    },
+    {
+      "uuid": "b2c80967-8f52-5818-9d8d-2c97d03fbe71",
+      "net": "NIB_CONTACT_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0020449815485,
+      "new_uncovered_mm2": 0.0020449815485,
+      "modified": false
+    },
+    {
+      "uuid": "f4b053d4-a1f8-513b-af27-cad6ef30ec52",
+      "net": "NIB_CONTACT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064897484244,
+      "new_uncovered_mm2": 0.064897484244,
+      "modified": false
+    },
+    {
+      "uuid": "fa5306a1-02b3-57f8-bf39-9921eb83e392",
+      "net": "NIB_CONTACT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "029b560d-4511-5cf5-9606-763c0ff3bfca",
+      "net": "NIB_CONTACT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "029b560d-4511-5cf5-9606-763c0ff3bfca",
+      "net": "NIB_CONTACT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "208fa31d-c90e-56bb-ab65-0f7cda8af90d",
+      "net": "NIB_CONTACT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 3.6222195e-06,
+      "new_uncovered_mm2": 3.6222195e-06,
+      "modified": false
+    },
+    {
+      "uuid": "276120fb-6fea-5f65-9255-276fe21b2807",
+      "net": "NIB_CONTACT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0654033687565,
+      "new_uncovered_mm2": 0.0654033687565,
+      "modified": false
+    },
+    {
+      "uuid": "276120fb-6fea-5f65-9255-276fe21b2807",
+      "net": "NIB_CONTACT_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0654033687565,
+      "new_uncovered_mm2": 0.0654033687565,
+      "modified": false
+    },
+    {
+      "uuid": "a373daf1-bf8f-512d-a3f6-7d52442001f1",
+      "net": "NIB_CONTACT_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.000175316943,
+      "new_uncovered_mm2": 0.000175316943,
+      "modified": false
+    },
+    {
+      "uuid": "05ff4398-e791-52d4-99e3-839eab64dbf5",
+      "net": "AON_I2C_SCL",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064950705453,
+      "new_uncovered_mm2": 0.064950705453,
+      "modified": false
+    },
+    {
+      "uuid": "682ddd29-c95a-51d1-af9d-b4d06b81b719",
+      "net": "AON_I2C_SCL",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064899452652,
+      "new_uncovered_mm2": 0.064899452652,
+      "modified": false
+    },
+    {
+      "uuid": "ea327177-ae7d-5b7b-8a88-28ed7c20deb5",
+      "net": "AON_I2C_SCL",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649029834595,
+      "new_uncovered_mm2": 0.0649029834595,
+      "modified": false
+    },
+    {
+      "uuid": "a61c1cf4-540a-5957-b79c-bf2866e425ef",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.129901350384,
+      "new_uncovered_mm2": 0.129901350384,
+      "modified": false
+    },
+    {
+      "uuid": "108cf511-27ad-5305-b277-d2eee5e461c7",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0231813231915,
+      "new_uncovered_mm2": 0.0231813231915,
+      "modified": false
+    },
+    {
+      "uuid": "108cf511-27ad-5305-b277-d2eee5e461c7",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0231813231915,
+      "new_uncovered_mm2": 0.0231813231915,
+      "modified": false
+    },
+    {
+      "uuid": "2f751072-b3e5-5d85-9da8-d88eeb1b84f4",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "2f751072-b3e5-5d85-9da8-d88eeb1b84f4",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "36543bdc-1295-5335-bf15-0ebc5bede79c",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "36543bdc-1295-5335-bf15-0ebc5bede79c",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "468b66dd-1e29-5e0c-9dd9-ee1e533ead1b",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "468b66dd-1e29-5e0c-9dd9-ee1e533ead1b",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "56c5b142-53ed-56d8-9896-b1b9fc474ad3",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.1299013814375,
+      "new_uncovered_mm2": 0.1299013814375,
+      "modified": false
+    },
+    {
+      "uuid": "56c5b142-53ed-56d8-9896-b1b9fc474ad3",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1299013814375,
+      "new_uncovered_mm2": 0.1299013814375,
+      "modified": false
+    },
+    {
+      "uuid": "6539224c-8a3c-5012-b811-1b4b0c164ec0",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "6539224c-8a3c-5012-b811-1b4b0c164ec0",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "6ae111cb-9883-55b0-851d-52ed8bf20a41",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "6ae111cb-9883-55b0-851d-52ed8bf20a41",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "945af4d8-f0ce-5ca7-8253-756903c51365",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 3.471925795797,
+      "new_uncovered_mm2": 3.471925795797,
+      "modified": false
+    },
+    {
+      "uuid": "9c309857-a36d-5e6d-976e-a6368fff30db",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.009451500629,
+      "new_uncovered_mm2": 0.009451500629,
+      "modified": false
+    },
+    {
+      "uuid": "9fde40b9-8288-5ba6-80a5-b7112f981adc",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "9fde40b9-8288-5ba6-80a5-b7112f981adc",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "c339632d-5451-57ef-aeef-b6423a534218",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "c339632d-5451-57ef-aeef-b6423a534218",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "c9956b08-7224-5bb4-8c9a-24176ef35e21",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": false
+    },
+    {
+      "uuid": "c9956b08-7224-5bb4-8c9a-24176ef35e21",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": false
+    },
+    {
+      "uuid": "cad32bfd-1945-54bb-89f1-90059263394b",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.016444459235,
+      "new_uncovered_mm2": 0.016444459235,
+      "modified": false
+    },
+    {
+      "uuid": "cad32bfd-1945-54bb-89f1-90059263394b",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.016444459235,
+      "new_uncovered_mm2": 0.016444459235,
+      "modified": false
+    },
+    {
+      "uuid": "e27d8363-bca3-55c2-95c6-4bfab6f9b2bc",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.012178757731,
+      "new_uncovered_mm2": 0.012178757731,
+      "modified": false
+    },
+    {
+      "uuid": "e4561e73-c444-5595-9e9f-ecfaae23ec43",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "e4561e73-c444-5595-9e9f-ecfaae23ec43",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "f8714681-dde1-5d41-8ae8-edcdde3b9d32",
+      "net": "AON_I2C_SCL",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "f8714681-dde1-5d41-8ae8-edcdde3b9d32",
+      "net": "AON_I2C_SCL",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "2fcc5dee-9265-5fda-91c5-7f7ba38be808",
+      "net": "AON_I2C_SDA",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.041601591594,
+      "new_uncovered_mm2": 0.041601591594,
+      "modified": false
+    },
+    {
+      "uuid": "320462e4-1ec8-5ca5-a5ad-640c1d3024e0",
+      "net": "AON_I2C_SDA",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.059422950855,
+      "new_uncovered_mm2": 0.059422950855,
+      "modified": false
+    },
+    {
+      "uuid": "5bd3fd44-a442-5f1a-a8dc-92a0ca18f8c5",
+      "net": "AON_I2C_SDA",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064932088382,
+      "new_uncovered_mm2": 0.064932070288,
+      "modified": false
+    },
+    {
+      "uuid": "d054c515-bd31-5aa1-b0c6-0e3dce6bef5e",
+      "net": "AON_I2C_SDA",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506494815,
+      "new_uncovered_mm2": 0.0649506494815,
+      "modified": false
+    },
+    {
+      "uuid": "0275ae80-12dd-558a-add5-10001b7c1e20",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "1b31ce92-1df0-5012-aa50-ff497ac10ce3",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "36312ba5-e8e4-5846-8127-fc7b6b0a8721",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0593253061465,
+      "new_uncovered_mm2": 0.0593253061465,
+      "modified": false
+    },
+    {
+      "uuid": "37ad73d7-47e7-52fa-936b-953288bde0f4",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.012918165904,
+      "new_uncovered_mm2": 0.012918165904,
+      "modified": false
+    },
+    {
+      "uuid": "3f3ddc46-7996-5056-ad12-7a40f44aef33",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.023181359774,
+      "new_uncovered_mm2": 0.023181359774,
+      "modified": false
+    },
+    {
+      "uuid": "4e129de8-c449-5a16-989d-3405def4bfb2",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.049924457551,
+      "new_uncovered_mm2": 0.049924457551,
+      "modified": false
+    },
+    {
+      "uuid": "5283469a-b16f-503e-bb64-76f456a372f9",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "603ccde8-34d2-51ed-9247-a4eb8aeeb854",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649049146125,
+      "new_uncovered_mm2": 0.0649049146125,
+      "modified": false
+    },
+    {
+      "uuid": "6a3ce97b-dfce-5afa-9542-f0c3eb23c219",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "83779225-a896-5bc6-bc04-123b74de1a36",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "9be234c2-2289-50f4-8376-62e6bdd2381e",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "a0ee4e7b-6b2c-57f5-8e6e-d06b2ce03867",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.016267019337,
+      "new_uncovered_mm2": 0.016267019337,
+      "modified": false
+    },
+    {
+      "uuid": "a206a6d4-e234-5b84-825a-955f62cd1199",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "b9f64423-2397-5726-a03e-21bace4fc89d",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.036351591594,
+      "new_uncovered_mm2": 0.036351591594,
+      "modified": false
+    },
+    {
+      "uuid": "d00a1193-69ab-5a78-96b7-6b598b6bd7b2",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "dbb4ad15-6efa-5bfb-8cd4-eac418428a97",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "f6951863-99f9-5628-acd6-01850b121e90",
+      "net": "AON_I2C_SDA",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "ec08010d-a204-5be8-8a76-0b6fc435b407",
+      "net": "SENS_D7",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "106b739a-c755-518c-9507-8fc3f75c01fe",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064950705453,
+      "new_uncovered_mm2": 0.064950705453,
+      "modified": false
+    },
+    {
+      "uuid": "8144c8a9-5a75-50d0-bc13-f261bea59c73",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "8446369d-100a-534e-ae4e-2fdb25084570",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "defd5ae4-d74d-5fed-b279-b7bbaafa48e1",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "032ad265-22d3-562c-b5f4-cb63582be22e",
+      "net": "SENS_D7",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.2387514722625,
+      "new_uncovered_mm2": 0.2387514722625,
+      "modified": false
+    },
+    {
+      "uuid": "032ad265-22d3-562c-b5f4-cb63582be22e",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "3d1b0d47-c781-5323-9cc9-b781de2e23a6",
+      "net": "SENS_D7",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 6.182601591594,
+      "new_uncovered_mm2": 6.182601591594,
+      "modified": false
+    },
+    {
+      "uuid": "78bd2650-1ff2-53ad-8b9b-5dcacae5d762",
+      "net": "SENS_D7",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.2387514722625,
+      "new_uncovered_mm2": 0.2387514722625,
+      "modified": false
+    },
+    {
+      "uuid": "78bd2650-1ff2-53ad-8b9b-5dcacae5d762",
+      "net": "SENS_D7",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "7536cae6-fbca-555e-a61d-9079d587d78c",
+      "net": "SENS_D6",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "32a6e4be-057b-559b-bfb5-3c6450737671",
+      "net": "SENS_D6",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": true
+    },
+    {
+      "uuid": "84e4fe54-8472-579f-934a-bfa2efac37e4",
+      "net": "SENS_D6",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.2837514722625,
+      "new_uncovered_mm2": 0.2837514722625,
+      "modified": false
+    },
+    {
+      "uuid": "84e4fe54-8472-579f-934a-bfa2efac37e4",
+      "net": "SENS_D6",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "93c6d8f0-601b-545a-b294-a006266e37b9",
+      "net": "SENS_D6",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.2837514722625,
+      "new_uncovered_mm2": 0.2837514722625,
+      "modified": false
+    },
+    {
+      "uuid": "93c6d8f0-601b-545a-b294-a006266e37b9",
+      "net": "SENS_D6",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "b514c9c5-8ab0-5764-b1ac-1a47747e0fd9",
+      "net": "SENS_D6",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 6.377601591594,
+      "new_uncovered_mm2": 6.377601591594,
+      "modified": false
+    },
+    {
+      "uuid": "405dbbcc-feed-5164-b050-41cf2174e551",
+      "net": "SENS_D5",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "246bcdd2-7668-5a04-93fd-22f38dd15d47",
+      "net": "SENS_D5",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064950650887,
+      "new_uncovered_mm2": 0.064950650887,
+      "modified": true
+    },
+    {
+      "uuid": "34560208-f793-56d3-9803-42e6c194e4a7",
+      "net": "SENS_D5",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 6.572601591594,
+      "new_uncovered_mm2": 6.572601591594,
+      "modified": false
+    },
+    {
+      "uuid": "aff63f92-9666-5b5f-b53d-2bde91082af1",
+      "net": "SENS_D5",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.3287514722625,
+      "new_uncovered_mm2": 0.3287514722625,
+      "modified": false
+    },
+    {
+      "uuid": "aff63f92-9666-5b5f-b53d-2bde91082af1",
+      "net": "SENS_D5",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "c3aeb5de-bebc-562e-ba0a-638044ebb1b9",
+      "net": "SENS_D5",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.3287514452785,
+      "new_uncovered_mm2": 0.3287514452785,
+      "modified": false
+    },
+    {
+      "uuid": "c3aeb5de-bebc-562e-ba0a-638044ebb1b9",
+      "net": "SENS_D5",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064950649016,
+      "new_uncovered_mm2": 0.064950649016,
+      "modified": false
+    },
+    {
+      "uuid": "79cfa57c-a273-5b17-ae32-8557d9241f9e",
+      "net": "SENS_D4",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "59e2ad67-7080-56e1-963f-68d6ef12d5e7",
+      "net": "SENS_D4",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": true
+    },
+    {
+      "uuid": "14b8a960-afa5-54a5-a9e0-fd69882359c0",
+      "net": "SENS_D4",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.3737514722625,
+      "new_uncovered_mm2": 0.3737514722625,
+      "modified": false
+    },
+    {
+      "uuid": "14b8a960-afa5-54a5-a9e0-fd69882359c0",
+      "net": "SENS_D4",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "4f13e04b-fa19-56f8-bcc0-50df9bdc645d",
+      "net": "SENS_D4",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.3737514722625,
+      "new_uncovered_mm2": 0.3737514722625,
+      "modified": false
+    },
+    {
+      "uuid": "4f13e04b-fa19-56f8-bcc0-50df9bdc645d",
+      "net": "SENS_D4",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "dd646847-588f-5b3a-92c3-4ac169be87d4",
+      "net": "SENS_D4",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 6.767601591594,
+      "new_uncovered_mm2": 6.767601591594,
+      "modified": false
+    },
+    {
+      "uuid": "03894dc9-e04e-525b-9aa3-ad7aeb81e755",
+      "net": "SENS_D3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "7bab4942-99b1-58c5-864d-655548679c83",
+      "net": "SENS_D3",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.065162555522,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": true
+    },
+    {
+      "uuid": "08e17075-eadc-5d72-be5d-e1b7ed5c41d6",
+      "net": "SENS_D3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "5c18fa5e-1338-5215-9bb4-ce52faf59731",
+      "net": "SENS_D3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "c0b4f577-ddf7-5149-9706-571153993a8b",
+      "net": "SENS_D3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.065162555522,
+      "new_uncovered_mm2": 0.064950705453,
+      "modified": true
+    },
+    {
+      "uuid": "f6415854-5130-52d1-bae8-9c32544baa27",
+      "net": "SENS_D3",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "030e9db6-dc15-5d22-a4d6-266f3e02c34f",
+      "net": "SENS_D2",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506494815,
+      "new_uncovered_mm2": 0.047601591594,
+      "modified": true
+    },
+    {
+      "uuid": "89ccb63b-f53b-5199-8ef3-c1811d5f4ba1",
+      "net": "SENS_D2",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.056040015881,
+      "modified": true
+    },
+    {
+      "uuid": "26ba7460-d0cf-5c96-9ceb-c497b2deddce",
+      "net": "SENS_D2",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "52cbf5f7-ed92-5410-ac92-cc5c50609b83",
+      "net": "SENS_D2",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "eeab5958-2f86-56e3-86ab-bf84ff9e8683",
+      "net": "SENS_D2",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.064871710205,
+      "modified": true
+    },
+    {
+      "uuid": "f50960a1-b58d-5880-a989-5ab43bb5e8dc",
+      "net": "SENS_D2",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "78dedf19-d22a-5987-9826-7ec37f378c2d",
+      "net": "SENS_D1",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.040787396606,
+      "modified": true
+    },
+    {
+      "uuid": "f1391c9f-c6e8-5d46-9b37-b38d35685a30",
+      "net": "SENS_D1",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.065162555522,
+      "new_uncovered_mm2": 0.062601591594,
+      "modified": true
+    },
+    {
+      "uuid": "156d568e-0a4d-53d6-bc1b-bd341918793c",
+      "net": "SENS_D1",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "9efac149-5564-5a5f-af18-8e0521db6f18",
+      "net": "SENS_D1",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0651625287905,
+      "new_uncovered_mm2": 0.0649464278375,
+      "modified": true
+    },
+    {
+      "uuid": "2731a5af-f3a1-5e42-96fb-38e4936a30ff",
+      "net": "SENS_D0",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506494815,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": true
+    },
+    {
+      "uuid": "6d0cee76-0fa6-5bec-91c7-3d6ed666647f",
+      "net": "SENS_D0",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0091794426015,
+      "modified": true
+    },
+    {
+      "uuid": "00b943eb-4df3-51d9-bad6-123f259937b5",
+      "net": "SENS_D0",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": null,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "447874d5-14f0-520a-be6b-e56807ec343e",
+      "net": "SENS_D0",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649282493055,
+      "modified": true
+    },
+    {
+      "uuid": "1d7ae0a1-e67a-54ee-a66e-83f15f302505",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0044870593255,
+      "new_uncovered_mm2": 0.0044870593255,
+      "modified": false
+    },
+    {
+      "uuid": "2300ab9f-bf32-5154-88aa-61f8a79deb53",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064911687945,
+      "new_uncovered_mm2": 0.064911687945,
+      "modified": false
+    },
+    {
+      "uuid": "24489f44-f89f-5e11-a6de-64b3008c08de",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "2bfcdbd0-89f3-5999-acb6-7ed256ad86a1",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064950704921,
+      "new_uncovered_mm2": 0.064950704921,
+      "modified": false
+    },
+    {
+      "uuid": "2cd81ad6-6c8f-5941-9c91-84e51e5ca23c",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064950659286,
+      "new_uncovered_mm2": 0.064950659286,
+      "modified": false
+    },
+    {
+      "uuid": "33b4a0e4-3c73-5ebd-b3bb-c294c6355508",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0017088070265,
+      "new_uncovered_mm2": 0.0017088070265,
+      "modified": false
+    },
+    {
+      "uuid": "4c04d997-fb75-542f-b7a1-c84350c0f6ff",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.041318557338,
+      "new_uncovered_mm2": 0.041318557338,
+      "modified": false
+    },
+    {
+      "uuid": "4f6b2cbd-52a0-5c77-b1ca-4eb2d27120bf",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.012832828507,
+      "new_uncovered_mm2": 0.012832828507,
+      "modified": false
+    },
+    {
+      "uuid": "62eeb4c2-b1ca-5dab-b3ef-c92b96ada80f",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.009210802454,
+      "new_uncovered_mm2": 0.009210802454,
+      "modified": false
+    },
+    {
+      "uuid": "67b0c40d-90c7-507b-9494-2ac14d3e12de",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "6c42eafe-953a-59e8-8572-97a1e1dea857",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0203906240545,
+      "new_uncovered_mm2": 0.0203906240545,
+      "modified": false
+    },
+    {
+      "uuid": "6c653abe-57e0-56fb-ae14-feee344ff42d",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.021351591594,
+      "new_uncovered_mm2": 0.021351591594,
+      "modified": false
+    },
+    {
+      "uuid": "7d8c5bff-218e-5f34-87b4-373b835a8027",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0758177417315,
+      "new_uncovered_mm2": 0.0758177417315,
+      "modified": false
+    },
+    {
+      "uuid": "a78f7183-6506-5ca8-868d-d53bec321208",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.025101591594,
+      "new_uncovered_mm2": 0.025101591594,
+      "modified": false
+    },
+    {
+      "uuid": "c4bec89b-c326-5da5-aca2-a52e585f2977",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "ced7603d-6075-5ac8-9a88-f7eba556341b",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.022904877342,
+      "new_uncovered_mm2": 0.022904877342,
+      "modified": false
+    },
+    {
+      "uuid": "d13e22cb-de30-5112-9fe3-d6940cbff092",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649370935765,
+      "new_uncovered_mm2": 0.0649370935765,
+      "modified": false
+    },
+    {
+      "uuid": "ebb2c295-6bca-55e2-809f-999fbc6acbfa",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0178984480795,
+      "new_uncovered_mm2": 0.0178984480795,
+      "modified": false
+    },
+    {
+      "uuid": "6463f038-f882-566e-ae2e-736403466fb9",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.129878579251,
+      "new_uncovered_mm2": 0.129878579251,
+      "modified": false
+    },
+    {
+      "uuid": "1d69eaa1-d757-5a1b-a052-faa75f6ad128",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.06558756529,
+      "new_uncovered_mm2": 0.06558756529,
+      "modified": false
+    },
+    {
+      "uuid": "1d69eaa1-d757-5a1b-a052-faa75f6ad128",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.06558756529,
+      "new_uncovered_mm2": 0.06558756529,
+      "modified": false
+    },
+    {
+      "uuid": "5ed25f4e-2ec2-5107-b24c-b0bfb4f1900b",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.1297486421395,
+      "new_uncovered_mm2": 0.1297486421395,
+      "modified": false
+    },
+    {
+      "uuid": "5ed25f4e-2ec2-5107-b24c-b0bfb4f1900b",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1308144074695,
+      "new_uncovered_mm2": 0.1308144074695,
+      "modified": false
+    },
+    {
+      "uuid": "627869a2-5f36-5631-a80a-3ea7a9fb01e2",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0648846209435,
+      "new_uncovered_mm2": 0.0648846209435,
+      "modified": false
+    },
+    {
+      "uuid": "627869a2-5f36-5631-a80a-3ea7a9fb01e2",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0648846209435,
+      "new_uncovered_mm2": 0.0648846209435,
+      "modified": false
+    },
+    {
+      "uuid": "71252a52-b687-51ba-acb0-a4e505f9bc43",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.0655070210925,
+      "new_uncovered_mm2": 0.0655070210925,
+      "modified": false
+    },
+    {
+      "uuid": "71252a52-b687-51ba-acb0-a4e505f9bc43",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0655070210925,
+      "new_uncovered_mm2": 0.0655070210925,
+      "modified": false
+    },
+    {
+      "uuid": "b18ee52d-b307-5ddf-bfa9-8bc703209254",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.06495010318,
+      "new_uncovered_mm2": 0.06495010318,
+      "modified": false
+    },
+    {
+      "uuid": "b18ee52d-b307-5ddf-bfa9-8bc703209254",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.06495010318,
+      "new_uncovered_mm2": 0.06495010318,
+      "modified": false
+    },
+    {
+      "uuid": "dff834b1-ead4-5a45-80a3-fdb7a0276002",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.12990133923,
+      "new_uncovered_mm2": 0.12990133923,
+      "modified": false
+    },
+    {
+      "uuid": "dff834b1-ead4-5a45-80a3-fdb7a0276002",
+      "net": "CAM_ISO_OE_N",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.12990133923,
+      "new_uncovered_mm2": 0.12990133923,
+      "modified": false
+    },
+    {
+      "uuid": "cb082523-2fea-5421-a7e1-8ce12d57cd98",
+      "net": "SENS_HREF",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "72418199-6f7c-5f51-af8c-08daa359c618",
+      "net": "SENS_HREF",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "cab4723c-4f70-57cc-9059-e3a7df912d1b",
+      "net": "SENS_HREF",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "8a3f3bda-008c-5937-952a-1b7526d6585d",
+      "net": "SENS_VSYNC",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "2db58bad-270e-529c-9804-b4c332bb0bc0",
+      "net": "SENS_VSYNC",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "4a10ab98-7e14-52f2-8f36-a86fb8f9b80a",
+      "net": "SENS_VSYNC",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "c2814d21-a068-56a0-94f3-24c5650e0202",
+      "net": "SENS_PCLK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "6d1b30ac-fd7f-5bad-a0e8-30a4cb2e8b39",
+      "net": "SENS_PCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0,
+      "new_uncovered_mm2": 0.0,
+      "modified": true
+    },
+    {
+      "uuid": "ad7580f0-b8b1-5929-b38f-95c054aa7efa",
+      "net": "SENS_PCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "224a5f30-d5b1-5749-bcf0-ddc59d714e55",
+      "net": "ISO_GATE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.047873753862,
+      "new_uncovered_mm2": 0.047873753862,
+      "modified": false
+    },
+    {
+      "uuid": "58db7894-3bde-4a29-abf2-27692f50f934",
+      "net": "ISO_GATE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309841343,
+      "new_uncovered_mm2": 0.076309841343,
+      "modified": false
+    },
+    {
+      "uuid": "8ae55e31-2534-49b5-ae53-1da56dbfef3c",
+      "net": "ISO_GATE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0763098115025,
+      "new_uncovered_mm2": 0.0763098115025,
+      "modified": false
+    },
+    {
+      "uuid": "9560d9c8-61d9-5ca4-9ddb-eae8cd66d61d",
+      "net": "ISO_GATE",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.038814777342,
+      "new_uncovered_mm2": 0.038814777342,
+      "modified": false
+    },
+    {
+      "uuid": "335eeeed-1452-40eb-b9a8-f8b67b0d914c",
+      "net": "ISO_GATE",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.076252570556,
+      "new_uncovered_mm2": 0.076252570556,
+      "modified": false
+    },
+    {
+      "uuid": "8950fc6b-f72c-41e5-a704-0ce59df4bfdd",
+      "net": "ISO_GATE",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0763095611805,
+      "new_uncovered_mm2": 0.0763095611805,
+      "modified": false
+    },
+    {
+      "uuid": "9b818e8b-964e-445d-9eb6-e5399a2898e0",
+      "net": "ISO_GATE",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.013881935134,
+      "new_uncovered_mm2": 0.013881935134,
+      "modified": false
+    },
+    {
+      "uuid": "c142837b-703c-5d1f-a6eb-6c377c1545be",
+      "net": "ISO_GATE",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.092144022885,
+      "new_uncovered_mm2": 0.092144022885,
+      "modified": false
+    },
+    {
+      "uuid": "c142837b-703c-5d1f-a6eb-6c377c1545be",
+      "net": "ISO_GATE",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0921347694455,
+      "new_uncovered_mm2": 0.0921347694455,
+      "modified": false
+    },
+    {
+      "uuid": "f760dc07-ec0a-5910-9750-e919e2baeb76",
+      "net": "ISO_GATE",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.070634530557,
+      "new_uncovered_mm2": 0.070634530557,
+      "modified": false
+    },
+    {
+      "uuid": "f760dc07-ec0a-5910-9750-e919e2baeb76",
+      "net": "ISO_GATE",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.070634530557,
+      "new_uncovered_mm2": 0.070634530557,
+      "modified": false
+    },
+    {
+      "uuid": "3ea23f53-106f-5589-ab1a-4175d85d88c3",
+      "net": "IO_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.064943441754,
+      "new_uncovered_mm2": 0.064943441754,
+      "modified": false
+    },
+    {
+      "uuid": "e4c9a65c-3e92-582e-ae85-ec5a0453a251",
+      "net": "IO_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.053277373473,
+      "new_uncovered_mm2": 0.053277373473,
+      "modified": false
+    },
+    {
+      "uuid": "ef407149-f25b-531c-87f1-bc8037fcfd57",
+      "net": "IO_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.032601591594,
+      "new_uncovered_mm2": 0.032601591594,
+      "modified": false
+    },
+    {
+      "uuid": "30896b15-f275-56c4-8ccf-7e23bb3e0d31",
+      "net": "IO_ENABLE_LINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.064944797738,
+      "new_uncovered_mm2": 0.064944797738,
+      "modified": false
+    },
+    {
+      "uuid": "98b91ac6-cd44-5313-8bd5-d0a9e9f87693",
+      "net": "IO_ENABLE_LINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0648880653115,
+      "new_uncovered_mm2": 0.0648880653115,
+      "modified": false
+    },
+    {
+      "uuid": "3e7e1970-e04d-4161-b3ab-2297d6a69f30",
+      "net": "SCCB_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0278285551255,
+      "new_uncovered_mm2": 0.0278285551255,
+      "modified": false
+    },
+    {
+      "uuid": "421d0263-5884-442a-81d4-fda12366e435",
+      "net": "SCCB_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.070101591594,
+      "new_uncovered_mm2": 0.070101591594,
+      "modified": false
+    },
+    {
+      "uuid": "f53b5131-0644-4578-9e18-182146035191",
+      "net": "SCCB_ENABLE_LINK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309841343,
+      "new_uncovered_mm2": 0.076309841343,
+      "modified": false
+    },
+    {
+      "uuid": "28054c28-5178-58ec-bfbc-4b9842809b78",
+      "net": "SENS_EXTCLK",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "730ea763-2dd7-5e5a-a1cd-76b6b12b8717",
+      "net": "SENS_EXTCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506764655,
+      "new_uncovered_mm2": 0.0649506764655,
+      "modified": false
+    },
+    {
+      "uuid": "b0d6e13b-fe3c-5809-9b33-42a68478c4c0",
+      "net": "SENS_EXTCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506951785,
+      "new_uncovered_mm2": 0.0649506951785,
+      "modified": false
+    },
+    {
+      "uuid": "ff1c9db9-7e8f-5a73-9d76-3ffafed66723",
+      "net": "SENS_EXTCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0649506440515,
+      "new_uncovered_mm2": 0.0649506440515,
+      "modified": true
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "net": "SENS_EXTCLK",
+      "reference": "In2.Cu",
+      "old_uncovered_mm2": 0.1316427487005,
+      "new_uncovered_mm2": 0.1322377828255,
+      "modified": true
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "net": "SENS_EXTCLK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1316427487005,
+      "new_uncovered_mm2": 0.1322377828255,
+      "modified": true
+    },
+    {
+      "uuid": "08b873a7-9e97-4165-9bd9-6699b77ded43",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.22110553295,
+      "new_uncovered_mm2": 0.22110553295,
+      "modified": false
+    },
+    {
+      "uuid": "0e59a91d-958e-4998-95ca-75fd7da2b3bc",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.098583424951,
+      "new_uncovered_mm2": 0.098583424951,
+      "modified": false
+    },
+    {
+      "uuid": "214e1d5a-1a69-4c4c-b828-14b18f62ebc6",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0471907124775,
+      "new_uncovered_mm2": 0.0471907124775,
+      "modified": false
+    },
+    {
+      "uuid": "24d78d58-1fdc-4cd2-8b16-068a76db66de",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.22110553295,
+      "new_uncovered_mm2": 0.22110553295,
+      "modified": false
+    },
+    {
+      "uuid": "39449b24-3c04-46ec-9fc9-ae0503d5034b",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2314609936,
+      "new_uncovered_mm2": 0.2314609936,
+      "modified": false
+    },
+    {
+      "uuid": "3d7eb6fb-514d-4694-b802-6aadd9ebd4f2",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0674049794615,
+      "new_uncovered_mm2": 0.0674049794615,
+      "modified": false
+    },
+    {
+      "uuid": "4d3763d0-8491-4638-8f1a-03339829a3da",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2852080195215,
+      "new_uncovered_mm2": 0.2852080195215,
+      "modified": false
+    },
+    {
+      "uuid": "505bf27f-3510-418c-b85b-9be3398dc922",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1118288997735,
+      "new_uncovered_mm2": 0.1118288997735,
+      "modified": false
+    },
+    {
+      "uuid": "5132171a-16bf-4cc2-b267-db77e1a923f5",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0087760751545,
+      "new_uncovered_mm2": 0.0087760751545,
+      "modified": false
+    },
+    {
+      "uuid": "541a16d9-509c-4de0-beb8-3f31d2919c95",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.311052684374,
+      "new_uncovered_mm2": 0.311052684374,
+      "modified": false
+    },
+    {
+      "uuid": "7291a9da-e879-4ab4-9076-75469b475a7f",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2314609936,
+      "new_uncovered_mm2": 0.2314609936,
+      "modified": false
+    },
+    {
+      "uuid": "8bb95543-22ad-49fa-958b-6a992d4fbbf1",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0048343148755,
+      "new_uncovered_mm2": 0.0048343148755,
+      "modified": false
+    },
+    {
+      "uuid": "9491671b-8082-4820-a8b7-1a9ca7e1f89c",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0595749493355,
+      "new_uncovered_mm2": 0.0595749493355,
+      "modified": false
+    },
+    {
+      "uuid": "992d6a4a-cec2-4ee8-8eb7-12cd54a7cc1b",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.135209358551,
+      "new_uncovered_mm2": 0.135209358551,
+      "modified": false
+    },
+    {
+      "uuid": "9edbc77e-0713-4d60-b227-74f94fd88aed",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 9.669019e-06,
+      "new_uncovered_mm2": 9.669019e-06,
+      "modified": false
+    },
+    {
+      "uuid": "a403162d-6fff-4a1b-a549-05a1b0b01653",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.227177806306,
+      "new_uncovered_mm2": 0.227177806306,
+      "modified": false
+    },
+    {
+      "uuid": "b2fcb372-d4ef-407d-8646-f7e4b54ccf73",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.3117666751715,
+      "new_uncovered_mm2": 0.3117666751715,
+      "modified": false
+    },
+    {
+      "uuid": "bc52eaa4-e448-49c5-9941-a25ee71dbe7d",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2033384615395,
+      "new_uncovered_mm2": 0.2033384615395,
+      "modified": false
+    },
+    {
+      "uuid": "cca401be-23a2-4ab9-bb56-cb03c16e5e6f",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1219830178875,
+      "new_uncovered_mm2": 0.1219830178875,
+      "modified": false
+    },
+    {
+      "uuid": "d5debd3f-249b-4ef5-8754-5cb0d96a7ef2",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.082042761469,
+      "new_uncovered_mm2": 0.082042761469,
+      "modified": false
+    },
+    {
+      "uuid": "f06ee5c3-69b4-4276-9149-c2ecb58372cb",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0346631253115,
+      "new_uncovered_mm2": 0.0346631253115,
+      "modified": false
+    },
+    {
+      "uuid": "f0a4be2b-4773-4205-bcf4-2b1c62815224",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0123044781215,
+      "new_uncovered_mm2": 0.0123044781215,
+      "modified": false
+    },
+    {
+      "uuid": "f4dd4cd1-ea8c-45d8-8b57-cbe0c87fa8df",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1682947977235,
+      "new_uncovered_mm2": 0.1682947977235,
+      "modified": false
+    },
+    {
+      "uuid": "f627b08d-9809-4100-9370-2edf77b9c9c4",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0223446313585,
+      "new_uncovered_mm2": 0.0223446313585,
+      "modified": false
+    },
+    {
+      "uuid": "fd6cb3df-0325-42d8-8874-74a76114217b",
+      "net": "CAM_3V3_PRELINK",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.1559984392555,
+      "new_uncovered_mm2": 0.1559984392555,
+      "modified": false
+    },
+    {
+      "uuid": "f6e58d9f-87e4-5bf4-926b-b24ae2ab6701",
+      "net": "CAM_3V3_SW",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.3117817294255,
+      "new_uncovered_mm2": 0.311781744583,
+      "modified": false
+    },
+    {
+      "uuid": "249dd0c5-d483-4461-926f-075f33c3c753",
+      "net": "CAM_3V3_SW",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2852079783335,
+      "new_uncovered_mm2": 0.2852079783335,
+      "modified": false
+    },
+    {
+      "uuid": "fab19f05-535a-4cf2-9fe8-5b0dc63d832a",
+      "net": "CAM_3V3_SW",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.2314609936,
+      "new_uncovered_mm2": 0.2314609936,
+      "modified": false
+    },
+    {
+      "uuid": "20934ec2-15db-4756-a523-a16063963645",
+      "net": "CAM_CT",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0763096767825,
+      "new_uncovered_mm2": 0.0763096767825,
+      "modified": false
+    },
+    {
+      "uuid": "f9e001e4-17c1-4024-a943-4b01357c0a98",
+      "net": "CAM_CT",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076309841343,
+      "new_uncovered_mm2": 0.076309841343,
+      "modified": false
+    },
+    {
+      "uuid": "7609a6a4-be0d-4424-b618-929e4b999354",
+      "net": "CAM_CT",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.062601591594,
+      "new_uncovered_mm2": 0.062601591594,
+      "modified": false
+    },
+    {
+      "uuid": "7efcd593-d56c-43d9-8088-039505b1fb06",
+      "net": "CAM_CT",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.036406243912,
+      "new_uncovered_mm2": 0.036406243912,
+      "modified": false
+    },
+    {
+      "uuid": "fce8530d-db85-41ae-a5f1-8fb7e7f86bc7",
+      "net": "CAM_CT",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.076309841343,
+      "new_uncovered_mm2": 0.076309841343,
+      "modified": false
+    },
+    {
+      "uuid": "93448153-7b93-4222-9e99-b2f63a8fb392",
+      "net": "CAM_ON",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.076307822413,
+      "new_uncovered_mm2": 0.076307822413,
+      "modified": false
+    },
+    {
+      "uuid": "b12b6f66-2a7b-42dc-beba-81bbcea722eb",
+      "net": "CAM_ON",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.0763096807695,
+      "new_uncovered_mm2": 0.0763096807695,
+      "modified": false
+    },
+    {
+      "uuid": "f50aa801-170b-4339-91cd-374a0faa5f75",
+      "net": "CAM_ON",
+      "reference": "In1.Cu",
+      "old_uncovered_mm2": 0.077719283451,
+      "new_uncovered_mm2": 0.077719283451,
+      "modified": false
+    },
+    {
+      "uuid": "3429be38-a7cc-4354-aeb1-55221a8d3b68",
+      "net": "CAM_ON",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0763096507955,
+      "new_uncovered_mm2": 0.0763096507955,
+      "modified": false
+    },
+    {
+      "uuid": "67ece728-7e6c-4e17-a57b-aba36803e29b",
+      "net": "CAM_ON",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0762394689115,
+      "new_uncovered_mm2": 0.0762394689115,
+      "modified": false
+    },
+    {
+      "uuid": "a7d8b643-fdcb-4283-b757-75e2afebb3c5",
+      "net": "CAM_ON",
+      "reference": "In4.Cu",
+      "old_uncovered_mm2": 0.0762271345505,
+      "new_uncovered_mm2": 0.0762271345505,
+      "modified": false
+    }
+  ],
+  "limits": [
+    "No high-speed timing/EMI approval from shortened/reworked routes",
+    "Connector actualFPC, body seating, tenting/plugging, soldermask and wire approach gates remain",
+    "DynamicOE, loadedVOH, power sequencing, camera, firmware, battery/charging unresolved"
+  ]
+}

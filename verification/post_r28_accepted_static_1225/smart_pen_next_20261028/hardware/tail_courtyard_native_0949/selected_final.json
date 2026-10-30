@@ -1,0 +1,363 @@
+{
+  "changed": [
+    {
+      "uuid": "01419084-3892-5710-8589-b0e5adee8cea",
+      "before": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          1.75,
+          88.8
+        ],
+        "b": [
+          1.75,
+          89.7
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          1.75,
+          88.8
+        ],
+        "b": [
+          1.75,
+          85.6
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      }
+    },
+    {
+      "uuid": "154a30ea-c649-5f1a-8780-50b41706f342",
+      "before": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          3.5,
+          89.7
+        ],
+        "b": [
+          3.5,
+          77.0
+        ],
+        "layer": "In3.Cu",
+        "width": 0.25,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          3.5,
+          85.5
+        ],
+        "b": [
+          3.5,
+          77.0
+        ],
+        "layer": "In3.Cu",
+        "width": 0.25,
+        "drill": null
+      }
+    },
+    {
+      "uuid": "1ba49ad4-6eae-515d-aad4-1eb40505061b",
+      "before": {
+        "type": "via",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          3.5,
+          89.7
+        ],
+        "b": [
+          3.5,
+          89.7
+        ],
+        "layer": "F.Cu",
+        "width": 0.6,
+        "drill": 0.3
+      },
+      "after": {
+        "type": "via",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          0.8,
+          85.6
+        ],
+        "b": [
+          0.8,
+          85.6
+        ],
+        "layer": "F.Cu",
+        "width": 0.6,
+        "drill": 0.3
+      }
+    },
+    {
+      "uuid": "aed1b768-ef4c-4bee-ae3c-ab4a28f365b8",
+      "before": {
+        "type": "via",
+        "net": "GND",
+        "a": [
+          1.25,
+          87.9
+        ],
+        "b": [
+          1.25,
+          87.9
+        ],
+        "layer": "F.Cu",
+        "width": 0.6,
+        "drill": 0.3
+      },
+      "after": {
+        "type": "via",
+        "net": "GND",
+        "a": [
+          0.8,
+          87.4
+        ],
+        "b": [
+          0.8,
+          87.4
+        ],
+        "layer": "F.Cu",
+        "width": 0.6,
+        "drill": 0.3
+      }
+    },
+    {
+      "uuid": "b13e01f6-1537-41d8-9bf3-4757f6464100",
+      "before": {
+        "type": "track",
+        "net": "GND",
+        "a": [
+          1.25,
+          88.8
+        ],
+        "b": [
+          1.25,
+          87.9
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "GND",
+        "a": [
+          1.25,
+          88.8
+        ],
+        "b": [
+          0.8,
+          87.4
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      }
+    },
+    {
+      "uuid": "d04eca23-4164-5b2f-8673-95fe528f421f",
+      "before": {
+        "type": "via",
+        "net": "SENS_EXTCLK",
+        "a": [
+          4.25,
+          88.175
+        ],
+        "b": [
+          4.25,
+          88.175
+        ],
+        "layer": "F.Cu",
+        "width": 0.45,
+        "drill": 0.2
+      },
+      "after": {
+        "type": "via",
+        "net": "SENS_EXTCLK",
+        "a": [
+          2.5,
+          87.525
+        ],
+        "b": [
+          2.5,
+          87.525
+        ],
+        "layer": "F.Cu",
+        "width": 0.45,
+        "drill": 0.2
+      }
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "before": {
+        "type": "track",
+        "net": "SENS_EXTCLK",
+        "a": [
+          4.25,
+          79.7
+        ],
+        "b": [
+          4.25,
+          88.175
+        ],
+        "layer": "In3.Cu",
+        "width": 0.15,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "SENS_EXTCLK",
+        "a": [
+          4.25,
+          79.7
+        ],
+        "b": [
+          4.25,
+          87.4
+        ],
+        "layer": "In3.Cu",
+        "width": 0.15,
+        "drill": null
+      }
+    },
+    {
+      "uuid": "f7801833-8d01-5126-942c-4b3abb3a4ec5",
+      "before": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          1.75,
+          89.7
+        ],
+        "b": [
+          3.5,
+          89.7
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "a": [
+          1.75,
+          85.6
+        ],
+        "b": [
+          0.8,
+          85.6
+        ],
+        "layer": "B.Cu",
+        "width": 0.25,
+        "drill": null
+      }
+    },
+    {
+      "uuid": "ff1c9db9-7e8f-5a73-9d76-3ffafed66723",
+      "before": {
+        "type": "track",
+        "net": "SENS_EXTCLK",
+        "a": [
+          4.25,
+          88.175
+        ],
+        "b": [
+          4.25,
+          88.8
+        ],
+        "layer": "B.Cu",
+        "width": 0.15,
+        "drill": null
+      },
+      "after": {
+        "type": "track",
+        "net": "SENS_EXTCLK",
+        "a": [
+          4.25,
+          88.1
+        ],
+        "b": [
+          4.25,
+          88.8
+        ],
+        "layer": "B.Cu",
+        "width": 0.15,
+        "drill": null
+      }
+    }
+  ],
+  "added": [
+    {
+      "type": "track",
+      "net": "SENS_EXTCLK",
+      "a": [
+        2.5,
+        87.525
+      ],
+      "b": [
+        2.5,
+        88.1
+      ],
+      "layer": "B.Cu",
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "SENS_EXTCLK",
+      "a": [
+        2.5,
+        88.1
+      ],
+      "b": [
+        4.25,
+        88.1
+      ],
+      "layer": "B.Cu",
+      "width": 0.15,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "SENS_VIO_1V8",
+      "a": [
+        3.5,
+        85.5
+      ],
+      "b": [
+        0.8,
+        85.6
+      ],
+      "layer": "In3.Cu",
+      "width": 0.25,
+      "drill": null
+    },
+    {
+      "type": "track",
+      "net": "SENS_EXTCLK",
+      "a": [
+        4.25,
+        87.4
+      ],
+      "b": [
+        2.5,
+        87.525
+      ],
+      "layer": "In3.Cu",
+      "width": 0.15,
+      "drill": null
+    }
+  ]
+}

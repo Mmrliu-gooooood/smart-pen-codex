@@ -1,0 +1,151 @@
+{
+  "J202_courtyard": {
+    "native_graphics": [
+      {
+        "shape": "Rect",
+        "start": [
+          14.0,
+          88.1
+        ],
+        "end": [
+          0.0,
+          92.5
+        ]
+      }
+    ],
+    "cache_area_mm2": 61.4161,
+    "correction": "Native courtyard exists. Prior no accepted courtyard wording does not mean absence; process qualification is still absent."
+  },
+  "board": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/tail_courtyard_native_0949/native/mainboard_revD.kicad_pcb",
+  "sha256": "8684d20fa449402ab1309b9af17d1cb64e0e6c4935532a36febaf362b0060f09",
+  "baseline_placement_sha256": "341c4e7a56aa2981a3fa085ee74c7b62f57504d4de59543bc02d3cf032ae4674",
+  "all103_full_fp_pad_contract_equal": true,
+  "outline_bounds": [
+    0.0,
+    -6.5,
+    14.0,
+    93.3
+  ],
+  "size": [
+    14.0,
+    99.8
+  ],
+  "new_or_moved_vias": [
+    {
+      "net": "GND",
+      "xy": [
+        0.8,
+        87.4
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "near_projection": [
+        {
+          "entity": "CTX_R501_dd55",
+          "side": "F.Cu",
+          "signed_projection_gap_mm": 0.4150174823037615
+        },
+        {
+          "entity": "CTX_J202_open",
+          "side": "B.Cu",
+          "signed_projection_gap_mm": 0.09999999999999148
+        }
+      ]
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "xy": [
+        0.8,
+        85.6
+      ],
+      "diameter": 0.6,
+      "drill": 0.3,
+      "near_projection": [
+        {
+          "entity": "CTX_R501_dd55",
+          "side": "F.Cu",
+          "signed_projection_gap_mm": 0.4150174823037615
+        }
+      ]
+    },
+    {
+      "net": "SENS_D3",
+      "xy": [
+        12.1,
+        85.5
+      ],
+      "diameter": 0.45,
+      "drill": 0.2,
+      "near_projection": [
+        {
+          "entity": "CTX_J106.3",
+          "side": "F.Cu",
+          "signed_projection_gap_mm": 0.37499999999999967
+        }
+      ]
+    },
+    {
+      "net": "SENS_D2",
+      "xy": [
+        12.7,
+        86.2
+      ],
+      "diameter": 0.45,
+      "drill": 0.2,
+      "near_projection": []
+    },
+    {
+      "net": "SENS_D1",
+      "xy": [
+        12.9,
+        86.9
+      ],
+      "diameter": 0.45,
+      "drill": 0.2,
+      "near_projection": []
+    },
+    {
+      "net": "SENS_D0",
+      "xy": [
+        13.1,
+        87.6
+      ],
+      "diameter": 0.45,
+      "drill": 0.2,
+      "near_projection": [
+        {
+          "entity": "CTX_J202_open",
+          "side": "B.Cu",
+          "signed_projection_gap_mm": -0.024999999999997163
+        }
+      ]
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "xy": [
+        2.5,
+        87.525
+      ],
+      "diameter": 0.45,
+      "drill": 0.2,
+      "near_projection": [
+        {
+          "entity": "CTX_R501_dd55",
+          "side": "F.Cu",
+          "signed_projection_gap_mm": 0.3250000000000114
+        },
+        {
+          "entity": "CTX_J107.3",
+          "side": "B.Cu",
+          "signed_projection_gap_mm": 0.3878825336065642
+        },
+        {
+          "entity": "CTX_J202_open",
+          "side": "B.Cu",
+          "signed_projection_gap_mm": 0.04999999999999147
+        }
+      ]
+    }
+  ],
+  "scope": "projection gaps of full installation budgets, not proof via protrusion/collision or tenting/connector seating qualification"
+}
