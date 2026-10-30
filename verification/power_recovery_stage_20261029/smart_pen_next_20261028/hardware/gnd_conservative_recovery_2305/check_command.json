@@ -1,0 +1,8 @@
+{
+  "kicad_version": "9.0.2",
+  "command": ["kicad-cli", "pcb", "drc", "--format", "json", "--all-track-errors", "--schematic-parity", "--severity-all", "--exit-code-violations", "-o", "drc.json", "native/mainboard_revD.kicad_pcb"],
+  "project_and_rules": "native/mainboard_revD.kicad_pro and native/mainboard_revD.kicad_dru, exact frozen source copies",
+  "expected_exit_code": 5,
+  "expected_counts": [0, 203, 0],
+  "status": "NOFAB_UNCONNECTED_RESEARCH_BOARD"
+}

@@ -1,0 +1,287 @@
+{
+  "status": "NOFAB_FOUR_OPEN_END_WARNINGS_232_UNCONNECTED",
+  "pcb_sha": "7e639fa62f08ba04dd5507f383e38ce1134877c5108e2527b855eb9b00b39115",
+  "preserved_392": true,
+  "model_objects": 141,
+  "old_sw_exact_objects": 47,
+  "all_102_FP_and_pad_layer_sets_unchanged": true,
+  "other_native_text_and_source_unchanged": true,
+  "strict_drc": [
+    4,
+    232,
+    0
+  ],
+  "exit_code": 5,
+  "nineteen_nets": [
+    {
+      "net": "BOOT_N",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "CAM_3V3_PRELINK",
+      "actual_pad_count": 4,
+      "all_pads_connected": true
+    },
+    {
+      "net": "CAM_CT",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "CAM_ON",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "CAM_QOD",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "CHIP_EN",
+      "actual_pad_count": 4,
+      "all_pads_connected": true
+    },
+    {
+      "net": "ILLUM_STROBE",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "ISO_GATE",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "RF_ANT",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "RF_SIP",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "SCCB_ENABLE_LINK",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "SCCB_EN_SAFE",
+      "actual_pad_count": 3,
+      "all_pads_connected": true
+    },
+    {
+      "net": "STRAP_GPIO3",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "STRAP_GPIO45",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "STRAP_GPIO46",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "USB_DM",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "USB_DM_MCU",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "USB_DP",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    },
+    {
+      "net": "USB_DP_MCU",
+      "actual_pad_count": 2,
+      "all_pads_connected": true
+    }
+  ],
+  "fourteen_pair_chains": [
+    {
+      "net": "SENS_D0",
+      "start": "U201.21",
+      "end": "J202.2",
+      "connected": true
+    },
+    {
+      "net": "SENS_D1",
+      "start": "U201.20",
+      "end": "J202.3",
+      "connected": true
+    },
+    {
+      "net": "SENS_D2",
+      "start": "U201.19",
+      "end": "J202.5",
+      "connected": true
+    },
+    {
+      "net": "SENS_D3",
+      "start": "U201.18",
+      "end": "J202.6",
+      "connected": true
+    },
+    {
+      "net": "SENS_D4",
+      "start": "U201.17",
+      "end": "J202.8",
+      "connected": true
+    },
+    {
+      "net": "SENS_D5",
+      "start": "U201.16",
+      "end": "J202.9",
+      "connected": true
+    },
+    {
+      "net": "SENS_D6",
+      "start": "U201.15",
+      "end": "J202.11",
+      "connected": true
+    },
+    {
+      "net": "SENS_D7",
+      "start": "U201.14",
+      "end": "J202.12",
+      "connected": true
+    },
+    {
+      "net": "SENS_PCLK",
+      "start": "U202.13",
+      "end": "J202.14",
+      "connected": true
+    },
+    {
+      "net": "SENS_VSYNC",
+      "start": "U202.12",
+      "end": "J202.15",
+      "connected": true
+    },
+    {
+      "net": "SENS_HREF",
+      "start": "U202.11",
+      "end": "J202.16",
+      "connected": true
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "start": "U203.13",
+      "end": "J202.18",
+      "connected": true
+    },
+    {
+      "net": "CAM_3V3_SW",
+      "start": "JP301.2",
+      "end": "J301.1",
+      "connected": true
+    },
+    {
+      "net": "GND",
+      "start": "J106.3",
+      "end": "J301.2",
+      "connected": true
+    }
+  ],
+  "fourteen_single_object_negatives": [
+    {
+      "net": "SENS_D0",
+      "start": "U201.21",
+      "end": "J202.2",
+      "removed_uuid": "2731a5af-f3a1-5e42-96fb-38e4936a30ff"
+    },
+    {
+      "net": "SENS_D1",
+      "start": "U201.20",
+      "end": "J202.3",
+      "removed_uuid": "733ca18e-d16a-58e3-988a-677acf73d4d7"
+    },
+    {
+      "net": "SENS_D2",
+      "start": "U201.19",
+      "end": "J202.5",
+      "removed_uuid": "030e9db6-dc15-5d22-a4d6-266f3e02c34f"
+    },
+    {
+      "net": "SENS_D3",
+      "start": "U201.18",
+      "end": "J202.6",
+      "removed_uuid": "03894dc9-e04e-525b-9aa3-ad7aeb81e755"
+    },
+    {
+      "net": "SENS_D4",
+      "start": "U201.17",
+      "end": "J202.8",
+      "removed_uuid": "79cfa57c-a273-5b17-ae32-8557d9241f9e"
+    },
+    {
+      "net": "SENS_D5",
+      "start": "U201.16",
+      "end": "J202.9",
+      "removed_uuid": "405dbbcc-feed-5164-b050-41cf2174e551"
+    },
+    {
+      "net": "SENS_D6",
+      "start": "U201.15",
+      "end": "J202.11",
+      "removed_uuid": "7536cae6-fbca-555e-a61d-9079d587d78c"
+    },
+    {
+      "net": "SENS_D7",
+      "start": "U201.14",
+      "end": "J202.12",
+      "removed_uuid": "ec08010d-a204-5be8-8a76-0b6fc435b407"
+    },
+    {
+      "net": "SENS_PCLK",
+      "start": "U202.13",
+      "end": "J202.14",
+      "removed_uuid": "c2814d21-a068-56a0-94f3-24c5650e0202"
+    },
+    {
+      "net": "SENS_VSYNC",
+      "start": "U202.12",
+      "end": "J202.15",
+      "removed_uuid": "8a3f3bda-008c-5937-952a-1b7526d6585d"
+    },
+    {
+      "net": "SENS_HREF",
+      "start": "U202.11",
+      "end": "J202.16",
+      "removed_uuid": "cb082523-2fea-5421-a7e1-8ce12d57cd98"
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "start": "U203.13",
+      "end": "J202.18",
+      "removed_uuid": "28054c28-5178-58ec-bfbc-4b9842809b78"
+    },
+    {
+      "net": "CAM_3V3_SW",
+      "start": "JP301.2",
+      "end": "J301.1",
+      "removed_uuid": "f6e58d9f-87e4-5bf4-926b-b24ae2ab6701"
+    },
+    {
+      "net": "GND",
+      "start": "J106.3",
+      "end": "J301.2",
+      "removed_uuid": "2cd69ba0-e390-5501-b15b-a39271f31479"
+    }
+  ],
+  "JP301_OPEN": true,
+  "planes_empty": true,
+  "full_AON_or_GND_not_restored": true
+}

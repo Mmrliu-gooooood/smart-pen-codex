@@ -1,0 +1,6 @@
+{
+  "version": "9.0.2",
+  "args": "kicad-cli pcb drc --format json --all-track-errors --schematic-parity --severity-all --exit-code-violations -o drc.json native/mainboard_revD.kicad_pcb",
+  "exit_code": 5,
+  "waivers": []
+}

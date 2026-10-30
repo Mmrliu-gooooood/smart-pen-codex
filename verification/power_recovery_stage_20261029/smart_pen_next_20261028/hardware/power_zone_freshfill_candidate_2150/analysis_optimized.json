@@ -1,0 +1,4898 @@
+{
+  "status": "NOFAB_FRESHFILL_ONLY",
+  "pcb_sha": "d64594c0ddfcddc7b8c3a40043fe56e144f25d4c59d2fa33e30a9595054c3de5",
+  "strict_drc": [
+    2,
+    232,
+    0
+  ],
+  "copper_533_exactly_preserved": true,
+  "FP102_pad366_source_unchanged": true,
+  "core_summary": {
+    "3V3_AON": {
+      "core": "J106.2",
+      "all_pads": 39,
+      "connected_pads": 1,
+      "unconnected_pads": [
+        "C102.1",
+        "C103.1",
+        "C104.1",
+        "C105.1",
+        "C201.1",
+        "C203.1",
+        "C205.1",
+        "C207.1",
+        "C301.1",
+        "C501.1",
+        "C502.1",
+        "C503.1",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R203.2",
+        "R240.2",
+        "R241.2",
+        "R501.1",
+        "R502.1",
+        "R503.1",
+        "U101.2",
+        "U101.20",
+        "U101.3",
+        "U101.46",
+        "U101.55",
+        "U101.56",
+        "U201.1",
+        "U202.1",
+        "U203.1",
+        "U203.2",
+        "U203.3",
+        "U204.8",
+        "U301.1",
+        "U501.10",
+        "U501.2",
+        "U501.3",
+        "U501.9"
+      ],
+      "pad_components": [
+        [
+          "C102.1"
+        ],
+        [
+          "C103.1"
+        ],
+        [
+          "C104.1"
+        ],
+        [
+          "C105.1"
+        ],
+        [
+          "C201.1"
+        ],
+        [
+          "C203.1"
+        ],
+        [
+          "C205.1"
+        ],
+        [
+          "C207.1"
+        ],
+        [
+          "C301.1"
+        ],
+        [
+          "C501.1"
+        ],
+        [
+          "C502.1"
+        ],
+        [
+          "C503.1"
+        ],
+        [
+          "J106.2"
+        ],
+        [
+          "R101.2"
+        ],
+        [
+          "R102.2"
+        ],
+        [
+          "R103.2"
+        ],
+        [
+          "R203.2"
+        ],
+        [
+          "R240.2"
+        ],
+        [
+          "R241.2"
+        ],
+        [
+          "R501.1"
+        ],
+        [
+          "R502.1"
+        ],
+        [
+          "R503.1"
+        ],
+        [
+          "U101.2"
+        ],
+        [
+          "U101.20"
+        ],
+        [
+          "U101.3"
+        ],
+        [
+          "U101.46"
+        ],
+        [
+          "U101.55"
+        ],
+        [
+          "U101.56"
+        ],
+        [
+          "U201.1"
+        ],
+        [
+          "U202.1"
+        ],
+        [
+          "U203.1"
+        ],
+        [
+          "U203.2"
+        ],
+        [
+          "U203.3"
+        ],
+        [
+          "U204.8"
+        ],
+        [
+          "U301.1"
+        ],
+        [
+          "U501.10"
+        ],
+        [
+          "U501.2"
+        ],
+        [
+          "U501.3"
+        ],
+        [
+          "U501.9"
+        ]
+      ]
+    },
+    "GND": {
+      "core": "J106.3",
+      "all_pads": 102,
+      "connected_pads": 2,
+      "unconnected_pads": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C201.2",
+        "C202.2",
+        "C203.2",
+        "C204.2",
+        "C205.2",
+        "C206.2",
+        "C207.2",
+        "C208.2",
+        "C301.2",
+        "C302.2",
+        "C303.2",
+        "C501.2",
+        "C502.2",
+        "C503.2",
+        "C504.2",
+        "J103.2",
+        "J104.3",
+        "J105.2",
+        "J107.3",
+        "J108.3",
+        "J109.3",
+        "J202.1",
+        "J202.10",
+        "J202.13",
+        "J202.17",
+        "J202.24",
+        "J202.4",
+        "J202.7",
+        "Q201.2",
+        "R104.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R206.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R214.2",
+        "R215.2",
+        "R216.2",
+        "R217.2",
+        "R218.2",
+        "R219.2",
+        "R220.2",
+        "R221.2",
+        "R222.2",
+        "R223.2",
+        "R224.2",
+        "R225.2",
+        "R226.2",
+        "R227.2",
+        "R228.2",
+        "R229.2",
+        "R230.2",
+        "R231.2",
+        "R232.2",
+        "R233.2",
+        "R234.2",
+        "R235.2",
+        "R236.2",
+        "R237.2",
+        "R301.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+        "U201.11",
+        "U201.12",
+        "U201.13",
+        "U201.2",
+        "U202.2",
+        "U202.3",
+        "U202.8",
+        "U202.9",
+        "U203.8",
+        "U203.9",
+        "U204.4",
+        "U301.2",
+        "U501.5",
+        "U501.6",
+        "U501.7",
+        "U501.8"
+      ],
+      "pad_components": [
+        [
+          "C101.2"
+        ],
+        [
+          "C102.2"
+        ],
+        [
+          "C103.2"
+        ],
+        [
+          "C104.2"
+        ],
+        [
+          "C105.2"
+        ],
+        [
+          "C106.2"
+        ],
+        [
+          "C107.2"
+        ],
+        [
+          "C201.2"
+        ],
+        [
+          "C202.2"
+        ],
+        [
+          "C203.2"
+        ],
+        [
+          "C204.2"
+        ],
+        [
+          "C205.2"
+        ],
+        [
+          "C206.2"
+        ],
+        [
+          "C207.2"
+        ],
+        [
+          "C208.2"
+        ],
+        [
+          "C301.2"
+        ],
+        [
+          "C302.2"
+        ],
+        [
+          "C303.2"
+        ],
+        [
+          "C501.2"
+        ],
+        [
+          "C502.2"
+        ],
+        [
+          "C503.2"
+        ],
+        [
+          "C504.2"
+        ],
+        [
+          "J103.2"
+        ],
+        [
+          "J104.3"
+        ],
+        [
+          "J105.2"
+        ],
+        [
+          "J106.3",
+          "J301.2"
+        ],
+        [
+          "J107.3"
+        ],
+        [
+          "J108.3"
+        ],
+        [
+          "J109.3"
+        ],
+        [
+          "J202.1"
+        ],
+        [
+          "J202.10"
+        ],
+        [
+          "J202.13"
+        ],
+        [
+          "J202.17"
+        ],
+        [
+          "J202.24"
+        ],
+        [
+          "J202.4"
+        ],
+        [
+          "J202.7"
+        ],
+        [
+          "Q201.2"
+        ],
+        [
+          "R104.2"
+        ],
+        [
+          "R105.2"
+        ],
+        [
+          "R106.2"
+        ],
+        [
+          "R107.2"
+        ],
+        [
+          "R108.2"
+        ],
+        [
+          "R109.2"
+        ],
+        [
+          "R202.2"
+        ],
+        [
+          "R205.2"
+        ],
+        [
+          "R206.2"
+        ],
+        [
+          "R207.2"
+        ],
+        [
+          "R210.2"
+        ],
+        [
+          "R211.2"
+        ],
+        [
+          "R212.2"
+        ],
+        [
+          "R213.2"
+        ],
+        [
+          "R214.2"
+        ],
+        [
+          "R215.2"
+        ],
+        [
+          "R216.2"
+        ],
+        [
+          "R217.2"
+        ],
+        [
+          "R218.2"
+        ],
+        [
+          "R219.2"
+        ],
+        [
+          "R220.2"
+        ],
+        [
+          "R221.2"
+        ],
+        [
+          "R222.2"
+        ],
+        [
+          "R223.2"
+        ],
+        [
+          "R224.2"
+        ],
+        [
+          "R225.2"
+        ],
+        [
+          "R226.2"
+        ],
+        [
+          "R227.2"
+        ],
+        [
+          "R228.2"
+        ],
+        [
+          "R229.2"
+        ],
+        [
+          "R230.2"
+        ],
+        [
+          "R231.2"
+        ],
+        [
+          "R232.2"
+        ],
+        [
+          "R233.2"
+        ],
+        [
+          "R234.2"
+        ],
+        [
+          "R235.2"
+        ],
+        [
+          "R236.2"
+        ],
+        [
+          "R237.2"
+        ],
+        [
+          "R301.2"
+        ],
+        [
+          "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0"
+        ],
+        [
+          "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0"
+        ],
+        [
+          "U101.57#4c205a6e-a341-4388-a479-119936dba9f3"
+        ],
+        [
+          "U101.57#9cfb0dae-5f02-469b-b604-732278f16482"
+        ],
+        [
+          "U101.57#a4284ff2-c785-4218-9745-31552753482d"
+        ],
+        [
+          "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c"
+        ],
+        [
+          "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf"
+        ],
+        [
+          "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0"
+        ],
+        [
+          "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302"
+        ],
+        [
+          "U201.11"
+        ],
+        [
+          "U201.12"
+        ],
+        [
+          "U201.13"
+        ],
+        [
+          "U201.2"
+        ],
+        [
+          "U202.2"
+        ],
+        [
+          "U202.3"
+        ],
+        [
+          "U202.8"
+        ],
+        [
+          "U202.9"
+        ],
+        [
+          "U203.8"
+        ],
+        [
+          "U203.9"
+        ],
+        [
+          "U204.4"
+        ],
+        [
+          "U301.2"
+        ],
+        [
+          "U501.5"
+        ],
+        [
+          "U501.6"
+        ],
+        [
+          "U501.7"
+        ],
+        [
+          "U501.8"
+        ]
+      ]
+    }
+  },
+  "pads": [
+    {
+      "pad": "C101.2",
+      "pad_uuid": "241628c5-6616-47dc-acd3-cb3a3e0e6fa3",
+      "net": "GND",
+      "xy": [
+        3.275,
+        17.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C102.1",
+      "pad_uuid": "ee60c382-3c55-4140-b321-7b5df02e0906",
+      "net": "3V3_AON",
+      "xy": [
+        5.225,
+        18.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C102.2",
+      "pad_uuid": "d7e516e5-c18e-4cf9-b0a3-12c48b54403c",
+      "net": "GND",
+      "xy": [
+        6.775,
+        18.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C103.1",
+      "pad_uuid": "ad279fd5-b0a1-4f0c-a61e-a441f891d81f",
+      "net": "3V3_AON",
+      "xy": [
+        1.2,
+        7.8
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C103.2",
+      "pad_uuid": "2d03ccb9-ac11-4f8a-917d-cba66a5455de",
+      "net": "GND",
+      "xy": [
+        1.2,
+        6.25
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C104.1",
+      "pad_uuid": "3fe59774-ca4a-4771-9b12-df8178baa273",
+      "net": "3V3_AON",
+      "xy": [
+        5.225,
+        15.8
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C104.2",
+      "pad_uuid": "500422b2-8410-447d-85d1-4703830c6a2c",
+      "net": "GND",
+      "xy": [
+        6.775,
+        15.8
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C105.1",
+      "pad_uuid": "e37cf63d-8d7f-4aa4-b645-d220b137925f",
+      "net": "3V3_AON",
+      "xy": [
+        7.725,
+        4.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C105.2",
+      "pad_uuid": "fd5c4023-e4dd-443c-a78f-05a7957974bd",
+      "net": "GND",
+      "xy": [
+        9.275,
+        4.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C106.2",
+      "pad_uuid": "8415856f-01fc-4ff2-a2b1-54813deb5990",
+      "net": "GND",
+      "xy": [
+        6.65,
+        1.86
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C107.2",
+      "pad_uuid": "53f3f5cc-2ca3-44bc-8687-393edd0b8398",
+      "net": "GND",
+      "xy": [
+        9.5,
+        1.86
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C201.1",
+      "pad_uuid": "eb1eadc0-e43e-4fc3-b963-53860116da3c",
+      "net": "3V3_AON",
+      "xy": [
+        10.975,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C201.2",
+      "pad_uuid": "1b9a85aa-d31c-4bdf-9a94-1ca47bfba7ff",
+      "net": "GND",
+      "xy": [
+        12.525,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C202.2",
+      "pad_uuid": "d70897e8-05b4-401f-8741-bda6ffd054da",
+      "net": "GND",
+      "xy": [
+        12.525,
+        36.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C203.1",
+      "pad_uuid": "4a16f688-c119-4721-916c-e8da94e51d42",
+      "net": "3V3_AON",
+      "xy": [
+        9.575,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C203.2",
+      "pad_uuid": "9f12a267-7139-4b62-9379-821f103d3ad6",
+      "net": "GND",
+      "xy": [
+        11.125,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C204.2",
+      "pad_uuid": "a93516e6-d0a6-47fb-a014-acec2e227835",
+      "net": "GND",
+      "xy": [
+        11.125,
+        48.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C205.1",
+      "pad_uuid": "7ec6ac12-2eb2-44fb-a3e2-34d89d2cd037",
+      "net": "3V3_AON",
+      "xy": [
+        9.575,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C205.2",
+      "pad_uuid": "db44d398-6b81-40e5-b6ae-988125d765f6",
+      "net": "GND",
+      "xy": [
+        11.125,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C206.2",
+      "pad_uuid": "816956b6-2c38-4841-bc86-c388ac4d6818",
+      "net": "GND",
+      "xy": [
+        11.125,
+        58.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "C207.1",
+      "pad_uuid": "70ec555a-20ec-4e3f-b579-78b0345d210e",
+      "net": "3V3_AON",
+      "xy": [
+        2.0,
+        65.775
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C207.2",
+      "pad_uuid": "f67c129a-75a6-4bc9-be41-cededa2a513c",
+      "net": "GND",
+      "xy": [
+        2.0,
+        64.225
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C208.2",
+      "pad_uuid": "48a0c3e6-1f55-418d-a6d2-19e3740a7f55",
+      "net": "GND",
+      "xy": [
+        10.0,
+        64.225
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C301.1",
+      "pad_uuid": "2eaea25f-1794-41c8-8e8e-cef072746982",
+      "net": "3V3_AON",
+      "xy": [
+        10.95,
+        64.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C301.2",
+      "pad_uuid": "d13e40f4-3933-4184-9d21-b6efe1746267",
+      "net": "GND",
+      "xy": [
+        9.05,
+        64.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C302.2",
+      "pad_uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03",
+      "net": "GND",
+      "xy": [
+        8.8,
+        74.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C303.2",
+      "pad_uuid": "e4def123-2362-448f-8c71-c11781060489",
+      "net": "GND",
+      "xy": [
+        3.8,
+        68.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C501.1",
+      "pad_uuid": "b29893fe-fbea-4af5-b286-0cbe3a9394d8",
+      "net": "3V3_AON",
+      "xy": [
+        5.72,
+        80.7
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C501.2",
+      "pad_uuid": "ac07d5a9-729d-4d76-b94d-45d24f15ba43",
+      "net": "GND",
+      "xy": [
+        6.68,
+        80.7
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C502.1",
+      "pad_uuid": "9477713e-a161-4b11-bda9-3c0dde429dbf",
+      "net": "3V3_AON",
+      "xy": [
+        5.72,
+        82.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C502.2",
+      "pad_uuid": "804b6246-120f-4062-a11a-903564118c76",
+      "net": "GND",
+      "xy": [
+        6.68,
+        82.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C503.1",
+      "pad_uuid": "fe540296-8875-421b-b237-f6c9fe3c384a",
+      "net": "3V3_AON",
+      "xy": [
+        4.35,
+        84.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C503.2",
+      "pad_uuid": "5d9f186b-b9c1-4f7e-bbae-248457146b1d",
+      "net": "GND",
+      "xy": [
+        6.25,
+        84.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "C504.2",
+      "pad_uuid": "82063c1f-3ac2-4bdc-9807-653ac3ed4529",
+      "net": "GND",
+      "xy": [
+        5.025,
+        9.75
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J103.2",
+      "pad_uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02",
+      "net": "GND",
+      "xy": [
+        5.4,
+        52.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": false,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J104.3",
+      "pad_uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566",
+      "net": "GND",
+      "xy": [
+        10.0,
+        56.6
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": false,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J105.2",
+      "pad_uuid": "ef972847-ca39-428c-a43d-9fcafb042806",
+      "net": "GND",
+      "xy": [
+        4.4,
+        77.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": false,
+      "moved_from_old": true
+    },
+    {
+      "pad": "J106.2",
+      "pad_uuid": "4f234db8-a242-49a7-9c63-2411d0eb4bab",
+      "net": "3V3_AON",
+      "xy": [
+        10.6,
+        83.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": true,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J106.3",
+      "pad_uuid": "eedbba73-4d16-4fdd-83a9-903238ebbe22",
+      "net": "GND",
+      "xy": [
+        10.6,
+        86.3
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": true,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J107.3",
+      "pad_uuid": "abc1e9cc-0ade-4a87-b2be-67434e8c0cb1",
+      "net": "GND",
+      "xy": [
+        2.0,
+        86.3
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "J108.3",
+      "pad_uuid": "4632b9c9-ebdc-4b5d-b125-7685a3e646d5",
+      "net": "GND",
+      "xy": [
+        4.95,
+        22.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J109.3",
+      "pad_uuid": "7d9acaf8-109e-46a0-befd-d1dd5241c84c",
+      "net": "GND",
+      "xy": [
+        12.0,
+        24.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.1",
+      "pad_uuid": "b9260c09-9483-4c00-b66e-4e828a15e6fc",
+      "net": "GND",
+      "xy": [
+        12.75,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.10",
+      "pad_uuid": "fe9cab77-ca91-4489-9840-acb2b6882a57",
+      "net": "GND",
+      "xy": [
+        8.25,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.13",
+      "pad_uuid": "e118e4e2-3e21-4d34-a496-a5c88058ef11",
+      "net": "GND",
+      "xy": [
+        6.75,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.17",
+      "pad_uuid": "f47cc3b0-0e55-437c-8769-bf03c319fd78",
+      "net": "GND",
+      "xy": [
+        4.75,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.24",
+      "pad_uuid": "1d6d9a02-43b1-4eda-b843-84f593088627",
+      "net": "GND",
+      "xy": [
+        1.25,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.4",
+      "pad_uuid": "1a756069-520a-4f00-8967-a9c27e8432c1",
+      "net": "GND",
+      "xy": [
+        11.25,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J202.7",
+      "pad_uuid": "86cc6c38-7fee-4cf5-9457-f4d228f4580c",
+      "net": "GND",
+      "xy": [
+        9.75,
+        90.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "J301.2",
+      "pad_uuid": "0169945c-5f42-4b45-9a8c-0c8c01a13758",
+      "net": "GND",
+      "xy": [
+        8.2,
+        88.7
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": true,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "Q201.2",
+      "pad_uuid": "6cb7d390-2d15-4643-bb66-5037a5284f77",
+      "net": "GND",
+      "xy": [
+        1.5625,
+        69.95
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R101.2",
+      "pad_uuid": "01824662-501f-4a8c-9b04-f4913cf766af",
+      "net": "3V3_AON",
+      "xy": [
+        3.325,
+        20.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R102.2",
+      "pad_uuid": "f258b825-c1da-4b8e-82fb-ab3a0b4da559",
+      "net": "3V3_AON",
+      "xy": [
+        6.825,
+        20.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R103.2",
+      "pad_uuid": "1b48af83-ce91-4934-8fe3-2415829c401d",
+      "net": "3V3_AON",
+      "xy": [
+        10.325,
+        20.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R104.2",
+      "pad_uuid": "5b231d3e-0c85-42f2-bb1d-88b7b784a032",
+      "net": "GND",
+      "xy": [
+        4.325,
+        1.7
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R105.2",
+      "pad_uuid": "32d64e7d-7da2-428c-8772-2e20b834e21f",
+      "net": "GND",
+      "xy": [
+        5.325,
+        4.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R106.2",
+      "pad_uuid": "e3430a80-e472-441e-8d0d-59b70e8f4215",
+      "net": "GND",
+      "xy": [
+        10.325,
+        22.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R107.2",
+      "pad_uuid": "af55e217-b7a6-455b-92ae-3396a26b88c6",
+      "net": "GND",
+      "xy": [
+        10.8,
+        1.875
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R108.2",
+      "pad_uuid": "d613538e-19df-4983-b79c-ee66edc704cd",
+      "net": "GND",
+      "xy": [
+        6.825,
+        24.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R109.2",
+      "pad_uuid": "e50e02f7-5916-41cb-8573-ac63d11b8e24",
+      "net": "GND",
+      "xy": [
+        10.325,
+        24.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R202.2",
+      "pad_uuid": "9f74ff78-2705-477a-ab00-f2ebef282b69",
+      "net": "GND",
+      "xy": [
+        6.825,
+        72.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R203.2",
+      "pad_uuid": "486be9f9-ba72-4a3b-9b0c-8385470085d4",
+      "net": "3V3_AON",
+      "xy": [
+        10.325,
+        72.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R205.2",
+      "pad_uuid": "b882bbc8-a0fd-4dfb-b56b-6959227d4987",
+      "net": "GND",
+      "xy": [
+        6.825,
+        74.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R206.2",
+      "pad_uuid": "dcac8f86-9f62-4d3d-a53e-c662dc542a4e",
+      "net": "GND",
+      "xy": [
+        9.825,
+        46.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R207.2",
+      "pad_uuid": "7f1401a9-3288-43a7-a5f5-c3358c53ec1e",
+      "net": "GND",
+      "xy": [
+        8.325,
+        62.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R210.2",
+      "pad_uuid": "aae8ccbd-b513-4e92-955c-be37f08e0f9f",
+      "net": "GND",
+      "xy": [
+        2.325,
+        26.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R211.2",
+      "pad_uuid": "a499aaed-0c51-4825-a229-12cdab6ddf90",
+      "net": "GND",
+      "xy": [
+        5.325,
+        26.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R212.2",
+      "pad_uuid": "ac3770a6-b9c8-4d07-a8ca-0a64f520cf39",
+      "net": "GND",
+      "xy": [
+        8.325,
+        26.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R213.2",
+      "pad_uuid": "899b9630-9227-4b19-97c3-0a5a491c1136",
+      "net": "GND",
+      "xy": [
+        1.675,
+        24.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R214.2",
+      "pad_uuid": "a54f6a17-322d-423e-b018-73a7333a5699",
+      "net": "GND",
+      "xy": [
+        2.9,
+        33.725
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R215.2",
+      "pad_uuid": "da0c1e68-2c43-49b6-95e8-bbc05073a94e",
+      "net": "GND",
+      "xy": [
+        5.325,
+        28.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R216.2",
+      "pad_uuid": "722b22a8-35e5-4d9e-8637-9cd17d176c52",
+      "net": "GND",
+      "xy": [
+        8.325,
+        28.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R217.2",
+      "pad_uuid": "01126ba0-9535-44c0-beec-4d4474da6750",
+      "net": "GND",
+      "xy": [
+        1.1,
+        22.32
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R218.2",
+      "pad_uuid": "eea02b16-cb08-4949-a380-c534b21e91db",
+      "net": "GND",
+      "xy": [
+        5.325,
+        41.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R219.2",
+      "pad_uuid": "a3568120-bd95-43ec-bad9-8b428c255fcd",
+      "net": "GND",
+      "xy": [
+        8.325,
+        41.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R220.2",
+      "pad_uuid": "5f447c9a-7141-4f3b-a2c6-21b7f0b53975",
+      "net": "GND",
+      "xy": [
+        2.85,
+        45.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R221.2",
+      "pad_uuid": "bbcc4425-837f-40b3-986e-9a33ad0561b5",
+      "net": "GND",
+      "xy": [
+        3.825,
+        56.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R222.2",
+      "pad_uuid": "dbfdaf87-11e5-46ef-b617-84718b927c57",
+      "net": "GND",
+      "xy": [
+        6.825,
+        56.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R223.2",
+      "pad_uuid": "0966e0b5-0102-4730-bf6f-79ea254203ac",
+      "net": "GND",
+      "xy": [
+        6.825,
+        58.6
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R224.2",
+      "pad_uuid": "2e6b116a-2ed9-4753-9767-775ae519a615",
+      "net": "GND",
+      "xy": [
+        2.325,
+        39.1
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R225.2",
+      "pad_uuid": "992786ab-f2a5-42b6-8139-8391c6e36122",
+      "net": "GND",
+      "xy": [
+        5.325,
+        43.3
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R226.2",
+      "pad_uuid": "a5b66566-ae70-40ff-bbf9-1b204068e825",
+      "net": "GND",
+      "xy": [
+        8.325,
+        44.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R227.2",
+      "pad_uuid": "14b3e942-50af-45c6-b5fb-546a96f3b459",
+      "net": "GND",
+      "xy": [
+        11.325,
+        44.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R228.2",
+      "pad_uuid": "38433c9f-021c-4ecf-94c4-61d162f17337",
+      "net": "GND",
+      "xy": [
+        2.325,
+        40.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R229.2",
+      "pad_uuid": "77688b58-d7ad-400e-89cd-c770603578c0",
+      "net": "GND",
+      "xy": [
+        5.325,
+        40.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R230.2",
+      "pad_uuid": "74ae2ece-476c-4d43-9ff0-5681237c590f",
+      "net": "GND",
+      "xy": [
+        8.325,
+        40.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R231.2",
+      "pad_uuid": "5257cd4d-c604-4aa0-9caf-a8c2cc3bf6dc",
+      "net": "GND",
+      "xy": [
+        11.325,
+        40.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R232.2",
+      "pad_uuid": "487b3770-9301-4b07-98dc-bc30aefcfc65",
+      "net": "GND",
+      "xy": [
+        11.425,
+        50.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R233.2",
+      "pad_uuid": "61658653-fdc7-4eda-8227-11e3159456af",
+      "net": "GND",
+      "xy": [
+        2.325,
+        50.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R234.2",
+      "pad_uuid": "dba7a44e-4c68-4401-ab5d-bb89b91f18e6",
+      "net": "GND",
+      "xy": [
+        8.325,
+        50.9
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R235.2",
+      "pad_uuid": "e1bcdf6a-2704-480c-9be6-8ede881f1e04",
+      "net": "GND",
+      "xy": [
+        11.425,
+        60.6
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "R236.2",
+      "pad_uuid": "7cf53809-e54e-4938-9bae-7626601b8087",
+      "net": "GND",
+      "xy": [
+        2.325,
+        62.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R237.2",
+      "pad_uuid": "27c36c67-894a-42a8-949a-4cbb9407fbd0",
+      "net": "GND",
+      "xy": [
+        5.325,
+        62.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R240.2",
+      "pad_uuid": "a98831db-1f10-4aca-9ea1-283bf573201c",
+      "net": "3V3_AON",
+      "xy": [
+        2.325,
+        76.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R241.2",
+      "pad_uuid": "179da90a-866e-47cf-9a42-04e0ca2217ea",
+      "net": "3V3_AON",
+      "xy": [
+        5.325,
+        76.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R301.2",
+      "pad_uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6",
+      "net": "GND",
+      "xy": [
+        4.85,
+        66.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R501.1",
+      "pad_uuid": "a7fd7a0b-5f21-42c3-8093-bea9f9f9b995",
+      "net": "3V3_AON",
+      "xy": [
+        1.775,
+        86.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R502.1",
+      "pad_uuid": "5f5f8a53-d5c2-4ec7-beb3-3485960c9ab3",
+      "net": "3V3_AON",
+      "xy": [
+        4.825,
+        86.65
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "R503.1",
+      "pad_uuid": "b6347589-fac1-4d32-bb94-2e3a69a54499",
+      "net": "3V3_AON",
+      "xy": [
+        1.675,
+        7.5
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.2",
+      "pad_uuid": "0f5ad13b-1deb-474c-a3cf-a1c8c579a066",
+      "net": "3V3_AON",
+      "xy": [
+        2.575,
+        7.8
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.20",
+      "pad_uuid": "b66abdea-6941-4f4f-ba0c-1235dc639598",
+      "net": "3V3_AON",
+      "xy": [
+        5.4,
+        13.425
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.3",
+      "pad_uuid": "0502dd7d-0547-47c9-8c96-351f65fe878c",
+      "net": "3V3_AON",
+      "xy": [
+        2.575,
+        8.2
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.46",
+      "pad_uuid": "6ba93d67-270d-46f3-96a5-cf7effbad5b1",
+      "net": "3V3_AON",
+      "xy": [
+        7.4,
+        6.575
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.55",
+      "pad_uuid": "fbe49a81-021f-4e39-8e44-a9e4c9ca0efb",
+      "net": "3V3_AON",
+      "xy": [
+        3.8,
+        6.575
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.56",
+      "pad_uuid": "0443c036-268a-436e-89b8-0dda44c97d8d",
+      "net": "3V3_AON",
+      "xy": [
+        3.4,
+        6.575
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "pad_uuid": "0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "net": "GND",
+      "xy": [
+        6.0,
+        8.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "pad_uuid": "32bb485d-f189-426e-b0af-d376c218a5c0",
+      "net": "GND",
+      "xy": [
+        7.5,
+        11.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "pad_uuid": "4c205a6e-a341-4388-a479-119936dba9f3",
+      "net": "GND",
+      "xy": [
+        4.5,
+        11.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "pad_uuid": "9cfb0dae-5f02-469b-b604-732278f16482",
+      "net": "GND",
+      "xy": [
+        4.5,
+        10.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "pad_uuid": "a4284ff2-c785-4218-9745-31552753482d",
+      "net": "GND",
+      "xy": [
+        7.5,
+        8.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "pad_uuid": "e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "net": "GND",
+      "xy": [
+        6.0,
+        11.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "pad_uuid": "e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "net": "GND",
+      "xy": [
+        4.5,
+        8.5
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "pad_uuid": "fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "net": "GND",
+      "xy": [
+        6.0,
+        10.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "pad_uuid": "fd09fc28-178f-4ef9-b475-b126dc663302",
+      "net": "GND",
+      "xy": [
+        7.5,
+        10.0
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U201.1",
+      "pad_uuid": "6ee3d1b2-e6eb-4651-bd97-ca179570132f",
+      "net": "3V3_AON",
+      "xy": [
+        9.575,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U201.11",
+      "pad_uuid": "f0dffd3c-ed0a-4d37-86ba-306ad308ea62",
+      "net": "GND",
+      "xy": [
+        3.075,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U201.12",
+      "pad_uuid": "f954ff42-436e-474f-8da1-bac469cb87eb",
+      "net": "GND",
+      "xy": [
+        2.425,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U201.13",
+      "pad_uuid": "91a57ce5-1d48-44d8-9d9b-d0ec626b5ab6",
+      "net": "GND",
+      "xy": [
+        2.425,
+        36.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U201.2",
+      "pad_uuid": "bf32734e-355c-43fb-a95f-0aa3452b1054",
+      "net": "GND",
+      "xy": [
+        8.925,
+        31.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U202.1",
+      "pad_uuid": "4d0408b6-093f-4ecf-8fdd-ebf7f37eb94c",
+      "net": "3V3_AON",
+      "xy": [
+        8.275,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U202.2",
+      "pad_uuid": "e3574e0b-6c42-40ee-9cc4-9b73ec01f598",
+      "net": "GND",
+      "xy": [
+        7.625,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U202.3",
+      "pad_uuid": "40a95194-6ec8-4ade-bdf3-23e1bf3384b4",
+      "net": "GND",
+      "xy": [
+        6.975,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U202.8",
+      "pad_uuid": "2101a5ad-58d8-49ed-bb11-ef39406f092c",
+      "net": "GND",
+      "xy": [
+        3.725,
+        43.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U202.9",
+      "pad_uuid": "b7de1941-5f15-483d-b991-253585e0cf6f",
+      "net": "GND",
+      "xy": [
+        3.725,
+        48.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U203.1",
+      "pad_uuid": "b484a4a3-2f3f-4cc9-aa97-c1bcd713ab54",
+      "net": "3V3_AON",
+      "xy": [
+        8.275,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U203.2",
+      "pad_uuid": "af7d9bca-92fc-48a1-849a-42346d0555f6",
+      "net": "3V3_AON",
+      "xy": [
+        7.625,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U203.3",
+      "pad_uuid": "536e7aa8-6055-4024-967f-ff0b5b83d923",
+      "net": "3V3_AON",
+      "xy": [
+        6.975,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U203.8",
+      "pad_uuid": "15d96587-52bd-4077-8452-761b4c4af19f",
+      "net": "GND",
+      "xy": [
+        3.725,
+        53.1375
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U203.9",
+      "pad_uuid": "f9ed0d01-5b50-44a0-9242-ff0a719ee33d",
+      "net": "GND",
+      "xy": [
+        3.725,
+        58.8625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": true
+    },
+    {
+      "pad": "U204.4",
+      "pad_uuid": "0a980ea0-eaf3-4da9-8498-85653c314259",
+      "net": "GND",
+      "xy": [
+        3.8875,
+        65.975
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U204.8",
+      "pad_uuid": "89e6b257-352b-454f-a29f-babaaa6fde26",
+      "net": "3V3_AON",
+      "xy": [
+        8.1125,
+        64.025
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U301.1",
+      "pad_uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a",
+      "net": "3V3_AON",
+      "xy": [
+        10.8,
+        66.05
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U301.2",
+      "pad_uuid": "c0043729-128e-444a-93d3-185a9a95fb81",
+      "net": "GND",
+      "xy": [
+        10.8,
+        67.0
+      ],
+      "FP_side": "B.Cu",
+      "actual_copper_layers": [
+        "B.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.10",
+      "pad_uuid": "1c8c7ac3-61f9-4916-a167-fb30527c2241",
+      "net": "3V3_AON",
+      "xy": [
+        4.7625,
+        81.25
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.2",
+      "pad_uuid": "f4b878d4-f5ad-4f84-8948-52612c25aea5",
+      "net": "3V3_AON",
+      "xy": [
+        3.2375,
+        81.75
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.3",
+      "pad_uuid": "0dea3d5e-bdb4-488d-ab37-73bce1de7ae0",
+      "net": "3V3_AON",
+      "xy": [
+        3.2375,
+        82.25
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.5",
+      "pad_uuid": "40a9c738-4334-4fcb-bc33-ed2411730058",
+      "net": "GND",
+      "xy": [
+        3.75,
+        82.7625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.6",
+      "pad_uuid": "d98d6c38-13b5-406f-a540-0fae4e7f3548",
+      "net": "GND",
+      "xy": [
+        4.25,
+        82.7625
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.7",
+      "pad_uuid": "3d22e468-1726-42d9-aa2b-d4790b895eb8",
+      "net": "GND",
+      "xy": [
+        4.7625,
+        82.75
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.8",
+      "pad_uuid": "84ece9c4-25fb-400e-bb97-1aec35d967e6",
+      "net": "GND",
+      "xy": [
+        4.7625,
+        82.25
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    },
+    {
+      "pad": "U501.9",
+      "pad_uuid": "8b0a1021-7e98-4b99-a18d-a34f4b4500c2",
+      "net": "3V3_AON",
+      "xy": [
+        4.7625,
+        81.75
+      ],
+      "FP_side": "F.Cu",
+      "actual_copper_layers": [
+        "F.Cu"
+      ],
+      "connected_to_core": false,
+      "old_connected": true,
+      "moved_from_old": false
+    }
+  ],
+  "zones": [
+    {
+      "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "new_outlines": 1,
+      "old_outlines": 1,
+      "new_area_mm2": 1089.3365695862526,
+      "old_area_mm2": 980.475760120148,
+      "erosion": [
+        {
+          "radius_mm": 0.125,
+          "new_outlines": 7,
+          "old_outlines": 40,
+          "new_area_mm2": 1020.0873814661695,
+          "old_area_mm2": 798.436151601327
+        },
+        {
+          "radius_mm": 0.25,
+          "new_outlines": 11,
+          "old_outlines": 58,
+          "new_area_mm2": 953.251567072706,
+          "old_area_mm2": 632.0740675856945
+        }
+      ]
+    },
+    {
+      "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "new_outlines": 1,
+      "old_outlines": 1,
+      "new_area_mm2": 201.6440690872265,
+      "old_area_mm2": 201.784604183288,
+      "erosion": [
+        {
+          "radius_mm": 0.125,
+          "new_outlines": 1,
+          "old_outlines": 1,
+          "new_area_mm2": 178.3569078885605,
+          "old_area_mm2": 178.9216711968175
+        },
+        {
+          "radius_mm": 0.25,
+          "new_outlines": 1,
+          "old_outlines": 1,
+          "new_area_mm2": 155.335257253189,
+          "old_area_mm2": 156.2137110206765
+        }
+      ]
+    },
+    {
+      "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "new_outlines": 1,
+      "old_outlines": 6,
+      "new_area_mm2": 937.3778456872865,
+      "old_area_mm2": 701.4028938886615,
+      "erosion": [
+        {
+          "radius_mm": 0.125,
+          "new_outlines": 5,
+          "old_outlines": 31,
+          "new_area_mm2": 878.0622819910055,
+          "old_area_mm2": 554.489310948863
+        },
+        {
+          "radius_mm": 0.25,
+          "new_outlines": 7,
+          "old_outlines": 58,
+          "new_area_mm2": 820.954215495876,
+          "old_area_mm2": 423.253192942594
+        }
+      ]
+    },
+    {
+      "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "new_outlines": 1,
+      "old_outlines": 1,
+      "new_area_mm2": 1087.4015695862524,
+      "old_area_mm2": 978.540760120148,
+      "erosion": [
+        {
+          "radius_mm": 0.125,
+          "new_outlines": 7,
+          "old_outlines": 40,
+          "new_area_mm2": 1018.1523814661695,
+          "old_area_mm2": 796.501151601327
+        },
+        {
+          "radius_mm": 0.25,
+          "new_outlines": 11,
+          "old_outlines": 58,
+          "new_area_mm2": 951.316567072706,
+          "old_area_mm2": 630.1390675856945
+        }
+      ]
+    },
+    {
+      "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "new_outlines": 1,
+      "old_outlines": 1,
+      "new_area_mm2": 201.6440690872265,
+      "old_area_mm2": 201.784604183288,
+      "erosion": [
+        {
+          "radius_mm": 0.125,
+          "new_outlines": 1,
+          "old_outlines": 1,
+          "new_area_mm2": 178.3569078885605,
+          "old_area_mm2": 178.9216711968175
+        },
+        {
+          "radius_mm": 0.25,
+          "new_outlines": 1,
+          "old_outlines": 1,
+          "new_area_mm2": 155.335257253189,
+          "old_area_mm2": 156.2137110206765
+        }
+      ]
+    }
+  ],
+  "foreign_via_antipad_checks": [
+    {
+      "via": "47604fb6-0c45-5e19-98e6-c2b8d0de2b97",
+      "net": "3V3_AON",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+      "net": "BOOT_N",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+      "net": "BOOT_N",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+      "net": "BOOT_N",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "10bed625-0b4a-4389-87d4-ba2252a222ec",
+      "net": "STRAP_GPIO3",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+      "net": "STRAP_GPIO3",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7d45d902-b85d-47b0-bf36-0138e07b2c40",
+      "net": "STRAP_GPIO46",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+      "net": "ILLUM_STROBE",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5491ad79-4a56-4353-a56e-58e8064a6cb6",
+      "net": "ILLUM_STROBE",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b2d186c5-6d92-5733-87a4-8523bb722b62",
+      "net": "SENS_D7",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "edcdc263-d6e0-581c-95ad-27d01138504c",
+      "net": "SENS_D7",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+      "net": "SENS_D6",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9ca3741b-9e52-5db9-9578-bf16db3ba236",
+      "net": "SENS_D6",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "4aa8bad3-9cfe-5fd4-b953-9d4ac39f6cc5",
+      "net": "SENS_D5",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "62c55a48-c6f0-53e4-9052-fcc77ddc84ec",
+      "net": "SENS_D5",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2cd82b06-89ba-5e5d-83a6-ee53a07d3100",
+      "net": "SENS_D4",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "f3d08d2b-2e26-56bc-9e75-8e0e695d07b2",
+      "net": "SENS_D4",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+      "net": "SENS_HREF",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+      "net": "SENS_VSYNC",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+      "net": "SENS_PCLK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "102ebbda-daf0-45cb-bb64-0bc4e6afb648",
+      "net": "ISO_GATE",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "403ab0ab-9c1a-4c5d-b48b-745ccbcc3a4b",
+      "net": "ISO_GATE",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "891ba087-3f12-4650-b52a-694d835f89ee",
+      "net": "ISO_GATE",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "6cb65091-80bd-41b5-8af5-27eef95c2ab1",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a332dbee-ad5d-4017-b53f-08a3e167bca6",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "df82f013-f1c3-58f7-a33e-499b55fe350e",
+      "net": "SENS_EXTCLK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d6a37642-e02d-495a-8c07-a00da3ac3a34",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ee906eb9-663c-4842-ae53-08e8bdd4d6b6",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "cf9d5942-205b-59e6-adf5-fc0e68278009",
+      "net": "CAM_3V3_SW",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d8f40314-f9e4-4cc9-9e10-5fffbfd90f14",
+      "net": "CAM_3V3_SW",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e9db7f2-dc00-4dbf-8209-65f8faf13a73",
+      "net": "CAM_CT",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+      "net": "CAM_CT",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "062cbc6b-a5f6-45a6-91ce-8245101918d9",
+      "net": "CAM_ON",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+      "net": "CAM_ON",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "bdd6e597-2a75-4da9-a5d0-c2c60d433a50",
+      "net": "CAM_ON",
+      "zone": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "47604fb6-0c45-5e19-98e6-c2b8d0de2b97",
+      "net": "3V3_AON",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+      "net": "BOOT_N",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+      "net": "BOOT_N",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+      "net": "BOOT_N",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "10bed625-0b4a-4389-87d4-ba2252a222ec",
+      "net": "STRAP_GPIO3",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+      "net": "STRAP_GPIO3",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7d45d902-b85d-47b0-bf36-0138e07b2c40",
+      "net": "STRAP_GPIO46",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+      "net": "ILLUM_STROBE",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5491ad79-4a56-4353-a56e-58e8064a6cb6",
+      "net": "ILLUM_STROBE",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b2d186c5-6d92-5733-87a4-8523bb722b62",
+      "net": "SENS_D7",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "edcdc263-d6e0-581c-95ad-27d01138504c",
+      "net": "SENS_D7",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+      "net": "SENS_D6",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9ca3741b-9e52-5db9-9578-bf16db3ba236",
+      "net": "SENS_D6",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "4aa8bad3-9cfe-5fd4-b953-9d4ac39f6cc5",
+      "net": "SENS_D5",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "62c55a48-c6f0-53e4-9052-fcc77ddc84ec",
+      "net": "SENS_D5",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2cd82b06-89ba-5e5d-83a6-ee53a07d3100",
+      "net": "SENS_D4",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "f3d08d2b-2e26-56bc-9e75-8e0e695d07b2",
+      "net": "SENS_D4",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+      "net": "SENS_HREF",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+      "net": "SENS_VSYNC",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+      "net": "SENS_PCLK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "102ebbda-daf0-45cb-bb64-0bc4e6afb648",
+      "net": "ISO_GATE",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "403ab0ab-9c1a-4c5d-b48b-745ccbcc3a4b",
+      "net": "ISO_GATE",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "891ba087-3f12-4650-b52a-694d835f89ee",
+      "net": "ISO_GATE",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "6cb65091-80bd-41b5-8af5-27eef95c2ab1",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a332dbee-ad5d-4017-b53f-08a3e167bca6",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "df82f013-f1c3-58f7-a33e-499b55fe350e",
+      "net": "SENS_EXTCLK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d6a37642-e02d-495a-8c07-a00da3ac3a34",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ee906eb9-663c-4842-ae53-08e8bdd4d6b6",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "cf9d5942-205b-59e6-adf5-fc0e68278009",
+      "net": "CAM_3V3_SW",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d8f40314-f9e4-4cc9-9e10-5fffbfd90f14",
+      "net": "CAM_3V3_SW",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e9db7f2-dc00-4dbf-8209-65f8faf13a73",
+      "net": "CAM_CT",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+      "net": "CAM_CT",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "062cbc6b-a5f6-45a6-91ce-8245101918d9",
+      "net": "CAM_ON",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+      "net": "CAM_ON",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "bdd6e597-2a75-4da9-a5d0-c2c60d433a50",
+      "net": "CAM_ON",
+      "zone": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "layer": "In1.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70f2443f-1a5f-5292-8401-7d0f5fea8c0a",
+      "net": "GND",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+      "net": "BOOT_N",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+      "net": "BOOT_N",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+      "net": "BOOT_N",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "10bed625-0b4a-4389-87d4-ba2252a222ec",
+      "net": "STRAP_GPIO3",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+      "net": "STRAP_GPIO3",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7d45d902-b85d-47b0-bf36-0138e07b2c40",
+      "net": "STRAP_GPIO46",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+      "net": "ILLUM_STROBE",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5491ad79-4a56-4353-a56e-58e8064a6cb6",
+      "net": "ILLUM_STROBE",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b2d186c5-6d92-5733-87a4-8523bb722b62",
+      "net": "SENS_D7",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "edcdc263-d6e0-581c-95ad-27d01138504c",
+      "net": "SENS_D7",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+      "net": "SENS_D6",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9ca3741b-9e52-5db9-9578-bf16db3ba236",
+      "net": "SENS_D6",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "4aa8bad3-9cfe-5fd4-b953-9d4ac39f6cc5",
+      "net": "SENS_D5",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "62c55a48-c6f0-53e4-9052-fcc77ddc84ec",
+      "net": "SENS_D5",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2cd82b06-89ba-5e5d-83a6-ee53a07d3100",
+      "net": "SENS_D4",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "f3d08d2b-2e26-56bc-9e75-8e0e695d07b2",
+      "net": "SENS_D4",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+      "net": "SENS_HREF",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+      "net": "SENS_VSYNC",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+      "net": "SENS_PCLK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "102ebbda-daf0-45cb-bb64-0bc4e6afb648",
+      "net": "ISO_GATE",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "403ab0ab-9c1a-4c5d-b48b-745ccbcc3a4b",
+      "net": "ISO_GATE",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "891ba087-3f12-4650-b52a-694d835f89ee",
+      "net": "ISO_GATE",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "6cb65091-80bd-41b5-8af5-27eef95c2ab1",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a332dbee-ad5d-4017-b53f-08a3e167bca6",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "df82f013-f1c3-58f7-a33e-499b55fe350e",
+      "net": "SENS_EXTCLK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d6a37642-e02d-495a-8c07-a00da3ac3a34",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ee906eb9-663c-4842-ae53-08e8bdd4d6b6",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "cf9d5942-205b-59e6-adf5-fc0e68278009",
+      "net": "CAM_3V3_SW",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d8f40314-f9e4-4cc9-9e10-5fffbfd90f14",
+      "net": "CAM_3V3_SW",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e9db7f2-dc00-4dbf-8209-65f8faf13a73",
+      "net": "CAM_CT",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+      "net": "CAM_CT",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "062cbc6b-a5f6-45a6-91ce-8245101918d9",
+      "net": "CAM_ON",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+      "net": "CAM_ON",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "bdd6e597-2a75-4da9-a5d0-c2c60d433a50",
+      "net": "CAM_ON",
+      "zone": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "layer": "In2.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "47604fb6-0c45-5e19-98e6-c2b8d0de2b97",
+      "net": "3V3_AON",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+      "net": "BOOT_N",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+      "net": "BOOT_N",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+      "net": "BOOT_N",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "10bed625-0b4a-4389-87d4-ba2252a222ec",
+      "net": "STRAP_GPIO3",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+      "net": "STRAP_GPIO3",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7d45d902-b85d-47b0-bf36-0138e07b2c40",
+      "net": "STRAP_GPIO46",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+      "net": "ILLUM_STROBE",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5491ad79-4a56-4353-a56e-58e8064a6cb6",
+      "net": "ILLUM_STROBE",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b2d186c5-6d92-5733-87a4-8523bb722b62",
+      "net": "SENS_D7",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "edcdc263-d6e0-581c-95ad-27d01138504c",
+      "net": "SENS_D7",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+      "net": "SENS_D6",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9ca3741b-9e52-5db9-9578-bf16db3ba236",
+      "net": "SENS_D6",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "4aa8bad3-9cfe-5fd4-b953-9d4ac39f6cc5",
+      "net": "SENS_D5",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "62c55a48-c6f0-53e4-9052-fcc77ddc84ec",
+      "net": "SENS_D5",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2cd82b06-89ba-5e5d-83a6-ee53a07d3100",
+      "net": "SENS_D4",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "f3d08d2b-2e26-56bc-9e75-8e0e695d07b2",
+      "net": "SENS_D4",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+      "net": "SENS_HREF",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+      "net": "SENS_VSYNC",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+      "net": "SENS_PCLK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "102ebbda-daf0-45cb-bb64-0bc4e6afb648",
+      "net": "ISO_GATE",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "403ab0ab-9c1a-4c5d-b48b-745ccbcc3a4b",
+      "net": "ISO_GATE",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "891ba087-3f12-4650-b52a-694d835f89ee",
+      "net": "ISO_GATE",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "6cb65091-80bd-41b5-8af5-27eef95c2ab1",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a332dbee-ad5d-4017-b53f-08a3e167bca6",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "df82f013-f1c3-58f7-a33e-499b55fe350e",
+      "net": "SENS_EXTCLK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d6a37642-e02d-495a-8c07-a00da3ac3a34",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ee906eb9-663c-4842-ae53-08e8bdd4d6b6",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "cf9d5942-205b-59e6-adf5-fc0e68278009",
+      "net": "CAM_3V3_SW",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d8f40314-f9e4-4cc9-9e10-5fffbfd90f14",
+      "net": "CAM_3V3_SW",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e9db7f2-dc00-4dbf-8209-65f8faf13a73",
+      "net": "CAM_CT",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+      "net": "CAM_CT",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "062cbc6b-a5f6-45a6-91ce-8245101918d9",
+      "net": "CAM_ON",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+      "net": "CAM_ON",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "bdd6e597-2a75-4da9-a5d0-c2c60d433a50",
+      "net": "CAM_ON",
+      "zone": "150778f4-2a31-499a-942d-1665696e50ac",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "47604fb6-0c45-5e19-98e6-c2b8d0de2b97",
+      "net": "3V3_AON",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "57b8c53a-6394-4dd8-9f05-1b30c6aa5006",
+      "net": "BOOT_N",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7c6d7288-b25c-44c6-8b5a-89d1197829f4",
+      "net": "BOOT_N",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a92b3ef2-2620-476d-b3ce-ca84d5ca8ab8",
+      "net": "BOOT_N",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "10bed625-0b4a-4389-87d4-ba2252a222ec",
+      "net": "STRAP_GPIO3",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d15e2115-6a56-4f15-817e-74e5d889fcbc",
+      "net": "STRAP_GPIO3",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "7d45d902-b85d-47b0-bf36-0138e07b2c40",
+      "net": "STRAP_GPIO46",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+      "net": "ILLUM_STROBE",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5491ad79-4a56-4353-a56e-58e8064a6cb6",
+      "net": "ILLUM_STROBE",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b2d186c5-6d92-5733-87a4-8523bb722b62",
+      "net": "SENS_D7",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "edcdc263-d6e0-581c-95ad-27d01138504c",
+      "net": "SENS_D7",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "70bff6d2-371d-5fcf-a449-9895f6fc5552",
+      "net": "SENS_D6",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9ca3741b-9e52-5db9-9578-bf16db3ba236",
+      "net": "SENS_D6",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "4aa8bad3-9cfe-5fd4-b953-9d4ac39f6cc5",
+      "net": "SENS_D5",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "62c55a48-c6f0-53e4-9052-fcc77ddc84ec",
+      "net": "SENS_D5",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2cd82b06-89ba-5e5d-83a6-ee53a07d3100",
+      "net": "SENS_D4",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "f3d08d2b-2e26-56bc-9e75-8e0e695d07b2",
+      "net": "SENS_D4",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "86679cc7-bfc8-5db0-b669-a8b09193481f",
+      "net": "SENS_D3",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "9d435611-05c4-54d4-90ec-23aecde8aa41",
+      "net": "SENS_D2",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "0f412a23-5c65-5104-9cf0-4b56731c56c6",
+      "net": "SENS_D1",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "97ed61b3-99a9-5d0f-aae5-55ded11480ef",
+      "net": "SENS_D0",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+      "net": "SENS_HREF",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+      "net": "SENS_VSYNC",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+      "net": "SENS_PCLK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "102ebbda-daf0-45cb-bb64-0bc4e6afb648",
+      "net": "ISO_GATE",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "403ab0ab-9c1a-4c5d-b48b-745ccbcc3a4b",
+      "net": "ISO_GATE",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "891ba087-3f12-4650-b52a-694d835f89ee",
+      "net": "ISO_GATE",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "6cb65091-80bd-41b5-8af5-27eef95c2ab1",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "a332dbee-ad5d-4017-b53f-08a3e167bca6",
+      "net": "SCCB_ENABLE_LINK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "df82f013-f1c3-58f7-a33e-499b55fe350e",
+      "net": "SENS_EXTCLK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "2d9a88b6-696a-4b82-9d44-db35fd53f9d7",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d6a37642-e02d-495a-8c07-a00da3ac3a34",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "ee906eb9-663c-4842-ae53-08e8bdd4d6b6",
+      "net": "CAM_3V3_PRELINK",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "cf9d5942-205b-59e6-adf5-fc0e68278009",
+      "net": "CAM_3V3_SW",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "d8f40314-f9e4-4cc9-9e10-5fffbfd90f14",
+      "net": "CAM_3V3_SW",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "8e9db7f2-dc00-4dbf-8209-65f8faf13a73",
+      "net": "CAM_CT",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+      "net": "CAM_CT",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "062cbc6b-a5f6-45a6-91ce-8245101918d9",
+      "net": "CAM_ON",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+      "net": "CAM_ON",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    },
+    {
+      "via": "bdd6e597-2a75-4da9-a5d0-c2c60d433a50",
+      "net": "CAM_ON",
+      "zone": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "layer": "In4.Cu",
+      "foreign_copper_plus_015_overlap_mm2": 0.0
+    }
+  ],
+  "signal_reference_projection": [
+    {
+      "uuid": "ec08010d-a204-5be8-8a76-0b6fc435b407",
+      "net": "SENS_D7",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.480726591594,
+      "covered_fraction": 0.8648905304059934
+    },
+    {
+      "uuid": "106b739a-c755-518c-9507-8fc3f75c01fe",
+      "net": "SENS_D7",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.130101591594,
+      "covered_fraction": 0.500769226273667
+    },
+    {
+      "uuid": "4e37ffa3-aba7-52ef-9252-83e919096365",
+      "net": "SENS_D7",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.055101542892,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "8446369d-100a-534e-ae4e-2fdb25084570",
+      "net": "SENS_D7",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.857601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "8a917c42-50ea-5732-a54f-5272c1dbd926",
+      "net": "SENS_D7",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.460101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "defd5ae4-d74d-5fed-b279-b7bbaafa48e1",
+      "net": "SENS_D7",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.124985067855,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "032ad265-22d3-562c-b5f4-cb63582be22e",
+      "net": "SENS_D7",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.446351591594,
+      "covered_fraction": 0.9550934451301575
+    },
+    {
+      "uuid": "3d1b0d47-c781-5323-9cc9-b781de2e23a6",
+      "net": "SENS_D7",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 6.182601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "78bd2650-1ff2-53ad-8b9b-5dcacae5d762",
+      "net": "SENS_D7",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.707601591594,
+      "covered_fraction": 0.9082101172742038
+    },
+    {
+      "uuid": "7536cae6-fbca-555e-a61d-9079d587d78c",
+      "net": "SENS_D6",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.383226591594,
+      "covered_fraction": 0.8305161587565133
+    },
+    {
+      "uuid": "32a6e4be-057b-559b-bfb5-3c6450737671",
+      "net": "SENS_D6",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.337601591594,
+      "covered_fraction": 0.951442460928071
+    },
+    {
+      "uuid": "84e4fe54-8472-579f-934a-bfa2efac37e4",
+      "net": "SENS_D6",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.393851591594,
+      "covered_fraction": 0.9534020210611355
+    },
+    {
+      "uuid": "93c6d8f0-601b-545a-b294-a006266e37b9",
+      "net": "SENS_D6",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.790101591594,
+      "covered_fraction": 0.9177945370569821
+    },
+    {
+      "uuid": "b514c9c5-8ab0-5764-b1ac-1a47747e0fd9",
+      "net": "SENS_D6",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 6.377601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "405dbbcc-feed-5164-b050-41cf2174e551",
+      "net": "SENS_D5",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.285726591594,
+      "covered_fraction": 0.7726822888704353
+    },
+    {
+      "uuid": "246bcdd2-7668-5a04-93fd-22f38dd15d47",
+      "net": "SENS_D5",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.240101591594,
+      "covered_fraction": 0.9476247358907799
+    },
+    {
+      "uuid": "34560208-f793-56d3-9803-42e6c194e4a7",
+      "net": "SENS_D5",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 6.572601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "aff63f92-9666-5b5f-b53d-2bde91082af1",
+      "net": "SENS_D5",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.341351591594,
+      "covered_fraction": 0.9515781935802412
+    },
+    {
+      "uuid": "c3aeb5de-bebc-562e-ba0a-638044ebb1b9",
+      "net": "SENS_D5",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.685101591594,
+      "covered_fraction": 0.9051955682107208
+    },
+    {
+      "uuid": "79cfa57c-a273-5b17-ae32-8557d9241f9e",
+      "net": "SENS_D4",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.188226591594,
+      "covered_fraction": 0.6549333743975079
+    },
+    {
+      "uuid": "59e2ad67-7080-56e1-963f-68d6ef12d5e7",
+      "net": "SENS_D4",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.142601591594,
+      "covered_fraction": 0.9431554777935415
+    },
+    {
+      "uuid": "14b8a960-afa5-54a5-a9e0-fd69882359c0",
+      "net": "SENS_D4",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.288851591594,
+      "covered_fraction": 0.9496057827506178
+    },
+    {
+      "uuid": "4f13e04b-fa19-56f8-bcc0-50df9bdc645d",
+      "net": "SENS_D4",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.655101591594,
+      "covered_fraction": 0.9008540538713067
+    },
+    {
+      "uuid": "dd646847-588f-5b3a-92c3-4ac169be87d4",
+      "net": "SENS_D4",
+      "layer": "In3.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 6.767601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "03894dc9-e04e-525b-9aa3-ad7aeb81e755",
+      "net": "SENS_D3",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 7.202601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "28cb5c7e-4986-5cce-b866-4eff3e854825",
+      "net": "SENS_D3",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.480726591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "7bab4942-99b1-58c5-864d-655548679c83",
+      "net": "SENS_D3",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.370101591594,
+      "covered_fraction": 0.8239333533129383
+    },
+    {
+      "uuid": "b5284300-20fc-5818-801e-f98701c67fb2",
+      "net": "SENS_D3",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 1.056351591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "c0b4f577-ddf7-5149-9706-571153993a8b",
+      "net": "SENS_D3",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.415101591594,
+      "covered_fraction": 0.8430202757491864
+    },
+    {
+      "uuid": "030e9db6-dc15-5d22-a4d6-266f3e02c34f",
+      "net": "SENS_D2",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.340101591594,
+      "covered_fraction": 0.8090257420184744
+    },
+    {
+      "uuid": "1f0cf53e-2e17-59d9-8223-f576b469ad95",
+      "net": "SENS_D2",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 1.003851591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "3a44b612-7834-554c-bed2-db8be20e572a",
+      "net": "SENS_D2",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.383226591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "89ccb63b-f53b-5199-8ef3-c1811d5f4ba1",
+      "net": "SENS_D2",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 7.375101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "eeab5958-2f86-56e3-86ab-bf84ff9e8683",
+      "net": "SENS_D2",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.340101591594,
+      "covered_fraction": 0.8090257642074327
+    },
+    {
+      "uuid": "733ca18e-d16a-58e3-988a-677acf73d4d7",
+      "net": "SENS_D1",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.951351591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "78dedf19-d22a-5987-9826-7ec37f378c2d",
+      "net": "SENS_D1",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 7.547601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "f1391c9f-c6e8-5d46-9b37-b38d35685a30",
+      "net": "SENS_D1",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.235101591594,
+      "covered_fraction": 0.7228323903564632
+    },
+    {
+      "uuid": "fecc0f13-6831-554a-acae-71729e8601bd",
+      "net": "SENS_D1",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.285726591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "9efac149-5564-5a5f-af18-8e0521db6f18",
+      "net": "SENS_D1",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.265101591594,
+      "covered_fraction": 0.7541978985803464
+    },
+    {
+      "uuid": "2731a5af-f3a1-5e42-96fb-38e4936a30ff",
+      "net": "SENS_D0",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.205101591594,
+      "covered_fraction": 0.6833244998821352
+    },
+    {
+      "uuid": "44cdaa48-a273-5d4b-80e8-b64ad8698861",
+      "net": "SENS_D0",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.898851591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "4e37a39f-fe1d-5456-89f0-3327f8fd42f2",
+      "net": "SENS_D0",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.188226591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "6d0cee76-0fa6-5bec-91c7-3d6ed666647f",
+      "net": "SENS_D0",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 7.720101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "447874d5-14f0-520a-be6b-e56807ec343e",
+      "net": "SENS_D0",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.190101591594,
+      "covered_fraction": 0.658337202745703
+    },
+    {
+      "uuid": "cb082523-2fea-5421-a7e1-8ce12d57cd98",
+      "net": "SENS_HREF",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.323226591594,
+      "covered_fraction": 0.7990551628512558
+    },
+    {
+      "uuid": "0b3f4b6d-e858-5dd0-a2cf-f753cab34f41",
+      "net": "SENS_HREF",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.165101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "72418199-6f7c-5f51-af8c-08daa359c618",
+      "net": "SENS_HREF",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.727601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "babb7658-9e29-5065-a250-de9d424e2650",
+      "net": "SENS_HREF",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 4.247601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "cab4723c-4f70-57cc-9059-e3a7df912d1b",
+      "net": "SENS_HREF",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.198851591594,
+      "covered_fraction": 0.9458225959206167
+    },
+    {
+      "uuid": "8a3f3bda-008c-5937-952a-1b7526d6585d",
+      "net": "SENS_VSYNC",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.248226591594,
+      "covered_fraction": 0.7383410278773294
+    },
+    {
+      "uuid": "2db58bad-270e-529c-9804-b4c332bb0bc0",
+      "net": "SENS_VSYNC",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.630101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "4a10ab98-7e14-52f2-8f36-a86fb8f9b80a",
+      "net": "SENS_VSYNC",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.146351591594,
+      "covered_fraction": 0.9433414080066952
+    },
+    {
+      "uuid": "5848636f-8894-5dc8-a390-96bdbeb0500b",
+      "net": "SENS_VSYNC",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 4.420101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "fa402946-35dd-50ad-a05c-a87bd998aeeb",
+      "net": "SENS_VSYNC",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.135101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "c2814d21-a068-56a0-94f3-24c5650e0202",
+      "net": "SENS_PCLK",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.173226591594,
+      "covered_fraction": 0.6250534388956385
+    },
+    {
+      "uuid": "001f3c8c-8d3c-58eb-80e3-1be149db0512",
+      "net": "SENS_PCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 4.592601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "6d1b30ac-fd7f-5bad-a0e8-30a4cb2e8b39",
+      "net": "SENS_PCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.532601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "ad7580f0-b8b1-5929-b38f-95c054aa7efa",
+      "net": "SENS_PCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.093851591594,
+      "covered_fraction": 0.9406220481753366
+    },
+    {
+      "uuid": "f0895096-10e2-5e6e-887c-8e51157e9cf5",
+      "net": "SENS_PCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.105101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "28054c28-5178-58ec-bfbc-4b9842809b78",
+      "net": "SENS_EXTCLK",
+      "layer": "F.Cu",
+      "reference": "In1.Cu",
+      "projection_area_mm2": 0.167601591594,
+      "covered_fraction": 0.6124695822260605
+    },
+    {
+      "uuid": "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.802601591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "70e0967a-4368-5ee1-bf52-836bac8b2dcf",
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 1.270101591594,
+      "covered_fraction": 1.0
+    },
+    {
+      "uuid": "730ea763-2dd7-5e5a-a1cd-76b6b12b8717",
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 0.958851591594,
+      "covered_fraction": 0.9322620229466109
+    },
+    {
+      "uuid": "c385a810-4337-505a-812f-fa2f47c2a9af",
+      "net": "SENS_EXTCLK",
+      "layer": "B.Cu",
+      "reference": "In4.Cu",
+      "projection_area_mm2": 2.828226591594,
+      "covered_fraction": 1.0
+    }
+  ],
+  "nineteen_nets_and_fourteen_chains_retained": true,
+  "JP301_OPEN": true,
+  "limits": [
+    "Erosion counts are screening only, not a path-specific minimum neck or ampacity proof.",
+    "Projected track copper coverage is not field-solver reference qualification.",
+    "No old local ground/AON fanouts restored; fill does not connect SMT pads without copper."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "READ_ONLY_SINGLE_JOINT_TOPOLOGY_NOFAB",
+  "input_sha": "4d7bd85ae460928a48967c00adae133c05df5ef259a6789470c04e986b856f8a",
+  "existing_non_dvp_copper": 392,
+  "pad_count": 366,
+  "drill_conflicts": [],
+  "annulus_pad_overlap": [
+    {
+      "index": 80,
+      "other": "J106.2",
+      "same_net": true,
+      "layer": "F.Cu"
+    },
+    {
+      "index": 84,
+      "other": "J106.3",
+      "same_net": true,
+      "layer": "F.Cu"
+    }
+  ],
+  "edge_conflicts": [],
+  "rule_conflicts": [],
+  "full_power_restored": false,
+  "old_zones_restored": false,
+  "return_qualification": false
+}
+COPPER 2
+[{'index': 50, 'net': 'SENS_D7', 'other_index': None, 'other': 'C501.2', 'other_net': 'GND', 'layers': ['F.Cu']}, {'index': 77, 'net': 'SENS_EXTCLK', 'other_index': None, 'other': 'a332dbee-ad5d-4017-b53f-08a3e167bca6', 'other_net': 'SCCB_ENABLE_LINK', 'layers': ['B.Cu']}]

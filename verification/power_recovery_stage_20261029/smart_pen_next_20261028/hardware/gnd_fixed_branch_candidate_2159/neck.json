@@ -1,0 +1,136 @@
+{
+  "erosion_radius_mm": 0.25,
+  "base_fragment_count": 7,
+  "candidate_fragment_count": 8,
+  "fragments": [
+    {
+      "fragment": 0,
+      "area_mm2": 169.004060302568,
+      "bbox_mm": [
+        0.75,
+        68.390688,
+        10.5,
+        25.859312
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 0,
+          "overlap_mm2": 169.004060206155
+        }
+      ]
+    },
+    {
+      "fragment": 1,
+      "area_mm2": 26.479706391012,
+      "bbox_mm": [
+        7.476702,
+        77.069946,
+        3.773298,
+        10.900368
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 1,
+          "overlap_mm2": 26.479706391012
+        }
+      ]
+    },
+    {
+      "fragment": 2,
+      "area_mm2": 577.849220790014,
+      "bbox_mm": [
+        0.75,
+        4.55,
+        10.5,
+        67.261517
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 2,
+          "overlap_mm2": 577.84917170215
+        }
+      ]
+    },
+    {
+      "fragment": 3,
+      "area_mm2": 8.098458924962,
+      "bbox_mm": [
+        0.75,
+        67.540688,
+        3.754331,
+        4.15
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 3,
+          "overlap_mm2": 8.098458924962
+        }
+      ]
+    },
+    {
+      "fragment": 4,
+      "area_mm2": 0.064109831003,
+      "bbox_mm": [
+        0.75,
+        66.790688,
+        0.373265,
+        0.25
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 2,
+          "overlap_mm2": 0.064109831003
+        }
+      ]
+    },
+    {
+      "fragment": 5,
+      "area_mm2": 0.273820456156,
+      "bbox_mm": [
+        0.75,
+        39.500562,
+        1.889846,
+        0.15
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 4,
+          "overlap_mm2": 0.273820456156
+        }
+      ]
+    },
+    {
+      "fragment": 6,
+      "area_mm2": 0.371320456156,
+      "bbox_mm": [
+        0.75,
+        38.850562,
+        2.539846,
+        0.15
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 5,
+          "overlap_mm2": 0.371320456156
+        }
+      ]
+    },
+    {
+      "fragment": 7,
+      "area_mm2": 0.468820456156,
+      "bbox_mm": [
+        0.75,
+        38.200562,
+        3.189846,
+        0.15
+      ],
+      "base_matches": [
+        {
+          "base_fragment": 6,
+          "overlap_mm2": 0.468820456156
+        }
+      ]
+    }
+  ],
+  "note": "Screening shape erosion only, not load-path minimum-neck/ampacity proof. Added via antipads may create splits; report does not waive the change."
+}

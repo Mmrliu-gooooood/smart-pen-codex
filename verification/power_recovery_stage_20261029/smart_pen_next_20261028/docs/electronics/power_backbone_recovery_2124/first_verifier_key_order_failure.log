@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/docs/electronics/power_backbone_recovery_2124/verify.py", line 26, in <module>
+    req((D/'plan_normal.json').read_bytes()==(D/'plan.json').read_bytes(),'normal optimized mismatch')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/docs/electronics/power_backbone_recovery_2124/verify.py", line 10, in req
+    if not a:raise ValueError(m)
+             ^^^^^^^^^^^^^^^^^^^
+ValueError: normal optimized mismatch

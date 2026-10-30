@@ -1,0 +1,287 @@
+{
+  "status": "FINITE_GEOMETRY_AND_PARTIAL_CONNECTIONS_ONLY_NOFAB",
+  "chains": [
+    {
+      "net": "SENS_D0",
+      "start": "U201.21",
+      "end": "J202.2",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D1",
+      "start": "U201.20",
+      "end": "J202.3",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D2",
+      "start": "U201.19",
+      "end": "J202.5",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D3",
+      "start": "U201.18",
+      "end": "J202.6",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D4",
+      "start": "U201.17",
+      "end": "J202.8",
+      "object_count": 7,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D5",
+      "start": "U201.16",
+      "end": "J202.9",
+      "object_count": 7,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D6",
+      "start": "U201.15",
+      "end": "J202.11",
+      "object_count": 7,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_D7",
+      "start": "U201.14",
+      "end": "J202.12",
+      "object_count": 11,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_PCLK",
+      "start": "U202.13",
+      "end": "J202.14",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_VSYNC",
+      "start": "U202.12",
+      "end": "J202.15",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_HREF",
+      "start": "U202.11",
+      "end": "J202.16",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "start": "U203.13",
+      "end": "J202.18",
+      "object_count": 6,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "CAM_3V3_SW",
+      "start": "JP301.2",
+      "end": "J301.1",
+      "object_count": 53,
+      "finite_copper_connected": true
+    },
+    {
+      "net": "GND",
+      "start": "J106.3",
+      "end": "J301.2",
+      "object_count": 4,
+      "finite_copper_connected": true
+    }
+  ],
+  "negative_cases": [
+    {
+      "net": "SENS_D0",
+      "deleted_object": 0,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D1",
+      "deleted_object": 6,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D2",
+      "deleted_object": 12,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D3",
+      "deleted_object": 18,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D4",
+      "deleted_object": 24,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D5",
+      "deleted_object": 31,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D6",
+      "deleted_object": 38,
+      "rejected": true
+    },
+    {
+      "net": "SENS_D7",
+      "deleted_object": 45,
+      "rejected": true
+    },
+    {
+      "net": "SENS_PCLK",
+      "deleted_object": 56,
+      "rejected": true
+    },
+    {
+      "net": "SENS_VSYNC",
+      "deleted_object": 62,
+      "rejected": true
+    },
+    {
+      "net": "SENS_HREF",
+      "deleted_object": 68,
+      "rejected": true
+    },
+    {
+      "net": "SENS_EXTCLK",
+      "deleted_object": 74,
+      "rejected": true
+    },
+    {
+      "net": "CAM_3V3_SW",
+      "deleted_object": 86,
+      "rejected": true
+    },
+    {
+      "net": "GND",
+      "deleted_object": 82,
+      "rejected": true
+    }
+  ],
+  "plane_occupancy": [
+    {
+      "zone_uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "old_fill_intersection_union_mm2": 6.3574750887055,
+      "object_indices": [
+        10,
+        16,
+        22,
+        25,
+        29,
+        32,
+        36,
+        39,
+        43,
+        46,
+        50,
+        57,
+        63,
+        69,
+        75,
+        81,
+        87
+      ],
+      "not_fresh_fill": true
+    },
+    {
+      "zone_uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "old_fill_intersection_union_mm2": 1.5081475479015,
+      "object_indices": [
+        4,
+        10,
+        81
+      ],
+      "not_fresh_fill": true
+    },
+    {
+      "zone_uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "old_fill_intersection_union_mm2": 7.6289494846705,
+      "object_indices": [
+        10,
+        16,
+        22,
+        25,
+        29,
+        32,
+        36,
+        39,
+        43,
+        46,
+        50,
+        57,
+        69,
+        75,
+        85,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "not_fresh_fill": true
+    },
+    {
+      "zone_uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "old_fill_intersection_union_mm2": 6.3574750887055,
+      "object_indices": [
+        10,
+        16,
+        22,
+        25,
+        29,
+        32,
+        36,
+        39,
+        43,
+        46,
+        50,
+        57,
+        63,
+        69,
+        75,
+        81,
+        87
+      ],
+      "not_fresh_fill": true
+    },
+    {
+      "zone_uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "old_fill_intersection_union_mm2": 1.5081475479015,
+      "object_indices": [
+        4,
+        10,
+        81
+      ],
+      "not_fresh_fill": true
+    }
+  ],
+  "total_modeled_objects": 141,
+  "full_AON_39pads_connected": false,
+  "complete_GND_return": false,
+  "fresh_fill": false,
+  "native_saved": false
+}

@@ -1,0 +1,29 @@
+08:24:53: Debug: Adding duplicate image handler for 'PNG file'
+08:24:53: Debug: Adding duplicate image handler for 'JPEG file'
+08:24:53: Debug: Adding duplicate image handler for 'TIFF file'
+08:24:53: Debug: Adding duplicate image handler for 'GIF file'
+08:24:53: Debug: Adding duplicate image handler for 'PNM file'
+08:24:53: Debug: Adding duplicate image handler for 'PCX file'
+08:24:53: Debug: Adding duplicate image handler for 'IFF file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows icon file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows cursor file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+08:24:53: Debug: Adding duplicate image handler for 'TGA file'
+08:24:53: Debug: Adding duplicate image handler for 'XPM file'
+08:24:53: Debug: Adding duplicate image handler for 'PNG file'
+08:24:53: Debug: Adding duplicate image handler for 'JPEG file'
+08:24:53: Debug: Adding duplicate image handler for 'TIFF file'
+08:24:53: Debug: Adding duplicate image handler for 'GIF file'
+08:24:53: Debug: Adding duplicate image handler for 'PNM file'
+08:24:53: Debug: Adding duplicate image handler for 'PCX file'
+08:24:53: Debug: Adding duplicate image handler for 'IFF file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows icon file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows cursor file'
+08:24:53: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+08:24:53: Debug: Adding duplicate image handler for 'TGA file'
+08:24:53: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gnd_erosion_independent_erratum_2322/hole_checks.py", line 30, in <module>
+    if q.HoleCount(0)!=1 or u.HoleCount(0)!=1 or u.Contains(p.VECTOR2I(5000000,5000000)) or delta.Area()>1:raise RuntimeError('synthetic hole lost')
+                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: synthetic hole lost

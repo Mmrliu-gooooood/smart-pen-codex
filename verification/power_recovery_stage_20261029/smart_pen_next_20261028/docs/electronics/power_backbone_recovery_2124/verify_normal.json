@@ -1,0 +1,128 @@
+{
+  "status": "BOUNDED_PARTIAL_GEOMETRY_CHECK_ONLY_NOFAB",
+  "baseline_sha256": "4d7bd85ae460928a48967c00adae133c05df5ef259a6789470c04e986b856f8a",
+  "negative_rejections": [
+    "false_qualification",
+    "thinned_power",
+    "hidden_conflict",
+    "dropped_pad"
+  ],
+  "cases": [
+    {
+      "name": "AON_core_(11.9, 83.9)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "AON_core_(11.8, 84.6)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "AON_core_(10.6, 82.6)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "AON_core_(11.8, 83.2)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "SW_lower_(5.8, 87.6)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [
+        {
+          "object": 1,
+          "pad": "J301.1",
+          "layer": "F.Cu"
+        }
+      ],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "SW_lower_(5.8, 86.8)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "SW_lower_(6.1, 87.2)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "SW_lower_(5.0, 87.6)",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [
+        {
+          "object": 1,
+          "pad": "J301.1",
+          "layer": "F.Cu"
+        }
+      ],
+      "local_clear_with_added_checks": false
+    },
+    {
+      "name": "AON_bridge_In2_10.7",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    },
+    {
+      "name": "AON_bridge_In2_11.2",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    },
+    {
+      "name": "AON_bridge_In2_12.5",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    },
+    {
+      "name": "U201_decap",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    },
+    {
+      "name": "U202_decap",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    },
+    {
+      "name": "U203_decap",
+      "native_edge_025mm_conflicts": [],
+      "native_rule_conflicts": [],
+      "same_net_via_annulus_pad_overlap": [],
+      "local_clear_with_added_checks": true
+    }
+  ],
+  "clear_count": 6,
+  "all_power_restored": false,
+  "native_board_saved": false,
+  "native_full_DRC_run": false,
+  "fresh_fill_run": false,
+  "qualified_current_or_return": false
+}

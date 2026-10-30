@@ -1,0 +1,6703 @@
+{
+  "status": "READ_ONLY_NOFAB_NOT_ROUTED",
+  "inputs": {
+    "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_pcb": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+    "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/complete_net_restore_candidate_2014/native/mainboard_revD.kicad_pcb": "4d7bd85ae460928a48967c00adae133c05df5ef259a6789470c04e986b856f8a",
+    "/workspace/scratch/fe148e758944/smart_pen_next_20261028/docs/electronics/copper_recovery_plan_2005/recovery_plan.json": "5530bce331e5f92a3dc2023a4c939919c2635a2b934969133e8f28940d3d95cc"
+  },
+  "current_drc_fact": [
+    0,
+    233,
+    0
+  ],
+  "pad_contract": [
+    {
+      "uuid": "6cb7d390-2d15-4643-bb66-5037a5284f77",
+      "ref": "Q201",
+      "value": "PMV30UN2",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        1.5625,
+        69.95
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "b882bbc8-a0fd-4dfb-b56b-6959227d4987",
+      "ref": "R205",
+      "value": "4.7k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.825,
+        74.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "9f74ff78-2705-477a-ab00-f2ebef282b69",
+      "ref": "R202",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.825,
+        72.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "3fe59774-ca4a-4771-9b12-df8178baa273",
+      "ref": "C104",
+      "value": "100n",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.225,
+        15.8
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "500422b2-8410-447d-85d1-4703830c6a2c",
+      "ref": "C104",
+      "value": "100n",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.775,
+        15.8
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "5f5f8a53-d5c2-4ec7-beb3-3485960c9ab3",
+      "ref": "R502",
+      "value": "10k 1%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        4.825,
+        86.65
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "179da90a-866e-47cf-9a42-04e0ca2217ea",
+      "ref": "R241",
+      "value": "10k 1% INITIAL_100kHz",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.325,
+        76.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "77688b58-d7ad-400e-89cd-c770603578c0",
+      "ref": "R229",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        40.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "4f234db8-a242-49a7-9c63-2411d0eb4bab",
+      "ref": "J106",
+      "value": "POWER_CORE",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.6,
+        83.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "eedbba73-4d16-4fdd-83a9-903238ebbe22",
+      "ref": "J106",
+      "value": "POWER_CORE",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        10.6,
+        86.3
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "01126ba0-9535-44c0-beec-4d4474da6750",
+      "ref": "R217",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        1.1,
+        22.32
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.54,
+        0.64
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0f5ad13b-1deb-474c-a3cf-a1c8c579a066",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        2.575,
+        7.8
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0502dd7d-0547-47c9-8c96-351f65fe878c",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "3",
+      "net": "3V3_AON",
+      "xy_mm": [
+        2.575,
+        8.2
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "b66abdea-6941-4f4f-ba0c-1235dc639598",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "20",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.4,
+        13.425
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "6ba93d67-270d-46f3-96a5-cf7effbad5b1",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "46",
+      "net": "3V3_AON",
+      "xy_mm": [
+        7.4,
+        6.575
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fbe49a81-021f-4e39-8e44-a9e4c9ca0efb",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "55",
+      "net": "3V3_AON",
+      "xy_mm": [
+        3.8,
+        6.575
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0443c036-268a-436e-89b8-0dda44c97d8d",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "56",
+      "net": "3V3_AON",
+      "xy_mm": [
+        3.4,
+        6.575
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.65,
+        0.22
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        4.5,
+        8.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "9cfb0dae-5f02-469b-b604-732278f16482",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        4.5,
+        10.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "4c205a6e-a341-4388-a479-119936dba9f3",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        4.5,
+        11.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        6.0,
+        8.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        6.0,
+        10.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        6.0,
+        11.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "a4284ff2-c785-4218-9745-31552753482d",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        7.5,
+        8.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fd09fc28-178f-4ef9-b475-b126dc663302",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        7.5,
+        10.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "32bb485d-f189-426e-b0af-d376c218a5c0",
+      "ref": "U101",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "pin": "57",
+      "net": "GND",
+      "xy_mm": [
+        7.5,
+        11.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1524,
+        1.1524
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "ad279fd5-b0a1-4f0c-a61e-a441f891d81f",
+      "ref": "C103",
+      "value": "100n",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        1.2,
+        7.8
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "2d03ccb9-ac11-4f8a-917d-cba66a5455de",
+      "ref": "C103",
+      "value": "100n",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        1.2,
+        6.25
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "5257cd4d-c604-4aa0-9caf-a8c2cc3bf6dc",
+      "ref": "R231",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.325,
+        40.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "4a16f688-c119-4721-916c-e8da94e51d42",
+      "ref": "C203",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        9.575,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "9f12a267-7139-4b62-9379-821f103d3ad6",
+      "ref": "C203",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.125,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "2e6b116a-2ed9-4753-9767-775ae519a615",
+      "ref": "R224",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.325,
+        39.1
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "899b9630-9227-4b19-97c3-0a5a491c1136",
+      "ref": "R213",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        1.675,
+        24.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "da0c1e68-2c43-49b6-95e8-bbc05073a94e",
+      "ref": "R215",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        28.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "241628c5-6616-47dc-acd3-cb3a3e0e6fa3",
+      "ref": "C101",
+      "value": "1u",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.275,
+        17.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "4632b9c9-ebdc-4b5d-b125-7685a3e646d5",
+      "ref": "J108",
+      "value": "SERVICE_EN_BOOT_GND",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        4.95,
+        22.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "27c36c67-894a-42a8-949a-4cbb9407fbd0",
+      "ref": "R237",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        62.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "61658653-fdc7-4eda-8227-11e3159456af",
+      "ref": "R233",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.325,
+        50.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "f258b825-c1da-4b8e-82fb-ab3a0b4da559",
+      "ref": "R102",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        6.825,
+        20.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0cfba929-8d59-4f21-bac0-fccb06292478",
+      "ref": "C208",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        10.0,
+        65.775
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "48a0c3e6-1f55-418d-a6d2-19e3740a7f55",
+      "ref": "C208",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        10.0,
+        64.225
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fe540296-8875-421b-b237-f6c9fe3c384a",
+      "ref": "C503",
+      "value": "10uF 10V X7R +/-10%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        4.35,
+        84.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        1.45
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "5d9f186b-b9c1-4f7e-bbae-248457146b1d",
+      "ref": "C503",
+      "value": "10uF 10V X7R +/-10%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.25,
+        84.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        1.45
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "aa7342de-9c8e-47e8-b100-f40475c60303",
+      "ref": "C204",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        9.575,
+        48.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "a93516e6-d0a6-47fb-a014-acec2e227835",
+      "ref": "C204",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.125,
+        48.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "5b231d3e-0c85-42f2-bb1d-88b7b784a032",
+      "ref": "R104",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        4.325,
+        1.7
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "74ae2ece-476c-4d43-9ff0-5681237c590f",
+      "ref": "R230",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        40.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "6ee3d1b2-e6eb-4651-bd97-ca179570132f",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        9.575,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "bf32734e-355c-43fb-a95f-0aa3452b1054",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.925,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "f0dffd3c-ed0a-4d37-86ba-306ad308ea62",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "11",
+      "net": "GND",
+      "xy_mm": [
+        3.075,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "f954ff42-436e-474f-8da1-bac469cb87eb",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "12",
+      "net": "GND",
+      "xy_mm": [
+        2.425,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "91a57ce5-1d48-44d8-9d9b-d0ec626b5ab6",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "13",
+      "net": "GND",
+      "xy_mm": [
+        2.425,
+        36.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "08d62afa-98ab-4c47-b7d5-9493fd88545c",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "23",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        8.925,
+        36.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "8407a4fc-d1e2-4ee5-9fef-e55bff15eb06",
+      "ref": "U201",
+      "value": "SN74AXC8T245PWR",
+      "pin": "24",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        9.575,
+        36.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "e50e02f7-5916-41cb-8573-ac63d11b8e24",
+      "ref": "R109",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        10.325,
+        24.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "11f13d23-d53c-4b3b-b300-202427e55291",
+      "ref": "R243",
+      "value": "10k 1% INITIAL_100kHz",
+      "pin": "2",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        11.325,
+        76.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "8415856f-01fc-4ff2-a2b1-54813deb5990",
+      "ref": "C106",
+      "value": "DNP RF_TUNE",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.65,
+        1.86
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "01824662-501f-4a8c-9b04-f4913cf766af",
+      "ref": "R101",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        3.325,
+        20.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "7d9acaf8-109e-46a0-befd-d1dd5241c84c",
+      "ref": "J109",
+      "value": "USB_TAIL_LINK",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        12.0,
+        24.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.4,
+        1.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "aae8ccbd-b513-4e92-955c-be37f08e0f9f",
+      "ref": "R210",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.325,
+        26.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "9477713e-a161-4b11-bda9-3c0dde429dbf",
+      "ref": "C502",
+      "value": "100nF 16V X7R +/-10%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.72,
+        82.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "804b6246-120f-4062-a11a-903564118c76",
+      "ref": "C502",
+      "value": "100nF 16V X7R +/-10%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.68,
+        82.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "53f3f5cc-2ca3-44bc-8687-393edd0b8398",
+      "ref": "C107",
+      "value": "DNP RF_TUNE",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        9.5,
+        1.86
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e3430a80-e472-441e-8d0d-59b70e8f4215",
+      "ref": "R106",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        10.325,
+        22.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e1bcdf6a-2704-480c-9be6-8ede881f1e04",
+      "ref": "R235",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.425,
+        60.6
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "7f1401a9-3288-43a7-a5f5-c3358c53ec1e",
+      "ref": "R207",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        62.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "ac3770a6-b9c8-4d07-a8ca-0a64f520cf39",
+      "ref": "R212",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        26.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e37cf63d-8d7f-4aa4-b645-d220b137925f",
+      "ref": "C105",
+      "value": "100n",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        7.725,
+        4.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fd5c4023-e4dd-443c-a78f-05a7957974bd",
+      "ref": "C105",
+      "value": "100n",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        9.275,
+        4.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "ee60c382-3c55-4140-b321-7b5df02e0906",
+      "ref": "C102",
+      "value": "22u",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.225,
+        18.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d7e516e5-c18e-4cf9-b0a3-12c48b54403c",
+      "ref": "C102",
+      "value": "22u",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.775,
+        18.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "58f9b1dc-3179-41ce-9f49-2f1fabf97d9d",
+      "ref": "U204",
+      "value": "TCA9517DGKR",
+      "pin": "1",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        3.8875,
+        64.025
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.625,
+        0.5
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0a980ea0-eaf3-4da9-8498-85653c314259",
+      "ref": "U204",
+      "value": "TCA9517DGKR",
+      "pin": "4",
+      "net": "GND",
+      "xy_mm": [
+        3.8875,
+        65.975
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.625,
+        0.5
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "89e6b257-352b-454f-a29f-babaaa6fde26",
+      "ref": "U204",
+      "value": "TCA9517DGKR",
+      "pin": "8",
+      "net": "3V3_AON",
+      "xy_mm": [
+        8.1125,
+        64.025
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.625,
+        0.5
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "38433c9f-021c-4ecf-94c4-61d162f17337",
+      "ref": "R228",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.325,
+        40.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "afd4c6b5-ddc9-4db3-be52-fdd3ea223dca",
+      "ref": "C202",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        10.975,
+        36.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "d70897e8-05b4-401f-8741-bda6ffd054da",
+      "ref": "C202",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        12.525,
+        36.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "b484a4a3-2f3f-4cc9-aa97-c1bcd713ab54",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        8.275,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "af7d9bca-92fc-48a1-849a-42346d0555f6",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        7.625,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "536e7aa8-6055-4024-967f-ff0b5b83d923",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "3",
+      "net": "3V3_AON",
+      "xy_mm": [
+        6.975,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "15d96587-52bd-4077-8452-761b4c4af19f",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "8",
+      "net": "GND",
+      "xy_mm": [
+        3.725,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "f9ed0d01-5b50-44a0-9242-ff0a719ee33d",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "9",
+      "net": "GND",
+      "xy_mm": [
+        3.725,
+        58.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "9b4e3814-a58e-43e7-8247-d12a14f9f4d8",
+      "ref": "U203",
+      "value": "SN74AXC4T245PWR",
+      "pin": "16",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        8.275,
+        58.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "f4b878d4-f5ad-4f84-8948-52612c25aea5",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        3.2375,
+        81.75
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0dea3d5e-bdb4-488d-ab37-73bce1de7ae0",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "3",
+      "net": "3V3_AON",
+      "xy_mm": [
+        3.2375,
+        82.25
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "40a9c738-4334-4fcb-bc33-ed2411730058",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "5",
+      "net": "GND",
+      "xy_mm": [
+        3.75,
+        82.7625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d98d6c38-13b5-406f-a540-0fae4e7f3548",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "6",
+      "net": "GND",
+      "xy_mm": [
+        4.25,
+        82.7625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "3d22e468-1726-42d9-aa2b-d4790b895eb8",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "7",
+      "net": "GND",
+      "xy_mm": [
+        4.7625,
+        82.75
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "84ece9c4-25fb-400e-bb97-1aec35d967e6",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "8",
+      "net": "GND",
+      "xy_mm": [
+        4.7625,
+        82.25
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "8b0a1021-7e98-4b99-a18d-a34f4b4500c2",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "9",
+      "net": "3V3_AON",
+      "xy_mm": [
+        4.7625,
+        81.75
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "1c8c7ac3-61f9-4916-a167-fb30527c2241",
+      "ref": "U501",
+      "value": "LIS2DW12TR",
+      "pin": "10",
+      "net": "3V3_AON",
+      "xy_mm": [
+        4.7625,
+        81.25
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.375,
+        0.35
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "1b48af83-ce91-4934-8fe3-2415829c401d",
+      "ref": "R103",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.325,
+        20.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "722b22a8-35e5-4d9e-8637-9cd17d176c52",
+      "ref": "R216",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        28.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "486be9f9-ba72-4a3b-9b0c-8385470085d4",
+      "ref": "R203",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.325,
+        72.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "dba7a44e-4c68-4401-ab5d-bb89b91f18e6",
+      "ref": "R234",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        50.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "a499aaed-0c51-4825-a229-12cdab6ddf90",
+      "ref": "R211",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        26.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "a7fd7a0b-5f21-42c3-8093-bea9f9f9b995",
+      "ref": "R501",
+      "value": "10k 1%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        1.775,
+        86.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "b29893fe-fbea-4af5-b286-0cbe3a9394d8",
+      "ref": "C501",
+      "value": "100nF 16V X7R +/-10%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        5.72,
+        80.7
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "ac07d5a9-729d-4d76-b94d-45d24f15ba43",
+      "ref": "C501",
+      "value": "100nF 16V X7R +/-10%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.68,
+        80.7
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.56,
+        0.62
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "eb1eadc0-e43e-4fc3-b963-53860116da3c",
+      "ref": "C201",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.975,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "1b9a85aa-d31c-4bdf-9a94-1ca47bfba7ff",
+      "ref": "C201",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        12.525,
+        31.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "7cf53809-e54e-4938-9bae-7626601b8087",
+      "ref": "R236",
+      "value": "4.7k 1% RESET_CANDIDATE",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.325,
+        62.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "8960591d-b7e9-4696-acd7-a659f0969cd6",
+      "ref": "R242",
+      "value": "10k 1% INITIAL_100kHz",
+      "pin": "2",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        8.325,
+        76.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "70ec555a-20ec-4e3f-b579-78b0345d210e",
+      "ref": "C207",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        2.0,
+        65.775
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "f67c129a-75a6-4bc9-be41-cededa2a513c",
+      "ref": "C207",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.0,
+        64.225
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "a98831db-1f10-4aca-9ea1-283bf573201c",
+      "ref": "R240",
+      "value": "10k 1% INITIAL_100kHz",
+      "pin": "2",
+      "net": "3V3_AON",
+      "xy_mm": [
+        2.325,
+        76.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "7ec6ac12-2eb2-44fb-a3e2-34d89d2cd037",
+      "ref": "C205",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        9.575,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "db44d398-6b81-40e5-b6ae-988125d765f6",
+      "ref": "C205",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.125,
+        53.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "487b3770-9301-4b07-98dc-bc30aefcfc65",
+      "ref": "R232",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.425,
+        50.9
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "af55e217-b7a6-455b-92ae-3396a26b88c6",
+      "ref": "R107",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        10.8,
+        1.875
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d613538e-19df-4983-b79c-ee66edc704cd",
+      "ref": "R108",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.825,
+        24.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d6878c1d-38f7-45f5-935e-730938e86e51",
+      "ref": "J301",
+      "value": "APPROVED LOAD / TBD",
+      "pin": "1",
+      "net": "CAM_3V3_SW",
+      "xy_mm": [
+        5.8,
+        88.7
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.4,
+        1.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "0169945c-5f42-4b45-9a8c-0c8c01a13758",
+      "ref": "J301",
+      "value": "APPROVED LOAD / TBD",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.2,
+        88.7
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.4,
+        1.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "dfd2e9ba-11cf-4724-b003-2a086d05ba4f",
+      "ref": "C206",
+      "value": "100n X7R",
+      "pin": "1",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        9.575,
+        58.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "816956b6-2c38-4841-bc86-c388ac4d6818",
+      "ref": "C206",
+      "value": "100n X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.125,
+        58.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "4d0408b6-093f-4ecf-8fdd-ebf7f37eb94c",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        8.275,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "e3574e0b-6c42-40ee-9cc4-9b73ec01f598",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        7.625,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "40a95194-6ec8-4ade-bdf3-23e1bf3384b4",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        6.975,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "2101a5ad-58d8-49ed-bb11-ef39406f092c",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "8",
+      "net": "GND",
+      "xy_mm": [
+        3.725,
+        43.1375
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "b7de1941-5f15-483d-b991-253585e0cf6f",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "9",
+      "net": "GND",
+      "xy_mm": [
+        3.725,
+        48.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "b9d2386b-449a-4aca-ae7c-1d584cdbe301",
+      "ref": "U202",
+      "value": "SN74AXC4T245PWR",
+      "pin": "16",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        8.275,
+        48.8625
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.475,
+        0.4
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "dbfdaf87-11e5-46ef-b617-84718b927c57",
+      "ref": "R222",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.825,
+        56.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "bbcc4425-837f-40b3-986e-9a33ad0561b5",
+      "ref": "R221",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.825,
+        56.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8",
+      "ref": "R303",
+      "value": "100R 1%",
+      "pin": "1",
+      "net": "CAM_3V3_PRELINK",
+      "xy_mm": [
+        7.35,
+        70.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71",
+      "ref": "R303",
+      "value": "100R 1%",
+      "pin": "2",
+      "net": "CAM_QOD",
+      "xy_mm": [
+        5.65,
+        70.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "ef972847-ca39-428c-a43d-9fcafb042806",
+      "ref": "J105",
+      "value": "ADC_SAFE_FRONTEND_LINK_NOT_RAW_BATTERY",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        4.4,
+        77.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.4,
+        1.8
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "32d64e7d-7da2-428c-8772-2e20b834e21f",
+      "ref": "R105",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        4.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e3c7a7a0-1cec-49b1-bae6-e9084e6ed566",
+      "ref": "J104",
+      "value": "UART_SERVICE_CAMERA_OFF_ONLY",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        10.0,
+        56.6
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "82063c1f-3ac2-4bdc-9807-653ac3ed4529",
+      "ref": "C504",
+      "value": "1n C0G",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.025,
+        9.75
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "a5b66566-ae70-40ff-bbf9-1b204068e825",
+      "ref": "R226",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        44.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a",
+      "ref": "U301",
+      "value": "TPS22918DBVR",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.8,
+        66.05
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "c0043729-128e-444a-93d3-185a9a95fb81",
+      "ref": "U301",
+      "value": "TPS22918DBVR",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        10.8,
+        67.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "996816b8-acbe-43eb-8e56-ec699bfd7474",
+      "ref": "U301",
+      "value": "TPS22918DBVR",
+      "pin": "4",
+      "net": "CAM_CT",
+      "xy_mm": [
+        8.2,
+        67.95
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d",
+      "ref": "U301",
+      "value": "TPS22918DBVR",
+      "pin": "5",
+      "net": "CAM_QOD",
+      "xy_mm": [
+        8.2,
+        67.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a",
+      "ref": "U301",
+      "value": "TPS22918DBVR",
+      "pin": "6",
+      "net": "CAM_3V3_PRELINK",
+      "xy_mm": [
+        8.2,
+        66.05
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.1,
+        0.6
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "dcac8f86-9f62-4d3d-a53e-c662dc542a4e",
+      "ref": "R206",
+      "value": "10k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        9.825,
+        46.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "0966e0b5-0102-4730-bf6f-79ea254203ac",
+      "ref": "R223",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        6.825,
+        58.6
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "eea02b16-cb08-4949-a380-c534b21e91db",
+      "ref": "R218",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        41.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "14b3e942-50af-45c6-b5fb-546a96f3b459",
+      "ref": "R227",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        11.325,
+        44.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "a3568120-bd95-43ec-bad9-8b428c255fcd",
+      "ref": "R219",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.325,
+        41.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "abc1e9cc-0ade-4a87-b2be-67434e8c0cb1",
+      "ref": "J107",
+      "value": "CHARGER_MODE",
+      "pin": "3",
+      "net": "GND",
+      "xy_mm": [
+        2.0,
+        86.3
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "moved_ref": true
+    },
+    {
+      "uuid": "b9260c09-9483-4c00-b66e-4e828a15e6fc",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "1",
+      "net": "GND",
+      "xy_mm": [
+        12.75,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "1a756069-520a-4f00-8967-a9c27e8432c1",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "4",
+      "net": "GND",
+      "xy_mm": [
+        11.25,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "86cc6c38-7fee-4cf5-9457-f4d228f4580c",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "7",
+      "net": "GND",
+      "xy_mm": [
+        9.75,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "fe9cab77-ca91-4489-9840-acb2b6882a57",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "10",
+      "net": "GND",
+      "xy_mm": [
+        8.25,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e118e4e2-3e21-4d34-a496-a5c88058ef11",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "13",
+      "net": "GND",
+      "xy_mm": [
+        6.75,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "f47cc3b0-0e55-437c-8769-bf03c319fd78",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "17",
+      "net": "GND",
+      "xy_mm": [
+        4.75,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d7843f60-1f4c-4551-8a04-ae889fc26ce2",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "23",
+      "net": "SENS_VIO_1V8",
+      "xy_mm": [
+        1.75,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "1d6d9a02-43b1-4eda-b843-84f593088627",
+      "ref": "J202",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "pin": "24",
+      "net": "GND",
+      "xy_mm": [
+        1.25,
+        90.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.3,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "2eaea25f-1794-41c8-8e8e-cef072746982",
+      "ref": "C301",
+      "value": "10uF 10V X7R",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        10.95,
+        64.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        1.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267",
+      "ref": "C301",
+      "value": "10uF 10V X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        9.05,
+        64.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        1.0
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "b6347589-fac1-4d32-bb94-2e3a69a54499",
+      "ref": "R503",
+      "value": "100k 1%",
+      "pin": "1",
+      "net": "3V3_AON",
+      "xy_mm": [
+        1.675,
+        7.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "cca86623-4677-40db-840f-30ce92a01066",
+      "ref": "JP301",
+      "value": "OPEN / DO NOT BRIDGE",
+      "pin": "1",
+      "net": "CAM_3V3_PRELINK",
+      "xy_mm": [
+        10.75,
+        72.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        0.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "2db6cea0-a360-4ebb-89a1-b23ee694fe40",
+      "ref": "JP301",
+      "value": "OPEN / DO NOT BRIDGE",
+      "pin": "2",
+      "net": "CAM_3V3_SW",
+      "xy_mm": [
+        9.25,
+        72.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.0,
+        0.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "5f447c9a-7141-4f3b-a2c6-21b7f0b53975",
+      "ref": "R220",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.85,
+        45.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd",
+      "ref": "C303",
+      "value": "1nF 25V C0G",
+      "pin": "1",
+      "net": "CAM_CT",
+      "xy_mm": [
+        5.2,
+        68.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.7,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "e4def123-2362-448f-8c71-c11781060489",
+      "ref": "C303",
+      "value": "1nF 25V C0G",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.8,
+        68.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.7,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "7b1f3ef9-b1f4-44d3-a61b-9c91031cb69a",
+      "ref": "C302",
+      "value": "1uF 10V X7R",
+      "pin": "1",
+      "net": "CAM_3V3_PRELINK",
+      "xy_mm": [
+        10.2,
+        74.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.7,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03",
+      "ref": "C302",
+      "value": "1uF 10V X7R",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        8.8,
+        74.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.7,
+        0.7
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "a54f6a17-322d-423e-b018-73a7333a5699",
+      "ref": "R214",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        2.9,
+        33.725
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "f488a702-92e6-4ec0-aa41-830cb6b2ca02",
+      "ref": "J103",
+      "value": "DRY CONTACT PADS",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.4,
+        52.0
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        1.4,
+        1.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6",
+      "ref": "R301",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        4.85,
+        66.5
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.9,
+        0.8
+      ],
+      "moved_ref": false
+    },
+    {
+      "uuid": "992786ab-f2a5-42b6-8139-8391c6e36122",
+      "ref": "R225",
+      "value": "100k 1%",
+      "pin": "2",
+      "net": "GND",
+      "xy_mm": [
+        5.325,
+        43.3
+      ],
+      "side": "F.Cu",
+      "size_mm": [
+        0.8,
+        0.95
+      ],
+      "moved_ref": true
+    }
+  ],
+  "zones": [
+    {
+      "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "minimum_thickness_mm": 0.15,
+      "thermal_gap_mm": 0.5,
+      "thermal_spoke_mm": 0.5,
+      "old_fill_not_inherited": true
+    },
+    {
+      "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "minimum_thickness_mm": 0.15,
+      "thermal_gap_mm": 0.2,
+      "thermal_spoke_mm": 0.25,
+      "old_fill_not_inherited": true
+    },
+    {
+      "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layers": [
+        "In2.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "minimum_thickness_mm": 0.15,
+      "thermal_gap_mm": 0.5,
+      "thermal_spoke_mm": 0.5,
+      "old_fill_not_inherited": true
+    },
+    {
+      "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layers": [
+        "In4.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "minimum_thickness_mm": 0.15,
+      "thermal_gap_mm": 0.5,
+      "thermal_spoke_mm": 0.5,
+      "old_fill_not_inherited": true
+    },
+    {
+      "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layers": [
+        "In4.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "minimum_thickness_mm": 0.15,
+      "thermal_gap_mm": 0.2,
+      "thermal_spoke_mm": 0.25,
+      "old_fill_not_inherited": true
+    }
+  ],
+  "conflict_groups": {
+    "3V3_AON": {
+      "objects": [
+        {
+          "uuid": "2d5d1b01-889b-4a1c-9a7c-0843f96dc62c",
+          "net": "3V3_AON",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.1375,
+            30.425
+          ],
+          "end_mm": [
+            3.15,
+            30.4
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "11",
+              "other_net": "GND"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.1"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "3a0aa14e-2817-47ee-b39e-26a5eb44af03",
+          "net": "3V3_AON",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.15,
+            30.4
+          ],
+          "end_mm": [
+            3.15,
+            29.85
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "11",
+              "other_net": "GND"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.1"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "1111db72-2e88-48df-b6f7-05a660ebd60f",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            4.35,
+            85.6
+          ],
+          "end_mm": [
+            4.35,
+            85.6
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "e512aaf5-1e29-4314-bbb0-f9ba71e75448",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "1e49471c-280f-4161-a155-bda935c90e35",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            5.72,
+            82.8
+          ],
+          "end_mm": [
+            5.72,
+            82.8
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "73038eab-f01e-434b-9256-94eedef6c1df",
+              "other_net": "SENS_HREF"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "0027be90-3536-43cb-b13c-930de2d4c551",
+              "other_net": "SENS_VSYNC"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3092f20d-b0f5-4889-9135-eec77a53bb52",
+              "other_net": "SENS_VSYNC"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "89ed1bb9-1cb3-4a42-86b7-3fce8899e62e",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            3.15,
+            53.15
+          ],
+          "end_mm": [
+            3.15,
+            53.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "8",
+              "other_net": "GND"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "98113b0b-1858-4a1e-bfbd-3fcb4843de50",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            3.15,
+            43.15
+          ],
+          "end_mm": [
+            3.15,
+            43.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R225",
+              "pin": "1",
+              "other_net": "SENS_D1"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U202",
+              "pin": "8",
+              "other_net": "GND"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R225",
+              "pin": "1"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "beba70d2-a879-4093-b820-6b6e8aa01df5",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            2.3,
+            82.15
+          ],
+          "end_mm": [
+            2.3,
+            82.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "J107",
+              "pin": "1",
+              "other_net": "USB_EN1"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "J107",
+              "pin": "1"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "c78ec8bf-639a-42ef-89ef-0e82784764f0",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            9.45,
+            83.9
+          ],
+          "end_mm": [
+            9.45,
+            83.9
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "57e0a5ea-d8ec-46e4-a413-374e6a0d564f",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "cf6935a1-fb92-4e7a-a9dd-e201108986bd",
+              "other_net": "SENS_PCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ce25a727-3a18-48f3-ba18-b30d6da352e7",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            11.175,
+            61.0
+          ],
+          "end_mm": [
+            11.175,
+            61.0
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R235",
+              "pin": "2",
+              "other_net": "GND"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R235",
+              "pin": "2"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "fcdcbade-db8a-45da-87c1-499d5703ab3d",
+          "net": "3V3_AON",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            0.875,
+            86.5
+          ],
+          "end_mm": [
+            0.875,
+            86.5
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "J107",
+              "pin": "3",
+              "other_net": "GND"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "03300dea-2220-4060-b7f0-19703b327038",
+          "net": "3V3_AON",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            12.0,
+            60.175
+          ],
+          "end_mm": [
+            12.0,
+            58.4
+          ],
+          "width_mm": 0.5,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "8e12cc96-ecf3-4431-bcce-84770809098e",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+          "net": "3V3_AON",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            11.175,
+            61.0
+          ],
+          "end_mm": [
+            12.0,
+            60.175
+          ],
+          "width_mm": 0.5,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "8e12cc96-ecf3-4431-bcce-84770809098e",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        }
+      ],
+      "by_cause": {
+        "relocated_pad_clearance": 8,
+        "new_route_copper_clearance": 8,
+        "drill_relocated_pad_overlap_including_same_net": 3
+      }
+    },
+    "CAM_3V3_SW": {
+      "objects": [
+        {
+          "uuid": "ba7ea817-d4f6-4f90-af76-b1df49cd82c5",
+          "net": "CAM_3V3_SW",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            6.85,
+            87.6
+          ],
+          "end_mm": [
+            6.85,
+            87.6
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "cda99988-19b4-41f8-9abe-1dbc758fc9a6",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "180115c0-eeff-435f-8363-4fe03f431308",
+          "net": "CAM_3V3_SW",
+          "type": "track",
+          "layer": "In2.Cu",
+          "start_mm": [
+            6.85,
+            87.6
+          ],
+          "end_mm": [
+            6.85,
+            82.05
+          ],
+          "width_mm": 0.5,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "1758d86b-48e9-4889-8dd4-ebcaa00eaea9",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        }
+      ],
+      "by_cause": {
+        "new_route_copper_clearance": 2
+      }
+    },
+    "GND": {
+      "objects": [
+        {
+          "uuid": "001291bd-0b72-4109-9f3e-87912be0cf76",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            7.95,
+            59.7
+          ],
+          "end_mm": [
+            7.8,
+            59.7
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "15",
+              "other_net": "CAM_ISO_OE_N"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "16",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R223.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "00fd762e-f06a-4960-9f57-9a344f4c279c",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.324999,
+            40.0
+          ],
+          "end_mm": [
+            8.3,
+            40.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "b6a76fe6-7bc2-4216-8860-9dc7329bd3aa",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R226.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "02f0ccae-b5c5-4f05-b0f1-92503b2616f8",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.9,
+            52.6
+          ],
+          "end_mm": [
+            4.85,
+            52.65
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "7",
+              "other_net": "UNUSED_A_INPUT"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "05947a3d-a432-4765-b6d7-0874dbf628a1",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.85,
+            37.6
+          ],
+          "end_mm": [
+            8.85,
+            38.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "0facc6d6-4b0c-467a-a404-7984f467da84",
+              "other_net": "SENS_D0"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "23",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.13"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "065bc881-ac1f-47cf-8e4f-b903c39ca39f",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.9,
+            52.55
+          ],
+          "end_mm": [
+            4.9,
+            52.6
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "0a5cde23-0a29-44b4-970f-c8d80114295e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.5,
+            58.9
+          ],
+          "end_mm": [
+            4.55,
+            58.95
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "10",
+              "other_net": "unconnected-(U203-2B2-Pad10)"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "10f6f17d-de31-4ab9-a8e4-4327d8a80e5f",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.1,
+            50.0
+          ],
+          "end_mm": [
+            4.35,
+            50.75
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "7a79f6a2-1e48-4f89-82e9-43430cae0f6d",
+              "other_net": "SENS_HREF"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R219.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "16313bff-3469-4609-8c3a-09b8aa830828",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.7,
+            50.4
+          ],
+          "end_mm": [
+            9.1,
+            52.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R232",
+              "pin": "1",
+              "other_net": "SENS_PCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "18e16aa8-fe30-47e9-b5b9-80e54dcafc47",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.2,
+            52.6
+          ],
+          "end_mm": [
+            9.7,
+            52.6
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C205",
+              "pin": "1",
+              "other_net": "3V3_AON"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "1ba2af7a-91be-4dbe-8857-cf7b27eed604",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.6,
+            58.7
+          ],
+          "end_mm": [
+            9.85,
+            58.7
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "22538668-5222-4b82-9f7c-2b157ee4e102",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.85,
+            52.75
+          ],
+          "end_mm": [
+            4.8,
+            52.8
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "7",
+              "other_net": "UNUSED_A_INPUT"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "2267524b-63b4-4188-9e34-3e1f8b11d83e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.15,
+            36.9
+          ],
+          "end_mm": [
+            4.15,
+            36.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "ebc4aa3d-c2f9-469a-83d9-91d95d464b18",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "14",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "16",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.11"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "27b4370b-cd8d-4edb-8c3b-c2707ea3ea05",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.15,
+            58.9
+          ],
+          "end_mm": [
+            4.5,
+            58.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "10",
+              "other_net": "unconnected-(U203-2B2-Pad10)"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "2aeb95e7-7698-4b36-87ea-8b9aa7a86368",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.15,
+            59.9
+          ],
+          "end_mm": [
+            7.95,
+            59.7
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "15",
+              "other_net": "CAM_ISO_OE_N"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "16",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R223.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "2fe71c9d-e1c1-4ea5-ace0-9ffad1002911",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.8,
+            53.25
+          ],
+          "end_mm": [
+            5.45,
+            53.9
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "7",
+              "other_net": "UNUSED_A_INPUT"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "5",
+              "other_net": "CAM_RESET_UART_TX"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "311a6e7d-cdd4-4137-86f1-45f06504d813",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.5,
+            40.9
+          ],
+          "end_mm": [
+            5.05,
+            40.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R229",
+              "pin": "1",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "322d40c1-922d-431b-81ef-fc10786adad9",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.35,
+            40.75
+          ],
+          "end_mm": [
+            3.5,
+            40.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R229",
+              "pin": "1",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "32f7c540-f9f0-463d-a847-9a0f23882483",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.75,
+            37.2
+          ],
+          "end_mm": [
+            3.8,
+            37.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.11"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "341c0f58-281e-4afd-89b1-ad3dec395930",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.15,
+            37.6
+          ],
+          "end_mm": [
+            3.55,
+            37.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "ebc4aa3d-c2f9-469a-83d9-91d95d464b18",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "14",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.12"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "359affed-8b05-405d-818a-bdf029daf05e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.15,
+            58.6
+          ],
+          "end_mm": [
+            9.5,
+            58.6
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "4072d053-57ad-45ae-b401-6a800eb4240a",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.85,
+            52.65
+          ],
+          "end_mm": [
+            4.85,
+            52.75
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "7",
+              "other_net": "UNUSED_A_INPUT"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "40ebbdc0-977e-435e-ab7e-bb3301efeca5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.2,
+            86.3
+          ],
+          "end_mm": [
+            9.45,
+            86.3
+          ],
+          "width_mm": 0.5,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "c090c7bc-8666-45e6-aad9-8065a9e3a065",
+              "other_net": "SENS_D4"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "J107.3"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "44672772-fa1a-4ef2-b303-1b944eacff89",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.4,
+            59.2
+          ],
+          "end_mm": [
+            5.35,
+            59.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "45389e64-7d69-4042-864c-dcae3cf4c9c2",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.3,
+            62.0
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R222.2",
+            "R237.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "47025155-bfe9-4d45-af97-acc1ea91ca38",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            7.8,
+            59.7
+          ],
+          "end_mm": [
+            7.35,
+            59.25
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "14",
+              "other_net": "CAM_ISO_OE_N"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "15",
+              "other_net": "CAM_ISO_OE_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "48eb500a-5aa4-4497-a528-89d83ec9c2f5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            11.3,
+            40.0
+          ],
+          "end_mm": [
+            11.3,
+            41.05
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "b6a76fe6-7bc2-4216-8860-9dc7329bd3aa",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R227.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "4b21edb0-86cf-48a9-9d03-a051322d6a63",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.0,
+            40.75
+          ],
+          "end_mm": [
+            9.35,
+            40.75
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R231",
+              "pin": "1",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "4eb86a97-8387-4fb8-8fd1-76bb9a923814",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.35,
+            59.2
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "551e3966-ef07-4b59-b045-bbd374db9c70",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.35,
+            40.75
+          ],
+          "end_mm": [
+            9.5,
+            40.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R231",
+              "pin": "1",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "5aafe0ee-c540-4574-8ce8-c3e85a25853e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.55,
+            58.95
+          ],
+          "end_mm": [
+            5.1,
+            58.95
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "10",
+              "other_net": "unconnected-(U203-2B2-Pad10)"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "5b9cf225-b543-442b-8157-01681ae2b10e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            11.325,
+            40.0
+          ],
+          "end_mm": [
+            11.3,
+            40.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "b6a76fe6-7bc2-4216-8860-9dc7329bd3aa",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R227.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "6009bf40-09ca-4033-be28-a5f92a7c7478",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.15,
+            59.2
+          ],
+          "end_mm": [
+            5.25,
+            59.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "63c814f9-61f6-4362-a609-d15f69487b71",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.45,
+            59.25
+          ],
+          "end_mm": [
+            5.4,
+            59.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "6c47d418-5fc4-4688-bce7-3ec2840f17e6",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.1375,
+            37.575
+          ],
+          "end_mm": [
+            3.15,
+            37.6
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "ebc4aa3d-c2f9-469a-83d9-91d95d464b18",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "14",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.12"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "6d2bd97d-278f-40c1-8fe8-219012c05e85",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.05,
+            58.9
+          ],
+          "end_mm": [
+            10.2,
+            58.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "6f1bf677-67cc-4ea5-990c-3c8749bfb543",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.1,
+            59.25
+          ],
+          "end_mm": [
+            5.15,
+            59.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "7acc7e91-b4cd-4f03-bcb1-2cfa3efba51c",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.325,
+            50.0
+          ],
+          "end_mm": [
+            5.1,
+            50.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "7a79f6a2-1e48-4f89-82e9-43430cae0f6d",
+              "other_net": "SENS_HREF"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R219.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "7e7c39f8-8ead-49d5-8c85-a08f943b8079",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.5,
+            40.9
+          ],
+          "end_mm": [
+            10.9,
+            40.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R231",
+              "pin": "1",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "86e67923-3f8e-418b-ac37-bb291fec0ff9",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.0,
+            41.25
+          ],
+          "end_mm": [
+            11.1,
+            41.25
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R231",
+              "pin": "1",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "8b168c6d-9cfa-4949-986f-6365f44c9e21",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.25,
+            59.2
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "8cc47880-8666-4a19-b7cc-a2a57315dabd",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.1,
+            37.15
+          ],
+          "end_mm": [
+            4.25,
+            37.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "16",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "949a6cdf-0887-4b25-8990-4e6a4f611a99",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.85,
+            58.3
+          ],
+          "end_mm": [
+            9.15,
+            58.6
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U203.9"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "964bd069-58f0-4bff-984c-c897b52e694a",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.2,
+            58.9
+          ],
+          "end_mm": [
+            10.25,
+            58.95
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "97684a73-57ca-40ae-bbea-c4f3ce4968d5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.7,
+            52.6
+          ],
+          "end_mm": [
+            9.1,
+            52.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C205",
+              "pin": "1",
+              "other_net": "3V3_AON"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "988d50e4-cb1a-4b91-be2d-9874282fb9bd",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.3,
+            52.0
+          ],
+          "end_mm": [
+            5.3,
+            52.15
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R234.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "9deba264-9c05-4c2a-82d6-828030f71255",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.3,
+            52.15
+          ],
+          "end_mm": [
+            4.9,
+            52.55
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R234.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "a20a39d9-7655-4ee0-ad14-6f9f861268da",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.5,
+            58.6
+          ],
+          "end_mm": [
+            9.6,
+            58.7
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "a2738cf5-13d4-4e64-b220-a6f0cb3fc2e5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.85,
+            58.7
+          ],
+          "end_mm": [
+            10.05,
+            58.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C206",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "a812430a-de77-4f58-932a-2334307c33ce",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.0,
+            59.25
+          ],
+          "end_mm": [
+            5.1,
+            59.25
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "10",
+              "other_net": "unconnected-(U203-2B2-Pad10)"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "a9dc4126-c754-4b9b-b193-5e7fef0931d5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.8,
+            52.8
+          ],
+          "end_mm": [
+            4.8,
+            53.25
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "7",
+              "other_net": "UNUSED_A_INPUT"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "b23b76f4-991d-4c50-bb65-bd890a855ba2",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.0,
+            88.6
+          ],
+          "end_mm": [
+            9.0,
+            90.5
+          ],
+          "width_mm": 0.3,
+          "new_conflicts": [],
+          "original_violations": [
+            {
+              "type": "track_dangling",
+              "description": "Track has unconnected end"
+            }
+          ],
+          "old_pad_contacts": [
+            "J301.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "bba77647-d2d5-46fb-b6d2-d00bfa97c60e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.8625,
+            37.575
+          ],
+          "end_mm": [
+            8.85,
+            37.6
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "23",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.13"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "c32651fb-49b9-4f6b-8bad-66ad370f8f77",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.15,
+            36.9
+          ],
+          "end_mm": [
+            4.25,
+            37.0
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "16",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ccc656b2-8ec6-4e52-94e1-beb3ef30bda9",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.3,
+            60.0
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R222.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "d34cfe9a-ff9d-435a-899a-989aa73911b2",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.1,
+            58.95
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "d4a55dae-798e-4a5d-a921-d8ccb6704e8c",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.3,
+            40.0
+          ],
+          "end_mm": [
+            9.0,
+            40.7
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "b6a76fe6-7bc2-4216-8860-9dc7329bd3aa",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "R226.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "d87e2ca5-f42f-4fe3-8956-ef00d93ca599",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.95,
+            58.7
+          ],
+          "end_mm": [
+            4.15,
+            58.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "10",
+              "other_net": "unconnected-(U203-2B2-Pad10)"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "dccf00cd-faaf-4943-81a5-dce2a9e9b58b",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.1375,
+            36.925
+          ],
+          "end_mm": [
+            3.15,
+            36.9
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "ebc4aa3d-c2f9-469a-83d9-91d95d464b18",
+              "other_net": "SENS_D7"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "14",
+              "other_net": "SENS_D7"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.11"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "e8605410-4a4c-4377-88ea-12a9f39223c5",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.8,
+            37.15
+          ],
+          "end_mm": [
+            4.1,
+            37.15
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "16",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "U201.11"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "e95ec091-2805-4117-b87e-25db7835b752",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.6,
+            86.3
+          ],
+          "end_mm": [
+            9.45,
+            86.3
+          ],
+          "width_mm": 0.5,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "c090c7bc-8666-45e6-aad9-8065a9e3a065",
+              "other_net": "SENS_D4"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "J106.3"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ecb6feea-7bfe-4e03-81b2-132e22295f9e",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.55,
+            37.2
+          ],
+          "end_mm": [
+            3.75,
+            37.2
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3e9f347d-e483-42d5-8553-ad1c60c92e61",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ee8493e6-f79a-4470-9345-da4a79905574",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            7.35,
+            59.25
+          ],
+          "end_mm": [
+            5.45,
+            59.25
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "c788c144-98d8-43e1-9dad-1ac8272e9407",
+              "other_net": "SENS_EXTCLK"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "13",
+              "other_net": "SENS_EXTCLK"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "14",
+              "other_net": "CAM_ISO_OE_N"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "15",
+              "other_net": "CAM_ISO_OE_N"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "f3cd16a6-450b-42d8-a0a0-00c1a3d828f2",
+          "net": "GND",
+          "type": "track",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.0,
+            40.75
+          ],
+          "end_mm": [
+            3.35,
+            40.75
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R229",
+              "pin": "1",
+              "other_net": "SENS_D5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "04a7d6f4-dea6-47ab-a790-4ce0659e568a",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            6.55,
+            81.35
+          ],
+          "end_mm": [
+            6.55,
+            81.35
+          ],
+          "width_mm": 0.45,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "f38cecbb-19cd-4557-b7b4-d9060257eb6e",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "0e8bba22-3603-4aaa-ab85-2467311d470a",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            4.5,
+            89.35
+          ],
+          "end_mm": [
+            4.5,
+            89.35
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "e512aaf5-1e29-4314-bbb0-f9ba71e75448",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "3035689f-6aad-4b34-b59e-7eec50d3d025",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            11.25,
+            89.8
+          ],
+          "end_mm": [
+            11.25,
+            89.8
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "26ed5285-9099-4cda-af51-a4cf2d28f85d",
+              "other_net": "SENS_D2"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "a04b6093-6aad-4368-b161-422642207cef",
+              "other_net": "SENS_D1"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "3e5c1457-dfe2-4fd3-8145-4f946500f344",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            9.45,
+            86.3
+          ],
+          "end_mm": [
+            9.45,
+            86.3
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "c090c7bc-8666-45e6-aad9-8065a9e3a065",
+              "other_net": "SENS_D4"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "f00efe99-ee53-482d-bbb5-579e8d251cd6",
+              "other_net": "SENS_D4"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "1efc424a-9dab-47b8-af3b-5d0bb386290d",
+              "other_net": "SENS_D4"
+            },
+            {
+              "kind": "old_new_drill_clearance",
+              "other_uuid": "c090c7bc-8666-45e6-aad9-8065a9e3a065",
+              "edge_distance_mm": 0.1105551275463989
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "4c6ca07d-089a-4d18-8d01-1f4f6fae3f21",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            5.7,
+            83.6
+          ],
+          "end_mm": [
+            5.7,
+            83.6
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "73038eab-f01e-434b-9256-94eedef6c1df",
+              "other_net": "SENS_HREF"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "0027be90-3536-43cb-b13c-930de2d4c551",
+              "other_net": "SENS_VSYNC"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "C503.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "74386335-64de-486b-ba9b-43b43d275f38",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            2.3,
+            51.15
+          ],
+          "end_mm": [
+            2.3,
+            51.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R233",
+              "pin": "2"
+            }
+          ],
+          "original_violations": [
+            {
+              "type": "shorting_items",
+              "description": "Items shorting two nets (nets GND and CONTACT)"
+            },
+            {
+              "type": "hole_clearance",
+              "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0001 mm)"
+            },
+            {
+              "type": "solder_mask_bridge",
+              "description": "Rear solder mask aperture bridges items with different nets"
+            }
+          ],
+          "old_pad_contacts": [
+            "J103.1"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "98b07acc-bae6-4305-80bf-b093d27d1182",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            11.2,
+            59.15
+          ],
+          "end_mm": [
+            11.2,
+            59.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "C206",
+              "pin": "2"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "9cb0ae5b-c385-44c0-9659-ffd910443639",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            11.2,
+            41.15
+          ],
+          "end_mm": [
+            11.2,
+            41.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R231",
+              "pin": "2"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "9e86a642-85d4-4307-9a4b-6f67d87f8196",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            10.0,
+            89.5
+          ],
+          "end_mm": [
+            10.0,
+            89.5
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "14409526-4607-4cde-b461-2fa53ca40396",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "a7a044a6-c4c0-449c-be4a-06210c0e6294",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            5.3,
+            59.15
+          ],
+          "end_mm": [
+            5.3,
+            59.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R223",
+              "pin": "1",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "11",
+              "other_net": "SENS_TRIG_IN"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "12",
+              "other_net": "SENS_XSHUTDN_N"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R223",
+              "pin": "1"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "U203",
+              "pin": "11"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "aace202e-0532-4648-b034-7ddcb2183473",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            9.4,
+            82.4
+          ],
+          "end_mm": [
+            9.4,
+            82.4
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "412e6e14-428e-41f4-8d31-5fc385783d7d",
+              "other_net": "SENS_HREF"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "3092f20d-b0f5-4889-9135-eec77a53bb52",
+              "other_net": "SENS_VSYNC"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ae29cade-754d-4c20-8fb4-7400acf6a102",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            5.45,
+            53.9
+          ],
+          "end_mm": [
+            5.45,
+            53.9
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "5",
+              "other_net": "CAM_RESET_UART_TX"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U203",
+              "pin": "6",
+              "other_net": "CAM_PWDN_UART_RX"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "U203",
+              "pin": "5"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "c4c08d3e-93f3-47f7-8ef8-a5f54281daf8",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            4.25,
+            37.0
+          ],
+          "end_mm": [
+            4.25,
+            37.0
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "49de0416-3e44-4e7b-ad03-540fcbfc36f2",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "15",
+              "other_net": "SENS_D6"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U201",
+              "pin": "16",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "U201",
+              "pin": "16"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "c5c61779-b2a7-4a90-949d-25669d943424",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            8.85,
+            48.85
+          ],
+          "end_mm": [
+            8.85,
+            48.85
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "U202",
+              "pin": "16",
+              "other_net": "SENS_VIO_1V8"
+            },
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "C204",
+              "pin": "1",
+              "other_net": "SENS_VIO_1V8"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "cb05e1ad-aef9-435b-833e-72df54ca63ab",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            12.75,
+            89.8
+          ],
+          "end_mm": [
+            12.75,
+            89.8
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "fc6f4d47-f4ae-4925-a668-f24dcebf9433",
+              "other_net": "SENS_D0"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "8b79daa4-2fb7-4740-a7ae-b51f1a82390d",
+              "other_net": "SENS_D0"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "65cd290d-9f8a-42f8-8f97-fefba2185413",
+              "other_net": "SENS_D0"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "cfeddf0e-f42a-4c21-b9a1-596a6a938b11",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            5.3,
+            41.15
+          ],
+          "end_mm": [
+            5.3,
+            41.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R218",
+              "pin": "2"
+            },
+            {
+              "kind": "drill_relocated_pad_overlap_including_same_net",
+              "ref": "R229",
+              "pin": "2"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "d9629d4f-db62-494d-a991-625983fd6ae1",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            9.0,
+            88.6
+          ],
+          "end_mm": [
+            9.0,
+            88.6
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "99025ee2-ff83-4de2-8bd2-92c5df3d1d08",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "f00efe99-ee53-482d-bbb5-579e8d251cd6",
+              "other_net": "SENS_D4"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [
+            "J301.2"
+          ],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "dd071321-ba94-4ad3-80ba-412bd5256710",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            8.85,
+            38.15
+          ],
+          "end_mm": [
+            8.85,
+            38.15
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "11bf6c61-532c-41ec-a11b-8950aa74b644",
+              "other_net": "SENS_D4"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "0facc6d6-4b0c-467a-a404-7984f467da84",
+              "other_net": "SENS_D0"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "37190fd9-88c4-40a0-a5dc-2b77f47c08a8",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "021a85b8-5b04-4a4f-9b2b-b32f94fe41b9",
+              "other_net": "SENS_D1"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "ffd104c4-9a31-4092-8f50-a67a4254735c",
+          "net": "GND",
+          "type": "via",
+          "layer": "through",
+          "start_mm": [
+            9.3,
+            89.675
+          ],
+          "end_mm": [
+            9.3,
+            89.675
+          ],
+          "width_mm": 0.6,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "f00efe99-ee53-482d-bbb5-579e8d251cd6",
+              "other_net": "SENS_D4"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "3822f5ea-100c-43c1-80e9-7f99fe3b7590",
+          "net": "GND",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            9.75,
+            89.8
+          ],
+          "end_mm": [
+            10.0,
+            89.5
+          ],
+          "width_mm": 0.25,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "14409526-4607-4cde-b461-2fa53ca40396",
+              "other_net": "SENS_D3"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "6c983d69-19f0-4590-b405-b255c92a9df8",
+          "net": "GND",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            8.25,
+            89.9
+          ],
+          "end_mm": [
+            9.3,
+            89.675
+          ],
+          "width_mm": 0.25,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "99025ee2-ff83-4de2-8bd2-92c5df3d1d08",
+              "other_net": "SENS_D5"
+            },
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "f00efe99-ee53-482d-bbb5-579e8d251cd6",
+              "other_net": "SENS_D4"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "b4266c77-acad-4e05-ab48-4d24f956ba3d",
+          "net": "GND",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            3.2,
+            42.4
+          ],
+          "end_mm": [
+            4.575,
+            41.025
+          ],
+          "width_mm": 0.15,
+          "new_conflicts": [
+            {
+              "kind": "relocated_pad_clearance",
+              "ref": "R218",
+              "pin": "1",
+              "other_net": "CAM_PCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        },
+        {
+          "uuid": "bc109856-b741-4c09-8576-5339efa80346",
+          "net": "GND",
+          "type": "track",
+          "layer": "B.Cu",
+          "start_mm": [
+            4.75,
+            89.8
+          ],
+          "end_mm": [
+            4.5,
+            89.35
+          ],
+          "width_mm": 0.25,
+          "new_conflicts": [
+            {
+              "kind": "new_route_copper_clearance",
+              "other_uuid": "e512aaf5-1e29-4314-bbb0-f9ba71e75448",
+              "other_net": "SENS_EXTCLK"
+            }
+          ],
+          "original_violations": [],
+          "old_pad_contacts": [],
+          "geometry_candidate": false
+        }
+      ],
+      "by_cause": {
+        "relocated_pad_clearance": 90,
+        "new_route_copper_clearance": 50,
+        "old_new_drill_clearance": 1,
+        "drill_relocated_pad_overlap_including_same_net": 9
+      }
+    }
+  },
+  "bounded_candidates": [
+    {
+      "name": "AON_core_(11.9, 83.9)",
+      "scope": "Only J106.2 to new plane-entry via; no plane connectivity yet",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "57e0a5ea-d8ec-46e4-a413-374e6a0d564f",
+          "other_net": "SENS_D7",
+          "layers": [
+            "In3.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "cf6935a1-fb92-4e7a-a9dd-e201108986bd",
+          "other_net": "SENS_PCLK",
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.6,
+            83.9
+          ],
+          "end_mm": [
+            11.9,
+            83.9
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "layer": "through",
+          "start_mm": [
+            11.9,
+            83.9
+          ],
+          "end_mm": [
+            11.9,
+            83.9
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "name": "AON_core_(11.8, 84.6)",
+      "scope": "Only J106.2 to new plane-entry via; no plane connectivity yet",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "59f909f6-ef6e-409f-ba8e-2c64f856820c",
+          "other_net": "SENS_D6",
+          "layers": [
+            "In3.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.6,
+            83.9
+          ],
+          "end_mm": [
+            11.8,
+            84.6
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "layer": "through",
+          "start_mm": [
+            11.8,
+            84.6
+          ],
+          "end_mm": [
+            11.8,
+            84.6
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "name": "AON_core_(10.6, 82.6)",
+      "scope": "Only J106.2 to new plane-entry via; no plane connectivity yet",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 0,
+          "kind": "copper",
+          "other_uuid": "934345d0-4825-471b-8621-8701559ced27",
+          "other_net": "VBUS_5V",
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "412e6e14-428e-41f4-8d31-5fc385783d7d",
+          "other_net": "SENS_HREF",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "3092f20d-b0f5-4889-9135-eec77a53bb52",
+          "other_net": "SENS_VSYNC",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "934345d0-4825-471b-8621-8701559ced27",
+          "other_net": "VBUS_5V",
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "drill_pad_overlap",
+          "other_uuid": "934345d0-4825-471b-8621-8701559ced27"
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.6,
+            83.9
+          ],
+          "end_mm": [
+            10.6,
+            82.6
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "layer": "through",
+          "start_mm": [
+            10.6,
+            82.6
+          ],
+          "end_mm": [
+            10.6,
+            82.6
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "name": "AON_core_(11.8, 83.2)",
+      "scope": "Only J106.2 to new plane-entry via; no plane connectivity yet",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "3092f20d-b0f5-4889-9135-eec77a53bb52",
+          "other_net": "SENS_VSYNC",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "cf6935a1-fb92-4e7a-a9dd-e201108986bd",
+          "other_net": "SENS_PCLK",
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            10.6,
+            83.9
+          ],
+          "end_mm": [
+            11.8,
+            83.2
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "3V3_AON",
+          "layer": "through",
+          "start_mm": [
+            11.8,
+            83.2
+          ],
+          "end_mm": [
+            11.8,
+            83.2
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "name": "SW_lower_(5.8, 87.6)",
+      "scope": "Replacement J301.1 to old retained In2 junction; full JP301.2 path not instantiated",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "0027be90-3536-43cb-b13c-930de2d4c551",
+          "other_net": "SENS_VSYNC",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "c3b53ce1-92cf-4ecf-854e-49f4da9dd64f",
+          "other_net": "SENS_PCLK",
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.8,
+            88.7
+          ],
+          "end_mm": [
+            5.8,
+            87.6
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "CAM_3V3_SW",
+          "layer": "through",
+          "start_mm": [
+            5.8,
+            87.6
+          ],
+          "end_mm": [
+            5.8,
+            87.6
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "In2.Cu",
+          "start_mm": [
+            5.8,
+            87.6
+          ],
+          "end_mm": [
+            6.85,
+            82.05
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "SW_lower_(5.8, 86.8)",
+      "scope": "Replacement J301.1 to old retained In2 junction; full JP301.2 path not instantiated",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 0,
+          "kind": "copper",
+          "other_uuid": "780d5e34-78ab-48cc-b398-ba794be2e902",
+          "other_net": "AON_I2C_SDA",
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "0027be90-3536-43cb-b13c-930de2d4c551",
+          "other_net": "SENS_VSYNC",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "c3b53ce1-92cf-4ecf-854e-49f4da9dd64f",
+          "other_net": "SENS_PCLK",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "780d5e34-78ab-48cc-b398-ba794be2e902",
+          "other_net": "AON_I2C_SDA",
+          "layers": [
+            "F.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.8,
+            88.7
+          ],
+          "end_mm": [
+            5.8,
+            86.8
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "CAM_3V3_SW",
+          "layer": "through",
+          "start_mm": [
+            5.8,
+            86.8
+          ],
+          "end_mm": [
+            5.8,
+            86.8
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "In2.Cu",
+          "start_mm": [
+            5.8,
+            86.8
+          ],
+          "end_mm": [
+            6.85,
+            82.05
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "SW_lower_(6.1, 87.2)",
+      "scope": "Replacement J301.1 to old retained In2 junction; full JP301.2 path not instantiated",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 0,
+          "kind": "copper",
+          "other_uuid": "780d5e34-78ab-48cc-b398-ba794be2e902",
+          "other_net": "AON_I2C_SDA",
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "0027be90-3536-43cb-b13c-930de2d4c551",
+          "other_net": "SENS_VSYNC",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "c3b53ce1-92cf-4ecf-854e-49f4da9dd64f",
+          "other_net": "SENS_PCLK",
+          "layers": [
+            "B.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "780d5e34-78ab-48cc-b398-ba794be2e902",
+          "other_net": "AON_I2C_SDA",
+          "layers": [
+            "F.Cu"
+          ]
+        },
+        {
+          "candidate_index": 1,
+          "kind": "drill_pad_overlap",
+          "other_uuid": "780d5e34-78ab-48cc-b398-ba794be2e902"
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.8,
+            88.7
+          ],
+          "end_mm": [
+            6.1,
+            87.2
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "CAM_3V3_SW",
+          "layer": "through",
+          "start_mm": [
+            6.1,
+            87.2
+          ],
+          "end_mm": [
+            6.1,
+            87.2
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "In2.Cu",
+          "start_mm": [
+            6.1,
+            87.2
+          ],
+          "end_mm": [
+            6.85,
+            82.05
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "SW_lower_(5.0, 87.6)",
+      "scope": "Replacement J301.1 to old retained In2 junction; full JP301.2 path not instantiated",
+      "finite_geometry_clear": false,
+      "conflicts": [
+        {
+          "candidate_index": 1,
+          "kind": "copper",
+          "other_uuid": "73038eab-f01e-434b-9256-94eedef6c1df",
+          "other_net": "SENS_HREF",
+          "layers": [
+            "B.Cu"
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.8,
+            88.7
+          ],
+          "end_mm": [
+            5.0,
+            87.6
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "via",
+          "net": "CAM_3V3_SW",
+          "layer": "through",
+          "start_mm": [
+            5.0,
+            87.6
+          ],
+          "end_mm": [
+            5.0,
+            87.6
+          ],
+          "width_mm": 0.6,
+          "drill_mm": 0.3
+        },
+        {
+          "type": "track",
+          "net": "CAM_3V3_SW",
+          "layer": "In2.Cu",
+          "start_mm": [
+            5.0,
+            87.6
+          ],
+          "end_mm": [
+            6.85,
+            82.05
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "AON_bridge_In2_10.7",
+      "scope": "Replace obstructed B trunk by 0.5mm In2 path using existing endpoint vias; not proof of plane neck/current",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            11.2,
+            55.75
+          ],
+          "end_mm": [
+            10.7,
+            56.5
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            10.7,
+            56.5
+          ],
+          "end_mm": [
+            10.7,
+            64.0
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            10.7,
+            64.0
+          ],
+          "end_mm": [
+            11.3,
+            64.8
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "AON_bridge_In2_11.2",
+      "scope": "Replace obstructed B trunk by 0.5mm In2 path using existing endpoint vias; not proof of plane neck/current",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            11.2,
+            55.75
+          ],
+          "end_mm": [
+            11.2,
+            56.5
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            11.2,
+            56.5
+          ],
+          "end_mm": [
+            11.2,
+            64.0
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            11.2,
+            64.0
+          ],
+          "end_mm": [
+            11.3,
+            64.8
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "AON_bridge_In2_12.5",
+      "scope": "Replace obstructed B trunk by 0.5mm In2 path using existing endpoint vias; not proof of plane neck/current",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            11.2,
+            55.75
+          ],
+          "end_mm": [
+            12.5,
+            56.5
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            12.5,
+            56.5
+          ],
+          "end_mm": [
+            12.5,
+            64.0
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        },
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "In2.Cu",
+          "start_mm": [
+            12.5,
+            64.0
+          ],
+          "end_mm": [
+            11.3,
+            64.8
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "U201_decap",
+      "scope": "Local VCCA to capacitor only; no AON plane/ground return claim",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            9.575,
+            31.1375
+          ],
+          "end_mm": [
+            10.975,
+            31.1375
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "U202_decap",
+      "scope": "Local VCCA to capacitor only; no AON plane/ground return claim",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.275,
+            43.1375
+          ],
+          "end_mm": [
+            9.575,
+            43.1375
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    },
+    {
+      "name": "U203_decap",
+      "scope": "Local VCCA to capacitor only; no AON plane/ground return claim",
+      "finite_geometry_clear": true,
+      "conflicts": [],
+      "objects": [
+        {
+          "type": "track",
+          "net": "3V3_AON",
+          "layer": "F.Cu",
+          "start_mm": [
+            8.275,
+            53.1375
+          ],
+          "end_mm": [
+            9.575,
+            53.1375
+          ],
+          "width_mm": 0.5,
+          "drill_mm": null
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No native save, fill, full DRC or current/thermal qualification",
+    "Candidate checks only current 468 copper + all actual pads + prior safe AON/GND/SW fragments; fragments not added",
+    "Same-net via-pad overlap checked; no edge/rule-area/old-planes acceptance; no whole-net pass from local clear",
+    "No inferred short across JP301 OPEN; external VIO remains reference input"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "9.0.2",
+  "argv": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--all-track-errors",
+    "--schematic-parity",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "drc.json",
+    "native/mainboard_revD.kicad_pcb"
+  ],
+  "exit_code": 5,
+  "strict_counts": [
+    4,
+    232,
+    0
+  ],
+  "no_waived_findings": true
+}

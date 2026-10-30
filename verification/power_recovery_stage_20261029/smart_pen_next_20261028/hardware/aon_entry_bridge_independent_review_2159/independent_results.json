@@ -1,0 +1,102 @@
+{
+  "status": "TWO_BOUNDED_RESEARCH_STAGES_ONLY_NOFAB",
+  "old533exact": true,
+  "bridge_width_mm": 0.5,
+  "bridge_length_mm": 0.9,
+  "plane_geometries_identical": true,
+  "source_pads_unchanged": true,
+  "actual_core_states": [
+    {
+      "3V3_AON": {
+        "total": 39,
+        "core_pads": [
+          "J106.2"
+        ],
+        "zone_fragments": []
+      },
+      "GND": {
+        "total": 102,
+        "core_pads": [
+          "J106.3",
+          "J301.2"
+        ],
+        "zone_fragments": [
+          "150778f4-2a31-499a-942d-1665696e50ac/10/0",
+          "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7/4/0",
+          "f6fd4956-22d0-45be-a9b3-b3927367a8b7/4/0",
+          "fedaf716-0cd7-4d04-a732-236795bf7639/10/0"
+        ]
+      }
+    },
+    {
+      "3V3_AON": {
+        "total": 39,
+        "core_pads": [
+          "J106.2"
+        ],
+        "zone_fragments": [
+          "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6/6/0"
+        ]
+      },
+      "GND": {
+        "total": 102,
+        "core_pads": [
+          "J106.3",
+          "J301.2"
+        ],
+        "zone_fragments": [
+          "150778f4-2a31-499a-942d-1665696e50ac/10/0",
+          "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7/4/0",
+          "f6fd4956-22d0-45be-a9b3-b3927367a8b7/4/0",
+          "fedaf716-0cd7-4d04-a732-236795bf7639/10/0"
+        ]
+      }
+    }
+  ],
+  "bridge_removal_disconnects_plane": true,
+  "gnd_via_removal_disconnects_planes_preserving_local_chain": true,
+  "erosion_screen": [
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "outlines": 1,
+      "eroded_outlines": 11
+    },
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "outlines": 1,
+      "eroded_outlines": 1
+    },
+    {
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "outlines": 1,
+      "eroded_outlines": 7
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "outlines": 1,
+      "eroded_outlines": 11
+    },
+    {
+      "net": "GND",
+      "layer": "In4.Cu",
+      "outlines": 1,
+      "eroded_outlines": 1
+    }
+  ],
+  "refill_hashes_verified": [
+    "d64594c0ddfcddc7b8c3a40043fe56e144f25d4c59d2fa33e30a9595054c3de5",
+    "fd989bf844a8bc224f315dd3d2559d7a55ae1ba8f9384b0c06b6e301b6668454"
+  ],
+  "negative_recreates_exact_base": "d64594c0ddfcddc7b8c3a40043fe56e144f25d4c59d2fa33e30a9595054c3de5",
+  "negative_counts": [
+    2,
+    232,
+    0
+  ],
+  "negative_exit": 5,
+  "originals_unchanged": true
+}

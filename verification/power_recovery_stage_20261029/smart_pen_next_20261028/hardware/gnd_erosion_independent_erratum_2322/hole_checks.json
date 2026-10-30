@@ -1,0 +1,39 @@
+{
+  "real_via_holes": [
+    {
+      "variant": "aon_entry_bridge_candidate_2156",
+      "foreign_drill_tests": 200,
+      "max_overlap_mm2": 0,
+      "same_net_via_zone_projection_excluded": 5,
+      "same_net_note": "Physical own-net drill subtraction belongs to conductor model, not assumed from same-net zone fill."
+    },
+    {
+      "variant": "gnd_fixed_branch_candidate_2159",
+      "foreign_drill_tests": 218,
+      "max_overlap_mm2": 0,
+      "same_net_via_zone_projection_excluded": 77,
+      "same_net_note": "Physical own-net drill subtraction belongs to conductor model, not assumed from same-net zone fill."
+    },
+    {
+      "variant": "gnd_conservative_recovery_2305",
+      "foreign_drill_tests": 217,
+      "max_overlap_mm2": 0,
+      "same_net_via_zone_projection_excluded": 73,
+      "same_net_note": "Physical own-net drill subtraction belongs to conductor model, not assumed from same-net zone fill."
+    }
+  ],
+  "synthetic": {
+    "expected_area_mm2": 96,
+    "canonical_area_mm2": 96.0,
+    "fractured_area_mm2": 96.0,
+    "restored_area_mm2": 96.0,
+    "restored_holes": 1,
+    "xor_mm2": 0.0,
+    "hole_center_false": true,
+    "canonical_eroded_area_mm2": 84.054664055864,
+    "raw_fractured_eroded_area_mm2": 82.290998041898,
+    "restored_eroded_area_mm2": 84.054664055864,
+    "incorrect_second_unfracture_area_mm2": 100.0,
+    "incorrect_second_unfracture_holes": 0
+  }
+}
