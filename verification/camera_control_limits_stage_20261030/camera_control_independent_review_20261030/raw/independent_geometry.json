@@ -1,0 +1,35 @@
+{
+  "reference_geometry": [
+    {
+      "uuid": "f50aa801-170b-4339-91cd-374a0faa5f75",
+      "net": "CAM_ON",
+      "layer": "In1.Cu",
+      "new_loss": 0.001488810274,
+      "historical_loss": 0.0
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "net": "SENS_EXTCLK",
+      "layer": "In2.Cu",
+      "new_loss": 0.0,
+      "historical_loss": 0.0017414094705
+    },
+    {
+      "uuid": "eba5b185-27fd-57f9-b1a5-37b4fa4d4ec8",
+      "net": "SENS_EXTCLK",
+      "layer": "In4.Cu",
+      "new_loss": 0.0,
+      "historical_loss": 0.0017414094705
+    }
+  ],
+  "old_raw_copper_and_footprints_changed": [],
+  "added": 209,
+  "removed": 0,
+  "added_vias": 16,
+  "jumpers": {
+    "JP202": "DNP_SCCB_COMMISSION",
+    "JP201": "DNP_IO_COMMISSION",
+    "JP301": "OPEN / DO NOT BRIDGE"
+  },
+  "method": "Separate review implementation, actual filled polygons, guarded one-shot Unfracture, no exclusion masks or enlarged holes; raw balanced-block old geometry comparison."
+}

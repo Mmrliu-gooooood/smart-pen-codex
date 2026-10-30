@@ -1,0 +1,119 @@
+{
+  "utc": "2026-10-28T10:17:56.449414+00:00",
+  "release": "NONE APPROVED",
+  "candidates": [
+    {
+      "model": "Keeppower P1044C",
+      "kind": "protected button-top cell, not final installed pen pack",
+      "primary_source": "https://keeppower.com/product/keeppower-570mah-10440-protected-li-ion-rechargeable-battery-3-6v-p1044c/",
+      "body_max_screen_mm": {
+        "diameter": 10.8,
+        "length": 45.0
+      },
+      "envelope_includes": [
+        "manufacturer protection assembly"
+      ],
+      "envelope_excludes": [
+        "pen contacts",
+        "two external NTCs",
+        "insulation and retention",
+        "wiring"
+      ],
+      "continuous_A": 1,
+      "pulse": "not specified by manufacturer source",
+      "charge_standard_A": 0.114,
+      "charge_max_A": 0.39,
+      "charge_C": [
+        0,
+        45
+      ],
+      "NTC": "not provided",
+      "protection": "four functions claimed, thresholds/delays/recovery not public",
+      "certification": "model-specific reports not obtained",
+      "verdict": "fails sustained high-load scenarios; pulse and final pack qualification unresolved"
+    },
+    {
+      "model": "Jauch LI NCM14500J 1s1p",
+      "part_number": "245137",
+      "kind": "protected pack with two AWG28 wires",
+      "primary_source": "https://www.jauch.com/downloadfile/5c33794c57a460a44e91602fdb5dfbb33/850mah_-_li14500j_1s1p_2_wires_50mm.pdf",
+      "body_drawing_mm": {
+        "diameter_without_tolerance": 15,
+        "length_min": 52,
+        "length_max": 55,
+        "wire_length_min": 40,
+        "wire_length_max": 50
+      },
+      "catalogue_conflict_mm": [
+        16,
+        16,
+        53
+      ],
+      "complete_max_envelope": "not established; diameter tolerance, wire routing, two NTCs absent",
+      "continuous_A": 1.7,
+      "work_discharge_cutoff_V": 2.75,
+      "charge_standard_A": 0.17,
+      "charge_max_A": 0.85,
+      "charge_C": [
+        10,
+        45
+      ],
+      "NTC": "none in two-wire specified variant",
+      "OV_detect_V": [
+        4.225,
+        4.275
+      ],
+      "OV_release_V": [
+        4.0,
+        4.1
+      ],
+      "UV_detect_V": [
+        2.437,
+        2.563
+      ],
+      "UV_release_V": [
+        2.925,
+        3.075
+      ],
+      "OC_A": [
+        4,
+        7
+      ],
+      "missing_protection": [
+        "short-circuit detection/delay",
+        "exact UV recovery actions",
+        "load removal and zero-V recharge behavior"
+      ],
+      "certification_claims": {
+        "UL1642": true,
+        "UL2054": false,
+        "UN38.3": true,
+        "IEC62133_2017": true
+      },
+      "certification_reports": "not obtained; manufacturer YES is not batch report verification",
+      "verdict": "current rating supports modeled scenarios above2.75V; geometry and current thermal/charge policy not qualified"
+    },
+    {
+      "model": "Keeppower 1S1P10440 570mAh HRS DF57H-3S",
+      "primary_source": "https://www.keeppower.com/product/1s1p-protected-10440-li-ion-battery-pack-3-6v-570mah-wires-out/",
+      "kind": "manufacturer protected wired pack family; exact order suffix unresolved",
+      "body_max_screen_mm": null,
+      "continuous_A": 1,
+      "charge_max_A": 0.4,
+      "charge_C": [
+        0,
+        45
+      ],
+      "NTC": "unknown; 3 contacts do not prove NTC",
+      "missing": [
+        "unique order variant",
+        "complete dimensions",
+        "wire/connector pinout",
+        "NTC identification",
+        "PCM thresholds/delays/recovery",
+        "2-unit public price and MOQ"
+      ],
+      "verdict": "integration candidate only, same1A limitation; not a selected pack"
+    }
+  ]
+}

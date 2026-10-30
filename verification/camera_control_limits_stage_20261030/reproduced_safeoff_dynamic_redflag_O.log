@@ -1,0 +1,91 @@
+{
+  "status": "SOURCE_ONLY_RESEARCH_NO_RELEASE",
+  "source_values": {
+    "Q201": "PMV30UN2",
+    "R107": "100k 1%",
+    "R201": "1k 1%",
+    "R202": "100k 1%",
+    "R203": "10k 1%"
+  },
+  "GPIO42_reset_pullup_claim": "NOT_SUPPORTED: documented after-reset RST=1 IE only; MTCK special pull-up must not be generalized",
+  "hypothetical_pullup_divider": [
+    {
+      "supply_V": 3.0,
+      "assumed_internal_pullup_ohms": 45000,
+      "pad_V": 1.5826586576129538,
+      "gate_V": 1.5669887699138156
+    },
+    {
+      "supply_V": 3.3,
+      "assumed_internal_pullup_ohms": 45000,
+      "pad_V": 1.740924523374249,
+      "gate_V": 1.7236876469051972
+    },
+    {
+      "supply_V": 3.6,
+      "assumed_internal_pullup_ohms": 45000,
+      "pad_V": 1.8991903891355446,
+      "gate_V": 1.8803865238965787
+    }
+  ],
+  "pullup_value_is_typical_not_worst_case": true,
+  "RC_typical_screen_not_max_or_measurement": [
+    {
+      "supply_V": 3.0,
+      "assumed_C_F": 2.25e-11,
+      "R_ohms": 10000,
+      "time_0p8_to_2V_ns": 177.4029060819608,
+      "average_ns_per_V": 147.83575506830067,
+      "Rmax_ohms_at_10ns_per_V_with_this_typical_C_only": 676.4263486448161
+    },
+    {
+      "supply_V": 3.3,
+      "assumed_C_F": 2.25e-11,
+      "R_ohms": 10000,
+      "time_0p8_to_2V_ns": 147.13345516649943,
+      "average_ns_per_V": 122.61121263874952,
+      "Rmax_ohms_at_10ns_per_V_with_this_typical_C_only": 815.5860940273942
+    },
+    {
+      "supply_V": 3.6,
+      "assumed_C_F": 2.25e-11,
+      "R_ohms": 10000,
+      "time_0p8_to_2V_ns": 125.91355228547008,
+      "average_ns_per_V": 104.92796023789172,
+      "Rmax_ohms_at_10ns_per_V_with_this_typical_C_only": 953.0348228754367
+    }
+  ],
+  "OE_control_leakage_budget": {
+    "five_OE_max_uA_at_125C_valid_II_conditions": 5,
+    "five_OE_max_uA_at_85C_valid_II_conditions": 2.5,
+    "R203_max_ohms": 10100,
+    "total_sink_budget_uA_at_AON3V_OE2V": 99.00990099009901,
+    "remaining_budget_uA_after_five_controls_125C": 94.00990099009901,
+    "not_proven": [
+      "Q201 hot leakage",
+      "board contamination",
+      "II bounds in partial-power state",
+      "input current away from stated VI test endpoints"
+    ]
+  },
+  "Q201": {
+    "actual_value": "PMV30UN2",
+    "Vth_min_max_V_at_25C_250uA": [
+      0.4,
+      0.9
+    ],
+    "Rds_max_ohms_at_25C_Vgs1p5V_Id0p1A": 0.1,
+    "IDSS_max_A_at25C_Vds20V_Vgs0": 1e-06,
+    "IGSS_absmax_A_at25C_Vgs12V": 1e-07,
+    "Coss_typ_F_at10V_only": 7e-11,
+    "not_proven": [
+      "Vth off-current criterion",
+      "low-gate-drive hot Rds max",
+      "hot IDSS",
+      "actual3V Coss and route parasitics"
+    ]
+  },
+  "frozen_native_unmodified": true,
+  "all_jumpers_remain_OPEN": true,
+  "provider_still_NULL": true
+}

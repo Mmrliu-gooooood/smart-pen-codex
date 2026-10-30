@@ -1,0 +1,133 @@
+{
+  "status": "EXACT_EXPORTED_SOURCE_MATCH_NOT_HARDWARE_QUALIFICATION",
+  "source_sha256": "27dd22478e4c41676fca99503326fae568547e97911fa3625aaf301b6d4cf266",
+  "values": {
+    "R203": "10k 1%",
+    "R201": "1k 1%",
+    "R202": "100k 1%",
+    "R107": "100k 1%",
+    "R204": "100R 1%",
+    "R205": "4.7k 1%",
+    "Q201": "PMV30UN2",
+    "U201": "SN74AXC8T245PWR",
+    "U202": "SN74AXC4T245PWR",
+    "U203": "SN74AXC4T245PWR",
+    "U204": "TCA9517DGKR",
+    "JP201": "DNP_IO_COMMISSION"
+  },
+  "nets": {
+    "CAM_ISO_OE_N": [
+      {
+        "ref": "Q201",
+        "pin": "3",
+        "function": "D"
+      },
+      {
+        "ref": "R203",
+        "pin": "1",
+        "function": "1"
+      },
+      {
+        "ref": "U201",
+        "pin": "22",
+        "function": "OE_N"
+      },
+      {
+        "ref": "U202",
+        "pin": "14",
+        "function": "2OE_N"
+      },
+      {
+        "ref": "U202",
+        "pin": "15",
+        "function": "1OE_N"
+      },
+      {
+        "ref": "U203",
+        "pin": "14",
+        "function": "2OE_N"
+      },
+      {
+        "ref": "U203",
+        "pin": "15",
+        "function": "1OE_N"
+      }
+    ],
+    "CAM_IO_EN": [
+      {
+        "ref": "JP201",
+        "pin": "1",
+        "function": "1"
+      },
+      {
+        "ref": "R107",
+        "pin": "1",
+        "function": "1"
+      },
+      {
+        "ref": "U101",
+        "pin": "48",
+        "function": "GPIO42_MTMS"
+      }
+    ],
+    "IO_ENABLE_LINK": [
+      {
+        "ref": "JP201",
+        "pin": "2",
+        "function": "2"
+      },
+      {
+        "ref": "R201",
+        "pin": "1",
+        "function": "1"
+      }
+    ],
+    "ISO_GATE": [
+      {
+        "ref": "Q201",
+        "pin": "1",
+        "function": "G"
+      },
+      {
+        "ref": "R201",
+        "pin": "2",
+        "function": "2"
+      },
+      {
+        "ref": "R202",
+        "pin": "1",
+        "function": "1"
+      }
+    ],
+    "SCCB_EN_SAFE": [
+      {
+        "ref": "R204",
+        "pin": "2",
+        "function": "2"
+      },
+      {
+        "ref": "R205",
+        "pin": "1",
+        "function": "1"
+      },
+      {
+        "ref": "U204",
+        "pin": "5",
+        "function": "EN"
+      }
+    ]
+  },
+  "MCU_GPIO42_enable_path_requires_open_JP201_to_be_commissioned": true,
+  "OE_pins_active_low_referenced_to_AON": true,
+  "TCA_EN_active_high_referenced_to_AON_VCCB": true,
+  "conditional_screens": {
+    "TCA_30uA_R205_max_V": 0.14241,
+    "OE_sink_R203_max_A_at3V6": 0.00036363636363636367,
+    "Q201_gate_100nA_R202_max_V_at_datasheet_25C_only": 0.0101
+  },
+  "limits": [
+    "No source or component value edits",
+    "Manufacturer specifications do not establish real board leakage, temperature, GPIO reset or firmware correctness",
+    "Firmware provider remains NULL; no runtime enable performed"
+  ]
+}

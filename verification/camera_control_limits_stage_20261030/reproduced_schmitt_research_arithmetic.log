@@ -1,0 +1,30 @@
+{
+  "IBIS_5OE_Ccomp_envelope_pF_NOT_guaranteed_max": 10.68095,
+  "IBIS_5OE_package_plus_Ccomp_envelope_pF_NOT_guaranteed_max": 12.20589,
+  "IBIS_LVC_slow_ramp_ns_per_V_NOT_circuit_fall": 0.2770949720670391,
+  "IBIS_LVC_slow_ramp_ns_per_V_NOT_circuit_rise": 0.327027027027027,
+  "datasheet_5OE_Ci_typical_pF_NOT_maximum": 22.5,
+  "engineering_0p2V_input_remaining_after_II_uA": 14.801980198019802,
+  "engineering_0p2V_input_total_leak_budget_uA": 19.801980198019802,
+  "input_open_II5uA_Rmax_V": 0.0505,
+  "output_high_100uA_budget_remaining_after_5OE_uA": 95,
+  "output_low_R203_and_5OE_uA": 368.6363636363637,
+  "provisional_VOH_loaded_input_screen_NOT_GPIO_guarantee": [
+    {
+      "VDD": 3.0,
+      "assumed_MCU_VOH": 2.4000000000000004,
+      "gate_V": 2.1732360219981675
+    },
+    {
+      "VDD": 3.3,
+      "assumed_MCU_VOH": 2.64,
+      "gate_V": 2.391017873510541
+    },
+    {
+      "VDD": 3.6,
+      "assumed_MCU_VOH": 2.8800000000000003,
+      "gate_V": 2.6087997250229154
+    }
+  ],
+  "status": "PROPOSED_COMPONENTS_ARITHMETIC_ONLY_NO_NATIVE_CHANGE_NOFAB_NOPOWER"
+}

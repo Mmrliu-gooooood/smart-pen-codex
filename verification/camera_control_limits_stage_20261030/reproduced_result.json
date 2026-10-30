@@ -1,0 +1,85 @@
+{
+  "scope": "Static routing reproduction plus mandatory dynamic-red-flag and cell nonqualification; no release, no latest active Schmitt native",
+  "commands": [
+    {
+      "label": "fresh_full_tools",
+      "exit": 0
+    },
+    {
+      "label": "review_normal_optimized_native_cuts_replays",
+      "exit": 0
+    },
+    {
+      "label": "independent_geometry",
+      "exit": 0
+    },
+    {
+      "label": "independent_geometry_O",
+      "exit": 0
+    },
+    {
+      "label": "review_finalize",
+      "exit": 0
+    },
+    {
+      "label": "safeoff_dynamic_redflag",
+      "exit": 0
+    },
+    {
+      "label": "safeoff_dynamic_redflag_O",
+      "exit": 0
+    },
+    {
+      "label": "schmitt_research_arithmetic",
+      "exit": 0
+    },
+    {
+      "label": "schmitt_research_arithmetic_O",
+      "exit": 0
+    },
+    {
+      "label": "schmitt_research_space",
+      "exit": 0
+    },
+    {
+      "label": "schmitt_research_space_O",
+      "exit": 0
+    },
+    {
+      "label": "cell_fresh_netlist",
+      "exit": 0
+    },
+    {
+      "label": "cell_numeric_contract",
+      "exit": 0
+    },
+    {
+      "label": "cell_numeric_contract_O",
+      "exit": 0
+    }
+  ],
+  "adapters": [
+    {
+      "source": "independent_geometry.py",
+      "change": "absolute original root to complete isolated project root, no math change"
+    },
+    {
+      "source": "camera_control_independent_review_20261030/finalize.py",
+      "change": "only two __pycache__ entries excluded from original802 actual-files inventory; all799 manifest source files plus manifest still exact; explicit result keys disclose800 checked"
+    },
+    {
+      "source": "cell_charge_compatibility_audit_0635/check.py",
+      "change": "/tmp netlist becomes same isolated folder; vendor PDF hash enumeration omitted only, arithmetic/native comparisons unchanged",
+      "omitted_pdf_sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    }
+  ],
+  "resume_boundary": "Earlier fresh tool/cut/independent checks completed; only final provenance gate rerun excluding two declared generated .pyc; no numerical or native check removed",
+  "full_drc": [
+    0,
+    96,
+    0
+  ],
+  "erc_errors": 0,
+  "erc_inherited_warnings": 1,
+  "status": "NOFAB_NOPOWER_STATIC_ONLY_WITH_DYNAMIC_RED_FLAG"
+}

@@ -1,0 +1,250 @@
+{
+  "status": "PRELIMINARY_OFFICIAL_LAND_PATTERN_SCREEN_NOT_LAYOUT",
+  "source_pcb_sha256": "63d460c70405e1c1042f5e150a7fe5c5c5c32346fb37209a386cf03a1eacdd7c",
+  "TI_DCK0005A": {
+    "body_max_mm": [
+      1.4,
+      2.15
+    ],
+    "overall_lead_span_max_mm": 2.4,
+    "height_max_mm": 1.1,
+    "pitch_mm": 0.65,
+    "example_land_size_mm": [
+      0.95,
+      0.4
+    ],
+    "example_land_row_center_spacing_mm": 2.2
+  },
+  "generic_KiCad_SOT353_not_same_as_TI_example": {
+    "land_size_mm": [
+      0.65,
+      0.4
+    ],
+    "row_spacing_mm": 1.9
+  },
+  "two_same_center_orientations_only": [
+    {
+      "pose": {
+        "xy_mm": [
+          2.5,
+          69.0
+        ],
+        "angle_deg": 0
+      },
+      "pins": [
+        {
+          "pin": 1,
+          "net_proposed": "",
+          "xy_mm": [
+            1.4,
+            68.35
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "25d6ed42-2d9c-4f3b-81eb-bcbe1f0c0974",
+              "net": "ISO_GATE",
+              "overlap_guard_mm2": 0.01730354722
+            },
+            {
+              "object": "ceade1d2-e098-4e3c-88a4-8761e307d2e3",
+              "net": "ISO_GATE",
+              "overlap_guard_mm2": 0.016339514346
+            }
+          ]
+        },
+        {
+          "pin": 2,
+          "net_proposed": "ISO_GATE",
+          "xy_mm": [
+            1.4,
+            69.0
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "580a1f8d-21e2-4634-bd4e-90d8e0e7fa13",
+              "net": "GND",
+              "overlap_guard_mm2": 0.016339514346
+            },
+            {
+              "object": "bcaf1753-8f8d-40e3-8334-0b54250afff2",
+              "net": "GND",
+              "overlap_guard_mm2": 0.171249149504
+            }
+          ]
+        },
+        {
+          "pin": 3,
+          "net_proposed": "GND",
+          "xy_mm": [
+            1.4,
+            69.65
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": []
+        },
+        {
+          "pin": 4,
+          "net_proposed": "CAM_ISO_OE_N",
+          "xy_mm": [
+            3.6,
+            69.65
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": []
+        },
+        {
+          "pin": 5,
+          "net_proposed": "3V3_AON",
+          "xy_mm": [
+            3.6,
+            68.35
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": []
+        }
+      ],
+      "blocked_pin_count": 2
+    },
+    {
+      "pose": {
+        "xy_mm": [
+          2.5,
+          69.0
+        ],
+        "angle_deg": 180
+      },
+      "pins": [
+        {
+          "pin": 1,
+          "net_proposed": "",
+          "xy_mm": [
+            3.6,
+            69.65
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "fee32339-f981-525b-8b40-7d1eccea4f23",
+              "net": "CAM_ISO_OE_N",
+              "overlap_guard_mm2": 0.1007627
+            }
+          ]
+        },
+        {
+          "pin": 2,
+          "net_proposed": "ISO_GATE",
+          "xy_mm": [
+            3.6,
+            69.0
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "fee32339-f981-525b-8b40-7d1eccea4f23",
+              "net": "CAM_ISO_OE_N",
+              "overlap_guard_mm2": 0.083085699148
+            }
+          ]
+        },
+        {
+          "pin": 3,
+          "net_proposed": "GND",
+          "xy_mm": [
+            3.6,
+            68.35
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": []
+        },
+        {
+          "pin": 4,
+          "net_proposed": "CAM_ISO_OE_N",
+          "xy_mm": [
+            1.4,
+            68.35
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "25d6ed42-2d9c-4f3b-81eb-bcbe1f0c0974",
+              "net": "ISO_GATE",
+              "overlap_guard_mm2": 0.01730354722
+            },
+            {
+              "object": "ceade1d2-e098-4e3c-88a4-8761e307d2e3",
+              "net": "ISO_GATE",
+              "overlap_guard_mm2": 0.016339514346
+            }
+          ]
+        },
+        {
+          "pin": 5,
+          "net_proposed": "3V3_AON",
+          "xy_mm": [
+            1.4,
+            69.65
+          ],
+          "land_mm": [
+            0.95,
+            0.4
+          ],
+          "foreign_F_copper_clearance_conflicts": [
+            {
+              "object": "580a1f8d-21e2-4634-bd4e-90d8e0e7fa13",
+              "net": "GND",
+              "overlap_guard_mm2": 0.104401532874
+            },
+            {
+              "object": "bd4c6534-55ca-4f5c-85c0-d70111e3b924",
+              "net": "GND",
+              "overlap_guard_mm2": 0.01730354722
+            },
+            {
+              "object": "bcaf1753-8f8d-40e3-8334-0b54250afff2",
+              "net": "GND",
+              "overlap_guard_mm2": 0.14138693469
+            }
+          ]
+        }
+      ],
+      "blocked_pin_count": 4
+    }
+  ],
+  "limits": [
+    "Q201 removed hypothetically from this read-only clearance screen, old traces remain; no PCB saved",
+    "NC pin1 is a real solder pad, no arbitrary connection",
+    "This square expanded guard is conservative, not a rounded exact DRC calculation",
+    "Supply bypass C209 not placed; complete AON/GND access and all-layer checks not yet possible",
+    "If conflicts exist they show not drop-in, not global placement impossibility",
+    "Full source proof must precede any native revision"
+  ]
+}
