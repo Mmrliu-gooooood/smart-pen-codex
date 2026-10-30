@@ -1,0 +1,55 @@
+{
+  "scope": "portable host-only checks; not target libc execution or FPS",
+  "source_evidence_files_verified": 92,
+  "device_measured": false,
+  "target_sdk_rebuilt": false,
+  "frozen_files_unchanged": true,
+  "format_runtime_on_actual_target": "not run",
+  "geometry_extraction_from_included_review_manifest_byte_exact": true,
+  "legacy_oracle_recalculation_byte_exact": true,
+  "packed_rle_and_source_binding_byte_exact": true,
+  "functional_records": 12,
+  "author_geometry_checked": true,
+  "author_parser_tests_passed": 13,
+  "independent_parser_cases_passed": 34,
+  "independent_geometry_points": 108,
+  "actual_main_host_cases": [
+    {
+      "case": "enabled",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "disabled",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "allocation_failure",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "format_failure",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "sanitized",
+      "passed": true,
+      "artificial_clock": true,
+      "device_measured": false
+    },
+    {
+      "case": "nano_enabled_compile_rejected",
+      "passed": true,
+      "device_measured": false
+    }
+  ],
+  "mock_clock_warning": "Artificial increments 123 only check timer boundaries; no fake target serial capture is published.",
+  "sanitizer_scope": "Host ASAN+UBSAN only; LeakSanitizer disabled by original reviewed script."
+}

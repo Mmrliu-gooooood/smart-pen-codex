@@ -1,0 +1,12 @@
+{
+  "scope": "Compile/link only; no device execution or timing",
+  "pure_ram": true,
+  "radio_storage_gpio_providers_absent": true,
+  "nano_format": false,
+  "full_printf_vfprintf_and_dtoa_linked_in_iram": true,
+  "candidate_snapshot_match": true,
+  "frozen_legacy_match": true,
+  "flash_mapped_image_segments_absent": true,
+  "console_exception": "UART0 and secondary USB console pads are not inert",
+  "binary_sha256": "9845055ad9f77341dd2bb34949710f6302d8ccc8852123489c18cbe3353d9560"
+}

@@ -1,0 +1,13 @@
+Executing action: all (aliases: build)
+Running ninja in directory /workspace/scratch/fe148e758944/smart_pen_continuous_target_benchmark_20261029/build-repro
+Executing "ninja all"...
+ninja: no work to do.
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32s3 -b 460800 --before  --after  write_flash --flash_mode  --flash_size  --flash_freq  0x10000 build-repro/smartpen_continuous_bench.bin
+or from the "/workspace/scratch/fe148e758944/smart_pen_continuous_target_benchmark_20261029/build-repro" directory
+ python -m esptool --chip esp32s3 -b 460800 --before  --after  write_flash "@flash_args"
