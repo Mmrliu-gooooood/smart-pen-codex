@@ -1,0 +1,153 @@
+{
+  "source_count": 12,
+  "source": [
+    {
+      "ref": "C202",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric"
+    },
+    {
+      "ref": "C204",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric"
+    },
+    {
+      "ref": "C206",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric"
+    },
+    {
+      "ref": "C208",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive",
+      "value": "100n X7R",
+      "footprint": "C_0603_1608Metric"
+    },
+    {
+      "ref": "J202",
+      "pin": "23",
+      "pinfunction": "23",
+      "pintype": "passive",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "footprint": "Molex_5034802400_24P_P0.5_CANDIDATE"
+    },
+    {
+      "ref": "R242",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric"
+    },
+    {
+      "ref": "R243",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "R_0603_1608Metric"
+    },
+    {
+      "ref": "U201",
+      "pin": "23",
+      "pinfunction": "VCCB",
+      "pintype": "power_in",
+      "value": "SN74AXC8T245PWR",
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm"
+    },
+    {
+      "ref": "U201",
+      "pin": "24",
+      "pinfunction": "VCCB",
+      "pintype": "power_in",
+      "value": "SN74AXC8T245PWR",
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm"
+    },
+    {
+      "ref": "U202",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "U203",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "TSSOP-16_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "U204",
+      "pin": "1",
+      "pinfunction": "VCCA",
+      "pintype": "power_in",
+      "value": "TCA9517DGKR",
+      "footprint": "VSSOP-8_3x3mm_P0.65mm"
+    }
+  ],
+  "TP_pads": [],
+  "external_input_semantics": "J202.23 is passive connector pin in schematic, externally supplied head reference by design contract; no source power_out on this net",
+  "candidates": [
+    {
+      "topology": "ONE_joint_endaround_with_two_local_via_doglegs",
+      "conceptual_same_net_pad_components": [
+        [
+          "C202.1",
+          "C204.1",
+          "C206.1",
+          "C208.1",
+          "J202.23",
+          "R242.2",
+          "R243.2",
+          "U201.23",
+          "U201.24",
+          "U202.16",
+          "U203.16",
+          "U204.1"
+        ]
+      ],
+      "all12_theoretically_connected": true,
+      "planes": [
+        {
+          "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+          "layer": "In1.Cu",
+          "nominal_potential_loss_mm2": 4.453529518578,
+          "normalized_025_eroded_components": 1
+        },
+        {
+          "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+          "layer": "In1.Cu",
+          "nominal_potential_loss_mm2": 0.043611882528,
+          "normalized_025_eroded_components": 1
+        },
+        {
+          "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+          "layer": "In4.Cu",
+          "nominal_potential_loss_mm2": 4.453529518578,
+          "normalized_025_eroded_components": 1
+        },
+        {
+          "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+          "layer": "In4.Cu",
+          "nominal_potential_loss_mm2": 0.043611882528,
+          "normalized_025_eroded_components": 1
+        }
+      ],
+      "old_signal_projected_potential_losses": [],
+      "warning": "READ_ONLY_GEOMETRY_PASS; plane subtraction is nominal risk only, not native fresh-fill or return qualification."
+    }
+  ]
+}

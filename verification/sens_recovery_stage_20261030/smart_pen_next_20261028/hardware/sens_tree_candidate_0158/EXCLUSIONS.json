@@ -1,0 +1,11 @@
+{
+  "excluded": [
+    "**/__pycache__/**",
+    "**/*.kicad_prl",
+    "replay/native/** (duplicate exact replay)",
+    "native_negative/*/native/** (script-reproducible counterfactual source copies)",
+    "counterfactual_restore_parent/native/** (exact parent source copy)"
+  ],
+  "status": "NOFAB_NOPOWER_EXTERNAL_REFERENCE_TREE",
+  "note": "SENS physical tree is complete; electrical external-source/back-power unqualified."
+}

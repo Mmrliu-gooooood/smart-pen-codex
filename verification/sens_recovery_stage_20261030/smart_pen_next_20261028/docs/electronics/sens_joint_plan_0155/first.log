@@ -1,0 +1,76 @@
+{
+  "status": "REJECTED_COLLISIONS",
+  "objects": 29,
+  "blocked": [
+    {
+      "index": 20,
+      "object": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "start": [
+          4.6,
+          62.4125
+        ],
+        "end": [
+          4.6,
+          40.6
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      "conflicts": [
+        [
+          "copper",
+          "SENS_VIO_1V8",
+          "SENS_HREF",
+          "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+          "In3.Cu"
+        ]
+      ]
+    },
+    {
+      "index": 26,
+      "object": {
+        "type": "track",
+        "net": "SENS_VIO_1V8",
+        "layer": "In3.Cu",
+        "start": [
+          3.0,
+          74.5
+        ],
+        "end": [
+          10.45,
+          74.5
+        ],
+        "width": 0.25,
+        "drill": null
+      },
+      "conflicts": [
+        [
+          "copper",
+          "SENS_VIO_1V8",
+          "GND",
+          "02aff7a9-b873-45bb-881c-3d085f9e7448",
+          "In3.Cu"
+        ]
+      ]
+    }
+  ],
+  "components": [
+    [
+      "C202.1",
+      "C204.1",
+      "C206.1",
+      "C208.1",
+      "J202.23",
+      "R242.2",
+      "R243.2",
+      "U201.23",
+      "U201.24",
+      "U202.16",
+      "U203.16",
+      "U204.1"
+    ]
+  ]
+}

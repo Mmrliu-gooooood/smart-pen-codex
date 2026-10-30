@@ -1,0 +1,1 @@
+{"command":"kicad-cli pcb drc --format json --all-track-errors --schematic-parity --severity-all --exit-code-violations -o drc.json native/mainboard_revD.kicad_pcb","expected":[0,143,0],"exit":5,"rules":"same basename native project and dru; unmodified"}
