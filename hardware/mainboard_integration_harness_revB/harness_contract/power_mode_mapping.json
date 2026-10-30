@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "status": "NOFAB source-version mapping; present mainboard J107 pads routed, physical harness not qualified",
+  "mainboard": {
+    "reference": "J107",
+    "files": [
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/mainboard_revD.kicad_pcb",
+        "sha256": "016d963f764430b6122da29039a5573792e3f0c78078180b18582af69b044c7e"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/mainboard_revD.kicad_sch",
+        "sha256": "c2687211f6085fb0a4ca409a26983ed62a124c91ae4243455eccdd9a72bf6854"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/mainboard_revD.xml",
+        "sha256": "d6655d951bf6680e2090251f799a0a16c6814958a059362b361bc6dae19265c3"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/controls_sccb.kicad_sch",
+        "sha256": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/dvp_translation.kicad_sch",
+        "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/mainboard_revD.kicad_sch",
+        "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/mcu_core.kicad_sch",
+        "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/recovery_fixture.kicad_sch",
+        "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/safe_bias_interfaces.kicad_sch",
+        "sha256": "8e81ead539f9f955469f164683b919ad6c5ccced9054300aaa5571fd8df8a65f"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/usb_entry.kicad_sch",
+        "sha256": "74149400f785d6057b87d1927de44581629ab1b6be09a8b0a81de32eaef53986"
+      },
+      {
+        "path": "hardware/rf_width14_selected_board_candidate/schematic/usb_main_port.kicad_sch",
+        "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653"
+      }
+    ],
+    "xml": "hardware/rf_width14_selected_board_candidate/mainboard_revD.xml",
+    "pins": {
+      "3": "GND",
+      "1": "USB_EN1",
+      "2": "USB_EN2"
+    }
+  },
+  "target": {
+    "reference": "J5",
+    "files": [
+      {
+        "path": "hardware/power14_single_feed_revB/power_integrated_study.kicad_pcb",
+        "sha256": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc"
+      },
+      {
+        "path": "hardware/power14_single_feed_revB/power_integrated_study.kicad_sch",
+        "sha256": "1e33f1d9abb23fb61ff87ee79845f510516047652f6aa1e0a92585676b1ea226"
+      },
+      {
+        "path": "hardware/power14_single_feed_revB/power_integrated_study.xml",
+        "sha256": "f4675f4470bac5159a4ee5f2a6e337dfdb577b8103ab3ad61db9a491a52fa2d2"
+      },
+      {
+        "path": "hardware/power14_single_feed_revB/core.kicad_sch",
+        "sha256": "03930125f3e31dc172715e67595943a4731c8bf39c1b3f30fc2cac1a2801e3ff"
+      },
+      {
+        "path": "hardware/power14_single_feed_revB/thermal.kicad_sch",
+        "sha256": "cc023dec1d6207eaff9041520866470625a52a3ba1a60919c529ea774443763d"
+      }
+    ],
+    "xml": "hardware/power14_single_feed_revB/power_integrated_study.xml",
+    "pins": {
+      "1": "/core/USB_EN1",
+      "2": "/core/USB_EN2",
+      "3": "GND"
+    }
+  },
+  "explicitly_incompatible_legacy": {
+    "reference": "J5",
+    "files": [
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.kicad_pcb",
+        "sha256": "7a7013b4371401595b2ffcc8569bbe2b2bf0ce828f567d530ec3ab6a0b755b1f"
+      },
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.kicad_sch",
+        "sha256": "356916b1e9921ecfbf6b54ba78e5ca577d62d543f8115103628848c00510ee18"
+      },
+      {
+        "path": "hardware/power_core_layout_candidate/power_core_NOFAB.xml",
+        "sha256": "3f7dbf1eea64ac1ab00d6d4435c16374343ddacba7073cb52f8a021912504117"
+      }
+    ],
+    "xml": "hardware/power_core_layout_candidate/power_core_NOFAB.xml",
+    "pins": {
+      "3": "/CE_PERMISSION_EXTERNAL",
+      "4": "/GND",
+      "1": "/USB_EN1",
+      "2": "/USB_EN2"
+    }
+  },
+  "wires": [
+    {
+      "signal": "USB_EN1",
+      "source": {
+        "ref": "J107",
+        "pin": "1",
+        "net": "USB_EN1"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "1",
+        "net": "/core/USB_EN1"
+      }
+    },
+    {
+      "signal": "USB_EN2",
+      "source": {
+        "ref": "J107",
+        "pin": "2",
+        "net": "USB_EN2"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "2",
+        "net": "/core/USB_EN2"
+      }
+    },
+    {
+      "signal": "GND",
+      "source": {
+        "ref": "J107",
+        "pin": "3",
+        "net": "GND"
+      },
+      "target": {
+        "ref": "J5",
+        "pin": "3",
+        "net": "GND"
+      }
+    }
+  ],
+  "historical_original_14x45": {
+    "reference": "J5",
+    "files": [
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.kicad_pcb",
+        "sha256": "5c5764e7576c9461464c12da3531410e63ef4db32a28a67a5fa6125ef0b92014"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.kicad_sch",
+        "sha256": "1e33f1d9abb23fb61ff87ee79845f510516047652f6aa1e0a92585676b1ea226"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/power_integrated_study.xml",
+        "sha256": "9fc2f0b4f5cefafc1d055c0f4f6b9a7566a99f6ed172386e2b6feddfbf89a3aa"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/core.kicad_sch",
+        "sha256": "03930125f3e31dc172715e67595943a4731c8bf39c1b3f30fc2cac1a2801e3ff"
+      },
+      {
+        "path": "hardware/power_integrated_layout_14x45/thermal.kicad_sch",
+        "sha256": "cc023dec1d6207eaff9041520866470625a52a3ba1a60919c529ea774443763d"
+      }
+    ],
+    "xml": "hardware/power_integrated_layout_14x45/power_integrated_study.xml",
+    "pins": {
+      "1": "/core/USB_EN1",
+      "2": "/core/USB_EN2",
+      "3": "GND"
+    }
+  },
+  "requirements": [
+    "No external CE pin exists on this integrated target",
+    "No charge permission is conveyed by this 3-wire interface",
+    "Present mainboard EN1/EN2 copper checked separately; physical harness, strain relief, defaults/brownout still require qualification",
+    "No battery, camera or commissioning bridge is authorized by contract success"
+  ]
+}
