@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "observed_at_utc": "2026-10-29T00:15:33Z",
+  "kind": "new_r5_erratum_independent_source_and_configuration_check",
+  "disposition": "historical_only_not_recommended_runnable_target_benchmark",
+  "original_frozen_files_unchanged": true,
+  "target_hardware_run": false,
+  "actual_target_output_observed": false,
+  "evidence": [
+    {
+      "source_path": "smart_pen_decoder_target_benchmark_20261028/sdkconfig.defaults",
+      "sha256": "571564357739e716052419273e07f9c7ef8c3bbc34e3d598cbf3292450d85220",
+      "line_numbers": [
+        8
+      ],
+      "relevant_tokens": [
+        "CONFIG_NEWLIB_NANO_FORMAT=y"
+      ],
+      "full_file_archived": true
+    },
+    {
+      "source_path": "smart_pen_decoder_target_benchmark_20261028/build-enabled.config",
+      "sha256": "88938933d8f1836038edff248d63d881455341da45105ed54b4c96a93392cb8d",
+      "line_numbers": [
+        483,
+        1106
+      ],
+      "relevant_tokens": [
+        "CONFIG_ESP_ROM_HAS_NEWLIB_NANO_FORMAT=y",
+        "CONFIG_NEWLIB_NANO_FORMAT=y"
+      ],
+      "full_file_archived": false
+    },
+    {
+      "source_path": "smart_pen_decoder_target_benchmark_20261028/main/bench_main.c",
+      "sha256": "e66c8f99fc9ff99877bfa0a24787e348bdf083af839349e52ff4ef48d5092171",
+      "line_numbers": [
+        41,
+        43,
+        45
+      ],
+      "relevant_tokens": [
+        "int64_t start=esp_timer_get_time();",
+        "int64_t elapsed=esp_timer_get_time()-start;",
+        "PRId64"
+      ],
+      "full_file_archived": true
+    },
+    {
+      "source_path": "smart_pen_sdk_20261028/esp-idf/components/newlib/Kconfig",
+      "sha256": "3d5027557626c974d9a875e8e6ea76c8e324afa7055e7151cc13677dda7f1ce3",
+      "git_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+      "line_ranges": [
+        [
+          51,
+          58
+        ],
+        [
+          74,
+          75
+        ]
+      ],
+      "short_quote": "This option doesn't support 64-bit integer formats",
+      "full_file_archived": false
+    }
+  ],
+  "official_documentation_url": "https://docs.espressif.com/projects/esp-idf/en/v5.4/esp32s3/api-reference/kconfig.html#config-newlib-nano-format",
+  "official_documentation_checked_read_only": true,
+  "interpretation": "Nano 64-bit printf incompatibility means old compilation and host parser tests do not establish valid target serial JSON. No particular on-device symptom is claimed.",
+  "follow_on_revision_not_included": "A separately frozen, independently reviewed revision must disable nano and validate final printf linkage/format probes; that is not part of r5."
+}

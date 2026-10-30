@@ -1,0 +1,21 @@
+{
+  "scope": "compile/link/static only; not physical safety proof",
+  "required_configs": [
+    "CONFIG_APP_BUILD_TYPE_RAM=y",
+    "CONFIG_APP_BUILD_TYPE_PURE_RAM_APP=y",
+    "CONFIG_PEN_DECODER_BENCH_RUN=y"
+  ],
+  "radio_storage_board_mutators_absent": true,
+  "flash_mapped_segments_absent": true,
+  "console": "SDK UART0 115200 and secondary USB serial/JTAG; these console pads are not inert",
+  "hashes": {
+    "vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e",
+    "codec/LICENSE.microdots": "570a43e241b86a5bd721bfdf427d15375beae36a9b5d8bd5e15ee7b554e2d959",
+    "codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d",
+    "codec/sequences.h": "87d00e2204b107c4a7fd337a87a03ad60854d59812e489f7a60c121c52cb9997",
+    "build-enabled/smartpen_decoder_bench.bin": "8c56bdbe92b3f55906b2de6f9d6d735ef5b6781b974a2f2d208de1e13775a617"
+  }
+}

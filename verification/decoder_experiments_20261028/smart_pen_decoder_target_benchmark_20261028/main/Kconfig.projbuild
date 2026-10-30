@@ -1,0 +1,14 @@
+menu "Standalone decoder benchmark (no board providers)"
+    config PEN_DECODER_BENCH_RUN
+        bool "Run synthetic pixel benchmark at startup (explicit opt-in)"
+        default n
+    config PEN_DECODER_BENCH_PSRAM
+        bool "Also allocate benchmark pixels and workspace in initialized PSRAM"
+        depends on PEN_DECODER_BENCH_RUN && SPIRAM && !APP_BUILD_TYPE_PURE_RAM_APP
+        default n
+    config PEN_DECODER_BENCH_REPEATS
+        int "Cold/warm pairs per fixture"
+        depends on PEN_DECODER_BENCH_RUN
+        range 1 10
+        default 3
+endmenu

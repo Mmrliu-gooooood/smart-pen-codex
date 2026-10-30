@@ -1,0 +1,342 @@
+{
+  "adapter": "portable_replay.py new r5 adapter",
+  "scope": "host fixed-image functional regression only",
+  "device_measured": false,
+  "synthetic_only": true,
+  "physical_safety_claim": false,
+  "cold_prior": "NULL",
+  "input_oracle_injected": false,
+  "frozen_source_manifest_sha256": "dc8303fef58385b15ca652618bd52082f3078dc887c52fee1397f1dd4f3a4c62",
+  "regression_manifest_sha256": "191f83e9a3b62d31ec9e2efd34ed640c3e5c7caed1d59ecd02b7a199480f5571",
+  "frozen_source_files_verified": 31,
+  "workspace_bytes_host_abi": 21888,
+  "count": 44,
+  "passed": 44,
+  "accepted": 12,
+  "records": [
+    {
+      "fixture": "fov5_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi96_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi80_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi64_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi96_phase4.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        129,
+        245
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "fov5_roi200_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi96_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi80_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov5_roi64_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi96_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi80_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi64_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi80_phase2.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        129,
+        247
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "fov6_roi64_phase6.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        128,
+        249
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "fov6_roi200_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi96_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi80_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov6_roi64_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi96_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi80_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi64_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi200_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi96_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi80_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi64_phase17.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "fov7_roi96_phase22.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        131,
+        250
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "fov7_roi80_phase26.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        130,
+        252
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov5_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov5_roi96_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        125,
+        245
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov5_roi80_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        126,
+        246
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov5_roi64_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov6_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov6_roi96_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        126,
+        247
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov6_roi80_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        127,
+        247
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov6_roi64_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov7_roi200_phase0.pgm",
+      "status": -2,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov7_roi96_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        128,
+        248
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov7_roi80_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        129,
+        249
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "edge_filtered_fov7_roi64_phase0.pgm",
+      "status": 0,
+      "passed": true,
+      "coordinate": [
+        130,
+        250
+      ],
+      "encoded_symbols_match": true,
+      "viewport_match": true
+    },
+    {
+      "fixture": "fov7_roi96_phase26.pgm",
+      "status": -3,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov7_roi96_phase5.pgm",
+      "status": -3,
+      "passed": true,
+      "failure_output_preserved": true
+    },
+    {
+      "fixture": "edge_filtered_fov5_roi80_phase1.pgm",
+      "status": -3,
+      "passed": true,
+      "failure_output_preserved": true
+    }
+  ]
+}
