@@ -1,0 +1,24 @@
+{
+  "kicad_version": "9.0.2",
+  "command": [
+    "kicad-cli",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--all-track-errors",
+    "--schematic-parity",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "drc.json",
+    "native/mainboard_revD.kicad_pcb"
+  ],
+  "expected_exit": 5,
+  "counts": [
+    0,
+    181,
+    0
+  ],
+  "status": "NOFAB_RESEARCH_ONLY"
+}

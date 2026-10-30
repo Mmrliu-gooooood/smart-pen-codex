@@ -1,0 +1,629 @@
+{
+  "current_board_objects": 630,
+  "current_physical_pads": 366,
+  "current_sha": "ead39fa832de2aabff4fbec9ce67d12199094ac9d77e700de54920d8fec86959",
+  "status": "WHOLE_OLD_AON_COMPONENT_SCREEN_ONLY",
+  "old_AON_objects": 188,
+  "components": [
+    {
+      "id": 0,
+      "objects": [
+        "11d26ef2-133b-41cb-8242-f0750c446f96",
+        "4b070c1d-13f5-48c3-a7dc-442af935bad8",
+        "6938faac-6324-49cf-90da-fc988559d16b",
+        "e79229ab-87d9-4cf5-8cc7-202c39dbcba8"
+      ],
+      "pads": [
+        "C104.1",
+        "U101.20"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 1,
+      "objects": [
+        "1111db72-2e88-48df-b6f7-05a660ebd60f",
+        "2de12ba8-460f-422d-8f43-18fcbf70d1a9",
+        "2f5393ea-f449-4db7-9dc2-f95ba61f6ca1",
+        "75c11cac-4199-45d1-bc45-6525010f7c7d"
+      ],
+      "pads": [
+        "C503.1",
+        "R502.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "1111db72-2e88-48df-b6f7-05a660ebd60f": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "2010858e-8edf-52c4-a3a5-f423a79bbfc8",
+            "net": "SENS_EXTCLK"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "objects": [
+        "363578d3-43ac-4996-bd01-151b0f79c11b",
+        "63e0db7c-7a27-4845-a7bd-07e5430031cd",
+        "697a499f-f2d6-4f30-b757-b944985fae2e",
+        "7eb253c8-143f-4a3e-b9ec-a255854f007f",
+        "7fc4e3cc-6205-4473-9f60-9bc963b9b70e",
+        "89d47477-5810-4654-b6db-74696a8f8278",
+        "a54a9d97-b946-443d-8e8c-5621caf582c3",
+        "aa86edbd-75df-40ec-9633-e0daffac1354",
+        "e0af5bf7-03c6-49c0-8773-a3474807d0fa",
+        "ebcee705-3ac8-418c-a9d2-64a9363e34fb"
+      ],
+      "pads": [
+        "R240.2",
+        "R241.2"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 3,
+      "objects": [
+        "c78ec8bf-639a-42ef-89ef-0e82784764f0",
+        "ffb92cb8-473d-4ad1-a09f-02139edb9e6d"
+      ],
+      "pads": [
+        "J106.2"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "c78ec8bf-639a-42ef-89ef-0e82784764f0": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "59e2ad67-7080-56e1-963f-68d6ef12d5e7",
+            "net": "SENS_D4"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "objects": [
+        "64702c6e-88df-4366-9c89-a756d64a5f9a",
+        "86b0b45e-58b2-466a-bd6f-d7b6576fdc4b",
+        "c6684d98-0561-4ab4-9e42-368b5f0b4cfb",
+        "de5addff-820d-4c7d-9f7a-9660f8bdb794",
+        "e0fce60f-0a06-4d94-9740-14a8efd758dc"
+      ],
+      "pads": [
+        "C103.1",
+        "R503.1",
+        "U101.2",
+        "U101.3"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "de5addff-820d-4c7d-9f7a-9660f8bdb794": [
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "ad279fd5-b0a1-4f0c-a61e-a441f891d81f"
+          },
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "b6347589-fac1-4d32-bb94-2e3a69a54499"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "objects": [
+        "12286112-a957-482f-bf16-e02c058416f8",
+        "4dfea7fc-2632-4edb-a1ec-c6a654c53eb8",
+        "727a52ef-28a2-498a-a2cc-6e6b8b174f47",
+        "f59ca65f-50a0-430d-af9e-254985f50673"
+      ],
+      "pads": [
+        "C105.1",
+        "U101.46"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 6,
+      "objects": [
+        "34432dd9-6492-4f40-be7b-898a88efc2f4",
+        "3495135b-7913-4dca-a790-bbfc6a827db9",
+        "bc3773b8-fe08-41bc-adee-2481ad167418",
+        "c567d692-3cd2-4c95-9b49-6e102b08f768",
+        "f40d01ba-d092-45ba-8e13-7569e576e5fb"
+      ],
+      "pads": [
+        "U101.55",
+        "U101.56"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 7,
+      "objects": [
+        "9dc10fb7-d73f-42bf-b71b-7d4e1146e85e",
+        "db3b69e9-261e-4b26-84cc-dabbd1ad1af5"
+      ],
+      "pads": [
+        "C203.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal"
+      ],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 8,
+      "objects": [
+        "22692780-373a-4cc7-80c2-e1dab3c92ef0",
+        "25722f5a-d7c8-46e5-9f12-1eeeccd1e779",
+        "46bda8e4-1ea2-4ccd-8871-9ce5217347dd",
+        "4a6577e7-8cc6-4ace-9a0f-4789d0e0598e",
+        "71cc0ad5-7893-441b-9317-da03ebbb0d60",
+        "bc48f89a-b6a0-44c9-a2ee-b7aef32e7fbd",
+        "c5b3cc90-8af2-4d2f-8a9f-f26bc2d44020",
+        "e2c0b222-08e3-4c9a-93cf-831952a4221c",
+        "ee0666c8-9cf8-46d6-8a84-cff8dbe0a3cf",
+        "f03b47ca-8618-4375-96cd-087dbe5082f2",
+        "fa77d77b-c9c3-4eb1-8067-f62d32507041",
+        "fdac3c1f-457f-4819-9ba6-abe858886276"
+      ],
+      "pads": [
+        "C102.1",
+        "R102.2"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 9,
+      "objects": [
+        "2d5d1b01-889b-4a1c-9a7c-0843f96dc62c",
+        "3a0aa14e-2817-47ee-b39e-26a5eb44af03",
+        "d96010cf-7425-473a-b67e-35f8824cc394"
+      ],
+      "pads": [
+        "U201.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal",
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "2d5d1b01-889b-4a1c-9a7c-0843f96dc62c": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "f0dffd3c-ed0a-4d37-86ba-306ad308ea62",
+            "net": "GND"
+          }
+        ],
+        "3a0aa14e-2817-47ee-b39e-26a5eb44af03": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "f0dffd3c-ed0a-4d37-86ba-306ad308ea62",
+            "net": "GND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "objects": [
+        "5e1c1651-7755-4476-a50c-a4773cd91ac0",
+        "6fc540ee-d9d8-4111-9694-6d54d7eff23d"
+      ],
+      "pads": [
+        "R101.2"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 11,
+      "objects": [
+        "1e49471c-280f-4161-a155-bda935c90e35",
+        "215d40cc-3bc2-4dd8-8053-e00659b2862f",
+        "5edc8c7d-109c-4c25-9a6b-586211d97ff5",
+        "71791811-c0a5-452c-b972-df7a1174dc62",
+        "7283451c-31f0-4dbc-b70f-6b3991a78944",
+        "7f287f44-b9a1-455e-aa60-b2b263bafc2d",
+        "8fc577ff-4ecc-4e34-8b6a-6dad53443d46"
+      ],
+      "pads": [
+        "C501.1",
+        "C502.1",
+        "U501.10",
+        "U501.9"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "1e49471c-280f-4161-a155-bda935c90e35": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "72418199-6f7c-5f51-af8c-08daa359c618",
+            "net": "SENS_HREF"
+          },
+          {
+            "kind": "current_copper_clearance",
+            "other": "2db58bad-270e-529c-9804-b4c332bb0bc0",
+            "net": "SENS_VSYNC"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "objects": [
+        "03300dea-2220-4060-b7f0-19703b327038",
+        "073851c6-0345-4998-aef7-b5bcf3880595",
+        "21d37b0c-718a-4a23-aa2a-e995dc50d70e",
+        "26b1f920-8abf-4b5b-b835-60835e3dceeb",
+        "2c3632d8-cfeb-47ed-8a0c-764a7ea770d4",
+        "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+        "31f0e6c7-6f3f-4ce7-a0d7-3d50087fea7f",
+        "34aa1cb0-cfce-4b7d-89c0-8472e3682c95",
+        "35100fdf-efdb-49d9-aa85-0793891ff779",
+        "3589222b-fce2-42cf-8a56-3f56e52a0c80",
+        "3d385e11-7315-4e23-bdb0-280effd44580",
+        "4a96ca3e-6696-41a8-bbf5-e1a0df2cbda4",
+        "4df2c15a-9da2-46a5-8e66-547c7e5d6ceb",
+        "4fc3384d-e25f-4ac7-b139-129831f0bce3",
+        "53a45de0-7132-4e33-81a9-b38f6d69ecb7",
+        "60e040b4-2924-4819-a3fb-36f8068aa4d7",
+        "625dc684-9127-4c8e-93b0-91393112b86f",
+        "630afb15-6493-41c4-92bb-e9fd8a2fa3ff",
+        "63bce3b9-4464-4bd9-984e-56bf1dc0b6c6",
+        "667052fc-e0ca-4882-8fec-00fecdfcd7dc",
+        "70df3d3d-ab62-47ae-82c5-c820a1158542",
+        "84506ddc-15f9-4b4f-b061-191a49561b59",
+        "868ac5f5-ceba-494b-ad1c-ff9ac01e8f1c",
+        "9136995b-21bb-48bf-a4b3-c3c1f2919bcb",
+        "96a9fcd4-6a48-43e1-ba4b-b290c9246e9a",
+        "9e6b6e40-3bc4-4e54-9ddf-4f29013e4e07",
+        "a7cb82b5-753d-4cee-9aac-c389c2a33315",
+        "af66ea9f-12fe-4891-9944-96f535225664",
+        "b00875f4-a014-4ffa-8c91-607e3ce96801",
+        "b01114cd-29c7-4e52-9608-de336eee9de5",
+        "b44285b6-92bd-4fa1-a369-277fdcf3ac37",
+        "ba2a02c4-b8f1-4ef7-88e5-a620494758d0",
+        "be14f5bd-44d1-457e-aa7c-fc925465933c",
+        "c25f2149-5be5-457a-b2b9-8516cb26930b",
+        "c3ed76b5-220e-4188-9ee8-46ff36c86377",
+        "c3f053b9-ed8e-4ca9-883e-000aaa9ce7cb",
+        "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+        "cd75dfcc-17e2-449b-835d-60a99b8edb17",
+        "ce25a727-3a18-48f3-ba18-b30d6da352e7",
+        "d097bd49-e6fa-4526-bd00-0c1f28e1e84e",
+        "dbdba37d-7014-4428-a10e-e0f88505ceb8",
+        "dcee862e-0c8a-4462-8064-175b948c9219",
+        "e0dc1e85-4a1e-4b9d-af20-4bcee4e01ca1",
+        "e3b56cc1-6bf0-4617-b97c-8cbc7e463afa",
+        "f4950d96-2a3f-468c-a335-eb2dfea141fd",
+        "f8560ba1-3b49-41c3-b986-55ad120dc1d0",
+        "fcaba47a-b395-432b-967b-a464c4f82880"
+      ],
+      "pads": [
+        "C301.1",
+        "U204.8"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "03300dea-2220-4060-b7f0-19703b327038": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "730ea763-2dd7-5e5a-a1cd-76b6b12b8717",
+            "net": "SENS_EXTCLK"
+          }
+        ],
+        "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "730ea763-2dd7-5e5a-a1cd-76b6b12b8717",
+            "net": "SENS_EXTCLK"
+          }
+        ],
+        "ce25a727-3a18-48f3-ba18-b30d6da352e7": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "e1bcdf6a-2704-480c-9be6-8ede881f1e04",
+            "net": "GND"
+          },
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "e1bcdf6a-2704-480c-9be6-8ede881f1e04"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "objects": [
+        "2632d0b7-0692-41f6-8f01-6d6199f4e47f",
+        "89ed1bb9-1cb3-4a42-86b7-3fce8899e62e",
+        "92b0bae0-0a70-460e-b039-d8bbb252186e",
+        "9fcfad5a-370a-49ca-9e0f-545e5dce75a2",
+        "ac496415-c329-42ee-bef9-a66fd1f7bfe8",
+        "ca94d667-ec8c-417e-88ad-1305d8792296",
+        "fbc2f5a6-0f3a-4909-b3b8-e67b97c15ad0"
+      ],
+      "pads": [
+        "U203.1",
+        "U203.2",
+        "U203.3"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal",
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "89ed1bb9-1cb3-4a42-86b7-3fce8899e62e": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "15d96587-52bd-4077-8452-761b4c4af19f",
+            "net": "GND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "objects": [
+        "0d786901-015a-405a-b98b-ce3614af6dd0",
+        "4628422c-28ca-4c20-9985-8ce7e1d058d6",
+        "99753b4a-8380-4846-be50-543def9400e6",
+        "beba70d2-a879-4093-b820-6b6e8aa01df5",
+        "cfb3924d-3d73-483c-810b-95553d32f509"
+      ],
+      "pads": [
+        "U501.2",
+        "U501.3"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "beba70d2-a879-4093-b820-6b6e8aa01df5": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6",
+            "net": "USB_EN1"
+          },
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "objects": [
+        "66bb6869-bd1c-4b42-a7a3-c927b11017bb",
+        "e4bbff96-f0f0-4af0-8105-18e6177a13a9"
+      ],
+      "pads": [
+        "R103.2"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 16,
+      "objects": [
+        "0077e25e-21bd-412d-a11b-d43d2cc738ed",
+        "00a8c95e-e03a-4952-894a-293f0a3f457b",
+        "061df04c-be56-4e57-ab51-677912e51e58",
+        "08baec75-b866-45cc-bee3-131570a0ad5d",
+        "0b9c2c39-483a-45e8-a1aa-2c9a54899ff3",
+        "0ca6bd69-c1f3-4d51-a8fc-0ef64b2bc502",
+        "0f2af754-7e1e-42fa-8cae-9d6e6ea2d1c4",
+        "1a31e7e3-8755-4d27-889c-e70be2912b92",
+        "1f61f83d-f2e3-426d-ae94-b88a96340a48",
+        "207dc294-ee1a-4981-8dad-ac78bf77a4cd",
+        "23aadab0-04d3-4434-8242-e8641e168de0",
+        "2708f3c1-0c46-4fd6-b8d6-072022b26226",
+        "296471f4-61a3-4e21-9481-841a5497eedb",
+        "2d749bcb-ce18-4dd9-ad2e-e6080404af3a",
+        "31cd23a2-a553-41b4-b86e-62e6d3babd08",
+        "34771e1c-d492-4563-9d29-76ada185fe49",
+        "39a2e427-3657-4d7a-82e5-d7fabe40f7b0",
+        "3a3568d3-d793-4a88-ae3a-f9eda812890f",
+        "405bb56e-7ffe-416c-8ca4-d577e3fbeb6b",
+        "41d7538c-1932-4e07-a9b2-5cf2680bcaa1",
+        "41f58420-d1f9-4788-901b-139aed9c4e2f",
+        "46cdfd24-e736-4a5f-8c1b-82001b532692",
+        "499c9c73-1f7a-4516-a0a3-cce429e287d3",
+        "4bc6cd02-6e9b-4a9f-9caf-b1ec5576dcd8",
+        "4f264996-7c0a-46e9-899c-df67cccf6776",
+        "5f4ef440-574c-4d46-b379-5af0c2c3eb28",
+        "756950f6-75bb-4135-af86-f0754947417d",
+        "7d8563d2-3b06-40b6-8dcc-ed9fea7109ee",
+        "8093e35d-0d0c-4437-b411-32e38227c9e1",
+        "82029149-a575-430b-b10d-8dd92551e09a",
+        "867282c2-dcb1-43dd-929c-8bff2e7823b9",
+        "9d9e7f2e-abda-4d61-b79c-0bc0e1c2949d",
+        "9e916130-aa26-4202-8f1d-5ab0f61f9e16",
+        "aa149482-db46-45c1-a226-d2125437738c",
+        "ad4b52dd-743e-4422-b1af-dd56ac87f780",
+        "af224324-9dc0-45ed-8a1a-919b76c53f31",
+        "b94c64a0-424a-476d-ac39-2f2adfb47b8f",
+        "bef21178-1781-471f-8dc5-902b1c909376",
+        "c020c289-a6ea-4777-9881-e274e097137a",
+        "c4016377-be70-4f2a-9d37-4e84420c145d",
+        "c4939e53-fb29-4df6-a10f-153c62e187f3",
+        "c565447e-b167-458b-aa71-8e33317b8ab7",
+        "cb88f7e9-8acc-49c6-a973-a0fd2d3c52bb",
+        "cd1c698e-d694-4f95-9294-e24485a1ad0a",
+        "d0886006-70e1-4804-9b79-5250e36a45f1",
+        "d5873966-477e-4bfe-8778-b437cbfbe4a7",
+        "ead274db-1b8a-4a2f-a2bf-e4a651e90376",
+        "eb53f48b-2327-43e3-84f1-d2162b9b17f0",
+        "ec75be77-a671-43fb-a310-c492d31bc028",
+        "ef595e55-0755-4667-9a6a-c64bfc387913",
+        "f3823386-f74d-48de-bbaf-5c7b1b5be779",
+        "f451c4a3-fff3-4a2a-95c7-6ca58494f227",
+        "f6e82b2a-0f3b-43f7-a8d1-db649c3a69cc",
+        "fc501288-9282-4a80-ba3f-de0a849b72d6",
+        "fdafc0bb-0af9-47a1-99b3-24b4fddd8374"
+      ],
+      "pads": [
+        "R203.2",
+        "U301.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "41d7538c-1932-4e07-a9b2-5cf2680bcaa1": [
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "objects": [
+        "0d84214c-1b69-4fc7-8f6a-8879332a80cb",
+        "fcdcbade-db8a-45da-87c1-499d5703ab3d"
+      ],
+      "pads": [
+        "R501.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "fcdcbade-db8a-45da-87c1-499d5703ab3d": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "abc1e9cc-0ade-4a87-b2be-67434e8c0cb1",
+            "net": "GND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "objects": [
+        "30a0704b-3059-4235-8d80-1d373cc28948",
+        "8fa43be6-a71b-4d09-91b7-6637a6e812a1",
+        "f54b00d4-18fb-401b-87c8-aea97489cec7"
+      ],
+      "pads": [
+        "C201.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal"
+      ],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 19,
+      "objects": [
+        "4840f47d-9bac-414c-95e5-5f939fd72d28",
+        "65eab90d-6060-4683-a290-98053d52e2b9"
+      ],
+      "pads": [
+        "C207.1"
+      ],
+      "accepted_preflight": true,
+      "rejection": [],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 20,
+      "objects": [
+        "0639595d-5faa-41ec-ab75-d1d81390d26e",
+        "ddc06b5c-5086-4780-98b2-4c02b531a7c7"
+      ],
+      "pads": [
+        "C205.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal"
+      ],
+      "conflicting_objects": {}
+    },
+    {
+      "id": 21,
+      "objects": [
+        "76fc2ceb-6fbc-42c3-b2ed-ba18c56a8b41",
+        "98113b0b-1858-4a1e-bfbd-3fcb4843de50",
+        "ed64faf3-47c7-4649-9d7e-ff9761497384"
+      ],
+      "pads": [
+        "U202.1"
+      ],
+      "accepted_preflight": false,
+      "rejection": [
+        "changed_original_pad_terminal",
+        "current_conflict_or_old_hazard"
+      ],
+      "conflicting_objects": {
+        "98113b0b-1858-4a1e-bfbd-3fcb4843de50": [
+          {
+            "kind": "current_copper_clearance",
+            "other": "2101a5ad-58d8-49ed-bb11-ef39406f092c",
+            "net": "GND"
+          },
+          {
+            "kind": "current_copper_clearance",
+            "other": "8c9186c7-8653-478a-a0ca-ac4603d968db",
+            "net": "SENS_D1"
+          },
+          {
+            "kind": "via_annulus_pad_overlap",
+            "other": "8c9186c7-8653-478a-a0ca-ac4603d968db"
+          }
+        ]
+      }
+    }
+  ],
+  "accepted_components": 8,
+  "accepted_objects": 41,
+  "rules": [
+    "whole track+pad connected subgraphs without zones",
+    "reject any changed old terminal",
+    "all current pad/copper layers checked via IsOnLayer",
+    "original width/drill kept; no trims",
+    "full native DRC and fresh core connectivity still required"
+  ]
+}

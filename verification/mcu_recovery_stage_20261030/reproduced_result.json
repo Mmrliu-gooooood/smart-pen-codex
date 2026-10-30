@@ -1,0 +1,43 @@
+{
+  "scope": "DRC, connectivity and same-net pad/drill exclusion and exact source preservation; no ampacity qualification",
+  "commands": [
+    {
+      "label": "author",
+      "exit": 0
+    },
+    {
+      "label": "author_O",
+      "exit": 0
+    },
+    {
+      "label": "independent",
+      "exit": 0
+    },
+    {
+      "label": "independent_O",
+      "exit": 0
+    },
+    {
+      "label": "same_net_hole_guard",
+      "exit": 0
+    },
+    {
+      "label": "same_net_hole_guard_O",
+      "exit": 0
+    },
+    {
+      "label": "source_noncopper",
+      "exit": 0
+    },
+    {
+      "label": "source_noncopper_O",
+      "exit": 0
+    }
+  ],
+  "drc_exit": 5,
+  "drc": [
+    0,
+    181,
+    0
+  ]
+}

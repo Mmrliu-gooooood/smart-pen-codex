@@ -1,0 +1,557 @@
+{
+  "status": "READ_ONLY_NOFAB_NO_POWER_APPROVAL",
+  "inputs": {
+    "board": {
+      "path": "hardware/gnd_conservative_recovery_2305/native/mainboard_revD.kicad_pcb",
+      "sha256": "ead39fa832de2aabff4fbec9ce67d12199094ac9d77e700de54920d8fec86959"
+    },
+    "old": {
+      "path": "hardware/j202_low_speed_reference_candidate/native/mainboard_revD.kicad_pcb",
+      "sha256": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038"
+    },
+    "plan": {
+      "path": "docs/electronics/aon_branch_reuse_plan_2318/evaluation.json",
+      "sha256": "6721b013b53a817f6a10a898e88cf80d8c125a7907fdd114d1ec432ef67c55fb"
+    },
+    "stack": {
+      "path": "hardware/explicit_stackup_metadata_candidate/stackup_contract.json",
+      "sha256": "7bed90a38a9fd18168532d8ae73f1fa7f7232963034e1e9110f618552cd13023"
+    }
+  },
+  "stack": {
+    "status": "CONDITIONAL_NOFAB_NOT_MANUFACTURER_SELECTION",
+    "source_board": "hardware/contact_rc_local_route_baseline/mainboard_revD.kicad_pcb",
+    "source_board_sha256": "1bb67eac39fc080ce286e15c224108c24b6d45407a2a437a259c2e11ad8726f4",
+    "research_contract": "docs/research/stackup_qualification/candidate_contract.json",
+    "research_contract_sha256": "49221b6c461fa8203b1777fdc7848bd346d5adf589ed53667895ee166b457809",
+    "template": "JLC06081H-2116",
+    "copper_mm": [
+      0.035,
+      0.0152,
+      0.0152,
+      0.0152,
+      0.0152,
+      0.035
+    ],
+    "dielectric_mm": [
+      0.1164,
+      0.13,
+      0.2028,
+      0.13,
+      0.1164
+    ],
+    "known_copper_dielectric_sum_mm": 0.8264,
+    "general_finished_nominal_mm": 0.83,
+    "mechanical_max_mm": 0.93,
+    "mask_and_finish_thickness": null,
+    "dielectric_epsilon_and_loss": null,
+    "impedance_recalculated": false,
+    "manufacturing_approved": false,
+    "note": "Only known Cu/dielectric stack entries embedded. Mask/Dk/finish remain unqualified; no synthetic thickness added to force sum. Do not use KiCad implicit material defaults for impedance."
+  },
+  "paths": [
+    {
+      "pad": "C104.1",
+      "group": 0,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        5.225,
+        15.8
+      ],
+      "nearest_plane_via_center_mm": [
+        5.4,
+        14.2
+      ],
+      "centerline_length_mm": 1.7750000000000021,
+      "track_uuids": [
+        "6938faac-6324-49cf-90da-fc988559d16b",
+        "4b070c1d-13f5-48c3-a7dc-442af935bad8"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 5.828761904761911,
+      "track_R65_milliohm": 6.859578447619055,
+      "stress_R65_milliohm_25um_widthminus30um": 12.004262283333349,
+      "drop65_mV_at_0p1A": 0.6859578447619055,
+      "drop65_mV_at_0p5A": 3.4297892238095273
+    },
+    {
+      "pad": "U101.20",
+      "group": 0,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        5.4,
+        13.425
+      ],
+      "nearest_plane_via_center_mm": [
+        5.4,
+        14.2
+      ],
+      "centerline_length_mm": 0.7749999999999986,
+      "track_uuids": [
+        "11d26ef2-133b-41cb-8242-f0750c446f96"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 2.544952380952376,
+      "track_R65_milliohm": 2.9950272095238035,
+      "stress_R65_milliohm_25um_widthminus30um": 5.241297616666657,
+      "drop65_mV_at_0p1A": 0.29950272095238034,
+      "drop65_mV_at_0p5A": 1.4975136047619018
+    },
+    {
+      "pad": "R240.2",
+      "group": 2,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        2.325,
+        76.0
+      ],
+      "nearest_plane_via_center_mm": [
+        5.3,
+        75.15
+      ],
+      "centerline_length_mm": 3.4063708498984715,
+      "track_uuids": [
+        "63e0db7c-7a27-4845-a7bd-07e5430031cd",
+        "697a499f-f2d6-4f30-b757-b944985fae2e",
+        "aa86edbd-75df-40ec-9633-e0daffac1354",
+        "ebcee705-3ac8-418c-a9d2-64a9363e34fb",
+        "7fc4e3cc-6205-4473-9f60-9bc963b9b70e",
+        "89d47477-5810-4654-b6db-74696a8f8278",
+        "e0af5bf7-03c6-49c0-8773-a3474807d0fa"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 11.185873038523741,
+      "track_R65_milliohm": 13.164094685386665,
+      "stress_R65_milliohm_25um_widthminus30um": 23.037165699426666,
+      "drop65_mV_at_0p1A": 1.3164094685386667,
+      "drop65_mV_at_0p5A": 6.582047342693333
+    },
+    {
+      "pad": "R241.2",
+      "group": 2,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        5.325,
+        76.0
+      ],
+      "nearest_plane_via_center_mm": [
+        5.3,
+        75.15
+      ],
+      "centerline_length_mm": 0.8749999999999947,
+      "track_uuids": [
+        "a54a9d97-b946-443d-8e8c-5621caf582c3",
+        "363578d3-43ac-4996-bd01-151b0f79c11b"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 2.8733333333333158,
+      "track_R65_milliohm": 3.3814823333333126,
+      "stress_R65_milliohm_25um_widthminus30um": 5.917594083333298,
+      "drop65_mV_at_0p1A": 0.33814823333333127,
+      "drop65_mV_at_0p5A": 1.6907411666666563
+    },
+    {
+      "pad": "C105.1",
+      "group": 5,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        7.725,
+        4.0
+      ],
+      "nearest_plane_via_center_mm": [
+        7.4,
+        4.8
+      ],
+      "centerline_length_mm": 1.0765609770940692,
+      "track_uuids": [
+        "f59ca65f-50a0-430d-af9e-254985f50673",
+        "12286112-a957-482f-bf16-e02c058416f8"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 3.535221189543191,
+      "track_R65_milliohm": 4.160425056913904,
+      "stress_R65_milliohm_25um_widthminus30um": 7.280743849599332,
+      "drop65_mV_at_0p1A": 0.4160425056913904,
+      "drop65_mV_at_0p5A": 2.080212528456952
+    },
+    {
+      "pad": "U101.46",
+      "group": 5,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        7.4,
+        6.575
+      ],
+      "nearest_plane_via_center_mm": [
+        7.4,
+        4.8
+      ],
+      "centerline_length_mm": 1.7750000000000004,
+      "track_uuids": [
+        "727a52ef-28a2-498a-a2cc-6e6b8b174f47"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 5.828761904761906,
+      "track_R65_milliohm": 6.8595784476190484,
+      "stress_R65_milliohm_25um_widthminus30um": 12.004262283333336,
+      "drop65_mV_at_0p1A": 0.6859578447619049,
+      "drop65_mV_at_0p5A": 3.4297892238095242
+    },
+    {
+      "pad": "U101.55",
+      "group": 6,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        3.8,
+        6.575
+      ],
+      "nearest_plane_via_center_mm": [
+        3.6,
+        5.8
+      ],
+      "centerline_length_mm": 0.9750000000000001,
+      "track_uuids": [
+        "c567d692-3cd2-4c95-9b49-6e102b08f768",
+        "34432dd9-6492-4f40-be7b-898a88efc2f4"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 3.201714285714286,
+      "track_R65_milliohm": 3.767937457142857,
+      "stress_R65_milliohm_25um_widthminus30um": 6.593890550000001,
+      "drop65_mV_at_0p1A": 0.37679374571428575,
+      "drop65_mV_at_0p5A": 1.8839687285714286
+    },
+    {
+      "pad": "U101.56",
+      "group": 6,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        3.4,
+        6.575
+      ],
+      "nearest_plane_via_center_mm": [
+        3.6,
+        5.8
+      ],
+      "centerline_length_mm": 0.9750000000000005,
+      "track_uuids": [
+        "3495135b-7913-4dca-a790-bbfc6a827db9",
+        "f40d01ba-d092-45ba-8e13-7569e576e5fb"
+      ],
+      "widths_mm": [
+        0.15,
+        0.15
+      ],
+      "track_R20_milliohm": 3.2017142857142873,
+      "track_R65_milliohm": 3.767937457142859,
+      "stress_R65_milliohm_25um_widthminus30um": 6.593890550000005,
+      "drop65_mV_at_0p1A": 0.3767937457142859,
+      "drop65_mV_at_0p5A": 1.8839687285714295
+    },
+    {
+      "pad": "C102.1",
+      "group": 8,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        5.225,
+        18.0
+      ],
+      "nearest_plane_via_center_mm": [
+        5.175,
+        18.9
+      ],
+      "centerline_length_mm": 0.901387818865996,
+      "track_uuids": [
+        "f03b47ca-8618-4375-96cd-087dbe5082f2"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 2.959985904238051,
+      "track_R65_milliohm": 3.4834594114025506,
+      "stress_R65_milliohm_25um_widthminus30um": 6.096053969954464,
+      "drop65_mV_at_0p1A": 0.3483459411402551,
+      "drop65_mV_at_0p5A": 1.7417297057012753
+    },
+    {
+      "pad": "R102.2",
+      "group": 8,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        6.825,
+        20.0
+      ],
+      "nearest_plane_via_center_mm": [
+        6.825,
+        21.0
+      ],
+      "centerline_length_mm": 1.0,
+      "track_uuids": [
+        "e2c0b222-08e3-4c9a-93cf-831952a4221c"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 3.283809523809524,
+      "track_R65_milliohm": 3.864551238095238,
+      "stress_R65_milliohm_25um_widthminus30um": 6.762964666666667,
+      "drop65_mV_at_0p1A": 0.3864551238095238,
+      "drop65_mV_at_0p5A": 1.932275619047619
+    },
+    {
+      "pad": "R101.2",
+      "group": 10,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        3.325,
+        20.0
+      ],
+      "nearest_plane_via_center_mm": [
+        3.325,
+        21.0
+      ],
+      "centerline_length_mm": 1.0,
+      "track_uuids": [
+        "6fc540ee-d9d8-4111-9694-6d54d7eff23d"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 3.283809523809524,
+      "track_R65_milliohm": 3.864551238095238,
+      "stress_R65_milliohm_25um_widthminus30um": 6.762964666666667,
+      "drop65_mV_at_0p1A": 0.3864551238095238,
+      "drop65_mV_at_0p5A": 1.932275619047619
+    },
+    {
+      "pad": "R103.2",
+      "group": 15,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        10.325,
+        20.0
+      ],
+      "nearest_plane_via_center_mm": [
+        10.325,
+        21.0
+      ],
+      "centerline_length_mm": 1.0,
+      "track_uuids": [
+        "66bb6869-bd1c-4b42-a7a3-c927b11017bb"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 3.283809523809524,
+      "track_R65_milliohm": 3.864551238095238,
+      "stress_R65_milliohm_25um_widthminus30um": 6.762964666666667,
+      "drop65_mV_at_0p1A": 0.3864551238095238,
+      "drop65_mV_at_0p5A": 1.932275619047619
+    },
+    {
+      "pad": "C207.1",
+      "group": 19,
+      "actual_pad_layers": [
+        "F.Cu"
+      ],
+      "pad_center_mm": [
+        2.0,
+        65.775
+      ],
+      "nearest_plane_via_center_mm": [
+        2.0,
+        66.6
+      ],
+      "centerline_length_mm": 0.8249999999999886,
+      "track_uuids": [
+        "65eab90d-6060-4683-a290-98053d52e2b9"
+      ],
+      "widths_mm": [
+        0.15
+      ],
+      "track_R20_milliohm": 2.7091428571428198,
+      "track_R65_milliohm": 3.188254771428527,
+      "stress_R65_milliohm_25um_widthminus30um": 5.579445849999923,
+      "drop65_mV_at_0p1A": 0.3188254771428527,
+      "drop65_mV_at_0p5A": 1.5941273857142635
+    }
+  ],
+  "group_summaries": [
+    {
+      "group": 0,
+      "pads": [
+        "C104.1",
+        "U101.20"
+      ],
+      "total_track_length_mm": 2.5500000000000007,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 2,
+      "pads": [
+        "R240.2",
+        "R241.2"
+      ],
+      "total_track_length_mm": 4.281370849898466,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 5,
+      "pads": [
+        "C105.1",
+        "U101.46"
+      ],
+      "total_track_length_mm": 2.8515609770940697,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 6,
+      "pads": [
+        "U101.55",
+        "U101.56"
+      ],
+      "total_track_length_mm": 1.9500000000000006,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 8,
+      "pads": [
+        "C102.1",
+        "R102.2"
+      ],
+      "total_track_length_mm": 8.940170282671513,
+      "via_count": 3,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 10,
+      "pads": [
+        "R101.2"
+      ],
+      "total_track_length_mm": 1.0,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 15,
+      "pads": [
+        "R103.2"
+      ],
+      "total_track_length_mm": 1.0,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    },
+    {
+      "group": 19,
+      "pads": [
+        "C207.1"
+      ],
+      "total_track_length_mm": 0.8249999999999886,
+      "via_count": 1,
+      "layers": [
+        "F.Cu"
+      ]
+    }
+  ],
+  "width254_limited_screen": {
+    "target_track_count": 10,
+    "conflicts": [],
+    "not_done": [
+      "native saved candidate/full DRC",
+      "same-net topology/plane refill",
+      "temperature or transient tests",
+      "full return/core qualification"
+    ]
+  },
+  "via_sensitivity": [
+    {
+      "assumed_plating_um": 15,
+      "active_length_mm": 0.2867,
+      "R20_milliohm": 0.3496250713154915
+    },
+    {
+      "assumed_plating_um": 20,
+      "active_length_mm": 0.2867,
+      "R20_milliohm": 0.26221880348661863
+    },
+    {
+      "assumed_plating_um": 25,
+      "active_length_mm": 0.2867,
+      "R20_milliohm": 0.20977504278929487
+    }
+  ],
+  "current_ground_status": "All nine U101 physical ground pads not connected to J106 core in bound research state; see role_and_return_limits.json",
+  "limits": [
+    "centerline pad-to-via trace-only resistance; excludes pad spreading/via/plane/source/return/package",
+    "nominal35um outerCu,15.2um innerCu; actual stack tolerances unapproved",
+    "stress25um and width-minus30um are hypothetical sensitivity not certified minima",
+    "0.1A/0.5A are example branch currents, not known pin load",
+    "same-net components and decoupling internal to package need power-integrity validation"
+  ]
+}

@@ -1,0 +1,32 @@
+09:45:04: Debug: Adding duplicate image handler for 'PNG file'
+09:45:04: Debug: Adding duplicate image handler for 'JPEG file'
+09:45:04: Debug: Adding duplicate image handler for 'TIFF file'
+09:45:04: Debug: Adding duplicate image handler for 'GIF file'
+09:45:04: Debug: Adding duplicate image handler for 'PNM file'
+09:45:04: Debug: Adding duplicate image handler for 'PCX file'
+09:45:04: Debug: Adding duplicate image handler for 'IFF file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows icon file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows cursor file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+09:45:04: Debug: Adding duplicate image handler for 'TGA file'
+09:45:04: Debug: Adding duplicate image handler for 'XPM file'
+09:45:04: Debug: Adding duplicate image handler for 'PNG file'
+09:45:04: Debug: Adding duplicate image handler for 'JPEG file'
+09:45:04: Debug: Adding duplicate image handler for 'TIFF file'
+09:45:04: Debug: Adding duplicate image handler for 'GIF file'
+09:45:04: Debug: Adding duplicate image handler for 'PNM file'
+09:45:04: Debug: Adding duplicate image handler for 'PCX file'
+09:45:04: Debug: Adding duplicate image handler for 'IFF file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows icon file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows cursor file'
+09:45:04: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+09:45:04: Debug: Adding duplicate image handler for 'TGA file'
+09:45:04: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mcu_power_ground_candidate_0043/verify.py", line 38, in <module>
+    req(len(core['3V3_AON']['after'])==14,'AON pads');req(len(core['GND']['after'])==39,'GND pads');ep=sorted(n for n,ispad,_ in bn['GND']if ispad and n.startswith('U101.57#'));req(len(ep)==9 and set(ep)<=set(core['GND']['after']),'EP not grounded')
+                                                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mcu_power_ground_candidate_0043/verify.py", line 9, in req
+    if not x:raise RuntimeError(msg)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: GND pads

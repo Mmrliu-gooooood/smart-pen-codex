@@ -1,0 +1,102 @@
+{
+  "source": "hardware/gnd_conservative_recovery_2305/native/schematic/MCU.kicad_sym",
+  "source_sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a",
+  "U101_pin_functions_from_frozen_symbol": {
+    "2": "VDD3P3",
+    "3": "VDD3P3",
+    "20": "VDD3P3_RTC",
+    "46": "VDD3P3_CPU",
+    "55": "VDDA",
+    "56": "VDDA"
+  },
+  "actual_return_status": [
+    {
+      "ref": "U101",
+      "current_GND_physical_pads": 9,
+      "current_GND_core_connected": 0,
+      "pads": [
+        {
+          "pad": "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+          "connected": false
+        },
+        {
+          "pad": "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+          "connected": false
+        }
+      ]
+    },
+    {
+      "ref": "C104",
+      "current_GND_physical_pads": 1,
+      "current_GND_core_connected": 1,
+      "pads": [
+        {
+          "pad": "C104.2",
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "C105",
+      "current_GND_physical_pads": 1,
+      "current_GND_core_connected": 1,
+      "pads": [
+        {
+          "pad": "C105.2",
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "C102",
+      "current_GND_physical_pads": 1,
+      "current_GND_core_connected": 1,
+      "pads": [
+        {
+          "pad": "C102.2",
+          "connected": true
+        }
+      ]
+    },
+    {
+      "ref": "C207",
+      "current_GND_physical_pads": 1,
+      "current_GND_core_connected": 0,
+      "pads": [
+        {
+          "pad": "C207.2",
+          "connected": false
+        }
+      ]
+    }
+  ],
+  "note": "Restoring a supply branch does not power or qualify an entire device when other supply/ground pins remain open."
+}

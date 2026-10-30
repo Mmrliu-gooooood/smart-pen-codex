@@ -1,0 +1,17 @@
+09:45:32: Debug: Adding duplicate image handler for 'PNG file'
+09:45:32: Debug: Adding duplicate image handler for 'JPEG file'
+09:45:32: Debug: Adding duplicate image handler for 'TIFF file'
+09:45:32: Debug: Adding duplicate image handler for 'GIF file'
+09:45:32: Debug: Adding duplicate image handler for 'PNM file'
+09:45:32: Debug: Adding duplicate image handler for 'PCX file'
+09:45:32: Debug: Adding duplicate image handler for 'IFF file'
+09:45:32: Debug: Adding duplicate image handler for 'Windows icon file'
+09:45:32: Debug: Adding duplicate image handler for 'Windows cursor file'
+09:45:32: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+09:45:32: Debug: Adding duplicate image handler for 'TGA file'
+09:45:32: Debug: Adding duplicate image handler for 'XPM file'
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mcu_power_ground_candidate_0043/negative.py", line 11, in <module>
+    for t in list(b.GetTracks()):
+                  ^^^^^^^^^^^
+AttributeError: 'SwigPyObject' object has no attribute 'GetTracks'

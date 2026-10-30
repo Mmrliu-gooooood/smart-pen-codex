@@ -1,0 +1,31 @@
+{
+  "status": "CONDITIONAL_NOFAB_NOT_MANUFACTURER_SELECTION",
+  "source_board": "hardware/contact_rc_local_route_baseline/mainboard_revD.kicad_pcb",
+  "source_board_sha256": "1bb67eac39fc080ce286e15c224108c24b6d45407a2a437a259c2e11ad8726f4",
+  "research_contract": "docs/research/stackup_qualification/candidate_contract.json",
+  "research_contract_sha256": "49221b6c461fa8203b1777fdc7848bd346d5adf589ed53667895ee166b457809",
+  "template": "JLC06081H-2116",
+  "copper_mm": [
+    0.035,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.0152,
+    0.035
+  ],
+  "dielectric_mm": [
+    0.1164,
+    0.13,
+    0.2028,
+    0.13,
+    0.1164
+  ],
+  "known_copper_dielectric_sum_mm": 0.8264,
+  "general_finished_nominal_mm": 0.83,
+  "mechanical_max_mm": 0.93,
+  "mask_and_finish_thickness": null,
+  "dielectric_epsilon_and_loss": null,
+  "impedance_recalculated": false,
+  "manufacturing_approved": false,
+  "note": "Only known Cu/dielectric stack entries embedded. Mask/Dk/finish remain unqualified; no synthetic thickness added to force sum. Do not use KiCad implicit material defaults for impedance."
+}

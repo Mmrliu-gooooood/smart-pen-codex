@@ -1,0 +1,19 @@
+[
+  {
+    "id": "S1",
+    "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html",
+    "section": "Power Supply > Four-Layer PCB Design",
+    "accessed_utc": "2026-10-30T00:40Z",
+    "kind": "Official vendor current HTML; four-layer SoC guidance, not SiP-specific signoff",
+    "paraphrase": "Main power width at least25mil; pins2/3 at least20mil; other power10mil recommended. Main cross-layer power requires at leasttwo vias. Decoupling needs short ground return."
+  },
+  {
+    "id": "S2",
+    "url": "https://documentation.espressif.com/esp32-s3-pico-1_datasheet_en.pdf",
+    "version": "1.2 (verified PDF title, not search snippet v1.1)",
+    "section": "Table2-1 pp11-13; Table3-2 p17; Table3-3 p18",
+    "accessed_utc": "2026-10-30T00:40Z",
+    "kind": "Official SiP datasheet",
+    "paraphrase": "Pin20 VDD3P3_RTC; pin46 VDD3P3_CPU supplies CPU IO; pins55/56 VDDA. Single supply recommended capacity500mA or more is not individual-pin current. RTC-to-VDD_SPI internal drop must also be considered."
+  }
+]

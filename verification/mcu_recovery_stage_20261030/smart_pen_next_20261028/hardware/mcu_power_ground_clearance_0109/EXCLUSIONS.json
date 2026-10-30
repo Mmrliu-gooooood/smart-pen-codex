@@ -1,0 +1,10 @@
+{
+  "excluded": [
+    "native/*.kicad_prl",
+    "counterfactual_native/*/native source copies other than retainedDRC reports",
+    "replay/native/**",
+    "__pycache__/**"
+  ],
+  "reason": "Duplicate native sources reproducible byscripts; no claimed completed product",
+  "authority": "READ_ONLY frozen research files; native0/181/0 remainsNOFAB"
+}

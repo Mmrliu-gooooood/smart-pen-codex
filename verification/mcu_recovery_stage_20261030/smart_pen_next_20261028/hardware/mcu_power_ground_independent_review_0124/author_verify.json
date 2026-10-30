@@ -1,0 +1,675 @@
+{
+  "status": "NOFAB_NO_FULL_POWER_QUALIFICATION",
+  "sha": "77537f15c2beff27ec3098c0ccd9d3dd5cd10ac335b74c4909954f2fedcf4a24",
+  "base_sha": "ead39fa832de2aabff4fbec9ce67d12199094ac9d77e700de54920d8fec86959",
+  "old_source_sha": "9a0335443167a4395431cb78abfab959893060d82a7b4da9e5fcd861bc40c038",
+  "objects": 681,
+  "footprints": 102,
+  "physical_pads": 366,
+  "all_prior_pad_components_preserved": {
+    "ISO_GATE": [
+      1,
+      1
+    ],
+    "GND": [
+      73,
+      64
+    ],
+    "CAM_ISO_OE_N": [
+      7,
+      7
+    ],
+    "CAM_BUS_EN": [
+      3,
+      3
+    ],
+    "SCCB_ENABLE_LINK": [
+      1,
+      1
+    ],
+    "SCCB_EN_SAFE": [
+      1,
+      1
+    ],
+    "3V3_AON": [
+      39,
+      26
+    ],
+    "AON_I2C_SDA": [
+      3,
+      3
+    ],
+    "CAM_IO_EN": [
+      3,
+      3
+    ],
+    "IO_ENABLE_LINK": [
+      2,
+      2
+    ],
+    "CAM_SDA": [
+      3,
+      3
+    ],
+    "SENS_D5": [
+      2,
+      2
+    ],
+    "VBUS_5V": [
+      1,
+      1
+    ],
+    "CAM_D7": [
+      3,
+      3
+    ],
+    "RF_SIP": [
+      1,
+      1
+    ],
+    "CHIP_EN": [
+      1,
+      1
+    ],
+    "BOOT_N": [
+      1,
+      1
+    ],
+    "PICKUP_INT_N": [
+      2,
+      2
+    ],
+    "NIB_CONTACT_N": [
+      4,
+      4
+    ],
+    "STRAP_GPIO3": [
+      1,
+      1
+    ],
+    "BATTERY_ADC": [
+      2,
+      2
+    ],
+    "AON_I2C_SCL": [
+      3,
+      3
+    ],
+    "CAM_D0": [
+      3,
+      3
+    ],
+    "CAM_D1": [
+      3,
+      3
+    ],
+    "CAM_D2": [
+      3,
+      3
+    ],
+    "CAM_D3": [
+      3,
+      3
+    ],
+    "CAM_D4": [
+      3,
+      3
+    ],
+    "CAM_D5": [
+      3,
+      3
+    ],
+    "CAM_D6": [
+      3,
+      3
+    ],
+    "CAM_PCLK": [
+      3,
+      3
+    ],
+    "CAM_VSYNC": [
+      3,
+      3
+    ],
+    "CAM_HREF": [
+      3,
+      3
+    ],
+    "USB_EN1": [
+      2,
+      2
+    ],
+    "USB_DM_MCU": [
+      1,
+      1
+    ],
+    "USB_DP_MCU": [
+      1,
+      1
+    ],
+    "USB_EN2": [
+      2,
+      2
+    ],
+    "unconnected-(U101-SPICS1_PSRAM-Pad28)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-VDD_SPI-Pad29)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad30)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad31)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad32)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad33)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad34)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad35)": [
+      1,
+      1
+    ],
+    "ILLUM_STROBE": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO33_PSRAM-Pad38)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO34_PSRAM-Pad39)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO35_PSRAM-Pad40)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO36_PSRAM-Pad41)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-GPIO37_PSRAM-Pad42)": [
+      1,
+      1
+    ],
+    "CAM_XCLK": [
+      3,
+      3
+    ],
+    "CAM_SCL": [
+      3,
+      3
+    ],
+    "CAM_PWR_EN": [
+      4,
+      4
+    ],
+    "CAM_RESET_UART_TX": [
+      4,
+      4
+    ],
+    "CAM_PWDN_UART_RX": [
+      4,
+      4
+    ],
+    "STRAP_GPIO45": [
+      1,
+      1
+    ],
+    "STRAP_GPIO46": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad53)": [
+      1,
+      1
+    ],
+    "unconnected-(U101-NC-Pad54)": [
+      1,
+      1
+    ],
+    "SENS_D7": [
+      2,
+      2
+    ],
+    "SENS_D0": [
+      2,
+      2
+    ],
+    "SENS_TRIG_IN": [
+      3,
+      3
+    ],
+    "SENS_VSYNC": [
+      2,
+      2
+    ],
+    "SENS_VIO_1V8": [
+      12,
+      12
+    ],
+    "RF_ANT": [
+      1,
+      1
+    ],
+    "SENS_D6": [
+      2,
+      2
+    ],
+    "SENS_D4": [
+      2,
+      2
+    ],
+    "SENS_D3": [
+      2,
+      2
+    ],
+    "SENS_D2": [
+      2,
+      2
+    ],
+    "SENS_D1": [
+      2,
+      2
+    ],
+    "SENS_SDA": [
+      3,
+      3
+    ],
+    "USB_DP": [
+      1,
+      1
+    ],
+    "USB_DM": [
+      1,
+      1
+    ],
+    "SENS_EXTCLK": [
+      2,
+      2
+    ],
+    "UNUSED_A_INPUT": [
+      2,
+      2
+    ],
+    "SENS_SCL": [
+      3,
+      3
+    ],
+    "unconnected-(U203-2B2-Pad10)": [
+      1,
+      1
+    ],
+    "SENS_XSHUTDN_N": [
+      3,
+      3
+    ],
+    "unconnected-(U501-INT2-Pad11)": [
+      1,
+      1
+    ],
+    "SENS_HREF": [
+      2,
+      2
+    ],
+    "SENS_PCLK": [
+      2,
+      2
+    ],
+    "CAM_3V3_SW": [
+      1,
+      1
+    ],
+    "unconnected-(AE101-Pad2)": [
+      1,
+      1
+    ],
+    "unconnected-(U202-2A2-Pad7)": [
+      1,
+      1
+    ],
+    "UNUSED_B_INPUT": [
+      2,
+      2
+    ],
+    "CAM_3V3_PRELINK": [
+      1,
+      1
+    ],
+    "CAM_QOD": [
+      1,
+      1
+    ],
+    "CAM_ON": [
+      1,
+      1
+    ],
+    "CAM_CT": [
+      1,
+      1
+    ],
+    "CONTACT": [
+      2,
+      2
+    ],
+    "": [
+      2,
+      2
+    ]
+  },
+  "core": {
+    "3V3_AON": {
+      "before": [
+        "J106.2"
+      ],
+      "after": [
+        "C102.1",
+        "C104.1",
+        "C105.1",
+        "C207.1",
+        "J106.2",
+        "R101.2",
+        "R102.2",
+        "R103.2",
+        "R240.2",
+        "R241.2",
+        "U101.20",
+        "U101.46",
+        "U101.55",
+        "U101.56"
+      ],
+      "total": 39
+    },
+    "GND": {
+      "before": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C208.2",
+        "C301.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2"
+      ],
+      "after": [
+        "C101.2",
+        "C102.2",
+        "C103.2",
+        "C104.2",
+        "C105.2",
+        "C106.2",
+        "C107.2",
+        "C208.2",
+        "C301.2",
+        "J106.3",
+        "J108.3",
+        "J109.3",
+        "J202.24",
+        "J301.2",
+        "Q201.2",
+        "R105.2",
+        "R106.2",
+        "R107.2",
+        "R108.2",
+        "R109.2",
+        "R202.2",
+        "R205.2",
+        "R207.2",
+        "R210.2",
+        "R211.2",
+        "R212.2",
+        "R213.2",
+        "R215.2",
+        "R217.2",
+        "R236.2",
+        "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+        "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+        "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+        "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+        "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+        "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+        "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+        "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+        "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302"
+      ],
+      "total": 102
+    }
+  },
+  "negative_checks": [
+    {
+      "kind": "AON_group",
+      "id": 0,
+      "pads_disconnect": [
+        "C104.1",
+        "U101.20"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 2,
+      "pads_disconnect": [
+        "R240.2",
+        "R241.2"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 5,
+      "pads_disconnect": [
+        "C105.1",
+        "U101.46"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 6,
+      "pads_disconnect": [
+        "U101.55",
+        "U101.56"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 8,
+      "pads_disconnect": [
+        "C102.1",
+        "R102.2"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 10,
+      "pads_disconnect": [
+        "R101.2"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 15,
+      "pads_disconnect": [
+        "R103.2"
+      ]
+    },
+    {
+      "kind": "AON_group",
+      "id": 19,
+      "pads_disconnect": [
+        "C207.1"
+      ]
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "07391477-b60e-454b-9318-f31eea74f1d9",
+      "pad": "U101.57#4c205a6e-a341-4388-a479-119936dba9f3",
+      "disconnected": false,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "07d7a27d-6787-47cd-ace9-bab77d4cc410",
+      "pad": "U101.57#9cfb0dae-5f02-469b-b604-732278f16482",
+      "disconnected": false,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "2c52f882-4764-4050-be73-93d875bb6e8b",
+      "pad": "U101.57#e2374ec6-da24-4723-8e2c-f08cd507c2cf",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "31c51be9-a3f6-4446-9c28-a584e04b4f9b",
+      "pad": "U101.57#0de17810-11f5-4886-9396-ef3db98ad5e0",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "437b2ca3-ab3a-4250-94b9-5df9e121782a",
+      "pad": "U101.57#e00fb0ca-2bab-41b9-8199-a062b6cf930c",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "5a702d35-5b51-4b0c-8ad9-9d7a83a368f6",
+      "pad": "U101.57#a4284ff2-c785-4218-9745-31552753482d",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "7e552e66-497a-45f1-952c-4a4acb66be33",
+      "pad": "U101.57#32bb485d-f189-426e-b0af-d376c218a5c0",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "8fd8757a-ab8d-499b-82da-dd04873c0ab5",
+      "pad": "U101.57#fd09fc28-178f-4ef9-b475-b126dc663302",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "EP_via_single_deletion",
+      "uuid": "d0ee9ac6-9675-41f6-bfc1-85774ee1c7d0",
+      "pad": "U101.57#fb757f71-448f-4a52-b6db-6549ae1617d0",
+      "disconnected": true,
+      "redundant_F_ground_bridge_may_keep_two_pads_connected": true
+    },
+    {
+      "kind": "all_EP_vias_removed",
+      "all_nine_pads_disconnect": true
+    }
+  ],
+  "plane_delta": [
+    {
+      "uuid": "4de2885e-8a49-4b62-b7fa-f2ba7e420fa7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "removed_mm2": 6.4178500846395,
+      "added_mm2": 0.0,
+      "normalized_025_eroded_components_before": 1,
+      "after": 1,
+      "before_holes": 29,
+      "after_holes": 38
+    },
+    {
+      "uuid": "f6fd4956-22d0-45be-a9b3-b3927367a8b7",
+      "net": "GND",
+      "layer": "In1.Cu",
+      "removed_mm2": 0.0,
+      "added_mm2": 0.0,
+      "normalized_025_eroded_components_before": 1,
+      "after": 1,
+      "before_holes": 1,
+      "after_holes": 1
+    },
+    {
+      "uuid": "af69067f-dac4-4b7f-a765-6a5e1cc8b7d6",
+      "net": "3V3_AON",
+      "layer": "In2.Cu",
+      "removed_mm2": 5.7431671454275,
+      "added_mm2": 0.0,
+      "normalized_025_eroded_components_before": 1,
+      "after": 1,
+      "before_holes": 26,
+      "after_holes": 34
+    },
+    {
+      "uuid": "150778f4-2a31-499a-942d-1665696e50ac",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "removed_mm2": 6.4178500846395,
+      "added_mm2": 0.0,
+      "normalized_025_eroded_components_before": 1,
+      "after": 1,
+      "before_holes": 29,
+      "after_holes": 38
+    },
+    {
+      "uuid": "fedaf716-0cd7-4d04-a732-236795bf7639",
+      "net": "GND",
+      "layer": "In4.Cu",
+      "removed_mm2": 0.0,
+      "added_mm2": 0.0,
+      "normalized_025_eroded_components_before": 1,
+      "after": 1,
+      "before_holes": 1,
+      "after_holes": 1
+    }
+  ],
+  "all_existing_signal_reference_additional_losses": [],
+  "full_DRC": [
+    0,
+    181,
+    0
+  ],
+  "limits": [
+    "Pin2/3 analog main feed still missing; AON25/39 pads unconnected",
+    "C207 GND absent; not all added AON branches have complete decoupling returns",
+    "Nine .60/.30 EP vias, one relocated between EP islands; solder mask registration, hole treatment and assembly still unqualified",
+    "0.254mm branches follow general guide suggestion; no domain current/thermal/transient guarantee",
+    "Plane erosion is representation-guarded geometric screening, not current rating"
+  ]
+}

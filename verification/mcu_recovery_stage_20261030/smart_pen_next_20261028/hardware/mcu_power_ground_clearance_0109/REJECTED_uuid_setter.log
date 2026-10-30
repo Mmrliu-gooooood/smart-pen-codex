@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/mcu_power_ground_clearance_0109/materialize.py", line 7, in <module>
+    v.SetPosition(p.VECTOR2I(4250000,10750000));t=p.PCB_TRACK(b);t.SetNet(b.FindNet('GND'));t.SetLayer(p.F_Cu);t.SetWidth(500000);t.SetStart(p.VECTOR2I(4500000,10000000));t.SetEnd(p.VECTOR2I(4250000,10750000));t.m_Uuid=p.KIID('2a8245e5-1697-5ce2-9c4d-1ff934ed4eb2');b.Add(t);p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(f),b);first=f.read_bytes();b=p.LoadBoard(str(f));p.ZONE_FILLER(b).Fill(b.Zones());p.SaveBoard(str(f),b)
+                                                                                                                                                                                                                  ^^^^^^^^
+AttributeError: property 'm_Uuid' of 'PCB_TRACK' object has no setter
