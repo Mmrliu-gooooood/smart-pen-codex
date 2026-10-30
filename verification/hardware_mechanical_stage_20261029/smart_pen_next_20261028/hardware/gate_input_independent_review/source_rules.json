@@ -1,0 +1,306 @@
+{
+  "frozen_dependencies": {
+    "gate_input_local_routing": {
+      "manifest_sha256": "6c6c93af899a132c19bcb04fa51918fdae25c73c7b09ec636fe911791d94953b",
+      "files": 87
+    },
+    "imu_compact_0402_placement": {
+      "manifest_sha256": "d7240c77722bdfbd61bfdef5e62e449d92add6f5e06743fb4209b07bebc089ea",
+      "files": 96
+    },
+    "gate_supply_native_mpn_source": {
+      "manifest_sha256": "d9ee61999f3520b4ddd34ccc2bf32919809f872f04905611f2bfae4abba374b8",
+      "files": 152
+    }
+  },
+  "native_MPN_contract": {
+    "status": "NOFAB",
+    "parent_manifest_sha256": "92e8f68b5bba70b8a8e8d7c84ebc765cd6b61a98c93f4311484f5e14eb4c21cf",
+    "gate_candidate_source": "hardware/camera_power_gate_placement_study/bom_candidates.json",
+    "gate_candidate_sha256": "2149e6ea76c6f56845ad48b6f13caf0b2865fa744a6105d15b83104aecfd88f6",
+    "parts": {
+      "C501": {
+        "manufacturer": "KEMET",
+        "mpn": "C0402C104K4RACTU",
+        "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+      },
+      "C502": {
+        "manufacturer": "KEMET",
+        "mpn": "C0402C104K4RACTU",
+        "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+      },
+      "C503": {
+        "manufacturer": "KEMET",
+        "mpn": "C0805C106K8RACTU",
+        "status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+      },
+      "U301": {
+        "manufacturer": "Texas Instruments",
+        "mpn": "TPS22918DBVR",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": ""
+      },
+      "C301": {
+        "manufacturer": "TDK",
+        "mpn": "C2012X7R1A106K125AE",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": "Standard X7R, no half-rated-voltage TC. DC-bias effective CIN at3.0/3.3/3.6V not yet qualified. Not allowed to equate10uF nominal with10uF effective."
+      },
+      "C302": {
+        "manufacturer": "TDK",
+        "mpn": "C1608X7R1A105K080AC",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": "NRND exact original rating. Production alternate C1608X7R1C105K080AC is16V and0.9mm max; not silently substituted."
+      },
+      "C303": {
+        "manufacturer": "TDK",
+        "mpn": "C1608C0G1H102J080AA",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": "Voltage-rating-upgrade candidate compared with original25V requirement; original source unchanged."
+      },
+      "R301": {
+        "manufacturer": "YAGEO",
+        "mpn": "RC0603FR-07100KL",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": ""
+      },
+      "R302": {
+        "manufacturer": "YAGEO",
+        "mpn": "RC0603FR-071KL",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": ""
+      },
+      "R303": {
+        "manufacturer": "YAGEO",
+        "mpn": "RC0603FR-07100RL",
+        "status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED",
+        "inherited_restriction": ""
+      }
+    },
+    "net_value_footprint_changes": false
+  },
+  "functional_endpoints_unchanged": true,
+  "configuration": {
+    "pcb_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_input_independent_review/native_snapshot/mainboard_revD.kicad_pcb",
+    "pcb_sha256": "ae805cea5d51e864588bdf052b64e1bacce118a122b9f98ce21ddaa15345a691",
+    "project_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_input_independent_review/native_snapshot/mainboard_revD.kicad_pro",
+    "project_sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+    "custom_rules_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_input_independent_review/native_snapshot/mainboard_revD.kicad_dru",
+    "custom_rules_sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+    "schematic_sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "net_settings_sha256": "e4f5dac073d8f63e7e1f5240cbda8c0a1e62a1d9bd3746e060e7b4b0b8285a53",
+    "design_settings_sha256": "7ba6ff8ac812bf5675ba3135fc2e0904aef7819a90bee318a73a73d4c78cbc7c",
+    "native_layers_sha256": "8fca8186d277bb9a70e397f9bfaaa6f784319f817895a6457f1c7c4d9a40de00",
+    "copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "general_thickness_mm": 0.83,
+    "explicit_stackup_present": true,
+    "stackup_raw_sha256": "d0a8622c9ba1d1a7530486881020383829b57f62fa8225f2bc8b42d8eec30dc4",
+    "stackup_known_geometry_sha256": "232ba03999f7f5345fa65c797cbe4d8b8c3d3510c60b4627f010bc40ee89a7e6",
+    "unqualified_material_values_present": [
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)"
+    ],
+    "status": "ROUTING_CONFIGURATION_BOUND",
+    "manufacturing_approved": false,
+    "manufacturing_blockers": [
+      "manufacturer_selected",
+      "layer_tolerances_confirmed",
+      "mask_and_material_confirmed",
+      "DFM_confirmed",
+      "quotation_confirmed",
+      "impedance_process_confirmed",
+      "valid_manufacturer_confirmation_record_missing"
+    ],
+    "impedance_calculation_allowed": false,
+    "lock_sha256": "f8d2a54ca26933e6522cf001eb82fc2bb43b1c344cc30613e1182a3a1f164a3a"
+  },
+  "manufacturing_negative_rejected": true,
+  "fresh_DRC": [
+    135,
+    54,
+    0
+  ],
+  "signal_reroute_metrics": {
+    "CAM_IO_EN": {
+      "before_mm": 6.7,
+      "after_mm": 7.61126983722081,
+      "layer": "F.Cu"
+    },
+    "CAM_ISO_OE_N": {
+      "before_mm": 3.0,
+      "after_mm": 3.0414213562373096,
+      "layer": "F.Cu"
+    },
+    "USB_EN1": {
+      "before_mm": 36.25,
+      "after_mm": 36.457106781186546,
+      "layer": "B.Cu"
+    }
+  },
+  "new_actual_power_geometry": {
+    "3V3_AON": [
+      {
+        "uuid": "41d7538c-1932-4e07-a9b2-5cf2680bcaa1",
+        "type": "PCB_VIA",
+        "start_mm": [
+          11.3,
+          66.05
+        ],
+        "end_mm": [
+          11.3,
+          66.05
+        ],
+        "width_mm": 0.6,
+        "length_mm": 0.0
+      },
+      {
+        "uuid": "625dc684-9127-4c8e-93b0-91393112b86f",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          11.1,
+          64.3
+        ],
+        "end_mm": [
+          11.3,
+          64.5
+        ],
+        "width_mm": 0.5,
+        "length_mm": 0.28284271247461906
+      },
+      {
+        "uuid": "70df3d3d-ab62-47ae-82c5-c820a1158542",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          11.3,
+          64.5
+        ],
+        "end_mm": [
+          11.3,
+          64.8
+        ],
+        "width_mm": 0.5,
+        "length_mm": 0.3
+      },
+      {
+        "uuid": "dcee862e-0c8a-4462-8064-175b948c9219",
+        "type": "PCB_VIA",
+        "start_mm": [
+          11.3,
+          64.8
+        ],
+        "end_mm": [
+          11.3,
+          64.8
+        ],
+        "width_mm": 0.6,
+        "length_mm": 0.0
+      },
+      {
+        "uuid": "fdafc0bb-0af9-47a1-99b3-24b4fddd8374",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          11.1,
+          65.95
+        ],
+        "end_mm": [
+          11.3,
+          66.05
+        ],
+        "width_mm": 0.5,
+        "length_mm": 0.22360679774997896
+      }
+    ],
+    "GND": [
+      {
+        "uuid": "212a034f-1400-4243-a444-37eb0fb243b3",
+        "type": "PCB_VIA",
+        "start_mm": [
+          11.3,
+          67.0
+        ],
+        "end_mm": [
+          11.3,
+          67.0
+        ],
+        "width_mm": 0.6,
+        "length_mm": 0.0
+      },
+      {
+        "uuid": "4ff4f48f-cd10-4f1f-8290-c19a0e444a22",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          9.9,
+          63.4
+        ],
+        "end_mm": [
+          10.0,
+          63.4
+        ],
+        "width_mm": 0.3,
+        "length_mm": 0.1
+      },
+      {
+        "uuid": "d3609dcd-dbac-4f09-bfda-2ae10bd887bc",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          9.4,
+          63.9
+        ],
+        "end_mm": [
+          9.9,
+          63.4
+        ],
+        "width_mm": 0.3,
+        "length_mm": 0.7071067811865476
+      },
+      {
+        "uuid": "edc7d765-4a44-47ef-b859-9ec3e6b225aa",
+        "type": "PCB_TRACK",
+        "start_mm": [
+          11.1,
+          67.0
+        ],
+        "end_mm": [
+          11.3,
+          67.0
+        ],
+        "width_mm": 0.4,
+        "length_mm": 0.2
+      }
+    ]
+  },
+  "via_planar_separations_mm": {
+    "AON": 1.25,
+    "GND": 3.827531841800929
+  },
+  "limitations": "Supply escapes are through actual fill, not direct cap-to-pin wire. No gate ON/CT/QOD/output completion or HF/PI approval.",
+  "source_hashes": {
+    "mainboard_revD.kicad_sch": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "schematic/physical_interfaces.kicad_sch": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+    "schematic/pickup_on_main.kicad_sch": "0b339a9d9b0a8ddf8a07e3f585a31460c30480f3b75aeb7044bf5c112a7898a0",
+    "schematic/usb_entry.kicad_sch": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+    "schematic/recovery_fixture.kicad_sch": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+    "schematic/mcu_core.kicad_sch": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+    "schematic/mainboard_revD.kicad_sch": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+    "schematic/usb_main_port.kicad_sch": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+    "schematic/safe_bias_interfaces.kicad_sch": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+    "schematic/dvp_translation.kicad_sch": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+    "schematic/controls_sccb.kicad_sch": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+    "schematic/camera_gate_on_main.kicad_sch": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+  }
+}

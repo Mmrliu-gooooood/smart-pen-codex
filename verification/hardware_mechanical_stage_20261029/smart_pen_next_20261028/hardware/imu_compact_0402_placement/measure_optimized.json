@@ -1,0 +1,160 @@
+{
+  "pcb_sha256": "dd55c7b2a342bea2ea900a6daac70f7dff88274d1ad05132aa6ce3ef6b93d9a5",
+  "branches": [
+    {
+      "name": "C501.1 to U501.10 VDDIO",
+      "net": "3V3_AON",
+      "segments": [
+        {
+          "uuid": "215d40cc-3bc2-4dd8-8053-e00659b2862f",
+          "length_mm": 0.7778174593052002,
+          "width_mm": 0.2
+        },
+        {
+          "uuid": "7f287f44-b9a1-455e-aa60-b2b263bafc2d",
+          "length_mm": 0.40749999999999975,
+          "width_mm": 0.2
+        }
+      ],
+      "trace_only_length_mm": 1.1853174593052
+    },
+    {
+      "name": "C502.1 to U501.9 VDD",
+      "net": "3V3_AON",
+      "segments": [
+        {
+          "uuid": "5edc8c7d-109c-4c25-9a6b-586211d97ff5",
+          "length_mm": 0.3535533905932738,
+          "width_mm": 0.2
+        },
+        {
+          "uuid": "8fc577ff-4ecc-4e34-8b6a-6dad53443d46",
+          "length_mm": 0.7074999999999996,
+          "width_mm": 0.2
+        }
+      ],
+      "trace_only_length_mm": 1.0610533905932733
+    },
+    {
+      "name": "shared AON local spine",
+      "net": "3V3_AON",
+      "segments": [
+        {
+          "uuid": "71791811-c0a5-452c-b972-df7a1174dc62",
+          "length_mm": 1.2999999999999972,
+          "width_mm": 0.3
+        },
+        {
+          "uuid": "7283451c-31f0-4dbc-b70f-6b3991a78944",
+          "length_mm": 0.7999999999999972,
+          "width_mm": 0.3
+        }
+      ],
+      "trace_only_length_mm": 2.0999999999999943
+    },
+    {
+      "name": "C501.2 to local ground via",
+      "net": "GND",
+      "segments": [
+        {
+          "uuid": "da82ee1b-1deb-4724-ab7f-4ffdad78b5ac",
+          "length_mm": 0.6499999999999915,
+          "width_mm": 0.25
+        },
+        {
+          "uuid": "9f9aeda9-267a-411b-b165-d096477ccb9a",
+          "length_mm": 0.1299999999999999,
+          "width_mm": 0.25
+        }
+      ],
+      "trace_only_length_mm": 0.7799999999999914
+    },
+    {
+      "name": "C502.2 to local ground via",
+      "net": "GND",
+      "segments": [
+        {
+          "uuid": "c1a1d7b2-4e58-4153-85f3-dc1a211063f1",
+          "length_mm": 0.6500000000000057,
+          "width_mm": 0.25
+        },
+        {
+          "uuid": "9f9aeda9-267a-411b-b165-d096477ccb9a",
+          "length_mm": 0.1299999999999999,
+          "width_mm": 0.25
+        }
+      ],
+      "trace_only_length_mm": 0.7800000000000056
+    },
+    {
+      "name": "U501.8 to chip ground via",
+      "net": "GND",
+      "segments": [
+        {
+          "uuid": "1611968e-ec4f-408a-81ab-91802ca95e64",
+          "length_mm": 0.33749999999999947,
+          "width_mm": 0.15
+        },
+        {
+          "uuid": "b32cec02-80e5-4650-81cc-f56da5aa6e17",
+          "length_mm": 0.9500000000000028,
+          "width_mm": 0.25
+        },
+        {
+          "uuid": "3b301b9d-3ae2-488b-b43d-4ed1cdb03196",
+          "length_mm": 0.5656854249492322,
+          "width_mm": 0.25
+        },
+        {
+          "uuid": "09b01d42-338c-4c67-817b-3d4fb4a38db6",
+          "length_mm": 0.20000000000000018,
+          "width_mm": 0.25
+        }
+      ],
+      "trace_only_length_mm": 2.053185424949235
+    },
+    {
+      "name": "C503.2 to chip ground via",
+      "net": "GND",
+      "segments": [
+        {
+          "uuid": "2856f558-f55f-44ae-96da-8c4b7ac147ac",
+          "length_mm": 0.7778174593052002,
+          "width_mm": 0.25
+        },
+        {
+          "uuid": "5c68e660-12f6-41a5-a385-fbaf8b6a4169",
+          "length_mm": 0.3500000000000085,
+          "width_mm": 0.25
+        }
+      ],
+      "trace_only_length_mm": 1.1278174593052088
+    },
+    {
+      "name": "C503.1 to AON via",
+      "net": "3V3_AON",
+      "segments": [
+        {
+          "uuid": "75c11cac-4199-45d1-bc45-6525010f7c7d",
+          "length_mm": 1.0999999999999943,
+          "width_mm": 0.3
+        }
+      ],
+      "trace_only_length_mm": 1.0999999999999943
+    }
+  ],
+  "cap_ground_via_to_chip_ground_via_planar_separation_mm": {
+    "C501": 2.4052026941611384,
+    "C502": 2.4052026941611384
+  },
+  "previous_independent_mm": {
+    "C501": 5.263079,
+    "C502": 4.181507
+  },
+  "notes": [
+    "Trace lengths exclude pad traversal and plane/via impedance.",
+    "Straight-line ground via separation is not actual return-current path or inductance.",
+    "0.15 mm remains only a 0.3375 mm ground pad escape; shared ground trunk is 0.25 mm.",
+    "No HF/PI qualification, only improved geometry."
+  ]
+}

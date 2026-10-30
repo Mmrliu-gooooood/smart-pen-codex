@@ -1,0 +1,71 @@
+{
+  "pcb_sha256": "ae805cea5d51e864588bdf052b64e1bacce118a122b9f98ce21ddaa15345a691",
+  "source_manifest_sha256": "d9ee61999f3520b4ddd34ccc2bf32919809f872f04905611f2bfae4abba374b8",
+  "native_MPN_refs_verified": [
+    "C501",
+    "C502",
+    "C503",
+    "U301",
+    "C301",
+    "C302",
+    "C303",
+    "R301",
+    "R302",
+    "R303"
+  ],
+  "exact_source_sheets_match": true,
+  "no_footprint_placement_change": true,
+  "signal_rework_lengths_mm": {
+    "CAM_IO_EN": {
+      "old": 6.7,
+      "new": 7.611269837220806,
+      "delta": 0.9112698372208055
+    },
+    "CAM_ISO_OE_N": {
+      "old": 3,
+      "new": 3.0414213562373122,
+      "delta": 0.041421356237312246
+    },
+    "USB_EN1": {
+      "old": 36.25,
+      "new": 36.45710678118654,
+      "delta": 0.20710678118653902
+    }
+  },
+  "signal_classification": {
+    "CAM_IO_EN": "low-speed isolation control, not camera data/clock",
+    "CAM_ISO_OE_N": "low-speed isolation output-enable control, not DVP/XCLK",
+    "USB_EN1": "low-speed charging/input current mode selection, not USB D+/D-"
+  },
+  "local_input": {
+    "C301_AON_pad_escape_to_via_trace_mm": 0.5828427124746189,
+    "U301_VIN_pad_escape_to_via_trace_mm": 0.22360679774997896,
+    "AON_via_center_separation_mm": 1.25,
+    "AON_trace_width_mm": 0.5,
+    "C301_GND_pad_escape_to_existing_ground_via_trace_mm": 0.8071067811865476,
+    "U301_GND_pad_escape_to_new_ground_via_trace_mm": 0.2,
+    "GND_via_center_separation_mm": 3.8275318418009276,
+    "GND_widths_mm": [
+      0.3,
+      0.4
+    ],
+    "new_via_diameter_drill_mm": [
+      0.6,
+      0.3
+    ],
+    "existing_cap_ground_via_xy_mm": [
+      10,
+      63.4
+    ],
+    "ground_via_shared_with_existing_core": true,
+    "note": "Lengths start at actual track endpoints overlapping pad copper; exclude current spread inside pad/barrel/filled plane. Via-centre separations are NOT plane path length or loop inductance. No guaranteed total VIN/GND loop length or PI qualification."
+  },
+  "safety": {
+    "JP301": "OPEN/DNP",
+    "EN_CT_QOD_output_routing_completed": false,
+    "TPS22918_overcurrent_protection": false,
+    "unknown_camera_approved": false,
+    "effective_CIN_to_external_CL_ratio_verified": false,
+    "off_domain_IO_backfeed_verified": false
+  }
+}

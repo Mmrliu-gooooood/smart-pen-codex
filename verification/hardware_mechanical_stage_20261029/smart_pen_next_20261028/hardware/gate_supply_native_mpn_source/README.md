@@ -1,0 +1,11 @@
+# Gate routing source successor: native MPN fields / NOFAB
+
+Used for the next actual U301/C301 supply block; no PCB or electrical network change here. Frozen `imu_decoupling_0402_source_fix` remains unchanged.
+
+Adds three native hidden fields (`Manufacturer`, `MPN`, `ProcurementStatus`) to 10 already specified candidates, in both complete system and selected mainboard sources. Fresh native XML now contains their exact candidate identity, not merely generic value/footprint. C501/C502/C503 use the frozen KEMET contracts. U301/C301/C302/C303/R301/R302/R303 inherit the existing `camera_power_gate_placement_study/bom_candidates.json` identities and **conditional geometry-only status**, not an invented purchasing approval. No MPN is invented for wirelands or copper commissioning bridge. Remaining generic parts remain generic, not secretly qualified.
+
+Important inherited limits: C302's exact 10 V part is NRND, and the 16 V alternate was not silently substituted. C303's 50 V candidate is a documented rating-upgrade candidate relative to the old requirement. C301 DC bias remains open. Full board budget, distributor/assembly quotes and effective capacitance/PI remain open. Load switch is not an overcurrent-protection guarantee; unknown-camera and off-domain IO-backfeed gates remain. JP301 OPEN remains unchanged.
+
+`tools/check.py` compares entire native S-expressions after removing only the three new fields, preserving all electrical values, footprint, UUID and hierarchy. Fresh netlists preserve master112/436, selected102/356 and fixture3/7. Master/fixture ERC0; selected only existing VBUS_5V singleton warning. Six wrong/missing-MPN negative cases rejected in both normal and optimized Python. `native_mpn_contract.json` and `annotated_candidate_bom.csv` are the exact same candidate map; manufacturing must not promote candidate status or substitute parts merely because XML now includes MPN.
+
+Historical dd55 `source0402_pending=true` was a build-stage flag, superseded by final source binding. This new source is explicitly final field-bound, with exact schematic hashes in `source_versions.json`; do not overwrite the old historical file. Routing worker must explicitly copy this complete selected source tree into a new board successor and rerun full parity/DRC. No current PCB parity is claimed by this source-only package.

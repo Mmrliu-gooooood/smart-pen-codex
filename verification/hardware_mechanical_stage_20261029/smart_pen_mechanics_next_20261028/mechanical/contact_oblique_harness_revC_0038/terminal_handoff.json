@@ -1,0 +1,379 @@
+{
+  "status": "COMPLETE_STATIC_ROUTE_CANDIDATE_NOT_FREE_USE_NOFAB",
+  "source_native_sha256": "dd55c7b2a342bea2ea900a6daac70f7dff88274d1ad05132aa6ce3ef6b93d9a5",
+  "carrier_native_sha256": "3db226eae8e2baa698cad2c421c149850497b2831b513b95a30a5933c8412ab2",
+  "carrier_pad_map": [
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "net": "GND",
+      "PCB_xy": [
+        5.875,
+        4.15
+      ],
+      "pen_front_XYZ": [
+        2.125,
+        -4.550000000000001,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        2.125,
+        -4.550000000000001,
+        79.2
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "net": "GND",
+      "PCB_xy": [
+        5.875,
+        2.65
+      ],
+      "pen_front_XYZ": [
+        2.125,
+        -3.05,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        2.125,
+        -3.05,
+        79.2
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pin": "3",
+      "net": "CONTACT",
+      "PCB_xy": [
+        1.625,
+        3.4
+      ],
+      "pen_front_XYZ": [
+        -2.125,
+        -3.8,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        -2.125,
+        -3.8,
+        79.2
+      ]
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "CONTACT",
+      "PCB_xy": [
+        1.45,
+        1.2
+      ],
+      "pen_front_XYZ": [
+        -2.3,
+        -1.6,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        -2.3,
+        -1.6,
+        79.2
+      ]
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "net": "GND",
+      "PCB_xy": [
+        6.05,
+        1.2
+      ],
+      "pen_front_XYZ": [
+        2.3,
+        -1.6,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        2.3,
+        -1.6,
+        79.2
+      ]
+    }
+  ],
+  "mainboard_pads": [
+    {
+      "ref": "J103",
+      "pin": "1",
+      "net": "CONTACT",
+      "PCB_xy": [
+        3,
+        52
+      ],
+      "pen_copper": [
+        -4,
+        2.264793176328504,
+        75
+      ]
+    },
+    {
+      "ref": "J103",
+      "pin": "2",
+      "net": "GND",
+      "PCB_xy": [
+        5.4,
+        52
+      ],
+      "pen_copper": [
+        -1.6,
+        2.264793176328504,
+        75
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "net": "CONTACT",
+      "calibration_shift": -0.2,
+      "start_center": [
+        -2.3,
+        -1.6,
+        78.0857
+      ],
+      "end_center": [
+        -4.0,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.3303759580815506,
+        0.7288663390634396,
+        -0.5996712316777891
+      ],
+      "straight_cut_length": 5.145652879439759,
+      "strip_each_end": 0.8,
+      "insulated_length": 3.5456528794397593,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.1999999944779549
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.022831828396832066
+        ],
+        [
+          "CTX_main_board",
+          0.03604381740999241
+        ]
+      ]
+    },
+    {
+      "net": "CONTACT",
+      "calibration_shift": 0,
+      "start_center": [
+        -2.3,
+        -1.6,
+        78.2857
+      ],
+      "end_center": [
+        -4.0,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.3227019529077792,
+        0.7119361602167693,
+        -0.6237069450994658
+      ],
+      "straight_cut_length": 5.268018940331053,
+      "strip_each_end": 0.8,
+      "insulated_length": 3.6680189403310526,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.19999999999999862
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.024956460062512065
+        ],
+        [
+          "CTX_main_board",
+          0.03403348897011993
+        ]
+      ]
+    },
+    {
+      "net": "CONTACT",
+      "calibration_shift": 0.2,
+      "start_center": [
+        -2.3,
+        -1.6,
+        78.48570000000001
+      ],
+      "end_center": [
+        -4.0,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.3151050723329653,
+        0.6951761315360505,
+        -0.6460951474300116
+      ],
+      "straight_cut_length": 5.3950258160352424,
+      "strip_each_end": 0.8,
+      "insulated_length": 3.7950258160352424,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.1999999999984294
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.02705973894545366
+        ],
+        [
+          "CTX_main_board",
+          0.0321366515593593
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "calibration_shift": -0.2,
+      "start_center": [
+        2.3,
+        -1.6,
+        78.0857
+      ],
+      "end_center": [
+        -1.6,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.6261254732639824,
+        0.6021229012825695,
+        -0.4953936853463263
+      ],
+      "straight_cut_length": 6.228783473174091,
+      "strip_each_end": 0.8,
+      "insulated_length": 4.6287834731740904,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.19999999817610326
+        ],
+        [
+          "HousingRight",
+          0.1999999486854236
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.01501118165865023
+        ],
+        [
+          "CTX_main_board",
+          0.023042489760888518
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "calibration_shift": 0,
+      "start_center": [
+        2.3,
+        -1.6,
+        78.2857
+      ],
+      "end_center": [
+        -1.6,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.6160897310248029,
+        0.5924718800550223,
+        -0.5190476998021022
+      ],
+      "straight_cut_length": 6.330246721549383,
+      "strip_each_end": 0.8,
+      "insulated_length": 4.730246721549383,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.19999999999999912
+        ],
+        [
+          "HousingRight",
+          0.19999999431075233
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.016602615054438274
+        ],
+        [
+          "CTX_main_board",
+          0.0222209336558854
+        ]
+      ]
+    },
+    {
+      "net": "GND",
+      "calibration_shift": 0.2,
+      "start_center": [
+        2.3,
+        -1.6,
+        78.48570000000001
+      ],
+      "end_center": [
+        -1.6,
+        2.150493176328504,
+        75.0
+      ],
+      "unit_tangent": [
+        -0.6059356648283513,
+        0.5827070708289248,
+        -0.5415666530492792
+      ],
+      "straight_cut_length": 6.4363268683067,
+      "strip_each_end": 0.8,
+      "insulated_length": 4.836326868306699,
+      "collisions": [],
+      "near": [
+        [
+          "HousingLeft",
+          0.19999999999998452
+        ],
+        [
+          "HousingRight",
+          0.19999999474147528
+        ],
+        [
+          "SwitchCarrierPCB",
+          0.018212811855335076
+        ],
+        [
+          "CTX_main_board",
+          0.021410416705410107
+        ]
+      ]
+    }
+  ],
+  "wire_source": "Alpha2840/7 official32AWG7/40 silverplatedcopper/PTFE;maxOD.6096mm;minR6.096mm",
+  "curvature": 0,
+  "strip_each_end_mm": 0.8,
+  "strip_is_unqualified_project_trial": true,
+  "calibrate_then_cut_and_solder": true,
+  "service_requires_desolder_and_replace_wires": true,
+  "assembly_access": "two sidewindows;own tool diameter budget .6;realtool/thermaltestpending",
+  "strain_relief_qualified": false,
+  "support_sleeves_only": true,
+  "common_mainboard_cassette_fixture_qualified": false,
+  "whole_pen_manufacturable": false
+}

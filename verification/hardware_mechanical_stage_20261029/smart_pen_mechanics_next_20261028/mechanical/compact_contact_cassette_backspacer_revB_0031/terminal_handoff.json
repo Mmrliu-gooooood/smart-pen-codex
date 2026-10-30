@@ -1,0 +1,92 @@
+{
+  "status": "CONDITIONAL_REAL_CARRIER_TERMINALS_NOT_FULL_HARNESS_RELEASE",
+  "mainboard_scope_sha256": "405920aa9030b4ce8d6d97dc9f9add43ef218c1dba8fd7676cd848dd393eea7a",
+  "future_C503_10uF_0805_inherited": false,
+  "carrier_native_sha256": "a0b259273a7b883d45b64cd5cd9030a16339ba071e97234b377f11e0bed8ca23",
+  "cad_sha256": "3de02af7f20c922e903bb699ca59cb18b78aa14ae0f43f0b698159cfc7325079",
+  "pins": [
+    {
+      "ref": "J1",
+      "pin": "1",
+      "net": "CONTACT",
+      "PCB_xy": [
+        1.45,
+        1.2
+      ],
+      "pen_front_XYZ": [
+        -2.3,
+        -1.6,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        -2.3,
+        -1.6,
+        79.2
+      ]
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "net": "GND",
+      "PCB_xy": [
+        6.05,
+        1.2
+      ],
+      "pen_front_XYZ": [
+        2.3,
+        -1.6,
+        78.4
+      ],
+      "pen_rear_XYZ": [
+        2.3,
+        -1.6,
+        79.2
+      ]
+    }
+  ],
+  "vendor_switch": "SPVE110100 conditional;SW1.1/2GND,SW1.3CONTACT",
+  "PCB_calibration_Z_shift_mm": [
+    -0.2,
+    0.2
+  ],
+  "defined_current_exit_tangent": [
+    0,
+    0,
+    1
+  ],
+  "straight_aperture_mm": [
+    2.4,
+    2.0
+  ],
+  "OD_geometry_upper_bound_mm": 1.6,
+  "OD_bound_clearance_each_side_mm": 0.2,
+  "selected_wire": null,
+  "approved_bend_radius": null,
+  "approved_cut_length": null,
+  "existing_Alpha2840_direct_exit_rejected": {
+    "endpoint_Euclidean_lower_bounds_only": {
+      "75": {
+        "CONTACT": 5.955386326326395,
+        "GND": 6.912787158288283
+      },
+      "70": {
+        "CONTACT": 10.122580021703726,
+        "GND": 10.713852075504656
+      }
+    },
+    "normal_exit": "+Z",
+    "reference_bend_R": 6.096,
+    "to_power_axial_distance": 2.799999999999997,
+    "maximum_radial_deflection_before_power_for_constant_minR_arc": 0.6810931679298466,
+    "minimum_needed_to_exit_power_y": 2.035206823671496,
+    "rejected_this_direct_normal_exit": true,
+    "scope": "Bounded normal-exit arc family atR>=6.096; not theorem against all multi-turn/side-entry designs; wire radius andclearance make bound stricter",
+    "approved_wire_length": null,
+    "approved_bend_path": false
+  },
+  "requires_electrical_source_revision": true,
+  "minimum_load_gate": "50uA@3V;frozen100knotqualified;47konlyconditionalAONmin",
+  "life_gate": "50000catalogcyclesnotconsumerlifequalification",
+  "assembly_gate": "external axialmount/threadmaterial/torque/softgrip/forcehysteresis/strainreliefnotqualified",
+  "prototype_cost_CNY": null
+}

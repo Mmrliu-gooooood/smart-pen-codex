@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/battery_adc_candidate/battery_adc_candidate.kicad_sch</source>
+    <date>2026-10-28T20:07:08+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/">
+      <title_block>
+        <title>2026-10-28 REBUILD / NO FAB</title>
+        <company/>
+        <rev>R0</rev>
+        <date/>
+        <source>adc_frontend.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>battery_adc_candidate.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF 10% effective capacitance TBD</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>8b2b9759-f899-44e8-b415-8f1cdc272e5a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="C" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>5afa7e3e-2a61-46e0-b222-7c55911968ad</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Protected pack / NOT raw cell</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>f8a086cd-d5f7-4a99-a215-3e429f458da0</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MAIN GPIO4 / pad9</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>52daa273-e95c-4c79-bc4d-56a4bfc13552</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AON supply</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>d38dd6af-129e-40b5-a4c1-47e35341f760</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Hardware PG ONLY / NOT GPIO</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="PORT" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>004e8dc4-0994-4823-9cb6-df64976d9fb2</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>OPEN commissioning bridge</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="JP" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>7793c60b-2397-4516-8212-45eaaef4eb08</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>OPEN commissioning bridge</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="JP" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>9c748772-dffa-48a2-a04c-036c9ab63d02</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>e9f731ed-dc01-40bd-9105-a3a0263d6309</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>d73d3f08-0ebc-4f5a-8e83-dbe79b56b5db</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>0bf82f80-b6ff-42c6-8fbb-cfaf9393c7eb</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="R" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>810dc815-bc2e-407f-91ee-d414e8edbc15</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TMUX1511PWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Pen" part="TMUX1511PWR" description=""/>
+      <property name="Sheetname" value="adc_frontend"/>
+      <property name="Sheetfile" value="adc_frontend.kicad_sch"/>
+      <sheetpath names="/adc_frontend/" tstamps="/302f62a4-d29d-4efd-a751-652290fa2efd/"/>
+      <tstamps>d4a5942e-f03b-49e6-8837-0b924b5d2dbc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Pen" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="JP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">JP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="PORT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PORT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pen" part="TMUX1511PWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMUX1511PWR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SEL1" type="input"/>
+        <pin num="2" name="S1" type="passive"/>
+        <pin num="3" name="D1" type="passive"/>
+        <pin num="4" name="SEL2" type="input"/>
+        <pin num="5" name="S2" type="passive"/>
+        <pin num="6" name="D2" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="D3" type="passive"/>
+        <pin num="9" name="S3" type="passive"/>
+        <pin num="10" name="SEL3" type="input"/>
+        <pin num="11" name="D4" type="passive"/>
+        <pin num="12" name="S4" type="passive"/>
+        <pin num="13" name="SEL4" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Pen">
+      <uri>/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/battery_adc_candidate/Pen.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3_AON" class="Default">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="ADC_ISO_EN" class="Default">
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SEL1" pintype="input"/>
+    </net>
+    <net code="3" name="ADC_ISO_OUT" class="Default">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="4" name="BATTERY_ADC" class="Default">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SEL3" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="D4" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="S4" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SEL4" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="SEL2" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="S2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="D3" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="6" name="PROTECTED_VBAT" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="QUALIFIED_PG_ENABLE" class="Default">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="VBAT_DIV_FILTER" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="S1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

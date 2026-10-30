@@ -1,0 +1,63 @@
+{
+  "status": "NOFAB_135_54_0_JP301_OPEN",
+  "complete_current_verification_packages": {
+    "hardware/gate_input_local_routing": {
+      "manifest_sha256": "6c6c93af899a132c19bcb04fa51918fdae25c73c7b09ec636fe911791d94953b",
+      "members": 87,
+      "mode": "complete manifest plus all listed members; no recursive ancestor builders executed"
+    },
+    "hardware/gate_input_independent_review": {
+      "manifest_sha256": "cd72c54ca0ebbbff19bdf3aded078f3d258c782c26d7058c045cf91bb8422f47",
+      "members": 78,
+      "mode": "complete manifest plus all listed members; no recursive ancestor builders executed"
+    },
+    "hardware/imu_compact_0402_placement": {
+      "manifest_sha256": "d7240c77722bdfbd61bfdef5e62e449d92add6f5e06743fb4209b07bebc089ea",
+      "members": 96,
+      "mode": "complete manifest plus all listed members; no recursive ancestor builders executed"
+    },
+    "hardware/gate_supply_native_mpn_source": {
+      "manifest_sha256": "d9ee61999f3520b4ddd34ccc2bf32919809f872f04905611f2bfae4abba374b8",
+      "members": 152,
+      "mode": "complete manifest plus all listed members; no recursive ancestor builders executed"
+    }
+  },
+  "external_evidence_not_in_publication": {
+    "docs/electronics/imu_decoupling_correction/official_page2.png": "5aff7c9a71b72633a43e018ef6088cc9630fbcfd9d8774108e9cd0e7f7793920",
+    "docs/electronics/imu_decoupling_correction/C0805C106K8RACTU_official_20261029.pdf": "955a4e9b128f7c43c87e6df64340585aab40b58fe93c574fc41f8aff807d27d9",
+    "docs/electronics/imu_0402_decoupling_candidate/official_page2.png": "296edfb9bd79138becbe851dd689dbad18c432c433467bc2d732d9948ccc733d",
+    "docs/electronics/imu_0402_decoupling_candidate/C0402C104K4RACTU_official_20261029.pdf": "76f246fdd39437bfde20c99b192ea6470b2d08be7d77652320b980c0f69d852d"
+  },
+  "external_omission_policy": "Vendor PDF/page images kept local only; public bundle uses original SHA, official URL and summary. Text-only provenance packages are partial, not falsely complete.",
+  "external_provenance_allowlist": {
+    "hardware/camera_power_gate_placement_study/bom_candidates.json": "2149e6ea76c6f56845ad48b6f13caf0b2865fa744a6105d15b83104aecfd88f6",
+    "hardware/imu_decoupling_c503_source_fix/manufacturer_basis_snapshot.md": "08ce8577face9f766b127d7397a7998c34c1709ae76022f154e8e254e0f5e5fa",
+    "hardware/imu_decoupling_c503_source_fix/manifest.json": "caf2611f3d0dc98f80d21d8f929d711e6e8ea6213dba7314e817d3db40339eb8",
+    "docs/electronics/imu_decoupling_correction/manifest.json": "aec750c869b56fb5ea5989ed8cf4e674b42123b40c73bdfe927ccc94ed569e35",
+    "docs/electronics/imu_decoupling_correction/README.md": "f56a817ea1af9233a1a162d96858d4ba37ddfbc950ff4a90c0b50a3381adc97f",
+    "docs/electronics/imu_decoupling_correction/candidate_contract.json": "84421d3e96d77761cd68af76e427979df1e105e2dd71ea14624946b2a8335f0d",
+    "docs/electronics/imu_0402_decoupling_candidate/manifest.json": "06004a24b263c39c38cf9502dd58996f8f7cfffaa2d6f839157b6c178ec753b9",
+    "docs/electronics/imu_0402_decoupling_candidate/README.md": "bfe72207a31914909a0105e337ab0d9c8ffbfbca98330c6658db2434983b2974"
+  },
+  "historical_path_resolution": [
+    {
+      "contract": "hardware/gate_supply_native_mpn_source/C503_BOM_candidate.json",
+      "field": "dimension_evidence",
+      "original_recorded_path": "docs/electronics/imu_decoupling_correction/README.md",
+      "sha256": "08ce8577face9f766b127d7397a7998c34c1709ae76022f154e8e254e0f5e5fa",
+      "immutable_content_at": "hardware/imu_decoupling_c503_source_fix/manufacturer_basis_snapshot.md",
+      "note": "Old README version preserved byte-for-byte here; current README is later supplemented with actual bias graph. Do not overwrite either or equate hashes."
+    }
+  ],
+  "reproduction_scope": "Fresh native current-board ERC/DRC, gate audit/negative/config checks and frozen source_rules checks. Not recursive regeneration of all ancestors or bit-identical random-UUID route generation.",
+  "do_not_collect": [
+    "hardware/gate_control_output_routing",
+    "unlisted prl/cache/failed trials"
+  ],
+  "tools_required": [
+    "KiCad 9.0.2 CLI, pcbnew and installed standard libraries",
+    "Python 3; native package same-basename pro/dru/source and custom libraries",
+    "writable isolated XDG dirs"
+  ],
+  "historical_manifest_partial_collection": "Only old C503 manifest plus specified snapshot are provenance evidence, not claimed as a complete old source package."
+}

@@ -1,0 +1,55 @@
+{
+  "references": [
+    "C501",
+    "C502"
+  ],
+  "quantity_per_pen": 2,
+  "manufacturer": "KEMET",
+  "candidate_MPN": "C0402C104K4RACTU",
+  "alias": "C0402C104K4RAC7867",
+  "capacitance_nF": 100,
+  "tolerance_percent": 10,
+  "rated_voltage_V": 16,
+  "dielectric": "X7R",
+  "package": "0402",
+  "max_body_mm": [
+    1.05,
+    0.55,
+    0.55
+  ],
+  "assembly_height_addition_mm": 0.15,
+  "max_height_above_copper_screen_mm": 0.7,
+  "official_spec_url": "https://yageogroup.com/component-documentation/download/specsheet/C0402C104K4RACTU?lang=en",
+  "evidence_hashes": {
+    "docs/electronics/imu_0402_decoupling_candidate/official_page2.png": "296edfb9bd79138becbe851dd689dbad18c432c433467bc2d732d9948ccc733d",
+    "docs/electronics/imu_0402_decoupling_candidate/README.md": "bfe72207a31914909a0105e337ab0d9c8ffbfbca98330c6658db2434983b2974",
+    "docs/electronics/imu_0402_decoupling_candidate/C0402C104K4RACTU_official_20261029.pdf": "76f246fdd39437bfde20c99b192ea6470b2d08be7d77652320b980c0f69d852d",
+    "docs/electronics/imu_0402_decoupling_candidate/manifest.json": "06004a24b263c39c38cf9502dd58996f8f7cfffaa2d6f839157b6c178ec753b9"
+  },
+  "bias_evidence": {
+    "type": "manufacturer typical simulation only; not specification guarantee",
+    "rough_graph_read_at_V": [
+      3.3,
+      3.6
+    ],
+    "typical_loss_percent_approx": [
+      4,
+      6
+    ],
+    "guaranteed_min_effective_nF": null,
+    "not_combined_with_tolerance_temperature_aging": true
+  },
+  "terminal_geometry_to_check": {
+    "B_mm": [
+      0.2,
+      0.4
+    ],
+    "S_min_mm": 0.3,
+    "standard_footprint_matching_approved": false
+  },
+  "priorMurata": "early comparison only, not chosen BOM and not source of these curves",
+  "MPN_selection": "candidate agreed with layoutworker; not procurement approval",
+  "placement": "independent routing candidate; no PCB changed here",
+  "PI_assembly_price_qualification": false,
+  "unit_price_CNY": null
+}

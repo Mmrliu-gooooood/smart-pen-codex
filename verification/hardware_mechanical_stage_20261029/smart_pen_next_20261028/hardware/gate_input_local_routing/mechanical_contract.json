@@ -1,0 +1,76 @@
+{
+  "pcb_sha256": "ae805cea5d51e864588bdf052b64e1bacce118a122b9f98ce21ddaa15345a691",
+  "reference_frame": {
+    "pen_X": "pcb_x - 7 mm",
+    "pen_Z": "127 - pcb_y mm",
+    "B_face_Y_mm": 2.264793176,
+    "stack_nominal_mm": 0.83,
+    "stack_upper_mm": 0.93,
+    "F_face_upper_Y_mm": 3.194793176
+  },
+  "specific_component_envelopes": {
+    "C501": {
+      "MPN": "C0402C104K4RACTU",
+      "body_max_mm": [
+        1.05,
+        0.55,
+        0.55
+      ],
+      "solder_allowance_mm": 0.15,
+      "height_above_copper_mm": 0.7,
+      "pcb_xy_mm": [
+        6.2,
+        80.7
+      ],
+      "rotation_deg": 0,
+      "side": "F.Cu"
+    },
+    "C502": {
+      "MPN": "C0402C104K4RACTU",
+      "body_max_mm": [
+        1.05,
+        0.55,
+        0.55
+      ],
+      "solder_allowance_mm": 0.15,
+      "height_above_copper_mm": 0.7,
+      "pcb_xy_mm": [
+        6.2,
+        82
+      ],
+      "rotation_deg": 0,
+      "side": "F.Cu"
+    },
+    "C503": {
+      "MPN": "C0805C106K8RACTU",
+      "body_max_mm": [
+        2.2,
+        1.45,
+        1.45
+      ],
+      "solder_allowance_mm": 0.15,
+      "height_above_copper_mm": 1.6,
+      "pcb_xy_mm": [
+        5.3,
+        84.5
+      ],
+      "rotation_deg": 0,
+      "side": "F.Cu"
+    },
+    "R501": {
+      "height_above_copper_mm": 1.45,
+      "height_basis": "unchanged conservative unknown passive",
+      "pcb_xy_mm": [
+        2.6,
+        86.5
+      ],
+      "rotation_deg": 0,
+      "side": "F.Cu"
+    }
+  },
+  "all_other_heights_unchanged": true,
+  "mechanical_release": false,
+  "native_source": "hardware/imu_decoupling_0402_source_fix/mainboard_projection",
+  "assembly_process_cost_confirmed": false,
+  "scope_note": "All physical footprint positions/orientations/pad geometry match dd55; only copper reroutes and native source fields. Do not claim combined mechanics approval."
+}

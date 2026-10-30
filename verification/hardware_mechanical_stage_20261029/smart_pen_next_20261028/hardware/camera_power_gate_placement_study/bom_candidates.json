@@ -1,0 +1,147 @@
+{
+  "status": "GEOMETRY_CANDIDATES_NOT_PURCHASE_OR_ELECTRICAL_RELEASE",
+  "assembly_allowance_mm": 0.15,
+  "parts": [
+    {
+      "ref": "U1",
+      "mpn": "TPS22918DBVR",
+      "manufacturer": "Texas Instruments",
+      "body_max_mm": [
+        1.75,
+        3.05,
+        1.45
+      ],
+      "lead_span_max_mm": 3.0,
+      "height_screen_mm": 1.6,
+      "land": "TI DBV0006A example: six1.1x0.6 pads; row centers2.6; pitch0.95",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "mold_flash_max_addition_per_side_mm": 0.25,
+      "body_with_flash_max_mm": [
+        2.25,
+        3.55,
+        1.45
+      ]
+    },
+    {
+      "ref": "C1",
+      "mpn": "C2012X7R1A106K125AE",
+      "manufacturer": "TDK",
+      "value": "10uF \u00b110% 10V ordinary X7R soft termination",
+      "body_max_mm": [
+        2.45,
+        1.5,
+        1.5
+      ],
+      "height_screen_mm": 1.65,
+      "restriction": "Standard X7R, no half-rated-voltage TC. DC-bias effective CIN at3.0/3.3/3.6V not yet qualified. Not allowed to equate10uF nominal with10uF effective.",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AE"
+    },
+    {
+      "ref": "C2",
+      "mpn": "C1608X7R1A105K080AC",
+      "manufacturer": "TDK",
+      "value": "1uF \u00b110% 10V X7R",
+      "body_max_mm": [
+        1.75,
+        0.95,
+        0.95
+      ],
+      "height_screen_mm": 1.1,
+      "restriction": "NRND exact original rating. Production alternate C1608X7R1C105K080AC is16V and0.9mm max; not silently substituted.",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A105K080AC"
+    },
+    {
+      "ref": "C3",
+      "mpn": "C1608C0G1H102J080AA",
+      "manufacturer": "TDK",
+      "value": "1nF \u00b15% 50V C0G",
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.9
+      ],
+      "height_screen_mm": 1.05,
+      "restriction": "Voltage-rating-upgrade candidate compared with original25V requirement; original source unchanged.",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H102J080AA"
+    },
+    {
+      "ref": "R1",
+      "mpn": "RC0603FR-07100KL",
+      "manufacturer": "YAGEO",
+      "value": "100k 1%",
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "height_screen_mm": 0.7,
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
+    },
+    {
+      "ref": "R2",
+      "mpn": "RC0603FR-071KL",
+      "manufacturer": "YAGEO",
+      "value": "1k 1%",
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "height_screen_mm": 0.7,
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
+    },
+    {
+      "ref": "R3",
+      "mpn": "RC0603FR-07100RL",
+      "manufacturer": "YAGEO",
+      "value": "100R 1%",
+      "body_max_mm": [
+        1.7,
+        0.9,
+        0.55
+      ],
+      "height_screen_mm": 0.7,
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL"
+    },
+    {
+      "ref": "JP1",
+      "mpn": null,
+      "value": "OPEN/DNP physical commissioning gap",
+      "height_screen_mm": 0.3,
+      "restriction": "No paste; no copper bridge; real pad gap0.5mm. No assumed operation until explicit commissioning."
+    },
+    {
+      "ref": "TP1",
+      "mpn": null,
+      "value": "ENABLE MEASURE copper land",
+      "height_screen_mm": 0.15,
+      "restriction": "Probe access not qualified."
+    },
+    {
+      "ref": "J1",
+      "mpn": null,
+      "value": "Controlled output/GND two wirelands",
+      "height_screen_mm": 2.0,
+      "wire_envelope_per_land_mm": [
+        1.8,
+        2.2,
+        2.0
+      ],
+      "restriction": "No connector MPN implied; two conductors and strain relief not qualified."
+    }
+  ],
+  "rejected_initial_geometry_candidate": {
+    "ref": "C1",
+    "mpn": "C1608X7R1A106M080AT",
+    "manufacturer": "TDK",
+    "value": "10uF \u00b120% 10V",
+    "body_max_mm": [
+      1.9,
+      1.1,
+      1.1
+    ],
+    "height_screen_mm": 1.25,
+    "restriction": "Special TC: X7R specified at half rated voltage. Not yet approved substitute for general X7R requirement; effective CIN and DC bias qualification OPEN. Distributor0.9mm height must not override manufacturer1.1mm.",
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1A106M080AT"
+  }
+}

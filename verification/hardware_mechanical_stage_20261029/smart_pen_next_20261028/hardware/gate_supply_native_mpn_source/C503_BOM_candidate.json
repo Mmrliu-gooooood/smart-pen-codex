@@ -1,0 +1,39 @@
+{
+  "reference": "C503",
+  "original_reference": "pickup_contact:C3",
+  "owner": "mainboard",
+  "quantity_per_pen": 1,
+  "candidate_MPN": "C0805C106K8RACTU",
+  "manufacturer": "KEMET",
+  "capacitance_uF": 10,
+  "rated_voltage_V": 10,
+  "dielectric": "X7R",
+  "tolerance_percent": 10,
+  "package": "0805",
+  "max_body_mm": [
+    2.2,
+    1.45,
+    1.45
+  ],
+  "dimension_evidence": {
+    "source_path": "docs/electronics/imu_decoupling_correction/README.md",
+    "source_sha256": "08ce8577face9f766b127d7397a7998c34c1709ae76022f154e8e254e0f5e5fa",
+    "official_spec_url": "https://yageogroup.com/component-documentation/download/specsheet/C0805C106K8RACTU?lang=en",
+    "note": "current official maxT1.45, not old1.40; nominal capacitance not biased effective minimum"
+  },
+  "assembly_height_addition_mm": 0.15,
+  "placement_coordinate": null,
+  "effective_capacitance_at_actual_bias": null,
+  "DCbias_PI_status": "NOT_QUALIFIED",
+  "price": null,
+  "procurement_approved": false,
+  "gates": [
+    "actual DCbias/temperature/tolerance and capacitor derating",
+    "nearIMUVDD actual placement and highfrequency loop/groundreturn",
+    "maxheight plus solder/assembly clearances",
+    "fullboard nativeDRC/parity and actual copper",
+    "actualstartup/loadtransient/railnoise",
+    "vendor exactMPN availability and quote"
+  ],
+  "max_height_above_copper_candidate_mm": 1.6
+}

@@ -1,0 +1,103 @@
+{
+  "status": "LOCAL_BENCH_COMMON_DATUM_CANDIDATE_NOFAB_NOT_PRODUCT_SHELL",
+  "source_native": "ae805cea5d51e864588bdf052b64e1bacce118a122b9f98ce21ddaa15345a691",
+  "source_mechanism_sha256": "371311bc8acc127abe6807ce39bcf4ed80f9381670e20942e2bb924e3560b255",
+  "fixture_cad_sha256": "9af3c31da817551cbbdd986d438b212436cb0628a701b63bd90ba77e78d9343f",
+  "parts": {
+    "PCB_keeper_-1_45": 1,
+    "Keeper_hardstop_spacer_-1_45": 1,
+    "Keeper_screw_-1_45": 1,
+    "PCB_keeper_1_45": 1,
+    "Keeper_hardstop_spacer_1_45": 1,
+    "Keeper_screw_1_45": 1,
+    "PCB_keeper_-1_95": 1,
+    "Keeper_hardstop_spacer_-1_95": 1,
+    "Keeper_screw_-1_95": 1,
+    "PCB_keeper_1_95": 1,
+    "Keeper_hardstop_spacer_1_95": 1,
+    "Keeper_screw_1_95": 1,
+    "Tail_stop_adjustable_pm0p5": 1,
+    "Tail_stop_screw": 1,
+    "PCB_side_shim_R_45": 1,
+    "PCB_side_shim_L_45": 1,
+    "PCB_side_shim_R_95": 1,
+    "PCB_side_shim_L_95": 1,
+    "Collar_screw_-6.2": 1,
+    "Collar_screw_6.2": 1,
+    "Cassette_top_collar": 1,
+    "Cassette_lower_shim_TRIAL": 1,
+    "Cassette_upper_shim_TRIAL": 1,
+    "Fork_jaw_L": 1,
+    "Fork_keyshim_L_front": 1,
+    "Fork_keyshim_L_rear": 1,
+    "Fork_screw_L": 1,
+    "Axial_shim_-1_64.3": 1,
+    "Axial_shim_-1_67.6": 1,
+    "Antirot_shim_-1": 1,
+    "Fork_jaw_R": 1,
+    "Fork_keyshim_R_front": 1,
+    "Fork_keyshim_R_rear": 1,
+    "Fork_screw_R": 1,
+    "Axial_shim_1_64.3": 1,
+    "Axial_shim_1_67.6": 1,
+    "Antirot_shim_1": 1,
+    "Common_base": 1
+  },
+  "mainboard_datums": {
+    "B": 2.264793176328504,
+    "F_at_max_thickness": 3.194793176328504,
+    "Z_head": 32,
+    "Z_tail": 133.5,
+    "edge_x": [
+      -7,
+      7
+    ],
+    "contact_engagement": 0.25,
+    "clamp_Z": [
+      45,
+      95
+    ]
+  },
+  "cassette_datums": {
+    "collar_Z": [
+      69,
+      72
+    ],
+    "collar_inner_radius": 4,
+    "axis": [
+      0,
+      -3.8
+    ],
+    "front_flange_Z": [
+      64.4,
+      67.6
+    ],
+    "axial_trial_shims": 0.1,
+    "radial_trial_shim": 0.2
+  },
+  "assembly_sequence": [
+    "cassette down into open lower collar",
+    "keyed side forks+shim packs slide inward horizontally",
+    "close collar after fit check",
+    "PCB down with keepers and side shims absent",
+    "fit guides/tailstop/keeper hardstop spacers",
+    "measure fixed bodies and recalibrate switch",
+    "cut and solder new straight wires without preload"
+  ],
+  "assembly_samples": 28,
+  "assembly_geometry_pass": true,
+  "RF_project_prism_clear": true,
+  "power_budget_clearance_mm": 0.5,
+  "battery_reserved_axial_gap_mm": 3.0,
+  "firmly_held_under_load_proved": false,
+  "qualified_allowable_relative_motion_mm": null,
+  "metrology_goal_each_axis_mm": 0.01,
+  "metrology_goal_is_not_required_instrument_purchase": true,
+  "print_tolerance_contract": null,
+  "plusminus_p2mm_only_diagnostic": true,
+  "material_and_thread_strength_qualified": false,
+  "clamping_damage_qualified": false,
+  "not_19mm_shell": true,
+  "final_reusable_split_pen_shell_designed": false,
+  "full_unit_cost_CNY": null
+}

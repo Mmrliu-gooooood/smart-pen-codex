@@ -1,0 +1,1608 @@
+{
+  "selected_option": "B",
+  "system_owned_entities": 114,
+  "mainboard_entities": 102,
+  "tail_entities": 9,
+  "fixture_entities": 3,
+  "remaining_mainboard_handoffs": [
+    "J103 drycontact2",
+    "J104 UART",
+    "J105 ADC",
+    "J202 sensor24",
+    "J301 controlledoutput2"
+  ],
+  "fixture_parts_status": "switches and probe-mate MPN/footprints unresolved; not built",
+  "shared_fixture_cost": {
+    "currency": "CNY",
+    "amount": null,
+    "quantity_basis": "one shared fixture, not one per pen",
+    "included_in_pen_unit_cost": false,
+    "note": "separate unquoted cost; does NOT prove either pen meets380RMB or total760RMB budget"
+  },
+  "rows": [
+    {
+      "reference": "AE101",
+      "owner": "mainboard",
+      "value": "2450AT18A0100001E_STUDY_NOFAB",
+      "footprint": "SmartPenRF:Johanson_2450AT18A0100001E_Rev4_Study_NOFAB",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "1a596df3-6c5f-48da-919b-7c92d136fad2",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C101",
+      "owner": "mainboard",
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "3006d930-19e1-4094-95a9-eba8c045b86b",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C102",
+      "owner": "mainboard",
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "92b2f3e9-8d6e-46ce-a165-05f37ea4e731",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C103",
+      "owner": "mainboard",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "3d4a1b8e-cecd-43c1-b43d-4f64b97589a9",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C104",
+      "owner": "mainboard",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "daa22a0c-60d7-4d92-afe7-dea262b1c17b",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C105",
+      "owner": "mainboard",
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "e0b4766c-5e29-4157-9472-dffe98880fa9",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C106",
+      "owner": "mainboard",
+      "value": "DNP RF_TUNE",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "dnp": true,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "907be87d-4f20-4f13-8884-fa9e31875466",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C107",
+      "owner": "mainboard",
+      "value": "DNP RF_TUNE",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "dnp": true,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "473a0b0c-3c9d-475f-b58d-62d8b72ac94c",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C201",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "ff81359b-4ad7-4070-8116-d5bcdeb44e03",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C202",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "d6a8fa28-880c-49e1-bfc4-ca0509303278",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C203",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "faa8c099-a916-44b7-8a2b-585c2dbe6eb0",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C204",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "17c48a4e-1992-4db2-81ba-89d2b5e7e362",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C205",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "7ab194fa-c2c1-48dd-b630-5c75d7a53e60",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C206",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "9cf76a99-2dab-44a0-bf4c-3840cb19c082",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C207",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "9670f3d3-7c9b-46c5-861f-d6223866ed50",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C208",
+      "owner": "mainboard",
+      "value": "100n X7R",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "6e14fac5-66e9-46e3-a9b7-2d35d899d924",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J104",
+      "owner": "mainboard",
+      "value": "UART_SERVICE_CAMERA_OFF_ONLY",
+      "footprint": "SmartPenInterfaces:Probe3_P1.8_NoPaste",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/physical_interfaces/",
+      "symbol_uuid": "9630d8a3-257f-4138-9bbb-eff8e0aae0df",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J105",
+      "owner": "mainboard",
+      "value": "ADC_SAFE_FRONTEND_LINK_NOT_RAW_BATTERY",
+      "footprint": "SmartPenInterfaces:WireLands2_P2.4",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/physical_interfaces/",
+      "symbol_uuid": "9c560708-cbf6-4c45-a087-22f0d2e4d172",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J106",
+      "owner": "mainboard",
+      "value": "POWER_CORE",
+      "footprint": "GateStudy:J106_Wirebank_PRELAYOUT",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "988827e5-e6ae-4890-92c0-4e13cb2a0a4b",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J107",
+      "owner": "mainboard",
+      "value": "CHARGER_MODE",
+      "footprint": "GateStudy:J107_Wirebank_PRELAYOUT",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "1e42d0ce-39f4-437a-9599-810a66b47610",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J108",
+      "owner": "mainboard",
+      "value": "SERVICE_EN_BOOT_GND",
+      "footprint": "SmartPenIO:ServiceProbe3_NOFAB",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "0edd195f-1c0d-4fd1-9bff-d8d5bd78abf7",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J109",
+      "owner": "mainboard",
+      "value": "USB_TAIL_LINK",
+      "footprint": "SmartPenIO:USBWireLands3_14mm_PRELAYOUT",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_main_port/",
+      "symbol_uuid": "f5b2cdf6-27c9-5437-a580-7bd369c7a950",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J202",
+      "owner": "mainboard",
+      "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+      "footprint": "SmartPenInterfaces:Molex_5034802400_24P_P0.5_CANDIDATE",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/physical_interfaces/",
+      "symbol_uuid": "1981219d-8159-4ca1-986f-5b2a46505418",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "JP201",
+      "owner": "mainboard",
+      "value": "DNP_IO_COMMISSION",
+      "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+      "dnp": true,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "f9f86092-89e6-4bb4-a9da-66228b86bb0b",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "JP202",
+      "owner": "mainboard",
+      "value": "DNP_SCCB_COMMISSION",
+      "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+      "dnp": true,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "ddf1b475-e0c7-4946-a210-8b00f5ea3dfe",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "L101",
+      "owner": "mainboard",
+      "value": "RF_MATCH_TBD",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "2dc9ae40-79d1-4a9a-9fb8-26cdf88a8bc6",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "Q201",
+      "owner": "mainboard",
+      "value": "PMV30UN2",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "f430ed77-2707-4244-8637-6a79d9958439",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R101",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "b4b61c8e-f1da-48c5-b659-62bb34f794b8",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R102",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "81ca277c-7848-4cac-be30-2cd882d6946f",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R103",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "5290d2a0-0de0-42db-b4d5-fec4a12d32fd",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R104",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "2cce0922-51fe-4294-96b5-6acd8d7f58aa",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R105",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "1e1f4ae5-fc0f-4f26-9332-82a361c9119c",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R106",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "1f57a838-073b-43b5-acb1-268db5a92728",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R107",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "0488b179-587b-4b4f-aaf6-32d1c1c83901",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R108",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "aa947350-beec-4b38-9456-530c745375dd",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R109",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "db05c6c6-285c-4eff-a8c5-e712fe1984a6",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R112",
+      "owner": "mainboard",
+      "value": "22R SI_TBD",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "e3db0d57-2e05-406c-b582-e68d07812b51",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R113",
+      "owner": "mainboard",
+      "value": "22R SI_TBD",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "f6d2cbe7-dc29-4e4a-bcfc-729f43619fcf",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R201",
+      "owner": "mainboard",
+      "value": "1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "c9c3a1f4-6a2a-4bc5-8df1-e3f7c6c71259",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R202",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "0c593c0d-62ad-4c20-9901-d596b5bf925a",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R203",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "a94bcd11-5745-4c57-9045-4ac445f8b4be",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R204",
+      "owner": "mainboard",
+      "value": "100R 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "938c2941-c35f-4f65-a1e0-c32d0dd07844",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R205",
+      "owner": "mainboard",
+      "value": "4.7k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "a1f94bfa-22f0-481f-852b-94b193dd7fd7",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R206",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "45bfb54c-92b2-4c17-b680-34a5d1d3dde4",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R207",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "ba1664d9-7067-4d0b-8cca-854e64228231",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R210",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "5b134b68-6be0-46be-8289-b34c76b79b86",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R211",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "2f43af2f-183d-45cc-8000-f159d1b218aa",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R212",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f02f1b15-03c7-4e69-bc2c-ecc0ebefb6d6",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R213",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f79d9b1c-afe0-4f2b-904f-f85c842ab97d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R214",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "c9d42e0c-8347-4b67-9f96-24b8f0ae1521",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R215",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "abea21b2-bbda-4641-b86f-5fbe080fea8c",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R216",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "418d85ce-8a8f-419f-bec7-160c2f176a65",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R217",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "0ed4522a-640b-465c-9a2f-d2b30bc88542",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R218",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "0de318e3-cf18-40a7-abec-a6b37660bae1",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R219",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f227feb2-c41b-4255-a1f8-67612520772a",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R220",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "69161d9c-bea9-447e-9c06-21dfca8aa31b",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R221",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f491d6d3-9884-4bac-8d17-489c4030533d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R222",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "7f153e56-7db7-42d5-95a5-9e9282d81856",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R223",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "99fee32e-00fd-461e-a60a-d1afd7658a04",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R224",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "9f9076f0-29d4-4c30-a8b7-f093b47fb756",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R225",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "e47547ac-7dca-4547-8f33-e8ab9b715c32",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R226",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "3f540ed1-89ed-45f3-8cd7-68bf364a7024",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R227",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "a26a501e-3068-498d-90a1-4a2256025636",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R228",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "7bcdd413-9816-4640-b531-f96dd3247b1d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R229",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "3b855c0f-0443-4ad3-ab65-ca7f89fe7c86",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R230",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f984fde1-fdd9-46be-9cc7-24f458756429",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R231",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "fd2cfbb1-66b5-4559-b3d9-6ab9bae3c9b7",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R232",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "a5998846-4e5a-41e0-a34e-e258bc2792fc",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R233",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "c672b192-ac5c-4b46-bcff-0a68961b973d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R234",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "72594cd2-3ebf-43c9-a7be-ae3eeed5abb1",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R235",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f45ab85e-331d-43aa-ae45-1162bbecd182",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R236",
+      "owner": "mainboard",
+      "value": "4.7k 1% RESET_CANDIDATE",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "8567e4b7-8486-4662-8003-d893a743ed1d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R237",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "f1d2d746-1036-4640-9d2e-c77556b10c10",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R240",
+      "owner": "mainboard",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "d15c6272-0dd7-42aa-8d2e-d0161f9fe61a",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R241",
+      "owner": "mainboard",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "ea548c8c-141e-4a75-b2e8-d4f70d4e7c28",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R242",
+      "owner": "mainboard",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "7a640888-67d2-49b1-9330-91f6a8f1f20f",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R243",
+      "owner": "mainboard",
+      "value": "10k 1% INITIAL_100kHz",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/safe_bias_interfaces/",
+      "symbol_uuid": "5c83d41a-34f8-4882-82d8-c19b3a531f6c",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U101",
+      "owner": "mainboard",
+      "value": "ESP32-S3-PICO-1-N8R8",
+      "footprint": "SmartPen:ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/mcu_core/",
+      "symbol_uuid": "ad500765-92dc-4199-8694-504abaf04657",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U201",
+      "owner": "mainboard",
+      "value": "SN74AXC8T245PWR",
+      "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "54840595-81ef-4883-b1bf-fa175713a8d8",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U202",
+      "owner": "mainboard",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/dvp_translation/",
+      "symbol_uuid": "d66e3411-4ba8-4bf8-a60d-0787cd605609",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U203",
+      "owner": "mainboard",
+      "value": "SN74AXC4T245PWR",
+      "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "ec7dd657-c2b9-49a9-ad8b-069852e432ce",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U204",
+      "owner": "mainboard",
+      "value": "TCA9517DGKR",
+      "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/controls_sccb/",
+      "symbol_uuid": "c5961692-1efe-4f60-8c57-fa8eaa8c2e9c",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "D101",
+      "owner": "usb_tail_shared_functions",
+      "value": "TPD1E10B06DYAR",
+      "footprint": "SmartPen:TI_DYA0002A_SOD523_OfficialLandpattern",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "baedd21a-a728-4033-af13-7f04c62e4623",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "J101",
+      "owner": "usb_tail_shared_functions",
+      "value": "USB4105-GF-A-120",
+      "footprint": "SmartPen:USB4105_GroundHeelTrim80um_AssemblyUnqualified",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "44536bdc-7f9b-4a9b-ab76-9fbdfba24ae2",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R110",
+      "owner": "usb_tail_shared_functions",
+      "value": "5.1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "8363ea31-54c8-41a3-b99a-c336b6f3d00d",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "R111",
+      "owner": "usb_tail_shared_functions",
+      "value": "5.1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "b17c40aa-b8a2-4695-ba94-7b3e9f7eb891",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "TP101",
+      "owner": "usb_tail_shared_functions",
+      "value": "USB_DP_INTERNAL_WIRE",
+      "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "36b87157-fa9e-495a-ae52-8ed245c17c4e",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "TP102",
+      "owner": "usb_tail_shared_functions",
+      "value": "USB_DM_INTERNAL_WIRE",
+      "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "d4213d62-23ce-469b-9ecf-36ee796ece01",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "TP103",
+      "owner": "usb_tail_shared_functions",
+      "value": "VBUS_5V_INTERNAL_WIRE",
+      "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "f3690d07-a86a-4b73-bfaa-df637cc9edd8",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "TP104",
+      "owner": "usb_tail_shared_functions",
+      "value": "GND_INTERNAL_WIRE",
+      "footprint": "SmartPen:WireLand_1.5x2_NoPaste",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "a115108b-46bd-4ea9-9c86-6d05fe4dd694",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "U102",
+      "owner": "usb_tail_shared_functions",
+      "value": "TPD4E05U06DQAR",
+      "footprint": "SmartPen:TI_DQA0010A_USON10_OfficialLandpattern",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/usb_entry/",
+      "symbol_uuid": "9f3b5f22-e80c-4629-af05-f111daa30bc4",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "JF1",
+      "owner": "shared_passive_recovery_fixture",
+      "value": "J108_PASSIVE_PROBE_MATE_UNQUALIFIED",
+      "footprint": "",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/recovery_fixture/",
+      "symbol_uuid": "138af033-4a16-40c3-9296-dcbb90e68abc",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "SW101",
+      "owner": "shared_passive_recovery_fixture",
+      "value": "RESET",
+      "footprint": "",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/recovery_fixture/",
+      "symbol_uuid": "5fbdd881-a601-438c-b153-3f1ba25da602",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "SW102",
+      "owner": "shared_passive_recovery_fixture",
+      "value": "BOOT",
+      "footprint": "",
+      "dnp": false,
+      "exclude_from_bom": false,
+      "source_sheet": "/recovery_fixture/",
+      "symbol_uuid": "d1e99aec-cd11-4784-8273-662664f7bdf4",
+      "qualification": "source allocation only; component/assembly status inherited or unresolved"
+    },
+    {
+      "reference": "C501",
+      "owner": "mainboard",
+      "value": "100nF 16V X7R +/-10%",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "symbol_uuid": "d6619e04-33f9-5101-9a65-d89d3d03801b",
+      "migrated_from": "pickup_contact:C1",
+      "qualification": "conditional local decoupling candidate; no min effective capacitance or assembly qualification",
+      "MPN_candidate": "C0402C104K4RACTU",
+      "manufacturer": "KEMET",
+      "procurement_status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    {
+      "reference": "C502",
+      "owner": "mainboard",
+      "value": "100nF 16V X7R +/-10%",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "symbol_uuid": "9528e32e-2f84-5783-9f92-8508eaa1afcd",
+      "migrated_from": "pickup_contact:C2",
+      "qualification": "conditional local decoupling candidate; no min effective capacitance or assembly qualification",
+      "MPN_candidate": "C0402C104K4RACTU",
+      "manufacturer": "KEMET",
+      "procurement_status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    {
+      "reference": "C503",
+      "owner": "mainboard",
+      "value": "10uF 10V X7R +/-10%",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "symbol_uuid": "ef684bb4-f06f-5111-99dc-9d4770bed7ff",
+      "migrated_from": "pickup_contact:C3",
+      "qualification": "candidate only; DCbias/PI/routing/assembly not qualified; inherited1u superseded",
+      "MPN_candidate": "C0805C106K8RACTU",
+      "manufacturer": "KEMET",
+      "procurement_status": "CONDITIONAL_NOT_APPROVED_FOR_PROCUREMENT"
+    },
+    {
+      "reference": "C504",
+      "owner": "mainboard",
+      "value": "1n C0G",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "symbol_uuid": "183a43ab-7d52-57f6-9553-7ffb0d9a9c48",
+      "migrated_from": "pickup_contact:C4",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "R501",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "symbol_uuid": "986d3105-eb95-5715-a27b-2aa2c02156ca",
+      "migrated_from": "pickup_contact:R1",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "R502",
+      "owner": "mainboard",
+      "value": "10k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "symbol_uuid": "1af3dc93-d1d4-5a04-9184-7858ab56e82d",
+      "migrated_from": "pickup_contact:R2",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "R503",
+      "owner": "mainboard",
+      "value": "100k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "symbol_uuid": "28134389-b1ba-5cd0-ac4d-f695bb1cd2b2",
+      "migrated_from": "pickup_contact:R3",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "R504",
+      "owner": "mainboard",
+      "value": "1k 1%",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "symbol_uuid": "3cccb648-3e61-55e8-ae38-d17b1cc529f5",
+      "migrated_from": "pickup_contact:R4",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "U501",
+      "owner": "mainboard",
+      "value": "LIS2DW12TR",
+      "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm",
+      "symbol_uuid": "f6d05578-997c-57ce-83b5-591b24b1ecec",
+      "migrated_from": "pickup_contact:U1",
+      "qualification": "native source allocated, no PCB placement/routing/assembly claim"
+    },
+    {
+      "reference": "J103",
+      "owner": "mainboard",
+      "value": "DRY CONTACT PADS",
+      "footprint": "SmartPenInterfaces:WireLands2_P2.4",
+      "symbol_uuid": "7712bac1-b279-5bb5-b088-13f2703bef88",
+      "migrated_from": "pickup_contact:J2",
+      "qualification": "pitch24 mechanical correction only, native source not routed qualification"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "U301",
+      "migrated_from": "camera_power_gate:U1",
+      "value": "TPS22918DBVR",
+      "footprint": "GateStudy:TPS22918_DBV_TI_1p1x0p6",
+      "symbol_uuid": "4cfe96fb-0047-4ec7-923d-f52290007695",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "Texas Instruments",
+      "MPN_candidate": "TPS22918DBVR",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "C302",
+      "migrated_from": "camera_power_gate:C2",
+      "value": "1uF 10V X7R",
+      "footprint": "GateStudy:C2_TDK_0603_STUDY",
+      "symbol_uuid": "3a816fc3-062f-4747-8a43-5186ca76d01d",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "TDK",
+      "MPN_candidate": "C1608X7R1A105K080AC",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "C303",
+      "migrated_from": "camera_power_gate:C3",
+      "value": "1nF 25V C0G",
+      "footprint": "GateStudy:C3_TDK_0603_STUDY",
+      "symbol_uuid": "97596c2b-fb29-40f8-8c18-fb67d17896d3",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "TDK",
+      "MPN_candidate": "C1608C0G1H102J080AA",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "C301",
+      "migrated_from": "camera_power_gate:C1",
+      "value": "10uF 10V X7R",
+      "footprint": "GateStudy:C1_TDK_0805_X7R_STANDARD",
+      "symbol_uuid": "d161e38b-11ab-40ac-8378-16461c87b625",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "TDK",
+      "MPN_candidate": "C2012X7R1A106K125AE",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "R301",
+      "migrated_from": "camera_power_gate:R1",
+      "value": "100k 1%",
+      "footprint": "GateStudy:R1_YAGEO_0603_STUDY",
+      "symbol_uuid": "2ef0c6d1-5cf9-43ff-8c9f-92543e172b53",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "YAGEO",
+      "MPN_candidate": "RC0603FR-07100KL",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "R302",
+      "migrated_from": "camera_power_gate:R2",
+      "value": "1k 1%",
+      "footprint": "GateStudy:R2_YAGEO_0603_STUDY",
+      "symbol_uuid": "d73761fa-725f-441a-87fe-8876870eb324",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "YAGEO",
+      "MPN_candidate": "RC0603FR-071KL",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "R303",
+      "migrated_from": "camera_power_gate:R3",
+      "value": "100R 1%",
+      "footprint": "GateStudy:R3_YAGEO_0603_STUDY",
+      "symbol_uuid": "e3cb91cd-f201-45a9-8fc9-d9dd952b97f6",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release",
+      "manufacturer": "YAGEO",
+      "MPN_candidate": "RC0603FR-07100RL",
+      "procurement_status": "GEOMETRY_CANDIDATE_ELECTRICAL_AND_PROCUREMENT_UNQUALIFIED"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "JP301",
+      "migrated_from": "camera_power_gate:JP1",
+      "value": "OPEN / DO NOT BRIDGE",
+      "footprint": "GateStudy:Commission_OPEN_NO_PASTE",
+      "symbol_uuid": "e2251247-8df5-4ace-9a24-ccbba67524ae",
+      "dnp": true,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "TP301",
+      "migrated_from": "camera_power_gate:TP1",
+      "value": "ENABLE MEASURE",
+      "footprint": "GateStudy:Enable_measure_land",
+      "symbol_uuid": "6199ab03-76ed-4b3f-9f27-4e3e8b94b11f",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release"
+    },
+    {
+      "owner": "mainboard",
+      "reference": "J301",
+      "migrated_from": "camera_power_gate:J1",
+      "value": "APPROVED LOAD / TBD",
+      "footprint": "GateStudy:J301_Wirebank_PRELAYOUT",
+      "symbol_uuid": "4405edd1-24db-479b-9b5b-cc8396d9a194",
+      "dnp": false,
+      "qualification": "source integration+existingoverlayFP; not routed/assembled release"
+    }
+  ],
+  "physical_interface_status": "5 ports now native physical source, NOT proof placed/routed/assembled",
+  "scope": "mainboard102 + USBtail9 + fixture3; pickup and camera gate now allocated once onmainboard, remainingexternalblocks separate",
+  "separate_unintegrated_blocks": {
+    "battery_adc_candidate": {
+      "existing_source": "hardware/battery_adc_candidate/battery_adc_candidate.xml",
+      "sha256": "5eafc0f72bd1968ce186934be5970bba183dcec26ec32d2a3c5a3966e500bd88",
+      "native_components": [
+        {
+          "identity": "battery_adc_candidate:C1",
+          "reference": "C1",
+          "value": "100nF 10% effective capacitance TBD",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:C2",
+          "reference": "C2",
+          "value": "100nF",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:J1",
+          "reference": "J1",
+          "value": "Protected pack / NOT raw cell",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J2",
+          "reference": "J2",
+          "value": "MAIN GPIO4 / pad9",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J3",
+          "reference": "J3",
+          "value": "AON supply",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:J4",
+          "reference": "J4",
+          "value": "Hardware PG ONLY / NOT GPIO",
+          "footprint": ""
+        },
+        {
+          "identity": "battery_adc_candidate:JP1",
+          "reference": "JP1",
+          "value": "OPEN commissioning bridge",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+        },
+        {
+          "identity": "battery_adc_candidate:JP2",
+          "reference": "JP2",
+          "value": "OPEN commissioning bridge",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+        },
+        {
+          "identity": "battery_adc_candidate:R1",
+          "reference": "R1",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R2",
+          "reference": "R2",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R3",
+          "reference": "R3",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:R4",
+          "reference": "R4",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "battery_adc_candidate:U1",
+          "reference": "U1",
+          "value": "TMUX1511PWR",
+          "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    }
+  },
+  "superseded_source_not_additive_BOM": {
+    "pickup_contact": {
+      "existing_source": "../smart_pen_rebuild_20261028/hardware/pickup_contact/pickup_contact.xml",
+      "sha256": "a27a8c5a2c61ba9dbf6dcd5e4fe0bc559e7c0a25c06b6363bfcb0e93cce32dac",
+      "native_components": [
+        {
+          "identity": "pickup_contact:C1",
+          "reference": "C1",
+          "value": "100n X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C2",
+          "reference": "C2",
+          "value": "100n X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C3",
+          "reference": "C3",
+          "value": "1u X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:C4",
+          "reference": "C4",
+          "value": "1n C0G",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:J1",
+          "reference": "J1",
+          "value": "HOST INTERNAL PADS",
+          "footprint": "Pen:Host_6"
+        },
+        {
+          "identity": "pickup_contact:J2",
+          "reference": "J2",
+          "value": "DRY CONTACT PADS",
+          "footprint": "Pen:Contact_2"
+        },
+        {
+          "identity": "pickup_contact:R1",
+          "reference": "R1",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R2",
+          "reference": "R2",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R3",
+          "reference": "R3",
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:R4",
+          "reference": "R4",
+          "value": "1k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "identity": "pickup_contact:U1",
+          "reference": "U1",
+          "value": "LIS2DW12TR",
+          "footprint": "Package_LGA:LGA-12_2x2mm_P0.5mm"
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    },
+    "reason": "all9electronicparts + drycontactport now mainboard; formerJ1 andhostJ103 eliminated; do not also build/buy original11entityboard",
+    "camera_power_gate": {
+      "existing_source": "hardware/power_safety/power_safety_NOFAB.xml",
+      "sha256": "9cc335daaf15744271e2ce85099805561eda16f204b8b45caaa886bf6c467693",
+      "native_components": [
+        {
+          "identity": "camera_power_gate:C1",
+          "reference": "C1",
+          "value": "10uF 10V X7R",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:C2",
+          "reference": "C2",
+          "value": "1uF 10V X7R",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:C3",
+          "reference": "C3",
+          "value": "1nF 25V C0G",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:J1",
+          "reference": "J1",
+          "value": "APPROVED LOAD / TBD",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:JP1",
+          "reference": "JP1",
+          "value": "OPEN / DO NOT BRIDGE",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R1",
+          "reference": "R1",
+          "value": "100k 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R2",
+          "reference": "R2",
+          "value": "1k 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:R3",
+          "reference": "R3",
+          "value": "100R 1%",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:TP1",
+          "reference": "TP1",
+          "value": "ENABLE MEASURE",
+          "footprint": ""
+        },
+        {
+          "identity": "camera_power_gate:U1",
+          "reference": "U1",
+          "value": "TPS22918DBVR",
+          "footprint": ""
+        }
+      ],
+      "status": "existing separate source candidate; not integrated mainboard layout; namespace preserves original reference identity"
+    }
+  },
+  "illumination_existing_separate_BOM": {
+    "source": {
+      "path": "hardware/illumination_layout_candidate/illumination_NOFAB.xml",
+      "sha256": "57a04d66e3030304738772e6b530f959893d92328b6aca94ea7143f32cc4aa9d"
+    },
+    "source_entities": 7,
+    "parts": [
+      {
+        "identity": "illumination:J1",
+        "reference": "J1",
+        "value": "HOST INTERNAL / MPN TBD",
+        "footprint": "SmartPenIllum:WireLands_3_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:J2",
+        "reference": "J2",
+        "value": "LED A/K ONLY / MPN TBD",
+        "footprint": "SmartPenIllum:WireLands_2_P2.5_AssemblyUnqualified",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:JP1",
+        "reference": "JP1",
+        "value": "OPEN DNP / COMMISSION ONLY",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+        "dnp": true,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:Q1",
+        "reference": "Q1",
+        "value": "PMV30UN2",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:R1",
+        "reference": "R1",
+        "value": "330R 1% >=0.1W",
+        "footprint": "Resistor_SMD:R_0603_1608Metric",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:R2",
+        "reference": "R2",
+        "value": "1k 1%",
+        "footprint": "Resistor_SMD:R_0603_1608Metric",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      },
+      {
+        "identity": "illumination:R3",
+        "reference": "R3",
+        "value": "100k 1%",
+        "footprint": "Resistor_SMD:R_0603_1608Metric",
+        "dnp": false,
+        "allocation": "existing illumination source block; placement owner HEAD_PROPOSED, not integrated",
+        "procurement_status": "unqualified/unquoted; preserve all seven source entities; wirelands/jumper are PCB features"
+      }
+    ],
+    "external_LED_emitter": "not one of7sourceentities; required additional unselected LED/optics/BOM and safety qualification"
+  },
+  "local_visible_status_gate": {
+    "required": true,
+    "implemented": false,
+    "selected_control_resource": null,
+    "selected_mpn": null,
+    "minimum": "offline discernible pairing/lowbattery/cachefull/acquisitionerror indication",
+    "architecture_example": "TI TCA9536 class AON I2C I/O + monochromeLED study ONLY; no MPN/package/native/BOM approved; cannot guarantee USB timing or safetyPG by polling",
+    "allowed_study": [
+      "dedicated truly available nonstrap/nonmemoryGPIO after source audit",
+      "AONI2C indicator/I/O candidate with address/default/leakage/driver/cost qualification"
+    ],
+    "forbidden_shortcuts": [
+      "borrowGPIO0/3/45/46straps",
+      "borrowPICOOSPI memory pins",
+      "count infrared paper illumination as visible status",
+      "count report_status callback or phone as physical offline indicator",
+      "count CHG_N alone as all system states"
+    ],
+    "resource_gate": "unassigned control and actual LED/limit/driver/lightwindow/BOM block native release"
+  },
+  "v5_topology_context_only": {
+    "path": "hardware/system_topology_v5_proposal/topology.json",
+    "sha256": "d904977beef1928bd0108818a63b69bf2fae4b006fe5853059bbf4f3d2f7b0f3",
+    "not_implemented_in_this_v4_native_fork": true
+  }
+}
