@@ -1,0 +1,86 @@
+[
+  {
+    "case": "raw_net",
+    "optimized": false,
+    "exit": 1,
+    "error": "Explicit serialized copper net changed 00a8c95e-e03a-4952-894a-293f0a3f457b"
+  },
+  {
+    "case": "raw_net",
+    "optimized": true,
+    "exit": 1,
+    "error": "Explicit serialized copper net changed 00a8c95e-e03a-4952-894a-293f0a3f457b"
+  },
+  {
+    "case": "remove_input_via",
+    "optimized": false,
+    "exit": 1,
+    "error": "Old pad component split 3V3_AON['C102.1', 'C103.1', 'C104.1', 'C105.1', 'C201.1', 'C203.1', 'C205.1', 'C207.1', 'C301.1', 'C501.1', 'C502.1', 'C503.1', 'J106.2', 'R101.2', 'R102.2', 'R103.2', 'R203.2', 'R240.2', 'R241.2', 'R501.1', 'R502.1', 'R503.1', 'U101.2', 'U101.20', 'U101.3', 'U101.46', 'U101.55', 'U101.56', 'U201.1', 'U202.1', 'U203.1', 'U203.2', 'U203.3', 'U204.8', 'U301.1', 'U501.10', 'U501.2', 'U501.3', 'U501.9']"
+  },
+  {
+    "case": "remove_input_via",
+    "optimized": true,
+    "exit": 1,
+    "error": "Old pad component split 3V3_AON['C102.1', 'C103.1', 'C104.1', 'C105.1', 'C201.1', 'C203.1', 'C205.1', 'C207.1', 'C301.1', 'C501.1', 'C502.1', 'C503.1', 'J106.2', 'R101.2', 'R102.2', 'R103.2', 'R203.2', 'R240.2', 'R241.2', 'R501.1', 'R502.1', 'R503.1', 'U101.2', 'U101.20', 'U101.3', 'U101.46', 'U101.55', 'U101.56', 'U201.1', 'U202.1', 'U203.1', 'U203.2', 'U203.3', 'U204.8', 'U301.1', 'U501.10', 'U501.2', 'U501.3', 'U501.9']"
+  },
+  {
+    "case": "wrong_old_width",
+    "optimized": false,
+    "exit": 1,
+    "error": "Old copper changed 0639595d-5faa-41ec-ab75-d1d81390d26e"
+  },
+  {
+    "case": "wrong_old_width",
+    "optimized": true,
+    "exit": 1,
+    "error": "Old copper changed 0639595d-5faa-41ec-ab75-d1d81390d26e"
+  },
+  {
+    "case": "wrong_C501_pad",
+    "optimized": false,
+    "exit": 1,
+    "error": "Old pad component split 3V3_AON['C102.1', 'C103.1', 'C104.1', 'C105.1', 'C201.1', 'C203.1', 'C205.1', 'C207.1', 'C301.1', 'C501.1', 'C502.1', 'C503.1', 'J106.2', 'R101.2', 'R102.2', 'R103.2', 'R203.2', 'R240.2', 'R241.2', 'R501.1', 'R502.1', 'R503.1', 'U101.2', 'U101.20', 'U101.3', 'U101.46', 'U101.55', 'U101.56', 'U201.1', 'U202.1', 'U203.1', 'U203.2', 'U203.3', 'U204.8', 'U301.1', 'U501.10', 'U501.2', 'U501.3', 'U501.9']"
+  },
+  {
+    "case": "wrong_C501_pad",
+    "optimized": true,
+    "exit": 1,
+    "error": "Old pad component split 3V3_AON['C102.1', 'C103.1', 'C104.1', 'C105.1', 'C201.1', 'C203.1', 'C205.1', 'C207.1', 'C301.1', 'C501.1', 'C502.1', 'C503.1', 'J106.2', 'R101.2', 'R102.2', 'R103.2', 'R203.2', 'R240.2', 'R241.2', 'R501.1', 'R502.1', 'R503.1', 'U101.2', 'U101.20', 'U101.3', 'U101.46', 'U101.55', 'U101.56', 'U201.1', 'U202.1', 'U203.1', 'U203.2', 'U203.3', 'U204.8', 'U301.1', 'U501.10', 'U501.2', 'U501.3', 'U501.9']"
+  },
+  {
+    "case": "MEMS_plane_intrusion",
+    "optimized": false,
+    "exit": 1,
+    "error": "Actual plane intrusion MEMS"
+  },
+  {
+    "case": "MEMS_plane_intrusion",
+    "optimized": true,
+    "exit": 1,
+    "error": "Actual plane intrusion MEMS"
+  },
+  {
+    "case": "MEMS_rule_removed",
+    "optimized": false,
+    "exit": 1,
+    "error": "MEMS rule area"
+  },
+  {
+    "case": "MEMS_rule_removed",
+    "optimized": true,
+    "exit": 1,
+    "error": "MEMS rule area"
+  },
+  {
+    "case": "JP301_no_longer_OPEN",
+    "optimized": false,
+    "exit": 1,
+    "error": "Value mismatch JP301"
+  },
+  {
+    "case": "JP301_no_longer_OPEN",
+    "optimized": true,
+    "exit": 1,
+    "error": "Value mismatch JP301"
+  }
+]

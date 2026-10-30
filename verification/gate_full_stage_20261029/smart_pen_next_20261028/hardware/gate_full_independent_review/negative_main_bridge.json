@@ -1,0 +1,38 @@
+[
+  {
+    "optimized": false,
+    "exit": 1,
+    "expected_error": "Main AON needs the removed thin pull-up branch",
+    "removed_main_bridge_track_UUIDs": [
+      "03300dea-2220-4060-b7f0-19703b327038",
+      "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+      "4a96ca3e-6696-41a8-bbf5-e1a0df2cbda4",
+      "868ac5f5-ceba-494b-ad1c-ff9ac01e8f1c",
+      "9136995b-21bb-48bf-a4b3-c3c1f2919bcb",
+      "b00875f4-a014-4ffa-8c91-607e3ce96801",
+      "b44285b6-92bd-4fa1-a369-277fdcf3ac37",
+      "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+      "d097bd49-e6fa-4526-bd00-0c1f28e1e84e",
+      "f4950d96-2a3f-468c-a335-eb2dfea141fd"
+    ],
+    "mechanism": "Test also removes thin pull-up branch and fresh fills, so an accidental thin backup cannot pass the main-load test."
+  },
+  {
+    "optimized": true,
+    "exit": 1,
+    "expected_error": "Main AON needs the removed thin pull-up branch",
+    "removed_main_bridge_track_UUIDs": [
+      "03300dea-2220-4060-b7f0-19703b327038",
+      "2d68f006-5cfd-45b0-a1b0-cd2100ce56ff",
+      "4a96ca3e-6696-41a8-bbf5-e1a0df2cbda4",
+      "868ac5f5-ceba-494b-ad1c-ff9ac01e8f1c",
+      "9136995b-21bb-48bf-a4b3-c3c1f2919bcb",
+      "b00875f4-a014-4ffa-8c91-607e3ce96801",
+      "b44285b6-92bd-4fa1-a369-277fdcf3ac37",
+      "c4e4e4e3-c8d9-4a1d-aa74-9cdd22c6ea24",
+      "d097bd49-e6fa-4526-bd00-0c1f28e1e84e",
+      "f4950d96-2a3f-468c-a335-eb2dfea141fd"
+    ],
+    "mechanism": "Test also removes thin pull-up branch and fresh fills, so an accidental thin backup cannot pass the main-load test."
+  }
+]

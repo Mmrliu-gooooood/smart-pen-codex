@@ -1,0 +1,154 @@
+{
+  "dependencies": {
+    "gate_control_output_candidate": {
+      "manifest": "70f161b643809f8c930c2b32bf82725be6ba742d52635171442646c5bfd6cf52",
+      "files": 100
+    },
+    "gate_input_local_routing": {
+      "manifest": "6c6c93af899a132c19bcb04fa51918fdae25c73c7b09ec636fe911791d94953b",
+      "files": 87
+    },
+    "gate_supply_native_mpn_source": {
+      "manifest": "d9ee61999f3520b4ddd34ccc2bf32919809f872f04905611f2bfae4abba374b8",
+      "files": 152
+    }
+  },
+  "source_entities": 102,
+  "source_endpoints": 356,
+  "native_MPN_refs": [
+    "C501",
+    "C502",
+    "C503",
+    "U301",
+    "C301",
+    "C302",
+    "C303",
+    "R301",
+    "R302",
+    "R303"
+  ],
+  "gate_source_default_map": {
+    "U301.1": "3V3_AON",
+    "U301.2": "GND",
+    "U301.3": "CAM_ON",
+    "U301.4": "CAM_CT",
+    "U301.5": "CAM_QOD",
+    "U301.6": "CAM_3V3_PRELINK",
+    "R106.1": "CAM_PWR_EN",
+    "R106.2": "GND",
+    "R301.1": "CAM_ON",
+    "R301.2": "GND",
+    "R302.1": "CAM_PWR_EN",
+    "R302.2": "CAM_ON",
+    "R303.1": "CAM_3V3_PRELINK",
+    "R303.2": "CAM_QOD",
+    "C303.1": "CAM_CT",
+    "C303.2": "GND",
+    "JP301.1": "CAM_3V3_PRELINK",
+    "JP301.2": "CAM_3V3_SW",
+    "U101.47": "CAM_PWR_EN",
+    "U204.8": "3V3_AON"
+  },
+  "configuration": {
+    "pcb_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_full_independent_review/native_snapshot/mainboard_revD.kicad_pcb",
+    "pcb_sha256": "508e71cbc50437cfb64a28ea8169a8511eb884f8363620e95f58773f368c5b35",
+    "project_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_full_independent_review/native_snapshot/mainboard_revD.kicad_pro",
+    "project_sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+    "custom_rules_path": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_full_independent_review/native_snapshot/mainboard_revD.kicad_dru",
+    "custom_rules_sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7",
+    "schematic_sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "net_settings_sha256": "e4f5dac073d8f63e7e1f5240cbda8c0a1e62a1d9bd3746e060e7b4b0b8285a53",
+    "design_settings_sha256": "7ba6ff8ac812bf5675ba3135fc2e0904aef7819a90bee318a73a73d4c78cbc7c",
+    "native_layers_sha256": "8fca8186d277bb9a70e397f9bfaaa6f784319f817895a6457f1c7c4d9a40de00",
+    "copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "general_thickness_mm": 0.83,
+    "explicit_stackup_present": true,
+    "stackup_raw_sha256": "d0a8622c9ba1d1a7530486881020383829b57f62fa8225f2bc8b42d8eec30dc4",
+    "stackup_known_geometry_sha256": "232ba03999f7f5345fa65c797cbe4d8b8c3d3510c60b4627f010bc40ee89a7e6",
+    "unqualified_material_values_present": [
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)",
+      "(epsilon_r 4.5)",
+      "(loss_tangent 0.02)"
+    ],
+    "status": "ROUTING_CONFIGURATION_BOUND",
+    "manufacturing_approved": false,
+    "manufacturing_blockers": [
+      "manufacturer_selected",
+      "layer_tolerances_confirmed",
+      "mask_and_material_confirmed",
+      "DFM_confirmed",
+      "quotation_confirmed",
+      "impedance_process_confirmed",
+      "valid_manufacturer_confirmation_record_missing"
+    ],
+    "impedance_calculation_allowed": false,
+    "lock_sha256": "f8d2a54ca26933e6522cf001eb82fc2bb43b1c344cc30613e1182a3a1f164a3a"
+  },
+  "manufacturing_rejected": true,
+  "full_DRC": {
+    "before": [
+      135,
+      54,
+      0
+    ],
+    "after": [
+      28,
+      41,
+      0
+    ],
+    "new_entries": [
+      [
+        "track_dangling",
+        "warning",
+        "Track has unconnected end",
+        [
+          "5943f84b-e233-4b18-bdaa-66b39aad6146"
+        ]
+      ],
+      [
+        "track_dangling",
+        "warning",
+        "Track has unconnected end",
+        [
+          "bc5614c5-2a35-4867-881e-8d3fbd2529e3"
+        ]
+      ]
+    ],
+    "removed_entries": 109,
+    "remaining_types": {
+      "track_dangling": 5,
+      "shorting_items": 9,
+      "clearance": 1,
+      "hole_clearance": 4,
+      "solder_mask_bridge": 9
+    }
+  },
+  "source_hashes": {
+    "mainboard_revD.kicad_sch": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c",
+    "schematic/physical_interfaces.kicad_sch": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1",
+    "schematic/pickup_on_main.kicad_sch": "0b339a9d9b0a8ddf8a07e3f585a31460c30480f3b75aeb7044bf5c112a7898a0",
+    "schematic/usb_entry.kicad_sch": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2",
+    "schematic/recovery_fixture.kicad_sch": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd",
+    "schematic/mcu_core.kicad_sch": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68",
+    "schematic/mainboard_revD.kicad_sch": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a",
+    "schematic/usb_main_port.kicad_sch": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653",
+    "schematic/safe_bias_interfaces.kicad_sch": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1",
+    "schematic/dvp_translation.kicad_sch": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d",
+    "schematic/controls_sccb.kicad_sch": "689451fe47ab450797c3ccf7e865d711b089ec611b752447c58b4f95774a2b2e",
+    "schematic/camera_gate_on_main.kicad_sch": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+  }
+}

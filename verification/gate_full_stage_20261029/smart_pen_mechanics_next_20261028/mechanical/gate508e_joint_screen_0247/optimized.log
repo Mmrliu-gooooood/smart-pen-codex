@@ -1,0 +1,286 @@
+11:48:48: Debug: Adding duplicate image handler for 'PNG file'
+11:48:48: Debug: Adding duplicate image handler for 'JPEG file'
+11:48:48: Debug: Adding duplicate image handler for 'TIFF file'
+11:48:48: Debug: Adding duplicate image handler for 'GIF file'
+11:48:48: Debug: Adding duplicate image handler for 'PNM file'
+11:48:48: Debug: Adding duplicate image handler for 'PCX file'
+11:48:48: Debug: Adding duplicate image handler for 'IFF file'
+11:48:48: Debug: Adding duplicate image handler for 'Windows icon file'
+11:48:48: Debug: Adding duplicate image handler for 'Windows cursor file'
+11:48:48: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+11:48:48: Debug: Adding duplicate image handler for 'TGA file'
+11:48:48: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "source": "/workspace/scratch/fe148e758944/smart_pen_next_20261028/hardware/gate_control_output_candidate/mainboard_revD.kicad_pcb",
+  "sha256": "508e71cbc50437cfb64a28ea8169a8511eb884f8363620e95f58773f368c5b35",
+  "prior_sha256": "ae805cea5d51e864588bdf052b64e1bacce118a122b9f98ce21ddaa15345a691",
+  "changed": [
+    "C302",
+    "R301",
+    "R302",
+    "TP301"
+  ],
+  "footprints": 102,
+  "contracts": {
+    "R301": {
+      "native": {
+        "x": 5.7,
+        "y": 66.5,
+        "angle": 180.0,
+        "side": "B.Cu",
+        "fp": "R1_YAGEO_0603_STUDY",
+        "pads": [
+          [
+            "1",
+            "CAM_ON",
+            6.55,
+            66.5,
+            0.9,
+            0.8,
+            1,
+            180.0
+          ],
+          [
+            "2",
+            "GND",
+            4.85,
+            66.5,
+            0.9,
+            0.8,
+            1,
+            180.0
+          ]
+        ]
+      },
+      "body_max": [
+        1.7,
+        0.9,
+        0.7
+      ],
+      "union_pad_bounds": [
+        4.4,
+        66.05,
+        7.0,
+        66.95
+      ],
+      "pen_bounds": [
+        -2.5999999999999996,
+        1.564793176328504,
+        60.05,
+        0.0,
+        2.264793176328504,
+        60.95
+      ]
+    },
+    "R302": {
+      "native": {
+        "x": 5.7,
+        "y": 73.0,
+        "angle": 180.0,
+        "side": "B.Cu",
+        "fp": "R2_YAGEO_0603_STUDY",
+        "pads": [
+          [
+            "1",
+            "CAM_PWR_EN",
+            6.55,
+            73.0,
+            0.9,
+            0.8,
+            1,
+            180.0
+          ],
+          [
+            "2",
+            "CAM_ON",
+            4.85,
+            73.0,
+            0.9,
+            0.8,
+            1,
+            180.0
+          ]
+        ]
+      },
+      "body_max": [
+        1.7,
+        0.9,
+        0.7
+      ],
+      "union_pad_bounds": [
+        4.4,
+        72.55,
+        7.0,
+        73.45
+      ],
+      "pen_bounds": [
+        -2.5999999999999996,
+        1.564793176328504,
+        53.55,
+        0.0,
+        2.264793176328504,
+        54.45
+      ]
+    },
+    "C302": {
+      "native": {
+        "x": 9.5,
+        "y": 74.0,
+        "angle": 180.0,
+        "side": "B.Cu",
+        "fp": "C2_TDK_0603_STUDY",
+        "pads": [
+          [
+            "1",
+            "CAM_3V3_PRELINK",
+            10.2,
+            74.0,
+            0.7,
+            0.7,
+            1,
+            180.0
+          ],
+          [
+            "2",
+            "GND",
+            8.8,
+            74.0,
+            0.7,
+            0.7,
+            1,
+            180.0
+          ]
+        ]
+      },
+      "body_max": [
+        1.75,
+        0.95,
+        1.1
+      ],
+      "union_pad_bounds": [
+        8.45,
+        73.525,
+        10.55,
+        74.475
+      ],
+      "pen_bounds": [
+        1.4499999999999993,
+        1.1647931763285038,
+        52.525000000000006,
+        3.5500000000000007,
+        2.264793176328504,
+        53.474999999999994
+      ]
+    },
+    "TP301": {
+      "native": {
+        "x": 4.325,
+        "y": 74.5,
+        "angle": 180.0,
+        "side": "B.Cu",
+        "fp": "Enable_measure_land",
+        "pads": [
+          [
+            "1",
+            "CAM_PWR_EN",
+            4.325,
+            74.5,
+            1.0,
+            1.0,
+            1,
+            180.0
+          ]
+        ]
+      },
+      "body_max": [
+        1,
+        1,
+        0.15
+      ],
+      "union_pad_bounds": [
+        3.825,
+        74.0,
+        4.825,
+        75.0
+      ],
+      "pen_bounds": [
+        -3.175,
+        2.114793176328504,
+        52.0,
+        -2.175,
+        2.264793176328504,
+        53.0
+      ]
+    }
+  },
+  "TP_shape_correction": "actual native 1x1 rectangular pad, not preliminary circular claim; .15 external budget retained conservatively; copper .035 inside substrate",
+  "studies": {
+    "RevC": {
+      "delta_collisions": {
+        "CTX_R301": [],
+        "CTX_R302": [],
+        "CTX_C302": [],
+        "CTX_TP301": []
+      },
+      "fixture_collisions": {},
+      "assembly": [],
+      "reopened_valid": true,
+      "CAD_sha256": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935"
+    },
+    "RevD": {
+      "delta_collisions": {
+        "CTX_R301": [],
+        "CTX_R302": [],
+        "CTX_C302": [],
+        "CTX_TP301": []
+      },
+      "fixture_collisions": {},
+      "assembly": [
+        {
+          "board_shiftY": 0,
+          "hits": []
+        },
+        {
+          "board_shiftY": 0.1,
+          "hits": []
+        },
+        {
+          "board_shiftY": 0.5,
+          "hits": []
+        },
+        {
+          "board_shiftY": 1,
+          "hits": []
+        },
+        {
+          "board_shiftY": 2,
+          "hits": []
+        },
+        {
+          "board_shiftY": 5,
+          "hits": []
+        },
+        {
+          "board_shiftY": 10,
+          "hits": []
+        }
+      ],
+      "probe_budget_hits": [
+        [
+          "REF_CTX_main_board",
+          0.10913946934659041
+        ]
+      ],
+      "ideal_point_probe_budget_hits": [],
+      "probe_budget_endpoint": [
+        -2.675,
+        2.264793176328504,
+        52.5
+      ],
+      "probe_not_actual_selected_tool": true,
+      "reopened_valid": true,
+      "CAD_sha256": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135"
+    }
+  },
+  "status": "FINITE_GEOMETRY_SCREEN_NOFAB_NOT_PHYSICAL_ASSEMBLY_OR_FINAL_SHELL"
+}

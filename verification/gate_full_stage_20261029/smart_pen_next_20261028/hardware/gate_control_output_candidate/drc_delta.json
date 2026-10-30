@@ -1,0 +1,2558 @@
+{
+  "before_file_sha256": "c2b15d02886488dc8124f8b5502bf8a96ad1c12ea7e43a103848d39c8c18c9f5",
+  "after_file_sha256": "c22359e0fd75d396b1c25168467a30e44dd3e4a38a4e00b0e19e039b689bda31",
+  "before_counts": {
+    "violations": 135,
+    "unconnected_items": 54,
+    "schematic_parity": 0
+  },
+  "after_counts": {
+    "violations": 28,
+    "unconnected_items": 41,
+    "schematic_parity": 0
+  },
+  "comparison_identity": "type plus sorted involved UUIDs; warning representative may vary; no deduplication applied to raw native totals",
+  "added": [
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on In2.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 11.1,
+            "y": 63.15
+          },
+          "uuid": "5943f84b-e233-4b18-bdaa-66b39aad6146"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    },
+    {
+      "description": "Track has unconnected end",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on F.Cu, length 0.3536 mm",
+          "pos": {
+            "x": 10.15,
+            "y": 66.5
+          },
+          "uuid": "bc5614c5-2a35-4867-881e-8d3fbd2529e3"
+        }
+      ],
+      "severity": "warning",
+      "type": "track_dangling"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0750 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of J301 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 88.7
+          },
+          "uuid": "0169945c-5f42-4b45-9a8c-0c8c01a13758"
+        },
+        {
+          "description": "Via [USB_EN2] on F.Cu - B.Cu",
+          "pos": {
+            "x": 7.125,
+            "y": 89.125
+          },
+          "uuid": "b31f9359-7942-412f-a821-458fc9e5b7f2"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0311 mm)",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 3.9598 mm",
+          "pos": {
+            "x": 9.9,
+            "y": 66.75
+          },
+          "uuid": "01a2ffb5-df18-4286-8a59-2ce83e1d714a"
+        },
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0606 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Via [3V3_AON] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 63.4
+          },
+          "uuid": "31f0e6c7-6f3f-4ce7-a0d7-3d50087fea7f"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0664 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Track [CAM_SCL] on B.Cu, length 0.3536 mm",
+          "pos": {
+            "x": 6.8,
+            "y": 64.5
+          },
+          "uuid": "4f213898-eaff-4953-9946-5fa004f699a8"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1250 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.1000 mm",
+          "pos": {
+            "x": 5.0,
+            "y": 64.1
+          },
+          "uuid": "5238b75f-4e39-4eac-8343-3dc1a9888e3b"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0750 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 5.05,
+            "y": 64.05
+          },
+          "uuid": "c883c1a9-fe51-4030-9b09-bfa16e4a8856"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0250 mm)",
+      "items": [
+        {
+          "description": "Track [SENS_TRIG_IN] on B.Cu, length 0.0500 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 61.35
+          },
+          "uuid": "4c8968b3-73a6-41fe-8019-e1386c6d04a9"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of TP301 on B.Cu",
+          "pos": {
+            "x": 4.5,
+            "y": 62.0
+          },
+          "uuid": "5d1d5253-4a89-41a8-a43f-c50f2e19ab18"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1250 mm)",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 0.3000 mm",
+          "pos": {
+            "x": 5.9,
+            "y": 66.2
+          },
+          "uuid": "52774f12-1ec0-4fa2-8e99-599f58396049"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0750 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of TP301 on B.Cu",
+          "pos": {
+            "x": 4.5,
+            "y": 62.0
+          },
+          "uuid": "5d1d5253-4a89-41a8-a43f-c50f2e19ab18"
+        },
+        {
+          "description": "Track [SENS_TRIG_IN] on B.Cu, length 2.7577 mm",
+          "pos": {
+            "x": 6.7,
+            "y": 59.4
+          },
+          "uuid": "c36d07e7-391a-4e15-815d-447b81b0b868"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0311 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of TP301 on B.Cu",
+          "pos": {
+            "x": 4.5,
+            "y": 62.0
+          },
+          "uuid": "5d1d5253-4a89-41a8-a43f-c50f2e19ab18"
+        },
+        {
+          "description": "Track [CAM_BUS_EN] on B.Cu, length 4.3134 mm",
+          "pos": {
+            "x": 6.1,
+            "y": 59.25
+          },
+          "uuid": "f4c6e253-a829-4952-b9fc-c2d392a8b16e"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1250 mm)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 2.1920 mm",
+          "pos": {
+            "x": 8.95,
+            "y": 64.7
+          },
+          "uuid": "8974dfbc-fd45-45f8-b2d2-e194b4de3448"
+        },
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0808 mm)",
+      "items": [
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.9,
+            "y": 66.7
+          },
+          "uuid": "9ef1fedf-71d6-4de1-8a7d-82fbba0dd257"
+        },
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0500 mm)",
+      "items": [
+        {
+          "description": "Via [CAM_ISO_OE_N] on F.Cu - B.Cu",
+          "pos": {
+            "x": 9.9,
+            "y": 66.75
+          },
+          "uuid": "b3316942-7321-4057-8f13-14c3ded0a42b"
+        },
+        {
+          "description": "Pad 2 [GND] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.0
+          },
+          "uuid": "c0043729-128e-444a-93d3-185a9a95fb81"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1486 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        },
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 5.9,
+            "y": 66.5
+          },
+          "uuid": "ef915b1f-9acf-4ccc-b9c7-52776d38f45a"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.1486 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        },
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 0.0500 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 67.4
+          },
+          "uuid": "edbf998c-6553-4d04-bfe2-9b9c65f5db22"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (netclass 'Default' clearance 0.1500 mm; actual 0.0750 mm)",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 3.0500 mm",
+          "pos": {
+            "x": 3.3,
+            "y": 66.45
+          },
+          "uuid": "dcb43857-7169-4248-9521-d6fd5624f8af"
+        },
+        {
+          "description": "Pad 2 [GND] of C303 on B.Cu",
+          "pos": {
+            "x": 3.8,
+            "y": 68.0
+          },
+          "uuid": "e4def123-2362-448f-8c71-c11781060489"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2250 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of J301 on F.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 88.7
+          },
+          "uuid": "0169945c-5f42-4b45-9a8c-0c8c01a13758"
+        },
+        {
+          "description": "Via [USB_EN2] on F.Cu - B.Cu",
+          "pos": {
+            "x": 7.125,
+            "y": 89.125
+          },
+          "uuid": "b31f9359-7942-412f-a821-458fc9e5b7f2"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        },
+        {
+          "description": "Via [SENS_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 65.45
+          },
+          "uuid": "1a328454-474e-4291-9a7a-3663247d728d"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2106 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Via [3V3_AON] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 63.4
+          },
+          "uuid": "31f0e6c7-6f3f-4ce7-a0d7-3d50087fea7f"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Via [CAM_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 6.8,
+            "y": 64.5
+          },
+          "uuid": "cd9ea7d7-1cd4-4327-80fb-72d86efe7f17"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        },
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.9,
+            "y": 66.7
+          },
+          "uuid": "9ef1fedf-71d6-4de1-8a7d-82fbba0dd257"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        },
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        },
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 64.65
+          },
+          "uuid": "d5117774-6de0-4f0b-bd61-99589539c9a9"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1500 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        },
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 6.8,
+            "y": 65.3
+          },
+          "uuid": "34d07c83-aec0-42cd-a372-29608a9e5ee1"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        },
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 67.9
+          },
+          "uuid": "411efcfe-35f9-4b96-ab96-e16694873e70"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        },
+        {
+          "description": "Via [SENS_VIO_1V8] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.95,
+            "y": 63.25
+          },
+          "uuid": "51afba21-e8d0-4ae4-9e64-f25f1e06f2a0"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of JP301 on B.Cu",
+          "pos": {
+            "x": 10.75,
+            "y": 72.5
+          },
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066"
+        },
+        {
+          "description": "Via [3V3_AON] on F.Cu - B.Cu",
+          "pos": {
+            "x": 11.1,
+            "y": 72.0
+          },
+          "uuid": "59b25b66-d2d5-4474-8fc3-fe8310441651"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [CAM_QOD] of R303 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 70.0
+          },
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71"
+        },
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.5,
+            "y": 70.4
+          },
+          "uuid": "9f6faf31-a5ed-4ac6-88ce-0b4793f352d3"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2308 mm)",
+      "items": [
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        },
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.9,
+            "y": 66.7
+          },
+          "uuid": "9ef1fedf-71d6-4de1-8a7d-82fbba0dd257"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        },
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 7.6,
+            "y": 70.3
+          },
+          "uuid": "a99cd4f6-a9ce-4091-a04d-95928e10862c"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.0
+          },
+          "uuid": "c0043729-128e-444a-93d3-185a9a95fb81"
+        },
+        {
+          "description": "Via [CAM_ISO_OE_N] on F.Cu - B.Cu",
+          "pos": {
+            "x": 9.9,
+            "y": 66.75
+          },
+          "uuid": "b3316942-7321-4057-8f13-14c3ded0a42b"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1000 mm)",
+      "items": [
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        },
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ISO_OE_N and CAM_ON)",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 3.9598 mm",
+          "pos": {
+            "x": 9.9,
+            "y": 66.75
+          },
+          "uuid": "01a2ffb5-df18-4286-8a59-2ce83e1d714a"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ISO_OE_N and CAM_ON)",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.3000 mm",
+          "pos": {
+            "x": 6.95,
+            "y": 63.9
+          },
+          "uuid": "08760add-4fc1-490c-9dab-5cf43beaa2c1"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SCCB_EN_SAFE and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.0500 mm",
+          "pos": {
+            "x": 7.7,
+            "y": 70.15
+          },
+          "uuid": "0b03f111-b660-4232-b69d-2d2da2d94407"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ISO_OE_N and GND)",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 1.3500 mm",
+          "pos": {
+            "x": 6.4,
+            "y": 64.05
+          },
+          "uuid": "0bfb1be9-2e6e-43e3-9bc6-39ea039d4a49"
+        },
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_SCL and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [CAM_SCL] on B.Cu, length 5.7000 mm",
+          "pos": {
+            "x": 7.0,
+            "y": 68.95
+          },
+          "uuid": "0f876a66-d447-4395-863b-c18bab029a9a"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SDA and CAM_ON)",
+      "items": [
+        {
+          "description": "Via [SENS_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 65.45
+          },
+          "uuid": "1a328454-474e-4291-9a7a-3663247d728d"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_SDA and CAM_PWR_EN)",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 1.2728 mm",
+          "pos": {
+            "x": 6.8,
+            "y": 65.3
+          },
+          "uuid": "2539cb02-c2bc-4111-8a6c-f0eed9e37fd9"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ON and CAM_ISO_OE_N)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 7.0,
+            "y": 63.95
+          },
+          "uuid": "5d163e91-306b-4980-acb4-9c2d1b028f05"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ON and CAM_SCL)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Via [CAM_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 6.8,
+            "y": 64.5
+          },
+          "uuid": "cd9ea7d7-1cd4-4327-80fb-72d86efe7f17"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_ON and CAM_ISO_OE_N)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.1000 mm",
+          "pos": {
+            "x": 7.1,
+            "y": 63.95
+          },
+          "uuid": "e75ac47f-d9ff-4891-aaf3-1be1c224db0a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_QOD and CAM_SDA)",
+      "items": [
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        },
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.9,
+            "y": 66.7
+          },
+          "uuid": "9ef1fedf-71d6-4de1-8a7d-82fbba0dd257"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_QOD and SCCB_EN_SAFE)",
+      "items": [
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        },
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_QOD and SCCB_EN_SAFE)",
+      "items": [
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        },
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 3.1500 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 66.599999
+          },
+          "uuid": "d7655fa0-19bc-493f-88f4-7e63f6edd3d4"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets GND and SENS_SCL)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        },
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 64.65
+          },
+          "uuid": "d5117774-6de0-4f0b-bd61-99589539c9a9"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_SDA and CAM_PWR_EN)",
+      "items": [
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 6.8,
+            "y": 65.3
+          },
+          "uuid": "34d07c83-aec0-42cd-a372-29608a9e5ee1"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SCL and CAM_CT)",
+      "items": [
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 67.9
+          },
+          "uuid": "411efcfe-35f9-4b96-ab96-e16694873e70"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and GND)",
+      "items": [
+        {
+          "description": "Via [SENS_VIO_1V8] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.95,
+            "y": 63.25
+          },
+          "uuid": "51afba21-e8d0-4ae4-9e64-f25f1e06f2a0"
+        },
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SCL and CAM_QOD)",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 0.2500 mm",
+          "pos": {
+            "x": 5.5,
+            "y": 70.4
+          },
+          "uuid": "57b52fbe-2083-4f2d-b3df-a23f05508b2f"
+        },
+        {
+          "description": "Pad 2 [CAM_QOD] of R303 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 70.0
+          },
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets 3V3_AON and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Via [3V3_AON] on F.Cu - B.Cu",
+          "pos": {
+            "x": 11.1,
+            "y": 72.0
+          },
+          "uuid": "59b25b66-d2d5-4474-8fc3-fe8310441651"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of JP301 on B.Cu",
+          "pos": {
+            "x": 10.75,
+            "y": 72.5
+          },
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_PWR_EN and SENS_TRIG_IN)",
+      "items": [
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of TP301 on B.Cu",
+          "pos": {
+            "x": 4.5,
+            "y": 62.0
+          },
+          "uuid": "5d1d5253-4a89-41a8-a43f-c50f2e19ab18"
+        },
+        {
+          "description": "Track [SENS_TRIG_IN] on B.Cu, length 2.0506 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 61.4
+          },
+          "uuid": "da2d3cd0-4d05-4b42-8422-b3e7ac0d7958"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SDA and CAM_ON)",
+      "items": [
+        {
+          "description": "Track [SENS_SDA] on B.Cu, length 1.5500 mm",
+          "pos": {
+            "x": 5.2,
+            "y": 65.45
+          },
+          "uuid": "615d63ee-3448-404c-8c6e-bc7dbe58e305"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_SDA and CAM_CT)",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 2.5456 mm",
+          "pos": {
+            "x": 5.85,
+            "y": 68.05
+          },
+          "uuid": "646109ac-569a-43aa-93f4-be3e028881f3"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of C302 on B.Cu",
+          "pos": {
+            "x": 10.7,
+            "y": 70.0
+          },
+          "uuid": "7b1f3ef9-b1f4-44d3-a61b-9c91031cb69a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and CAM_ON)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 3 [CAM_ON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.95
+          },
+          "uuid": "8f08869c-7172-4594-a917-d13912afcd03"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and 3V3_AON)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [3V3_AON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 66.05
+          },
+          "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and GND)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 2 [GND] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.0
+          },
+          "uuid": "c0043729-128e-444a-93d3-185a9a95fb81"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of JP301 on B.Cu",
+          "pos": {
+            "x": 10.75,
+            "y": 72.5
+          },
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_QOD and SENS_SCL)",
+      "items": [
+        {
+          "description": "Pad 2 [CAM_QOD] of R303 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 70.0
+          },
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71"
+        },
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.5,
+            "y": 70.4
+          },
+          "uuid": "9f6faf31-a5ed-4ac6-88ce-0b4793f352d3"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SCCB_EN_SAFE and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.1414 mm",
+          "pos": {
+            "x": 7.7,
+            "y": 70.2
+          },
+          "uuid": "801b678d-330b-4093-995e-efd7f456619e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SCL and CAM_ON)",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 1.9500 mm",
+          "pos": {
+            "x": 4.6,
+            "y": 65.3
+          },
+          "uuid": "86225d8b-dc16-48ff-aa50-e46a1b7762ed"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SCCB_EN_SAFE and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 69.75
+          },
+          "uuid": "86a5de71-fbef-4264-8faa-458c040c9583"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and 3V3_AON)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 2.1920 mm",
+          "pos": {
+            "x": 8.95,
+            "y": 64.7
+          },
+          "uuid": "8974dfbc-fd45-45f8-b2d2-e194b4de3448"
+        },
+        {
+          "description": "Pad 1 [3V3_AON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 66.05
+          },
+          "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets CAM_CT and SCCB_EN_SAFE)",
+      "items": [
+        {
+          "description": "Pad 4 [CAM_CT] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.95
+          },
+          "uuid": "996816b8-acbe-43eb-8e56-ec699bfd7474"
+        },
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 3.1500 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 66.599999
+          },
+          "uuid": "d7655fa0-19bc-493f-88f4-7e63f6edd3d4"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets GND and CAM_ISO_OE_N)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of C302 on B.Cu",
+          "pos": {
+            "x": 9.3,
+            "y": 70.0
+          },
+          "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 2.0506 mm",
+          "pos": {
+            "x": 9.4,
+            "y": 69.75
+          },
+          "uuid": "e8ac7d90-240a-4ebb-b5cd-4e78e883023a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets GND and CAM_ISO_OE_N)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of C302 on B.Cu",
+          "pos": {
+            "x": 9.3,
+            "y": 70.0
+          },
+          "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03"
+        },
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 1.6000 mm",
+          "pos": {
+            "x": 9.4,
+            "y": 68.15
+          },
+          "uuid": "edf1700d-2674-4fdf-92d9-6fc77dc0ab66"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_SCL and CAM_CT)",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 0.6364 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 67.45
+          },
+          "uuid": "9efb3dd1-8864-4964-8d07-b9d3e11a5840"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SCCB_EN_SAFE and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 7.6,
+            "y": 70.3
+          },
+          "uuid": "a99cd4f6-a9ce-4091-a04d-95928e10862c"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SENS_VIO_1V8 and GND)",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 1.4500 mm",
+          "pos": {
+            "x": 8.95,
+            "y": 63.25
+          },
+          "uuid": "b6638490-a3aa-49dd-b8cf-dc912ac57952"
+        },
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets SCCB_EN_SAFE and CAM_3V3_PRELINK)",
+      "items": [
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        },
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 3.9598 mm",
+          "pos": {
+            "x": 9.9,
+            "y": 66.75
+          },
+          "uuid": "01a2ffb5-df18-4286-8a59-2ce83e1d714a"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.3000 mm",
+          "pos": {
+            "x": 6.95,
+            "y": 63.9
+          },
+          "uuid": "08760add-4fc1-490c-9dab-5cf43beaa2c1"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.0500 mm",
+          "pos": {
+            "x": 7.7,
+            "y": 70.15
+          },
+          "uuid": "0b03f111-b660-4232-b69d-2d2da2d94407"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 1.3500 mm",
+          "pos": {
+            "x": 6.4,
+            "y": 64.05
+          },
+          "uuid": "0bfb1be9-2e6e-43e3-9bc6-39ea039d4a49"
+        },
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_SCL] on B.Cu, length 5.7000 mm",
+          "pos": {
+            "x": 7.0,
+            "y": 68.95
+          },
+          "uuid": "0f876a66-d447-4395-863b-c18bab029a9a"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SENS_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 65.45
+          },
+          "uuid": "1a328454-474e-4291-9a7a-3663247d728d"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 1.2728 mm",
+          "pos": {
+            "x": 6.8,
+            "y": 65.3
+          },
+          "uuid": "2539cb02-c2bc-4111-8a6c-f0eed9e37fd9"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of R302 on B.Cu",
+          "pos": {
+            "x": 6.55,
+            "y": 66.0
+          },
+          "uuid": "bd5df134-6486-4f3a-992f-93d35972758d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.0707 mm",
+          "pos": {
+            "x": 7.0,
+            "y": 63.95
+          },
+          "uuid": "5d163e91-306b-4980-acb4-9c2d1b028f05"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [CAM_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 6.8,
+            "y": 64.5
+          },
+          "uuid": "cd9ea7d7-1cd4-4327-80fb-72d86efe7f17"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 0.1000 mm",
+          "pos": {
+            "x": 7.1,
+            "y": 63.95
+          },
+          "uuid": "e75ac47f-d9ff-4891-aaf3-1be1c224db0a"
+        },
+        {
+          "description": "Pad 1 [CAM_ON] of R301 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 64.0
+          },
+          "uuid": "2af1d740-3063-47b0-b1db-b0b81430cae5"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [CAM_SDA] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.9,
+            "y": 66.7
+          },
+          "uuid": "9ef1fedf-71d6-4de1-8a7d-82fbba0dd257"
+        },
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        },
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 3.1500 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 66.599999
+          },
+          "uuid": "d7655fa0-19bc-493f-88f4-7e63f6edd3d4"
+        },
+        {
+          "description": "Pad 5 [CAM_QOD] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.0
+          },
+          "uuid": "3423e1fe-7d83-4f68-994d-d39878d28c3d"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 64.65
+          },
+          "uuid": "d5117774-6de0-4f0b-bd61-99589539c9a9"
+        },
+        {
+          "description": "Pad 2 [GND] of R301 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 64.0
+          },
+          "uuid": "34c69748-bf0f-434c-ba9f-c820e05220c6"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 67.9
+          },
+          "uuid": "411efcfe-35f9-4b96-ab96-e16694873e70"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SENS_VIO_1V8] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.95,
+            "y": 63.25
+          },
+          "uuid": "51afba21-e8d0-4ae4-9e64-f25f1e06f2a0"
+        },
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 0.2500 mm",
+          "pos": {
+            "x": 5.5,
+            "y": 70.4
+          },
+          "uuid": "57b52fbe-2083-4f2d-b3df-a23f05508b2f"
+        },
+        {
+          "description": "Pad 2 [CAM_QOD] of R303 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 70.0
+          },
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [3V3_AON] on F.Cu - B.Cu",
+          "pos": {
+            "x": 11.1,
+            "y": 72.0
+          },
+          "uuid": "59b25b66-d2d5-4474-8fc3-fe8310441651"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of JP301 on B.Cu",
+          "pos": {
+            "x": 10.75,
+            "y": 72.5
+          },
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_TRIG_IN] on B.Cu, length 2.0506 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 61.4
+          },
+          "uuid": "da2d3cd0-4d05-4b42-8422-b3e7ac0d7958"
+        },
+        {
+          "description": "Pad 1 [CAM_PWR_EN] of TP301 on B.Cu",
+          "pos": {
+            "x": 4.5,
+            "y": 62.0
+          },
+          "uuid": "5d1d5253-4a89-41a8-a43f-c50f2e19ab18"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_SDA] on B.Cu, length 1.5500 mm",
+          "pos": {
+            "x": 5.2,
+            "y": 65.45
+          },
+          "uuid": "615d63ee-3448-404c-8c6e-bc7dbe58e305"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_SDA] on B.Cu, length 2.5456 mm",
+          "pos": {
+            "x": 5.85,
+            "y": 68.05
+          },
+          "uuid": "646109ac-569a-43aa-93f4-be3e028881f3"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of C302 on B.Cu",
+          "pos": {
+            "x": 10.7,
+            "y": 70.0
+          },
+          "uuid": "7b1f3ef9-b1f4-44d3-a61b-9c91031cb69a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 3 [CAM_ON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.95
+          },
+          "uuid": "8f08869c-7172-4594-a917-d13912afcd03"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [3V3_AON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 66.05
+          },
+          "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 2 [GND] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 67.0
+          },
+          "uuid": "c0043729-128e-444a-93d3-185a9a95fb81"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 8.2000 mm",
+          "pos": {
+            "x": 10.5,
+            "y": 66.25
+          },
+          "uuid": "721a4424-ed82-4e79-8b0c-2c1e4e60f44e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of JP301 on B.Cu",
+          "pos": {
+            "x": 10.75,
+            "y": 72.5
+          },
+          "uuid": "cca86623-4677-40db-840f-30ce92a01066"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SENS_SCL] on F.Cu - B.Cu",
+          "pos": {
+            "x": 5.5,
+            "y": 70.4
+          },
+          "uuid": "9f6faf31-a5ed-4ac6-88ce-0b4793f352d3"
+        },
+        {
+          "description": "Pad 2 [CAM_QOD] of R303 on B.Cu",
+          "pos": {
+            "x": 5.65,
+            "y": 70.0
+          },
+          "uuid": "79dab4f6-631f-4e41-8327-c56b59dddf71"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.1414 mm",
+          "pos": {
+            "x": 7.7,
+            "y": 70.2
+          },
+          "uuid": "801b678d-330b-4093-995e-efd7f456619e"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 1.9500 mm",
+          "pos": {
+            "x": 4.6,
+            "y": 65.3
+          },
+          "uuid": "86225d8b-dc16-48ff-aa50-e46a1b7762ed"
+        },
+        {
+          "description": "Pad 2 [CAM_ON] of R302 on B.Cu",
+          "pos": {
+            "x": 4.85,
+            "y": 66.0
+          },
+          "uuid": "e1eda004-f0ab-4aff-806c-1b7c44eb5360"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 0.5657 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 69.75
+          },
+          "uuid": "86a5de71-fbef-4264-8faa-458c040c9583"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 2.1920 mm",
+          "pos": {
+            "x": 8.95,
+            "y": 64.7
+          },
+          "uuid": "8974dfbc-fd45-45f8-b2d2-e194b4de3448"
+        },
+        {
+          "description": "Pad 1 [3V3_AON] of U301 on B.Cu",
+          "pos": {
+            "x": 10.8,
+            "y": 66.05
+          },
+          "uuid": "9f2289f2-bc7a-46b3-bf11-fce7b48f0e3a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SCCB_EN_SAFE] on B.Cu, length 3.1500 mm",
+          "pos": {
+            "x": 8.1,
+            "y": 66.599999
+          },
+          "uuid": "d7655fa0-19bc-493f-88f4-7e63f6edd3d4"
+        },
+        {
+          "description": "Pad 4 [CAM_CT] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 67.95
+          },
+          "uuid": "996816b8-acbe-43eb-8e56-ec699bfd7474"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 2.0506 mm",
+          "pos": {
+            "x": 9.4,
+            "y": 69.75
+          },
+          "uuid": "e8ac7d90-240a-4ebb-b5cd-4e78e883023a"
+        },
+        {
+          "description": "Pad 2 [GND] of C302 on B.Cu",
+          "pos": {
+            "x": 9.3,
+            "y": 70.0
+          },
+          "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [CAM_ISO_OE_N] on B.Cu, length 1.6000 mm",
+          "pos": {
+            "x": 9.4,
+            "y": 68.15
+          },
+          "uuid": "edf1700d-2674-4fdf-92d9-6fc77dc0ab66"
+        },
+        {
+          "description": "Pad 2 [GND] of C302 on B.Cu",
+          "pos": {
+            "x": 9.3,
+            "y": 70.0
+          },
+          "uuid": "9ddfce6a-24b5-4f69-b019-a0741ef1da03"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_SCL] on B.Cu, length 0.6364 mm",
+          "pos": {
+            "x": 4.75,
+            "y": 67.45
+          },
+          "uuid": "9efb3dd1-8864-4964-8d07-b9d3e11a5840"
+        },
+        {
+          "description": "Pad 1 [CAM_CT] of C303 on B.Cu",
+          "pos": {
+            "x": 5.2,
+            "y": 68.0
+          },
+          "uuid": "da4aee3f-51f1-42bf-8560-63597fa20cfd"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 7.6,
+            "y": 70.3
+          },
+          "uuid": "a99cd4f6-a9ce-4091-a04d-95928e10862c"
+        },
+        {
+          "description": "Pad 1 [CAM_3V3_PRELINK] of R303 on B.Cu",
+          "pos": {
+            "x": 7.35,
+            "y": 70.0
+          },
+          "uuid": "cd97097c-3ed5-46bd-a0a1-04e760ad1af8"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [SENS_VIO_1V8] on B.Cu, length 1.4500 mm",
+          "pos": {
+            "x": 8.95,
+            "y": 63.25
+          },
+          "uuid": "b6638490-a3aa-49dd-b8cf-dc912ac57952"
+        },
+        {
+          "description": "Pad 2 [GND] of C301 on B.Cu",
+          "pos": {
+            "x": 9.05,
+            "y": 64.0
+          },
+          "uuid": "d13e40f4-3933-4184-9d21-b6efe1746267"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [SCCB_EN_SAFE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.1,
+            "y": 66.6
+          },
+          "uuid": "cde4f2dc-f6e4-4ab5-b9f7-53c00939ed92"
+        },
+        {
+          "description": "Pad 6 [CAM_3V3_PRELINK] of U301 on B.Cu",
+          "pos": {
+            "x": 8.2,
+            "y": 66.05
+          },
+          "uuid": "fde4d83a-9221-4cfd-b4b4-6cf43863699a"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "retained_count": 26,
+  "NOFAB": true
+}

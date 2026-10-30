@@ -1,0 +1,89 @@
+{
+  "scope": "native/synthetic geometry only; NOFAB, no physical/electrical/dynamic qualification",
+  "original_files_verified": 250,
+  "device_or_external_operations": false,
+  "full_history_build_chain_rebuilt": false,
+  "historical_DRC": [
+    28,
+    41,
+    0
+  ],
+  "real_short_findings_remaining": 9,
+  "frozen_source_unchanged": true,
+  "exact_r10_dependencies_verified": 322,
+  "native_replay": {
+    "kicad_version": "9.0.2",
+    "original_checks": [
+      "source_rules",
+      "audit",
+      "main_feed",
+      "output_isolation",
+      "geometry_risk",
+      "plane_contacts",
+      "rule_areas",
+      "source_rules_O",
+      "audit_O",
+      "main_feed_O",
+      "output_isolation_O",
+      "geometry_risk_O",
+      "plane_contacts_O",
+      "rule_areas_O",
+      "measure",
+      "qod_branch",
+      "negative_main_bridge"
+    ],
+    "main_bridge_negative_modes": 2,
+    "all_seven_corrupt_mutations_rerun": false,
+    "seven_corrupt_mutation_evidence": "retained frozen historical evidence, not this minimal replay",
+    "fresh_refill_audit": true,
+    "ae805_delta_rebuild_audit": true,
+    "rebuilt_serialization_sha256": "1451b1c0b5ade2593bae56e132f9a823346a69d9141a10f2e012df157fedc8f0",
+    "rebuild_bit_identity_required": false,
+    "fresh_DRC": [
+      28,
+      41,
+      0
+    ],
+    "fresh_DRC_exit": 5,
+    "fresh_ERC_errors": 0,
+    "fresh_ERC_warnings": 1,
+    "real_shorts": 9,
+    "all_fresh_violation_UUID_multiset_equal": true,
+    "collinear_legal_merges": 0,
+    "new_tracks": 973,
+    "new_vias": 32,
+    "short_tracks_lt_0p1mm": 669,
+    "manufacturing_approved": false,
+    "probe_contact_qualified": false
+  },
+  "mechanical_replay": {
+    "joint_normal_and_optimized_numerics_matched": true,
+    "clamp_normal_and_optimized_matched": true,
+    "finite_flat_probe_tip_collision_preserved": true,
+    "CAD_serialization_hash_excluded_from_numeric_comparison": true,
+    "generated_temporary_CAD_hashes": [
+      {
+        "optimized": false,
+        "CAD_sha256": {
+          "RevC": "b0e01c53a479ebe68e63fcd3f434efe43c190601d4e3378b57c4930f415609e3",
+          "RevD": "5d864d94d08dc5189877f2c7b980baf4999a6a972de7b27b4a422b833dc95930"
+        }
+      },
+      {
+        "optimized": true,
+        "CAD_sha256": {
+          "RevC": "24785badf1be34607f681ad4450d4b378cd2a816496e6bdcb08f493166b131aa",
+          "RevD": "23f2d1d5e734cbae5ae7ae4f1d1a121fda93bd6c37378305f786cb37658e844e"
+        }
+      }
+    ],
+    "frozen_delivered_CAD_hashes": {
+      "RevC": "fbe4b7e291101ae6a7089792ea16f2205dc36a8255406080dceeab9c6ae3d935",
+      "RevD": "eecdf99ea9e3e6c94bdc4a54b0014764e33a3568fe2590ade849c813cab14135"
+    },
+    "clamp_min_zone_clearance_mm": 0.05,
+    "clamp_mechanical_force_or_wear_qualified": false,
+    "final_19mm_shell": false
+  },
+  "relocated_standard_library_quick_passed": true
+}

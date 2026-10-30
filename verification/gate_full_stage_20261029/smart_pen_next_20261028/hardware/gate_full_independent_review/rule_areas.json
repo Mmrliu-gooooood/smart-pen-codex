@@ -1,0 +1,56 @@
+{
+  "all_rule_areas_unchanged": true,
+  "rules": {
+    "14367b46-4c2a-4ccf-93f3-2392aa314c05": {
+      "name": "RF_CLEARANCE_TRACKS_EXCEPT_TERMINAL",
+      "layers": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "outline": "SHAPE_LINE_CHAIN poly; \n{ auto tmp = SHAPE_LINE_CHAIN( { VECTOR2I( 5500000, -6500000), VECTOR2I( 12000000, -6500000), VECTOR2I( 12000000, 0), VECTOR2I( 9610000, 0), VECTOR2I( 9610000, -2000000), VECTOR2I( 9390000, -2000000), VECTOR2I( 9390000, 0), VECTOR2I( 5500000, 0)}, true );;\n poly.AddOutline(tmp); } \n",
+      "no_vias": true,
+      "no_copper": true,
+      "no_tracks": true,
+      "no_pads": false,
+      "no_footprints": false
+    },
+    "2a715b0e-d7bf-49ab-b132-f7f180326c33": {
+      "name": "LIS2DW12_BODY_ALL6_NO_PLANES_OR_VIAS",
+      "layers": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "outline": "SHAPE_LINE_CHAIN poly; \n{ auto tmp = SHAPE_LINE_CHAIN( { VECTOR2I( 3000000, 81000000), VECTOR2I( 5000000, 81000000), VECTOR2I( 5000000, 83000000), VECTOR2I( 3000000, 83000000)}, true );;\n poly.AddOutline(tmp); } \n",
+      "no_vias": true,
+      "no_copper": true,
+      "no_tracks": false,
+      "no_pads": false,
+      "no_footprints": false
+    },
+    "62bd9984-25f2-4891-ab22-d6eee6caf671": {
+      "name": "RF_RADIATOR_CLEARANCE_ALL_COPPER_LAYERS_NOFAB",
+      "layers": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "outline": "SHAPE_LINE_CHAIN poly; \n{ auto tmp = SHAPE_LINE_CHAIN( { VECTOR2I( 5500000, -6500000), VECTOR2I( 12000000, -6500000), VECTOR2I( 12000000, 0), VECTOR2I( 5500000, 0)}, true );;\n poly.AddOutline(tmp); } \n",
+      "no_vias": true,
+      "no_copper": true,
+      "no_tracks": false,
+      "no_pads": false,
+      "no_footprints": false
+    }
+  }
+}
