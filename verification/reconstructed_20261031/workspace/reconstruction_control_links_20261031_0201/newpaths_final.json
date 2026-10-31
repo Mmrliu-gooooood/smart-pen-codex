@@ -1,0 +1,296 @@
+[
+  {
+    "net": "CAM_SCL",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.1302871367,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649594074655,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "a3723830-d020-453e-8f22-b0c0d5e8098b",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.425,
+              68.625
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0653277327045,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SCL",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.133092213977,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0681028513765,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0dd0ba89-afc8-49fb-b534-8f1d0fe8ace2",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              10.6,
+              41.8
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SCL",
+    "layer": "In3.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.1336718987705,
+    "foreign_only_hole_mm2": 3.223985e-06,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.064929312185,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "a3723830-d020-453e-8f22-b0c0d5e8098b",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.425,
+              68.625
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3.223985e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908",
+            "net": "CAM_RESET_UART_TX",
+            "new": false,
+            "xy": [
+              11.475,
+              54.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0687393626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0dd0ba89-afc8-49fb-b534-8f1d0fe8ace2",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              10.6,
+              41.8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SDA",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.0672332900265,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0672332900265,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SDA",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.1303202237065,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649894137275,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "58f52810-7611-4466-b56d-01c1fad749cf",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              12.0,
+              41.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.065330809979,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": true,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SDA",
+    "layer": "In3.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.1300083150245,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0650188474175,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "4b3929c1-e613-5103-8421-a2d0d3db98dc",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              6.25,
+              67.65
+            ]
+          },
+          {
+            "uuid": "b58acc3d-d2c1-4178-94b7-659cccc17876",
+            "net": "CAM_CT",
+            "new": false,
+            "xy": [
+              6.65,
+              68.2
+            ]
+          },
+          {
+            "uuid": "5cdd688f-237f-4e73-a8ef-6af583aa886b",
+            "net": "CAM_ON",
+            "new": false,
+            "xy": [
+              6.85,
+              67.3
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.064989467607,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "58f52810-7611-4466-b56d-01c1fad749cf",
+            "net": "CAM_SDA",
+            "new": true,
+            "xy": [
+              12.0,
+              41.75
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

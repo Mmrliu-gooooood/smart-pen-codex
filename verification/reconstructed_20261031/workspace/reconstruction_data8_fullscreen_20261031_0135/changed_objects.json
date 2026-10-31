@@ -1,0 +1,97 @@
+{
+  "before_sha256": "a93102ae5ead18a965fbd7457202aad72e9ffece2d882471dcac8ddb49e2b60d",
+  "after_sha256": "f27d375c941b5cd026cf441b18994a47f4c27169b9e3a34946511542b69b1c71",
+  "only_three_copper_objects_changed": true,
+  "rows": [
+    {
+      "uuid": "6b437cf9-0c5b-492a-9449-6a510087a8e0",
+      "type": "via",
+      "net": "CAM_D2",
+      "layer": "F.Cu",
+      "a": [
+        4.275,
+        19.2
+      ],
+      "b": [
+        4.275,
+        19.2
+      ],
+      "width_mm": 0.45,
+      "body_hits": [],
+      "Fab_bbox_hits": [],
+      "courtyard_hits": [],
+      "near_courts": [
+        {
+          "ref": "R102",
+          "side": "F.Cu",
+          "gap_mm_nonintersecting_only": 0.03600766272276354,
+          "overlap_mm2": 0.0
+        },
+        {
+          "ref": "R101",
+          "side": "F.Cu",
+          "gap_mm_nonintersecting_only": 0.47900639201643624,
+          "overlap_mm2": 0.0
+        },
+        {
+          "ref": "C102",
+          "side": "F.Cu",
+          "gap_mm_nonintersecting_only": 0.3117727638395954,
+          "overlap_mm2": 0.0
+        }
+      ],
+      "near_full": [
+        {
+          "ref": "R102",
+          "side": "F.Cu",
+          "gap_mm_nonintersecting_only": 0.37134302209382386,
+          "overlap_mm2": 0.0
+        }
+      ],
+      "outline_gap_mm": 4.050000000000001
+    },
+    {
+      "uuid": "9650204e-bfdf-4193-a6c2-b1b4c28fcc5b",
+      "type": "track",
+      "net": "CAM_D2",
+      "layer": "In3.Cu",
+      "a": [
+        4.275,
+        19.2
+      ],
+      "b": [
+        4.425,
+        19.475
+      ],
+      "width_mm": 0.15,
+      "body_hits": [],
+      "Fab_bbox_hits": [],
+      "courtyard_hits": [],
+      "near_courts": [],
+      "near_full": [],
+      "outline_gap_mm": 4.2
+    },
+    {
+      "uuid": "c0176840-a919-480b-a4fd-14b52cb9bebe",
+      "type": "track",
+      "net": "CAM_D2",
+      "layer": "B.Cu",
+      "a": [
+        3.35,
+        19.325
+      ],
+      "b": [
+        4.275,
+        19.2
+      ],
+      "width_mm": 0.15,
+      "body_hits": [],
+      "Fab_bbox_hits": [],
+      "courtyard_hits": [],
+      "near_courts": [],
+      "near_full": [],
+      "outline_gap_mm": 3.275
+    }
+  ],
+  "scope": "finite mechanical source/route changes only; reference/fill outcome not qualified"
+}

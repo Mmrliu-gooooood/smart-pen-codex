@@ -1,0 +1,54 @@
+{
+  "source": "bounded comparison of completed routing orders, not optimality proof",
+  "orders": {
+    "bias_first": {
+      "both_joins": true,
+      "new_route_tracks": 214,
+      "new_route_vias": 4,
+      "added_route_centerline_mm": 54.96406563273158,
+      "log": [
+        {
+          "source": "R219.1",
+          "nodes": 1323,
+          "detail": {
+            "pops": 361104,
+            "method": "bidirectional first meeting, via cost120grid=3mm; no optimality claim"
+          }
+        },
+        {
+          "source": "U101.22",
+          "nodes": 667,
+          "detail": {
+            "pops": 119598,
+            "method": "bidirectional first meeting, via cost120grid=3mm; no optimality claim"
+          }
+        }
+      ]
+    },
+    "MCU_first": {
+      "both_joins": true,
+      "new_route_tracks": 148,
+      "new_route_vias": 4,
+      "added_route_centerline_mm": 54.36345596729059,
+      "log": [
+        {
+          "source": "U101.22",
+          "nodes": 1391,
+          "detail": {
+            "pops": 295940,
+            "method": "bidirectional first meeting, via cost120grid=3mm; no optimality claim"
+          }
+        },
+        {
+          "source": "R219.1",
+          "nodes": 599,
+          "detail": {
+            "pops": 296793,
+            "method": "bidirectional first meeting, via cost120grid=3mm; no optimality claim"
+          }
+        }
+      ]
+    }
+  },
+  "selected": "MCU_first plus bounded sourcevia y14.8\u219214.9; unnecessary sinkthroughvia removed. No eastgateway shift adopted."
+}

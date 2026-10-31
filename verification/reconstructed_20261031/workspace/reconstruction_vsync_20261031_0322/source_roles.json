@@ -1,0 +1,159 @@
+{
+  "checks": {
+    "U101.21": true,
+    "U101.22": true,
+    "U101.23": true,
+    "U202.4": true,
+    "U202.5": true,
+    "U202.6": true,
+    "U202.13": true,
+    "U202.12": true,
+    "U202.11": true,
+    "U202.1": true,
+    "U202.16": true,
+    "U202.2": true,
+    "U202.3": true,
+    "U202.14": true,
+    "U202.15": true,
+    "R218.1": true,
+    "R219.1": true,
+    "R220.1": true,
+    "R218_B_Cu_actual_LayerSet": true,
+    "R219_B_Cu_actual_LayerSet": true,
+    "R220_B_Cu_actual_LayerSet": true
+  },
+  "source_pin_fields": {
+    "U101.21": {
+      "ref": "U101",
+      "pin": "21",
+      "pinfunction": "GPIO15_XTAL32K_P",
+      "pintype": "bidirectional"
+    },
+    "U101.22": {
+      "ref": "U101",
+      "pin": "22",
+      "pinfunction": "GPIO16_XTAL32K_N",
+      "pintype": "bidirectional"
+    },
+    "U101.23": {
+      "ref": "U101",
+      "pin": "23",
+      "pinfunction": "GPIO17",
+      "pintype": "bidirectional"
+    },
+    "U202.4": {
+      "ref": "U202",
+      "pin": "4",
+      "pinfunction": "1A1",
+      "pintype": "bidirectional"
+    },
+    "U202.5": {
+      "ref": "U202",
+      "pin": "5",
+      "pinfunction": "1A2",
+      "pintype": "bidirectional"
+    },
+    "U202.6": {
+      "ref": "U202",
+      "pin": "6",
+      "pinfunction": "2A1",
+      "pintype": "bidirectional"
+    },
+    "U202.13": {
+      "ref": "U202",
+      "pin": "13",
+      "pinfunction": "1B1",
+      "pintype": "bidirectional"
+    },
+    "U202.12": {
+      "ref": "U202",
+      "pin": "12",
+      "pinfunction": "1B2",
+      "pintype": "bidirectional"
+    },
+    "U202.11": {
+      "ref": "U202",
+      "pin": "11",
+      "pinfunction": "2B1",
+      "pintype": "bidirectional"
+    },
+    "U202.1": {
+      "ref": "U202",
+      "pin": "1",
+      "pinfunction": "VCCA",
+      "pintype": "power_in"
+    },
+    "U202.16": {
+      "ref": "U202",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    "U202.2": {
+      "ref": "U202",
+      "pin": "2",
+      "pinfunction": "1DIR",
+      "pintype": "input"
+    },
+    "U202.3": {
+      "ref": "U202",
+      "pin": "3",
+      "pinfunction": "2DIR",
+      "pintype": "input"
+    },
+    "U202.14": {
+      "ref": "U202",
+      "pin": "14",
+      "pinfunction": "2OE_N",
+      "pintype": "input"
+    },
+    "U202.15": {
+      "ref": "U202",
+      "pin": "15",
+      "pinfunction": "1OE_N",
+      "pintype": "input"
+    },
+    "R218.1": {
+      "ref": "R218",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R219.1": {
+      "ref": "R219",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R220.1": {
+      "ref": "R220",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    }
+  },
+  "roles": "Enabled U202 DIRlow drives B sensor-domain inputs toward A-port AON outputs, then MCU inputs. R218/R219/R220 are physically B.Cu-mounted 100k 1% output bias resistors, not translator B-port input pulls. VSYNC now physically joins its MCU/U202/bias terminals in this stage. Input circuits remain active while outputs isolated; actual OE/sequence unqualified.",
+  "primary_sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf",
+      "revision": "SCES877B April2024",
+      "application": "PW16 pinmap, DIR/OE behavior, typical71k internal pulldown, capacitive-loading and edge/ringing guidance"
+    },
+    {
+      "url": "https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf",
+      "application": "LCD_CAM signals require GPIO-matrix selection, not physicalrouting alone"
+    },
+    {
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html",
+      "application": "IO MUX default versus GPIO matrix and power/bypass design; package-specific source pin map independently checked in native/sourceXML"
+    }
+  ],
+  "open_gates": [
+    "GPIO16 RTC/32k/analog ownership for VSYNC; existing GPIO15 PCLK and GPIO17 HREF input ownership retained",
+    "VSYNC physical closure does not establish actual capture function",
+    "Actual sensor identity, edge rate, PCLK polarity/frequency, setup/hold and firmware sampling",
+    "AXC4 PCLK/HREF delay versus AXC8 data delay, actual loading/loadedVOH and branch stubs",
+    "Fast-edge crosstalk/return path from changed source In2 clearances and ordinary-court process",
+    "Actual OE/power sequence/physical assembly; NOFAB/NOPOWER/providerNULL"
+  ]
+}

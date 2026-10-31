@@ -1,0 +1,171 @@
+{
+  "checks": {
+    "U101.49": true,
+    "U101.50": true,
+    "U203.5": true,
+    "U203.6": true,
+    "R222.1": true,
+    "R223.1": true,
+    "R222.2": true,
+    "R223.2": true,
+    "J104.1": true,
+    "J104.2": true,
+    "J104.3": true,
+    "U203.12": true,
+    "U203.11": true,
+    "U203.1": true,
+    "U203.16": true,
+    "U203.2": true,
+    "U203.3": true,
+    "U203.14": true,
+    "U203.15": true,
+    "R222_100k_Bmount": true,
+    "R223_100k_Bmount": true,
+    "GPIO43_TX": true,
+    "GPIO44_RX": true,
+    "service_camera_off": true
+  },
+  "source_pin_fields": {
+    "U101.49": {
+      "ref": "U101",
+      "pin": "49",
+      "pinfunction": "GPIO43_U0TXD",
+      "pintype": "bidirectional"
+    },
+    "U101.50": {
+      "ref": "U101",
+      "pin": "50",
+      "pinfunction": "GPIO44_U0RXD",
+      "pintype": "bidirectional"
+    },
+    "U203.5": {
+      "ref": "U203",
+      "pin": "5",
+      "pinfunction": "1A2",
+      "pintype": "bidirectional"
+    },
+    "U203.6": {
+      "ref": "U203",
+      "pin": "6",
+      "pinfunction": "2A1",
+      "pintype": "bidirectional"
+    },
+    "R222.1": {
+      "ref": "R222",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R223.1": {
+      "ref": "R223",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R222.2": {
+      "ref": "R222",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    "R223.2": {
+      "ref": "R223",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    "J104.1": {
+      "ref": "J104",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "J104.2": {
+      "ref": "J104",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    "J104.3": {
+      "ref": "J104",
+      "pin": "3",
+      "pinfunction": "3",
+      "pintype": "passive"
+    },
+    "U203.12": {
+      "ref": "U203",
+      "pin": "12",
+      "pinfunction": "1B2",
+      "pintype": "bidirectional"
+    },
+    "U203.11": {
+      "ref": "U203",
+      "pin": "11",
+      "pinfunction": "2B1",
+      "pintype": "bidirectional"
+    },
+    "U203.1": {
+      "ref": "U203",
+      "pin": "1",
+      "pinfunction": "VCCA",
+      "pintype": "power_in"
+    },
+    "U203.16": {
+      "ref": "U203",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    "U203.2": {
+      "ref": "U203",
+      "pin": "2",
+      "pinfunction": "1DIR",
+      "pintype": "input"
+    },
+    "U203.3": {
+      "ref": "U203",
+      "pin": "3",
+      "pinfunction": "2DIR",
+      "pintype": "input"
+    },
+    "U203.14": {
+      "ref": "U203",
+      "pin": "14",
+      "pinfunction": "2OE_N",
+      "pintype": "input"
+    },
+    "U203.15": {
+      "ref": "U203",
+      "pin": "15",
+      "pinfunction": "1OE_N",
+      "pintype": "input"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html",
+      "scope": "UART0 defaultsGPIO43/44; CPUdomain and reset weakpullup/inputenable;499ohm TX series recommended, absent here; no silent circuit change"
+    },
+    {
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-pico-1_datasheet_en.pdf",
+      "scope": "actualPICO package49/50 mapping, not genericmodule padnumbers"
+    },
+    {
+      "url": "https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf",
+      "scope": "ROM UART print controlled by boot/eFuse state; no irreversible eFuse action proposed"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf",
+      "scope": "PW pinmapping,DIRhigh/OElow A-to-B, control referencedVCCA"
+    }
+  ],
+  "gates": [
+    "CAM_PWDN_UART_RX is namingalias mapping SENS_TRIG_IN, NOT validated PWDN; original sensor-role requirement remains unresolved providerNULL",
+    "RESET\u2192SENS_XSHUTDN_N polarity/timing/provider interface remains unqualified",
+    "GPIO43/44 ROM/bootloader/application UART and weakpullup may changecontrollevels;100k doesnotprove startup state",
+    "Service camera-off-only, valid3.3V signaling/commonreference and no externaloutput contention; no5V orpoweredservice qualification",
+    "499ohm U0TXD series recommendation unresolved for claimedUART service/EMI; source circuit unchanged",
+    "DynamicOE/powersequencing/loadedVOH-VOL/actualedges/RC/cable/probe capacitance and sensorresponse unqualified",
+    "NOFAB/NOPOWER/JP201-202-301OPEN/providerNULL"
+  ]
+}

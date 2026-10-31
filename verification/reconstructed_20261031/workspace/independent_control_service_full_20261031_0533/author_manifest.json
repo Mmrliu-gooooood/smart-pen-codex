@@ -1,0 +1,1224 @@
+{
+  "status": "FROZEN_BOUNDED_STATIC_RESEARCH_CANDIDATE_FOR_INDEPENDENT_REVIEW",
+  "native": "final_candidate/mainboard_revD.kicad_pcb",
+  "native_sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1",
+  "parent_sha256": "6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08",
+  "actual_drc": [
+    0,
+    37,
+    0
+  ],
+  "scope": "Four MCU control/camera-off service physical joins; all old non-zone raw blocks exact. CAM_PWDN_UART_RX is naming alias mapped SENS_TRIG_IN, NOT validated sensor PWDN. Explicit19.00508mm new In2 conductor and filled-plane material/shared-hole changes;3363 old reference projections retain coverage, not SI/PDN/boot/service qualification. NOFAB/NOPOWER/providerNULL/JP201JP202JP301OPEN.",
+  "files": [
+    {
+      "path": "CONTRACT.md",
+      "bytes": 1689,
+      "sha256": "fe2f2a05e3c35936a4ef2b920bff6b2b27b49ccf0012877c0b285cb28412f527"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9150,
+      "sha256": "ff63a27b0c7adede9186b38e3eaa0b07de337e1e86f33e5aaac01ba45e34f715"
+    },
+    {
+      "path": "RUN_CHECKS.md",
+      "bytes": 3396,
+      "sha256": "85dda565f8cd113d1a70d5b2addef96ecb9aec7ab09ed6fa0487365b2a61a098"
+    },
+    {
+      "path": "advisory_dependencies.json",
+      "bytes": 8713,
+      "sha256": "af0c4a8392fca268e6a31b4f8c0ce1660adbe6d4e68ea2b1101b7c2a8ec394fc"
+    },
+    {
+      "path": "aggregate_checks.json",
+      "bytes": 1605,
+      "sha256": "9976ca8cb0f673494c16b190254d72d8c40a746de01b6c7785c1134e0ed78442"
+    },
+    {
+      "path": "aggregate_checks.py",
+      "bytes": 3756,
+      "sha256": "f36b71d018953e6e44981aa5d24e9047b6fb76319ca8912aea476229682c337d"
+    },
+    {
+      "path": "anchor_policy.py",
+      "bytes": 239,
+      "sha256": "719efc1654c4abee6e248897b4a6d725452625519ec057ecab55feb899e4d36c"
+    },
+    {
+      "path": "anchor_regression.json",
+      "bytes": 3283,
+      "sha256": "4e16f9dafaf73ee07a64bd367b9cf5379f88a990f5fa6805d37f229eb4732d15"
+    },
+    {
+      "path": "anchor_regression_final.py",
+      "bytes": 1787,
+      "sha256": "9128ff069ad2b6a6f040933444b79e3386bc5aad50a998b87fa1d4206b6d9f81"
+    },
+    {
+      "path": "anchor_regression_optimized.json",
+      "bytes": 3283,
+      "sha256": "4e16f9dafaf73ee07a64bd367b9cf5379f88a990f5fa6805d37f229eb4732d15"
+    },
+    {
+      "path": "boundary_flag_regression.py",
+      "bytes": 1514,
+      "sha256": "28b006433a27a5f93706e43663e2c6382b416957f0a45f0d403cb34a7c28cb7f"
+    },
+    {
+      "path": "boundary_regression.json",
+      "bytes": 709,
+      "sha256": "8c7677acaafa810cd554abb3da69fcb9ed8fc128ca0c65295adc5a548234d423"
+    },
+    {
+      "path": "boundary_regression_optimized.json",
+      "bytes": 709,
+      "sha256": "8c7677acaafa810cd554abb3da69fcb9ed8fc128ca0c65295adc5a548234d423"
+    },
+    {
+      "path": "candidate_check.json",
+      "bytes": 925,
+      "sha256": "a45a2de2c1dcf378686c3f3fce860f39577bcac85469cb005efdce175d2676ca"
+    },
+    {
+      "path": "candidate_check_optimized.json",
+      "bytes": 925,
+      "sha256": "a45a2de2c1dcf378686c3f3fce860f39577bcac85469cb005efdce175d2676ca"
+    },
+    {
+      "path": "check_candidate.py",
+      "bytes": 1525,
+      "sha256": "0ba18eedb87c24a7baa18ed555793e4f3b19b719543e73902a5cf52bef9d51a4"
+    },
+    {
+      "path": "clock_centerline.json",
+      "bytes": 8143,
+      "sha256": "ce98e3fa38fa3b15187627ddef878cf4363d122d1e961e4ceb7c2e1f11656cfe"
+    },
+    {
+      "path": "clock_centerline.py",
+      "bytes": 5058,
+      "sha256": "457e35a18d1d9b05126832b83e172f1eb21f0685c327dcb99178a3aec76fa3c1"
+    },
+    {
+      "path": "collinear_screen.json",
+      "bytes": 314,
+      "sha256": "d18ad6cedd03d5d773930f2cae8732f02f3bb054be0583849da2f08a7e1799f9"
+    },
+    {
+      "path": "collinear_screen.py",
+      "bytes": 890,
+      "sha256": "4fa2546f73aec5776a166ae52de282ac32975be22363a657efef7d695985d6f8"
+    },
+    {
+      "path": "copper_metrics.json",
+      "bytes": 2151,
+      "sha256": "8b6d85fb6067f36f2d17ade7f160fffc055fdfcb6c89ecb7f83ceb471abcbc52"
+    },
+    {
+      "path": "copper_metrics.py",
+      "bytes": 1446,
+      "sha256": "9ca5410ffba6d1a29a1667259c10b18d81f52a75c36436d1ec58fc8dd3116829"
+    },
+    {
+      "path": "fill_one.py",
+      "bytes": 340,
+      "sha256": "693fb67d13a2082ce391b6fce18dfc32b691df377f56ba8eff0b767a25030268"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2"
+    },
+    {
+      "path": "final_candidate/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32"
+    },
+    {
+      "path": "final_candidate/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3"
+    },
+    {
+      "path": "final_candidate/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa"
+    },
+    {
+      "path": "final_candidate/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50"
+    },
+    {
+      "path": "final_candidate/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b"
+    },
+    {
+      "path": "final_candidate/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572"
+    },
+    {
+      "path": "final_candidate/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e"
+    },
+    {
+      "path": "final_candidate/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55"
+    },
+    {
+      "path": "final_candidate/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24"
+    },
+    {
+      "path": "final_candidate/SmartPenIO.pretty/TI_DCK0005A_Schmitt_OfficialLand.kicad_mod",
+      "bytes": 1093,
+      "sha256": "657a4c8f5e536ff374a0d497583a2f08caa0d053061d0eb0eb798a8192257fc1"
+    },
+    {
+      "path": "final_candidate/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd"
+    },
+    {
+      "path": "final_candidate/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71"
+    },
+    {
+      "path": "final_candidate/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6"
+    },
+    {
+      "path": "final_candidate/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f"
+    },
+    {
+      "path": "final_candidate/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+    },
+    {
+      "path": "final_candidate/mainboard_revD.kicad_pcb",
+      "bytes": 1402650,
+      "sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1"
+    },
+    {
+      "path": "final_candidate/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+    },
+    {
+      "path": "final_candidate/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+    },
+    {
+      "path": "final_candidate/schematic/ISO.kicad_sym",
+      "bytes": 20806,
+      "sha256": "dc770809d1ef253042019d65a5b4858e75b600d5e874ac0ed04bc88af1202bfa"
+    },
+    {
+      "path": "final_candidate/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a"
+    },
+    {
+      "path": "final_candidate/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862"
+    },
+    {
+      "path": "final_candidate/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+    },
+    {
+      "path": "final_candidate/schematic/controls_sccb.kicad_sch",
+      "bytes": 43472,
+      "sha256": "9a70918a76778ffa64b04b69d474a557aad282b8cde978cd996881f35a3c091c"
+    },
+    {
+      "path": "final_candidate/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d"
+    },
+    {
+      "path": "final_candidate/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a"
+    },
+    {
+      "path": "final_candidate/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68"
+    },
+    {
+      "path": "final_candidate/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1"
+    },
+    {
+      "path": "final_candidate/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28654,
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe"
+    },
+    {
+      "path": "final_candidate/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd"
+    },
+    {
+      "path": "final_candidate/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1"
+    },
+    {
+      "path": "final_candidate/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc"
+    },
+    {
+      "path": "final_candidate/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2"
+    },
+    {
+      "path": "final_candidate/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653"
+    },
+    {
+      "path": "final_candidate/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb"
+    },
+    {
+      "path": "final_drc.json",
+      "bytes": 29591,
+      "sha256": "fb1e489cd50ddf36de8572d86321708d1cf1efc393325563f07872d9ba168cbc"
+    },
+    {
+      "path": "final_fill_reload.json",
+      "bytes": 502,
+      "sha256": "a175a417ea042c382953c0e0909729630ae64cf5c9c8cbb6196247b24ce5baed"
+    },
+    {
+      "path": "final_native_contract.json",
+      "bytes": 6933,
+      "sha256": "673e4f6ef61fffb0d06aa591769863a2d94bbe038c08c3cac6888bb403258aae"
+    },
+    {
+      "path": "final_native_contract_optimized.json",
+      "bytes": 6933,
+      "sha256": "673e4f6ef61fffb0d06aa591769863a2d94bbe038c08c3cac6888bb403258aae"
+    },
+    {
+      "path": "final_validation/native_reversible.ndiff",
+      "bytes": 1634198,
+      "sha256": "7cad2ecd32446f5447143e11bf27b4318681ba091525bb1e0ef7c187ad3100d4"
+    },
+    {
+      "path": "final_validation/negative_0.json",
+      "bytes": 547,
+      "sha256": "b877ebb0805b075ab14da1c6b2b8e2e99ee1e3446b25a6ef5c8e189fd3d743c7"
+    },
+    {
+      "path": "final_validation/negative_1.json",
+      "bytes": 546,
+      "sha256": "ce2c105f11b1ab212acd6e3a920abb960328475bff132a2233dd7799214b3808"
+    },
+    {
+      "path": "final_validation/negative_2.json",
+      "bytes": 546,
+      "sha256": "8f4a03400a4151a065043b5d00faea4db5727e8b648d9225b8133dea71e4784f"
+    },
+    {
+      "path": "final_validation/negative_3.json",
+      "bytes": 545,
+      "sha256": "4f21392551000477d86cf0df6218e64e64b7261ae05c99f9c0f7d659ae835bb4"
+    },
+    {
+      "path": "final_validation/negative_optimized_0.json",
+      "bytes": 550,
+      "sha256": "0cf7319922b1771cffe79c5152cdf56b22f15e66b22f4095980c46b5beef5b9c"
+    },
+    {
+      "path": "final_validation/negative_optimized_1.json",
+      "bytes": 549,
+      "sha256": "cc64797c058e55893823f1593e123bab574cc9d0948636a9a36a9efcd6aee790"
+    },
+    {
+      "path": "final_validation/negative_optimized_2.json",
+      "bytes": 549,
+      "sha256": "d2586601e9796eaa2311893673a4eff01c613da5614c81b92c82082ce5e0f06c"
+    },
+    {
+      "path": "final_validation/negative_optimized_3.json",
+      "bytes": 548,
+      "sha256": "f13218a1f7954839f007a166ca29abd4a46f55c53a046224ab395ea942806813"
+    },
+    {
+      "path": "final_validation/saved_cut_0_drc.json",
+      "bytes": 30892,
+      "sha256": "baa5de373e189916e8291c562713b0eafbda7ba800911a4b54f832ba280f9082"
+    },
+    {
+      "path": "final_validation/saved_cut_1_drc.json",
+      "bytes": 30913,
+      "sha256": "91c544bd2b4e2cafa9fa16b03cd5b209eecfbfcffa5908408617203a82e8b0ac"
+    },
+    {
+      "path": "final_validation/saved_cut_2_drc.json",
+      "bytes": 30894,
+      "sha256": "95f4c5cf1f75557c2c24f7a714a88d3eacd17dc4cb736e90ffd6f8415a480f55"
+    },
+    {
+      "path": "final_validation/saved_cut_3_drc.json",
+      "bytes": 30415,
+      "sha256": "205df3279d97134fb94c8f642ccc0bc04f62b0f7e88e50e50f1fcc319093a37c"
+    },
+    {
+      "path": "final_validation/saved_cut_optimized_0_drc.json",
+      "bytes": 30899,
+      "sha256": "7214b6e4d704ea74d2d96fe7c3a51f66848c2c133bbff538c487f4820965f39a"
+    },
+    {
+      "path": "final_validation/saved_cut_optimized_1_drc.json",
+      "bytes": 30913,
+      "sha256": "c6c706649dd74bbafc4fef7012d02d72490d22755da317f10b83f379bcde7b5c"
+    },
+    {
+      "path": "final_validation/saved_cut_optimized_2_drc.json",
+      "bytes": 30908,
+      "sha256": "81303e092ce7d13fe267814ecefd1ae1359c27e97cecbbbae8213eb82016573b"
+    },
+    {
+      "path": "final_validation/saved_cut_optimized_3_drc.json",
+      "bytes": 30414,
+      "sha256": "7f4aee8d976572f844c62df3abdc2cc9d88dfad4126ad3e62f72cb9986fdbfe3"
+    },
+    {
+      "path": "final_verification.json",
+      "bytes": 115215,
+      "sha256": "42d28b1128591c714b4fded13561ed6ebf8bc78be982adc3f4ea59511c2ff459"
+    },
+    {
+      "path": "final_verification_optimized.json",
+      "bytes": 115215,
+      "sha256": "42d28b1128591c714b4fded13561ed6ebf8bc78be982adc3f4ea59511c2ff459"
+    },
+    {
+      "path": "freeze_review.py",
+      "bytes": 3765,
+      "sha256": "9e3bcbc6ea86927cf0195557bc5c9ccba5f0d75d0ccf43228a090434ef0f1ef3"
+    },
+    {
+      "path": "geometry_native.py",
+      "bytes": 6400,
+      "sha256": "59adbdbacc499d63c5dec0de49a6dcd7f6871de52a1c31b44d17705e37b3719e"
+    },
+    {
+      "path": "junction_exact_delta.json",
+      "bytes": 1026,
+      "sha256": "f1404a0975ceecccddb57d953925d1a3524769b8749f8d4662726d9c7ec409e7"
+    },
+    {
+      "path": "junction_exact_delta.py",
+      "bytes": 2074,
+      "sha256": "e72f5da97cfe7225d47dd40d568711a9a1e8c26847525d2ef65c5e680d4c5f17"
+    },
+    {
+      "path": "junction_reversible.ndiff",
+      "bytes": 1503634,
+      "sha256": "f117f8a4b32616dec8953554127155220b9c2fc8647ce620f69905995c2b5028"
+    },
+    {
+      "path": "model_replay.json",
+      "bytes": 864,
+      "sha256": "61d92bc16e7b27a9d4aed2f1526b39623443e2a4075f752577fcc6fc9755ba65"
+    },
+    {
+      "path": "model_replay.py",
+      "bytes": 1819,
+      "sha256": "62dfd488b033c70c38bcc6ac7d7badb0ba0424ef467fcd1aa10a6baa760b2da7"
+    },
+    {
+      "path": "native/GateStudy.pretty/C1_TDK_0603_STUDY.kicad_mod",
+      "bytes": 662,
+      "sha256": "a0a70a0512e010a3e91c75259e3020e266e33d7bd30217b03cdd0bd13b0b1262"
+    },
+    {
+      "path": "native/GateStudy.pretty/C1_TDK_0805_X7R_STANDARD.kicad_mod",
+      "bytes": 680,
+      "sha256": "3f0a4074da0888ec51965455cbcf3e354deeaa764d93d712a3c61b6238f35584"
+    },
+    {
+      "path": "native/GateStudy.pretty/C2_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "fd5fda8fe0d39e9842b601839adbfeb47700ae49e3cc67e938b6d4aff5a47977"
+    },
+    {
+      "path": "native/GateStudy.pretty/C3_TDK_0603_STUDY.kicad_mod",
+      "bytes": 666,
+      "sha256": "72dc64ecb258bc594d1ead596ef00a8d50adecb6d03fdf49772221688ea83739"
+    },
+    {
+      "path": "native/GateStudy.pretty/Commission_OPEN_NO_PASTE.kicad_mod",
+      "bytes": 654,
+      "sha256": "6a5dd38e48f196d000c1af851919344f162da4488310b54d544d8aa15cf3ac19"
+    },
+    {
+      "path": "native/GateStudy.pretty/Controlled_output_wirelands.kicad_mod",
+      "bytes": 658,
+      "sha256": "7ba290561c15708923b48fdf2d0014f6d421523a629af6749d27a1b961f453c5"
+    },
+    {
+      "path": "native/GateStudy.pretty/Enable_measure_land.kicad_mod",
+      "bytes": 571,
+      "sha256": "feecd2481a02d93fd834ab674a5f7d855ee1de0c74b268e79251083ff539a0d5"
+    },
+    {
+      "path": "native/GateStudy.pretty/J103_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 2767,
+      "sha256": "fa4cf81d4986ae1c6d09fd414c616ae2d7446d0930a2ce2607810d6bacc72dca"
+    },
+    {
+      "path": "native/GateStudy.pretty/J106_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1853,
+      "sha256": "ae147ddab8e5957fced4675456ffba5a9e958ac6db586f4b25c1bd5494507ab5"
+    },
+    {
+      "path": "native/GateStudy.pretty/J107_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1855,
+      "sha256": "833092a4992d628379fae465cde35ea39453c4b6d851cb28312756c828efac73"
+    },
+    {
+      "path": "native/GateStudy.pretty/J301_Wirebank_PRELAYOUT.kicad_mod",
+      "bytes": 1402,
+      "sha256": "0180514b80f9dd35afa0ad9b7afd08e211c40e69caa4c99ca80e30392946f434"
+    },
+    {
+      "path": "native/GateStudy.pretty/R1_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "db850bd47e5947ef5ed6742134aa53350955923f0fd20ca6554a70ea4a571902"
+    },
+    {
+      "path": "native/GateStudy.pretty/R2_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "bd5fe537814c6b186c7e38e9aafc1534e978f62ec0c9db85f062dadb84a40401"
+    },
+    {
+      "path": "native/GateStudy.pretty/R3_YAGEO_0603_STUDY.kicad_mod",
+      "bytes": 670,
+      "sha256": "5d59093fb52d0f1c0fb1d35ad7783d6bbc1dc2afe9e6ee490fa8913520d50fa2"
+    },
+    {
+      "path": "native/GateStudy.pretty/TPS22918_DBV_TI_1p1x0p6.kicad_mod",
+      "bytes": 1006,
+      "sha256": "44969dddf7f136b7aca93d58d10d8b475e921e6e9b5c3fb269eeaf0830966d32"
+    },
+    {
+      "path": "native/Pen.kicad_sym",
+      "bytes": 9701,
+      "sha256": "32d0a41f63f017ac71675daee21575a2601149103def6f40246233e9eda961b3"
+    },
+    {
+      "path": "native/Pen.pretty/Contact_2.kicad_mod",
+      "bytes": 456,
+      "sha256": "9f6e564dbfe2934a2291574cb56d96285cce7e51d066bbd4bceba9ec36aaa5aa"
+    },
+    {
+      "path": "native/Pen.pretty/Host_6.kicad_mod",
+      "bytes": 806,
+      "sha256": "79d193103d34c89776ff985cf0342812edc9ae42f1244c4ea5dcdb11163dae50"
+    },
+    {
+      "path": "native/PowerSafety.kicad_sym",
+      "bytes": 12054,
+      "sha256": "cb40222d9e6f45ba27bedebe2062b3b9015e5c53db641a5819770ae4d749c92b"
+    },
+    {
+      "path": "native/SmartPen.pretty/ESP32-S3-PICO-1_LGA57_7x7_P0.4_OfficialDerived_NOFAB.kicad_mod",
+      "bytes": 11664,
+      "sha256": "4e1cfc5b6d7766314a55abaf8f3e0d58d0842f05b09de29126fcf8d9a28c7572"
+    },
+    {
+      "path": "native/SmartPenIO.pretty/ModeWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "5b231709288f62fe4adae1a2ba1a1861da62b130e19dbfd8d1a654de5715f25e"
+    },
+    {
+      "path": "native/SmartPenIO.pretty/PowerWireLands3_KeyGap_NOFAB.kicad_mod",
+      "bytes": 1619,
+      "sha256": "c85b19190ef436edbcc97a9d1112dc0dc324ee1604d8a39a56d031acf97a2b55"
+    },
+    {
+      "path": "native/SmartPenIO.pretty/ServiceProbe3_NOFAB.kicad_mod",
+      "bytes": 1432,
+      "sha256": "6872dd49092a40bf6f98b9880c35d7187561d17b3f12cb284331bc18dcabbd24"
+    },
+    {
+      "path": "native/SmartPenIO.pretty/TI_DCK0005A_Schmitt_OfficialLand.kicad_mod",
+      "bytes": 1093,
+      "sha256": "657a4c8f5e536ff374a0d497583a2f08caa0d053061d0eb0eb798a8192257fc1"
+    },
+    {
+      "path": "native/SmartPenIO.pretty/USBWireLands3_14mm_PRELAYOUT.kicad_mod",
+      "bytes": 1068,
+      "sha256": "e3c7fa4fd993ed1d456110f40d1828cc6f07e6d761e5282918b8e09cee4b6b04"
+    },
+    {
+      "path": "native/SmartPenInterfaces.kicad_sym",
+      "bytes": 6667,
+      "sha256": "c195cb0c55bbb428619981ddd34129b0a10cacfe3ba01a02e8cd9b47eea3543b"
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/Molex_5034802400_24P_P0.5_CANDIDATE.kicad_mod",
+      "bytes": 2679,
+      "sha256": "14dc24975633cba29b25f1f949cd1e4ab38256b45ec985e77d8d77d08e168169"
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/Probe3_P1.8_NoPaste.kicad_mod",
+      "bytes": 761,
+      "sha256": "9374548c2f916e34c12369ae59c426a49188297fa357ffba80c4e72cc352adc4"
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands2_P2.4.kicad_mod",
+      "bytes": 775,
+      "sha256": "eb8d67db6600a1af08f6bee8206b5cc845f162d359fef1ec3811e2b790610639"
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands3_P2.4.kicad_mod",
+      "bytes": 843,
+      "sha256": "56e2e41ffa951b65a2df89bee96669fc04eecd0d0aea6443fc72eda8e84c6bdd"
+    },
+    {
+      "path": "native/SmartPenInterfaces.pretty/WireLands6_2x3_P2.4.kicad_mod",
+      "bytes": 1168,
+      "sha256": "b16e0450f7731555ec5b3cd5c71075d5b3b307e1650e0b9a404eb8a96722fa71"
+    },
+    {
+      "path": "native/SmartPenRF.pretty/Johanson_2450AT18A0100001E_Rev4_Study_NOFAB.kicad_mod",
+      "bytes": 898,
+      "sha256": "7a1860337216b67754c2abe677c73e53e380e857a004b7004f5487eaf3a831b6"
+    },
+    {
+      "path": "native/fp-lib-table",
+      "bytes": 1644,
+      "sha256": "5467097c5206de807c667c35556795e0cd1ee7fe6d678bfdd885dfa9270fb80f"
+    },
+    {
+      "path": "native/mainboard_revD.kicad_dru",
+      "bytes": 595,
+      "sha256": "5f62979bab670d6fbd32966656d9a1418499c265a842e4d48baf9bb255e8e9b7"
+    },
+    {
+      "path": "native/mainboard_revD.kicad_pcb",
+      "bytes": 1314464,
+      "sha256": "6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08"
+    },
+    {
+      "path": "native/mainboard_revD.kicad_pro",
+      "bytes": 10154,
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e"
+    },
+    {
+      "path": "native/mainboard_revD.kicad_sch",
+      "bytes": 4223,
+      "sha256": "83c4346b559bddb31e8a14c256729f7fc7cc401a263ab4312260938d5f72a39c"
+    },
+    {
+      "path": "native/schematic/ISO.kicad_sym",
+      "bytes": 20806,
+      "sha256": "dc770809d1ef253042019d65a5b4858e75b600d5e874ac0ed04bc88af1202bfa"
+    },
+    {
+      "path": "native/schematic/MCU.kicad_sym",
+      "bytes": 25519,
+      "sha256": "686f935ef75805d76466519a729e69225bb226f818d32762edda8306150fcc7a"
+    },
+    {
+      "path": "native/schematic/SmartPenUSB.kicad_sym",
+      "bytes": 831,
+      "sha256": "e0291596344496647198ed45fd4a266fb1688201548d6190565ad48d6b2b3862"
+    },
+    {
+      "path": "native/schematic/camera_gate_on_main.kicad_sch",
+      "bytes": 25957,
+      "sha256": "fd07af2c0c64eac5d4a9696ade1909f0a2caadf58bb358c6f4c16a348a618122"
+    },
+    {
+      "path": "native/schematic/controls_sccb.kicad_sch",
+      "bytes": 43472,
+      "sha256": "9a70918a76778ffa64b04b69d474a557aad282b8cde978cd996881f35a3c091c"
+    },
+    {
+      "path": "native/schematic/dvp_translation.kicad_sch",
+      "bytes": 40417,
+      "sha256": "c15491532dab11eb4b21d2bf020a66b96b0df74fffc2b230d5fbc02123a5c61d"
+    },
+    {
+      "path": "native/schematic/mainboard_revD.kicad_sch",
+      "bytes": 2439,
+      "sha256": "4331fa5ca7746afbbd3ba101004c7f0c31d91e08fef23ef396f55e3d865af10a"
+    },
+    {
+      "path": "native/schematic/mcu_core.kicad_sch",
+      "bytes": 66264,
+      "sha256": "b8b9178f90cb6159c51f24eddb20048c18070f4fa00cf9e19354de3ec5783f68"
+    },
+    {
+      "path": "native/schematic/physical_interfaces.kicad_sch",
+      "bytes": 18804,
+      "sha256": "e631578a5d8b891b1e9b141bc8e66d4fa1b683b7a209565510c437e68d4748f1"
+    },
+    {
+      "path": "native/schematic/pickup_on_main.kicad_sch",
+      "bytes": 28654,
+      "sha256": "7c9be4de290a5f0f6727aff4d8a1c002ce5eb8b2425acc8b4127fda7722d6dbe"
+    },
+    {
+      "path": "native/schematic/recovery_fixture.kicad_sch",
+      "bytes": 5662,
+      "sha256": "2dff2e0d78d15c3d49222138dc3c0c76180f8a83d2fba38475705e7597e225bd"
+    },
+    {
+      "path": "native/schematic/safe_bias_interfaces.kicad_sch",
+      "bytes": 55609,
+      "sha256": "e80cd4df852839757bd257a92102212cebe8da578843e5aa38c9be6d5c2962e1"
+    },
+    {
+      "path": "native/schematic/sym-lib-table",
+      "bytes": 260,
+      "sha256": "27b6d3ef32f296c99c427069d03e293c5dc5e6107aa8555a287da14a0cb0e3cc"
+    },
+    {
+      "path": "native/schematic/usb_entry.kicad_sch",
+      "bytes": 22466,
+      "sha256": "ae7688104ba0c29a756e49955937f55db12bbeae9947728e2d93377d93ae44c2"
+    },
+    {
+      "path": "native/schematic/usb_main_port.kicad_sch",
+      "bytes": 2093,
+      "sha256": "b8c748b394998ab307a03bca0239b132223b68c7fe596736d7a656b12e36a653"
+    },
+    {
+      "path": "native/sym-lib-table",
+      "bytes": 797,
+      "sha256": "0a08da18466ad48df3d118e79fb5decc47709adec7eaec2c4f6f92949ef9fafb"
+    },
+    {
+      "path": "native_blocks.py",
+      "bytes": 373,
+      "sha256": "7ad96d122af6eaccdf6cecbe119589203e075870fd115ea5d904f520c32c0c90"
+    },
+    {
+      "path": "native_contract_final.py",
+      "bytes": 2064,
+      "sha256": "8c93ffcf63b1b5906892824ebd6516c2fc02f22a658e5332ae6c875838e30b5f"
+    },
+    {
+      "path": "negatives_final.py",
+      "bytes": 2277,
+      "sha256": "d6985e3c620609d0f3e5f73e307675642ad63753b9a18d8c147387d0608af81e"
+    },
+    {
+      "path": "newpaths_final.json",
+      "bytes": 12488,
+      "sha256": "cde08ed264609be74d131fccc0db3d5dcc0b3d6e1f50ea15466d0362446f19e6"
+    },
+    {
+      "path": "newpaths_final.py",
+      "bytes": 1508,
+      "sha256": "835994138b9c5bb11fab5d212ed86a9158f02016f08b616bbf5eebdb7d63f53d"
+    },
+    {
+      "path": "ordinary_layer_component_evidence.json",
+      "bytes": 2941,
+      "sha256": "122ca6f185bce47ac68dae94e2ad9d8710e77705ce45220367a9fe13a3ae91f5"
+    },
+    {
+      "path": "plane_delta_final.json",
+      "bytes": 340,
+      "sha256": "f1c2aeb5feb392ad69a2f8035a30a3d17c7340da32de589d916029dec46462c8"
+    },
+    {
+      "path": "plane_delta_final.py",
+      "bytes": 383,
+      "sha256": "33ce31eccb148ef811547590f725d6d2e975f6bf0e08f29e3d7ea0c96f4d86e8"
+    },
+    {
+      "path": "plane_islands_final.json",
+      "bytes": 7177,
+      "sha256": "a6bf0eccc62199e566880c9efd7b63023bcba7453d22316fdf93038f59f8de46"
+    },
+    {
+      "path": "plane_islands_final.py",
+      "bytes": 876,
+      "sha256": "015d2b30259d3001aeeff780745630e224d2c5ba734d333f7be9826c8b391e66"
+    },
+    {
+      "path": "proposed_full104.json",
+      "bytes": 73706,
+      "sha256": "cd5fb348294e007364f10d0b9cb52f0e8244d5f95b8d324af93610bb97e4500c"
+    },
+    {
+      "path": "proposed_obstacles.json",
+      "bytes": 73695,
+      "sha256": "e02e113a0cbf61010da772fcffbc30e5d8ba750f4b46ebbdaefc4c6f2706a19e"
+    },
+    {
+      "path": "raw_contract.json",
+      "bytes": 520,
+      "sha256": "359163093ce15ecca86ab12447170f4a5f620c3d0e52fab3fa661fe41f89906e"
+    },
+    {
+      "path": "raw_contract.py",
+      "bytes": 1396,
+      "sha256": "20868748d92ed376f6a007df3c4b0f636c7ebbefcde1a0625fe98703e97e52ad"
+    },
+    {
+      "path": "raw_contract_optimized.json",
+      "bytes": 520,
+      "sha256": "359163093ce15ecca86ab12447170f4a5f620c3d0e52fab3fa661fe41f89906e"
+    },
+    {
+      "path": "reference_check.py",
+      "bytes": 3025,
+      "sha256": "67a950948c2c41a3e01f5c4dea70fee3c9f04f5f790c28ea0c94397bf107c1b5"
+    },
+    {
+      "path": "reference_checkpoint.json",
+      "bytes": 3069,
+      "sha256": "4a5a1004d0f2b34268dcece1033696f101f6e48edadf3c4d1bf8e59469b3190b"
+    },
+    {
+      "path": "reference_final.py",
+      "bytes": 925,
+      "sha256": "7355d1dd969ac37dc34d638b60bf09cec4cf3d88a2768c2aac1662816c7f8aef"
+    },
+    {
+      "path": "refill_check.py",
+      "bytes": 966,
+      "sha256": "1c630e428c7296ecc8422cc7decdc678e74bff457506a7e17e87c29745fe3e38"
+    },
+    {
+      "path": "retained_reference_unions.json",
+      "bytes": 166,
+      "sha256": "e53bcb114811b1eb70ffb843888299639827533c7915e7a91f5c5ca4502d55d4"
+    },
+    {
+      "path": "retained_reference_unions.py",
+      "bytes": 1119,
+      "sha256": "5b4d5539b6e6a34e4466b6127bfd9457fe9344a168b16cb5ad6bbd333768847f"
+    },
+    {
+      "path": "review_dependencies/finite_copper.py",
+      "bytes": 1793,
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee"
+    },
+    {
+      "path": "review_dependencies/native_polygon.py",
+      "bytes": 872,
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440"
+    },
+    {
+      "path": "review_dependencies/source_netlist.xml",
+      "bytes": 134908,
+      "sha256": "d5a25885fdcfa5d8511318660d7c42157b2870cb1a1f3181689c1be958bb1056"
+    },
+    {
+      "path": "run_saved_cuts.py",
+      "bytes": 579,
+      "sha256": "342b79a4da9a0cb3e3e68783ef4d200ed1b98278912a73cbecf35c8cf2f48faf"
+    },
+    {
+      "path": "source_roles.json",
+      "bytes": 4516,
+      "sha256": "4dcc9421ff4dbe281f73358e3094ccfd36e0f0bb2cbc48ab3b5cbc59ac700d87"
+    },
+    {
+      "path": "source_roles.py",
+      "bytes": 3285,
+      "sha256": "477e590fd046824e0a3bce1d2f7911a4014cab7a8099e6ae4d80f3e9b08e0948"
+    },
+    {
+      "path": "source_roles_optimized.json",
+      "bytes": 4516,
+      "sha256": "4dcc9421ff4dbe281f73358e3094ccfd36e0f0bb2cbc48ab3b5cbc59ac700d87"
+    },
+    {
+      "path": "verify_final.py",
+      "bytes": 5583,
+      "sha256": "15b79539a61da4b198f0f2030aa1ca613dfb5f62d0db77bb8223672f33e866f8"
+    },
+    {
+      "path": "verify_manifest.py",
+      "bytes": 411,
+      "sha256": "e81fdeba1667f54d8787a2297179dc78be163ae4035e4de70a0fe302cf8a5269"
+    },
+    {
+      "path": "window_policy.json",
+      "bytes": 736,
+      "sha256": "ccbdda204bad6ff5cb76665f7af4659c42c486f92cbf8f6e9f9f456bf6edfe91"
+    },
+    {
+      "path": "window_policy_optimized.json",
+      "bytes": 736,
+      "sha256": "ccbdda204bad6ff5cb76665f7af4659c42c486f92cbf8f6e9f9f456bf6edfe91"
+    },
+    {
+      "path": "window_policy_regression.py",
+      "bytes": 1268,
+      "sha256": "552c812c0a91c502665ddf66c82e892b89a45369b72617556cf607f349b8f5b3"
+    }
+  ],
+  "excluded": "All unselected/rejected/planning native boards, generated cut/refill boards, caches/UI.prl, transient route searches. Labeled negative/replay/model evidence is not adoptable hardware. Exact diagnostic6902 can be reconstructed only for differential evidence from the explicit junction ndiff; selected7522 is the sole offered candidate.",
+  "advisory_dependencies": {
+    "root": "../independent_control_service_advisory_20261031_0521",
+    "manifest_sha256": "ac111af161fa07cd7665c71f2321206209f869f5530afeff69005942ba6e871c",
+    "file_count": 60,
+    "files": {
+      "ADVISORY.md": {
+        "sha256": "fb92f1cf6e4cbfc250346fb67001e1e7c820c4ba0861c19f446bc86266915704",
+        "bytes": 9697
+      },
+      "branch_check.log": {
+        "sha256": "58158c0a40f516d547ad190187f1272122c20401a666777e616256133e699958",
+        "bytes": 8744
+      },
+      "branch_check.py": {
+        "sha256": "9d7c2d1be4d48f396c9ae41bb02536dbeb20c73217089de6fe0fd0dc4951258c",
+        "bytes": 5496
+      },
+      "bridge.json": {
+        "sha256": "0da796d2525819b01e9af202b5cd0e2663383c956f325075821d85f26a8fe3a1",
+        "bytes": 13813
+      },
+      "bridge.log": {
+        "sha256": "416ebed26bc64429f18570466318ba7b750a5eac14dca70747f7373b4ec1b5f4",
+        "bytes": 958
+      },
+      "bridge.py": {
+        "sha256": "c105cb59028d112ea0544afad6a0bf0757ef451889cd7e9445a2c869c68ea9f1",
+        "bytes": 1724
+      },
+      "causal.py": {
+        "sha256": "cd3667cb86d6eeb2c037a95c358fcd17e28b891c6a4868e3ccb545edbd32b65f",
+        "bytes": 1661
+      },
+      "causal_ALL_VIAS.json": {
+        "sha256": "a582aa7ac1b6895fe5ebf6c62a82abe2c7a32c35ec12e0c63bc8bad7fb0f4f77",
+        "bytes": 1772
+      },
+      "causal_ALL_VIAS.log": {
+        "sha256": "1100d3e866759d5ea16081ed20fb96589bdf42915cf1ead91f61d27a982b8bfd",
+        "bytes": 1493
+      },
+      "causal_EDGE_VIA.json": {
+        "sha256": "8a1912d310a4f74e6ea851d50d71cd35753bf544359fac801a4f27976e32db0b",
+        "bytes": 1480
+      },
+      "causal_EDGE_VIA.log": {
+        "sha256": "6b4885fd33255799669fa7113e4a57c56e3e531234cf98a1ec537a257a78c3e5",
+        "bytes": 901
+      },
+      "causal_FOREIGN.json": {
+        "sha256": "23f426de2245c7a0418369e61a4c8480bda710e9a5531a8c6c8e758292d86143",
+        "bytes": 10780
+      },
+      "causal_FOREIGN.log": {
+        "sha256": "e13de253dfbd5e490f979401996dfcb8f21d19ad35e120e58a0f529e26aa359d",
+        "bytes": 17278
+      },
+      "causal_IN2.json": {
+        "sha256": "8a30a6cbf04dcaeb053647ab6c4b6e5c4cbc442b03b7e52a755162d4d5a29d2d",
+        "bytes": 2736
+      },
+      "causal_IN2.log": {
+        "sha256": "2a972da0d898471fdffa767202b12dda7b4629d9d29bf2c6339549bd80b5fdf9",
+        "bytes": 3312
+      },
+      "causal_IOEN_SOURCE.json": {
+        "sha256": "2889d6ac9e410146839b173e461ab5d825071c07f5faa8eaa64cc2f0b9b21a65",
+        "bytes": 1480
+      },
+      "causal_IOEN_SOURCE.log": {
+        "sha256": "872440d5bc2d67c60d9b351fd53b6291f810dc13dc5e147a7187c6a79ff37792",
+        "bytes": 901
+      },
+      "causal_NONE.json": {
+        "sha256": "4bf72ccf26a249c4227d6558bb7c73d04763fb122190908efcb0aa6c3b434d97",
+        "bytes": 1414
+      },
+      "causal_NONE.log": {
+        "sha256": "aba18f5759b8418e5a4aeddd088e62d0b49105252da8baed9cbb03089e5b0b8a",
+        "bytes": 798
+      },
+      "clock_centerline.json": {
+        "sha256": "66c39e83f86f9300f04fb453e48d9185cbda0b06de470b08850f8984bd92d9f4",
+        "bytes": 8743
+      },
+      "feed_paths.json": {
+        "sha256": "fbf8e6a4e012793e1d1011aa873d10ea3a631ea19ecf3450de0debf36e9072be",
+        "bytes": 13495
+      },
+      "feed_paths.log": {
+        "sha256": "71a4d557177c65ce0f38bd1673ee6fb10f3d017dbc6b73143c7a65c0104303d2",
+        "bytes": 798
+      },
+      "feed_paths.py": {
+        "sha256": "824ac90f290b1d7458e0a5fbb56c4d74af888d18db444b8e17e3ecb584dc44ce",
+        "bytes": 1649
+      },
+      "native_blocks.py": {
+        "sha256": "7ad96d122af6eaccdf6cecbe119589203e075870fd115ea5d904f520c32c0c90",
+        "bytes": 373
+      },
+      "newpaths_final.json": {
+        "sha256": "cde08ed264609be74d131fccc0db3d5dcc0b3d6e1f50ea15466d0362446f19e6",
+        "bytes": 12488
+      },
+      "newpaths_final.log": {
+        "sha256": "0097b25a2bcd373ffd55888284a34ab8bfe28d8ae6b6f1ee2daab28a8eb21e28",
+        "bytes": 798
+      },
+      "newpaths_final.py": {
+        "sha256": "835994138b9c5bb11fab5d212ed86a9158f02016f08b616bbf5eebdb7d63f53d",
+        "bytes": 1508
+      },
+      "pdn_advisory.json": {
+        "sha256": "173bce625b85613e5d98fe632dca87efc02fcbcf9de03cd9ef2d0f579bda057c",
+        "bytes": 13093
+      },
+      "pdn_advisory.log": {
+        "sha256": "ac4f5388b5ced9ecc67486f449595d28d8411ab28c29ab3ca9a823f9c9b2d038",
+        "bytes": 6102
+      },
+      "pdn_advisory.py": {
+        "sha256": "ef3070df61070e8a1a0b0a384c6fa562d617e41998c64b6d3eb7f25ee0268fd8",
+        "bytes": 2022
+      },
+      "plane_delta_final.json": {
+        "sha256": "f1c2aeb5feb392ad69a2f8035a30a3d17c7340da32de589d916029dec46462c8",
+        "bytes": 340
+      },
+      "plane_delta_final.log": {
+        "sha256": "3fd87921d562b92bd7e909dd3452fe437f8143ee9b108ea5bd1c80e6798b30ec",
+        "bytes": 1071
+      },
+      "plane_delta_final.py": {
+        "sha256": "33ce31eccb148ef811547590f725d6d2e975f6bf0e08f29e3d7ea0c96f4d86e8",
+        "bytes": 383
+      },
+      "plane_islands_final.json": {
+        "sha256": "a6bf0eccc62199e566880c9efd7b63023bcba7453d22316fdf93038f59f8de46",
+        "bytes": 7177
+      },
+      "plane_islands_final.log": {
+        "sha256": "0217202562b4ae60a6cc20754d49f573772c8f75b5cad00511d5dacdf246fe67",
+        "bytes": 798
+      },
+      "plane_islands_final.py": {
+        "sha256": "015d2b30259d3001aeeff780745630e224d2c5ba734d333f7be9826c8b391e66",
+        "bytes": 876
+      },
+      "plane_neck.json": {
+        "sha256": "d45b7a13ef419fe33b46c53c2af433faef099b351c440946cce57679eb2926a3",
+        "bytes": 7245
+      },
+      "plane_neck.log": {
+        "sha256": "aba18f5759b8418e5a4aeddd088e62d0b49105252da8baed9cbb03089e5b0b8a",
+        "bytes": 798
+      },
+      "plane_neck.py": {
+        "sha256": "0887eec01796411604d67c45264668661b6ca8371bcf3181d23ded0f650aa9b9",
+        "bytes": 923
+      },
+      "raw_check.json": {
+        "sha256": "611b986409358c55280a95d7eca7a8b7bf93b48d600beddafb30abb4e1f4ca94",
+        "bytes": 6216
+      },
+      "raw_check.log": {
+        "sha256": "00178e083220aef5abc80672bba8a2aa194fb351977a101224197ddcf40e375c",
+        "bytes": 798
+      },
+      "raw_check.py": {
+        "sha256": "c83f36fdddb1cce739c8b54bc882ebc7254b93f97a639dd3907ae65936651bab",
+        "bytes": 1286
+      },
+      "reference_6902.json": {
+        "sha256": "83b1ea0bcb21b560f675834c95be265d4bc781693cdb8c06b9258e5a86ed4b4b",
+        "bytes": 3068
+      },
+      "reference_check.log": {
+        "sha256": "7b3d9a5a568705a3cce07bf2476132e30aab0f06fff5874d6a3192aa138b39ae",
+        "bytes": 916
+      },
+      "reference_check.py": {
+        "sha256": "2fb4443745b31b5ebd49d9b260fe74aaf8ddb2fd95b7e5101a61bd43a6443fbc",
+        "bytes": 3019
+      },
+      "reference_checkpoint.json": {
+        "sha256": "4a5a1004d0f2b34268dcece1033696f101f6e48edadf3c4d1bf8e59469b3190b",
+        "bytes": 3069
+      },
+      "reference_final.py": {
+        "sha256": "5d86d1252b4f6446518ed97993f53b18e098ba45a42e8399adbff8bc9680a6c0",
+        "bytes": 919
+      },
+      "reference_selected.log": {
+        "sha256": "39a4c72509ef1e8ea7ca054411188ce212f3f684ffe9b75e366f953e38c391ec",
+        "bytes": 916
+      },
+      "selected_delta.json": {
+        "sha256": "c3a38d527cae50dc101131dc618f4cd6bf58112e434bd4dbcee064e9fade1740",
+        "bytes": 577
+      },
+      "selected_delta.log": {
+        "sha256": "f64408babc1490d648f7d01dfa97962a20ca0b005c9e9f6962fccf8ad73c75e3",
+        "bytes": 1596
+      },
+      "selected_delta.py": {
+        "sha256": "55d13f8e951b24e2c4064cdc247708525c80649b233bc0a976372d723b7402c0",
+        "bytes": 1998
+      },
+      "selected_drc.json": {
+        "sha256": "9fa3187d77daf7aa3d8a87c0e74cef399ef9118ef302d077a3922f26a5ee2481",
+        "bytes": 29591
+      },
+      "selected_drc.log": {
+        "sha256": "4009a2ef7289bf1c80a68b022f3d750d5efcd02f34bc64bec55fbffdf5967046",
+        "bytes": 116
+      },
+      "snapshot_hashes.json": {
+        "sha256": "7634813ab2541182be8fd180f11582ae5d7f43e4e91c53a987046a144f691f7b",
+        "bytes": 29876
+      },
+      "source_roles.json": {
+        "sha256": "4dcc9421ff4dbe281f73358e3094ccfd36e0f0bb2cbc48ab3b5cbc59ac700d87",
+        "bytes": 4516
+      },
+      "source_roles.log": {
+        "sha256": "ccf26020479a40999cdff6d3deae9b6102d5cdb458c5f02b843e54bcf4df2eb4",
+        "bytes": 8
+      },
+      "source_roles.py": {
+        "sha256": "a31fe21d2e59c3b685d56325bf6e2cda34cd45804b5486f949a27dc7e0c13c61",
+        "bytes": 3276
+      },
+      "review_dependencies/finite_copper.py": {
+        "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee",
+        "bytes": 1793
+      },
+      "review_dependencies/native_polygon.py": {
+        "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+        "bytes": 872
+      },
+      "review_dependencies/source_netlist.xml": {
+        "sha256": "d5a25885fdcfa5d8511318660d7c42157b2870cb1a1f3181689c1be958bb1056",
+        "bytes": 134908
+      }
+    },
+    "scope": "Read-only causal/source/PDN/strict-path advisory, not full acceptance. Own original6902 matched project CFs bind by independently exact-plane selected7522 one-endpoint delta."
+  },
+  "mechanics_pending_author_binding": "../reconstruction_control_service_final_mechanics_20261031_0524"
+}

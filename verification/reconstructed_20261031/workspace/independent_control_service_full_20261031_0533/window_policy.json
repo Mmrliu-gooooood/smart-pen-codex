@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "initial_excludes_two_boundaries": true,
+    "y_expansion_still_left_exclusion": true,
+    "selected_contains_actual_gateway": true,
+    "outside_negative_detected": true
+  },
+  "actual_selected_gateway_mm": [
+    11.125,
+    46.625
+  ],
+  "initial_window": [
+    11.2,
+    47,
+    13.6,
+    58.6
+  ],
+  "intermediate_window": [
+    11.2,
+    46.3,
+    13.6,
+    58.6
+  ],
+  "selected_window": [
+    11,
+    46.3,
+    13.6,
+    58.6
+  ],
+  "scope": "Explicit artificial-layer-window exclusion diagnostic. Bounds are search policy, not manufacturer copper rules. The selected native final independently checks exact finite copper/body/rules and plane changes; no global path impossibility from prior bounded masks."
+}

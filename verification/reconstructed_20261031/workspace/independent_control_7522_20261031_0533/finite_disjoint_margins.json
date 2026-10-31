@@ -1,0 +1,33 @@
+{
+  "scope": "All finite exterior segments and both via faces to every same-face disjoint full installation envelope; actual intersecting terminal targets listed separately in screen results",
+  "minimum": {
+    "uuid": "4c33bfbd-210f-4f61-9656-40ce52c6be9b",
+    "kind": "via",
+    "net": "CAM_PWDN_UART_RX",
+    "layer": "F.Cu",
+    "ref": "C202",
+    "side": "F.Cu",
+    "gap_mm": 0.14999999999999822
+  },
+  "all_pairs": 12494,
+  "under_0p2_mm": [
+    {
+      "uuid": "4c33bfbd-210f-4f61-9656-40ce52c6be9b",
+      "kind": "via",
+      "net": "CAM_PWDN_UART_RX",
+      "layer": "F.Cu",
+      "ref": "C202",
+      "side": "F.Cu",
+      "gap_mm": 0.14999999999999822
+    },
+    {
+      "uuid": "c5147f98-5d21-4e3b-b59e-a3670bcbf5e9",
+      "kind": "track",
+      "net": "CAM_RESET_UART_TX",
+      "layer": "B.Cu",
+      "ref": "R227",
+      "side": "B.Cu",
+      "gap_mm": 0.175
+    }
+  ]
+}

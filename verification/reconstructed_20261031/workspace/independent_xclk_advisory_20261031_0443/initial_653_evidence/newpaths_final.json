@@ -1,0 +1,411 @@
+[
+  {
+    "net": "CAM_IO_EN",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.068689733281,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.068689733281,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              6.875,
+              5.775
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_XCLK",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.263193541828,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0682254028995,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8147f964-76e9-4cea-9486-cf3624776808",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              12.0,
+              51.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "2faff951-2ace-4355-9a15-9df853c312d7",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              3.4,
+              50.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              12.075,
+              42.35
+            ]
+          },
+          {
+            "uuid": "58f52810-7611-4466-b56d-01c1fad749cf",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              12.0,
+              41.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649894137275,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              10.175,
+              8.5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_XCLK",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.1954259182325,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649894203695,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "48a400b6-aa25-4412-ba71-4ffb0d82a6b9",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              2.1,
+              55.15
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.06544713163,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              12.075,
+              42.35
+            ]
+          },
+          {
+            "uuid": "58f52810-7611-4466-b56d-01c1fad749cf",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              12.0,
+              41.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              13.05,
+              35.525
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_XCLK",
+    "layer": "In2.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.129985251813,
+    "foreign_only_hole_mm2": 6.444921e-06,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649894118775,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8147f964-76e9-4cea-9486-cf3624776808",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              12.0,
+              51.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 6.444921e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "b7caccaa-c829-5996-a47b-f52d4b769bcc",
+            "net": "SENS_HREF",
+            "new": false,
+            "xy": [
+              5.025,
+              50.9
+            ]
+          },
+          {
+            "uuid": "ff7ba7e9-0b11-53c0-a1c8-67ecdeeded51",
+            "net": "SENS_VSYNC",
+            "new": false,
+            "xy": [
+              5.675,
+              50.4
+            ]
+          },
+          {
+            "uuid": "8e7e5cd8-d305-5356-909a-89fe4eeeefe2",
+            "net": "SENS_PCLK",
+            "new": false,
+            "xy": [
+              6.325,
+              49.9
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.064989400999,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "2faff951-2ace-4355-9a15-9df853c312d7",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              3.4,
+              50.5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_XCLK",
+    "layer": "In3.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.260690059915,
+    "foreign_only_hole_mm2": 1.6321852e-05,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.065705592222,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "48a400b6-aa25-4412-ba71-4ffb0d82a6b9",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              2.1,
+              55.15
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "2faff951-2ace-4355-9a15-9df853c312d7",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              3.4,
+              50.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649894137275,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              13.05,
+              35.525
+            ]
+          }
+        ]
+      },
+      {
+        "area": 8.160926e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "e4bbff96-f0f0-4af0-8105-18e6177a13a9",
+            "net": "3V3_AON",
+            "new": false,
+            "xy": [
+              10.325,
+              21.0
+            ]
+          }
+        ]
+      },
+      {
+        "area": 8.160926e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "1df5bc9a-84a4-4cc3-8b3e-687ddde25ebc",
+            "net": "ILLUM_STROBE",
+            "new": false,
+            "xy": [
+              10.25,
+              9.8
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+            "net": "CAM_XCLK",
+            "new": true,
+            "xy": [
+              10.175,
+              8.5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SCL",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.0653277327045,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0653277327045,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": false,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_SDA",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.0672332900265,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0672332900265,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": false,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

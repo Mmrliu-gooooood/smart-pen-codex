@@ -1,0 +1,269 @@
+{
+  "status": "GEOMETRIC_ACCOUNTING_NOT_TIMING_MATCH",
+  "rows": {
+    "CAM_D0": {
+      "U101_pad": "12",
+      "GPIO": "7",
+      "U201_A_pad": "3",
+      "bias_ref": "R210",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "B.Cu",
+        "F.Cu",
+        "In3.Cu",
+        "F.Cu"
+      ],
+      "new_join_layer_changes": 4,
+      "new_join_direction_runs": 70,
+      "new_conductor_metrics": {
+        "new_track_count": 70,
+        "new_via_count": 4,
+        "total_new_copper_centerline_mm": 22.983299136730388,
+        "shorter_than_0_1mm_count": 49,
+        "shorter_than_0_05mm_count": 39,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 6.552307084373161,
+          "B.Cu": 10.618250352560274,
+          "In3.Cu": 5.812741699796953
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 3.536105495896396,
+      "whole_connected_net_track_total_mm": 26.519404632626784,
+      "retained_bias_network_vias": 0
+    },
+    "CAM_D1": {
+      "U101_pad": "13",
+      "GPIO": "8",
+      "U201_A_pad": "4",
+      "bias_ref": "R211",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "In2.Cu",
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "new_join_layer_changes": 3,
+      "new_join_direction_runs": 27,
+      "new_conductor_metrics": {
+        "new_track_count": 29,
+        "new_via_count": 3,
+        "total_new_copper_centerline_mm": 16.45544048427786,
+        "shorter_than_0_1mm_count": 15,
+        "shorter_than_0_05mm_count": 10,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 3.259856072006291,
+          "In2.Cu": 8.477817459305204,
+          "In3.Cu": 4.717766952966369
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 8.805612426843311,
+      "whole_connected_net_track_total_mm": 25.261052911121173,
+      "retained_bias_network_vias": 2
+    },
+    "CAM_D2": {
+      "U101_pad": "14",
+      "GPIO": "9",
+      "U201_A_pad": "5",
+      "bias_ref": "R212",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "B.Cu",
+        "In3.Cu",
+        "F.Cu"
+      ],
+      "new_join_layer_changes": 3,
+      "new_join_direction_runs": 30,
+      "new_conductor_metrics": {
+        "new_track_count": 33,
+        "new_via_count": 3,
+        "total_new_copper_centerline_mm": 15.988866425834974,
+        "shorter_than_0_1mm_count": 19,
+        "shorter_than_0_05mm_count": 16,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 1.4821067811865476,
+          "B.Cu": 8.180337744130355,
+          "In3.Cu": 6.3264219005180715
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 12.386592933481658,
+      "whole_connected_net_track_total_mm": 28.375459359316633,
+      "retained_bias_network_vias": 2
+    },
+    "CAM_D3": {
+      "U101_pad": "15",
+      "GPIO": "10",
+      "U201_A_pad": "6",
+      "bias_ref": "R213",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ],
+      "new_join_layer_changes": 2,
+      "new_join_direction_runs": 78,
+      "new_conductor_metrics": {
+        "new_track_count": 78,
+        "new_via_count": 2,
+        "total_new_copper_centerline_mm": 18.274385046827526,
+        "shorter_than_0_1mm_count": 57,
+        "shorter_than_0_05mm_count": 46,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 0.9519716382329886,
+          "B.Cu": 8.096194077712559,
+          "In3.Cu": 9.226219330881976
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 11.030334494965551,
+      "whole_connected_net_track_total_mm": 29.304719541793073,
+      "retained_bias_network_vias": 2
+    },
+    "CAM_D4": {
+      "U101_pad": "16",
+      "GPIO": "11",
+      "U201_A_pad": "7",
+      "bias_ref": "R214",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "new_join_layer_changes": 1,
+      "new_join_direction_runs": 88,
+      "new_conductor_metrics": {
+        "new_track_count": 91,
+        "new_via_count": 1,
+        "total_new_copper_centerline_mm": 22.70576205934296,
+        "shorter_than_0_1mm_count": 58,
+        "shorter_than_0_05mm_count": 41,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 1.7350730450187342,
+          "B.Cu": 20.970689014324225
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 6.105822750225208,
+      "whole_connected_net_track_total_mm": 28.811584809568167,
+      "retained_bias_network_vias": 1
+    },
+    "CAM_D5": {
+      "U101_pad": "17",
+      "GPIO": "12",
+      "U201_A_pad": "8",
+      "bias_ref": "R215",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "In3.Cu",
+        "F.Cu"
+      ],
+      "new_join_layer_changes": 2,
+      "new_join_direction_runs": 112,
+      "new_conductor_metrics": {
+        "new_track_count": 114,
+        "new_via_count": 2,
+        "total_new_copper_centerline_mm": 33.28155999703348,
+        "shorter_than_0_1mm_count": 85,
+        "shorter_than_0_05mm_count": 68,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 3.153690236701951,
+          "In3.Cu": 30.12786976033153
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 3.7025377541290405,
+      "whole_connected_net_track_total_mm": 36.98409775116252,
+      "retained_bias_network_vias": 0
+    },
+    "CAM_D6": {
+      "U101_pad": "18",
+      "GPIO": "13",
+      "U201_A_pad": "9",
+      "bias_ref": "R216",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "In3.Cu"
+      ],
+      "new_join_layer_changes": 1,
+      "new_join_direction_runs": 70,
+      "new_conductor_metrics": {
+        "new_track_count": 73,
+        "new_via_count": 1,
+        "total_new_copper_centerline_mm": 20.685344507162114,
+        "shorter_than_0_1mm_count": 52,
+        "shorter_than_0_05mm_count": 33,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 1.6375,
+          "In3.Cu": 19.047844507162115
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 5.3211261010348885,
+      "whole_connected_net_track_total_mm": 26.006470608197002,
+      "retained_bias_network_vias": 2
+    },
+    "CAM_D7": {
+      "U101_pad": "19",
+      "GPIO": "14",
+      "U201_A_pad": "10",
+      "bias_ref": "R217",
+      "source_role": "U201 enabled B-to-A output, U101 must be input; 100k bias branch remains",
+      "new_join_layer_sequence": [
+        "F.Cu",
+        "In3.Cu",
+        "F.Cu"
+      ],
+      "new_join_layer_changes": 2,
+      "new_join_direction_runs": 90,
+      "new_conductor_metrics": {
+        "new_track_count": 91,
+        "new_via_count": 2,
+        "total_new_copper_centerline_mm": 23.191042558696058,
+        "shorter_than_0_1mm_count": 72,
+        "shorter_than_0_05mm_count": 51,
+        "minimum_segment_mm": 0.025,
+        "length_by_layer_mm": {
+          "F.Cu": 0.8838834764831843,
+          "In3.Cu": 22.307159082212873
+        },
+        "widths_mm": [
+          0.15
+        ]
+      },
+      "retained_bias_network_track_total_mm": 3.57477801963452,
+      "whole_connected_net_track_total_mm": 26.76582057833058,
+      "retained_bias_network_vias": 0
+    }
+  },
+  "scope": "New conductor totals measure added source-to-existing-net join, not complete pad-to-pad flight time. Retained network total includes both U201 feeder and 100k bias branch, not a claimed pure stub length. Grid layer sequence is reconciled to actual added layer totals; through-via barrel stubs/return transitions remain unqualified. PCLK/VSYNC/HREF and MCU SCCB are still disconnected. No camera rate, edge, loading or setup/hold qualification.",
+  "width_policy": "All added data/known signal tracks 0.15mm; native project/rules unchanged. Existing FineSignal127 class is not invoked to lower this group width."
+}

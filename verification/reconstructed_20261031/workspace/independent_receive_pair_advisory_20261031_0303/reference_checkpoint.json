@@ -1,0 +1,224 @@
+{
+  "status": "REFERENCE_DIAGNOSTIC_NOT_SI_ACCEPTANCE",
+  "pcb_sha256": "d8550195b14521806a14654c4bdeba0a6d533b0aa536b473919481da2b9d6e5b",
+  "all_retained_projections": 2509,
+  "retained_reference_losses": [
+    {
+      "uuid": "11d26ef2-133b-41cb-8242-f0750c446f96",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 1.889415e-06,
+      "bbox": [
+        5.471409,
+        14.302215,
+        5.475408,
+        14.303375
+      ]
+    },
+    {
+      "uuid": "4b070c1d-13f5-48c3-a7dc-442af935bad8",
+      "net": "3V3_AON",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 0.0006174770325,
+      "bbox": [
+        5.471409,
+        14.295422,
+        5.527,
+        14.317637
+      ]
+    },
+    {
+      "uuid": "b2e3faae-8653-4273-9bb8-c10422ddd598",
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "lost_mm2": 0.0929360006185,
+      "bbox": [
+        7.725,
+        16.281094,
+        7.875,
+        16.98135
+      ]
+    },
+    {
+      "uuid": "00d9841b-21cf-4dc5-b71a-183126eec295",
+      "net": "CAM_D5",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "lost_mm2": 0.19140339425,
+      "bbox": [
+        7.25,
+        15.138822,
+        7.4,
+        18.543905
+      ]
+    }
+  ],
+  "new_path_uncovered": [
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 1.148635024746,
+      "uncovered_mm2": 0.0,
+      "uncovered_bbox": null
+    },
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.4443471421665,
+      "uncovered_mm2": 0.0,
+      "uncovered_bbox": null
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.617876559851,
+      "uncovered_mm2": 0.2517175235315,
+      "uncovered_bbox": [
+        5.806026,
+        13.9245,
+        8.175003,
+        42.178686
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 3.2861101508195,
+      "uncovered_mm2": 0.198987499122,
+      "uncovered_bbox": [
+        6.55,
+        26.35,
+        9.65,
+        42.05
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.863334302176,
+      "uncovered_mm2": 0.1306671310715,
+      "uncovered_bbox": [
+        5.85,
+        14.225,
+        8.25,
+        19.075
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 1.256283536638,
+      "uncovered_mm2": 0.1340809100265,
+      "uncovered_bbox": [
+        8.1,
+        18.925,
+        9.825,
+        26.5
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "projection_mm2": 1.256283536638,
+      "uncovered_mm2": 0.2017306538545,
+      "uncovered_bbox": [
+        8.1,
+        18.925,
+        9.85,
+        26.5
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.665388388159,
+      "uncovered_mm2": 0.129978513604,
+      "uncovered_bbox": [
+        2.725,
+        13.943681,
+        6.937546,
+        42.175
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 1.5153919518645,
+      "uncovered_mm2": 0.181290991411,
+      "uncovered_bbox": [
+        1.55,
+        36.1,
+        2.875,
+        42.413707
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.720017377852,
+      "uncovered_mm2": 0.12994013863,
+      "uncovered_bbox": [
+        6.775,
+        14.225,
+        8.35,
+        18.475
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 3.625922000278,
+      "uncovered_mm2": 0.1314793728785,
+      "uncovered_bbox": [
+        1.55,
+        18.325,
+        8.579557,
+        36.25
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "projection_mm2": 3.625922000278,
+      "uncovered_mm2": 0.1991454385585,
+      "uncovered_bbox": [
+        1.55,
+        18.325,
+        10.875,
+        36.25
+      ]
+    }
+  ],
+  "interpretation": "In2 new signals use adjacent GND In1(.13mm) as dominant reference. In3 dominantGND In4(.13mm); secondary AON In2(.2028mm) also disclosed, not mislabeled ground. Missing area includes own via antipads and foreign-hole interactions; causal localization still required. No blanket zero regression claim."
+}

@@ -1,0 +1,10 @@
+# NEW Oct31 recovered mechanical baseline export
+New helpers/results, NOT a claim of restoring missing Oct30 later-stage bytes. Actual recovered PCB4d7d95d253b3c8c994a7f2c4c628087346c271ea290c69aa511ea9a1cb8eadad checked. Four recovered1314 editable CADs verified against exact manifest ec6805bee4836155277582c691aabfe3ba9106bf35e75a4c0d524af3c84b519a. Frozen recovery files untouched. NOFAB / NO POWER; no remote uploads.
+
+full104_4d7d.json exports actual savedCAD full envelopes, dimensions/heights and retained basis text. All104 are identical across four recovered contexts;97 static refs +6 unqualified operation/DNP refs cover all103 native components. Native positions/pads/side metadata independently extracted, not inherited from missing late reports. Ordinary courtyards are not substituted for full-body budgets.
+
+R217 correction: actual native footprint R_0402_1005Metric, rotated−90°, pad centers(2.5,28.49)/(2.5,29.51), pads .54×.64 in local axes. Its full retained XY bounds[2.18,28.22,2.82,29.78] = .64×1.56, height1.45. The contrary generalized .95×2.45 assertion was incorrect for this0402; no envelope shrunk. R2100603 retains2.45×.95,h.70 at(10.5,28); R5030603 retains2.45×.95,h1.45. U101full7.5×7.5,h1.21 is preserved, not replaced by smaller Fab.
+
+full104_proposed_R503.json is a separate proposal-only overlay B(8,16.5)0°, not an adopted native baseline. Four-context in-memory full-budget test passes with exact recovered CAD hashes, zero collisions, nearest opposite C104 separation .93 mm(board thickness budget, not measurement). Wrong-face Y+1.1mm negative overlap detected. No final-pose savedCAD/STEP claim; actual new electrical-source native must be screened separately.
+
+Reproduce /usr/bin/python3 extract_native.py; export_envelopes.py; proposed_R503_contexts.py. Normal/-O native, exported full envelope and pose JSONs byte-identical. Original measurement/provisional package/solder assumptions remain unqualified; no material/print/strength/process/battery/power approval inferred.

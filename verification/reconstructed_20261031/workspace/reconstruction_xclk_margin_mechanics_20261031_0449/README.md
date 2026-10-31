@@ -1,0 +1,17 @@
+# NEW XCLK margin successor — nominal mechanical screen only
+
+Exact6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08 versus accepted5f parent. Author manifest0ba3a0539862daf77518f67fa338da8d697c0ff2f21a9dfc1f90145ee277bc54 is frozen; all200 files independently hash/size verified. Electrical independent acceptance remains separate. Research-only two intended XCLK joins; no powered clock/capture qualification.
+
+Actual native difference: 259 tracks (81 exterior/178 inner), six through-vias;77 removals confined to CAM_SDA41, CAM_IO_EN28, CAM_SCL8. All undeleted old copper is exact. No footprint/pad/value/net/pose changes; all103 contracts and full104 installation envelopes unchanged. Board14×99.8 outline and native thickness unchanged; .93 CAD budget retained. No power/USB copper removal or modification; unchanged power copper does not prove unchanged plane return behavior.
+
+Whole finite new exterior widths, both faces of all vias, conservative native Fab bounds, full104 occupied budgets, actual cached native court polygons and explicit native track/via prohibitions are checked. All new copper remains inside exact outline; minimum edge clearance .725 mm. No new nonterminal full-body/Fab intrusion. Five actual straight pad-ended exits guarded individually: U101.43 XCLK, U101.44 SCL, U101.45 SDA, U203.4 XCLK, R221.1 bias. No net-wide target-body waiver. Three deliberate full-body center-via negatives and actual native LIS2DW12 forbidden-zone negative are detected.
+
+All 5,611 disjoint full-envelope/finite exterior-or-via pairs are analytically screened. Minimum is .065 mm to retained full U1017.5 envelope: XCLK .15F north horizontal y6.11 immediately after U101.43 escape. It was .025 mm in preserved653 diagnostic at y6.15. The full envelope was NOT shrunk to a nominal package body to claim extra clearance. Other sub-.2 nominal gaps are explicitly recorded: XCLK/R232 exterior track .175, R221 via .15, R232 via .188823634, SCL/U101 exterior .175, nearby XCLK/U101 elbow. This is not uniform .2 mm assembly/process approval.
+
+Four via/courtyard projections: R221B .026323625338 mm² and R504B .009664624028 at (2.1,55.15); R232F .020345087188 at (12,51.75); U101F .0082819202965 at (10.175,8.5). Actual full gaps respectively .15/.2/.188823634/.2 mm. Track/courtyard projections are enumerated separately. Ordinary courtyard-only copper is not automatic full-body interference or process qualification; soldermask/tenting/tool/registration gates remain explicit. No service/operation-court hit; missing operation definitions are not inferred from ordinary courts.
+
+Run screen.py, keepouts.py, checks.py, margins.py, author_binding.py with /usr/bin/python3 and -O. JSON results are identical. Exact653 diagnostic remains separate;688 was fully rescreened, not assumed copper-union equivalent.
+
+Four saved d855 CAD contexts remain nominally geometrically applicable because all poses/envelopes/supports/outline are unchanged through5f/688. Their saved current metadata still binds d855; this report does not claim new saved CAD metadata. Existing print/contact/access limits and six operation gates J104/J108/JP201/JP202/C106/C107 remain open; RevD_BENCH is external fixture, not pen enclosure.
+
+NOFAB / NO POWER / no unqualified cell / two pens CNY760. SI/PDN, loaded-edge/ringing, source/reference changes and clock capture timing remain separate electrical gates; no manufacturing/strength/material qualification.

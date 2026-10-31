@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_old_nonzone_raw_blocks_exact": true,
+    "added_only_tracks_vias": true,
+    "parent_sha": true,
+    "selected_sha": true
+  },
+  "old_blocks": 2872,
+  "new_blocks": 3355,
+  "added_kinds": {
+    "segment": 476,
+    "via": 7
+  },
+  "missing_block_kinds": [],
+  "scope": "Complete exact top-level non-zone raw blocks, including all footprint/pad subfields, project board settings, old copper, drawings/text/native service labels. Filled zone material separately measured; no claim unchanged PDN."
+}

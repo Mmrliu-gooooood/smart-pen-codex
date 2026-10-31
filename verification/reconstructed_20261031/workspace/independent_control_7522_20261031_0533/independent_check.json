@@ -1,0 +1,126 @@
+{
+  "extra_native_pad_contracts_equal": true,
+  "all_original_copper_exact": true,
+  "only_RESET_PWDN_added": true,
+  "actual_J104_vertices": [
+    [
+      10.995,
+      51.805
+    ],
+    [
+      10.995,
+      57.795
+    ],
+    [
+      9.005,
+      57.795
+    ],
+    [
+      9.005,
+      51.805
+    ]
+  ],
+  "actual_J104_bounds": [
+    9.005,
+    51.805,
+    10.995,
+    57.795
+  ],
+  "conservative_plus0p05_not_measured": [
+    8.955,
+    51.755,
+    11.045,
+    57.845
+  ],
+  "actual_B_only_terminal_escapes": [
+    {
+      "pad": "1",
+      "net": "CAM_RESET_UART_TX",
+      "side": "B.Cu only",
+      "type": 1,
+      "start": [
+        10,
+        53
+      ],
+      "end": [
+        8.6,
+        53
+      ],
+      "uuid": "c574df2c-b6e2-4e2c-a4c6-0e1d9bdc2831",
+      "straight_convex_rectangle_single_exit": true
+    },
+    {
+      "pad": "2",
+      "net": "CAM_PWDN_UART_RX",
+      "side": "B.Cu only",
+      "type": 1,
+      "start": [
+        10,
+        54.8
+      ],
+      "end": [
+        11.9,
+        55.5
+      ],
+      "uuid": "5a72c9f0-2b7a-4d0f-8f94-ca0719994ccf",
+      "straight_convex_rectangle_single_exit": true
+    }
+  ],
+  "actual_four_terminal_scopes": {
+    "0ee01bc5-1da0-4c89-b500-73407a314143": {
+      "ref": "U101",
+      "pad": "50",
+      "side": "F.Cu",
+      "a": [
+        5.8,
+        6.575
+      ],
+      "b": [
+        5.8,
+        5.9
+      ]
+    },
+    "2a68dfa8-2f14-4f7f-94d3-db4abcf62d13": {
+      "ref": "U101",
+      "pad": "49",
+      "side": "F.Cu",
+      "a": [
+        6.2,
+        6.575
+      ],
+      "b": [
+        6.2,
+        5.9
+      ]
+    },
+    "5a72c9f0-2b7a-4d0f-8f94-ca0719994ccf": {
+      "ref": "J104",
+      "pad": "2",
+      "side": "B.Cu",
+      "a": [
+        10.0,
+        54.8
+      ],
+      "b": [
+        11.9,
+        55.5
+      ]
+    },
+    "c574df2c-b6e2-4e2c-a4c6-0e1d9bdc2831": {
+      "ref": "J104",
+      "pad": "1",
+      "side": "B.Cu",
+      "a": [
+        10.0,
+        53.0
+      ],
+      "b": [
+        8.6,
+        53.0
+      ]
+    }
+  },
+  "C202_via_fullgap_mm": 0.14999999999999822,
+  "via_edgegap_mm": 0.4250000000000004,
+  "no_operational_access_qualification": true
+}

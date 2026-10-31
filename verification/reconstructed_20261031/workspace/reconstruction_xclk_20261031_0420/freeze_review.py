@@ -1,0 +1,19 @@
+from pathlib import Path
+import json,hashlib
+D=Path(__file__).resolve().parent
+if(D/'review_manifest.json').exists():raise RuntimeError('already frozen')
+files=set()
+for dirname in ['native','final_candidate']:
+ for f in(D/dirname).rglob('*'):
+  if f.is_file()and(f.suffix in['.kicad_pcb','.kicad_sch','.kicad_pro','.kicad_dru','.kicad_sym','.kicad_mod']or f.name in['sym-lib-table','fp-lib-table']):files.add(f)
+for n in ['finite_copper.py','native_polygon.py','source_netlist.xml']:files.add(D/'review_dependencies'/n)
+names=['README.md','CONTRACT.md','RUN_CHECKS.md','verify_manifest.py','freeze_review.py','verify_final.py','finite_final.py','geometry_native.py','source_roles.py','source_basis.json','anchor_policy.py','anchor_regression_final.py','native_contract_final.py','fill_one.py','refill_check.py','negatives_final.py','run_saved_cuts.py','reference_final.py','reference_check.py','retained_reference_unions.py','plane_islands_final.py','newpaths_final.py','plane_delta_final.py','clock_centerline.py','copper_metrics.py','collinear_screen.py','aggregate_checks.py','physical_check.py','margin_delta.py','boundary_flag_regression.py','proposed_full104.json','proposed_obstacles.json','ioen_prefilter.json','source_joint_preflight.json','final_verification.json','final_verification_optimized.json','finite_final.json','finite_final_optimized.json','source_roles.json','source_roles_optimized.json','anchor_regression.json','anchor_regression_optimized.json','physical.json','physical_optimized.json','boundary_regression.json','boundary_regression_optimized.json','ordinary_layer_component_evidence.json','final_drc.json','final_fill_reload.json','final_native_contract.json','final_native_contract_optimized.json','final_reference.json','retained_reference_unions.json','plane_islands_final.json','newpaths_final.json','plane_delta_final.json','clock_centerline.json','copper_metrics.json','collinear_screen.json','aggregate_checks.json','unused_via_removal.json','margin_delta.json','source_margin_trial.json','source_margin_joint_rejected.json','source_margin_minrule_rejected.json','advisory_dependencies.json']
+for n in names:files.add(D/n)
+for f in(D/'final_validation').iterdir():
+ if f.is_file()and f.suffix in['.json','.ndiff']:files.add(f)
+rows=[]
+for f in sorted(files):
+ if not f.is_file():raise RuntimeError(str(f))
+ rows.append({'path':str(f.relative_to(D)),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
+r={'status':'FROZEN_BOUNDED_STATIC_RESEARCH_CANDIDATE_FOR_INDEPENDENT_REVIEW','native':'final_candidate/mainboard_revD.kicad_pcb','native_sha256':'6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08','parent_sha256':'5f78698406ba7ab296ff6bdb2d334f2ecab003e92f3258e3c44adceb56b1e433','actual_drc':[0,41,0],'scope':'Two XCLK physical closures; declared SCCB/IO_EN source copper replacements preserve all old pad partitions. Explicit9.20061mm In2 clock crossing alters AON plane spreading/reference despite exact old power copper.63.8878mm input clock and7.51348mm unshared bias arm, ordinary-court and.065/.15/.1888 full-budget margins remain unqualified. NOFAB/NOPOWER/providerNULL/JP201JP202JP301OPEN. No SI/PDN/clock/capture/assembly acceptance.','files':rows,'excluded':'All unselected/rejected/planning/cut/refill native boards, source-order searches, failed partials, finite-contact shortcut path diagnostics, UI prl/caches. Labeled negative/preflight/refinement reports included as evidence, never as an adoptable PCB. Exact final reproduction is the checked native reversible diff and native/physical regression suite.','advisory_dependencies':json.loads((D/'advisory_dependencies.json').read_text()),'mechanics_pending_author_binding':'../reconstruction_xclk_margin_mechanics_20261031_0449'}
+(D/'review_manifest.json').write_text(json.dumps(r,indent=2)+'\n');print(len(rows),hashlib.sha256((D/'review_manifest.json').read_bytes()).hexdigest())

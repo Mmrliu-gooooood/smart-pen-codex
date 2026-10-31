@@ -1,0 +1,63 @@
+{
+  "paths": {
+    "CAM_XCLK": {
+      "U101.43__U203.4": {
+        "planar_centerline_mm": 63.88779693647101,
+        "via_nodes_traversed": 5,
+        "layer_changes": 5,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu",
+          "F.Cu"
+        ],
+        "via_uuids": [
+          "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+          "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+          "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+          "8147f964-76e9-4cea-9486-cf3624776808",
+          "2faff951-2ace-4355-9a15-9df853c312d7"
+        ]
+      },
+      "U203.4__R221.1": {
+        "planar_centerline_mm": 13.075977631085038,
+        "via_nodes_traversed": 2,
+        "layer_changes": 2,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "2faff951-2ace-4355-9a15-9df853c312d7",
+          "48a400b6-aa25-4412-ba71-4ffb0d82a6b9"
+        ]
+      },
+      "U101.43__R221.1": {
+        "planar_centerline_mm": 65.83877456755604,
+        "via_nodes_traversed": 6,
+        "layer_changes": 6,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+          "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+          "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+          "8147f964-76e9-4cea-9486-cf3624776808",
+          "2faff951-2ace-4355-9a15-9df853c312d7",
+          "48a400b6-aa25-4412-ba71-4ffb0d82a6b9"
+        ]
+      }
+    }
+  },
+  "model": "Geometric centerline graph with exact same-layer intersections and in-plane short connectors from track centerline to connected via center. Through-board vertical lengths/delays are NOT included. Via nodes can be traversed on one layer; layer_changes reports actual graph changes separately. Bias paths are terminal-to-terminal geometry, not mislabeled pure open stub length. No timing matching claim."
+}

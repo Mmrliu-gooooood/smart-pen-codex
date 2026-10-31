@@ -1,0 +1,194 @@
+{
+  "exact_final_sha256": "f27d375c941b5cd026cf441b18994a47f4c27169b9e3a34946511542b69b1c71",
+  "changed_objects": [
+    {
+      "uuid": "59368a34-8818-4ebb-9016-6b7519a3c024",
+      "before": [
+        "PICKUP_INT_N",
+        4200000,
+        17850000,
+        4200000,
+        18400000,
+        "00000000_00000000_00000000_00000001",
+        150000
+      ],
+      "after": [
+        "PICKUP_INT_N",
+        4200000,
+        18400000,
+        4200000,
+        15900000,
+        "00000000_00000000_00000000_00000001",
+        150000
+      ]
+    },
+    {
+      "uuid": "6b437cf9-0c5b-492a-9449-6a510087a8e0",
+      "before": [
+        "CAM_D2",
+        4275000,
+        19325000,
+        4275000,
+        19325000,
+        "00000000_00000000_00000000_00000555",
+        450000
+      ],
+      "after": [
+        "CAM_D2",
+        4275000,
+        19200000,
+        4275000,
+        19200000,
+        "00000000_00000000_00000000_00000555",
+        450000
+      ]
+    },
+    {
+      "uuid": "c0176840-a919-480b-a4fd-14b52cb9bebe",
+      "before": [
+        "CAM_D2",
+        3350000,
+        19325000,
+        4275000,
+        19325000,
+        "00000000_00000000_00000000_00000004",
+        150000
+      ],
+      "after": [
+        "CAM_D2",
+        3350000,
+        19325000,
+        4275000,
+        19200000,
+        "00000000_00000000_00000000_00000004",
+        150000
+      ]
+    },
+    {
+      "uuid": "9650204e-bfdf-4193-a6c2-b1b4c28fcc5b",
+      "before": [
+        "CAM_D2",
+        4275000,
+        19325000,
+        4425000,
+        19475000,
+        "00000000_00000000_00000000_00000100",
+        150000
+      ],
+      "after": [
+        "CAM_D2",
+        4275000,
+        19200000,
+        4425000,
+        19475000,
+        "00000000_00000000_00000000_00000100",
+        150000
+      ]
+    }
+  ],
+  "removed_new_collinear_object": [
+    "a2960e11-f25b-4220-b12d-d18b7b8fbe4c"
+  ],
+  "track_union_changes": [
+    {
+      "net": "CAM_D2",
+      "layer": "B.Cu",
+      "lost_mm2": 0.0653166272455,
+      "gain_mm2": 0.066500646524
+    },
+    {
+      "net": "CAM_D2",
+      "layer": "In3.Cu",
+      "lost_mm2": 0.010028773826,
+      "gain_mm2": 0.024991886389
+    }
+  ],
+  "retained_losses": [
+    {
+      "uuid": "4b070c1d-13f5-48c3-a7dc-442af935bad8",
+      "net": "3V3_AON",
+      "reference": "In1.Cu",
+      "final_lost_mm2": 0.1396999661545,
+      "initial_lost_mm2": 0.1396999661545
+    },
+    {
+      "uuid": "08e5c7f9-bfb4-4c69-b0c4-ce1f245c1b03",
+      "net": "BOOT_N",
+      "reference": "In1.Cu",
+      "final_lost_mm2": 2.29745e-08,
+      "initial_lost_mm2": 0.001063257675
+    },
+    {
+      "uuid": "162acc17-2c4f-4d9b-92d0-8a9a61f82919",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "final_lost_mm2": 0.01645395502,
+      "initial_lost_mm2": 0.01645395502
+    },
+    {
+      "uuid": "7db3ded7-36eb-4ad2-9e07-1dd8464d9b27",
+      "net": "BOOT_N",
+      "reference": "In4.Cu",
+      "final_lost_mm2": 2.2976e-08,
+      "initial_lost_mm2": 0.001062462672
+    },
+    {
+      "uuid": "b4161413-e095-4805-9495-608e75d4aaee",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "final_lost_mm2": 0.0157177438,
+      "initial_lost_mm2": 0.0157177438
+    },
+    {
+      "uuid": "cb615ce4-feda-455f-aa4e-17e2d17fa649",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "final_lost_mm2": 0.0014399687805,
+      "initial_lost_mm2": 0.0003615545885
+    },
+    {
+      "uuid": "ce710a1b-6f24-438e-907a-02f73ee85f3f",
+      "net": "BOOT_N",
+      "reference": "In2.Cu",
+      "final_lost_mm2": 0.011352500091,
+      "initial_lost_mm2": 0.011352500091
+    },
+    {
+      "uuid": "208fa31d-c90e-56bb-ab65-0f7cda8af90d",
+      "net": "NIB_CONTACT_N",
+      "reference": "In2.Cu",
+      "final_lost_mm2": 0.095671532,
+      "initial_lost_mm2": 0.095671532
+    },
+    {
+      "uuid": "4638c23c-7dcc-5fcd-8545-e95b73c903f0",
+      "net": "CAM_D2",
+      "reference": "In1.Cu",
+      "final_lost_mm2": 0.1122997903245,
+      "initial_lost_mm2": 0.1122997903245
+    },
+    {
+      "uuid": "eb90f4fd-6468-561b-8de4-e063e157938a",
+      "net": "CAM_D7",
+      "reference": "In1.Cu",
+      "final_lost_mm2": 0.112116525276,
+      "initial_lost_mm2": 0.112116525276
+    }
+  ],
+  "In2_AON_outline_count": 1,
+  "actual_current_AON_vias_outside_filled_plane": [
+    {
+      "uuid": "47604fb6-0c45-5e19-98e6-c2b8d0de2b97",
+      "xy": [
+        11.9,
+        83.9
+      ]
+    }
+  ],
+  "core_counts": {
+    "GND": 94,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "scope": "Bounded causal/advisory transfer check, not full final native/physical/mechanical/replay acceptance."
+}

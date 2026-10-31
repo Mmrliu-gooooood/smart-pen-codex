@@ -1,0 +1,51 @@
+{
+  "native_sha256": "6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08",
+  "exact_terminal_scopes": [
+    [
+      "CAM_SCL",
+      "U101",
+      "44"
+    ],
+    [
+      "CAM_SDA",
+      "U101",
+      "45"
+    ],
+    [
+      "CAM_XCLK",
+      "R221",
+      "1"
+    ],
+    [
+      "CAM_XCLK",
+      "U101",
+      "43"
+    ],
+    [
+      "CAM_XCLK",
+      "U203",
+      "4"
+    ]
+  ],
+  "full_body_negative_discs": [
+    {
+      "ref": "U101",
+      "area_mm2": 0.159065747372
+    },
+    {
+      "ref": "U203",
+      "area_mm2": 0.159065747372
+    },
+    {
+      "ref": "R221",
+      "area_mm2": 0.159065747372
+    }
+  ],
+  "six_operation_gates_still_open": true,
+  "removed_control_nets": {
+    "CAM_IO_EN": 28,
+    "CAM_SCL": 8,
+    "CAM_SDA": 41
+  },
+  "unchanged_pose_source_mechanical_manifest_sha256": "130848bf6dd682ed815a52abc7e64f85278c1518ecd428bce54ff4399d49ed07"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "GEOMETRIC_TRADE_NOT_PDN_QUALIFICATION",
+  "direct_C104_pin_link_mm": 2.5500000000000003,
+  "direct_track_uuids_exact": [
+    "11d26ef2-133b-41cb-8242-f0750c446f96",
+    "4b070c1d-13f5-48c3-a7dc-442af935bad8",
+    "6938faac-6324-49cf-90da-fc988559d16b"
+  ],
+  "protected_USB_BOOT_exact": true,
+  "comparison": {
+    "baseline": {
+      "GND_surface_lead_mm": 1.0,
+      "GND_straight_span_to_U101_7_5_11_5_mm": 3.378701673720248,
+      "AON_pin_to_stitch_surface_mm": 0.7749999999999986,
+      "AON_cap_to_stitch_surface_mm": 1.7750000000000015,
+      "GND_projected_corridor_missing_mm2": {
+        "In1.Cu": {
+          "0.15": 0.0,
+          "0.3": 0.0,
+          "0.5": 0.0
+        },
+        "In4.Cu": {
+          "0.15": 0.0,
+          "0.3": 0.0,
+          "0.5": 0.0
+        }
+      },
+      "AON_projected_feed_corridor_missing_mm2": {
+        "0.15": 0.0,
+        "0.3": 0.0,
+        "0.5": 0.0
+      }
+    },
+    "source": {
+      "GND_surface_lead_mm": 1.0,
+      "GND_straight_span_to_U101_7_5_11_5_mm": 3.378701673720248,
+      "AON_pin_to_stitch_surface_mm": 1.3249999999999993,
+      "AON_cap_to_stitch_surface_mm": 1.2250000000000008,
+      "GND_projected_corridor_missing_mm2": {
+        "In1.Cu": {
+          "0.15": 0.0,
+          "0.3": 0.0,
+          "0.5": 0.0
+        },
+        "In4.Cu": {
+          "0.15": 0.0,
+          "0.3": 0.0,
+          "0.5": 0.0
+        }
+      },
+      "AON_projected_feed_corridor_missing_mm2": {
+        "0.15": 0.0,
+        "0.3": 0.0,
+        "0.5": 0.010503842669
+      }
+    }
+  },
+  "ground_lead_plus_straight_span_delta_mm": 0.0,
+  "limits": "Straight projected corridors/lengths are geometric screens, not current density, inductance, decoupling equivalence, actual power sequence or timing. Original ground geometry restored exactly; AON pin-to-plane surface path grows .55mm while capacitor-to-plane surface path shortens .55mm. No PDN improvement or equivalence claim."
+}

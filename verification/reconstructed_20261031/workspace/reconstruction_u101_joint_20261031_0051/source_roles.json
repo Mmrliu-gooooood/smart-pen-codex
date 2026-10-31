@@ -1,0 +1,150 @@
+{
+  "status": "SOURCE_ROLE_AND_MAP_ONLY_NOT_OPERATIONAL",
+  "netlist_sha256": "d5a25885fdcfa5d8511318660d7c42157b2870cb1a1f3181689c1be958bb1056",
+  "rows": [
+    {
+      "net": "CAM_D0",
+      "MCU": "U101.12",
+      "MCU_GPIO": 7,
+      "actual_MCU_source": {
+        "net": "CAM_D0",
+        "function": "GPIO7"
+      },
+      "translator": "U201.3",
+      "actual_translator_source": {
+        "net": "CAM_D0",
+        "function": "A1"
+      },
+      "GPIO_matrix_input_index": 133
+    },
+    {
+      "net": "CAM_D1",
+      "MCU": "U101.13",
+      "MCU_GPIO": 8,
+      "actual_MCU_source": {
+        "net": "CAM_D1",
+        "function": "GPIO8"
+      },
+      "translator": "U201.4",
+      "actual_translator_source": {
+        "net": "CAM_D1",
+        "function": "A2"
+      },
+      "GPIO_matrix_input_index": 134
+    },
+    {
+      "net": "CAM_D2",
+      "MCU": "U101.14",
+      "MCU_GPIO": 9,
+      "actual_MCU_source": {
+        "net": "CAM_D2",
+        "function": "GPIO9"
+      },
+      "translator": "U201.5",
+      "actual_translator_source": {
+        "net": "CAM_D2",
+        "function": "A3"
+      },
+      "GPIO_matrix_input_index": 135
+    },
+    {
+      "net": "CAM_D3",
+      "MCU": "U101.15",
+      "MCU_GPIO": 10,
+      "actual_MCU_source": {
+        "net": "CAM_D3",
+        "function": "GPIO10"
+      },
+      "translator": "U201.6",
+      "actual_translator_source": {
+        "net": "CAM_D3",
+        "function": "A4"
+      },
+      "GPIO_matrix_input_index": 136
+    },
+    {
+      "net": "CAM_D4",
+      "MCU": "U101.16",
+      "MCU_GPIO": 11,
+      "actual_MCU_source": {
+        "net": "CAM_D4",
+        "function": "GPIO11"
+      },
+      "translator": "U201.7",
+      "actual_translator_source": {
+        "net": "CAM_D4",
+        "function": "A5"
+      },
+      "GPIO_matrix_input_index": 137
+    },
+    {
+      "net": "CAM_D5",
+      "MCU": "U101.17",
+      "MCU_GPIO": 12,
+      "actual_MCU_source": {
+        "net": "CAM_D5",
+        "function": "GPIO12"
+      },
+      "translator": "U201.8",
+      "actual_translator_source": {
+        "net": "CAM_D5",
+        "function": "A6"
+      },
+      "GPIO_matrix_input_index": 138
+    },
+    {
+      "net": "CAM_D6",
+      "MCU": "U101.18",
+      "MCU_GPIO": 13,
+      "actual_MCU_source": {
+        "net": "CAM_D6",
+        "function": "GPIO13"
+      },
+      "translator": "U201.9",
+      "actual_translator_source": {
+        "net": "CAM_D6",
+        "function": "A7"
+      },
+      "GPIO_matrix_input_index": 139
+    },
+    {
+      "net": "CAM_D7",
+      "MCU": "U101.19",
+      "MCU_GPIO": 14,
+      "actual_MCU_source": {
+        "net": "CAM_D7",
+        "function": "GPIO14"
+      },
+      "translator": "U201.10",
+      "actual_translator_source": {
+        "net": "CAM_D7",
+        "function": "A8"
+      },
+      "GPIO_matrix_input_index": 140
+    }
+  ],
+  "roles": "Enabled U201 B-to-A with DIR low; A outputs drive MCU input-configured GPIO7..14. Disabled output isolation does not disable input circuitry. Existing100k branches are additional load/stubs; internal pulldowns do not qualify loaded logic levels.",
+  "fresh_primary_sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+      "version": "SCES875C January2024",
+      "sections": "4,7.3.4,7.4,8; read2026-10-31"
+    },
+    {
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-pico-1_datasheet_en.pdf",
+      "version": "1.2",
+      "sections": "2.2 and package; actualPICO SiP, notbareSoC"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/v5.5/components/soc/esp32s3/include/soc/gpio_sig_map.h",
+      "version": "v5.5",
+      "scope": "camera input indices133..140 only; does not prove current firmware configuration"
+    }
+  ],
+  "limitations": [
+    "Full TRM fresh retrieval exceeded web10MiB limit; no new full-TRM timing verification claimed",
+    "Provider remains NULL; no sensor attached or firmware pinmux activated",
+    "Actual input setup/hold, pixel-clock sampling polarity, bit order, output edge/load/VOH, return coupling and package-specific DFM remain open",
+    "No timing matching inferred from routing lengths or nominal bus frequency"
+  ]
+}

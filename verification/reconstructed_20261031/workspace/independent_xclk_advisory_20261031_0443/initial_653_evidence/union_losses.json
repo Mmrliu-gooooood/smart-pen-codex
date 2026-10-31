@@ -1,0 +1,85 @@
+{
+  "retained_loss_unions": [
+    {
+      "net": "CAM_SCL",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_track_UUIDs": [
+        "242f7fd7-eecf-4425-bd5e-174da34d1493"
+      ],
+      "union_loss_mm2": 0.06765,
+      "bbox": [
+        10.525,
+        51.0495,
+        10.675,
+        51.5005
+      ]
+    },
+    {
+      "net": "CAM_SDA",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_track_UUIDs": [
+        "8970ff24-fc12-42fb-8322-5f980dee7c2d"
+      ],
+      "union_loss_mm2": 0.06765,
+      "bbox": [
+        10.05,
+        51.0495,
+        10.2,
+        51.5005
+      ]
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_track_UUIDs": [
+        "68da8f62-81bc-58fa-8078-e39fce70f4e1",
+        "9ff6736c-8246-5f5e-9b13-f0a3ec95f0cf",
+        "b194e0d9-678f-53b4-b042-644fb204746e",
+        "faa03d3c-be9b-5f3d-9fc3-a81ef53ad226"
+      ],
+      "union_loss_mm2": 0.1690055798825,
+      "bbox": [
+        4.175,
+        50.428534,
+        4.702746,
+        51.528795
+      ]
+    }
+  ],
+  "In2_total_plane_loss_components": [
+    {
+      "area_mm2": 0.445512984485,
+      "bbox": [
+        1.7245,
+        54.7745,
+        2.4755,
+        55.5255
+      ]
+    },
+    {
+      "area_mm2": 4.004499404257,
+      "bbox": [
+        3.0245,
+        50.1245,
+        11.5,
+        51.626826
+      ]
+    },
+    {
+      "area_mm2": 0.445512997293,
+      "bbox": [
+        9.7995,
+        8.1245,
+        10.5505,
+        8.8755
+      ]
+    }
+  ],
+  "AON_via_centers_in_removed_plane": [],
+  "zone_minimum_thickness_mm": [
+    0.15
+  ]
+}

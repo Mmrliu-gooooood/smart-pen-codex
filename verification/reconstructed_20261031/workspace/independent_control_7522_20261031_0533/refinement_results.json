@@ -1,0 +1,39 @@
+{
+  "old_sha256": "6902e59c0bd6cd76053f228343ea6859c4b5bac00d08abfcbd5b15971882aee6",
+  "new_sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1",
+  "only_one_endpoint_changed": {
+    "5c11a7ef-7ebc-4120-9932-d9ac83cf2b37": {
+      "before": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PWDN_UART_RX",
+        "layer": "F.Cu",
+        "a": [
+          11225000,
+          56150000
+        ],
+        "b": [
+          10475000,
+          56900000
+        ],
+        "width": 150000,
+        "drill": null
+      },
+      "after": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PWDN_UART_RX",
+        "layer": "F.Cu",
+        "a": [
+          11225000,
+          56150000
+        ],
+        "b": [
+          10462785,
+          56924530
+        ],
+        "width": 150000,
+        "drill": null
+      }
+    }
+  },
+  "scope": "real finite geometry change; whole final mechanics rerun independently; plane identity belongs to author/electrical evidence"
+}

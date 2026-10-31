@@ -1,0 +1,234 @@
+{
+  "status": "REFERENCE_DIAGNOSTIC_NOT_SI_ACCEPTANCE",
+  "pcb_sha256": "5f78698406ba7ab296ff6bdb2d334f2ecab003e92f3258e3c44adceb56b1e433",
+  "all_retained_projections": 2765,
+  "retained_reference_losses": [
+    {
+      "uuid": "785fa013-68f2-4dcf-8a6c-d03078ed911c",
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 2.077412e-05,
+      "bbox": [
+        8.56711,
+        15.381384,
+        8.574735,
+        15.408593
+      ]
+    },
+    {
+      "uuid": "785fa013-68f2-4dcf-8a6c-d03078ed911c",
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "lost_mm2": 2.077412e-05,
+      "bbox": [
+        8.56711,
+        15.381384,
+        8.574735,
+        15.408593
+      ]
+    },
+    {
+      "uuid": "a1cb5980-9b77-4048-a7f9-a53e40391518",
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 2.07722805e-05,
+      "bbox": [
+        8.567109,
+        15.381388,
+        8.574734,
+        15.408593
+      ]
+    },
+    {
+      "uuid": "a1cb5980-9b77-4048-a7f9-a53e40391518",
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "lost_mm2": 2.07722805e-05,
+      "bbox": [
+        8.567109,
+        15.381388,
+        8.574734,
+        15.408593
+      ]
+    },
+    {
+      "uuid": "00d9841b-21cf-4dc5-b71a-183126eec295",
+      "net": "CAM_D5",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "lost_mm2": 0.1968285,
+      "bbox": [
+        7.25,
+        16.443905,
+        7.4,
+        17.906095
+      ]
+    },
+    {
+      "uuid": "b2eef0dc-0d2c-5e69-9137-f41cde9f226b",
+      "net": "CAM_D6",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 9.163e-09,
+      "bbox": [
+        4.724909,
+        28.95506,
+        4.735489,
+        28.994546
+      ]
+    },
+    {
+      "uuid": "9911addf-a7ce-4bc7-a410-2c81aae8e420",
+      "net": "CAM_PCLK",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 0.000436073499,
+      "bbox": [
+        8.129873,
+        41.577047,
+        8.175,
+        41.60635
+      ]
+    },
+    {
+      "uuid": "c38d278c-7993-48f5-8f50-9015d1a9bfef",
+      "net": "CAM_PCLK",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 0.0007125011615,
+      "bbox": [
+        5.97497,
+        14.6653,
+        6.025,
+        14.696222
+      ]
+    },
+    {
+      "uuid": "14953b42-2271-42fb-8b2f-59304193614f",
+      "net": "CAM_HREF",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 0.000661924169,
+      "bbox": [
+        6.775,
+        14.6653,
+        6.82503,
+        14.701714
+      ]
+    },
+    {
+      "uuid": "405dbbcc-feed-5164-b050-41cf2174e551",
+      "net": "SENS_D5",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 0.0002087646735,
+      "bbox": [
+        4.3,
+        38.265844,
+        4.325563,
+        38.281349
+      ]
+    },
+    {
+      "uuid": "6463f038-f882-566e-ae2e-736403466fb9",
+      "net": "CAM_ISO_OE_N",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "lost_mm2": 2.1310686e-05,
+      "bbox": [
+        9.011763,
+        41.3745,
+        9.050563,
+        41.384856
+      ]
+    }
+  ],
+  "new_path_uncovered": [
+    {
+      "net": "CAM_VSYNC",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 1.116910774126,
+      "uncovered_mm2": 0.2630196483845,
+      "uncovered_bbox": [
+        6.325,
+        14.508953,
+        11.325,
+        41.525
+      ]
+    },
+    {
+      "net": "CAM_VSYNC",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 3.236763322191,
+      "uncovered_mm2": 0.328782582571,
+      "uncovered_bbox": [
+        3.650404,
+        14.791224,
+        10.375,
+        42.298673
+      ]
+    },
+    {
+      "net": "CAM_VSYNC",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 4.800611754249,
+      "uncovered_mm2": 0.246636234601,
+      "uncovered_bbox": [
+        3.8,
+        15.45,
+        11.563707,
+        38.35
+      ]
+    },
+    {
+      "net": "CAM_VSYNC",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "projection_mm2": 4.800611754249,
+      "uncovered_mm2": 0.840470143295,
+      "uncovered_bbox": [
+        3.8,
+        15.45,
+        11.95,
+        38.35
+      ]
+    },
+    {
+      "net": "SENS_D6",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "projection_mm2": 0.4241514588795,
+      "uncovered_mm2": 0.0649175215375,
+      "uncovered_bbox": [
+        3.433632,
+        38.966881,
+        3.800047,
+        39.375047
+      ]
+    }
+  ],
+  "interpretation": "In2 new signals use adjacent GND In1(.13mm) as dominant reference. In3 dominantGND In4(.13mm); secondary AON In2(.2028mm) also disclosed, not mislabeled ground. Missing area includes own via antipads and foreign-hole interactions; causal localization still required. No blanket zero regression claim."
+}

@@ -1,0 +1,199 @@
+{
+  "old_sha256": "a7713a113d76041201bf9cd3a9e76d6b32b8f026ad2cd383f5a37de70821749e",
+  "new_sha256": "d8550195b14521806a14654c4bdeba0a6d533b0aa536b473919481da2b9d6e5b",
+  "exact_six_changed": {
+    "15aa28cd-cb80-4cf7-811b-419d8b56061d": {
+      "old": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PCLK",
+        "layer": "F.Cu",
+        "width": 150000,
+        "a": [
+          5800000,
+          13425000
+        ],
+        "b": [
+          5937500,
+          14250000
+        ],
+        "drill": null
+      },
+      "new": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PCLK",
+        "layer": "F.Cu",
+        "width": 150000,
+        "a": [
+          5800000,
+          13425000
+        ],
+        "b": [
+          5937500,
+          14300000
+        ],
+        "drill": null
+      }
+    },
+    "0435326d-5d5e-4152-ae50-9be486970fb2": {
+      "old": {
+        "kind": "PCB_VIA",
+        "net": "CAM_PCLK",
+        "layer": "F.Cu",
+        "width": 450000,
+        "a": [
+          5937500,
+          14250000
+        ],
+        "b": [
+          5937500,
+          14250000
+        ],
+        "drill": 200000
+      },
+      "new": {
+        "kind": "PCB_VIA",
+        "net": "CAM_PCLK",
+        "layer": "F.Cu",
+        "width": 450000,
+        "a": [
+          5937500,
+          14300000
+        ],
+        "b": [
+          5937500,
+          14300000
+        ],
+        "drill": 200000
+      }
+    },
+    "c38d278c-7993-48f5-8f50-9015d1a9bfef": {
+      "old": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PCLK",
+        "layer": "In2.Cu",
+        "width": 150000,
+        "a": [
+          5950000,
+          14250000
+        ],
+        "b": [
+          5950000,
+          14775000
+        ],
+        "drill": null
+      },
+      "new": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_PCLK",
+        "layer": "In2.Cu",
+        "width": 150000,
+        "a": [
+          5950000,
+          14300000
+        ],
+        "b": [
+          5950000,
+          14775000
+        ],
+        "drill": null
+      }
+    },
+    "14e89b7e-4798-4a75-8e56-148b99f676ea": {
+      "old": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_HREF",
+        "layer": "F.Cu",
+        "width": 150000,
+        "a": [
+          6600000,
+          13850000
+        ],
+        "b": [
+          6862500,
+          14250000
+        ],
+        "drill": null
+      },
+      "new": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_HREF",
+        "layer": "F.Cu",
+        "width": 150000,
+        "a": [
+          6600000,
+          13850000
+        ],
+        "b": [
+          6862500,
+          14300000
+        ],
+        "drill": null
+      }
+    },
+    "41d26146-902b-422b-9f63-a73044b7d565": {
+      "old": {
+        "kind": "PCB_VIA",
+        "net": "CAM_HREF",
+        "layer": "F.Cu",
+        "width": 450000,
+        "a": [
+          6862500,
+          14250000
+        ],
+        "b": [
+          6862500,
+          14250000
+        ],
+        "drill": 200000
+      },
+      "new": {
+        "kind": "PCB_VIA",
+        "net": "CAM_HREF",
+        "layer": "F.Cu",
+        "width": 450000,
+        "a": [
+          6862500,
+          14300000
+        ],
+        "b": [
+          6862500,
+          14300000
+        ],
+        "drill": 200000
+      }
+    },
+    "14953b42-2271-42fb-8b2f-59304193614f": {
+      "old": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_HREF",
+        "layer": "In2.Cu",
+        "width": 150000,
+        "a": [
+          6850000,
+          14250000
+        ],
+        "b": [
+          6850000,
+          14750000
+        ],
+        "drill": null
+      },
+      "new": {
+        "kind": "PCB_TRACK",
+        "net": "CAM_HREF",
+        "layer": "In2.Cu",
+        "width": 150000,
+        "a": [
+          6850000,
+          14300000
+        ],
+        "b": [
+          6850000,
+          14750000
+        ],
+        "drill": null
+      }
+    }
+  },
+  "scope": "source via and two incident endpoints per net; not copper-union equivalence"
+}

@@ -1,0 +1,22 @@
+from pathlib import Path
+import os,json,math
+os.environ['XDG_CONFIG_HOME']='/tmp/inde7520533';import pcbnew as p
+O=Path(__file__).resolve().parent;W=O.parent;a=p.LoadBoard(str(W/'reconstruction_xclk_margin_mechanics_20261031_0449/selected_native.kicad_pcb'));b=p.LoadBoard(str(O/'selected_native.kicad_pcb'))
+def need(v,m):
+ if not v:raise RuntimeError(m)
+def extra(f):return sorted((z.GetNumber(),int(z.GetAttribute()),z.GetDrillSize().x,z.GetDrillSize().y,int(z.GetDrillShape()),z.GetOffset().x,z.GetOffset().y,z.GetRoundRectRadiusRatio())for z in f.Pads())
+need({f.GetReference():extra(f)for f in a.GetFootprints()}=={f.GetReference():extra(f)for f in b.GetFootprints()},'additional native pad contracts')
+old={t.m_Uuid.AsString():t for t in a.GetTracks()};new={t.m_Uuid.AsString():t for t in b.GetTracks()};need(set(old)<=set(new),'no removals')
+def ident(t):return(t.GetNetname(),t.GetLayerName(),t.GetStart().x,t.GetStart().y,t.GetEnd().x,t.GetEnd().y,t.GetWidth(p.F_Cu)if isinstance(t,p.PCB_VIA)else t.GetWidth(),t.GetDrillValue()if isinstance(t,p.PCB_VIA)else None)
+need(all(ident(t)==ident(new[u])for u,t in old.items()),'every original copper exact');added=[t for u,t in new.items()if u not in old];need({t.GetNetname()for t in added}=={'CAM_RESET_UART_TX','CAM_PWDN_UART_RX'},'only two added nets')
+f=next(f for f in b.GetFootprints()if f.GetReference()=='J104');f.BuildCourtyardCaches();q=f.GetCourtyard(p.B_CrtYd);c=q.Outline(0);verts=[(c.CPoint(i).x/1e6,c.CPoint(i).y/1e6)for i in range(c.PointCount())];bounds=[min(x for x,y in verts),min(y for x,y in verts),max(x for x,y in verts),max(y for x,y in verts)];need(bounds==[9.005,51.805,10.995,57.795],'actual vertices not inflatedBBox');ex=[bounds[0]-.05,bounds[1]-.05,bounds[2]+.05,bounds[3]+.05];esc=[]
+for no,net,start,end in [('1','CAM_RESET_UART_TX',(10,53),(8.6,53)),('2','CAM_PWDN_UART_RX',(10,54.8),(11.9,55.5))]:
+ pad=[z for z in f.Pads()if z.GetNumber()==no and z.GetNetname()==net and z.IsOnLayer(p.B_Cu)and not z.IsOnLayer(p.F_Cu)and(z.GetPosition().x/1e6,z.GetPosition().y/1e6)==start];need(len(pad)==1,'actual B-only terminal');ts=[t for t in added if not isinstance(t,p.PCB_VIA)and t.GetLayer()==p.B_Cu and t.GetNetname()==net and(t.GetStart().x/1e6,t.GetStart().y/1e6)==start and(t.GetEnd().x/1e6,t.GetEnd().y/1e6)==end];need(len(ts)==1 and ts[0].GetWidth()==150000,'exact straight exit');need(ex[0]<start[0]<ex[2]and ex[1]<start[1]<ex[3]and not(ex[0]<=end[0]<=ex[2]and ex[1]<=end[1]<=ex[3]),'insidepad outsideend');esc.append({'pad':no,'net':net,'side':'B.Cu only','type':int(pad[0].GetAttribute()),'start':start,'end':end,'uuid':ts[0].m_Uuid.AsString(),'straight_convex_rectangle_single_exit':True})
+service=json.load(open(O/'service_results.json'));need(service['no_other_new_B_copper_or_via_intersections']and service['negative_same_net_fails_exact_terminal_guard'],'bounded service guard');need(len(service['allowed_actual_terminal_escapes'])==4,'two regions each2')
+vs=[t for t in added if isinstance(t,p.PCB_VIA)and(t.GetPosition().x/1e6,t.GetPosition().y/1e6)==(13.35,37.025)];need(len(vs)==1,'actual C202near via');bb=next(r['xy_bounds']for r in json.load(open(O/'proposed_full104.json'))['all_static_rectangles']if r['ref']=='C202');rad=vs[0].GetWidth(p.F_Cu)/2e6;g=math.hypot(max(bb[0]-13.35,0,13.35-bb[2]),max(bb[1]-37.025,0,37.025-bb[3]))-rad;edge=14-13.35-rad;need(abs(g-.15)<1e-8 and abs(edge-.425)<1e-8,'full and edge gaps')
+rows=json.load(open(O/'results.json'))['rows'];terms={};fps={f.GetReference():f for f in b.GetFootprints()}
+for r in rows:
+ for h in r['body_hits']+r['Fab_bbox_hits']:
+  face=p.F_Cu if r['layer']=='F.Cu'else p.B_Cu;ps=[z for z in fps[h['ref']].Pads()if z.GetNumber()in h['actual_pad_ended']and z.GetNetname()==r['net']and z.IsOnLayer(face)and(z.GetPosition().x/1e6,z.GetPosition().y/1e6)in[tuple(r['a']),tuple(r['b'])]];need(len(ps)==1,'actual terminal');terms[r['uuid']]={'ref':h['ref'],'pad':ps[0].GetNumber(),'side':r['layer'],'a':r['a'],'b':r['b']}
+need(len(terms)==4,'four scopes')
+(O/'independent_check.json').write_text(json.dumps({'extra_native_pad_contracts_equal':True,'all_original_copper_exact':True,'only_RESET_PWDN_added':True,'actual_J104_vertices':verts,'actual_J104_bounds':bounds,'conservative_plus0p05_not_measured':ex,'actual_B_only_terminal_escapes':esc,'actual_four_terminal_scopes':terms,'C202_via_fullgap_mm':g,'via_edgegap_mm':edge,'no_operational_access_qualification':True},indent=2)+'\n')

@@ -1,0 +1,24 @@
+{
+  "baseline": "5f78698406ba7ab296ff6bdb2d334f2ecab003e92f3258e3c44adceb56b1e433",
+  "sources": [
+    {
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-pico-1_datasheet_en.pdf",
+      "version": "v1.2",
+      "claim": "PICO package pin43 GPIO38, VDD3P3_CPU; GPIO38/FSPIWP/SUBSPIWP mux. Not a bare-QFN footprint or default clock pin."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf",
+      "version": "SCES877B April2024",
+      "claim": "PW16 U203 pin4 1A1 to13 1B1 with DIRhigh and OElow; Ainput/Boutput, controls referencedVCCA; input circuits active in isolation. Loaded levels, edge/load/delay and actual sequence remain open."
+    },
+    {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html",
+      "claim": "GPIO matrix output configuration and explicit ownership required; bootloader/application startup may alter documented default state."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/target/esp32s3/ll_cam.c",
+      "claim": "S3-specific official camera driver overrides configurable XCLK using LCD_CAM. Generic target/xclk.c LEDC implementation alone is not evidence of selected S3 firmware behavior. Moving master is contextual, not firmware qualification or a20MHz recommendation."
+    }
+  ],
+  "contract": "MCU GPIO38 output into U203 A input; R221 physical B.Cu100k bias remains value/net unchanged. Clock driver source/mux/duty/loaded voltage and buffer timing must be qualified, not inferred from static routing. No unknown sensor attachment or power-up."
+}

@@ -1,0 +1,7 @@
+FAIL line17: i->camera_ready==1
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/capture_actor_adapter_20261031_0600/run_tests.py", line 13, in <module>
+    subprocess.run([t+'/test'],check=True,env={**os.environ,'ASAN_OPTIONS':'detect_leaks=0'})
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/pen-adapter-host-u5yox1rf/test']' returned non-zero exit status 1.

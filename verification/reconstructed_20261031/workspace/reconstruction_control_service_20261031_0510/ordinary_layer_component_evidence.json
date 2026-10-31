@@ -1,0 +1,114 @@
+{
+  "grid_mm": 0.025,
+  "window_y_mm": [
+    0.5,
+    93.3
+  ],
+  "components": {
+    "U101.49": {
+      "roots": [
+        142
+      ],
+      "reachable": [
+        {
+          "layer": "F.Cu",
+          "cells": 167746,
+          "touches_artificial_y_min": true,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            0.4,
+            0.5,
+            13.675,
+            48.475
+          ]
+        },
+        {
+          "layer": "In2.Cu",
+          "cells": 0,
+          "touches_artificial_y_min": false,
+          "touches_artificial_y_max": false,
+          "bounds": null
+        },
+        {
+          "layer": "In3.Cu",
+          "cells": 327569,
+          "touches_artificial_y_min": true,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            0.4,
+            0.5,
+            13.675,
+            51.95
+          ]
+        },
+        {
+          "layer": "B.Cu",
+          "cells": 372353,
+          "touches_artificial_y_min": true,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            0.4,
+            0.5,
+            13.675,
+            50.475
+          ]
+        }
+      ],
+      "incomplete_box_proof": true,
+      "policy": "Any artificial boundary touch requires bounded ordinary-layer expansion before new layer/pose trade. Even no boundary touch is finite grid evidence, not continuous/global impossibility."
+    },
+    "U203.5": {
+      "roots": [
+        167
+      ],
+      "reachable": [
+        {
+          "layer": "F.Cu",
+          "cells": 18983,
+          "touches_artificial_y_min": false,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            8.625,
+            51.975,
+            12.275,
+            58.475
+          ]
+        },
+        {
+          "layer": "In2.Cu",
+          "cells": 0,
+          "touches_artificial_y_min": false,
+          "touches_artificial_y_max": false,
+          "bounds": null
+        },
+        {
+          "layer": "In3.Cu",
+          "cells": 6359,
+          "touches_artificial_y_min": false,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            11.275,
+            51.975,
+            12.275,
+            58.575
+          ]
+        },
+        {
+          "layer": "B.Cu",
+          "cells": 42700,
+          "touches_artificial_y_min": false,
+          "touches_artificial_y_max": false,
+          "bounds": [
+            4.800000000000001,
+            51.225,
+            12.575000000000001,
+            59.550000000000004
+          ]
+        }
+      ],
+      "incomplete_box_proof": false,
+      "policy": "Any artificial boundary touch requires bounded ordinary-layer expansion before new layer/pose trade. Even no boundary touch is finite grid evidence, not continuous/global impossibility."
+    }
+  },
+  "scope": "Historical finite search component evidence only, not global impossibility; current selected native validated independently."
+}

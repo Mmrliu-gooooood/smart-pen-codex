@@ -1,0 +1,18 @@
+from pathlib import Path
+import json,hashlib,difflib
+D=Path(__file__).resolve().parent
+j=lambda n:json.loads((D/n).read_text());checks={}
+def req(n,v):
+ checks[n]=bool(v)
+ if not v:raise RuntimeError(n)
+h=lambda f:hashlib.sha256(f.read_bytes()).hexdigest();sha='7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1'
+req('selected_sha',h(D/'final_candidate/mainboard_revD.kicad_pcb')==sha)
+for a,b in [('final_verification.json','final_verification_optimized.json'),('candidate_check.json','candidate_check_optimized.json'),('source_roles.json','source_roles_optimized.json'),('final_native_contract.json','final_native_contract_optimized.json'),('anchor_regression.json','anchor_regression_optimized.json'),('raw_contract.json','raw_contract_optimized.json'),('boundary_regression.json','boundary_regression_optimized.json'),('window_policy.json','window_policy_optimized.json')]:req(a+'_normal_O_equal',j(a)==j(b))
+r=j('final_verification.json');req('all311_contracts',len(r['checks'])==311 and all(r['checks'].values()));req('exact_four_closures_two_nets',set(r['physical_changes'])=={'CAM_RESET_UART_TX','CAM_PWDN_UART_RX'}and all(len(q['before'])==3 and len(q['after'])==1 for q in r['physical_changes'].values()));req('cores94_41_12',r['cores']=={'GND':94,'3V3_AON':41,'SENS_VIO_1V8':12});req('finite_clear',not j('candidate_check.json')['finite_errors']);req('raw_old_all_exact',all(j('raw_contract.json')['checks'].values()))
+r=j('final_drc.json');req('actual_DRC_0_37_0',not r['violations']and len(r['unconnected_items'])==37 and not r['schematic_parity']);req('refill_normal_O_bytes_exact',j('final_fill_reload.json')['native_refill_reload_bytes_equal'])
+for mode in ['', 'optimized_']:
+ for i in range(4):
+  q=j(f'final_validation/negative_{mode}{i}.json');req(f'cut_{mode}{i}',q['cut']['detected']and q['reversible_raw_native_replay_exact_both_directions']);q=j(f'final_validation/saved_cut_{mode}{i}_drc.json');req(f'native_cut_{mode}{i}',len(q['unconnected_items'])==38 and not q['schematic_parity']and [v['type']for v in q['violations']]==([]if i==3 else['track_dangling']))
+req('ref3363_no_retained_losses',j('reference_checkpoint.json')['all_retained_projections']==3363 and not j('reference_checkpoint.json')['retained_reference_losses']);req('junction_one_delta_all_planes_exact',len(j('junction_exact_delta.json')['track_delta'])==1 and j('junction_exact_delta.json')['all_filled_polygon_vertices_exact']);delta=(D/'junction_reversible.ndiff').read_text().splitlines(keepends=True);req('junction_replay_original_sha',hashlib.sha256(''.join(difflib.restore(delta,1)).encode()).hexdigest()=='6902e59c0bd6cd76053f228343ea6859c4b5bac00d08abfcbd5b15971882aee6');req('junction_replay_selected_sha',hashlib.sha256(''.join(difflib.restore(delta,2)).encode()).hexdigest()==sha)
+req('model_normal_O_and_allowlist_replay',j('model_replay.json')['junction_delta_fresh_allowlist_only_replay_equal']and all(x['outputs_exact_normal_optimized']for x in j('model_replay.json')['models']));a=j('advisory_dependencies.json');root=D/a['root'];req('advisory_manifest_exact',h(root/'manifest.json')==a['manifest_sha256']);req('all60_advisory_files_exact',len(a['files'])==60 and all((root/n).stat().st_size==q['bytes']and h(root/n)==q['sha256']for n,q in a['files'].items()));req('paths_all12',all(len(x)==6 for x in j('clock_centerline.json')['paths'].values()));req('private_arms_all8',all(len(x)==4 for x in j('clock_centerline.json')['private_arms'].values()));req('one_declared_collinear_service_boundary',j('collinear_screen.json')['count']==1)
+(D/'aggregate_checks.json').write_text(json.dumps({'checks':checks,'count':len(checks),'status':'PASS_BOUNDED_AUTHOR_STATIC_NOT_INDEPENDENT_ACCEPTANCE'},indent=2));print(len(checks),'gates pass')

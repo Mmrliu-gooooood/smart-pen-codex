@@ -1,0 +1,12 @@
+test_actual_actor_fatal_paths_and_disabled_startup (test_application_actor.ApplicationActor.test_actual_actor_fatal_paths_and_disabled_startup) ... actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS
+actor disabled: no storage/provider action PASS
+ok
+test_capacity_replay_and_erase_intent (test_application_maintenance.ApplicationMaintenance.test_capacity_replay_and_erase_intent) ... maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS
+ok
+test_supplied_frame_pipeline_and_fail_closed_contracts (test_application_pipeline.ApplicationPipeline.test_supplied_frame_pipeline_and_fail_closed_contracts) ... application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 6.204s
+
+OK

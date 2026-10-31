@@ -1,0 +1,219 @@
+{
+  "verdict": "ACCEPT_SCOPED_STATIC_FOUR_CONTROL_SERVICE_JOINS",
+  "candidate_sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1",
+  "closures": [
+    {
+      "root": "reconstruction_control_service_20261031_0510",
+      "manifest": "review_manifest.json",
+      "sha256": "bec167d27945b9d4af03171fd7f0c457315ffc82333d178ececc6063f2f86614",
+      "files_verified": 192
+    },
+    {
+      "root": "independent_control_service_advisory_20261031_0521",
+      "manifest": "manifest.json",
+      "sha256": "ac111af161fa07cd7665c71f2321206209f869f5530afeff69005942ba6e871c",
+      "files_verified": 60
+    },
+    {
+      "root": "reconstruction_control_service_final_mechanics_20261031_0524",
+      "manifest": "manifest.json",
+      "sha256": "767f9b90fac6214d1dc45ed15f817281f616d27770f4468c8e42025ee05ceb58",
+      "files_verified": 28
+    }
+  ],
+  "own_actual_saved_cuts": [
+    {
+      "net": "CAM_RESET_UART_TX",
+      "removed_uuid": "2a68dfa8-2f14-4f7f-94d3-db4abcf62d13",
+      "actual_saved_reloaded_cut_sha256": "28c393aff7fe2c0084ab25efedfdb943a60bf2bdd15aeea7126e21bd8f5d5121",
+      "partitions": [
+        [
+          "J104.1",
+          "R222.1",
+          "U203.5"
+        ],
+        [
+          "U101.49"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "normal",
+      "index": 0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "removed_uuid": "0ee01bc5-1da0-4c89-b500-73407a314143",
+      "actual_saved_reloaded_cut_sha256": "13d2cd6b4e21cc6c329e677acc1fd4d77e6554e78c3fd91fb43f3aacab9bc2f8",
+      "partitions": [
+        [
+          "J104.2",
+          "R223.1",
+          "U203.6"
+        ],
+        [
+          "U101.50"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "normal",
+      "index": 1
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "removed_uuid": "c574df2c-b6e2-4e2c-a4c6-0e1d9bdc2831",
+      "actual_saved_reloaded_cut_sha256": "7d2118b6839da5040ef3de025edd6a9e7bdceafe8ba1376fa8ed78d2f9d3f2b1",
+      "partitions": [
+        [
+          "J104.1"
+        ],
+        [
+          "R222.1",
+          "U101.49",
+          "U203.5"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "normal",
+      "index": 2
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "removed_uuid": "5a72c9f0-2b7a-4d0f-8f94-ca0719994ccf",
+      "actual_saved_reloaded_cut_sha256": "cef48feced5d866d9d483384a908dd47f8ec4906f1eead426e48aada8917086b",
+      "partitions": [
+        [
+          "J104.2"
+        ],
+        [
+          "R223.1",
+          "U101.50",
+          "U203.6"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        0,
+        38,
+        0
+      ],
+      "mode": "normal",
+      "index": 3
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "removed_uuid": "2a68dfa8-2f14-4f7f-94d3-db4abcf62d13",
+      "actual_saved_reloaded_cut_sha256": "28c393aff7fe2c0084ab25efedfdb943a60bf2bdd15aeea7126e21bd8f5d5121",
+      "partitions": [
+        [
+          "J104.1",
+          "R222.1",
+          "U203.5"
+        ],
+        [
+          "U101.49"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "optimized",
+      "index": 0
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "removed_uuid": "0ee01bc5-1da0-4c89-b500-73407a314143",
+      "actual_saved_reloaded_cut_sha256": "13d2cd6b4e21cc6c329e677acc1fd4d77e6554e78c3fd91fb43f3aacab9bc2f8",
+      "partitions": [
+        [
+          "J104.2",
+          "R223.1",
+          "U203.6"
+        ],
+        [
+          "U101.50"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "optimized",
+      "index": 1
+    },
+    {
+      "net": "CAM_RESET_UART_TX",
+      "removed_uuid": "c574df2c-b6e2-4e2c-a4c6-0e1d9bdc2831",
+      "actual_saved_reloaded_cut_sha256": "7d2118b6839da5040ef3de025edd6a9e7bdceafe8ba1376fa8ed78d2f9d3f2b1",
+      "partitions": [
+        [
+          "J104.1"
+        ],
+        [
+          "R222.1",
+          "U101.49",
+          "U203.5"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        1,
+        38,
+        0
+      ],
+      "mode": "optimized",
+      "index": 2
+    },
+    {
+      "net": "CAM_PWDN_UART_RX",
+      "removed_uuid": "5a72c9f0-2b7a-4d0f-8f94-ca0719994ccf",
+      "actual_saved_reloaded_cut_sha256": "cef48feced5d866d9d483384a908dd47f8ec4906f1eead426e48aada8917086b",
+      "partitions": [
+        [
+          "J104.2"
+        ],
+        [
+          "R223.1",
+          "U101.50",
+          "U203.6"
+        ]
+      ],
+      "all_unrelated_partitions_unchanged": true,
+      "DRC": [
+        0,
+        38,
+        0
+      ],
+      "mode": "optimized",
+      "index": 3
+    }
+  ],
+  "matched_refill_counterfactuals_equal": [
+    "NONE",
+    "EDGE_VIA",
+    "IOEN_SOURCE",
+    "IN2"
+  ],
+  "source_roles_fresh_export_verified": true,
+  "native_replay_file_count": 53,
+  "boundary": "No validated sensor PWDN; no operating UART/control, SI/PDN/power/fab/process acceptance. All advisory/source/mechanical exceptions retained."
+}

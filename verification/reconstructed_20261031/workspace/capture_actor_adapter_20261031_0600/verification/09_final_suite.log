@@ -1,0 +1,24 @@
+RUN normal test_adapter
+PASS invalidated-binding slice
+RUN normal test_failures
+PASS 296 failure/ordering assertions; synthetic only
+RUN normal test_pipeline
+PASS actual pipeline/storage/contact modules + NULL provider; synthetic sidecar mapper only; no VALID coordinates
+RUN normal test_default
+PASS default compile gate OFF/provider NULL/profile empty
+RUN ndebug test_adapter
+PASS invalidated-binding slice
+RUN ndebug test_failures
+PASS 296 failure/ordering assertions; synthetic only
+RUN ndebug test_pipeline
+PASS actual pipeline/storage/contact modules + NULL provider; synthetic sidecar mapper only; no VALID coordinates
+RUN ndebug test_default
+PASS default compile gate OFF/provider NULL/profile empty
+RUN sanitizers test_adapter
+PASS invalidated-binding slice
+RUN sanitizers test_failures
+PASS 296 failure/ordering assertions; synthetic only
+RUN sanitizers test_pipeline
+PASS actual pipeline/storage/contact modules + NULL provider; synthetic sidecar mapper only; no VALID coordinates
+RUN sanitizers test_default
+PASS default compile gate OFF/provider NULL/profile empty

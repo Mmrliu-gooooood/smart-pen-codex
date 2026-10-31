@@ -1,0 +1,549 @@
+[
+  {
+    "net": "CAM_RESET_UART_TX",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.064981690252,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.064981727186,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              6.875,
+              5.775
+            ]
+          },
+          {
+            "uuid": "9323d73c-97e8-48e5-8029-715af3a2f529",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              6.35,
+              5.4
+            ]
+          },
+          {
+            "uuid": "f56ab58e-fbdb-4a54-a29e-df1d31692868",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              5.55,
+              5.4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_RESET_UART_TX",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.1346112049355,
+    "foreign_only_hole_mm2": 1.9338812e-05,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.065503758011,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0c832c38-ab56-4635-8427-4299d566cdb3",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              11.6,
+              47.0
+            ]
+          },
+          {
+            "uuid": "e5fff3a4-3223-448d-b7f0-986ccdb1488e",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.125,
+              46.625
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3.222054e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+            "net": "CAM_XCLK",
+            "new": false,
+            "xy": [
+              12.075,
+              42.35
+            ]
+          },
+          {
+            "uuid": "58f52810-7611-4466-b56d-01c1fad749cf",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              12.0,
+              41.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3.222054e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+            "net": "CAM_XCLK",
+            "new": false,
+            "xy": [
+              13.05,
+              35.525
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3.223926e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "d9ddf854-8afe-4e09-a0e7-4135995d99f5",
+            "net": "CAM_SCL",
+            "new": false,
+            "xy": [
+              11.275,
+              13.15
+            ]
+          },
+          {
+            "uuid": "086e856c-608c-488f-9ea0-ff32277f3b98",
+            "net": "CAM_SDA",
+            "new": false,
+            "xy": [
+              11.35,
+              12.55
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0690881081125,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              6.875,
+              5.775
+            ]
+          },
+          {
+            "uuid": "9323d73c-97e8-48e5-8029-715af3a2f529",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              6.35,
+              5.4
+            ]
+          },
+          {
+            "uuid": "f56ab58e-fbdb-4a54-a29e-df1d31692868",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              5.55,
+              5.4
+            ]
+          }
+        ]
+      },
+      {
+        "area": 9.670778e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "0cd269dd-119c-59d9-b721-33cd5879af4b",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              10.8,
+              4.175
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_RESET_UART_TX",
+    "layer": "In2.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.129981962163,
+    "foreign_only_hole_mm2": 3.222054e-06,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649894137275,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908",
+            "net": "CAM_RESET_UART_TX",
+            "new": false,
+            "xy": [
+              11.475,
+              54.75
+            ]
+          },
+          {
+            "uuid": "615c359a-4ea0-4cb7-a37a-d2a3defec914",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.9,
+              55.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3.222054e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "8147f964-76e9-4cea-9486-cf3624776808",
+            "net": "CAM_XCLK",
+            "new": false,
+            "xy": [
+              12.0,
+              51.75
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893263815,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0c832c38-ab56-4635-8427-4299d566cdb3",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              11.6,
+              47.0
+            ]
+          },
+          {
+            "uuid": "e5fff3a4-3223-448d-b7f0-986ccdb1488e",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.125,
+              46.625
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_PWDN_UART_RX",
+    "layer": "F.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.1299470822735,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649895318395,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908",
+            "net": "CAM_RESET_UART_TX",
+            "new": false,
+            "xy": [
+              11.475,
+              54.75
+            ]
+          },
+          {
+            "uuid": "615c359a-4ea0-4cb7-a37a-d2a3defec914",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.9,
+              55.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.064957550434,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              6.875,
+              5.775
+            ]
+          },
+          {
+            "uuid": "9323d73c-97e8-48e5-8029-715af3a2f529",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              6.35,
+              5.4
+            ]
+          },
+          {
+            "uuid": "f56ab58e-fbdb-4a54-a29e-df1d31692868",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              5.55,
+              5.4
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_PWDN_UART_RX",
+    "layer": "B.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.3361074686405,
+    "foreign_only_hole_mm2": 8.160926e-06,
+    "outside_all_holes_mm2": 0.0672331491835,
+    "holes": [
+      {
+        "area": 0.064925408633,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908",
+            "net": "CAM_RESET_UART_TX",
+            "new": false,
+            "xy": [
+              11.475,
+              54.75
+            ]
+          },
+          {
+            "uuid": "615c359a-4ea0-4cb7-a37a-d2a3defec914",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.9,
+              55.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0655134091385,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0c832c38-ab56-4635-8427-4299d566cdb3",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              11.6,
+              47.0
+            ]
+          },
+          {
+            "uuid": "e5fff3a4-3223-448d-b7f0-986ccdb1488e",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.125,
+              46.625
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0693308009,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "824bd0ee-fe2e-488f-a029-1e38cf4afba1",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              12.55,
+              17.275
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0690964409865,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "8bb93b6d-c606-549d-9614-aaa22305c8b1",
+            "net": "CAM_IO_EN",
+            "new": false,
+            "xy": [
+              6.875,
+              5.775
+            ]
+          },
+          {
+            "uuid": "9323d73c-97e8-48e5-8029-715af3a2f529",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              6.35,
+              5.4
+            ]
+          },
+          {
+            "uuid": "f56ab58e-fbdb-4a54-a29e-df1d31692868",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              5.55,
+              5.4
+            ]
+          }
+        ]
+      },
+      {
+        "area": 8.160926e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "4dfea7fc-2632-4edb-a1ec-c6a654c53eb8",
+            "net": "3V3_AON",
+            "new": false,
+            "xy": [
+              7.4,
+              4.8
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_PWDN_UART_RX",
+    "layer": "In2.Cu",
+    "reference": "In1.Cu",
+    "uncovered_mm2": 0.1342206521155,
+    "foreign_only_hole_mm2": 0.0,
+    "outside_all_holes_mm2": 0.0,
+    "holes": [
+      {
+        "area": 0.0649926289325,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0499e4f2-b613-54b5-855c-a0fce3294908",
+            "net": "CAM_RESET_UART_TX",
+            "new": false,
+            "xy": [
+              11.475,
+              54.75
+            ]
+          },
+          {
+            "uuid": "615c359a-4ea0-4cb7-a37a-d2a3defec914",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.9,
+              55.5
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.069228019358,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "0c832c38-ab56-4635-8427-4299d566cdb3",
+            "net": "CAM_RESET_UART_TX",
+            "new": true,
+            "xy": [
+              11.6,
+              47.0
+            ]
+          },
+          {
+            "uuid": "e5fff3a4-3223-448d-b7f0-986ccdb1488e",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              11.125,
+              46.625
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "net": "CAM_PWDN_UART_RX",
+    "layer": "In3.Cu",
+    "reference": "In4.Cu",
+    "uncovered_mm2": 0.129981998382,
+    "foreign_only_hole_mm2": 3.222054e-06,
+    "outside_all_holes_mm2": 0.0649894137275,
+    "holes": [
+      {
+        "area": 3.222054e-06,
+        "has_own_net_via": false,
+        "vias": [
+          {
+            "uuid": "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+            "net": "CAM_XCLK",
+            "new": false,
+            "xy": [
+              13.05,
+              35.525
+            ]
+          }
+        ]
+      },
+      {
+        "area": 0.0649893626005,
+        "has_own_net_via": true,
+        "vias": [
+          {
+            "uuid": "824bd0ee-fe2e-488f-a029-1e38cf4afba1",
+            "net": "CAM_PWDN_UART_RX",
+            "new": true,
+            "xy": [
+              12.55,
+              17.275
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

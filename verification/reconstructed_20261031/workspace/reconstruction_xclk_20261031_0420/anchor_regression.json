@@ -1,0 +1,83 @@
+{
+  "rows": [
+    {
+      "net": "CAM_XCLK",
+      "uuid": "2faff951-2ace-4355-9a15-9df853c312d7",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "CAM_XCLK",
+      "uuid": "48a400b6-aa25-4412-ba71-4ffb0d82a6b9",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "CAM_XCLK",
+      "uuid": "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "CAM_XCLK",
+      "uuid": "8147f964-76e9-4cea-9486-cf3624776808",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "CAM_XCLK",
+      "uuid": "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "CAM_XCLK",
+      "uuid": "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+      "native_class": "PCB_VIA",
+      "python_type": "PCB_TRACK",
+      "old_isinstance_omits_via_branch": true,
+      "all_native_routing_layers": [
+        "F.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "scope": "Actual final connected via objects and native layer sets, not Python subclass assumption. Spatial masks still independently restrict usable search seeds; this does not authorize new In2 outside the explicitly tested driver-side window. Old instanceof behavior is a negative regression, not old-board invalidation."
+}

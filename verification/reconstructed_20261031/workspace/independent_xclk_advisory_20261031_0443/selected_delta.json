@@ -1,0 +1,175 @@
+{
+  "initial_sha256": "653a18e7c789027d58f7ab387965d47cf183de0445edb60ed6111700caecc920",
+  "selected_sha256": "6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08",
+  "removed_three_F_tracks": {
+    "f2f573aa-37e0-4331-90e1-9d196128a1e1": [
+      "CAM_XCLK",
+      0,
+      [
+        9950000,
+        6150000
+      ],
+      [
+        10175000,
+        6550000
+      ],
+      150000,
+      null
+    ],
+    "d578a306-1561-4b4a-8b53-9b72a1d83c8a": [
+      "CAM_XCLK",
+      0,
+      [
+        8600000,
+        6575000
+      ],
+      [
+        8600000,
+        6150000
+      ],
+      150000,
+      null
+    ],
+    "f2f7cc52-bd91-4316-b819-2a4bff618131": [
+      "CAM_XCLK",
+      0,
+      [
+        8600000,
+        6150000
+      ],
+      [
+        9950000,
+        6150000
+      ],
+      150000,
+      null
+    ]
+  },
+  "added_three_F_tracks": {
+    "371d32eb-26f1-48b1-a307-f266e2fc5a82": [
+      "CAM_XCLK",
+      0,
+      [
+        8600000,
+        6110000
+      ],
+      [
+        9950000,
+        6110000
+      ],
+      150000,
+      null
+    ],
+    "fa5f0f6d-0c3d-4755-8d18-6e09d1859bc5": [
+      "CAM_XCLK",
+      0,
+      [
+        8600000,
+        6575000
+      ],
+      [
+        8600000,
+        6110000
+      ],
+      150000,
+      null
+    ],
+    "30c93a7b-460e-4079-9f4b-75647a30e598": [
+      "CAM_XCLK",
+      0,
+      [
+        9950000,
+        6110000
+      ],
+      [
+        10175000,
+        6550000
+      ],
+      150000,
+      null
+    ]
+  },
+  "all_remaining_track_via_geometry_exact": true,
+  "all_actual_filled_contour_vertices_equal": true,
+  "retained_reference_losses_equal": true,
+  "new_uncovered_hole_classification_exact_equal": true,
+  "selected_path_metrics": {
+    "CAM_XCLK": {
+      "U101.43__U203.4": {
+        "planar_centerline_mm": 63.88779693647101,
+        "via_nodes_traversed": 5,
+        "layer_changes": 5,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu",
+          "F.Cu"
+        ],
+        "via_uuids": [
+          "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+          "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+          "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+          "8147f964-76e9-4cea-9486-cf3624776808",
+          "2faff951-2ace-4355-9a15-9df853c312d7"
+        ]
+      },
+      "U203.4__R221.1": {
+        "planar_centerline_mm": 13.075977631085038,
+        "via_nodes_traversed": 2,
+        "layer_changes": 2,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "2faff951-2ace-4355-9a15-9df853c312d7",
+          "48a400b6-aa25-4412-ba71-4ffb0d82a6b9"
+        ]
+      },
+      "U101.43__R221.1": {
+        "planar_centerline_mm": 65.83877456755604,
+        "via_nodes_traversed": 6,
+        "layer_changes": 6,
+        "layer_sequence": [
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+          "913e892d-93c7-441b-a2a3-bd4d7a26e823",
+          "52148cbb-b28b-495d-966a-e84cdcdb10fc",
+          "8147f964-76e9-4cea-9486-cf3624776808",
+          "2faff951-2ace-4355-9a15-9df853c312d7",
+          "48a400b6-aa25-4412-ba71-4ffb0d82a6b9"
+        ]
+      }
+    },
+    "SENS_EXTCLK": {
+      "U203.13__J202.18": {
+        "planar_centerline_mm": 47.94195860595229,
+        "via_nodes_traversed": 3,
+        "layer_changes": 3,
+        "layer_sequence": [
+          "F.Cu",
+          "B.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "df82f013-f1c3-58f7-a33e-499b55fe350e",
+          "794498fd-1d4b-512e-85b8-cb03602f9690",
+          "d04eca23-4164-5b2f-8673-95fe528f421f"
+        ]
+      }
+    }
+  },
+  "selected_bias_arm_mm": 7.513477631085026
+}

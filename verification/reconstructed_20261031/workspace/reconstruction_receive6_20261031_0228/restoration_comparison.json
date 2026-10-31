@@ -1,0 +1,36 @@
+{
+  "selected_sha256": "d8550195b14521806a14654c4bdeba0a6d533b0aa536b473919481da2b9d6e5b",
+  "scope": "Independent raw native restoration trials from exact selected d855. Conflicts establish this topology cannot blindly revert; not global impossibility or PDN waiver. Diagnostic PCB bytes excluded from validated candidate payload; script regenerates them.",
+  "trials": {
+    "R219": {
+      "pcb_sha256": "89a73b9b1e767754a4aa218b55a2b2bd4171a64d00dcdb4462afbcbc95a31eaa",
+      "counts": [
+        51,
+        45,
+        0
+      ],
+      "violation_types": {
+        "shorting_items": 23,
+        "hole_clearance": 5,
+        "tracks_crossing": 1,
+        "clearance": 2,
+        "solder_mask_bridge": 20
+      },
+      "report": "final_restore_R219_drc.json"
+    },
+    "C104": {
+      "pcb_sha256": "189fea80676c629d16385ce11b29625f7d6d93b827a8e8b88b5c8b7709f6e6cf",
+      "counts": [
+        19,
+        45,
+        0
+      ],
+      "violation_types": {
+        "shorting_items": 9,
+        "hole_clearance": 9,
+        "clearance": 1
+      },
+      "report": "final_restore_C104_drc.json"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "paths": {
+    "CAM_VSYNC": {
+      "U101.22__U202.5": {
+        "planar_centerline_mm": 40.78141649622609,
+        "via_nodes_traversed": 5,
+        "layer_changes": 5,
+        "layer_sequence": [
+          "F.Cu",
+          "B.Cu",
+          "In3.Cu",
+          "F.Cu",
+          "B.Cu",
+          "F.Cu"
+        ],
+        "via_uuids": [
+          "93d44a83-5ef9-4391-b5f6-d091d952d38b",
+          "90e81450-2bab-4282-b1d7-77910ac9c46e",
+          "2de832fa-7f74-4a4c-9613-977a6a4e8f09",
+          "1a15d480-225d-4a3a-9d24-f9daf6935718",
+          "8227a8c0-e9b5-4c86-81d6-38c23dc22d59"
+        ]
+      },
+      "U202.5__R219.1": {
+        "planar_centerline_mm": 40.97049835385773,
+        "via_nodes_traversed": 4,
+        "layer_changes": 4,
+        "layer_sequence": [
+          "F.Cu",
+          "B.Cu",
+          "F.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "8227a8c0-e9b5-4c86-81d6-38c23dc22d59",
+          "1a15d480-225d-4a3a-9d24-f9daf6935718",
+          "2de832fa-7f74-4a4c-9613-977a6a4e8f09",
+          "93472d3d-4116-4706-9c37-1fe35256b7a2"
+        ]
+      },
+      "U101.22__R219.1": {
+        "planar_centerline_mm": 38.90163511763807,
+        "via_nodes_traversed": 3,
+        "layer_changes": 3,
+        "layer_sequence": [
+          "F.Cu",
+          "B.Cu",
+          "In3.Cu",
+          "B.Cu"
+        ],
+        "via_uuids": [
+          "93d44a83-5ef9-4391-b5f6-d091d952d38b",
+          "90e81450-2bab-4282-b1d7-77910ac9c46e",
+          "93472d3d-4116-4706-9c37-1fe35256b7a2"
+        ]
+      }
+    }
+  },
+  "model": "Geometric centerline graph with exact same-layer intersections and in-plane short connectors from track centerline to connected via center. Through-board vertical lengths/delays are NOT included. Via nodes can be traversed on one layer; layer_changes reports actual graph changes separately. Bias paths are terminal-to-terminal geometry, not mislabeled pure open stub length. No timing matching claim."
+}

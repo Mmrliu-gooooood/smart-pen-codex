@@ -1,0 +1,172 @@
+{
+  "checks": {
+    "U101.43": true,
+    "U203.4": true,
+    "U203.13": true,
+    "U203.1": true,
+    "U203.16": true,
+    "U203.2": true,
+    "U203.3": true,
+    "U203.14": true,
+    "U203.15": true,
+    "R221.1": true,
+    "R221.2": true,
+    "R235.1": true,
+    "R107.1": true,
+    "R107.2": true,
+    "U101.48": true,
+    "U101.44": true,
+    "U101.45": true,
+    "U204.7": true,
+    "U204.6": true,
+    "U101_43_GPIO38": true,
+    "U203_actual_PW_part": true,
+    "R221_100k_Bmounted_inputbias": true,
+    "R107_100k_preserved": true
+  },
+  "source_pin_fields": {
+    "U101.43": {
+      "ref": "U101",
+      "pin": "43",
+      "pinfunction": "GPIO38",
+      "pintype": "bidirectional"
+    },
+    "U203.4": {
+      "ref": "U203",
+      "pin": "4",
+      "pinfunction": "1A1",
+      "pintype": "bidirectional"
+    },
+    "U203.13": {
+      "ref": "U203",
+      "pin": "13",
+      "pinfunction": "1B1",
+      "pintype": "bidirectional"
+    },
+    "U203.1": {
+      "ref": "U203",
+      "pin": "1",
+      "pinfunction": "VCCA",
+      "pintype": "power_in"
+    },
+    "U203.16": {
+      "ref": "U203",
+      "pin": "16",
+      "pinfunction": "VCCB",
+      "pintype": "power_in"
+    },
+    "U203.2": {
+      "ref": "U203",
+      "pin": "2",
+      "pinfunction": "1DIR",
+      "pintype": "input"
+    },
+    "U203.3": {
+      "ref": "U203",
+      "pin": "3",
+      "pinfunction": "2DIR",
+      "pintype": "input"
+    },
+    "U203.14": {
+      "ref": "U203",
+      "pin": "14",
+      "pinfunction": "2OE_N",
+      "pintype": "input"
+    },
+    "U203.15": {
+      "ref": "U203",
+      "pin": "15",
+      "pinfunction": "1OE_N",
+      "pintype": "input"
+    },
+    "R221.1": {
+      "ref": "R221",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R221.2": {
+      "ref": "R221",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    "R235.1": {
+      "ref": "R235",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R107.1": {
+      "ref": "R107",
+      "pin": "1",
+      "pinfunction": "1",
+      "pintype": "passive"
+    },
+    "R107.2": {
+      "ref": "R107",
+      "pin": "2",
+      "pinfunction": "2",
+      "pintype": "passive"
+    },
+    "U101.48": {
+      "ref": "U101",
+      "pin": "48",
+      "pinfunction": "GPIO42_MTMS",
+      "pintype": "bidirectional"
+    },
+    "U101.44": {
+      "ref": "U101",
+      "pin": "44",
+      "pinfunction": "GPIO39_MTCK",
+      "pintype": "bidirectional"
+    },
+    "U101.45": {
+      "ref": "U101",
+      "pin": "45",
+      "pinfunction": "GPIO40_MTDO",
+      "pintype": "bidirectional"
+    },
+    "U204.7": {
+      "ref": "U204",
+      "pin": "7",
+      "pinfunction": "SCLB",
+      "pintype": "bidirectional"
+    },
+    "U204.6": {
+      "ref": "U204",
+      "pin": "6",
+      "pinfunction": "SDAB",
+      "pintype": "bidirectional"
+    }
+  },
+  "roles": "U101 package43 GPIO38 intended peripheral push-pull clock output at VDD3P3_CPU/AON. U203 DIRhigh drives A input to B output when OE low; R221 physically B.Cu100k is A-input/MCU-output bias, not translator B-port output bias. SENS_EXTCLK U203.13/J202.18 is an inherited separately buffered net; R235 remains isolated.",
+  "primary_sources": [
+    {
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-pico-1_datasheet_en.pdf",
+      "version": "v1.2",
+      "claim": "PICO package pin43 GPIO38, VDD3P3_CPU; GPIO38/FSPIWP/SUBSPIWP mux. Not a bare-QFN footprint or default clock pin."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf",
+      "version": "SCES877B April2024",
+      "claim": "PW16 U203 pin4 1A1 to13 1B1 with DIRhigh and OElow; Ainput/Boutput, controls referencedVCCA; input circuits active in isolation. Loaded levels, edge/load/delay and actual sequence remain open."
+    },
+    {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/gpio.html",
+      "claim": "GPIO matrix output configuration and explicit ownership required; bootloader/application startup may alter documented default state."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/espressif/esp32-camera/master/target/esp32s3/ll_cam.c",
+      "claim": "S3-specific official camera driver overrides configurable XCLK using LCD_CAM. Generic target/xclk.c LEDC implementation alone is not evidence of selected S3 firmware behavior. Moving master is contextual, not firmware qualification or a20MHz recommendation."
+    }
+  ],
+  "open_gates": [
+    "Actual sensor voltage/frequency/duty/jitter/startup/reset contract unknown; no20MHz presumption",
+    "GPIO38 mux/FSPIWP/SUBSPIWP ownership, actual firmware clock source/divider/drive and bootloader state; generic LEDC code is not S3 LCD_CAM driver qualification",
+    "Actual loaded MCU VOH/VOL into U203 and translated output levels/duty/edge/pulse width over PVT/load",
+    "Clock input63.8878mm and true7.51348mm bias arm may ring; output47.94196mm is separate buffered line, not sum or direct PCLK matching",
+    "Preserved SCCB GPIO39/40 JTAG/open-drain/VOL and CAM_IO_EN GPIO42 boot/debug ownership remain open",
+    "Actual OE/power/reset sequence, PDN spreading change, installation/tenting process, NOFAB/NOPOWER/providerNULL"
+  ]
+}

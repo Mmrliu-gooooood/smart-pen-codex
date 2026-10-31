@@ -1,0 +1,34 @@
+{
+  "scope": "Fresh local checks from exact public deduplicated reconstruction; not hardware validation",
+  "reconstructed_files": 2435,
+  "source_map_sha256": "66f47a085674e110014067da36138e683bd9bcf9eeb2706f52ef7ef2f9b64625",
+  "native": {
+    "pcb_sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1",
+    "tool": "KiCad 9.0.2",
+    "violations": 0,
+    "unconnected": 37,
+    "parity": 0,
+    "manifest_native_contract_selected_candidate_source_roles": "PASS"
+  },
+  "software_adapter": {
+    "author_configurations": 12,
+    "independent_modes": 3,
+    "seeded_sequences_per_mode": 10000,
+    "checks_per_mode": 490005,
+    "result": "PASS"
+  },
+  "existing_host": {
+    "tests": 83,
+    "skips": 0,
+    "portable_core": "PASS",
+    "result": "PASS"
+  },
+  "qualification": "NOFAB / NOPOWER; no physical camera/radio/flash or timing qualification",
+  "saved_cad": {
+    "result": "PASS",
+    "actual_FCStd_and_STEP_contexts": 4,
+    "metadata_binding": "d855",
+    "method": "Independent saved-native reopen with exact prior shapes or two component translations; STEP residual below0.005mm3",
+    "public_reconstruction_replay": true
+  }
+}

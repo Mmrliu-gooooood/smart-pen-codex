@@ -1,0 +1,10 @@
+RUN normal test_adapter
+PASS invalidated-binding slice
+RUN normal test_failures
+FAIL line22: pa_init(&adapter,&capture,sink,fault,NULL,1)==PA_STATE
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/capture_actor_adapter_20261031_0600/run_tests.py", line 22, in <module>
+    subprocess.run([t+'/test'],check=True,env={**os.environ,'ASAN_OPTIONS':'detect_leaks=0'})
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/tmp/pen-adapter-host-ezxbrrzp/test']' returned non-zero exit status 1.

@@ -1,0 +1,22 @@
+{
+  "sources_reverified_unchanged": [
+    {
+      "path": "reconstruction_control_service_20261031_0510",
+      "manifest": "bec167d27945b9d4af03171fd7f0c457315ffc82333d178ececc6063f2f86614",
+      "verified_files": 192
+    },
+    {
+      "path": "reconstruction_control_service_final_mechanics_20261031_0524",
+      "manifest": "767f9b90fac6214d1dc45ed15f817281f616d27770f4468c8e42025ee05ceb58",
+      "verified_files": 28
+    },
+    {
+      "path": "reconstruction_saved_cad_d855_20261031_0317",
+      "manifest": "ff2bcd61da8522d983eb23e7874ab5ca34fdf029f09e0e45a7005a8481dbc880",
+      "verified_files": 28
+    }
+  ],
+  "normal_optimized_equal": true,
+  "author_outputs_equal": true,
+  "precision_correction": "Initial independent assumption that C202-near via edge gap was .325 failed correctly. Actual via gap .425; global finite-copper edge minimum .325 is a different B track near stepped x12 edge. Corrected explicit distinction, reran normal/O."
+}

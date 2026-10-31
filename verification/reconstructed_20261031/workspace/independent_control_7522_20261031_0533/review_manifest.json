@@ -1,0 +1,86 @@
+{
+  "scope": "NEW7522 nominal mechanics only NOFAB NOPOWER",
+  "files": {
+    "REVIEW.md": {
+      "sha256": "e14de88541f1c6e80894c1726ce86acb5aff34cbe680acb5a02bf0fe5bc3bb47",
+      "bytes": 4611
+    },
+    "screen.py": {
+      "sha256": "4d8705db168403f5f765cf8f1b4a207c8e392552eebb0b68b3e1eefd27d11e3d",
+      "bytes": 7923
+    },
+    "keepouts.py": {
+      "sha256": "7559cf72eb6edf35c97ef3aa4cc0c9dc4cc35ecd1735cec56670ff1187b900a5",
+      "bytes": 4088
+    },
+    "checks.py": {
+      "sha256": "ec40f8b32c81a9aebfd1b7376e74010a7edbe7cdf68681288a8c99e969b794ae",
+      "bytes": 2663
+    },
+    "margins.py": {
+      "sha256": "ff390f78d52309fbeb8b9376a0951b0529fb03524f67ddceeac840f8448309f4",
+      "bytes": 1438
+    },
+    "service.py": {
+      "sha256": "30b620a0285de11177daa2a3e65575fe5f0d16967c374500d19978f471398e6f",
+      "bytes": 3830
+    },
+    "refinement.py": {
+      "sha256": "233d07fd6d7db4774333c3bb0c86cd834b3a317789727703f559c0da3940cecb",
+      "bytes": 1748
+    },
+    "author_binding.py": {
+      "sha256": "5961b70cf758358ea9e182abe3db5dbf7d509cc2cfce87c96579f54c68dc2337",
+      "bytes": 1277
+    },
+    "independent_check.py": {
+      "sha256": "59ef8299767c6919b3c3133740fb29e3861784cdd0872b4df4a8d6c8ab0b2e48",
+      "bytes": 4438
+    },
+    "proposed_full104.json": {
+      "sha256": "482b80341d019ee5185b85e6b7d80cdd313a06a5336d3fe5f56b3c5d8123996c",
+      "bytes": 75359
+    },
+    "results.json": {
+      "sha256": "3d12c584a2060922b519158e8099b2c1bed59c57d180d7ad139e0ba75635fc47",
+      "bytes": 216890
+    },
+    "keepout_results.json": {
+      "sha256": "9d15fbb22034f223bdf52a032cfbb63d2c3458939698a2e964017b58935f07a9",
+      "bytes": 7603
+    },
+    "checks_results.json": {
+      "sha256": "80afbfc3c17c892aee16e1f97593e6bc1d9ae0b8bd46993ac7f490c863e4cec9",
+      "bytes": 811
+    },
+    "finite_disjoint_margins.json": {
+      "sha256": "043b6301755be65775ee1f24bd7a12ca16bf75e0dbfa3a22c5071d6d9bd990a6",
+      "bytes": 891
+    },
+    "service_results.json": {
+      "sha256": "978963c3c3afa026159594c2b4cf901fa6cf8bf863b83e0607d6e2e0a42a3067",
+      "bytes": 1749
+    },
+    "refinement_results.json": {
+      "sha256": "64868c0a91b5045e6a0ca511964108329915df71390f06b4d8f5c6a861475630",
+      "bytes": 984
+    },
+    "author_binding.json": {
+      "sha256": "cc48fd52edade3f6fee594fbb46fe92d1590738de659a38cbfcfc6b3cc6e4971",
+      "bytes": 573
+    },
+    "independent_check.json": {
+      "sha256": "6203784694e02e5c592b43cec84f9d51261e04e21350f005e19043fd07b6377c",
+      "bytes": 2160
+    },
+    "binding.json": {
+      "sha256": "52e67e0687560eaf740e05a24e65465104a0e22d05ba642ff28a6109e3f85914",
+      "bytes": 958
+    },
+    "native_derived_delta.json": {
+      "sha256": "aa1511ab39efbd83e0647cddfe3a1b160aad1576426c0fbd2b6ab6abbdc63bf9",
+      "bytes": 21289
+    }
+  },
+  "replay_dependencies": "Exact selected_native, refinement diagnostic and readonly parent native/masks/CAD required from hashbound sources; redundant native copies excluded."
+}

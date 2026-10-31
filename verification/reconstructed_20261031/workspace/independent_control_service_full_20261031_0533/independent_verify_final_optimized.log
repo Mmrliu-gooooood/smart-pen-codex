@@ -1,0 +1,81 @@
+14:33:37: Debug: Adding duplicate image handler for 'PNG file'
+14:33:37: Debug: Adding duplicate image handler for 'JPEG file'
+14:33:37: Debug: Adding duplicate image handler for 'TIFF file'
+14:33:37: Debug: Adding duplicate image handler for 'GIF file'
+14:33:37: Debug: Adding duplicate image handler for 'PNM file'
+14:33:37: Debug: Adding duplicate image handler for 'PCX file'
+14:33:37: Debug: Adding duplicate image handler for 'IFF file'
+14:33:37: Debug: Adding duplicate image handler for 'Windows icon file'
+14:33:37: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:33:37: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:33:37: Debug: Adding duplicate image handler for 'TGA file'
+14:33:37: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "checks": 311,
+  "metrics": {
+    "CAM_RESET_UART_TX": {
+      "new_tracks": 227,
+      "new_vias": 2,
+      "new_centerline_mm": 62.63321119784558,
+      "by_layer_mm": {
+        "F.Cu": 1.1970153254455276,
+        "B.Cu": 52.9095454429505,
+        "In2.Cu": 8.526650429449553
+      },
+      "shorter_than_005mm": 149,
+      "shorter_than_01mm": 190,
+      "min_segment_mm": 0.025,
+      "via_coordinates_mm": [
+        [
+          11.6,
+          47.0
+        ],
+        [
+          6.35,
+          5.4
+        ]
+      ]
+    },
+    "CAM_PWDN_UART_RX": {
+      "new_tracks": 249,
+      "new_vias": 5,
+      "new_centerline_mm": 69.3545284476288,
+      "by_layer_mm": {
+        "F.Cu": 3.2649335115038127,
+        "B.Cu": 35.38482221464974,
+        "In2.Cu": 10.47842712474619,
+        "In3.Cu": 20.226345596729058
+      },
+      "shorter_than_005mm": 150,
+      "shorter_than_01mm": 197,
+      "min_segment_mm": 0.025,
+      "via_coordinates_mm": [
+        [
+          13.35,
+          37.025
+        ],
+        [
+          11.9,
+          55.5
+        ],
+        [
+          12.55,
+          17.275
+        ],
+        [
+          11.125,
+          46.625
+        ],
+        [
+          5.55,
+          5.4
+        ]
+      ]
+    }
+  },
+  "cores": {
+    "GND": 94,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  }
+}

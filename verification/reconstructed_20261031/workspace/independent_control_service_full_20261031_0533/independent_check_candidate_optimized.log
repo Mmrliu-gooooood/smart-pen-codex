@@ -1,0 +1,83 @@
+14:33:39: Debug: Adding duplicate image handler for 'PNG file'
+14:33:39: Debug: Adding duplicate image handler for 'JPEG file'
+14:33:39: Debug: Adding duplicate image handler for 'TIFF file'
+14:33:39: Debug: Adding duplicate image handler for 'GIF file'
+14:33:39: Debug: Adding duplicate image handler for 'PNM file'
+14:33:39: Debug: Adding duplicate image handler for 'PCX file'
+14:33:39: Debug: Adding duplicate image handler for 'IFF file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows icon file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:33:39: Debug: Adding duplicate image handler for 'TGA file'
+14:33:39: Debug: Adding duplicate image handler for 'XPM file'
+14:33:39: Debug: Adding duplicate image handler for 'PNG file'
+14:33:39: Debug: Adding duplicate image handler for 'JPEG file'
+14:33:39: Debug: Adding duplicate image handler for 'TIFF file'
+14:33:39: Debug: Adding duplicate image handler for 'GIF file'
+14:33:39: Debug: Adding duplicate image handler for 'PNM file'
+14:33:39: Debug: Adding duplicate image handler for 'PCX file'
+14:33:39: Debug: Adding duplicate image handler for 'IFF file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows icon file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows cursor file'
+14:33:39: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+14:33:39: Debug: Adding duplicate image handler for 'TGA file'
+14:33:39: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "sha256": "7522ff428329ffdac9a5ea5222c4c2b6e29e60d67fc4b31977396abac7c279d1",
+  "added_tracks": 476,
+  "added_vias": 7,
+  "removed": [],
+  "finite_errors": [],
+  "partition_errors": [],
+  "changes": {
+    "CAM_RESET_UART_TX": {
+      "old": [
+        [
+          "J104.1"
+        ],
+        [
+          "R222.1",
+          "U203.5"
+        ],
+        [
+          "U101.49"
+        ]
+      ],
+      "new": [
+        [
+          "J104.1",
+          "R222.1",
+          "U101.49",
+          "U203.5"
+        ]
+      ]
+    },
+    "CAM_PWDN_UART_RX": {
+      "old": [
+        [
+          "J104.2"
+        ],
+        [
+          "R223.1",
+          "U203.6"
+        ],
+        [
+          "U101.50"
+        ]
+      ],
+      "new": [
+        [
+          "J104.2",
+          "R223.1",
+          "U101.50",
+          "U203.6"
+        ]
+      ]
+    }
+  },
+  "cores": {
+    "GND": 94,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  }
+}

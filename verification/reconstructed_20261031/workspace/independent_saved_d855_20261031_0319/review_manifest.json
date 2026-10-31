@@ -1,0 +1,62 @@
+{
+  "scope": "NEW saved d855 nominal integration only NOFAB NOPOWER",
+  "files": {
+    "REVIEW.md": {
+      "sha256": "791b23ee9415db9ec456b61fdb7abb559518690e9463cd4ed1ce356cbca450d1",
+      "bytes": 4012
+    },
+    "native_pose_check.py": {
+      "sha256": "0d846f4c9145cc44f4fec2e377cb4b1c8628b58d293173679fbce5be64bdcc97",
+      "bytes": 911
+    },
+    "build.py": {
+      "sha256": "46619e4c26b25a434b210aed4dfee66ab1aa4c0ce2441a0b4e76f962a40b45b7",
+      "bytes": 6452
+    },
+    "check_saved.py": {
+      "sha256": "acdd0bdd22ab651e61c96c18d8e3478e616088d8547cf0bd0078ce38c169a058",
+      "bytes": 3236
+    },
+    "audit_saved.py": {
+      "sha256": "3fc3f8d33b455849d6fee1ac5ca5530410c092363a56840a23cb5bfd195a389a",
+      "bytes": 2382
+    },
+    "independent_reopen.py": {
+      "sha256": "14ea78087d80b2a0cd802b85d46820b41041b7261e2e897ae6235a7351df4ad3",
+      "bytes": 3338
+    },
+    "native_pose_evidence.json": {
+      "sha256": "1470821ef449c9e9fce47267b26b388b42ea2a3061bcd1cdf46d3b3f8a8e75e2",
+      "bytes": 15193
+    },
+    "saved_identity_audit.json": {
+      "sha256": "d46830bb0295d0d85a3fb8538b522b31ba3cd6362261e59fb58fb3d12562a329",
+      "bytes": 2413
+    },
+    "saved_contact_results.json": {
+      "sha256": "cb049e7d32cbbb12551d4874c6e4278f264dce1067384eae3f5809237ecc9bfc",
+      "bytes": 6502
+    },
+    "independent_reopen.json": {
+      "sha256": "b519bda08841ee59860fd5a8426c380b656450e9d6fab2a33d719e30f84e8cf9",
+      "bytes": 53044
+    },
+    "binding_before.json": {
+      "sha256": "1f26959a95be2d62f20042a63b8e873e83e5215f947faf801ac52ab6f47f3076",
+      "bytes": 380
+    },
+    "final_verification.json": {
+      "sha256": "2499d81350141ab83eb77ee5868a59fc217de24ab0dfdbd0fc32cb2b7f06dd57",
+      "bytes": 342
+    },
+    "replay_normal/results.json": {
+      "sha256": "06243a1b8167bd5908548485b3fb8b5e95fba4261a972d1b065b6f6d6000af46",
+      "bytes": 11394
+    },
+    "replay_optimized/results.json": {
+      "sha256": "06243a1b8167bd5908548485b3fb8b5e95fba4261a972d1b065b6f6d6000af46",
+      "bytes": 11394
+    }
+  },
+  "replay_dependency": "Candidate FCStd/STEP from frozen delivered manifest and accepted f27 source/dependencies intentionally not redundantly copied into evidence allowlist."
+}

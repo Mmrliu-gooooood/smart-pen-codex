@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "CAM_SCL": true,
+    "R240_pullup": true,
+    "CAM_SDA": true,
+    "R241_pullup": true,
+    "U204.8": true,
+    "U204.1": true,
+    "U204.5": true
+  },
+  "netlist_sha256": "d5a25885fdcfa5d8511318660d7c42157b2870cb1a1f3181689c1be958bb1056",
+  "values": {
+    "U101": "ESP32-S3-PICO-1-N8R8",
+    "U204": "TCA9517DGKR",
+    "R240": "10k 1% INITIAL_100kHz",
+    "R241": "10k 1% INITIAL_100kHz"
+  },
+  "pins": {
+    "U101.44": {
+      "net": "CAM_SCL",
+      "function": "GPIO39_MTCK"
+    },
+    "U101.45": {
+      "net": "CAM_SDA",
+      "function": "GPIO40_MTDO"
+    },
+    "U204.7": {
+      "net": "CAM_SCL",
+      "function": "SCLB"
+    },
+    "U204.6": {
+      "net": "CAM_SDA",
+      "function": "SDAB"
+    },
+    "U204.8": {
+      "net": "3V3_AON",
+      "function": "VCCB"
+    },
+    "U204.1": {
+      "net": "SENS_VIO_1V8",
+      "function": "VCCA"
+    },
+    "U204.5": {
+      "net": "SCCB_EN_SAFE",
+      "function": "EN"
+    }
+  },
+  "scope": "Static original roles only; actual open-drain GPIO/JTAG startup ownership, loaded VOL<0.4V and RC/edge/power/EN behavior remain open."
+}

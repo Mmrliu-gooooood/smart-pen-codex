@@ -1,0 +1,387 @@
+{
+  "status": "JOINT_SOURCE_SINK_RESTORE_PREFILTER_ONLY",
+  "poses": {
+    "R230": [
+      11.1,
+      34.25,
+      90,
+      "F.Cu"
+    ],
+    "R219": [
+      6.2,
+      39.5,
+      0,
+      "B.Cu"
+    ]
+  },
+  "removed": [
+    "10fcce4e-c0a6-5748-a104-27c8c727bbcf",
+    "357b6b72-697e-5d26-a707-10cad6f88c47",
+    "39c7d991-8635-4232-90dd-155b6366eb15",
+    "47b32f57-9185-4b15-9749-eae864f977ff",
+    "4921e48e-371f-56e2-b8e1-c1069f3d9464",
+    "5636ceaa-f47e-5261-9b2a-4cf292d02e07",
+    "56c97945-11ae-5d0d-b256-22fda33eb036",
+    "d52a9418-6d55-5883-abac-3d51ba89aa70",
+    "ded15938-d663-57af-8c07-b93932e056f8"
+  ],
+  "new": [
+    {
+      "uuid": "15aa28cd-cb80-4cf7-811b-419d8b56061d",
+      "net": "CAM_PCLK",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.8,
+        13.425
+      ],
+      "b": [
+        5.9375,
+        14.25
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "0435326d-5d5e-4152-ae50-9be486970fb2",
+      "net": "CAM_PCLK",
+      "type": "via",
+      "xy": [
+        5.9375,
+        14.25
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "47d06b6e-7b8c-4ebd-ac7a-919b35cd8c37",
+      "net": "CAM_VSYNC",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.2,
+        13.425
+      ],
+      "b": [
+        6.2,
+        13.85
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "fa2f468f-d99e-4742-ad79-76fa67f28cab",
+      "net": "CAM_VSYNC",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.2,
+        13.85
+      ],
+      "b": [
+        6.4,
+        14.1
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "b44ed9ec-e54e-4dbd-96b7-fbea7c647389",
+      "net": "CAM_VSYNC",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.4,
+        14.1
+      ],
+      "b": [
+        6.4,
+        14.8
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "56265500-34e5-4b3a-96f5-4adbd8d925ea",
+      "net": "CAM_VSYNC",
+      "type": "via",
+      "xy": [
+        6.4,
+        14.8
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "af7dc408-03e8-419b-bd3d-fe9ab6c03521",
+      "net": "CAM_HREF",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.6,
+        13.425
+      ],
+      "b": [
+        6.6,
+        13.85
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "14e89b7e-4798-4a75-8e56-148b99f676ea",
+      "net": "CAM_HREF",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.6,
+        13.85
+      ],
+      "b": [
+        6.8625,
+        14.25
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "41d26146-902b-422b-9f63-a73044b7d565",
+      "net": "CAM_HREF",
+      "type": "via",
+      "xy": [
+        6.8625,
+        14.25
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "0bb3e431-c2f2-452e-a1d4-d48052a68bdb",
+      "net": "CAM_PCLK",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.325,
+        43.1375
+      ],
+      "b": [
+        6.325,
+        42.1
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "300f3419-41d2-4656-b970-7d0aa4de2f90",
+      "net": "CAM_PCLK",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.325,
+        42.1
+      ],
+      "b": [
+        8.1,
+        41.975
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "b6120b2e-fa89-4a49-b723-d28fd375c7a7",
+      "net": "CAM_PCLK",
+      "type": "via",
+      "xy": [
+        8.1,
+        41.975
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "b20fdf2b-75ee-4fa1-a5a8-b46df37ee545",
+      "net": "CAM_VSYNC",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.675,
+        43.1375
+      ],
+      "b": [
+        5.675,
+        41.65
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "5ad7e118-c3ef-4024-8fe5-371514505fa7",
+      "net": "CAM_VSYNC",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.675,
+        41.65
+      ],
+      "b": [
+        6.15,
+        41.5
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "e275f82e-8872-4ffb-805c-73eebaf1f6d9",
+      "net": "CAM_VSYNC",
+      "type": "via",
+      "xy": [
+        6.15,
+        41.5
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "7789ff4d-16ed-4339-b6f5-e172ad30f6a4",
+      "net": "CAM_HREF",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.025,
+        43.1375
+      ],
+      "b": [
+        5.025,
+        42.1
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "4882294a-5a08-4ad8-aba2-fb47a5e5a47c",
+      "net": "CAM_HREF",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.025,
+        42.1
+      ],
+      "b": [
+        2.8,
+        42.1
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "4db5fa38-47d1-417d-98c6-34160ad78b3d",
+      "net": "CAM_HREF",
+      "type": "via",
+      "xy": [
+        2.8,
+        42.1
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "601c424e-8909-4f39-ab2d-f7da687f3e44",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        6.775,
+        15.8
+      ],
+      "b": [
+        7.85,
+        15.2
+      ],
+      "width": 0.15
+    },
+    {
+      "uuid": "3e5bfebf-202b-4413-8fb7-981a30769f8f",
+      "net": "GND",
+      "type": "via",
+      "xy": [
+        7.85,
+        15.2
+      ],
+      "diameter": 0.6,
+      "drill": 0.3
+    },
+    {
+      "uuid": "3d17e6d9-846a-4a3f-952e-cb80369be864",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.325,
+        40.9
+      ],
+      "b": [
+        5.95,
+        40.55
+      ],
+      "width": 0.3
+    },
+    {
+      "uuid": "a01ac390-a0a7-4e4e-a1c0-fbfd8da701f4",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        5.95,
+        40.55
+      ],
+      "b": [
+        6.8,
+        40.725
+      ],
+      "width": 0.3
+    },
+    {
+      "uuid": "b36a1e0c-c836-4c55-8586-039686c2beeb",
+      "net": "GND",
+      "type": "via",
+      "xy": [
+        6.8,
+        40.725
+      ],
+      "diameter": 0.6,
+      "drill": 0.3
+    },
+    {
+      "uuid": "037571e0-6127-40b6-b417-9eefb2dc31fb",
+      "net": "GND",
+      "type": "track",
+      "layer": "F.Cu",
+      "a": [
+        11.1,
+        33.425
+      ],
+      "b": [
+        11.1,
+        32.325
+      ],
+      "width": 0.3
+    },
+    {
+      "uuid": "74ea5a95-f920-42ac-8f11-46f056a91d64",
+      "net": "GND",
+      "type": "via",
+      "xy": [
+        11.1,
+        32.325
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    },
+    {
+      "uuid": "7c462113-7995-4ab6-89d1-a7f31190d222",
+      "net": "GND",
+      "type": "track",
+      "layer": "B.Cu",
+      "a": [
+        7.025,
+        39.5
+      ],
+      "b": [
+        6.8,
+        40.725
+      ],
+      "width": 0.3
+    }
+  ],
+  "pad_errors": [],
+  "finite_errors": [],
+  "scope": "six receive terminal fanouts; all three bias signals and MCU trunks still require routing. Original R230 SENS_D6 and R231 SENS_D7 bias signal leaves remain isolated. No native materialized."
+}

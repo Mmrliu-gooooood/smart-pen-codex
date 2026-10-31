@@ -1,0 +1,156 @@
+{
+  "sha256": "6882360bd2e0ace9957ef9382d0ba5c5b1f9c9cd04501f9710f9f87456ce7e08",
+  "nets": {
+    "CAM_XCLK": {
+      "before_all": {
+        "tracks": 0,
+        "vias": 0,
+        "length_mm": 0,
+        "layers_mm": {}
+      },
+      "after_all": {
+        "tracks": 207,
+        "vias": 6,
+        "length_mm": 71.41156678736286,
+        "layers_mm": {
+          "F.Cu": 19.25275727570043,
+          "B.Cu": 9.553858223313767,
+          "In2.Cu": 9.200609665440988,
+          "In3.Cu": 33.40434162290767
+        }
+      },
+      "removed": {
+        "tracks": 0,
+        "vias": 0,
+        "length_mm": 0,
+        "layers_mm": {}
+      },
+      "added": {
+        "tracks": 207,
+        "vias": 6,
+        "length_mm": 71.41156678736286,
+        "layers_mm": {
+          "F.Cu": 19.25275727570043,
+          "B.Cu": 9.553858223313767,
+          "In2.Cu": 9.200609665440988,
+          "In3.Cu": 33.40434162290767
+        }
+      }
+    },
+    "CAM_SCL": {
+      "before_all": {
+        "tracks": 52,
+        "vias": 3,
+        "length_mm": 73.61754709528587,
+        "layers_mm": {
+          "F.Cu": 17.36664947247669,
+          "B.Cu": 29.0678351733355,
+          "In3.Cu": 27.183062449473685
+        }
+      },
+      "after_all": {
+        "tracks": 51,
+        "vias": 3,
+        "length_mm": 74.39208777778819,
+        "layers_mm": {
+          "F.Cu": 18.141190154979014,
+          "B.Cu": 29.0678351733355,
+          "In3.Cu": 27.183062449473685
+        }
+      },
+      "removed": {
+        "tracks": 8,
+        "vias": 0,
+        "length_mm": 9.700077679969656,
+        "layers_mm": {
+          "F.Cu": 9.700077679969656
+        }
+      },
+      "added": {
+        "tracks": 7,
+        "vias": 0,
+        "length_mm": 10.474618362471979,
+        "layers_mm": {
+          "F.Cu": 10.474618362471979
+        }
+      }
+    },
+    "CAM_SDA": {
+      "before_all": {
+        "tracks": 115,
+        "vias": 4,
+        "length_mm": 89.71055163186799,
+        "layers_mm": {
+          "F.Cu": 16.768064474789398,
+          "B.Cu": 30.007716446627537,
+          "In3.Cu": 42.93477071045105
+        }
+      },
+      "after_all": {
+        "tracks": 117,
+        "vias": 4,
+        "length_mm": 90.4228749642409,
+        "layers_mm": {
+          "F.Cu": 17.480387807162312,
+          "B.Cu": 30.007716446627537,
+          "In3.Cu": 42.93477071045105
+        }
+      },
+      "removed": {
+        "tracks": 41,
+        "vias": 0,
+        "length_mm": 10.475970659792736,
+        "layers_mm": {
+          "F.Cu": 10.475970659792736
+        }
+      },
+      "added": {
+        "tracks": 43,
+        "vias": 0,
+        "length_mm": 11.188293992165654,
+        "layers_mm": {
+          "F.Cu": 11.188293992165654
+        }
+      }
+    },
+    "CAM_IO_EN": {
+      "before_all": {
+        "tracks": 76,
+        "vias": 4,
+        "length_mm": 83.26808750560667,
+        "layers_mm": {
+          "F.Cu": 7.245301976438533,
+          "B.Cu": 74.84884984098075,
+          "In3.Cu": 1.1739356881873897
+        }
+      },
+      "after_all": {
+        "tracks": 51,
+        "vias": 3,
+        "length_mm": 82.58447726001013,
+        "layers_mm": {
+          "F.Cu": 3.5874177120997808,
+          "B.Cu": 78.99705954791035
+        }
+      },
+      "removed": {
+        "tracks": 27,
+        "vias": 1,
+        "length_mm": 4.831819952526142,
+        "layers_mm": {
+          "F.Cu": 3.6578842643387524,
+          "In3.Cu": 1.1739356881873897
+        }
+      },
+      "added": {
+        "tracks": 2,
+        "vias": 0,
+        "length_mm": 4.1482097069296024,
+        "layers_mm": {
+          "B.Cu": 4.1482097069296024
+        }
+      }
+    }
+  },
+  "scope": "Conductor inventory lengths, not shortest terminal paths or timing. Changed SCCB lengths/load/RC and IO_EN mux/startup gates remain. Clock centerline and true bias arm separately independently measured."
+}

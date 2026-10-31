@@ -1,0 +1,180 @@
+{
+  "nominal_new_full_envelope_screen_pass": true,
+  "fullbody_R213_retained_projection_not_zero": true,
+  "original_C104_GND_via_and_lead_exact_UUID_geometry": [
+    {
+      "uuid": "47b32f57-9185-4b15-9749-eae864f977ff",
+      "identity": [
+        "PCB_TRACK",
+        "GND",
+        "F.Cu",
+        6775000,
+        15800000,
+        6775000,
+        14800000,
+        150000,
+        null
+      ]
+    },
+    {
+      "uuid": "39c7d991-8635-4232-90dd-155b6366eb15",
+      "identity": [
+        "PCB_VIA",
+        "GND",
+        "F.Cu",
+        6775000,
+        14800000,
+        6775000,
+        14800000,
+        600000,
+        300000
+      ]
+    }
+  ],
+  "ordinary_via_court_projections": [
+    {
+      "uuid": "256a20ac-4abf-40f9-a972-853fa05e321d",
+      "net": "CAM_D3",
+      "a": [
+        7.8,
+        17.35
+      ],
+      "ref": "R503",
+      "side": "B.Cu",
+      "area_mm2": 0.026323625338,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "2f5861bb-04cc-40dd-874b-141706d0215f",
+      "net": "CAM_D6",
+      "a": [
+        4.4125,
+        15.0
+      ],
+      "ref": "C104",
+      "side": "F.Cu",
+      "area_mm2": 0.0074295179095,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "386cd035-31b2-4b00-95ca-bfc11e9f8d33",
+      "net": "CAM_D1",
+      "a": [
+        0.95,
+        20.85
+      ],
+      "ref": "R101",
+      "side": "F.Cu",
+      "area_mm2": 0.026323625338,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "3a00e356-e990-47fa-9835-94b4cb052148",
+      "net": "CAM_D7",
+      "a": [
+        3.875,
+        29.975
+      ],
+      "ref": "U201",
+      "side": "F.Cu",
+      "area_mm2": 0.008281920503,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "433ac669-2291-4364-af5b-68742a1ac97d",
+      "net": "CAM_D0",
+      "a": [
+        7.1,
+        23.15
+      ],
+      "ref": "R108",
+      "side": "F.Cu",
+      "area_mm2": 0.026323625338,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "79e12629-0eea-4c9c-aa0f-0e714491aab0",
+      "net": "CAM_D2",
+      "a": [
+        4.575,
+        25.125
+      ],
+      "ref": "R211",
+      "side": "F.Cu",
+      "area_mm2": 0.017429336225,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "81420abd-5dff-44ee-9613-41de1418be95",
+      "net": "3V3_AON",
+      "a": [
+        6.45,
+        17.0
+      ],
+      "ref": "R503",
+      "side": "B.Cu",
+      "area_mm2": 0.046416331812,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "b901aec2-0330-4e0b-9621-88d13fc3a74e",
+      "net": "CAM_D0",
+      "a": [
+        9.0,
+        27.15
+      ],
+      "ref": "R210",
+      "side": "F.Cu",
+      "area_mm2": 0.0106729744035,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "b901aec2-0330-4e0b-9621-88d13fc3a74e",
+      "net": "CAM_D0",
+      "a": [
+        9.0,
+        27.15
+      ],
+      "ref": "R216",
+      "side": "F.Cu",
+      "area_mm2": 0.0106729744035,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    },
+    {
+      "uuid": "ec983dfa-872a-4494-97ec-5a8e52d56a8d",
+      "net": "3V3_AON",
+      "a": [
+        3.1,
+        21.0
+      ],
+      "ref": "R101",
+      "side": "F.Cu",
+      "area_mm2": 0.004035077103,
+      "actual_pad_ended": [],
+      "classification": "COURTYARD_PROJECTION_ONLY_NOT_A_BODY_WAIVER"
+    }
+  ],
+  "new_operational_native_courtyard_hits": [],
+  "six_missing_operation_gates_still_open": [
+    "C106",
+    "C107",
+    "J104",
+    "J108",
+    "JP201",
+    "JP202"
+  ],
+  "four_context_same_two_pose_evidence_verified": true,
+  "no_new_reserved_receive_SCCB_stubs": true,
+  "electrical_reference_process_review_separate": true,
+  "NOFAB": true,
+  "NO_POWER": true
+}

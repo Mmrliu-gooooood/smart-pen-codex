@@ -1,0 +1,22 @@
+{
+  "normal_or_optimized": "normal",
+  "sha256": "c698310e125eb335dda4336a354a6e19b747d89fa513ca8afe8e94023bef0855",
+  "reversible_raw_native_replay_exact_both_directions": true,
+  "MCU_SCCB_terminal_cut_negatives": [
+    {
+      "net": "CAM_SCL",
+      "cut_uuid": "45d26c99-c28e-4dc9-8e4c-50fa3c836262",
+      "components": [
+        [
+          "R240.1",
+          "U204.7"
+        ],
+        [
+          "U101.44"
+        ]
+      ],
+      "detected": true
+    }
+  ],
+  "negative_scope": "In-memory physical finite-copper cuts without saving or modifying final native; each actual MCU pad isolation detected. Not a dynamic signal test."
+}

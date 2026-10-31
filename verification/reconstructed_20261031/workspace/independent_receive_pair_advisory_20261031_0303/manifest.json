@@ -1,0 +1,165 @@
+{
+  "scope": "Read-only advisory, not full acceptance; snapshots a771 and selected d855 vs c698. Counterfactual deleted circuits not candidates.",
+  "files": {
+    "ADVISORY.md": {
+      "sha256": "43fdebe9c41bf2c0b7c333b24327fdffa4747c0f0234ae30e7ee280a410b08a9",
+      "bytes": 7775
+    },
+    "a771_evidence/cf_C104_GND.json": {
+      "sha256": "0bd0de3b92b88d80fbe4ea5c85276a5d6c762cf547a823c01033b0fe44a3a90f",
+      "bytes": 1581
+    },
+    "a771_evidence/cf_HREF_SOURCE.json": {
+      "sha256": "51c7b2bcb0552ceaa08e691ece9c1b5e72a5c91e3377859ab86fc05733e82978",
+      "bytes": 1590
+    },
+    "a771_evidence/cf_IN2_TRACKS.json": {
+      "sha256": "455e012304095a57c99e201306f4e4c9dc08c6d567397657032362c04db1a47e",
+      "bytes": 2551
+    },
+    "a771_evidence/cf_NONE.json": {
+      "sha256": "b24178aa62fd92ede4b19bba56bd78fb624c019b82601b01293664b2e03c7f8f",
+      "bytes": 1525
+    },
+    "a771_evidence/cf_PCLK_SOURCE.json": {
+      "sha256": "9048063b8e2b3dada3473dcca8487ca0642324fade9c1b1cef00dd60b307d0cd",
+      "bytes": 1595
+    },
+    "a771_evidence/feed_paths.json": {
+      "sha256": "1b45b09103902f981d8b038e3362c33911c84de2c781972ef872a7d5fdab7e5f",
+      "bytes": 14633
+    },
+    "a771_evidence/newpaths_final.json": {
+      "sha256": "ddb28bc43ff74c1bcbf6274670cce3ca78118474ba17ac9d5539efa0144bbdbe",
+      "bytes": 13069
+    },
+    "a771_evidence/pdn_advisory.json": {
+      "sha256": "51441a78528e14a76ecefd103cab3eaa04ad40ad0d246d672b4d2c18407fe1a4",
+      "bytes": 25838
+    },
+    "a771_evidence/plane_islands_final.json": {
+      "sha256": "45ce1c6927424b2be2fa88074ff1ee400a884a8b0207d64f22dec7088390832d",
+      "bytes": 7178
+    },
+    "a771_evidence/reference_checkpoint.json": {
+      "sha256": "37a938f0cc9b289ec29b795cc748a29eb438aa7c1da04bbcdc1a33ee05e40bd0",
+      "bytes": 5868
+    },
+    "binding.json": {
+      "sha256": "daefacf7d465431c423fa4bb7011998132ac2ea1d8c72ccfcad12c2a2299538f",
+      "bytes": 3837
+    },
+    "binding.py": {
+      "sha256": "9b8b52642cdbbbdc7f1be252073d8d0e3010b5bd16daf4fd837fd98f45e8a7be",
+      "bytes": 2263
+    },
+    "cf_C104_GND.json": {
+      "sha256": "8fdce2136699dbe359c030e14feb4cc82d920af9ccb825034c853c4f21d1f7b9",
+      "bytes": 1135
+    },
+    "cf_HREF_SOURCE.json": {
+      "sha256": "6de731d2fe90ded8f52e1c0240427a3045bb9a821deaa20a52e23ff5c13b4210",
+      "bytes": 1132
+    },
+    "cf_IN2_TRACKS.json": {
+      "sha256": "e0b58ef592dc3dd82282be9bc22910c837b3f5c2ba21fa36ace28b1f8fe12052",
+      "bytes": 2105
+    },
+    "cf_NONE.json": {
+      "sha256": "73a06550f904d0a34f1615cddd13a13ba2e648dd82799cd259e83d8b3b1cc6fb",
+      "bytes": 1079
+    },
+    "cf_PCLK_SOURCE.json": {
+      "sha256": "dfe3f924bc75c7c74c2e5e0708f0d50954908530d23697f9b9202213dd50f991",
+      "bytes": 1132
+    },
+    "counterfactual.py": {
+      "sha256": "5bd12d83a015a60c63a33df0ce71471cdf1c1385cede8212b3d013c7383e165d",
+      "bytes": 1601
+    },
+    "feed_paths.json": {
+      "sha256": "1b45b09103902f981d8b038e3362c33911c84de2c781972ef872a7d5fdab7e5f",
+      "bytes": 14633
+    },
+    "feed_paths.py": {
+      "sha256": "824ac90f290b1d7458e0a5fbb56c4d74af888d18db444b8e17e3ecb584dc44ce",
+      "bytes": 1649
+    },
+    "final_candidate/mainboard_revD.kicad_pcb": {
+      "sha256": "a7713a113d76041201bf9cd3a9e76d6b32b8f026ad2cd383f5a37de70821749e",
+      "bytes": 1234445
+    },
+    "final_candidate/mainboard_revD.kicad_pro": {
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "bytes": 10154
+    },
+    "native/mainboard_revD.kicad_pcb": {
+      "sha256": "c698310e125eb335dda4336a354a6e19b747d89fa513ca8afe8e94023bef0855",
+      "bytes": 1176255
+    },
+    "native/mainboard_revD.kicad_pro": {
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "bytes": 10154
+    },
+    "newpaths_final.json": {
+      "sha256": "916c183a977fe712f227ea809bed3e90f89364b588eb18aec9b5bc757da77280",
+      "bytes": 13063
+    },
+    "newpaths_final.py": {
+      "sha256": "0d4b5f789114410c9e84a78e4a90c456048dac35101cb3b1f95f779125febb57",
+      "bytes": 1512
+    },
+    "pdn_advisory.json": {
+      "sha256": "941160d292e23ec5fa61f6753b3ac986b6a7655c123eb8482c4c57ec20b88a2e",
+      "bytes": 21651
+    },
+    "pdn_advisory.py": {
+      "sha256": "a380f6a61d0a6c21edbb2dfc4281de2a23b93ff9012bfe6e83d18c181a830c91",
+      "bytes": 2057
+    },
+    "plane_islands_final.json": {
+      "sha256": "43be51f8d975ac599d8c516901877bdac5e145ce1767afc65bc7a4410ad02370",
+      "bytes": 7177
+    },
+    "plane_islands_final.py": {
+      "sha256": "c310b906d2fd1759415b25cd75ff22cc26847613c09763fd6a6bec04a2453177",
+      "bytes": 876
+    },
+    "reference_check.py": {
+      "sha256": "57d63c5c33c7a4848f6f468f2b160366af38ffc2f44d04cc3aa96006b72e3952",
+      "bytes": 3028
+    },
+    "reference_checkpoint.json": {
+      "sha256": "b0e019b501bcdd0c2531c74d9621703634a7ff850cdd4ca45af6694428691f28",
+      "bytes": 5261
+    },
+    "reference_final.py": {
+      "sha256": "8497a28423d22e7f42fdff58dd7a703d6c50ca71b02853f7b096ad597072c860",
+      "bytes": 928
+    },
+    "review_dependencies/finite_copper.py": {
+      "sha256": "2d4ea0f0d04e496176e824c4588320ccff4e02be174163c0007f5e4f08e803ee",
+      "bytes": 1793
+    },
+    "review_dependencies/full104_4d7d.json": {
+      "sha256": "8729502992f6334399aea64db276ef7bafa6d363f8c1f4530e2e08820d2d6b0f",
+      "bytes": 75629
+    },
+    "review_dependencies/native_polygon.py": {
+      "sha256": "6f18ba337386a79bf5fb165c486af4c3c440824be789cdde7805091c20020440",
+      "bytes": 872
+    },
+    "review_dependencies/source_netlist.xml": {
+      "sha256": "d5a25885fdcfa5d8511318660d7c42157b2870cb1a1f3181689c1be958bb1056",
+      "bytes": 134908
+    },
+    "selected_candidate/mainboard_revD.kicad_pcb": {
+      "sha256": "d8550195b14521806a14654c4bdeba0a6d533b0aa536b473919481da2b9d6e5b",
+      "bytes": 1234161
+    },
+    "selected_candidate/mainboard_revD.kicad_pro": {
+      "sha256": "2927268f27542ce291be8aaa6b6bf4bfe9bc90d02fa259f9335487d1edc5b08e",
+      "bytes": 10154
+    }
+  }
+}

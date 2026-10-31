@@ -1,0 +1,29 @@
+# Missing delta: capture v2 → application actor
+
+## Preserve existing v2 contracts, do not duplicate
+- Bounded register tables: explicit array count; validate unique final zero REG_NULL before first write; reset sentinel fix; propagate every failed table write. Preserve checked SCCB ID/reads, mode enum bounds, format and task failure handling.
+- Only real SC031GS PID0x0031, Gray8 VGA640×480, requested XCLK10MHz. Exact full frame307200bytes, stride640, one borrowed fb; no JPEG conversion or alternate-byte “grayscale”. Production entry must retain allowlist recheck, not call portable seam to bypass it.
+- 10MHz is XCLK configuration (160MHz/div16). Scope-qualified PCLK≤40MHz is separate. VGA table comments25fps are not measured throughput. No invented low-PCLK guarantee.
+- Driver software boot timestamp is after capture-start/manual VSYNC, not exposure midpoint/first DMA. Freshness≤200ms is a candidate rejection gate, not a measured latency SLA.
+- CPU-copy from internal DMA to single PSRAM frame; PSRAM-DMA disabled; no blind cache invalidation. Existing build fixtures disable runtime PSRAM initialization; they are not runnable camera images.
+- Software ROI96..256 per axis retains stride640 and explicit full-frame origin/parent identity. Crop is not resize, not sensor200×200 mode, not120fps, not a fixed6mm field.
+- Raw exposure-register values are not microseconds. Do not add exposure/gain/PLL changes as part of integration. `set_output_window` offset arguments and exposure byte semantics remain unqualified.
+- Timeout carries no frame; third consecutive timeout faults; wrong/short/stale frame faults. Actual backend permits one init attempt per boot, no warm retry. Do not invent automatic power-cycle recovery.
+
+## Required new adapter behavior (not implemented here)
+| Boundary | Required delta | Acceptance evidence before application integration |
+|---|---|---|
+| poll / queue | One capture owner, separately timestamped pressure/pickup edge queue; merge frames and edges chronologically, with deterministic same-time ordering; idle only after all older queued events drained. Initialization must not block the event actor (I²C calls can each take1000ms). | Interleaving/property tests: pressure during init/take/decode, old frame after new edge, duplicate time/ID, overflow and clock reset. Queue overflow fails closed with GAP/status, not dropped pen-up. |
+| frame lifetime | Hold fb until step and mapper finish; release exactly once; no next get while HELD. Origin metadata must remain bound to lease/frame/source. | Stop/fault/release races, stale pointer/ROI rejection, failed step cleanup. No ISR may decode or release asynchronously. |
+| mapper ABI | pen_tip_mapper receives pen_app_frame but no ROI-origin field. Use an immutable per-event map_ctx binding to pen_capture_roi_origin, or propose a versioned ABI separately. Validate frame_id/source_id before adding ROI left/top exactly once. | Known synthetic transformed images with distinct ROI origins; wrong origin/source/frame rejected; mapper never equates decoded window origin to tip. Physical calibration absent keeps camera_qualified0. |
+| timestamp semantics | Current pipeline demands frame timestamp==event.now_us. Preserve original capture software timestamp through queued delivery; do not retime to current poll to force acceptance. Exposure/contact relation needs independent measurement. | Out-of-order, delayed, simultaneous edge and frame tests; no fabricated VALID across unknown contact interval. |
+| apply_actions / safe_stop | Remain disabled absent exact reviewed board profile. Future partial-start and power-down must stop capture/clock, isolate IO, preserve required event state, and coordinate BLE/storage sleep. Generic camera RESET/PWDN stay-1 with dedicated verified hooks. | Host call-order failure matrix first; later separately authorized rail/backfeed/reset/brownout tests. No CAM_PWDN alias assumption: current hardware routes SENS_TRIG_IN. |
+| repeated wake | Current real backend one-init/boot is incompatible with assuming arbitrary same-boot camera restarts. Specify deep-sleep/new-boot or separately qualify reusable backend before enabling repeated capture cycles. | State-transition tests for long idle, short lifts, fault, power-on veto and boot/session renewal; no hidden reconstruction reset of retirement flag. |
+| provenance | SENSOR source does not authorize coordinates. Keep camera_qualified0, mapperNULL and calibration_revision0 without physical evidence. Capture source lifetime must not silently reuse identity/frame numbering across restarts. | Synthetic remains SYNTHETIC; no VALID/storage write from unqualified capture; source/boot/calibration mismatch rejection. |
+| storage/BLE | Do not bypass current application durable-record, authenticated epoch/ACK and sleep/maintenance guards. Frame delivery is not a coordinate or ACK. | Full-log, disconnect, replay-only, pressure during maintenance, partial-write and sleep-veto integration tests. Storage architecture owned by parallel audit. |
+
+## Next bounded implementation candidate
+A new host-only adapter target may link unchanged v2 capture plus exact current pipeline/provider ABI. Use test-only synthetic backend and explicit stub mapper; default runtime gate0; production registry still empty. Test queue, lease, ROI-origin and failure matrix above. Compile both gate settings without initializing hardware. Record current source hashes and patch provenance. Do not modify active firmware in this work.
+
+## Physical release blockers (not software TODO completion)
+Actual module pin/rail/control contract; measured clocks/data integrity; correct PSRAM runtime profile; raw optical images and physical tip calibration; board boot/service isolation; current/thermal/battery; accepted mechanical fit and costs. A compile/test pass closes none of these. Current reference24pin, owned30pinSC035HGS, and potentialSC031GS module are three distinct contracts.

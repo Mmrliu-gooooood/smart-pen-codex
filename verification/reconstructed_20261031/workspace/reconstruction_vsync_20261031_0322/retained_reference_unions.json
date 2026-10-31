@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 2.07766905e-05,
+      "members": [
+        {
+          "uuid": "785fa013-68f2-4dcf-8a6c-d03078ed911c",
+          "individual_mm2": 2.077412e-05
+        },
+        {
+          "uuid": "a1cb5980-9b77-4048-a7f9-a53e40391518",
+          "individual_mm2": 2.07722805e-05
+        }
+      ]
+    },
+    {
+      "net": "CAM_D3",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_lost_union_mm2": 2.07766905e-05,
+      "members": [
+        {
+          "uuid": "785fa013-68f2-4dcf-8a6c-d03078ed911c",
+          "individual_mm2": 2.077412e-05
+        },
+        {
+          "uuid": "a1cb5980-9b77-4048-a7f9-a53e40391518",
+          "individual_mm2": 2.07722805e-05
+        }
+      ]
+    },
+    {
+      "net": "CAM_D5",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_lost_union_mm2": 0.1968285,
+      "members": [
+        {
+          "uuid": "00d9841b-21cf-4dc5-b71a-183126eec295",
+          "individual_mm2": 0.1968285
+        }
+      ]
+    },
+    {
+      "net": "CAM_D6",
+      "layer": "In3.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 0.0,
+      "members": [
+        {
+          "uuid": "b2eef0dc-0d2c-5e69-9137-f41cde9f226b",
+          "individual_mm2": 9.163e-09
+        }
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 0.000436073499,
+      "members": [
+        {
+          "uuid": "9911addf-a7ce-4bc7-a410-2c81aae8e420",
+          "individual_mm2": 0.000436073499
+        }
+      ]
+    },
+    {
+      "net": "CAM_PCLK",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 0.0007125011615,
+      "members": [
+        {
+          "uuid": "c38d278c-7993-48f5-8f50-9015d1a9bfef",
+          "individual_mm2": 0.0007125011615
+        }
+      ]
+    },
+    {
+      "net": "CAM_HREF",
+      "layer": "In2.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 0.000661924169,
+      "members": [
+        {
+          "uuid": "14953b42-2271-42fb-8b2f-59304193614f",
+          "individual_mm2": 0.000661924169
+        }
+      ]
+    },
+    {
+      "net": "SENS_D5",
+      "layer": "F.Cu",
+      "reference_layer": "In1.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 0.0002087646735,
+      "members": [
+        {
+          "uuid": "405dbbcc-feed-5164-b050-41cf2174e551",
+          "individual_mm2": 0.0002087646735
+        }
+      ]
+    },
+    {
+      "net": "CAM_ISO_OE_N",
+      "layer": "B.Cu",
+      "reference_layer": "In4.Cu",
+      "reference_net": "GND",
+      "unique_lost_union_mm2": 2.1310686e-05,
+      "members": [
+        {
+          "uuid": "6463f038-f882-566e-ae2e-736403466fb9",
+          "individual_mm2": 2.1310686e-05
+        }
+      ]
+    }
+  ],
+  "scope": "Per-net/layer unique loss union; do not sum overlapping old track projections. This is static area characterization, not SI acceptance."
+}

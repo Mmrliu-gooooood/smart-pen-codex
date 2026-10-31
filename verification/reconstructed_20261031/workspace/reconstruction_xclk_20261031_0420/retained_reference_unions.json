@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "net": "CAM_SCL",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_lost_union_mm2": 0.06765,
+      "members": [
+        {
+          "uuid": "242f7fd7-eecf-4425-bd5e-174da34d1493",
+          "individual_mm2": 0.06765
+        }
+      ]
+    },
+    {
+      "net": "CAM_SDA",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_lost_union_mm2": 0.06765,
+      "members": [
+        {
+          "uuid": "8970ff24-fc12-42fb-8322-5f980dee7c2d",
+          "individual_mm2": 0.06765
+        }
+      ]
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "layer": "In3.Cu",
+      "reference_layer": "In2.Cu",
+      "reference_net": "3V3_AON",
+      "unique_lost_union_mm2": 0.16900559535,
+      "members": [
+        {
+          "uuid": "68da8f62-81bc-58fa-8078-e39fce70f4e1",
+          "individual_mm2": 0.019080932666
+        },
+        {
+          "uuid": "9ff6736c-8246-5f5e-9b13-f0a3ec95f0cf",
+          "individual_mm2": 0.1586881258025
+        },
+        {
+          "uuid": "b194e0d9-678f-53b4-b042-644fb204746e",
+          "individual_mm2": 0.014371471156
+        },
+        {
+          "uuid": "faa03d3c-be9b-5f3d-9fc3-a81ef53ad226",
+          "individual_mm2": 0.0007338311715
+        }
+      ]
+    }
+  ],
+  "scope": "Per-net/layer unique loss union; do not sum overlapping old track projections. This is static area characterization, not SI acceptance."
+}

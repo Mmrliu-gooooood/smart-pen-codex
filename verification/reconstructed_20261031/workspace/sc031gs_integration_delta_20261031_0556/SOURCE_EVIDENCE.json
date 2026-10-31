@@ -1,0 +1,31 @@
+{
+  "scope": "read-only source evaluation; new documents/logs only",
+  "upstream_commit": "f37e65608f709bd94846dee01d947f02ae07c0b0",
+  "idf_commit": "67c1de1eebe095d554d281952fde63c16ee2dca0",
+  "repository_commit": "b261859addbecac79e4727449bb73da616fab549",
+  "upstream_provenance": "archived source_manifest; patched tree, no fresh upstream reconstruction",
+  "sources": {
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/tools/manifest.py": "e12f15a36f800c392b3ebadc892e0f1d1311f4e7f61d39b3605b5906e4b845c7",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/verification/source_manifest.json": "43bde08406f902d6ee16d3affc2c05de35dc771a9d1bf5749cf84cdfdceeb601",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/verification/esp32-camera.patch": "7096002915495b26417e2d32eaf8fa845d4266534c1699d8a701fe3880322b1f",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/include/pen_capture.h": "e07103c95c466d518d4596665982a847f6936b4d068de7ee8a11cc3a1ba0b255",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/include/pen_capture_app.h": "af0d059485ff045278661354e315bd3ad2119a1a9e3e508d19ba08d2fb9a63a7",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/src/pen_capture_app.c": "0ca0ad9774d1e5a105f316e28735c30a6187de8c59d51f2a22b7c468cac0cca1",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/src/pen_capture_profiles.c": "893c1d5664897754f13ef2d74055f0db698888f1d0bf5460f0a44371996b206a",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/src/pen_capture_idf.c": "2b872fbd4ad3aa53b6b87594e11b3182f80620c4ca852850fee509c2697feb20",
+    "recovery_20261031/firmware/application_idf/main/CMakeLists.txt": "6dd0dd4b888922954e78e16d515d9a50fb55a093ad424c32a4bc2de0a6db1303",
+    "recovery_20261031/firmware/application_idf/main/board_provider_absent.c": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+    "recovery_20261031/firmware/application_idf/main/board_provider.h": "671be4b31dd988cdc5638b18757153bafc169bfef9eec14477a7351f17f22fe1",
+    "recovery_20261031/firmware/application/pipeline.h": "792732ebbb1aadfb030fd1d0d37f6528667f29a6eaf227ca50939d2774b34f7e",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/frozen/application/pipeline.h": "792732ebbb1aadfb030fd1d0d37f6528667f29a6eaf227ca50939d2774b34f7e",
+    "recovery_20261031/verification/accepted_successors_stage_20261029/smart_pen_camera_capture_v2_candidate_20261029/idf/main/compile_main.c": "1af3967b023884338fe99ce6079c38ed40285c1fc7a4e32170e470bacf3c51e1"
+  },
+  "pipeline_header_matches_capture_frozen": true,
+  "official_urls": [
+    "https://github.com/espressif/esp32-camera/blob/f37e65608f709bd94846dee01d947f02ae07c0b0/sensors/sc031gs.c",
+    "https://github.com/espressif/esp32-camera/blob/f37e65608f709bd94846dee01d947f02ae07c0b0/sensors/private_include/sc031gs_settings.h",
+    "https://github.com/espressif/esp32-camera/blob/f37e65608f709bd94846dee01d947f02ae07c0b0/target/esp32s3/ll_cam.c",
+    "https://github.com/espressif/esp32-camera/blob/f37e65608f709bd94846dee01d947f02ae07c0b0/driver/cam_hal.c",
+    "https://github.com/espressif/esp32-camera/blob/f37e65608f709bd94846dee01d947f02ae07c0b0/driver/sccb-ng.c"
+  ]
+}
