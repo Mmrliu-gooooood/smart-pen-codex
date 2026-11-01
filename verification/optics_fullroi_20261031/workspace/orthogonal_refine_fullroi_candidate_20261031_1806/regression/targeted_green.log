@@ -1,0 +1,13 @@
+probe 000.pgm -3 reject
+probe 015.pgm -3 reject
+probe 030.pgm -3 reject
+probe 049.pgm 0 correct_accept
+probe 050.pgm 0 correct_accept
+probe control_000.pgm 0 correct_accept
+probe control_001.pgm 0 correct_accept
+probe control_006.pgm 0 correct_accept
+probe control_007.pgm 0 correct_accept
+probe control_012.pgm 0 correct_accept
+probe control_013.pgm 0 correct_accept
+{"enabled": 1, "targeted": true, "total": 11, "counts": {"reject": 3, "correct_accept": 8}, "datasets": {"probe": {"reject": 3, "correct_accept": 8}}, "must_reject_accepts": 0, "candidate_at_build_sha256": {"/workspace/scratch/fe148e758944/orthogonal_refine_fullroi_candidate_20261031_1806/candidate.c": "5f342c13961e24a501d37898006eaf8ce830fb47f5e65b732285a47c6beb59d1", "/workspace/scratch/fe148e758944/orthogonal_refine_fullroi_candidate_20261031_1806/candidate.h": "048fa52ab5907a55fe5c752985406142e6992f99e1f92acc609f6f012b22188c", "/workspace/scratch/fe148e758944/orthogonal_refine_fullroi_candidate_20261031_1806/build.py": "3536e101ac17e6332b8f4c403c141773d198c73c32d74cebe780a5ef12d2d2f7", "/workspace/scratch/fe148e758944/orthogonal_refine_fullroi_candidate_20261031_1806/regression/run.py": "74b67aa5c5296a3c8f5ae501759c918713c299d6dbdac4b4d061fcef6d50696f"}, "scope": "actual full200x200 input; no crop/prior/oracle to C; post-return symbol and conservative full-dot support; no transform output ABI so no transform error assertion"}
+FAILED EXPECTATIONS []

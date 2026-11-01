@@ -1,0 +1,43 @@
+{
+  "candidate_copy_matches": {
+    "candidate.c": true,
+    "candidate.h": true,
+    "build.py": true,
+    "regression/run.py": true,
+    "native_guards.c": true,
+    "run_native.py": true,
+    "test_candidate.py": true
+  },
+  "author_manifest_sha256": "3c32b7b5533673e36c757f721b962fc8d1c5b5596f8ce7b430af6eb2f412592b",
+  "author_manifest_entries": 44,
+  "author_manifest_bad": [],
+  "off": {
+    "cases": 478,
+    "counts": {
+      "reject": 455,
+      "correct_accept": 23
+    },
+    "semantic_mismatches": [],
+    "explicit_must_reject": 50,
+    "explicit_must_reject_accepts": 0,
+    "historical_reject_accepts": 0
+  },
+  "on": {
+    "cases": 478,
+    "counts": {
+      "reject": 446,
+      "correct_accept": 32
+    },
+    "semantic_mismatches": [],
+    "explicit_must_reject": 50,
+    "explicit_must_reject_accepts": 0,
+    "historical_reject_accepts": 0
+  },
+  "target8_all_correct": true,
+  "boundary3_all_reject": true,
+  "transitions": {
+    "reject -> reject": 446,
+    "correct_accept -> correct_accept": 23,
+    "reject -> correct_accept": 9
+  }
+}

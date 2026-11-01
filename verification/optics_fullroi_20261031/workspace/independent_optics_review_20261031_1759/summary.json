@@ -1,0 +1,127 @@
+{
+  "total": 52,
+  "counts": {
+    "reject": 41,
+    "correct_accept": 11
+  },
+  "by_tilt": {
+    "0": {
+      "reject": 3,
+      "correct_accept": 6
+    },
+    "15": {
+      "reject": 9
+    },
+    "30": {
+      "reject": 9
+    },
+    "45": {
+      "reject": 9
+    },
+    "60": {
+      "reject": 9
+    }
+  },
+  "by_offset": {
+    "0.1": {
+      "reject": 15
+    },
+    "0.16666666666666666": {
+      "correct_accept": 3,
+      "reject": 12
+    },
+    "0.25": {
+      "correct_accept": 3,
+      "reject": 12
+    }
+  },
+  "workspace_bytes": 21888,
+  "vector_index": 2,
+  "truth": {
+    "section": [
+      0,
+      0
+    ],
+    "xy": [
+      156,
+      51
+    ],
+    "directions": [
+      3,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      3,
+      0,
+      1,
+      0,
+      0,
+      2,
+      2,
+      3,
+      1,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      3,
+      3,
+      2,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "compile_command": [
+    "cc",
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic",
+    "-shared",
+    "-fPIC",
+    "-I/workspace/scratch/fe148e758944/publication_20261031/target_repo/firmware/vision",
+    "/tmp/optics-active-c-4h60d06q/bridge.c",
+    "/workspace/scratch/fe148e758944/publication_20261031/target_repo/firmware/vision/roi_opt.c",
+    "/workspace/scratch/fe148e758944/publication_20261031/target_repo/firmware/codec/anoto.c",
+    "-lm",
+    "-o",
+    "/tmp/optics-active-c-4h60d06q/roi_opt.so"
+  ],
+  "source_sha256": {
+    "firmware/vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "firmware/vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e",
+    "firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "firmware/codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d",
+    "firmware/codec/sequences.h": "87d00e2204b107c4a7fd337a87a03ad60854d59812e489f7a60c121c52cb9997",
+    "tests/roi_opt_fixture.py": "213a5b0c84bb4969e722967a0d6e9274493305fae2b32174ad7218b55714f442",
+    "tests/roi_fixture.py": "66e7c29b184a82e66a2075ba63eab574fccca6b13be4a2ac7454db01fb844ea9",
+    "tests/test_roi_opt.py": "e30db6f18e3583a4f8ab2d13b80d721d335074b2e588f017ff88cabc2f706805",
+    "tests/test_roi_vision.py": "51c9e51df01c51d943c75ab5dfc1c2d1177ba8c34f77c14a8f1e04c8524de419",
+    "tests/fixtures/microdots_vectors.json": "d8fb52c0d90b0a59910ec53a00137b5c33e2f6e16774cc5cc7e2144dee8f9796"
+  },
+  "limits": [
+    "One fixed observed6x6 code only, not full continuous paper.",
+    "Ideal pinhole12mm distance,0.3mm pitch; focal pixels vary with selected center pitch.",
+    "Physical radius0.05mm; offset varied .03/.05/.075mm; no blur/noise/lens distortion/ink.",
+    "Active cold orthogonal C only; no V3/V4/warm prior; native host O2, not sanitizer or MCU timing.",
+    "No image geometry or coordinates passed to C; config supplies paper dimensions and encoded section only.",
+    "Finite52 cases do not bound wrong-accept probability or physical tilt acceptance."
+  ]
+}

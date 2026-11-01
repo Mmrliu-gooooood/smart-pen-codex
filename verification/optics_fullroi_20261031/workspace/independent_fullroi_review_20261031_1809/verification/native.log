@@ -1,0 +1,6 @@
+{"sanitizer": false, "enabled": false, "cap": 64, "exit": 0, "stdout": "PASS enabled=0 cap=64 workspace=23424 result=68 overflow_status=-3 seeds=0 guards/input/failure/alias/range checked\n", "stderr": ""}
+{"sanitizer": false, "enabled": true, "cap": 64, "exit": 0, "stdout": "PASS enabled=1 cap=64 workspace=23424 result=68 overflow_status=-4 seeds=65 guards/input/failure/alias/range checked\n", "stderr": ""}
+{"sanitizer": false, "enabled": true, "cap": 1, "exit": 0, "stdout": "PASS enabled=1 cap=1 workspace=21912 result=68 overflow_status=-4 seeds=2 guards/input/failure/alias/range checked\n", "stderr": ""}
+{"sanitizer": true, "enabled": false, "cap": 64, "exit": 0, "stdout": "PASS enabled=0 cap=64 workspace=23424 result=68 overflow_status=-3 seeds=0 guards/input/failure/alias/range checked\n", "stderr": ""}
+{"sanitizer": true, "enabled": true, "cap": 64, "exit": 0, "stdout": "PASS enabled=1 cap=64 workspace=23424 result=68 overflow_status=-4 seeds=65 guards/input/failure/alias/range checked\n", "stderr": ""}
+{"sanitizer": true, "enabled": true, "cap": 1, "exit": 0, "stdout": "PASS enabled=1 cap=1 workspace=21912 result=68 overflow_status=-4 seeds=2 guards/input/failure/alias/range checked\n", "stderr": ""}

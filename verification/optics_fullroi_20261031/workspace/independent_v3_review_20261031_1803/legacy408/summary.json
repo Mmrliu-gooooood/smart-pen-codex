@@ -1,0 +1,57 @@
+{
+  "cases": 408,
+  "accepted": 254,
+  "correct_accepts": 254,
+  "wrong_or_quality_violating_accepts": 0,
+  "must_reject_accepts": 0,
+  "rejected": 154,
+  "status_changes": 0,
+  "all_image_hashes_match": true,
+  "workspace_bytes": 32640,
+  "source_changed": false,
+  "oracle": "unchanged archivedV3 evaluate; support is center-based historicalcontract, not upgraded whole-dot oracle",
+  "groups": {
+    "baseline": {
+      "0": 108
+    },
+    "blur": {
+      "0": 20,
+      "-2": 4
+    },
+    "canonical_negative": {
+      "-3": 6
+    },
+    "corrupt_code": {
+      "-3": 60
+    },
+    "damage": {
+      "-2": 24,
+      "-3": 3
+    },
+    "fake_dots": {
+      "-3": 16
+    },
+    "fractional_fov": {
+      "0": 36
+    },
+    "model_boundary": {
+      "-3": 15,
+      "-2": 2,
+      "0": 4
+    },
+    "noise": {
+      "0": 9
+    },
+    "rotation": {
+      "0": 76,
+      "-3": 20
+    },
+    "two_windows": {
+      "0": 1,
+      "-4": 1
+    },
+    "wrong_section": {
+      "-3": 3
+    }
+  }
+}

@@ -1,0 +1,26 @@
+test_finite_difference_jacobian (test_model.CropTests.test_finite_difference_jacobian) ... ok
+test_same_sampling_different_crop (test_model.CropTests.test_same_sampling_different_crop) ... ok
+test_front_parallel (test_model.GeometryTests.test_front_parallel) ... ok
+test_independent_tilt_oracle_transposed (test_model.InvalidTests.test_independent_tilt_oracle_transposed) ... ok
+test_nonfinite_refused (test_model.InvalidTests.test_nonfinite_refused) ... FAIL
+test_behind_camera_rejected (test_model.JacobianTests.test_behind_camera_rejected) ... ok
+test_known_center_tilt (test_model.JacobianTests.test_known_center_tilt) ... ok
+test_delta_unsupported (test_model.ScreenTests.test_delta_unsupported) ... ok
+test_front_parallel_feasible_sampling (test_model.ScreenTests.test_front_parallel_feasible_sampling) ... ok
+test_merging_dots (test_model.ScreenTests.test_merging_dots) ... ok
+test_too_small_sampling (test_model.ScreenTests.test_too_small_sampling) ... ok
+test_window_outside (test_model.ScreenTests.test_window_outside) ... ok
+
+======================================================================
+FAIL: test_nonfinite_refused (test_model.InvalidTests.test_nonfinite_refused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/optics_paper_screen_20261031_1752/test_model.py", line 44, in test_nonfinite_refused
+    with self.assertRaises(ValueError):project(float('nan'),0,10,100,0)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+FAILED (failures=1)

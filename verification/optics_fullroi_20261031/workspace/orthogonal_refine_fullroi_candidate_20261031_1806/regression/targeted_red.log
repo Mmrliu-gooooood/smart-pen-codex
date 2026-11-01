@@ -1,0 +1,13 @@
+probe 000.pgm -3 reject
+probe 015.pgm -3 reject
+probe 030.pgm -3 reject
+probe 049.pgm 0 correct_accept
+probe 050.pgm 0 correct_accept
+probe control_000.pgm -3 reject
+probe control_001.pgm -3 reject
+probe control_006.pgm -3 reject
+probe control_007.pgm -3 reject
+probe control_012.pgm -3 reject
+probe control_013.pgm -3 reject
+{"enabled": 1, "targeted": true, "total": 11, "counts": {"reject": 9, "correct_accept": 2}, "datasets": {"probe": {"reject": 9, "correct_accept": 2}}, "must_reject_accepts": 0, "scope": "actual full200x200 input; no crop/prior/oracle to C; post-return symbol and conservative full-dot support; no transform output ABI so no transform error assertion"}
+FAILED EXPECTATIONS ['control_000.pgm', 'control_001.pgm', 'control_006.pgm', 'control_007.pgm', 'control_012.pgm', 'control_013.pgm']

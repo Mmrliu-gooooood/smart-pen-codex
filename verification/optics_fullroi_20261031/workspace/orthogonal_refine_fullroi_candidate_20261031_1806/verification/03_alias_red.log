@@ -1,0 +1,16 @@
+test_off_exact_active_positive (test_candidate.AliasTests.test_off_exact_active_positive) ... ok
+test_output_diagnostics_alias_rejected_unchanged (test_candidate.AliasTests.test_output_diagnostics_alias_rejected_unchanged) ... FAIL
+test_off_exact_active_positive (test_candidate.CandidateTests.test_off_exact_active_positive) ... ok
+
+======================================================================
+FAIL: test_output_diagnostics_alias_rejected_unchanged (test_candidate.AliasTests.test_output_diagnostics_alias_rejected_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/fe148e758944/orthogonal_refine_fullroi_candidate_20261031_1806/test_candidate.py", line 25, in test_output_diagnostics_alias_rejected_unchanged
+    self.assertEqual(self.lib.candidate_decode(im,len(pixels),200,200,200,C.byref(Config(710,1000,0,0)),ws,C.byref(out),C.byref(out)),-1)
+AssertionError: 0 != -1
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.621s
+
+FAILED (failures=1)
