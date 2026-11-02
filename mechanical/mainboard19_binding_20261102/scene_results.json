@@ -1,0 +1,146 @@
+{
+  "status": "PASS_DERIVED_KNOWN_STATIC_SCENE_NOT_ASSEMBLY_RELEASE",
+  "native_sha256": "f7632bf6296ba212ec59e54edb1dfdb91995f6f4f071a3d9505b6638f3fbf416",
+  "source_scene_sha256": "e0927d603f821061981859dff4e957c2089adc956c02b4962ded20865febb63f",
+  "updated_scene_sha256": "a4637e41505e404d890f31a8510f30608416f6116fdc183536d5ed090a5b92e2",
+  "updated_full104_sha256": "0fc0f2c01a4f2868d501486cb8d226938882ec186cfdeeade042e204ca8f31e8",
+  "nonempty_shapes": 214,
+  "replaced_shapes": 1,
+  "other213_shapes_unchanged": true,
+  "all104_bounds_readback_match": true,
+  "XML_and_reloaded_native_binding": true,
+  "negative_J107_intrusion_mm3": 0.3634787500000045,
+  "full_R230_volume_preserved": true,
+  "collisions": [],
+  "contacts": [
+    {
+      "name": "Item032",
+      "label": "Native_outline_dcbd_99p8_t0p93_NOFAB",
+      "distance_mm": 0.0
+    }
+  ],
+  "nearest_positive_gaps": [
+    {
+      "name": "Item121",
+      "label": "INSTALL_J107_88",
+      "distance_mm": 0.5150000000000006
+    },
+    {
+      "name": "Item062",
+      "label": "INSTALL_U201_29",
+      "distance_mm": 0.9300000000000002
+    },
+    {
+      "name": "Item131",
+      "label": "INSTALL_R214_98",
+      "distance_mm": 1.6000000000000085
+    },
+    {
+      "name": "Power_SUBSTRATE",
+      "label": "POWER_SCREEN_SUBSTRATE",
+      "distance_mm": 2.164793176328504
+    },
+    {
+      "name": "Item048",
+      "label": "INSTALL_R224_15",
+      "distance_mm": 2.181146487515227
+    },
+    {
+      "name": "Item120",
+      "label": "INSTALL_R219_87",
+      "distance_mm": 2.3500000000000085
+    },
+    {
+      "name": "Power_U105",
+      "label": "POWER_SCREEN_U105",
+      "distance_mm": 2.964793176328504
+    },
+    {
+      "name": "Item123",
+      "label": "INSTALL_J107_90",
+      "distance_mm": 2.9651053944168835
+    }
+  ],
+  "preserved_unqualified_objects": [
+    {
+      "name": "OperationGate",
+      "label": "UNQUALIFIED_OPERATION_JP202",
+      "status": null
+    },
+    {
+      "name": "OperationGate001",
+      "label": "UNQUALIFIED_OPERATION_JP201",
+      "status": null
+    },
+    {
+      "name": "OperationGate002",
+      "label": "UNQUALIFIED_OPERATION_J108",
+      "status": null
+    },
+    {
+      "name": "OperationGate003",
+      "label": "UNQUALIFIED_OPERATION_C106",
+      "status": null
+    },
+    {
+      "name": "OperationGate004",
+      "label": "UNQUALIFIED_OPERATION_C107",
+      "status": null
+    },
+    {
+      "name": "OperationGate005",
+      "label": "UNQUALIFIED_OPERATION_J104",
+      "status": null
+    },
+    {
+      "name": "ReservedPack",
+      "label": "RESERVED_COMPLETE_PACK_UNQUALIFIED",
+      "status": null
+    },
+    {
+      "name": "AdditionalRequired031",
+      "label": "RF_reserved_UNQUALIFIED",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate",
+      "label": "UNQUALIFIED_POWER_SERVICE_J1",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate001",
+      "label": "UNQUALIFIED_POWER_SERVICE_J104",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate002",
+      "label": "UNQUALIFIED_POWER_SERVICE_J2",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate003",
+      "label": "UNQUALIFIED_POWER_SERVICE_J3",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate004",
+      "label": "UNQUALIFIED_POWER_SERVICE_J4",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate005",
+      "label": "UNQUALIFIED_POWER_SERVICE_J5",
+      "status": null
+    },
+    {
+      "name": "PowerServiceGate006",
+      "label": "UNQUALIFIED_POWER_SERVICE_JP1",
+      "status": null
+    }
+  ],
+  "limits": [
+    "Current default study scene only; unmodeled camera/FPC/assembly not qualified.",
+    "R230 proxy height/source assumption retained, no manufacturer-body upgrade.",
+    "No solder/tool/service or PDN/SI/power/FAB acceptance."
+  ]
+}

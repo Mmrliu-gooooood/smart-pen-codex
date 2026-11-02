@@ -1,0 +1,487 @@
+{
+  "native_sha256": "f7632bf6296ba212ec59e54edb1dfdb91995f6f4f071a3d9505b6638f3fbf416",
+  "source_entry": "top-level mainboard_revD.kicad_pro/.kicad_sch only; nested schematic root is legacy partial",
+  "finite_groups": 92,
+  "excluded_unassigned_mechanical_groups": [
+    [
+      "J202.#264d5c9f-974e-44da-91ef-75afe4035ef4"
+    ],
+    [
+      "J202.#a458acf1-5f00-4ae0-8824-961347b224ec"
+    ]
+  ],
+  "incomplete_named_nets": 14,
+  "sum_islands_minus_one": 19,
+  "remaining": [
+    {
+      "net": "BATTERY_ADC",
+      "islands": [
+        [
+          "J105.1"
+        ],
+        [
+          "U101.9"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "J105.1",
+          "value": "ADC_SAFE_FRONTEND_LINK_NOT_RAW_BATTERY",
+          "pose": [
+            2.0,
+            77.5,
+            -90.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "U101.9",
+          "value": "ESP32-S3-PICO-1-N8R8",
+          "pose": [
+            6.0,
+            10.0,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "CAM_PWR_EN",
+      "islands": [
+        [
+          "R106.1"
+        ],
+        [
+          "R302.1",
+          "TP301.1"
+        ],
+        [
+          "U101.47"
+        ]
+      ],
+      "minimum_logical_links": 2,
+      "singleton_terminals": [
+        {
+          "terminal": "R106.1",
+          "value": "100k 1%",
+          "pose": [
+            9.5,
+            22.0,
+            0.0,
+            "F.Cu"
+          ]
+        },
+        {
+          "terminal": "U101.47",
+          "value": "ESP32-S3-PICO-1-N8R8",
+          "pose": [
+            6.0,
+            10.0,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_D0",
+      "islands": [
+        [
+          "J202.2",
+          "U201.21"
+        ],
+        [
+          "R224.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R224.1",
+          "value": "100k 1%",
+          "pose": [
+            1.5,
+            39.1,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_D1",
+      "islands": [
+        [
+          "J202.3",
+          "U201.20"
+        ],
+        [
+          "R225.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R225.1",
+          "value": "100k 1%",
+          "pose": [
+            4.5,
+            43.3,
+            0.0,
+            "B.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_D2",
+      "islands": [
+        [
+          "J202.5",
+          "U201.19"
+        ],
+        [
+          "R226.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R226.1",
+          "value": "100k 1%",
+          "pose": [
+            7.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_D3",
+      "islands": [
+        [
+          "J202.6",
+          "U201.18"
+        ],
+        [
+          "R227.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R227.1",
+          "value": "100k 1%",
+          "pose": [
+            10.5,
+            44.0,
+            0.0,
+            "B.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_D4",
+      "islands": [
+        [
+          "J202.8",
+          "U201.17"
+        ],
+        [
+          "R228.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R228.1",
+          "value": "100k 1%",
+          "pose": [
+            1.5,
+            40.9,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_PCLK",
+      "islands": [
+        [
+          "J202.14",
+          "U202.13"
+        ],
+        [
+          "R232.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R232.1",
+          "value": "100k 1%",
+          "pose": [
+            10.6,
+            50.9,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_SCL",
+      "islands": [
+        [
+          "J202.21"
+        ],
+        [
+          "R242.1"
+        ],
+        [
+          "U204.2"
+        ]
+      ],
+      "minimum_logical_links": 2,
+      "singleton_terminals": [
+        {
+          "terminal": "J202.21",
+          "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+          "pose": [
+            7.0,
+            88.8,
+            180.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "R242.1",
+          "value": "10k 1% INITIAL_100kHz",
+          "pose": [
+            7.5,
+            76.0,
+            0.0,
+            "F.Cu"
+          ]
+        },
+        {
+          "terminal": "U204.2",
+          "value": "TCA9517DGKR",
+          "pose": [
+            6.0,
+            65.0,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_SDA",
+      "islands": [
+        [
+          "J202.22"
+        ],
+        [
+          "R243.1"
+        ],
+        [
+          "U204.3"
+        ]
+      ],
+      "minimum_logical_links": 2,
+      "singleton_terminals": [
+        {
+          "terminal": "J202.22",
+          "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+          "pose": [
+            7.0,
+            88.8,
+            180.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "R243.1",
+          "value": "10k 1% INITIAL_100kHz",
+          "pose": [
+            10.5,
+            76.0,
+            0.0,
+            "F.Cu"
+          ]
+        },
+        {
+          "terminal": "U204.3",
+          "value": "TCA9517DGKR",
+          "pose": [
+            6.0,
+            65.0,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_TRIG_IN",
+      "islands": [
+        [
+          "J202.20"
+        ],
+        [
+          "R237.1"
+        ],
+        [
+          "U203.11"
+        ]
+      ],
+      "minimum_logical_links": 2,
+      "singleton_terminals": [
+        {
+          "terminal": "J202.20",
+          "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+          "pose": [
+            7.0,
+            88.8,
+            180.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "R237.1",
+          "value": "100k 1%",
+          "pose": [
+            4.5,
+            62.0,
+            0.0,
+            "F.Cu"
+          ]
+        },
+        {
+          "terminal": "U203.11",
+          "value": "SN74AXC4T245PWR",
+          "pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_VSYNC",
+      "islands": [
+        [
+          "J202.15",
+          "U202.12"
+        ],
+        [
+          "R233.1"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "R233.1",
+          "value": "100k 1%",
+          "pose": [
+            1.5,
+            50.9,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "SENS_XSHUTDN_N",
+      "islands": [
+        [
+          "J202.19"
+        ],
+        [
+          "R236.1"
+        ],
+        [
+          "U203.12"
+        ]
+      ],
+      "minimum_logical_links": 2,
+      "singleton_terminals": [
+        {
+          "terminal": "J202.19",
+          "value": "5034802400_NEW_24PIN_SENSOR_HANDOFF",
+          "pose": [
+            7.0,
+            88.8,
+            180.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "R236.1",
+          "value": "4.7k 1% RESET_CANDIDATE",
+          "pose": [
+            1.5,
+            62.0,
+            0.0,
+            "F.Cu"
+          ]
+        },
+        {
+          "terminal": "U203.12",
+          "value": "SN74AXC4T245PWR",
+          "pose": [
+            6.0,
+            56.0,
+            -90.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "USB_EN1",
+      "islands": [
+        [
+          "J107.1"
+        ],
+        [
+          "U101.24"
+        ]
+      ],
+      "minimum_logical_links": 1,
+      "singleton_terminals": [
+        {
+          "terminal": "J107.1",
+          "value": "CHARGER_MODE",
+          "pose": [
+            6.4,
+            31.66,
+            0.0,
+            "B.Cu"
+          ]
+        },
+        {
+          "terminal": "U101.24",
+          "value": "ESP32-S3-PICO-1-N8R8",
+          "pose": [
+            6.0,
+            10.0,
+            0.0,
+            "F.Cu"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Read-only terminal island inventory, not a routing feasibility or default-state qualification. JP202 remains physicalOPEN/DNP despite CAMBUSpad1 logicalconnection. No native or scene change."
+}

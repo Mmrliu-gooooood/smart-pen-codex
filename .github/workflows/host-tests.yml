@@ -30,3 +30,8 @@ jobs:
           python verify_sources.py
           python test_crosswire_replay.py
           python -O test_crosswire_replay.py
+
+      - name: Mainboard19 source integrity only (not DRC or MCAD)
+        run: |
+          python verification/mainboard19_20261102/verify_sources.py
+          python -O verification/mainboard19_20261102/verify_sources.py

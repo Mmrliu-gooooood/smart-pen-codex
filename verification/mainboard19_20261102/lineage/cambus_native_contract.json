@@ -1,0 +1,836 @@
+{
+  "parent": "pcb_r108_relocation_20261102_0807/release/candidate/mainboard_revD.kicad_pcb",
+  "parent_sha256": "cb46267e51addf56e244c7189c110b45673002e1cd17734fe4871a356be117cd",
+  "candidate": "pcb_cambus_j105_margin_20261102_0916/candidate/mainboard_revD.kicad_pcb",
+  "candidate_sha256": "f6792549f64301fca1dcdf1980a96ceee5bc7f9351f4d45fe7ac5de4faa809e9",
+  "removed": [
+    "00f81199-307c-5fbc-94a6-34acacfa5d5e",
+    "5ec7df1b-dcd7-5de8-8904-094b7ed80b7a",
+    "8f442497-f720-5fe9-8ba1-dff71946f26b"
+  ],
+  "objects": [
+    {
+      "type": "track",
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "start": [
+        1.325,
+        38.375
+      ],
+      "end": [
+        1.325,
+        41.65
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "5986497a-4bb6-4d16-84a4-116aa2ab0894"
+    },
+    {
+      "type": "track",
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "start": [
+        1.325,
+        41.65
+      ],
+      "end": [
+        0.4,
+        41.65
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "b78d685d-b97b-460c-99aa-7c193d72b7bb"
+    },
+    {
+      "type": "track",
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "start": [
+        0.4,
+        41.65
+      ],
+      "end": [
+        0.4,
+        49.6
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "389cef3d-5169-40b7-9799-61be3105ba3a"
+    },
+    {
+      "type": "track",
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "start": [
+        0.4,
+        49.6
+      ],
+      "end": [
+        1.325,
+        49.6
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "f03129d9-1f97-406c-9ca7-174de07e5c1d"
+    },
+    {
+      "type": "track",
+      "net": "PICKUP_INT_N",
+      "layer": "F.Cu",
+      "start": [
+        1.325,
+        49.6
+      ],
+      "end": [
+        1.325,
+        53.7
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "eedeb28f-4296-41ce-9130-79bdf745bd76"
+    },
+    {
+      "type": "track",
+      "net": "AON_I2C_SDA",
+      "layer": "B.Cu",
+      "start": [
+        1.35,
+        23.975
+      ],
+      "end": [
+        1.285,
+        25.275
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "6355e487-fb0e-4cea-8308-1895859d9e1c"
+    },
+    {
+      "type": "track",
+      "net": "AON_I2C_SDA",
+      "layer": "B.Cu",
+      "start": [
+        1.285,
+        25.275
+      ],
+      "end": [
+        0.4,
+        26.235
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "b92ab164-42f0-4581-a9b1-15f5b2c569e7"
+    },
+    {
+      "type": "track",
+      "net": "AON_I2C_SDA",
+      "layer": "B.Cu",
+      "start": [
+        0.4,
+        26.235
+      ],
+      "end": [
+        0.4,
+        44.275
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "beb24069-6df6-4034-b6d9-ed4379b564b7"
+    },
+    {
+      "type": "track",
+      "net": "AON_I2C_SDA",
+      "layer": "B.Cu",
+      "start": [
+        0.4,
+        44.275
+      ],
+      "end": [
+        0.55,
+        44.275
+      ],
+      "width": 0.15,
+      "role": "west_transfer_inward_revision",
+      "uuid": "45b321e2-6989-4f2e-b9c3-7c2012960852"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        10.13391,
+        9.112569
+      ],
+      "end": [
+        8.225819,
+        11.320197
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "a08add8a-ea36-4ae8-b138-31265b5d026c"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        8.225819,
+        11.320197
+      ],
+      "end": [
+        9.827861,
+        11.889859000000001
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "bdaa603b-6303-4e61-b010-255d83a9f092"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        9.827861,
+        11.889859000000001
+      ],
+      "end": [
+        9.795088999999999,
+        17.161727666666668
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "578b112d-7619-490a-abae-068f4f50c87b"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        9.795089,
+        17.161728
+      ],
+      "end": [
+        9.291746,
+        17.55819
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "e140b999-c70e-49de-82da-d91105814294"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        8.820850666666667,
+        17.992693666666664
+      ],
+      "end": [
+        8.717745,
+        19.428078499999998
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "6ee929ee-2482-466f-9fb8-c2a7290476cf"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        8.717745,
+        19.428078499999998
+      ],
+      "end": [
+        7.120995499999999,
+        22.199552
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "28489205-87bc-48a0-83ea-74b4334ef72a"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        7.120995499999999,
+        22.199552
+      ],
+      "end": [
+        6.501155,
+        23.192505
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "da7cdfd2-679b-4e03-aa78-43d84b40052d"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        6.503744,
+        23.937203
+      ],
+      "end": [
+        3.5500903333333333,
+        24.783323999999997
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "ebbf482e-cfef-4707-ae88-30ec2f3399c4"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        3.5500903333333333,
+        24.783323999999997
+      ],
+      "end": [
+        2.641894,
+        24.813873
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "7f1758e0-27fb-4699-ae27-01685739aaf8"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        2.641894,
+        24.813873
+      ],
+      "end": [
+        2.159604,
+        25.252186
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "3d1056b3-d870-4933-b3b4-ddaf210b51ca"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        2.1525345,
+        25.265312
+      ],
+      "end": [
+        1.56015,
+        30.31557
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "612e57f5-13ab-4f10-b5b9-f58827aac4b9"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        1.56015,
+        30.31557
+      ],
+      "end": [
+        0.8501925,
+        28.7555035
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "fac007a5-1571-45ad-a9ac-62e0cf697bb9"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        0.8501925,
+        28.7555035
+      ],
+      "end": [
+        0.9147339999999999,
+        40.6114815
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "a9c746c7-5e2b-4cdb-9345-e62ce7f1a2f8"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        0.9147339999999999,
+        40.6114815
+      ],
+      "end": [
+        1.256152,
+        42.471201
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "22cf2fd9-4550-44de-8081-9fe0a8f1893d"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        1.256152,
+        42.471201
+      ],
+      "end": [
+        2.428154,
+        46.623168
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "a55dad32-7427-404d-b2a6-4a4fc4cf1399"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        2.428154,
+        46.623168
+      ],
+      "end": [
+        2.2666666666666666,
+        47.188769
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "53ce9e61-8ea4-4aff-abd6-c9640eabf3d7"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        2.2666666666666666,
+        47.188769
+      ],
+      "end": [
+        2.330677,
+        50.49026
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "d0089d7e-3176-4c4c-b709-eb4e82266821"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        2.330677,
+        50.49026
+      ],
+      "end": [
+        2.456729333333333,
+        53.267047
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "72d0be6b-2ba1-4814-b381-5e5f5229d533"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        2.456729333333333,
+        53.267047
+      ],
+      "end": [
+        1.4171196666666666,
+        55.42355133333333
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "8664f9d0-0351-4e72-9b4f-ede083a15ca1"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        1.4171196666666666,
+        55.42355133333333
+      ],
+      "end": [
+        1.119109,
+        56.488741
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "4b34635a-1a1c-4085-a9c9-7b09d9a8d456"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        1.119109,
+        56.488741
+      ],
+      "end": [
+        1.456051,
+        74.939869
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "fb944802-8b81-46bb-b29f-a3a4261e8dc7"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        1.456051,
+        74.939869
+      ],
+      "end": [
+        3.5105,
+        76.1368
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "261d06b9-e861-4ba8-b369-9bd4d0e5b74d"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        3.5105,
+        76.1368
+      ],
+      "end": [
+        7.249452,
+        79.905426
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "a9cbf677-e227-49f4-8d8a-3964d90c84a7"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "In3.Cu",
+      "start": [
+        7.249451666666666,
+        79.90542599999999
+      ],
+      "end": [
+        11.638488,
+        77.951099
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "67fe27af-0e69-472c-8869-ea39f8eb53df"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        11.638488,
+        77.951099
+      ],
+      "end": [
+        8.8323155,
+        79.96019
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "9415bc2c-ec7a-408b-8994-f865adb5744c"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        8.8323155,
+        79.96019
+      ],
+      "end": [
+        7.35,
+        79.42
+      ],
+      "width": 0.15,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "b2080c06-824b-4100-be6a-e99138e949ca"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        7.35,
+        78
+      ],
+      "end": [
+        7.35,
+        79.42
+      ],
+      "width": 0.15,
+      "role": "JP202_approved_owned_operation_exit",
+      "uuid": "a62ea9d9-f54a-4235-8bd5-2a8807fd5c5e"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        6.503744,
+        23.937203
+      ],
+      "end": [
+        6.503744,
+        23.937203
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "b83ac567-aca7-45fa-be44-7f6ff658b959"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        1.56015,
+        30.31557
+      ],
+      "end": [
+        1.56015,
+        30.31557
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "d02a710a-f3a1-467e-a71b-d1995b8a6df9"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        1.256152,
+        42.471201
+      ],
+      "end": [
+        1.256152,
+        42.471201
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "311dd1c3-0202-4842-be24-2879f0d25df2"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        2.428154,
+        46.623168
+      ],
+      "end": [
+        2.428154,
+        46.623168
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "200aa9e4-3707-495d-b620-c9b10e8960b2"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        1.119109,
+        56.488741
+      ],
+      "end": [
+        1.119109,
+        56.488741
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "d26376b3-b36a-4c67-8d5e-c5e062ede27a"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        3.5105,
+        76.1368
+      ],
+      "end": [
+        3.5105,
+        76.1368
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "550b4d29-be41-43e2-9d65-840aeb7752a1"
+    },
+    {
+      "type": "via",
+      "net": "CAM_BUS_EN",
+      "start": [
+        11.638488,
+        77.951099
+      ],
+      "end": [
+        11.638488,
+        77.951099
+      ],
+      "width": 0.45,
+      "drill": 0.2,
+      "role": "complete_CAM_BUS_route",
+      "uuid": "442362a3-43b7-4ebc-9002-e124a9188df6"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        6.501155,
+        23.192505
+      ],
+      "end": [
+        6.503744,
+        23.937203
+      ],
+      "width": 0.15,
+      "role": "causal_D0_reference_repair_B_tail",
+      "uuid": "6489e173-15a2-49a6-9743-3a84805ab2db"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "F.Cu",
+      "start": [
+        2.159604,
+        25.252186
+      ],
+      "end": [
+        2.152534,
+        25.265312
+      ],
+      "width": 0.15,
+      "role": "local_foreign_antipad_avoidance_bend",
+      "uuid": "7bc0e811-1d40-4fae-9bf5-23651430aca3"
+    },
+    {
+      "type": "track",
+      "net": "CAM_BUS_EN",
+      "layer": "B.Cu",
+      "start": [
+        9.291746,
+        17.55819
+      ],
+      "end": [
+        8.820851,
+        17.992694
+      ],
+      "width": 0.15,
+      "role": "local_foreign_antipad_avoidance_bend",
+      "uuid": "b970829d-57a4-4555-9b88-b5a2fbbe4272"
+    }
+  ],
+  "scope": "Unaccepted combined21 repair: D0causalviafix inherited frome6; J105nearvia singlelegalmarginrevision plus two localprimaryGND tangency avoidance bends; parentcb46222 unchanged,JP202OPEN",
+  "source_continuous_profile_minimum_new_transfers": 7,
+  "approved_terminal_contract_manifest": "4dc712a54e995efe7adefd2a09686488e4172ec4426d46949215e429152304a8",
+  "repair_from_hold_sha256": "29aa1d787e45496264c55a7c3d6680f89272babbaf07939772070f0dc0b198e4",
+  "repair_delta": {
+    "moved_new_via": "b83ac567-aca7-45fa-be44-7f6ff658b959",
+    "changed_F_incident": "ebbf482e-cfef-4707-ae88-30ec2f3399c4",
+    "added_B_tail": "6489e173-15a2-49a6-9743-3a84805ab2db",
+    "old_xy": [
+      6.501155,
+      23.192505
+    ],
+    "new_xy": [
+      6.503744,
+      23.937203
+    ]
+  },
+  "refinement_from_e6_sha256": "e6e3ce9d04a7a415130f59a9d91e015a79f92d1ab42a5dae3d56c6bbd56f9e6d",
+  "refinement_delta": {
+    "changed_objects": [
+      "261d06b9-e861-4ba8-b369-9bd4d0e5b74d",
+      "3d1056b3-d870-4933-b3b4-ddaf210b51ca",
+      "550b4d29-be41-43e2-9d65-840aeb7752a1",
+      "a9cbf677-e227-49f4-8d8a-3964d90c84a7",
+      "e140b999-c70e-49de-82da-d91105814294"
+    ],
+    "added_objects": [
+      "7bc0e811-1d40-4fae-9bf5-23651430aca3",
+      "b970829d-57a4-4555-9b88-b5a2fbbe4272"
+    ],
+    "J105_via_oldxy": [
+      3.521201,
+      76.153799
+    ],
+    "J105_via_newxy": [
+      3.5105,
+      76.1368
+    ],
+    "J105_nominal_body_gap_old": 0.021201,
+    "J105_nominal_body_gap_new": 0.03820000000001186,
+    "J105_mask_tented_front_back": [
+      true,
+      true
+    ],
+    "foreign_antipad_bends": [
+      {
+        "old_uuid": "3d1056b3-d870-4933-b3b4-ddaf210b51ca",
+        "layer": "F.Cu",
+        "points": [
+          [
+            2.641894,
+            24.813873
+          ],
+          [
+            2.159604,
+            25.252186
+          ],
+          [
+            2.152534,
+            25.265312
+          ]
+        ],
+        "finite_errors": [],
+        "current_plane_union_gap_mm2": 0.0
+      },
+      {
+        "old_uuid": "e140b999-c70e-49de-82da-d91105814294",
+        "layer": "B.Cu",
+        "points": [
+          [
+            9.795089,
+            17.161728
+          ],
+          [
+            9.291746,
+            17.55819
+          ],
+          [
+            8.820851,
+            17.992694
+          ]
+        ],
+        "finite_errors": [],
+        "current_plane_union_gap_mm2": 0.0
+      }
+    ]
+  }
+}

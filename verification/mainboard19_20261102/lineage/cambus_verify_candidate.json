@@ -1,0 +1,122 @@
+{
+  "source_sha256": "cb46267e51addf56e244c7189c110b45673002e1cd17734fe4871a356be117cd",
+  "candidate_sha256": "f6792549f64301fca1dcdf1980a96ceee5bc7f9351f4d45fe7ac5de4faa809e9",
+  "checks": {
+    "exact_3_removals_46_additions": true,
+    "all_retained_copper_raw_exact": true,
+    "all_nonrouting_and_footprints_raw_exact": true,
+    "zone_definitions_exact": true,
+    "all_retained_dependencies_except_declared_schematic_exact": true,
+    "all_added_exact": true,
+    "all_existing_vias_raw_retained": true,
+    "all92_partitions_only_CAMBUS_complete_merge": true,
+    "cores_103_41_12": true,
+    "all_saved_planes_one_island": true,
+    "new_via_drill_spacing_including_same_net": true
+  },
+  "old_copper_count": 3139,
+  "new_copper_count": 3182,
+  "retained_copper_count": 3136,
+  "partition_changes": {
+    "CAM_BUS_EN": {
+      "old": [
+        [
+          "JP202.1"
+        ],
+        [
+          "R108.1",
+          "U101.37"
+        ]
+      ],
+      "new": [
+        [
+          "JP202.1",
+          "R108.1",
+          "U101.37"
+        ]
+      ]
+    }
+  },
+  "cores": {
+    "GND": 103,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "planes": [
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "lost_mm2": 3.1185909471665,
+      "gained_mm2": 1.06694e-07,
+      "old_area_mm2": 1184.8565305077846,
+      "new_area_mm2": 1181.737939655271,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "3V3_AON",
+      "lost_mm2": 2.806056537238,
+      "gained_mm2": 1.395375e-07,
+      "old_area_mm2": 847.111912752737,
+      "new_area_mm2": 844.305856323281,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "lost_mm2": 3.1185909471665,
+      "gained_mm2": 1.06694e-07,
+      "old_area_mm2": 1182.9215305077846,
+      "new_area_mm2": 1179.802939655271,
+      "old_islands": 1,
+      "new_islands": 1
+    }
+  ],
+  "new_via_drill_checks": [
+    {
+      "uuid": "b83ac567-aca7-45fa-be44-7f6ff658b959",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "433ac669-2291-4364-af5b-68742a1ac97d",
+      "edge_gap_mm": 0.787527103802727
+    },
+    {
+      "uuid": "d02a710a-f3a1-467e-a71b-d1995b8a6df9",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "14646288-5cd1-54db-98e5-fc30ed12147d",
+      "edge_gap_mm": 0.5726812550435297
+    },
+    {
+      "uuid": "311dd1c3-0202-4842-be24-2879f0d25df2",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "4db5fa38-47d1-417d-98c6-34160ad78b3d",
+      "edge_gap_mm": 1.3878466013771604
+    },
+    {
+      "uuid": "200aa9e4-3707-495d-b620-c9b10e8960b2",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "14f8bb65-6612-515f-ae53-6b79592dedb6",
+      "edge_gap_mm": 2.0242239454240183
+    },
+    {
+      "uuid": "d26376b3-b36a-4c67-8d5e-c5e062ede27a",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "48a400b6-aa25-4412-ba71-4ffb0d82a6b9",
+      "edge_gap_mm": 1.4596308682842691
+    },
+    {
+      "uuid": "550b4d29-be41-43e2-9d65-840aeb7752a1",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "7da3863a-226b-5b7c-bda7-c3d6ed85dd98",
+      "edge_gap_mm": 0.7827102777522998
+    },
+    {
+      "uuid": "442362a3-43b7-4ebc-9002-e124a9188df6",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "4a30ec69-3d39-5dbb-8b4e-c9e6056cf8aa",
+      "edge_gap_mm": 0.8461134182988896
+    }
+  ],
+  "footprints": 103
+}

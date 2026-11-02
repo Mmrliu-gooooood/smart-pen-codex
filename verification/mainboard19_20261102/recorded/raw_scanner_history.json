@@ -1,0 +1,174 @@
+{
+  "status": "CORRECTED_NONVACUOUS_RAW_FOOTPRINT_AUDIT_PASS",
+  "sources": [
+    {
+      "name": "base28",
+      "path": "pcb_resume_20261102_0402pcb_iso_compact_20261101_1835/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "b749f9e085a7d743838ef94b0c26b4d1f1061b0359febfae6f49a6eabe16207f",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "tp27",
+      "path": "pcb_control_progress_20261102_0404/candidate_tp_dogleg/mainboard_revD.kicad_pcb",
+      "sha256": "0372472601cad2c89a4f366b642c185c100fed5f383420258b98426f979d23e4",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "combined26",
+      "path": "pcb_control_progress_20261102_0404/combined_candidate/mainboard_revD.kicad_pcb",
+      "sha256": "8e78731d27df6caa86f1a7f6172259185453df953169b0b7acd27194a40a8c42",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "extclk25",
+      "path": "pcb_extclk_bias_20261102_0432/candidate_revised/mainboard_revD.kicad_pcb",
+      "sha256": "46b462ab67c0641f9420a7c6f8846546a5ea8802d96b433ce7ecd86dea46c1a5",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "d5_24",
+      "path": "sensor_d5_candidate_20261102_0445/release/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "dcaaafa93bde51e58a96d9443cb77031773fc42a16ad3db20210b53f0394b052",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "interface23",
+      "path": "pcb_interface_codesign_20261102_0612/release/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "r108_22",
+      "path": "pcb_r108_relocation_20261102_0807/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "cb46267e51addf56e244c7189c110b45673002e1cd17734fe4871a356be117cd",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "cambus21",
+      "path": "pcb_cambus_j105_margin_20261102_0916/release/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "f6792549f64301fca1dcdf1980a96ceee5bc7f9351f4d45fe7ac5de4faa809e9",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "d7_20",
+      "path": "pcb_d7_bias_candidate_20261102_1036/release/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "1639b8db38415f0466c13334add7cd4bfe6708b0caa232e8b1e79a7044fdf8e7",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    },
+    {
+      "name": "r230_unaccepted",
+      "path": "pcb_r230_candidate_20261102_1149/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "4ab628e6c8ea69baf79990bf8fb57269b763c05932e0e612e556e2868db4feb1",
+      "nonempty_raw_footprint_count": 103,
+      "unique_references": 103
+    }
+  ],
+  "comparisons": [
+    {
+      "from": "base28",
+      "to": "tp27",
+      "actual_changed_refs": [
+        "TP301"
+      ],
+      "expected_changed_refs": [
+        "TP301"
+      ],
+      "nonempty_unchanged_blocks": 102
+    },
+    {
+      "from": "tp27",
+      "to": "combined26",
+      "actual_changed_refs": [],
+      "expected_changed_refs": [],
+      "nonempty_unchanged_blocks": 103
+    },
+    {
+      "from": "combined26",
+      "to": "extclk25",
+      "actual_changed_refs": [],
+      "expected_changed_refs": [],
+      "nonempty_unchanged_blocks": 103
+    },
+    {
+      "from": "extclk25",
+      "to": "d5_24",
+      "actual_changed_refs": [],
+      "expected_changed_refs": [],
+      "nonempty_unchanged_blocks": 103
+    },
+    {
+      "from": "d5_24",
+      "to": "interface23",
+      "actual_changed_refs": [
+        "J107"
+      ],
+      "expected_changed_refs": [
+        "J107"
+      ],
+      "nonempty_unchanged_blocks": 102
+    },
+    {
+      "from": "interface23",
+      "to": "r108_22",
+      "actual_changed_refs": [
+        "R108"
+      ],
+      "expected_changed_refs": [
+        "R108"
+      ],
+      "nonempty_unchanged_blocks": 102
+    },
+    {
+      "from": "r108_22",
+      "to": "cambus21",
+      "actual_changed_refs": [],
+      "expected_changed_refs": [],
+      "nonempty_unchanged_blocks": 103
+    },
+    {
+      "from": "cambus21",
+      "to": "d7_20",
+      "actual_changed_refs": [],
+      "expected_changed_refs": [],
+      "nonempty_unchanged_blocks": 103
+    },
+    {
+      "from": "d7_20",
+      "to": "r230_unaccepted",
+      "actual_changed_refs": [
+        "R230"
+      ],
+      "expected_changed_refs": [
+        "R230"
+      ],
+      "nonempty_unchanged_blocks": 102
+    }
+  ],
+  "negative_unchanged_ref_mutation_detected": "R224",
+  "limits": [
+    "This corrects earlier auxiliary rawfootprint scanner proof, not a nativefile change. Original pcbnew pose/actualpad/body/scene checks were independent.",
+    "Rawtext identity is now established through explicit103-count/nonempty reference checks on historical accepted-chain snapshots; no emptyset success.",
+    "No reinterpretation of failed candidates as accepted; currentR230 still pending silkfix/newhash."
+  ],
+  "nonempty_count_negatives": [
+    {
+      "mutation": "empty_input",
+      "rejected": true,
+      "reason": "exact103 required"
+    },
+    {
+      "mutation": "deleted_one_footprint",
+      "rejected": true,
+      "reason": "exact103 required"
+    }
+  ]
+}

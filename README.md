@@ -1,6 +1,6 @@
 ## 当前设计入口（2026-11-02）
 
-请先阅读 [CURRENT_STATUS.md](CURRENT_STATUS.md)。当前有限静态主板为 **617a991… / DRC 0违规、23未连接、0网表差异**：[打开原生工程与预览](hardware/mainboard_wip_20261102/README.md)。新增 [离线回传12项模型测试](verification/offline_ack_crosswire_20261102/README.md)及当前机械绑定资料。所有成果仍为 **NOFAB / NO POWER**；零违规不等于整笔完成、可制造或可上电。历史资料入口保留，不与当前版本混用。
+请先阅读 [CURRENT_STATUS.md](CURRENT_STATUS.md)。当前有限静态主板为 **f7632bf… /0错误、0警告、19项未连接、0网表差异**：[原生工程与预览](hardware/mainboard_wip19_20261102/README.md)。此前617a／23项快照及其审查保持历史追溯。所有成果仍为 **NOFAB / NO POWER**；不代表整笔制造、装配或上电放行。
 
 ---
 

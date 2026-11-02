@@ -1,0 +1,86 @@
+{
+  "source_sha256": "f6792549f64301fca1dcdf1980a96ceee5bc7f9351f4d45fe7ac5de4faa809e9",
+  "candidate_sha256": "1639b8db38415f0466c13334add7cd4bfe6708b0caa232e8b1e79a7044fdf8e7",
+  "checks": {
+    "exact_zero_removals_four_additions": true,
+    "all_retained_copper_raw_exact": true,
+    "all_nonrouting_and_footprints_raw_exact": true,
+    "zone_definitions_exact": true,
+    "all_retained_dependencies_except_declared_schematic_exact": true,
+    "all_added_exact": true,
+    "all_existing_vias_raw_retained": true,
+    "all92_partitions_only_D7_bias_merge": true,
+    "cores_103_41_12": true,
+    "all_saved_planes_one_island": true,
+    "new_via_drill_spacing_including_same_net": true
+  },
+  "old_copper_count": 3182,
+  "new_copper_count": 3186,
+  "retained_copper_count": 3182,
+  "partition_changes": {
+    "SENS_D7": {
+      "old": [
+        [
+          "J202.12",
+          "U201.14"
+        ],
+        [
+          "R231.1"
+        ]
+      ],
+      "new": [
+        [
+          "J202.12",
+          "R231.1",
+          "U201.14"
+        ]
+      ]
+    }
+  },
+  "cores": {
+    "GND": 103,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "planes": [
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "lost_mm2": 0.445512997293,
+      "gained_mm2": 0.0,
+      "old_area_mm2": 1181.737939655271,
+      "new_area_mm2": 1181.292426657978,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "3V3_AON",
+      "lost_mm2": 0.445513065815,
+      "gained_mm2": 0.0,
+      "old_area_mm2": 844.305856323281,
+      "new_area_mm2": 843.8603433152055,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "lost_mm2": 0.445512997293,
+      "gained_mm2": 0.0,
+      "old_area_mm2": 1179.802939655271,
+      "new_area_mm2": 1179.357426657978,
+      "old_islands": 1,
+      "new_islands": 1
+    }
+  ],
+  "new_via_drill_checks": [
+    {
+      "uuid": "0bfe88e8-7659-4059-a55c-b5d95be0a33c",
+      "net": "SENS_D7",
+      "nearest_drill_uuid": "8227a8c0-e9b5-4c86-81d6-38c23dc22d59",
+      "edge_gap_mm": 0.7000051105904956
+    }
+  ],
+  "footprints": 103
+}

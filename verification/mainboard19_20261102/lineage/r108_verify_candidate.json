@@ -1,0 +1,93 @@
+{
+  "source_sha256": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5",
+  "candidate_sha256": "cb46267e51addf56e244c7189c110b45673002e1cd17734fe4871a356be117cd",
+  "checks": {
+    "exact_12_removals_13_additions": true,
+    "all_retained_copper_raw_exact": true,
+    "all_nonrouting_except_declared_R108_raw_exact": true,
+    "zone_definitions_exact": true,
+    "all_retained_dependencies_except_declared_schematic_exact": true,
+    "all_added_exact": true,
+    "R108_value_footprint_identity_unchanged": true,
+    "R108_exact_pose": true,
+    "R108_terminal_contract": true,
+    "all_existing_vias_raw_retained": true,
+    "all92_partitions_only_CAMBUS_bias_merge": true,
+    "cores_103_41_12": true,
+    "all_saved_planes_one_island": true,
+    "new_via_drill_spacing_including_same_net": true
+  },
+  "old_copper_count": 3138,
+  "new_copper_count": 3139,
+  "retained_copper_count": 3126,
+  "partition_changes": {
+    "CAM_BUS_EN": {
+      "old": [
+        [
+          "JP202.1"
+        ],
+        [
+          "R108.1"
+        ],
+        [
+          "U101.37"
+        ]
+      ],
+      "new": [
+        [
+          "JP202.1"
+        ],
+        [
+          "R108.1",
+          "U101.37"
+        ]
+      ]
+    }
+  },
+  "cores": {
+    "GND": 103,
+    "3V3_AON": 41,
+    "SENS_VIO_1V8": 12
+  },
+  "planes": [
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "lost_mm2": 0.372249815627,
+      "gained_mm2": 6.60245e-08,
+      "old_area_mm2": 1185.2287802484366,
+      "new_area_mm2": 1184.8565305077846,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "3V3_AON",
+      "lost_mm2": 0.3722498467265,
+      "gained_mm2": 6.60245e-08,
+      "old_area_mm2": 847.484162505693,
+      "new_area_mm2": 847.111912752737,
+      "old_islands": 1,
+      "new_islands": 1
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "lost_mm2": 0.372249815627,
+      "gained_mm2": 6.60245e-08,
+      "old_area_mm2": 1183.2937802484364,
+      "new_area_mm2": 1182.9215305077846,
+      "old_islands": 1,
+      "new_islands": 1
+    }
+  ],
+  "new_via_drill_checks": [
+    {
+      "uuid": "5fe056ab-83b3-4548-8846-05a1300e9a8e",
+      "net": "CAM_BUS_EN",
+      "nearest_drill_uuid": "94ee02e8-3326-4de2-b64d-c3d9d15c807c",
+      "edge_gap_mm": 0.41394557402183524
+    }
+  ],
+  "footprints": 103
+}

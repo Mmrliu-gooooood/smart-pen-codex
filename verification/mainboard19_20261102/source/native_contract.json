@@ -1,0 +1,173 @@
+{
+  "source_sha256": "1639b8db38415f0466c13334add7cd4bfe6708b0caa232e8b1e79a7044fdf8e7",
+  "parent_sha256": "1639b8db38415f0466c13334add7cd4bfe6708b0caa232e8b1e79a7044fdf8e7",
+  "candidate_sha256": "f7632bf6296ba212ec59e54edb1dfdb91995f6f4f071a3d9505b6638f3fbf416",
+  "removed": [
+    "037571e0-6127-40b6-b417-9eefb2dc31fb"
+  ],
+  "objects": [
+    {
+      "type": "track",
+      "net": "SENS_D6",
+      "layer": "B.Cu",
+      "start": [
+        3.425,
+        36.2
+      ],
+      "end": [
+        2.6,
+        36.541726
+      ],
+      "width": 0.15,
+      "uuid": "a04ca96c-8f93-4851-ae61-83fb27a7052a"
+    },
+    {
+      "type": "track",
+      "net": "SENS_D6",
+      "layer": "B.Cu",
+      "start": [
+        2.6,
+        36.541726
+      ],
+      "end": [
+        3.0999999999999996,
+        37.6505945
+      ],
+      "width": 0.15,
+      "uuid": "edd29acc-bd33-4513-8021-34b79eca67cc"
+    },
+    {
+      "type": "track",
+      "net": "SENS_D6",
+      "layer": "B.Cu",
+      "start": [
+        3.0999999999999996,
+        37.6505945
+      ],
+      "end": [
+        3.5418369999999997,
+        39.48405733333333
+      ],
+      "width": 0.15,
+      "uuid": "a2fa66c6-4e3b-48dc-b1f6-b0cf80dc9bdf"
+    },
+    {
+      "type": "track",
+      "net": "SENS_D6",
+      "layer": "B.Cu",
+      "start": [
+        3.5418369999999997,
+        39.48405733333333
+      ],
+      "end": [
+        3.725,
+        39.3
+      ],
+      "width": 0.15,
+      "uuid": "4d77eabf-e0c6-42a4-a9e3-9c4726bcdbea"
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.075,
+        36.2
+      ],
+      "end": [
+        5.9,
+        36.2
+      ],
+      "width": 0.3,
+      "uuid": "fa37001b-ceb5-4033-a2c3-396280c9ce8f"
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.9,
+        36.2
+      ],
+      "end": [
+        5.92,
+        35.515
+      ],
+      "width": 0.3,
+      "uuid": "7aa5e3fb-6ffc-48f0-83d2-bb4076dc6f59"
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        5.92,
+        35.515
+      ],
+      "end": [
+        3.889867666666667,
+        35.451856
+      ],
+      "width": 0.3,
+      "uuid": "311a2936-073d-4b8d-a929-c2a6358c79ed"
+    },
+    {
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start": [
+        3.889867666666667,
+        35.451856
+      ],
+      "end": [
+        1.5,
+        33.725
+      ],
+      "width": 0.3,
+      "uuid": "92339d17-d039-4191-9481-1e9618781745"
+    }
+  ],
+  "moved_footprint": "R230",
+  "old_pose": [
+    11.1,
+    34.25,
+    90,
+    "F.Cu"
+  ],
+  "new_pose": [
+    4.25,
+    36.2,
+    0,
+    "B.Cu"
+  ],
+  "full_budget_mm": [
+    2.45,
+    0.95,
+    1.45
+  ],
+  "retained_original_ground_via": [
+    11.1,
+    32.325
+  ],
+  "new_ground_feed_existing_via": [
+    1.5,
+    33.725
+  ],
+  "new_vias": 0,
+  "scope": "Unaccepted R230 relocation D6 bias leaf closure; only oldGNDleaf removed, all old vias/signals kept. Actual finite GNDplane continuity must verify both existing vias samecore.",
+  "prelabel_candidate_sha256": "4ab628e6c8ea69baf79990bf8fb57269b763c05932e0e612e556e2868db4feb1",
+  "label_change": {
+    "reference": "J107",
+    "uuid": "7bdd4403-e4fa-4ba6-b02d-6a4a325e4f85",
+    "text": "1 EN1",
+    "old_xy": [
+      5.22,
+      35.71
+    ],
+    "new_xy": [
+      7.6,
+      35.71
+    ],
+    "only_position": true
+  }
+}

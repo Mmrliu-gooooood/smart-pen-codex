@@ -1,3 +1,5 @@
+> 历史限定：本合同与测试只绑定617a／23项快照，未在此声明适配当前f763。物理线束未采纳。
+
 # Current-native binding of the candidate T–P–M return tree
 
 2026-11-02. **READ-ONLY LOGICAL CANDIDATE / NOFAB / NO POWER. The physical harness is not adopted.** This derived checkpoint binds the existing hardened wirelist to the exact supplied mainboard `617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5` and power RevB `94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc`. Native release status is controlled by the matching electrical/mechanical reviews, not by this topology check.

@@ -1,0 +1,82 @@
+[
+  {
+    "step": "r108",
+    "author_manifest": "pcb_r108_relocation_20261102_0807/release/manifest.json",
+    "author_manifest_sha256": "fd0cff05568a28110aa92b9e37db6212a855460c74e61e1f2c641fc12a9226a4",
+    "independent_reviews": {
+      "ecad": {
+        "path": "independent_r108_22_review_20261102_0815/release/manifest.json",
+        "sha256": "a339df73445c990408f20b21933063a2aa492c2b5c4a902d88b403564ef13d49"
+      },
+      "mcad": {
+        "path": "independent_r108_mechanics_20261102_0815/manifest.json",
+        "sha256": "20c2a2fd939c2c486e124d878f819a4c9c19e66bb4a67af0af67d383223872cc"
+      },
+      "planes": {
+        "path": "independent_r108_planes_20261102_0821/manifest.json",
+        "sha256": "dafb627d64b435360c14017a30fe869c2de9e4b9f6648eddcc0d79d16e4c1cc8"
+      }
+    }
+  },
+  {
+    "step": "cambus",
+    "author_manifest": "pcb_cambus_j105_margin_20261102_0916/release/manifest.json",
+    "author_manifest_sha256": "88a762793d962076f0fab94c5c0a0dbe768c4ce5761e3fcd0d3ab4f08d45e968",
+    "independent_reviews": {
+      "ecad": {
+        "path": "independent_cambus21_repair_review_20261102_0926/release/manifest.json",
+        "sha256": "f2eb06cb271c824c21948f87476e2505223ed20b38ea5caecf0410c6b7b63796"
+      },
+      "planes": {
+        "path": "independent_cambus_final_planes_20261102_0926/manifest.json",
+        "sha256": "e5ee70c288d22a0ed902727e35a109db511890e604985ff77ad66434883a1f1a"
+      },
+      "mcad": {
+        "path": "independent_cambus_final_mechanics_20261102_0926/manifest.json",
+        "sha256": "74fc2fb9f428bfbfbcbca85d324b5c1a76b0ac8bc08bf73052a3b592607701c4"
+      }
+    }
+  },
+  {
+    "step": "d7",
+    "author_manifest": "pcb_d7_bias_candidate_20261102_1036/release/manifest.json",
+    "author_manifest_sha256": "c2ff634148cfa5a9f250a4148dee734c26d90400b6eae39357154ae24f6fa002",
+    "independent_reviews": {
+      "ECAD": {
+        "manifest": "independent_d7_20_review_20261102_1038/release/manifest.json",
+        "sha256": "9dbe6ac10ddbcf5fd2824342588ed9ee2a977e73633ad2f97d34ad1b7fb4db0d"
+      },
+      "planes": {
+        "manifest": "independent_d7_planes_20261102_1038/manifest.json",
+        "sha256": "77f66bf2ce7c15bd88f2c2dc36f829b2f4b2caaa8130d387aee88e21ba4ab348"
+      },
+      "MCAD": {
+        "manifest": "independent_d7_mechanics_20261102_1038/manifest.json",
+        "sha256": "a0de40f2ce0a8da8056669f25aa8bbfed2584e04dc00c38c46d1199d29218d3c"
+      }
+    }
+  },
+  {
+    "step": "r230",
+    "author_manifest": "pcb_r230_final_candidate_20261102_1153/clean_release/manifest.json",
+    "author_manifest_sha256": "f8189da2c231355220834f2f05e7ee836626b0fdddea9e6ed7481829b3356989",
+    "independent_reviews": {
+      "MCAD": {
+        "manifest": "independent_r230_final_mechanics_20261102_1156/manifest.json",
+        "sha256": "68275a66c9a5e0c7571916cce2941d8a64bb8a638d4cdd6729bc7688126e3a70"
+      },
+      "planes": {
+        "manifest": "independent_r230_final_planes_20261102_1154/manifest.json",
+        "sha256": "94b99c38b8fcd7d1aaa41536b609c5eccd9f1211cd562bfa835f6ce0f6905ef7"
+      },
+      "mechanical_scanner_erratum": {
+        "manifest": "mechanical_raw_scanner_erratum_20261102_1154/manifest.json",
+        "sha256": "e757b8dbdd45dffa40afaf932054aefeac2a14951fb3f39fe3a2fbd8f782f3c8"
+      },
+      "ECAD": {
+        "manifest": "independent_r230_final19_review_20261102_1155/release/manifest.json",
+        "sha256": "fc01de70375fd907f4ad6bfca5a3e272a88dccf11ca44043f60646f7a0384507"
+      }
+    }
+  }
+]

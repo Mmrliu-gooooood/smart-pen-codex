@@ -1,0 +1,487 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-02T20:50:34+0900",
+    "kicad_version": "9.0.2",
+    "schematic_parity": [],
+    "source": "mainboard_revD.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [CAM_PWR_EN] of R106 on F.Cu",
+                    "pos": {
+                        "x": 8.675,
+                        "y": 22.0
+                    },
+                    "uuid": "9413386e-916e-43e1-9d53-76bf04e4637d"
+                },
+                {
+                    "description": "Pad 47 [CAM_PWR_EN] of U101 on F.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 6.575
+                    },
+                    "uuid": "d5891525-e010-4fd2-a104-58e2b5626611"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [CAM_PWR_EN] on B.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 7.175,
+                        "y": 73.0
+                    },
+                    "uuid": "1eb75542-0d36-4e94-9cc2-d7fcfe560fc8"
+                },
+                {
+                    "description": "Pad 1 [CAM_PWR_EN] of R106 on F.Cu",
+                    "pos": {
+                        "x": 8.675,
+                        "y": 22.0
+                    },
+                    "uuid": "9413386e-916e-43e1-9d53-76bf04e4637d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [BATTERY_ADC] of J105 on B.Cu",
+                    "pos": {
+                        "x": 2.0,
+                        "y": 77.5
+                    },
+                    "uuid": "4fb634e5-8feb-4c9b-8102-bb3a58ebb21c"
+                },
+                {
+                    "description": "Pad 9 [BATTERY_ADC] of U101 on F.Cu",
+                    "pos": {
+                        "x": 2.575,
+                        "y": 10.6
+                    },
+                    "uuid": "5594da53-40cd-4117-b45e-24e441da6cec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [USB_EN1] of J107 on B.Cu",
+                    "pos": {
+                        "x": 5.22,
+                        "y": 34.31
+                    },
+                    "uuid": "0e2591dd-d6b2-48b9-9187-ed4edfa44df6"
+                },
+                {
+                    "description": "Pad 24 [USB_EN1] of U101 on F.Cu",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 13.425
+                    },
+                    "uuid": "644b2d17-4751-442b-946c-d5a053aa8ada"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_D4] of R228 on F.Cu",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 40.9
+                    },
+                    "uuid": "29322557-dd20-4bb3-bf6e-ad858867e587"
+                },
+                {
+                    "description": "Track [SENS_D4] on In3.Cu, length 8.4750 mm",
+                    "pos": {
+                        "x": 5.025,
+                        "y": 38.0
+                    },
+                    "uuid": "14b8a960-afa5-54a5-a9e0-fd69882359c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D3] on F.Cu, length 45.5500 mm",
+                    "pos": {
+                        "x": 12.6,
+                        "y": 39.95
+                    },
+                    "uuid": "03894dc9-e04e-525b-9aa3-ad7aeb81e755"
+                },
+                {
+                    "description": "Pad 1 [SENS_D3] of R227 on B.Cu",
+                    "pos": {
+                        "x": 9.675,
+                        "y": 44.0
+                    },
+                    "uuid": "b48e95b7-d793-4c13-bb56-e54ac716a146"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D2] on F.Cu, length 2.4375 mm",
+                    "pos": {
+                        "x": 6.325,
+                        "y": 36.8625
+                    },
+                    "uuid": "3a44b612-7834-554c-bed2-db8be20e572a"
+                },
+                {
+                    "description": "Pad 1 [SENS_D2] of R226 on B.Cu",
+                    "pos": {
+                        "x": 6.675,
+                        "y": 44.0
+                    },
+                    "uuid": "3fb3a662-eca1-4157-8a5a-7a43893b9a34"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_D1] of R225 on B.Cu",
+                    "pos": {
+                        "x": 3.675,
+                        "y": 43.3
+                    },
+                    "uuid": "8c9186c7-8653-478a-a0ca-ac4603d968db"
+                },
+                {
+                    "description": "Track [SENS_D1] on F.Cu, length 1.7875 mm",
+                    "pos": {
+                        "x": 6.975,
+                        "y": 36.8625
+                    },
+                    "uuid": "fecc0f13-6831-554a-acae-71729e8601bd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_D0] on F.Cu, length 1.1375 mm",
+                    "pos": {
+                        "x": 7.625,
+                        "y": 36.8625
+                    },
+                    "uuid": "4e37a39f-fe1d-5456-89f0-3327f8fd42f2"
+                },
+                {
+                    "description": "Pad 1 [SENS_D0] of R224 on F.Cu",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 39.1
+                    },
+                    "uuid": "17a4b13a-455c-4842-8947-1a1a0a34371a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_VSYNC] of R233 on F.Cu",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 50.9
+                    },
+                    "uuid": "eaf6e553-a59b-4033-91ab-6a768588c5f6"
+                },
+                {
+                    "description": "Track [SENS_VSYNC] on B.Cu, length 7.5250 mm",
+                    "pos": {
+                        "x": 5.675,
+                        "y": 50.4
+                    },
+                    "uuid": "4a10ab98-7e14-52f2-8f36-a86fb8f9b80a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENS_PCLK] on B.Cu, length 7.1750 mm",
+                    "pos": {
+                        "x": 6.325,
+                        "y": 49.9
+                    },
+                    "uuid": "ad7580f0-b8b1-5929-b38f-95c054aa7efa"
+                },
+                {
+                    "description": "Pad 1 [SENS_PCLK] of R232 on F.Cu",
+                    "pos": {
+                        "x": 9.775,
+                        "y": 50.9
+                    },
+                    "uuid": "f2f1d847-543b-4eef-95d6-5460c1c9c1d1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 11 [SENS_TRIG_IN] of U203 on F.Cu",
+                    "pos": {
+                        "x": 5.025,
+                        "y": 58.8625
+                    },
+                    "uuid": "0fe41862-c6a6-498d-8ac2-d6b2b61343dd"
+                },
+                {
+                    "description": "Pad 1 [SENS_TRIG_IN] of R237 on F.Cu",
+                    "pos": {
+                        "x": 3.675,
+                        "y": 62.0
+                    },
+                    "uuid": "bd09a43f-b869-48a8-90c9-ca35adeac505"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_TRIG_IN] of R237 on F.Cu",
+                    "pos": {
+                        "x": 3.675,
+                        "y": 62.0
+                    },
+                    "uuid": "bd09a43f-b869-48a8-90c9-ca35adeac505"
+                },
+                {
+                    "description": "Pad 20 [SENS_TRIG_IN] of J202 on B.Cu",
+                    "pos": {
+                        "x": 3.25,
+                        "y": 88.8
+                    },
+                    "uuid": "3976c65e-9317-4f31-89ee-daf5c8199732"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 12 [SENS_XSHUTDN_N] of U203 on F.Cu",
+                    "pos": {
+                        "x": 5.675,
+                        "y": 58.8625
+                    },
+                    "uuid": "dfd1ce57-b050-45a9-a6f7-182ff422a5de"
+                },
+                {
+                    "description": "Pad 1 [SENS_XSHUTDN_N] of R236 on F.Cu",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 62.0
+                    },
+                    "uuid": "75af3c53-d1ee-4655-8362-3c6a40b1327c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_XSHUTDN_N] of R236 on F.Cu",
+                    "pos": {
+                        "x": 0.675,
+                        "y": 62.0
+                    },
+                    "uuid": "75af3c53-d1ee-4655-8362-3c6a40b1327c"
+                },
+                {
+                    "description": "Pad 19 [SENS_XSHUTDN_N] of J202 on B.Cu",
+                    "pos": {
+                        "x": 3.75,
+                        "y": 88.8
+                    },
+                    "uuid": "6caa71f3-ac19-466c-9f61-2dd624c246fb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_SCL] of R242 on F.Cu",
+                    "pos": {
+                        "x": 6.675,
+                        "y": 76.0
+                    },
+                    "uuid": "24f33e7a-55e4-437a-b7be-6533539a7be4"
+                },
+                {
+                    "description": "Pad 2 [SENS_SCL] of U204 on F.Cu",
+                    "pos": {
+                        "x": 3.8875,
+                        "y": 64.675
+                    },
+                    "uuid": "46f3409c-49c0-469c-920d-3207cb8aa826"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 21 [SENS_SCL] of J202 on B.Cu",
+                    "pos": {
+                        "x": 2.75,
+                        "y": 88.8
+                    },
+                    "uuid": "b362c926-287b-47e1-969f-addceaf51826"
+                },
+                {
+                    "description": "Pad 1 [SENS_SCL] of R242 on F.Cu",
+                    "pos": {
+                        "x": 6.675,
+                        "y": 76.0
+                    },
+                    "uuid": "24f33e7a-55e4-437a-b7be-6533539a7be4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [SENS_SDA] of R243 on F.Cu",
+                    "pos": {
+                        "x": 9.675,
+                        "y": 76.0
+                    },
+                    "uuid": "51549648-99da-4f8a-adc3-b68c766c1c7b"
+                },
+                {
+                    "description": "Pad 3 [SENS_SDA] of U204 on F.Cu",
+                    "pos": {
+                        "x": 3.8875,
+                        "y": 65.325
+                    },
+                    "uuid": "770d2d22-6206-4ecc-95c7-5162c8d6d9a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 22 [SENS_SDA] of J202 on B.Cu",
+                    "pos": {
+                        "x": 2.25,
+                        "y": 88.8
+                    },
+                    "uuid": "7228427c-6dcc-43e3-b8bf-c3c5ec5f467d"
+                },
+                {
+                    "description": "Pad 1 [SENS_SDA] of R243 on F.Cu",
+                    "pos": {
+                        "x": 9.675,
+                        "y": 76.0
+                    },
+                    "uuid": "51549648-99da-4f8a-adc3-b68c766c1c7b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of J107 (1 EN1)",
+                    "pos": {
+                        "x": 5.22,
+                        "y": 35.71
+                    },
+                    "uuid": "7bdd4403-e4fa-4ba6-b02d-6a4a325e4f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R230 on B.Silkscreen",
+                    "pos": {
+                        "x": 4.012742,
+                        "y": 35.6775
+                    },
+                    "uuid": "047d60cc-0acc-426a-a42c-5a62ddb01703"
+                },
+                {
+                    "description": "Footprint text of J107 (1 EN1)",
+                    "pos": {
+                        "x": 5.22,
+                        "y": 35.71
+                    },
+                    "uuid": "7bdd4403-e4fa-4ba6-b02d-6a4a325e4f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
