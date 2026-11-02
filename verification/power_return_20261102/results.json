@@ -1,0 +1,246 @@
+{
+  "status": "PASS_READ_ONLY_CONTRACT_NOT_HARDWARE",
+  "source_hashes": {
+    "main": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5",
+    "power": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc"
+  },
+  "contract_sha256": "eb0bed464af8a96f580eb87451e7133a027634d9f344c696cf3a04a1ed78136c",
+  "native": {
+    "main": {
+      "J106": {
+        "value": "POWER_CORE",
+        "pads": {
+          "1": "VBUS_5V",
+          "2": "3V3_AON",
+          "3": "GND"
+        }
+      },
+      "J109": {
+        "value": "USB_TAIL_LINK",
+        "pads": {
+          "1": "USB_DP",
+          "2": "USB_DM",
+          "3": "GND"
+        }
+      },
+      "J107": {
+        "value": "CHARGER_MODE",
+        "pads": {
+          "1": "USB_EN1",
+          "2": "USB_EN2",
+          "3": "GND"
+        }
+      }
+    },
+    "power": {
+      "J1": {
+        "value": "NTC WIRES / MPN TBD",
+        "pads": {
+          "1": "/core/PACK_NTC",
+          "2": "GND"
+        }
+      },
+      "J4": {
+        "value": "PROTECTED PACK ONLY",
+        "pads": {
+          "1": "/core/PACK_PLUS_PROTECTED",
+          "2": "GND"
+        }
+      },
+      "J104": {
+        "value": "CELL NTC2 TWO WIRES",
+        "pads": {
+          "1": "/thermal/NTC_NODE",
+          "2": "GND"
+        }
+      },
+      "JP1": {
+        "value": "OPEN / DO NOT BRIDGE",
+        "pads": {
+          "1": "/core/CHARGE_DISABLE",
+          "2": "CE_PERMISSION_INTERNAL"
+        }
+      },
+      "J3": {
+        "value": "3V3 OUT",
+        "pads": {
+          "1": "/core/3V3_AON",
+          "2": "GND"
+        }
+      },
+      "J5": {
+        "value": "MCU USB MODE / NO CE PORT",
+        "pads": {
+          "1": "/core/USB_EN1",
+          "2": "/core/USB_EN2",
+          "3": "GND"
+        }
+      },
+      "J2": {
+        "value": "VBUS IN",
+        "pads": {
+          "1": "VBUS_5V",
+          "2": "GND"
+        }
+      }
+    }
+  },
+  "current_J107_lands": {
+    "1": {
+      "net": "USB_EN1",
+      "xy_mm": [
+        5.22,
+        34.31
+      ],
+      "angle_deg": 270.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    },
+    "2": {
+      "net": "USB_EN2",
+      "xy_mm": [
+        7.2,
+        25.38
+      ],
+      "angle_deg": 270.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    },
+    "3": {
+      "net": "GND",
+      "xy_mm": [
+        6.4,
+        31.66
+      ],
+      "angle_deg": 180.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    }
+  },
+  "physical_harness_adopted": false,
+  "ground_cycle_rank": 0,
+  "single_open": [
+    {
+      "opened_edge": "G_TP",
+      "components": [
+        [
+          "M",
+          "P"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "intended_ground_alternate_path": false,
+      "signal_clamp_or_external_return_hazard": "NOT MODELLED; remains a release blocker"
+    },
+    {
+      "opened_edge": "G_PM",
+      "components": [
+        [
+          "M"
+        ],
+        [
+          "P",
+          "T"
+        ]
+      ],
+      "intended_ground_alternate_path": false,
+      "signal_clamp_or_external_return_hazard": "NOT MODELLED; remains a release blocker"
+    }
+  ],
+  "negative_tests": {
+    "extra_tail_main": "REJECTED",
+    "extra_mode_ground": "REJECTED",
+    "missing_tp": "REJECTED",
+    "missing_pm": "REJECTED",
+    "self_loop": "REJECTED"
+  },
+  "endpoint_negative_tests": {
+    "ground_to_positive_swap": "REJECTED_BY_LIVE_VALIDATOR",
+    "ground_source_wrong_pad": "REJECTED_BY_LIVE_VALIDATOR",
+    "positive_to_ground_swap": "REJECTED_BY_LIVE_VALIDATOR",
+    "en1_en2_destination_swap": "REJECTED_BY_LIVE_VALIDATOR",
+    "usb_dp_dm_destination_swap": "REJECTED_BY_LIVE_VALIDATOR",
+    "wrong_wire_role": "REJECTED_BY_LIVE_VALIDATOR",
+    "missing_signal_wire": "REJECTED_BY_LIVE_VALIDATOR",
+    "extra_signal_wire": "REJECTED_BY_LIVE_VALIDATOR",
+    "wrong_thermal_board": "REJECTED_BY_LIVE_VALIDATOR",
+    "bare_cell_negative": "REJECTED_BY_LIVE_VALIDATOR",
+    "unwired_vbus_omitted": "REJECTED_BY_LIVE_VALIDATOR",
+    "extra_unwired_positive": "REJECTED_BY_LIVE_VALIDATOR",
+    "unwired_ground_omitted": "REJECTED_BY_LIVE_VALIDATOR",
+    "extra_ground_edge": "REJECTED_BY_LIVE_VALIDATOR",
+    "changed_power_role": "REJECTED_BY_LIVE_VALIDATOR",
+    "removed_no_power_status": "REJECTED_BY_LIVE_VALIDATOR"
+  },
+  "normalized_kcl": [
+    {
+      "name": "usb_only_normalized",
+      "arbitrary_units_not_amperes": true,
+      "injections": {
+        "T": -1,
+        "P": 0,
+        "M": 1
+      },
+      "P_to_T": 1,
+      "M_to_P": 1,
+      "residual": {
+        "T": 0,
+        "P": 0,
+        "M": 0
+      }
+    },
+    {
+      "name": "charging_and_main_normalized",
+      "arbitrary_units_not_amperes": true,
+      "injections": {
+        "T": -2,
+        "P": 1,
+        "M": 1
+      },
+      "P_to_T": 2,
+      "M_to_P": 1,
+      "residual": {
+        "T": 0,
+        "P": 0,
+        "M": 0
+      }
+    },
+    {
+      "name": "battery_only_normalized",
+      "arbitrary_units_not_amperes": true,
+      "injections": {
+        "T": 0,
+        "P": -1,
+        "M": 1
+      },
+      "P_to_T": 0,
+      "M_to_P": 1,
+      "residual": {
+        "T": 0,
+        "P": 0,
+        "M": 0
+      }
+    }
+  ],
+  "limits": [
+    "Exact tail native GND and shell mapping must be rebound before complete assembly acceptance",
+    "One complete P-M feed with positive and return routed together; no alternate thin ground wire",
+    "Whole installed harness, joints, strain relief, full pack and shell geometry pending",
+    "Wire, pad and joint continuous/peak/fault capability pending measured or bounded load and protector timing",
+    "USB signal integrity and reference offset with tree routing unqualified",
+    "Single-open may divert current through signal protection paths; tree is not fault-safe",
+    "No energized internal connector mating or partial-connection servicing; powered procedure not released",
+    "Any debug cable, metal chassis, mounting hardware or shared sensor return must enter the complete network before use"
+  ]
+}

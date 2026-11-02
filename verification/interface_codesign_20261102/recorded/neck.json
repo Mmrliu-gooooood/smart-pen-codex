@@ -1,0 +1,1709 @@
+{
+  "method": "Independent GEOS native-ring area check; 64-quadrant negative buffer connectivity between fixed explicit windows, binary bracket in diameter ~0.000122mm. Corridor width is geometric only, not thermal/via/IR current qualification. Horizontal interval totals are not equivalent to minimum conducting-path widths.",
+  "source_hashes": {
+    "parent": "dcaaafa93bde51e58a96d9443cb77031773fc42a16ad3db20210b53f0394b052",
+    "candidate": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5"
+  },
+  "area_checks": [
+    {
+      "plane": "In1.Cu|GND",
+      "GEOS_lost_mm2": 0.857227025890732,
+      "GEOS_gained_mm2": 1.3042315957003675e-09,
+      "vs_native_lost_delta_mm2": -9.387268073979271e-09,
+      "vs_native_gained_delta_mm2": 1.3037315957003676e-09
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "GEOS_lost_mm2": 0.5768525117327186,
+      "GEOS_gained_mm2": 6.1712668013887235,
+      "vs_native_lost_delta_mm2": 2.8713718513984077e-08,
+      "vs_native_gained_delta_mm2": 3.950723304058101e-09
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "GEOS_lost_mm2": 0.857227025890732,
+      "GEOS_gained_mm2": 1.3042315957003675e-09,
+      "vs_native_lost_delta_mm2": -9.387268073979271e-09,
+      "vs_native_gained_delta_mm2": 1.3037315957003676e-09
+    }
+  ],
+  "corridors": [
+    {
+      "plane": "In1.Cu|GND",
+      "target": "MCU_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "parent_corridor_diameter_lower_mm": 1.9796142578125,
+      "parent_corridor_diameter_upper_mm": 1.979736328125,
+      "candidate_corridor_diameter_lower_mm": 1.9796142578125,
+      "candidate_corridor_diameter_upper_mm": 1.979736328125
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "target": "translator_U201_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.8,
+        29,
+        12.3,
+        32.3
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "target": "translator_U202_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        41,
+        11,
+        44.5
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "target": "translator_U203_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        51,
+        11,
+        54.5
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "target": "MCU_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "parent_corridor_diameter_lower_mm": 0.857177734375,
+      "parent_corridor_diameter_upper_mm": 0.8572998046875,
+      "candidate_corridor_diameter_lower_mm": 1.1494140625,
+      "candidate_corridor_diameter_upper_mm": 1.1495361328125
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "target": "translator_U201_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.8,
+        29,
+        12.3,
+        32.3
+      ],
+      "parent_corridor_diameter_lower_mm": 1.1494140625,
+      "parent_corridor_diameter_upper_mm": 1.1495361328125,
+      "candidate_corridor_diameter_lower_mm": 1.1494140625,
+      "candidate_corridor_diameter_upper_mm": 1.1495361328125
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "target": "translator_U202_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        41,
+        11,
+        44.5
+      ],
+      "parent_corridor_diameter_lower_mm": 1.1494140625,
+      "parent_corridor_diameter_upper_mm": 1.1495361328125,
+      "candidate_corridor_diameter_lower_mm": 1.1494140625,
+      "candidate_corridor_diameter_upper_mm": 1.1495361328125
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "target": "translator_U203_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        51,
+        11,
+        54.5
+      ],
+      "parent_corridor_diameter_lower_mm": 1.1494140625,
+      "parent_corridor_diameter_upper_mm": 1.1495361328125,
+      "candidate_corridor_diameter_lower_mm": 1.1494140625,
+      "candidate_corridor_diameter_upper_mm": 1.1495361328125
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "target": "MCU_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        2,
+        5,
+        8,
+        15
+      ],
+      "parent_corridor_diameter_lower_mm": 1.9796142578125,
+      "parent_corridor_diameter_upper_mm": 1.979736328125,
+      "candidate_corridor_diameter_lower_mm": 1.9796142578125,
+      "candidate_corridor_diameter_upper_mm": 1.979736328125
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "target": "translator_U201_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.8,
+        29,
+        12.3,
+        32.3
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "target": "translator_U202_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        41,
+        11,
+        44.5
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "target": "translator_U203_region",
+      "source_window": [
+        10.5,
+        82.7,
+        13.2,
+        85.1
+      ],
+      "target_window": [
+        8.5,
+        51,
+        11,
+        54.5
+      ],
+      "parent_corridor_diameter_lower_mm": 2.5325927734375,
+      "parent_corridor_diameter_upper_mm": 2.53271484375,
+      "candidate_corridor_diameter_lower_mm": 2.5325927734375,
+      "candidate_corridor_diameter_upper_mm": 2.53271484375
+    }
+  ],
+  "cross_sections": [
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 10.1245,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          9.937398570912515
+        ],
+        [
+          10.562602,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.774796570912516,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          9.937398
+        ],
+        [
+          10.562602,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.774796,
+      "total_width_change_mm": -5.709125154851336e-07
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 10.3,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.3318792517197477
+        ],
+        [
+          1.9681197482802522,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.763759503439495,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.3318792517197477
+        ],
+        [
+          1.9681197482802522,
+          9.906879251719747
+        ],
+        [
+          10.543119748280253,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.12751900687899,
+      "total_width_change_mm": -0.6362404965605055
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 10.5,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.2745
+        ],
+        [
+          2.0255,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.648999999999997,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.2745
+        ],
+        [
+          2.0255,
+          9.8495
+        ],
+        [
+          10.6005,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.898,
+      "total_width_change_mm": -0.7509999999999977
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 10.8755,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699437
+        ],
+        [
+          1.699437,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.4,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699437
+        ],
+        [
+          1.699437,
+          10.175565
+        ],
+        [
+          10.175565,
+          10.274437
+        ],
+        [
+          10.274437,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.4,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 13.806654,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.399999999999999,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.399999999999999,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 16.358853,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          2.6535635284039114
+        ],
+        [
+          2.896435281758957,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.157128246644954,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          2.6535635284039114
+        ],
+        [
+          2.896435281758957,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.157128246644954,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 17.0,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.338048482440158
+        ],
+        [
+          5.061951113672968,
+          6.0745
+        ],
+        [
+          6.8255,
+          7.655395883939039
+        ],
+        [
+          7.944603112543962,
+          12.293962
+        ],
+        [
+          12.806037,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.123815140162268,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.338048482440158
+        ],
+        [
+          5.061951113672968,
+          6.0745
+        ],
+        [
+          6.8255,
+          7.655395883939039
+        ],
+        [
+          7.944603112543962,
+          12.293962
+        ],
+        [
+          12.806037,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.123815140162268,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 17.5,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          7.453012001506606
+        ],
+        [
+          8.146987455269551,
+          9.512898
+        ],
+        [
+          10.087101125084942,
+          12.246313742861147
+        ],
+        [
+          12.853686219634682,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.524448944378577,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          7.453012001506606
+        ],
+        [
+          8.146987455269551,
+          9.512898
+        ],
+        [
+          10.087101125084942,
+          12.246313742861147
+        ],
+        [
+          12.853686219634682,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.524448944378577,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 18.894965,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          4.7245
+        ],
+        [
+          5.6255,
+          7.814397355343345
+        ],
+        [
+          8.535601950535584,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.332466536293555,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          4.7245
+        ],
+        [
+          5.6255,
+          7.814397355343345
+        ],
+        [
+          8.535601950535584,
+          9.455541
+        ],
+        [
+          9.455541,
+          9.554413
+        ],
+        [
+          9.554413,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.332466536293555,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 19.270465,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          3.905134505245964
+        ],
+        [
+          4.644864655940775,
+          4.915665995127382
+        ],
+        [
+          5.434334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.620457626290614,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          3.905134505245964
+        ],
+        [
+          4.644864655940775,
+          4.915665995127382
+        ],
+        [
+          5.434334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          9.129478
+        ],
+        [
+          9.880478,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 10.869457626290615,
+      "total_width_change_mm": -0.7509999999999994
+    },
+    {
+      "plane": "In1.Cu|GND",
+      "y_mm": 19.645965,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.016932999999998
+        ],
+        [
+          4.583066076990941,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.833866923009055,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.016932999999998
+        ],
+        [
+          4.583066076990941,
+          9.455543
+        ],
+        [
+          9.455543,
+          9.554415
+        ],
+        [
+          9.554415,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.833866923009056,
+      "total_width_change_mm": 1.7763568394002505e-15
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 10.1245,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          1.473901482908265,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          5.566967597830261
+        ],
+        [
+          6.433031818677722,
+          7.066967597830261
+        ],
+        [
+          7.933031818677722,
+          9.937398
+        ],
+        [
+          10.562602,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 8.143266075396813,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          1.473901482908265,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          5.566967597830261
+        ],
+        [
+          6.433031818677722,
+          7.066967597830261
+        ],
+        [
+          7.933031818677722,
+          9.937398
+        ],
+        [
+          10.562602,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 8.143266075396813,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 10.3,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          1.9681199648463055,
+          4.18882298586365
+        ],
+        [
+          4.311175030422464,
+          5.662898000000001
+        ],
+        [
+          6.337101999999999,
+          7.162898000000001
+        ],
+        [
+          7.837101999999999,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 8.084619990594884,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          1.9681199648463055,
+          4.18882298586365
+        ],
+        [
+          4.311175030422464,
+          5.662898000000001
+        ],
+        [
+          6.337101999999999,
+          7.162898000000001
+        ],
+        [
+          7.837101999999999,
+          9.906879251719747
+        ],
+        [
+          10.543119964846305,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.899379277468327,
+      "total_width_change_mm": -0.1852407131265572
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 10.5,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          2.0255,
+          3.8741445990732273
+        ],
+        [
+          4.6258542024044775,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 8.74629039666875,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.9745
+        ],
+        [
+          2.0255,
+          3.8741445990732273
+        ],
+        [
+          4.6258542024044775,
+          9.8495
+        ],
+        [
+          10.6005,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 8.44629039666875,
+      "total_width_change_mm": -0.29999999999999893
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 10.8755,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.987193000386091
+        ],
+        [
+          1.7213885677510294,
+          3.817235550979263
+        ],
+        [
+          4.682763871917957,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 8.949276111696367,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.987193000386091
+        ],
+        [
+          1.7213885677510294,
+          3.817235550979263
+        ],
+        [
+          4.682763871917957,
+          10.175565
+        ],
+        [
+          10.175565,
+          10.274437
+        ],
+        [
+          10.274437,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 9.400276111696368,
+      "total_width_change_mm": 0.4510000000000005
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 13.806654,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7995
+        ],
+        [
+          1.2505,
+          2.0245
+        ],
+        [
+          2.791684323016786,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 9.330815676983214,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7995
+        ],
+        [
+          1.2505,
+          2.0245
+        ],
+        [
+          2.791684323016786,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 9.781815676983216,
+      "total_width_change_mm": 0.4510000000000023
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 16.358853,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.896435281758957,
+          3.1883301279069767
+        ],
+        [
+          4.146239565946706,
+          6.164947494448981
+        ],
+        [
+          7.802758547095447,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 6.780344227554847,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.896435281758957,
+          3.1883301279069767
+        ],
+        [
+          4.146239565946706,
+          6.164947494448981
+        ],
+        [
+          7.802758547095447,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.231344227554848,
+      "total_width_change_mm": 0.4510000000000005
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 17.0,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.6255,
+          4.338048367345773
+        ],
+        [
+          5.061950905142354,
+          6.676630221501509
+        ],
+        [
+          8.417303293308558,
+          10.0245
+        ],
+        [
+          10.4755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 7.182424390396369,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.6255,
+          4.338048367345773
+        ],
+        [
+          5.061950905142354,
+          6.676630221501509
+        ],
+        [
+          8.417303293308558,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.633424390396369,
+      "total_width_change_mm": 0.4510000000000005
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 17.5,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.6255,
+          6.6995
+        ],
+        [
+          8.5005,
+          9.512898
+        ],
+        [
+          10.524887379142102,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 7.285010620857897,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.1745
+        ],
+        [
+          2.6255,
+          6.6995
+        ],
+        [
+          8.5005,
+          9.512898
+        ],
+        [
+          10.087101125084942,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.7227968749150575,
+      "total_width_change_mm": 0.4377862540571602
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 18.894965,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.8760593823639877
+        ],
+        [
+          3.513869999999999,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          6.3745
+        ],
+        [
+          7.2755,
+          7.751059972410564
+        ],
+        [
+          8.535601950535584,
+          10.215802696470702
+        ],
+        [
+          10.6755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 7.320621232195466,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          2.8760593823639877
+        ],
+        [
+          3.513869999999999,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          6.3745
+        ],
+        [
+          7.2755,
+          7.751059972410564
+        ],
+        [
+          8.535601950535584,
+          9.455541
+        ],
+        [
+          9.455541,
+          9.554413
+        ],
+        [
+          9.554413,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.7803185357247635,
+      "total_width_change_mm": 0.45969730352929794
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 19.270465,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          3.251559624326548
+        ],
+        [
+          4.644864655940775,
+          6.565665995127382
+        ],
+        [
+          7.084334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          10.2245
+        ],
+        [
+          10.6755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 7.6648827453712,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          3.251559624326548
+        ],
+        [
+          4.644864655940775,
+          6.565665995127382
+        ],
+        [
+          7.084334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          9.129478
+        ],
+        [
+          9.880478,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 7.364882745371199,
+      "total_width_change_mm": -0.3000000000000007
+    },
+    {
+      "plane": "In2.Cu|3V3_AON",
+      "y_mm": 19.645965,
+      "parent_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          3.627059866289105
+        ],
+        [
+          4.583066076990941,
+          10.2245
+        ],
+        [
+          10.6755,
+          11.5
+        ]
+      ],
+      "parent_total_width_mm": 9.141993789298166,
+      "candidate_intervals_mm": [
+        [
+          0.5,
+          0.7245
+        ],
+        [
+          1.1755,
+          3.627059866289105
+        ],
+        [
+          4.583066076990941,
+          9.455543
+        ],
+        [
+          9.455543,
+          9.554415
+        ],
+        [
+          9.554415,
+          11.5
+        ]
+      ],
+      "candidate_total_width_mm": 9.592993789298164,
+      "total_width_change_mm": 0.45099999999999874
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 10.1245,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          9.937398570912515
+        ],
+        [
+          10.562602,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.774796570912516,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699435
+        ],
+        [
+          1.699435,
+          9.937398
+        ],
+        [
+          10.562602,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.774796,
+      "total_width_change_mm": -5.709125154851336e-07
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 10.3,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.3318792517197477
+        ],
+        [
+          1.9681197482802522,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.763759503439495,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.3318792517197477
+        ],
+        [
+          1.9681197482802522,
+          9.906879251719747
+        ],
+        [
+          10.543119748280253,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.12751900687899,
+      "total_width_change_mm": -0.6362404965605055
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 10.5,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.2745
+        ],
+        [
+          2.0255,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.648999999999997,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.2745
+        ],
+        [
+          2.0255,
+          9.8495
+        ],
+        [
+          10.6005,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.898,
+      "total_width_change_mm": -0.7509999999999977
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 10.8755,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699437
+        ],
+        [
+          1.699437,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.4,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          1.600565
+        ],
+        [
+          1.600565,
+          1.699437
+        ],
+        [
+          1.699437,
+          10.175565
+        ],
+        [
+          10.175565,
+          10.274437
+        ],
+        [
+          10.274437,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.4,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 13.806654,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.399999999999999,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.399999999999999,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 16.358853,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          2.6535635284039114
+        ],
+        [
+          2.896435281758957,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 13.157128246644954,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          2.6535635284039114
+        ],
+        [
+          2.896435281758957,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 13.157128246644954,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 17.0,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.338048482440158
+        ],
+        [
+          5.061951113672968,
+          6.0745
+        ],
+        [
+          6.8255,
+          7.655395883939039
+        ],
+        [
+          7.944603112543962,
+          12.293962
+        ],
+        [
+          12.806037,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.123815140162268,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.338048482440158
+        ],
+        [
+          5.061951113672968,
+          6.0745
+        ],
+        [
+          6.8255,
+          7.655395883939039
+        ],
+        [
+          7.944603112543962,
+          12.293962
+        ],
+        [
+          12.806037,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.123815140162268,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 17.5,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          7.453012001506606
+        ],
+        [
+          8.146987455269551,
+          9.512898
+        ],
+        [
+          10.087101125084942,
+          12.246313742861147
+        ],
+        [
+          12.853686219634682,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.524448944378577,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          7.453012001506606
+        ],
+        [
+          8.146987455269551,
+          9.512898
+        ],
+        [
+          10.087101125084942,
+          12.246313742861147
+        ],
+        [
+          12.853686219634682,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.524448944378577,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 18.894965,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          4.7245
+        ],
+        [
+          5.6255,
+          7.814397355343345
+        ],
+        [
+          8.535601950535584,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.332466536293555,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.052335065742898
+        ],
+        [
+          4.497663934257103,
+          4.7245
+        ],
+        [
+          5.6255,
+          7.814397355343345
+        ],
+        [
+          8.535601950535584,
+          9.455541
+        ],
+        [
+          9.455541,
+          9.554413
+        ],
+        [
+          9.554413,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 11.332466536293555,
+      "total_width_change_mm": 0.0
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 19.270465,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          3.905134505245964
+        ],
+        [
+          4.644864655940775,
+          4.915665995127382
+        ],
+        [
+          5.434334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 11.620457626290614,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          3.905134505245964
+        ],
+        [
+          4.644864655940775,
+          4.915665995127382
+        ],
+        [
+          5.434334218141963,
+          7.914428000000003
+        ],
+        [
+          8.435571999999997,
+          9.129478
+        ],
+        [
+          9.880478,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 10.869457626290615,
+      "total_width_change_mm": -0.7509999999999994
+    },
+    {
+      "plane": "In4.Cu|GND",
+      "y_mm": 19.645965,
+      "parent_intervals_mm": [
+        [
+          0.3,
+          4.016932999999998
+        ],
+        [
+          4.583066076990941,
+          13.7
+        ]
+      ],
+      "parent_total_width_mm": 12.833866923009055,
+      "candidate_intervals_mm": [
+        [
+          0.3,
+          4.016932999999998
+        ],
+        [
+          4.583066076990941,
+          9.455543
+        ],
+        [
+          9.455543,
+          9.554415
+        ],
+        [
+          9.554415,
+          13.7
+        ]
+      ],
+      "candidate_total_width_mm": 12.833866923009056,
+      "total_width_change_mm": 1.7763568394002505e-15
+    }
+  ]
+}

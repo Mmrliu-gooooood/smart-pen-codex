@@ -23,3 +23,10 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r software/requirements-host.txt
       - run: python software/verify_host.py --upstream-pc-src upstream-source/digital_pen_ov5640/pc/src
+
+      - name: Isolated offline replay / exact ACK contract
+        run: |
+          cd verification/offline_ack_crosswire_20261102
+          python verify_sources.py
+          python test_crosswire_replay.py
+          python -O test_crosswire_replay.py

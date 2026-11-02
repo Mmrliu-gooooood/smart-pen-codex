@@ -1,0 +1,81 @@
+{
+  "source_review_manifest_sha256": "3ac35318f5a0b6407a1fcf51737808a5c618defb088ff986ccbb26032419e94b",
+  "actual_polygon_check": [
+    {
+      "path": "sensor_d5_candidate_20261102_0445/release/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "dcaaafa93bde51e58a96d9443cb77031773fc42a16ad3db20210b53f0394b052",
+      "pads": [
+        {
+          "pad": "1",
+          "native_shape": 1,
+          "shape_name": "RECT",
+          "stored_roundrect_radius_mm": 0.375,
+          "active_roundrect_radius_mm": null,
+          "polygon_area_mm2": 3.0,
+          "polygon_vertices": 4,
+          "orientation_deg": 180.0
+        },
+        {
+          "pad": "2",
+          "native_shape": 4,
+          "shape_name": "ROUNDRECT",
+          "stored_roundrect_radius_mm": 0.05,
+          "active_roundrect_radius_mm": 0.05,
+          "polygon_area_mm2": 2.99785658841,
+          "polygon_vertices": 104,
+          "orientation_deg": 180.0
+        },
+        {
+          "pad": "3",
+          "native_shape": 4,
+          "shape_name": "ROUNDRECT",
+          "stored_roundrect_radius_mm": 0.05,
+          "active_roundrect_radius_mm": 0.05,
+          "polygon_area_mm2": 2.99785658841,
+          "polygon_vertices": 104,
+          "orientation_deg": 180.0
+        }
+      ]
+    },
+    {
+      "path": "pcb_interface_codesign_20261102_0612/candidate/mainboard_revD.kicad_pcb",
+      "sha256": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5",
+      "pads": [
+        {
+          "pad": "1",
+          "native_shape": 1,
+          "shape_name": "RECT",
+          "stored_roundrect_radius_mm": 0.375,
+          "active_roundrect_radius_mm": null,
+          "polygon_area_mm2": 3.0,
+          "polygon_vertices": 4,
+          "orientation_deg": 270.0
+        },
+        {
+          "pad": "2",
+          "native_shape": 4,
+          "shape_name": "ROUNDRECT",
+          "stored_roundrect_radius_mm": 0.05,
+          "active_roundrect_radius_mm": 0.05,
+          "polygon_area_mm2": 2.99785658841,
+          "polygon_vertices": 104,
+          "orientation_deg": 270.0
+        },
+        {
+          "pad": "3",
+          "native_shape": 4,
+          "shape_name": "ROUNDRECT",
+          "stored_roundrect_radius_mm": 0.05,
+          "active_roundrect_radius_mm": 0.05,
+          "polygon_area_mm2": 2.99785658841,
+          "polygon_vertices": 104,
+          "orientation_deg": 180.0
+        }
+      ]
+    }
+  ],
+  "review_polygon_method": "Native TransformShapeToPolygon; actual RECT shape respected; no explicit EN1 rounded polygon",
+  "geometry_recheck_needed": false,
+  "EN1_neck_authorized": false,
+  "correction": "EN1 native copper is RECT. Stored .375mm roundrect radius is inactive metadata, not an active corner. EN2/GND are roundrect radius.05mm."
+}

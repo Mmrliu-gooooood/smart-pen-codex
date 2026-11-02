@@ -1,0 +1,55 @@
+{
+  "status": "DERIVED_CURRENT_NATIVE_LOGICAL_CANDIDATE_NOT_PHYSICAL_HARNESS_ADOPTION",
+  "main_sha256": "617a991b39a05e53f6bbf55700d2aa84052a3b5140b947c2b66a503f9846d8b5",
+  "power_sha256": "94ced2bd4100ba6fd8d9a9af11f101cc091a4c112a1bb3c8bb5dec2b2dedcdbc",
+  "contract_sha256": "eb0bed464af8a96f580eb87451e7133a027634d9f344c696cf3a04a1ed78136c",
+  "prior_hardened_manifest_sha256": "b0f942b572eea43bc6a01c2655475dc32ac651b1d94614a8e154dcb644c52898",
+  "prior_hardened_contract_sha256": "eb0bed464af8a96f580eb87451e7133a027634d9f344c696cf3a04a1ed78136c",
+  "same_logical_contract": true,
+  "current_J107_lands": {
+    "1": {
+      "net": "USB_EN1",
+      "xy_mm": [
+        5.22,
+        34.31
+      ],
+      "angle_deg": 270.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    },
+    "2": {
+      "net": "USB_EN2",
+      "xy_mm": [
+        7.2,
+        25.38
+      ],
+      "angle_deg": 270.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    },
+    "3": {
+      "net": "GND",
+      "xy_mm": [
+        6.4,
+        31.66
+      ],
+      "angle_deg": 180.0,
+      "size_mm": [
+        1.5,
+        2.0
+      ],
+      "mask_margin_mm": 0.04
+    }
+  },
+  "normal_result_sha256": "b0aa302645f7024e3a22e76f10210e7103f5aa3d8e2378ac3136a23c400769f8",
+  "optimized_result_sha256": "b0aa302645f7024e3a22e76f10210e7103f5aa3d8e2378ac3136a23c400769f8",
+  "normal_optimized_identical": true,
+  "replay_inputs": "Required --main and --power CLI paths; strict current hashes; native boards not duplicated here",
+  "physical_harness_adopted": false
+}

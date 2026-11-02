@@ -1,0 +1,148 @@
+(footprint "J107_DistributedWireLands3_NOFAB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CUSTOM distributed wire lands; not a stock connector. Full 2mm joint packing budgets retained; solder/wire/tool/strain relief unqualified. NOFAB")
+	(property "Reference" "J107"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0518c42c-c741-4a8b-bab5-1fb1a3cce471")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "CHARGER_MODE"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9825c19f-26b9-4a57-999e-dee6f8ef374f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "eb64551a-b334-411e-8f06-8933d3e8dddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ba92c4f8-e823-4e64-8ec6-4eade6c34d29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.33 -1.65)
+		(end -0.03 -3.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ae550f8b-59d9-48f8-8721-5646222a4c6b")
+	)
+	(fp_rect
+		(start -1 1.15)
+		(end 1 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a7536266-171a-4383-91ea-5f720975fc71")
+	)
+	(fp_rect
+		(start -0.35 7.28)
+		(end 1.95 5.28)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7d1d055b-0c66-478b-a818-b20e4346ea8c")
+	)
+	(fp_text user "3 GND"
+		(at 0 1.6 180)
+		(layer "F.SilkS")
+		(uuid "531c537d-6a1d-4fd5-81a7-a8b4074cb2fe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "1 EN1"
+		(at -1.18 -4.05 180)
+		(layer "F.SilkS")
+		(uuid "7bdd4403-e4fa-4ba6-b02d-6a4a325e4f85")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "2 EN2"
+		(at 0.8 4.88 180)
+		(layer "F.SilkS")
+		(uuid "d80223c9-3849-49f5-bb7a-59c6c002bc99")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.18 -2.65 90)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.04)
+		(uuid "0e2591dd-d6b2-48b9-9187-ed4edfa44df6")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 6.28 90)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(solder_mask_margin 0.04)
+		(uuid "ec950033-e8dc-490d-b956-5b71dd7bb3a1")
+	)
+	(pad "3" smd roundrect
+		(at 0 0 180)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(solder_mask_margin 0.04)
+		(uuid "abc1e9cc-0ade-4a87-b2be-67434e8c0cb1")
+	)
+	(embedded_fonts no)
+)

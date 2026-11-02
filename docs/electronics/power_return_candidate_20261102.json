@@ -1,0 +1,36 @@
+{
+  "status": "DESIGN_CANDIDATE_ONLY_NOFAB_NO_POWER",
+  "scope": "External intended ground conductors between USB tail T, power board P, and mainboard M; not semiconductor, chassis, fixture, parasitic or USB transmission-line qualification.",
+  "nodes": ["T", "P", "M"],
+  "ground_edges": [
+    {"id":"G_TP","nodes":["T","P"],"from":"tail TP104 (not re-read in this work)","to":"power J2.2","role":"Complete USB input return; current and joint qualification pending"},
+    {"id":"G_PM","nodes":["P","M"],"from":"power J3.2","to":"main J106.3 logical existing endpoint","role":"Complete mainboard load/inrush return; physical replacement site pending"}
+  ],
+  "externally_unwired_ground_pads": ["main J109.3", "main J107.3", "power J5.3"],
+  "externally_unwired_non_ground_pads": ["main J106.1"],
+  "other_intended_wires": [
+    ["tail VBUS", "power J2.1", "VBUS_5V"],
+    ["tail USB_DP", "main J109.1", "USB_DP"],
+    ["tail USB_DM", "main J109.2", "USB_DM"],
+    ["power J3.1", "main J106.2 logical existing endpoint", "3V3_AON"],
+    ["main J107.1", "power J5.1", "USB_EN1"],
+    ["main J107.2", "power J5.2", "USB_EN2"]
+  ],
+  "pack_and_thermal": {
+    "pack_positive":"power J4.1; protected pack only",
+    "pack_negative":"power J4.2; protected output negative only",
+    "ntc1":"power J1.1/J1.2; separate thermistor, configuration not inferred from blue lead",
+    "ntc2":"power J104.1/J104.2; separate thermistor; not mainboard J104",
+    "ban":"No bare CELL- connection, no shared third-wire interpretation without manufacturer schematic"
+  },
+  "gates": [
+    "Exact tail native GND and shell mapping must be rebound before complete assembly acceptance",
+    "One complete P-M feed with positive and return routed together; no alternate thin ground wire",
+    "Whole installed harness, joints, strain relief, full pack and shell geometry pending",
+    "Wire, pad and joint continuous/peak/fault capability pending measured or bounded load and protector timing",
+    "USB signal integrity and reference offset with tree routing unqualified",
+    "Single-open may divert current through signal protection paths; tree is not fault-safe",
+    "No energized internal connector mating or partial-connection servicing; powered procedure not released",
+    "Any debug cable, metal chassis, mounting hardware or shared sensor return must enter the complete network before use"
+  ]
+}
