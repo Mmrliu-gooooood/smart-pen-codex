@@ -1,0 +1,112 @@
+{
+  "source_hashes": {
+    "parent": "f3ca95fff63985144ced0736e652093d2547b3df91f0493eda74dcffe4aba15e",
+    "candidate": "a51a57bcb5fa50ffd885deb988b045eac39d5e02cd94547f1060e3ece926edad"
+  },
+  "rows": [
+    {
+      "net": "SENS_SCL",
+      "layer": "F.Cu",
+      "reference": "In1.Cu|GND",
+      "new_track_missing_mm2": 0.065278739945,
+      "inherited_parent_missing_overlap_mm2": 0.0,
+      "additional_missing_mm2": 0.065278739945,
+      "allowed_endpoint_center": [
+        2.85,
+        64.95
+      ],
+      "endpoint_radius_mm": 0.379,
+      "unexplained_missing_mm2": 0.0
+    },
+    {
+      "net": "SENS_SCL",
+      "layer": "B.Cu",
+      "reference": "In4.Cu|GND",
+      "new_track_missing_mm2": 0.064988162851,
+      "inherited_parent_missing_overlap_mm2": 0.0,
+      "additional_missing_mm2": 0.064988162851,
+      "allowed_endpoint_center": [
+        2.85,
+        64.95
+      ],
+      "endpoint_radius_mm": 0.379,
+      "unexplained_missing_mm2": 0.0
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "layer": "B.Cu",
+      "reference": "In4.Cu|GND",
+      "new_track_missing_mm2": 0.136022719858,
+      "inherited_parent_missing_overlap_mm2": 0.0,
+      "additional_missing_mm2": 0.136022719858,
+      "allowed_endpoint_center": [
+        3.8875,
+        63.125
+      ],
+      "endpoint_radius_mm": 0.456,
+      "unexplained_missing_mm2": 0.0
+    },
+    {
+      "net": "SENS_VIO_1V8",
+      "layer": "In3.Cu",
+      "reference": "In2.Cu|3V3_AON",
+      "new_track_missing_mm2": 0.159453,
+      "inherited_parent_missing_overlap_mm2": 0.159453,
+      "additional_missing_mm2": 0.0,
+      "allowed_endpoint_center": null,
+      "endpoint_radius_mm": null,
+      "unexplained_missing_mm2": 0.0
+    }
+  ],
+  "moved_pad_reference": [
+    {
+      "pad": "C208.1",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "C208.2",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.1",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.2",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.3",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.4",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.5",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.6",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.7",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "U204.8",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "R242.1",
+      "missing_adjacent_ground_mm2": 0.0
+    },
+    {
+      "pad": "R242.2",
+      "missing_adjacent_ground_mm2": 0.0
+    }
+  ],
+  "scope": "Geometric projection only. New SCL via reference opening retained, B power terminates at pre-existing VIO via aperture, In3 inherited missing region separated. Not SI/EMC qualification."
+}

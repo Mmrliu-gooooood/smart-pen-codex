@@ -1,12 +1,9 @@
-## 2026-11-03进度更新
+## 当前设计入口（2026-11-03）
 
-请先读[当前状态](CURRENT_STATUS.md)及[进度材料](docs/progress/2026-11-03.md)。本次先发布文字进度，最新原生文件上传尚未完成；下方11月2日内容为历史工程入口，不代表最新设计。
-
-## 当前设计入口（2026-11-02）
-
-请先阅读 [CURRENT_STATUS.md](CURRENT_STATUS.md)。当前有限静态主板为 **f7632bf… /0错误、0警告、19项未连接、0网表差异**：[原生工程与预览](hardware/mainboard_wip19_20261102/README.md)。此前617a／23项快照及其审查保持历史追溯。所有成果仍为 **NOFAB / NO POWER**；不代表整笔制造、装配或上电放行。
+当前主板工作版 **a51a57 / 13项未连接 / 0项DRC违规**。请先读 [当前状态](CURRENT_STATUS.md) 与 [阶段进度材料](docs/progress/2026-11-03.md)，再打开 [原生工程](hardware/mainboard_wip13_20261103/README.md)。所有成果仍为 **NOFAB / NO POWER**。阶段记录和仓库推送不等于最终任务完成。
 
 ---
+
 
 # 智点笔 / Smart Pen
 

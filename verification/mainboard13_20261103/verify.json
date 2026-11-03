@@ -1,0 +1,119 @@
+{
+  "source_sha256": "f3ca95fff63985144ced0736e652093d2547b3df91f0493eda74dcffe4aba15e",
+  "candidate_sha256": "a51a57bcb5fa50ffd885deb988b045eac39d5e02cd94547f1060e3ece926edad",
+  "only_C208_U204_R242_poses_changed": true,
+  "moved_poses": {
+    "C208": [
+      1950000,
+      65060000,
+      0,
+      -90.0
+    ],
+    "U204": [
+      6200000,
+      65055000,
+      0,
+      0.0
+    ],
+    "R242": [
+      2900000,
+      57875000,
+      2,
+      0.0
+    ]
+  },
+  "all_values_footprints_padnets_and_other_poses_unchanged": true,
+  "all_other_terminal_groups_including_ground_and_safe_control_unchanged": true,
+  "SCL_before": [
+    [
+      "J202.21"
+    ],
+    [
+      "R242.1"
+    ],
+    [
+      "U204.2"
+    ]
+  ],
+  "SCL_after": [
+    [
+      "J202.21"
+    ],
+    [
+      "R242.1",
+      "U204.2"
+    ]
+  ],
+  "source_via_group": [
+    [
+      "71221c41-41be-4d5c-b567-d3e95da37c74",
+      "R242.1",
+      "U204.2"
+    ],
+    [
+      "J202.21"
+    ]
+  ],
+  "negative_tests": [
+    {
+      "target": "C208.1",
+      "removed": "a54a08c4-5de3-4cc6-9016-63d84ecdc1dd",
+      "isolated": true
+    },
+    {
+      "target": "C208.2",
+      "removed": "c7dd85e8-e02b-4c79-896c-e5f3aba60026",
+      "isolated": true
+    },
+    {
+      "target": "R242.2",
+      "removed": "8af15c26-604b-4504-b8e3-2fac2d224c9a",
+      "isolated": true
+    },
+    {
+      "target": "SENS_SCL",
+      "removed": "720452bc-2673-4dca-b5c7-9d46dd281af6",
+      "components": [
+        [
+          "J202.21"
+        ],
+        [
+          "R242.1"
+        ],
+        [
+          "U204.2"
+        ]
+      ]
+    }
+  ],
+  "removed_power_via_original_attachments": [
+    {
+      "uuid": "a3184324-3fd3-530d-93d7-f634225cabb9",
+      "net": "SENS_VIO_1V8",
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0b900625-4f4b-51d3-8d36-c0cf6dc70a75",
+      "net": "SENS_VIO_1V8",
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "1bdf06d7-4f52-55e6-be0c-d22123b9b131",
+      "net": "SENS_VIO_1V8",
+      "layer": "In3.Cu"
+    },
+    {
+      "uuid": "c5cec6b2-4b3d-57d5-ad62-a7dc2fa4ac26",
+      "net": "SENS_VIO_1V8",
+      "layer": "In3.Cu"
+    }
+  ],
+  "only_declared_ten_old_objects_removed": true,
+  "retained_other_copper_unchanged": true,
+  "dependency_files_unchanged": true,
+  "DRC": {
+    "violations": 0,
+    "unconnected": 13
+  },
+  "status": "HOLD_INDEPENDENT_REVIEW_AND_FULL_ENGINEERING_QUALIFICATION_PENDING"
+}

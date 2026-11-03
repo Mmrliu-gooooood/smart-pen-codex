@@ -1,0 +1,12 @@
+(footprint "Johanson_2450AT18A0100001E_Rev4_Study_NOFAB"
+ (version 20241229) (generator "pcbnew")
+ (layer "F.Cu")
+ (descr "Rev4 page3 nominal land pattern study: outer 4.2 inner 2.6 height1.6; pin2 anchor NC, NOT GND. Requires corner clearance, real stack and tuning. NOFAB")
+ (attr smd)
+ (fp_text reference "AE?" (at 0 -1.8) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+ (fp_text value "2450AT18A0100001E_NOFAB" (at 0 1.8) (layer "F.Fab") (effects (font (size 0.7 0.7) (thickness 0.1))))
+ (fp_rect (start -1.6 -0.8) (end 1.6 0.8) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+ (fp_rect (start -2.35 -1.15) (end 2.35 1.15) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+ (pad "1" smd rect (at -1.7 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask"))
+ (pad "2" smd rect (at 1.7 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

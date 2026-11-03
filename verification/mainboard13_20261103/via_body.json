@@ -1,0 +1,110 @@
+{
+  "candidate_sha256": "a51a57bcb5fa50ffd885deb988b045eac39d5e02cd94547f1060e3ece926edad",
+  "new_via_xy": [
+    2.85,
+    64.95
+  ],
+  "nearest_installed_bodies": [
+    {
+      "ref": "U204",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 0.19999999999999976,
+      "expanded100um_projection_gap_mm": 0.09999999999999964,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "C208",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 0.20000000000000018,
+      "expanded100um_projection_gap_mm": 0.10000000000000009,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "R301",
+      "side": "B.Cu",
+      "annulus_to_installation_projection_mm": 1.6756423867639487,
+      "expanded100um_projection_gap_mm": 1.5363742014382442,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "R236",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 2.2531361743856015,
+      "expanded100um_projection_gap_mm": 2.150109779180813,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "R237",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 2.286213551181081,
+      "expanded100um_projection_gap_mm": 2.172112756784274,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "C303",
+      "side": "B.Cu",
+      "annulus_to_installation_projection_mm": 2.4640955867086474,
+      "expanded100um_projection_gap_mm": 2.3403835918524036,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "U205",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 2.4750000000000085,
+      "expanded100um_projection_gap_mm": 2.375,
+      "expanded100um_projection_overlap_mm2": 0.0
+    },
+    {
+      "ref": "C209",
+      "side": "F.Cu",
+      "annulus_to_installation_projection_mm": 3.7210767504543667,
+      "expanded100um_projection_gap_mm": 3.5809934631009837,
+      "expanded100um_projection_overlap_mm2": 0.0
+    }
+  ],
+  "expanded100um_overlap_cases": [],
+  "R242_pad_to_all_vias": [
+    {
+      "pad": "1",
+      "nearest_vias": [
+        {
+          "via": "6e3afa22-c21e-5ac0-a796-72f41a50c428",
+          "net": "GND",
+          "mm": 0.400061407375912
+        },
+        {
+          "via": "46c2a342-683d-4fe5-89f8-1a8f7c1481cd",
+          "net": "GND",
+          "mm": 0.49780346330655606
+        },
+        {
+          "via": "d26376b3-b36a-4c67-8d5e-c5e062ede27a",
+          "net": "CAM_BUS_EN",
+          "mm": 0.9189257983591499
+        }
+      ]
+    },
+    {
+      "pad": "2",
+      "nearest_vias": [
+        {
+          "via": "46c2a342-683d-4fe5-89f8-1a8f7c1481cd",
+          "net": "GND",
+          "mm": 0.4703052164091672
+        },
+        {
+          "via": "6e3afa22-c21e-5ac0-a796-72f41a50c428",
+          "net": "GND",
+          "mm": 0.49878887720156834
+        },
+        {
+          "via": "d26376b3-b36a-4c67-8d5e-c5e062ede27a",
+          "net": "CAM_BUS_EN",
+          "mm": 2.225100665803687
+        }
+      ]
+    }
+  ],
+  "occupied_body_negative_mm": 0.0,
+  "scope": "Projected annulus/body and pad/via screening. U204 uses full lead-installation envelope for holes, unlike trace molded-body check. No via-in-pad adoption."
+}

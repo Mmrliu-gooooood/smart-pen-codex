@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>sc035_adapter_draft.kicad_sch</source>
+    <date>2026-11-03T15:31:00+0900</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sc035_adapter_draft.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>TBD_DECOUPLING_DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bd9fa9c-ba52-56f0-9802-51d0e38a6818</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF_CANDIDATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c51e8b06-f10c-52c6-b28b-902aeff5b139</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>HOST_J202_LOGICAL_ONLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port24" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2689201-0833-56af-b390-535e212bdcf3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MODULE_30PIN_MPN_TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02989de7-02b7-5384-8cd2-da2ff9b23c91</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>J_PWR_FROM_J301_CANDIDATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f206c393-3732-51ea-860f-4b2777d4902a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>OPEN_DNP_XCLK</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12f9c882-3279-53be-b765-b7a5f6526182</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>OPEN_DNP_PCLK</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1775d43-fa52-5cad-9041-669b18ef6fb2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>OPEN_DNP_VSYNC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bfb8201-f3fb-5bcf-b6d8-88712d461d94</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>OPEN_DNP_HSYNC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e2a826c-c0f2-52a5-87d0-bae441df3849</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>OPEN_DNP_D0</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>005f3633-35c6-55a9-bb92-d7444531e860</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>OPEN_DNP_D1</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>040d9edb-1913-53e0-80c1-d9c53d1f10f6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>OPEN_DNP_D2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b795e7f-2db1-5f4b-90cb-411492dd1a83</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>OPEN_DNP_D3</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94409852-b723-5470-95ff-91ba54ca90ba</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>OPEN_DNP_D4</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>682fd5f9-85b4-51fd-af73-663e0b9c39ba</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>OPEN_DNP_D5</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7065a28-a77d-56e6-931f-080df75d970b</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>OPEN_DNP_D6</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>220c1bf2-57e8-578f-bada-278b691f9c98</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>OPEN_DNP_D7</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6e28065-269c-55a6-897f-56b6f98a7a33</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>OPEN_DNP_SCL</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a013764-4455-5e22-9b6e-1df1769a55b1</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>OPEN_DNP_SDA</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ef6285b-d564-5bac-ac6c-8bb7b070500b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>OPEN_DNP_POWER</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e433628-6b64-5f55-9151-c67ff9aff221</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>OPEN_DNP_MUX_SUPPLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85843865-e6ea-59e9-ac6f-c6611269de9b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>OPEN_DNP_READY_INPUT</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6be6cf0e-6e01-5792-a2f7-8e56b54ee14a</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k_1pct_DEFAULT_LOW</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>496e6be2-4bd0-5687-b2ed-3cf6aa1843d7</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>RESET_ISOLATED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5714ab95-a6df-510d-b150-042522ee2ccd</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>PWDN_ISOLATED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0adbb658-f753-522a-b73d-1db2551663df</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>STROBE_ISOLATED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>802abd63-9435-5047-9de8-7d8ed0d1455e</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>CTRL19_ISOLATED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9db93790-7a84-5d09-b896-aafd0fbc271a</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>CTRL20_ISOLATED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b734257-9344-5d3e-87d6-4d933eb44a2c</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>J301_INPUT_TEST</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70839936-0dd1-5cd1-82d7-98f93c857efb</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>MODULE_POWER_TEST</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50545b3e-102b-57b0-8aa1-98bf1e39c1c9</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>UNASSIGNED_READY_TEST_ONLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84e4e5d0-de4a-5a17-bb06-e8c09c584ebb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TMUX1511RWBR_DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Draft" part="Port12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sc035_adapter_draft.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa24add9-0653-5cce-bd38-959dfd65f86b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Draft" part="Port1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Port12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Port2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Port24">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port24</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Draft" part="Port30">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port30</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Draft">
+      <uri>Draft.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CAM_3V3_SW_CANDIDATE" class="Default">
+      <node ref="J3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="P10" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="P13" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="P17" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="P24" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="P10" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="P15" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="P20" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="P27" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="P30" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="P10" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P11" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="P12" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P9" pintype="passive"/>
+    </net>
+    <net code="3" name="/HOST_VIO_1V8" class="Default">
+      <node ref="J1" pin="23" pinfunction="P23" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="4" name="/H_2" class="Default">
+      <node ref="J1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="5" name="/H_3" class="Default">
+      <node ref="J1" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="6" name="/H_5" class="Default">
+      <node ref="J1" pin="5" pinfunction="P5" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="7" name="/H_6" class="Default">
+      <node ref="J1" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="8" name="/H_8" class="Default">
+      <node ref="J1" pin="8" pinfunction="P8" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="9" name="/H_9" class="Default">
+      <node ref="J1" pin="9" pinfunction="P9" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="10" name="/H_11" class="Default">
+      <node ref="J1" pin="11" pinfunction="P11" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="11" name="/H_12" class="Default">
+      <node ref="J1" pin="12" pinfunction="P12" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="12" name="/H_14" class="Default">
+      <node ref="J1" pin="14" pinfunction="P14" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="13" name="/H_15" class="Default">
+      <node ref="J1" pin="15" pinfunction="P15" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="14" name="/H_16" class="Default">
+      <node ref="J1" pin="16" pinfunction="P16" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="15" name="/H_18" class="Default">
+      <node ref="J1" pin="18" pinfunction="P18" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="16" name="/H_19" class="Default">
+      <node ref="J1" pin="19" pinfunction="P19" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="17" name="/H_20" class="Default">
+      <node ref="J1" pin="20" pinfunction="P20" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="18" name="/H_21" class="Default">
+      <node ref="J1" pin="21" pinfunction="P21" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="19" name="/H_22" class="Default">
+      <node ref="J1" pin="22" pinfunction="P22" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P5" pintype="passive"/>
+    </net>
+    <net code="20" name="/ISO_READY" class="Default">
+      <node ref="R17" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="P7" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="P8" pintype="passive"/>
+    </net>
+    <net code="21" name="/ISO_SCL" class="Default">
+      <node ref="R13" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="22" name="/ISO_SDA" class="Default">
+      <node ref="R14" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="P6" pintype="passive"/>
+    </net>
+    <net code="23" name="/MOD_3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="P28" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="24" name="/MUX_VDD" class="Default">
+      <node ref="C2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="25" name="/M_D0" class="Default">
+      <node ref="J2" pin="11" pinfunction="P11" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="26" name="/M_D1" class="Default">
+      <node ref="J2" pin="12" pinfunction="P12" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="27" name="/M_D2" class="Default">
+      <node ref="J2" pin="13" pinfunction="P13" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="28" name="/M_D3" class="Default">
+      <node ref="J2" pin="14" pinfunction="P14" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="29" name="/M_D4" class="Default">
+      <node ref="J2" pin="16" pinfunction="P16" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="30" name="/M_D5" class="Default">
+      <node ref="J2" pin="17" pinfunction="P17" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="31" name="/M_D6" class="Default">
+      <node ref="J2" pin="18" pinfunction="P18" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="32" name="/M_D7" class="Default">
+      <node ref="J2" pin="19" pinfunction="P19" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="33" name="/M_HSYNC" class="Default">
+      <node ref="J2" pin="9" pinfunction="P9" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="34" name="/M_LED_STROBE" class="Default">
+      <node ref="J2" pin="25" pinfunction="P25" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="35" name="/M_PCLK" class="Default">
+      <node ref="J2" pin="6" pinfunction="P6" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="36" name="/M_PWDN" class="Default">
+      <node ref="J2" pin="24" pinfunction="P24" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="37" name="/M_RESET" class="Default">
+      <node ref="J2" pin="23" pinfunction="P23" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="38" name="/M_SCL" class="Default">
+      <node ref="J2" pin="21" pinfunction="P21" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="39" name="/M_SDA" class="Default">
+      <node ref="J2" pin="22" pinfunction="P22" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="40" name="/M_VSYNC" class="Default">
+      <node ref="J2" pin="8" pinfunction="P8" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="41" name="/M_XCLK" class="Default">
+      <node ref="J2" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="42" name="/READY_SOURCE_UNASSIGNED" class="Default">
+      <node ref="R17" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(J2-P26-Pad26)" class="Default">
+      <node ref="J2" pin="26" pinfunction="P26" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J2-P29-Pad29)" class="Default">
+      <node ref="J2" pin="29" pinfunction="P29" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

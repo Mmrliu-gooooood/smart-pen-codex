@@ -1,0 +1,47 @@
+{
+  "candidate_sha256": "a51a57bcb5fa50ffd885deb988b045eac39d5e02cd94547f1060e3ece926edad",
+  "rows": [
+    {
+      "track": "c7dd85e8-e02b-4c79-896c-e5f3aba60026",
+      "net": "GND",
+      "layer": "F.Cu",
+      "ref": "C208",
+      "raw_overlap_mm2": 0.177846707837,
+      "outside_own_pad_mm2": 0.0
+    },
+    {
+      "track": "a54a08c4-5de3-4cc6-9016-63d84ecdc1dd",
+      "net": "SENS_VIO_1V8",
+      "layer": "F.Cu",
+      "ref": "C208",
+      "raw_overlap_mm2": 0.145988475165,
+      "outside_own_pad_mm2": 0.0
+    },
+    {
+      "track": "8af15c26-604b-4504-b8e3-2fac2d224c9a",
+      "net": "SENS_VIO_1V8",
+      "layer": "B.Cu",
+      "ref": "R242",
+      "raw_overlap_mm2": 0.1433534310805,
+      "outside_own_pad_mm2": 0.0
+    },
+    {
+      "track": "dffbda70-6c8e-48fb-bbd1-83c6e219e118",
+      "net": "SENS_SCL",
+      "layer": "B.Cu",
+      "ref": "R242",
+      "raw_overlap_mm2": 0.080970097312,
+      "outside_own_pad_mm2": 0.0
+    }
+  ],
+  "unpermitted_body_overlaps": [],
+  "U204_max_mold_flash_box": [
+    4.4,
+    63.355,
+    8.0,
+    66.755
+  ],
+  "computational_pad_edge_allowance_mm": 5e-05,
+  "scope": "Native polygon approximation allowance 50 nm only, not an assembly tolerance. All new outer-layer tracks avoid all installation bodies except their own same-net terminal copper. U204 uses maximum molding plus flash, not oversized lead-installation box; its real lead copper checked in native DRC/clearance. Not assembly process approval.",
+  "U204_source": "https://www.ti.com/lit/ds/symlink/tca9517.pdf DGK0008A p25, max body3.1, mold flash .15 per side, interlead flash .25 per side."
+}

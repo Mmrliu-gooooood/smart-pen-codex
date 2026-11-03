@@ -35,3 +35,14 @@ jobs:
         run: |
           python verification/mainboard19_20261102/verify_sources.py
           python -O verification/mainboard19_20261102/verify_sources.py
+
+      - name: Mainboard13 source integrity (not DRC/MCAD)
+        run: |
+          python hardware/mainboard_wip13_20261103/restore_board.py
+          python verification/mainboard13_20261103/verify_sources.py
+          python -O verification/mainboard13_20261103/verify_sources.py
+      - name: Isolated storage handoff finite model
+        run: |
+          cd verification/storage_handoff_model_20261103
+          python test_model.py
+          python -O test_model.py
