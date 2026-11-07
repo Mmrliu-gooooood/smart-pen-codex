@@ -1,0 +1,472 @@
+{
+  "kind": "HOST_ONLY_NOT_ADOPTED_NOFAB_NOPOWER",
+  "revision": "R2_ALIAS_REJECTION",
+  "test_executions": 35,
+  "expected_R1_failures": 3,
+  "unexpected_failures": 0,
+  "results": [
+    {
+      "label": "R1/alias-regression/stable",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "r1_evidence/candidate/firmware/application/activity_status.c",
+      "expected_exit": 1,
+      "exit": 1,
+      "stdout": "FAIL line 32: result==-1&&mask==99\nstable out=&watch.previous: result=0 mask=6 watch_unchanged=1\n"
+    },
+    {
+      "label": "R1/alias-regression/invalid",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "r1_evidence/candidate/firmware/application/activity_status.c",
+      "expected_exit": 1,
+      "exit": 1,
+      "stdout": "FAIL line 39: result==-1&&mask==99\ninvalid app, aliased output: result=-1 mask=0 watch_unchanged=0\n"
+    },
+    {
+      "label": "R1/alias-regression/nested",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "r1_evidence/candidate/firmware/application/activity_status.c",
+      "expected_exit": 1,
+      "exit": 1,
+      "stdout": "FAIL line 46: result==-1\nchanges inside output: result=0 reported_faults=4\n"
+    },
+    {
+      "label": "frozen/activity/O2",
+      "flags": [],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 50 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "frozen/alias-and-freshness/O2",
+      "flags": [],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "frozen/activity/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 50 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "frozen/alias-and-freshness/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "frozen/activity/UBSAN_NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 50 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "frozen/alias-and-freshness/UBSAN_NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "frozen/actor-observation/O2",
+      "flags": [
+        "-DACTOR_SOURCE=\"<PINNED_BASE>/firmware/application_idf/main/application_main.c\""
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actual app_main: preparing/ready/contact-gap/release observed by TEST-ONLY sidecar; legacy reports remain startup+fault only PASS\n"
+    },
+    {
+      "label": "frozen/pipeline-existing/O2",
+      "flags": [],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "frozen/maintenance-existing/O2",
+      "flags": [],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "frozen/actor-existing/O2/enabled",
+      "flags": [],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "frozen/actor-existing/O2/disabled",
+      "flags": [
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "frozen/actor-observation/NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-DACTOR_SOURCE=\"<PINNED_BASE>/firmware/application_idf/main/application_main.c\""
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actual app_main: preparing/ready/contact-gap/release observed by TEST-ONLY sidecar; legacy reports remain startup+fault only PASS\n"
+    },
+    {
+      "label": "frozen/pipeline-existing/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "frozen/maintenance-existing/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "frozen/actor-existing/NDEBUG/enabled",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "frozen/actor-existing/NDEBUG/disabled",
+      "flags": [
+        "-DNDEBUG",
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "upstream": "frozen source",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "guard_R3/activity/O2",
+      "flags": [
+        "-DTEST_BOOLEAN_OVERLAY=1"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 51 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "guard_R3/alias-and-freshness/O2",
+      "flags": [],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "guard_R3/activity/NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-DTEST_BOOLEAN_OVERLAY=1"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 51 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "guard_R3/alias-and-freshness/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "guard_R3/activity/UBSAN_NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "-DTEST_BOOLEAN_OVERLAY=1"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "activity snapshot: 51 checkpoints; real pipeline/decoder, synthetic mapper and memory I/O; no mutation PASS\n"
+    },
+    {
+      "label": "guard_R3/alias-and-freshness/UBSAN_NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "stable out=&watch.previous: result=-1 mask=99 watch_unchanged=1\ninvalid app, aliased output: result=-1 mask=99 watch_unchanged=1\nchanges inside output: result=-1 reported_faults=2779096485\nalias rejection, independent outputs, unchanged error baseline and passive freshness: 299 byte-preservation checks PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-observation/O2",
+      "flags": [
+        "-DACTOR_SOURCE=\"<FROZEN_GUARD_R3>/candidate/firmware/application_idf/main/application_main.c\""
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actual app_main: preparing/ready/contact-gap/release observed by TEST-ONLY sidecar; legacy reports remain startup+fault only PASS\n"
+    },
+    {
+      "label": "guard_R3/pipeline-existing/O2",
+      "flags": [],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "guard_R3/maintenance-existing/O2",
+      "flags": [],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-existing/O2/enabled",
+      "flags": [],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-existing/O2/disabled",
+      "flags": [
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-observation/NDEBUG",
+      "flags": [
+        "-DNDEBUG",
+        "-DACTOR_SOURCE=\"<FROZEN_GUARD_R3>/candidate/firmware/application_idf/main/application_main.c\""
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actual app_main: preparing/ready/contact-gap/release observed by TEST-ONLY sidecar; legacy reports remain startup+fault only PASS\n"
+    },
+    {
+      "label": "guard_R3/pipeline-existing/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "guard_R3/maintenance-existing/NDEBUG",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-existing/NDEBUG/enabled",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "guard_R3/actor-existing/NDEBUG/disabled",
+      "flags": [
+        "-DNDEBUG",
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "upstream": "boolean guard R3 overlay",
+      "status_implementation": "candidate/firmware/application/activity_status.c",
+      "expected_exit": 0,
+      "exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    }
+  ],
+  "frozen_hashes_unchanged": true,
+  "frozen_source_sha256": {
+    "firmware/application/pipeline.c": "1653862701fb641f0c915b3a6aac095ac2bcef5282e1a6659d075098cf9f5f02",
+    "firmware/application/pipeline.h": "792732ebbb1aadfb030fd1d0d37f6528667f29a6eaf227ca50939d2774b34f7e",
+    "firmware/application_idf/main/CMakeLists.txt": "6dd0dd4b888922954e78e16d515d9a50fb55a093ad424c32a4bc2de0a6db1303",
+    "firmware/application_idf/main/Kconfig.projbuild": "59efcca137182dbfbc3f0a0c42e21fa1632dc34c6a923fe611fad83dd928e4e1",
+    "firmware/application_idf/main/application_main.c": "6499f3b274bafd5085bcb6755f4cd72c09fae535fab991190125cf71aadc9785",
+    "firmware/application_idf/main/board_provider.h": "671be4b31dd988cdc5638b18757153bafc169bfef9eec14477a7351f17f22fe1",
+    "firmware/application_idf/main/board_provider_absent.c": "4af628e878e51a7088b1b330e4cd5c4f00c84cf96c507eb93dee7fbac42adf77",
+    "firmware/application_idf/main/partition_profile.h": "b85fbff66dff42bc782966340933704caafe207943a8d80afaeb5326a7855a16",
+    "firmware/application_idf/main/partition_profile_idf.h": "105fea4d9fbd86e658f7621aaf5a7d5f10775488d8d85241465150278be06cee",
+    "firmware/bench_idf/main/bench_wire.h": "906a80c9fb1337cde380c5fb5b55d6d9b2f806f012dd087a3482a9c441aa11a9",
+    "firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "firmware/codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d",
+    "firmware/codec/sequences.h": "87d00e2204b107c4a7fd337a87a03ad60854d59812e489f7a60c121c52cb9997",
+    "firmware/portable/pen.c": "b2300c50efe343519054d7a72e1fd89c41ca357e68d013d0d77be7585a787604",
+    "firmware/portable/pen.h": "02948c7502a2b4372f21a66e6b85b93ae0898fc25015d9dfd8c3458b48287433",
+    "firmware/runtime/contact_power.c": "52ae741db5f69116b27d68770cbfeb87f7a9e14a9264ebb9c764cced87d25469",
+    "firmware/runtime/contact_power.h": "8523c8e7f8b5bedc921555526bafe532b31f9729c6932b518a4a0ce625379f57",
+    "firmware/runtime/recorder.c": "468073220614874dc7c74b866f3ff4bd5ef14569d08537fc8a445857e37e5dba",
+    "firmware/runtime/recorder.h": "a3949ec96ef031098772adb2e6b78a7752fc4129afbb4f4bd9144ddc223d3c34",
+    "firmware/storage/storage_idf.h": "4126f0e85ed4b2693bed5295ea98c75a76ee859281eae10114baf4761576cf21",
+    "firmware/storage/store.c": "51d2c54eb60fc4ddb32965716dbba5eb7d77b57d7e75cf3e49faf1a67004d472",
+    "firmware/storage/store.h": "9f6235daa781a3d5e4a03c8f05b2bab37daac3d2e44e61fb7acd8f7edad412d0",
+    "firmware/update/update_idf.h": "769b63399bbdc6dff0f2af2c393baf855bbc16c0dfd290956be2d9e651c46787",
+    "firmware/update/update_policy.h": "baca4245db47f33f6a969302b8db5688e6a9a9a1109d45272cea63f6ff559597",
+    "firmware/vision/canonical.h": "aee6c922d6657b07a02d7af66c6f8dfe07beb8e1fe3ec27874b2f3f38531ec03",
+    "firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "firmware/vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "firmware/vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e",
+    "tests/roi_fixture.py": "66e7c29b184a82e66a2075ba63eab574fccca6b13be4a2ac7454db01fb844ea9",
+    "tests/roi_opt_fixture.py": "213a5b0c84bb4969e722967a0d6e9274493305fae2b32174ad7218b55714f442",
+    "tests/test_application_actor.c": "e769eff6c3cb170c0da65ec6cf0561454ea557f8df7c402fc91ac027677f1336",
+    "tests/test_application_maintenance.c": "876a6f57ea4f981e416a20fc4a8b81579fef8a6927df9d5a61d9a855e5208f65",
+    "tests/test_application_pipeline.c": "8518bfffb41584c210c1acb0023f9b54823f5340d21b37bce96af0b785f1fc1d",
+    "tests/test_application_stubs/esp_err.h": "f2dc88a24fbbef24c3f7e181045b5314c2bdbd9573348b1b63051354c0de80ca",
+    "tests/test_application_stubs/esp_log.h": "eecfa2c0a54bc938c7a951cf895bd62e3a1c140cc0dc03b62e24b82ca8baa391",
+    "tests/test_application_stubs/esp_timer.h": "77539eec139bbeab6471cbe03114aeccd295eccf06b1f083aa26c7db5c0bca71",
+    "tests/test_application_stubs/freertos/FreeRTOS.h": "f885043fa493d8d3eaa44d71286de0319aa3a6b414311f16b3c95935d95e8aa0",
+    "tests/test_application_stubs/freertos/task.h": "96736a43695504f3e0a4583276041e74dd5cec70edb08cc7d147562cd8ce33f2",
+    "tests/test_application_stubs/sdkconfig.h": "487b0d5fe834a7142be5f546fd3194bd11ec905ecaa423c332ce5d1192090f78",
+    "tests/test_application_stubs/storage_idf.h": "5a9419abc712b00f869de1c7bb8943001b3bc0f21ea4166951e54297465cb89e",
+    "tests/test_contact_power.c": "b8f7a12f18b0ec0a922b00af44106098a988bb30d690226841cf03b75da5a976",
+    "tests/test_recorder.c": "7084d11c732ee56d60631b389694ec40c4c695bf1a2a6ecca0359923b8550908"
+  },
+  "guard_R3_hashes_unchanged": true,
+  "guard_R3_source_sha256": {
+    "storage/store.c": "a0a3a197ed03aaf747b47203bc9e77ea2652594c04dbe540c0955558a5f3358c",
+    "storage/storage_idf.c": "9ac6ce6f71032e09aba59a6907eb75ec4c9cc5d3ddbd8fcbef99a7db2707853f",
+    "runtime/contact_power.c": "ec287262ba253cbfc331171373beefaf915f6a6d990b1e5b6c96c8aabe9c1580",
+    "application/pipeline.c": "6d9e08601f8ee2bde85a5bc778fbf1252fe37fbc5d61c17ae5b2e4d2e24e0c0b",
+    "application_idf/main/application_main.c": "6de0becafeece506428a54b47eec1d0b9910a438744f2f533d4e2181a3ec6250"
+  },
+  "verified_candidate_sha256": {
+    "candidate/firmware/application/activity_status.h": "c707abc59f699c6ef45256d4cbb78c865686a24e246e0779cbe5f49d66668195",
+    "candidate/firmware/application/activity_status.c": "88efd3a0949cb403956599400b3b407ad4a8a7106b88a5b8371e8bd7e4f0d302",
+    "test_activity_status.c": "782a63c6b7f49d78082a2476c4a005b57fcc05a698ae27e7e4c38e4235dcd52c",
+    "test_activity_alias.c": "5f581531e95bbf76c70c6b952689ea173b0c16b9b41f828c8e5743b477063aae",
+    "test_actor_observation.c": "29b4afac95f233fd7048486a674b9c94d11379fbe2fddbab24cbc856de68cfce",
+    "run_host.py": "058487946c7eb664488931325ba8a1c99f4daa3c67bdf129e72a0659cbda15b0",
+    "r1_evidence/candidate/firmware/application/activity_status.c": "7e29d352a7388609deab31185d7fa9a0b081df86fa4d4ebb14caea299b121fef",
+    "r1_evidence/candidate/firmware/application/activity_status.h": "b6b521fe760e778efd044d1707b25bb6863c18404d34bffc388fd99d36c92f01"
+  },
+  "compiler": "cc (Debian 14.2.0-19) 14.2.0",
+  "python": "3.12.14",
+  "frame_sha256": "0d3d83c38d3520f23444b0f938ebb43a765d7457afc1217bb7702aaa3d207f36",
+  "elapsed_seconds": 51.947,
+  "dependencies": {
+    "cv2": false,
+    "bleak": false
+  },
+  "not_run": [
+    "full host integration gate",
+    "ESP-IDF target build",
+    "actual GPIO/camera/Flash/BLE/USB/sleep/power",
+    "production provider or UI reporting integration"
+  ],
+  "compatibility": "Only two new optional application files. No old header/structure/callback/wire/default build changes."
+}

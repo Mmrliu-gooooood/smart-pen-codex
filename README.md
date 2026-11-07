@@ -1,3 +1,5 @@
+> 最新研究阶段：[2026-11-07进度](docs/progress/2026-11-07.md)与[隔离源码/验证边界](research/2026-11-07_reviewed_stage/README.md)。HOLD / NOFAB / NOPOWER。下面保留原11月3日工程入口作为历史快照，当前状态以[CURRENT_STATUS](CURRENT_STATUS.md)为准。
+
 ## 当前设计入口（2026-11-03）
 
 当前主板工作版 **a51a57 / 13项未连接 / 0项DRC违规**。请先读 [当前状态](CURRENT_STATUS.md) 与 [阶段进度材料](docs/progress/2026-11-03.md)，再打开 [原生工程](hardware/mainboard_wip13_20261103/README.md)。所有成果仍为 **NOFAB / NO POWER**。阶段记录和仓库推送不等于最终任务完成。

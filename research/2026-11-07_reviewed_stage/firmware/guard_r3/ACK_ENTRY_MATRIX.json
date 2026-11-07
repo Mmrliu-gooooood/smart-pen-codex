@@ -1,0 +1,31 @@
+{
+  "status": "R3_HOST_ONLY_NOT_ADOPTED_NOFAB_NOPOWER",
+  "impact_preconditions": [
+    "A caller invokes a public lower-layer ACK API with an invalid nonzero security fact, demonstrated with integer 2.",
+    "The store currently offers the same session/sequence; the IDF packet additionally has valid AK header, reserved byte, length and CRC.",
+    "Original code writes the persistent ACK marker. Reopening no longer offers that record.",
+    "A separate legitimate safe_idle=1 maintenance request may then reclaim the now-marked-ACKed log. ACK itself does not erase."
+  ],
+  "entries": [
+    {
+      "entry": "pen_store_ack",
+      "change": "authenticated_peer must equal 1; all other integers return existing -3 before writes, syncs or offer/cursor mutation.",
+      "preserved": "Exact offered session/seq, CRC-bound ACK body, ACK commit marker, two synchronization points and error latch.",
+      "test": "Invalid signed values over -255..255 excluding 1 plus INT_MIN/INT_MAX and +/-65536; rejection retains media and replay across reopen, legitimate later ACK succeeds."
+    },
+    {
+      "entry": "pen_storage_idf_ack",
+      "change": "Each of encrypted/authenticated/bonded/approved_peer must equal 1. They are caller-supplied connection facts, not fields read from the ACK packet.",
+      "preserved": "20-byte AK version-1 packet, reserved=0, payload CRC, current offered identity and existing return codes.",
+      "test": "Each signed security parameter tested separately; malformed packet header/version/reserved/CRC/session/seq/length and disabled context rejected; valid retry and subsequent reclaim preserved.",
+      "boundary": "Actual adapter C compiled against host API doubles, not the ESP-IDF SDK or physical NVS/Flash."
+    },
+    {
+      "entry": "pen_app_ack / secure",
+      "change": "None. Existing application route already requires all four current/receipt uint8_t facts exactly 1, nonzero matching epochs and the accepted-send ticket.",
+      "test": "2040 malformed current/receipt boolean cases plus zero/stale/mismatched epoch cases rejected on original and candidate; legitimate retry succeeds."
+    }
+  ],
+  "failure_model": "Four ACK program/sync failure points checked. A final-sync error is an uncertain outcome: in the synchronous memory fixture a complete authorized ACK marker is already durable and is recognized after reopen. Earlier failures retain replay and allow retry. No stronger physical persistence claim is made.",
+  "limitations": "No demonstrated remote exploit, current-actor bypass or physical data loss. Correctly sourced authenticated link facts remain required. A wrong fact already normalized to 1 is not detected by this domain check. Legacy low-layer API epoch/security provenance is not redesigned."
+}

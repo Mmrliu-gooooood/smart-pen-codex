@@ -1,0 +1,179 @@
+{
+  "status": "SELECTED_RELEASE_HOST_AND_BYTE_CHECKS_PASS",
+  "base_commit": "31c92f7df8628904bbf4f5e7b04d01000a44f710",
+  "NOFAB": true,
+  "NOPOWER": true,
+  "not_adopted": true,
+  "commission": "OPEN",
+  "qualification": null,
+  "current_rating_A": null,
+  "effective_C": null,
+  "pinned_public_dependencies": 51,
+  "replays": [
+    {
+      "suite": "guard_r3",
+      "executions": 65,
+      "normal_passes": 56,
+      "expected_historical_failures": 9,
+      "unexpected_failures": 0,
+      "local_results_sha256": "41c487da5fe4452384d996779fd802ae5cb79bfc9f60472a5d23c799ad937778",
+      "scope": "host only; synthetic frames and API/memory doubles; not target/hardware qualification"
+    },
+    {
+      "suite": "activity_r2",
+      "executions": 35,
+      "normal_passes": 32,
+      "expected_historical_failures": 3,
+      "unexpected_failures": 0,
+      "local_results_sha256": "4fa7a41d60373ea942fe6e021e0bba7574524e79e46329f7c910df7201b4fa30",
+      "scope": "host only; synthetic frames and API/memory doubles; not target/hardware qualification"
+    },
+    {
+      "suite": "supplemental",
+      "executions": 8,
+      "normal_passes": 8,
+      "expected_historical_failures": 0,
+      "unexpected_failures": 0,
+      "local_results_sha256": "9f0b376cd7c932d89188fcab19483588da75f847e6c81c80ff2f196e94566b54",
+      "scope": "host only; synthetic frames and API/memory doubles; not target/hardware qualification"
+    }
+  ],
+  "total_executions": 108,
+  "expected_historical_failures": 12,
+  "unexpected_failures": 0,
+  "asan_leak_detection": false,
+  "guard_patch_check": {
+    "status": "PASS",
+    "base_commit": "31c92f7df8628904bbf4f5e7b04d01000a44f710",
+    "files": [
+      {
+        "path": "firmware/storage/store.c",
+        "candidate_sha256": "a0a3a197ed03aaf747b47203bc9e77ea2652594c04dbe540c0955558a5f3358c",
+        "exact_match": true
+      },
+      {
+        "path": "firmware/storage/storage_idf.c",
+        "candidate_sha256": "9ac6ce6f71032e09aba59a6907eb75ec4c9cc5d3ddbd8fcbef99a7db2707853f",
+        "exact_match": true
+      },
+      {
+        "path": "firmware/runtime/contact_power.c",
+        "candidate_sha256": "ec287262ba253cbfc331171373beefaf915f6a6d990b1e5b6c96c8aabe9c1580",
+        "exact_match": true
+      },
+      {
+        "path": "firmware/application/pipeline.c",
+        "candidate_sha256": "6d9e08601f8ee2bde85a5bc778fbf1252fe37fbc5d61c17ae5b2e4d2e24e0c0b",
+        "exact_match": true
+      },
+      {
+        "path": "firmware/application_idf/main/application_main.c",
+        "candidate_sha256": "6de0becafeece506428a54b47eec1d0b9910a438744f2f533d4e2181a3ec6250",
+        "exact_match": true
+      }
+    ],
+    "active_sources_unchanged": true
+  },
+  "c201_exact_delta_check": {
+    "NOFAB": true,
+    "NOPOWER": true,
+    "candidate_sha256": "39620767d41fbe387f2c99a9bed91e1e4546e583ddf91ebb34f478a8c9dc10a6",
+    "commission": "OPEN",
+    "current_rating_A": null,
+    "effective_C": null,
+    "engineering_rerun": false,
+    "qualification": null,
+    "source_sha256": "4cf0295c625942f71ae6dad34e42cf2c6e5c9726efcd78bebbcd1809470ace68",
+    "standalone_project": false,
+    "status": "EXACT_TWO_LINE_DELTA_PASS",
+    "writes": false
+  },
+  "negative_controls": {
+    "passed": true,
+    "cases": [
+      {
+        "runner": "firmware/guard_r3/run_host.py",
+        "case": "sibling-source-tree",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Output must be outside source and repository trees"
+      },
+      {
+        "runner": "firmware/guard_r3/run_host.py",
+        "case": "existing-output",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Output already exists; choose a new directory"
+      },
+      {
+        "runner": "firmware/guard_r3/run_host.py",
+        "case": "missing-dependency",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Pinned source mismatch: firmware/application/pipeline.c"
+      },
+      {
+        "runner": "firmware/activity_r2/run_host.py",
+        "case": "sibling-source-tree",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Output must be outside source and repository trees"
+      },
+      {
+        "runner": "firmware/activity_r2/run_host.py",
+        "case": "existing-output",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Output already exists; choose a new directory"
+      },
+      {
+        "runner": "firmware/activity_r2/run_host.py",
+        "case": "missing-dependency",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "RuntimeError: Pinned source mismatch: firmware/application/pipeline.c"
+      },
+      {
+        "runner": "run_supplemental.py",
+        "case": "sibling-source-tree",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "Choose an absent output directory outside repository/source trees"
+      },
+      {
+        "runner": "run_supplemental.py",
+        "case": "existing-output",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "Choose an absent output directory outside repository/source trees"
+      },
+      {
+        "runner": "run_supplemental.py",
+        "case": "missing-dependency",
+        "exit": 1,
+        "output_path_created": false,
+        "diagnostic": "Pinned dependency mismatch: firmware/application/pipeline.c"
+      },
+      {
+        "runner": "hardware/c201/verify_exact_delta.py",
+        "case": "wrong-source-identity",
+        "exit": 1,
+        "diagnostic": "Source identity mismatch; do not apply by net number",
+        "output_path_created": false
+      }
+    ]
+  },
+  "preparation_diagnostic": {
+    "earlier_activity_wrapper_run": "Stopped by unchanged-input guard while wrapper dependency list was intentionally being prepared; retained locally. No candidate C change caused it.",
+    "final_replays": "All 3 final runners rerun from start after review fixes; earlier runs not added to final count."
+  },
+  "not_run": [
+    "full host aggregate",
+    "ESP-IDF target build",
+    "MemorySanitizer",
+    "physical hardware",
+    "production provider/UI integration",
+    "new whole-board engineering verification"
+  ],
+  "engineering_scope": "C201 publication is only a two-line delta with exact source/candidate hashes. Source PCB and full project dependencies are not supplied."
+}

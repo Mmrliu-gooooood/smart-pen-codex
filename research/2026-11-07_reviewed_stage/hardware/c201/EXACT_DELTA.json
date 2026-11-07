@@ -1,0 +1,54 @@
+{
+  "status": "RESEARCH_DELTA_ONLY_NOT_STANDALONE_PCB",
+  "NOFAB": true,
+  "NOPOWER": true,
+  "commission": "OPEN",
+  "qualification": null,
+  "current_rating_A": null,
+  "effective_C": null,
+  "source": {
+    "label": "R202 source",
+    "bytes": 900800,
+    "sha256": "4cf0295c625942f71ae6dad34e42cf2c6e5c9726efcd78bebbcd1809470ace68",
+    "included": false
+  },
+  "candidate": {
+    "label": "C201 candidate",
+    "bytes": 901069,
+    "sha256": "39620767d41fbe387f2c99a9bed91e1e4546e583ddf91ebb34f478a8c9dc10a6",
+    "included": false
+  },
+  "added_segments_sha256": "fbcf4b657df9cd3ea714d8d59fe38dc57568221bc396b1a3f058e98d014ab5b2",
+  "insertion": {
+    "before_exact_terminal_bytes": ")\n",
+    "two_segment_lines_preserve_whitespace": true,
+    "required_source_suffix": "\n)\n"
+  },
+  "removed_bytes": 0,
+  "other_bytes_changed": false,
+  "recorded_scope": {
+    "unconnected_before": 369,
+    "unconnected_after": 368,
+    "inherited_warnings": 8,
+    "inherited_parity_findings": 2,
+    "logic_ground_pads_before": 44,
+    "logic_ground_pads_after": 45,
+    "separate_power_ground_pads": 46,
+    "holes": 61
+  },
+  "not_included": [
+    "whole PCB",
+    "schematic",
+    "component libraries",
+    "manufacturer originals",
+    "CAD",
+    "276 external original-path dependencies"
+  ],
+  "limits": [
+    "Source PCB is not supplied by this selection. This is not a standalone or fabrication-ready project.",
+    "Net 53 is GND only in the exact hash-locked source. Never apply to another board by net number.",
+    "C201.1 and U201.VCCA remain separate singleton islands; no powered loop or effective decoupling qualification.",
+    "Removing all return sources leaves a two-capacitor ground island, not system ground.",
+    "Recorded electrical/geometric reviews are historical, not rerun by this publication selection."
+  ]
+}

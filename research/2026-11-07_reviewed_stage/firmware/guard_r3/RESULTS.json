@@ -1,0 +1,725 @@
+{
+  "kind": "HOST_ONLY_NOT_ADOPTED_NOFAB_NOPOWER",
+  "compiler": "cc (Debian 14.2.0-19) 14.2.0",
+  "python": "3.12.14",
+  "results": [
+    {
+      "label": "original/contact-existing",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "contact_power: buffered edges, gaps, readiness, release, sleep guards, stuck faults, clock recovery PASS\n"
+    },
+    {
+      "label": "original/recorder-existing",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "recorder pipeline: raw edge -> debounce -> durable sequence -> replay ACK + midburst FULL latch PASS\n"
+    },
+    {
+      "label": "original/storage-existing",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage: restart/replay/authACK/full/corruption +52 data cuts +12 ACK cuts +512 erase cuts PASS\n"
+    },
+    {
+      "label": "original/storage-idf-existing/False",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage IDF disabled: zero writes PASS\n"
+    },
+    {
+      "label": "original/storage-idf-existing/True",
+      "source": "frozen original",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage actual IDF adapter mocked APIs: disabled/security/NVS/epoch/readback/ACK/reclaim PASS\n"
+    },
+    {
+      "label": "original/maintenance-existing/O2",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "original/pipeline-existing/O2",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "original/actor-existing/O2/enabled",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "original/actor-existing/O2/disabled",
+      "source": "frozen original",
+      "flags": [
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "original/maintenance-existing/NDEBUG",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "original/pipeline-existing/NDEBUG",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "original/actor-existing/NDEBUG/enabled",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "original/actor-existing/NDEBUG/disabled",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG",
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "candidate/contact-existing",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "contact_power: buffered edges, gaps, readiness, release, sleep guards, stuck faults, clock recovery PASS\n"
+    },
+    {
+      "label": "candidate/recorder-existing",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "recorder pipeline: raw edge -> debounce -> durable sequence -> replay ACK + midburst FULL latch PASS\n"
+    },
+    {
+      "label": "candidate/storage-existing",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage: restart/replay/authACK/full/corruption +52 data cuts +12 ACK cuts +512 erase cuts PASS\n"
+    },
+    {
+      "label": "candidate/storage-idf-existing/False",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage IDF disabled: zero writes PASS\n"
+    },
+    {
+      "label": "candidate/storage-idf-existing/True",
+      "source": "candidate overlay",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage actual IDF adapter mocked APIs: disabled/security/NVS/epoch/readback/ACK/reclaim PASS\n"
+    },
+    {
+      "label": "candidate/maintenance-existing/O2",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "candidate/pipeline-existing/O2",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "candidate/actor-existing/O2/enabled",
+      "source": "candidate overlay",
+      "flags": [],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "candidate/actor-existing/O2/disabled",
+      "source": "candidate overlay",
+      "flags": [
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "candidate/maintenance-existing/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance:32 ACK sessions reclaimed; unACK retained/replayed; dirty/contact gates; erase power-loss intent; new session staleACK rejection PASS\n"
+    },
+    {
+      "label": "candidate/pipeline-existing/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application pipeline: real Gray8 decode + explicit test-only mapper, rejection gates, contact/stale GAP, durable replay exact ACK, storage fault PASS\n"
+    },
+    {
+      "label": "candidate/actor-existing/NDEBUG/enabled",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor actual app_main: absent provider, ACK error, camera/contact/IRQ/clock faults stop PASS\n"
+    },
+    {
+      "label": "candidate/actor-existing/NDEBUG/disabled",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-DTEST_APP_DISABLED=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actor disabled: no storage/provider action PASS\n"
+    },
+    {
+      "label": "original/regression/cp",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "CP accepted malformed field=0 byte=2 rc=0 actions=4 phase=0\nFAIL line 51: e==-1\n"
+    },
+    {
+      "label": "original/regression/app",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "APP accepted malformed field=0 byte=2 rc=0 actions=4 recording=1\nFAIL line 77: e==-1&&r.recorder.input_error==-1&&a.last_error==-1&&a.recorder.faulted&&!s.recording\n"
+    },
+    {
+      "label": "original/actor-regression/recording",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "ACTOR mode=recording accepted malformed field=0 byte=2 sleeps=1 polls=3 error=-107\nactor FAIL line23: !sleeps&&polls==(int)inject_at&&last_report_error==-110\n"
+    },
+    {
+      "label": "original/actor-regression/replay",
+      "source": "frozen original",
+      "flags": [],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "ACTOR mode=replay accepted malformed field=0 byte=2 sleeps=1 polls=4 error=-107\nactor FAIL line23: !sleeps&&polls==(int)inject_at&&last_report_error==-110\n"
+    },
+    {
+      "label": "original/maintenance-regression/replay",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "maintenance guard=2 path=replay erased=1 new_session=1\nactor FAIL line43: !erase_count&&!maintenance_reports&&!sleeps&&!erase_intent\n"
+    },
+    {
+      "label": "original/maintenance-regression/store",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "STORE unsafe safe_idle=2 rc=0 erases=1\nmaintenance line 12: rc==-3&&!erases&&!intent&&!store.log.faulted\n"
+    },
+    {
+      "label": "original/maintenance-regression/recovery",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "RECOVERY unknown intent=2 rc=0 erases=1\nmaintenance line 36: rc==-1&&!erases&&intent==value&&store.log.faulted&&!store.recording\n"
+    },
+    {
+      "label": "original/maintenance-sleep-already-safe",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance actor sleep: exact-1 grant; zero/fatal/malformed integers; unACK backlog preserved PASS\n"
+    },
+    {
+      "label": "original/app-reclaim-already-safe",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application reclaim: exact pressure/IRQ/quiet and pending-zero; all integer boundaries PASS\n"
+    },
+    {
+      "label": "original/idf-intent-already-safe",
+      "source": "frozen original",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actual IDF recovery adapter HOST DOUBLE: intent 0=no erase; 1=resume once; 2..255 rejected unchanged PASS\n"
+    },
+    {
+      "label": "original/ack-regression/store",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "ACK IMPACT: authenticated=2 accepted; after reopen offer=1; legitimate-idle reclaim=0 erases=1\nmaintenance line 30: rc==-3&&!writes&&!syncs&&!erases&&!intent\n"
+    },
+    {
+      "label": "original/ack-regression/idf",
+      "source": "frozen original",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "IDF ACK IMPACT: field=0 fact=2 accepted; reopen fragments=1; legitimate-idle reclaim=0 erases=1\nIDF ACK FAIL 28: rc==-3&&!writes&&!erases&&!memcmp(before,flash,sizeof flash)&&!memcmp(&saved,&c.store,sizeof saved)\n"
+    },
+    {
+      "label": "original/app-ack-already-safe",
+      "source": "frozen original",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "existing application ACK boundary: 2040 current/receipt malformed boolean facts plus zero/stale epochs rejected; valid retry PASS\n"
+    },
+    {
+      "label": "candidate/boolean/cp/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean CP: 2032 invalid bytes rejected without state/action changes; 256 legal combinations PASS\n"
+    },
+    {
+      "label": "candidate/boolean/app/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean APP: 1270 invalid bytes fail closed before frame/storage effects; 32 legal combinations PASS\n"
+    },
+    {
+      "label": "candidate/actor-boolean/recording/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean ACTOR recording: 1270 invalid bytes stopped before quiesce/sleep/erase/send PASS\n"
+    },
+    {
+      "label": "candidate/actor-boolean/replay/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean ACTOR replay: 1270 invalid bytes stopped before quiesce/sleep/erase/send PASS\n"
+    },
+    {
+      "label": "candidate/actor-maintenance/sleep/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance actor sleep: exact-1 grant; zero/fatal/malformed integers; unACK backlog preserved PASS\n"
+    },
+    {
+      "label": "candidate/actor-maintenance/replay/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance actor replay: exact-1 grant; zero/fatal/malformed integers; unACK backlog preserved PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/store/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage reclaim: only safe_idle==1 grants; signed/boundary invalids and unACK retained PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/app/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application reclaim: exact pressure/IRQ/quiet and pending-zero; all integer boundaries PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/recovery/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "pure storage recovery: intent 0=no erase, 1=resume once, invalid signed integers fail closed PASS\n"
+    },
+    {
+      "label": "candidate/idf-intent/ASSERT_ENABLED",
+      "source": "candidate overlay",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actual IDF recovery adapter HOST DOUBLE: intent 0=no erase; 1=resume once; 2..255 rejected unchanged PASS\n"
+    },
+    {
+      "label": "candidate/ack/store/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "store ACK: exact security=1; invalid facts preserve offer/media/replay, prevent reclaim; lawful retry and four write/sync failure points PASS\n"
+    },
+    {
+      "label": "candidate/ack/app/NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "existing application ACK boundary: 2040 current/receipt malformed boolean facts plus zero/stale epochs rejected; valid retry PASS\n"
+    },
+    {
+      "label": "candidate/idf-ack/ASSERT_ENABLED",
+      "source": "candidate overlay",
+      "flags": [
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actual IDF ACK HOST DOUBLE: four security facts require exact 1; byte-for-byte retention, reboot/replay and valid ACK/reclaim; packet compatibility PASS\n"
+    },
+    {
+      "label": "candidate/boolean/cp/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean CP: 2032 invalid bytes rejected without state/action changes; 256 legal combinations PASS\n"
+    },
+    {
+      "label": "candidate/boolean/app/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean APP: 1270 invalid bytes fail closed before frame/storage effects; 32 legal combinations PASS\n"
+    },
+    {
+      "label": "candidate/actor-boolean/recording/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean ACTOR recording: 1270 invalid bytes stopped before quiesce/sleep/erase/send PASS\n"
+    },
+    {
+      "label": "candidate/actor-boolean/replay/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "boolean ACTOR replay: 1270 invalid bytes stopped before quiesce/sleep/erase/send PASS\n"
+    },
+    {
+      "label": "candidate/actor-maintenance/sleep/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance actor sleep: exact-1 grant; zero/fatal/malformed integers; unACK backlog preserved PASS\n"
+    },
+    {
+      "label": "candidate/actor-maintenance/replay/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "maintenance actor replay: exact-1 grant; zero/fatal/malformed integers; unACK backlog preserved PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/store/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "storage reclaim: only safe_idle==1 grants; signed/boundary invalids and unACK retained PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/app/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "application reclaim: exact pressure/IRQ/quiet and pending-zero; all integer boundaries PASS\n"
+    },
+    {
+      "label": "candidate/reclaim/recovery/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "pure storage recovery: intent 0=no erase, 1=resume once, invalid signed integers fail closed PASS\n"
+    },
+    {
+      "label": "candidate/idf-intent/UBSAN_ASSERT_ENABLED",
+      "source": "candidate overlay",
+      "flags": [
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actual IDF recovery adapter HOST DOUBLE: intent 0=no erase; 1=resume once; 2..255 rejected unchanged PASS\n"
+    },
+    {
+      "label": "candidate/ack/store/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "store ACK: exact security=1; invalid facts preserve offer/media/replay, prevent reclaim; lawful retry and four write/sync failure points PASS\n"
+    },
+    {
+      "label": "candidate/ack/app/UBSAN_NDEBUG",
+      "source": "candidate overlay",
+      "flags": [
+        "-DNDEBUG",
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "existing application ACK boundary: 2040 current/receipt malformed boolean facts plus zero/stale epochs rejected; valid retry PASS\n"
+    },
+    {
+      "label": "candidate/idf-ack/UBSAN_ASSERT_ENABLED",
+      "source": "candidate overlay",
+      "flags": [
+        "-O1",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "-DCONFIG_PEN_FLASH_RECORDING=1"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "actual IDF ACK HOST DOUBLE: four security facts require exact 1; byte-for-byte retention, reboot/replay and valid ACK/reclaim; packet compatibility PASS\n"
+    }
+  ],
+  "test_executions": 65,
+  "expected_original_failures": 9,
+  "unexpected_failures": 0,
+  "frozen_hashes_unchanged": true,
+  "source_sha256": {
+    "firmware/application/pipeline.c": "1653862701fb641f0c915b3a6aac095ac2bcef5282e1a6659d075098cf9f5f02",
+    "firmware/application/pipeline.h": "792732ebbb1aadfb030fd1d0d37f6528667f29a6eaf227ca50939d2774b34f7e",
+    "firmware/application_idf/main/application_main.c": "6499f3b274bafd5085bcb6755f4cd72c09fae535fab991190125cf71aadc9785",
+    "firmware/application_idf/main/board_provider.h": "671be4b31dd988cdc5638b18757153bafc169bfef9eec14477a7351f17f22fe1",
+    "firmware/application_idf/main/partition_profile.h": "b85fbff66dff42bc782966340933704caafe207943a8d80afaeb5326a7855a16",
+    "firmware/application_idf/main/partition_profile_idf.h": "105fea4d9fbd86e658f7621aaf5a7d5f10775488d8d85241465150278be06cee",
+    "firmware/bench_idf/main/bench_wire.h": "906a80c9fb1337cde380c5fb5b55d6d9b2f806f012dd087a3482a9c441aa11a9",
+    "firmware/codec/anoto.c": "0e0898ecd9912dc28c098de75c7940e36d337a7a6a501b3bc9bae787adab3f4c",
+    "firmware/codec/anoto.h": "ecb6799ffdfacbfc3e2dac68194ef543a9c461ed9da62d5d4f27d09f3e43d23d",
+    "firmware/codec/sequences.h": "87d00e2204b107c4a7fd337a87a03ad60854d59812e489f7a60c121c52cb9997",
+    "firmware/portable/pen.c": "b2300c50efe343519054d7a72e1fd89c41ca357e68d013d0d77be7585a787604",
+    "firmware/portable/pen.h": "02948c7502a2b4372f21a66e6b85b93ae0898fc25015d9dfd8c3458b48287433",
+    "firmware/runtime/contact_power.c": "52ae741db5f69116b27d68770cbfeb87f7a9e14a9264ebb9c764cced87d25469",
+    "firmware/runtime/contact_power.h": "8523c8e7f8b5bedc921555526bafe532b31f9729c6932b518a4a0ce625379f57",
+    "firmware/runtime/recorder.c": "468073220614874dc7c74b866f3ff4bd5ef14569d08537fc8a445857e37e5dba",
+    "firmware/runtime/recorder.h": "a3949ec96ef031098772adb2e6b78a7752fc4129afbb4f4bd9144ddc223d3c34",
+    "firmware/storage/storage_idf.c": "3ce071a5d45b2f9390740fec8b691ec912a74d1eff7f5a89e58d4f5560860945",
+    "firmware/storage/storage_idf.h": "4126f0e85ed4b2693bed5295ea98c75a76ee859281eae10114baf4761576cf21",
+    "firmware/storage/store.c": "51d2c54eb60fc4ddb32965716dbba5eb7d77b57d7e75cf3e49faf1a67004d472",
+    "firmware/storage/store.h": "9f6235daa781a3d5e4a03c8f05b2bab37daac3d2e44e61fb7acd8f7edad412d0",
+    "firmware/update/update_idf.h": "769b63399bbdc6dff0f2af2c393baf855bbc16c0dfd290956be2d9e651c46787",
+    "firmware/update/update_policy.h": "baca4245db47f33f6a969302b8db5688e6a9a9a1109d45272cea63f6ff559597",
+    "firmware/vision/canonical.h": "aee6c922d6657b07a02d7af66c6f8dfe07beb8e1fe3ec27874b2f3f38531ec03",
+    "firmware/vision/roi.h": "11d24581659d8223c73275a423342784b6073b61f72a140b185c743ef4a1f1c2",
+    "firmware/vision/roi_opt.c": "e6d8d175449d4a30df2e7b6a7debde2f1fbe741a2449b8a9d111538f54f385ef",
+    "firmware/vision/roi_opt.h": "f5d957939a92a2b3e3425e9278069a60dc5b8fe04db04225bf3ea4d57167902e",
+    "tests/roi_fixture.py": "66e7c29b184a82e66a2075ba63eab574fccca6b13be4a2ac7454db01fb844ea9",
+    "tests/roi_opt_fixture.py": "213a5b0c84bb4969e722967a0d6e9274493305fae2b32174ad7218b55714f442",
+    "tests/test_application_actor.c": "e769eff6c3cb170c0da65ec6cf0561454ea557f8df7c402fc91ac027677f1336",
+    "tests/test_application_maintenance.c": "876a6f57ea4f981e416a20fc4a8b81579fef8a6927df9d5a61d9a855e5208f65",
+    "tests/test_application_pipeline.c": "8518bfffb41584c210c1acb0023f9b54823f5340d21b37bce96af0b785f1fc1d",
+    "tests/test_application_stubs/esp_err.h": "f2dc88a24fbbef24c3f7e181045b5314c2bdbd9573348b1b63051354c0de80ca",
+    "tests/test_application_stubs/esp_log.h": "eecfa2c0a54bc938c7a951cf895bd62e3a1c140cc0dc03b62e24b82ca8baa391",
+    "tests/test_application_stubs/esp_timer.h": "77539eec139bbeab6471cbe03114aeccd295eccf06b1f083aa26c7db5c0bca71",
+    "tests/test_application_stubs/freertos/FreeRTOS.h": "f885043fa493d8d3eaa44d71286de0319aa3a6b414311f16b3c95935d95e8aa0",
+    "tests/test_application_stubs/freertos/task.h": "96736a43695504f3e0a4583276041e74dd5cec70edb08cc7d147562cd8ce33f2",
+    "tests/test_application_stubs/sdkconfig.h": "487b0d5fe834a7142be5f546fd3194bd11ec905ecaa423c332ce5d1192090f78",
+    "tests/test_application_stubs/storage_idf.h": "5a9419abc712b00f869de1c7bb8943001b3bc0f21ea4166951e54297465cb89e",
+    "tests/test_contact_power.c": "b8f7a12f18b0ec0a922b00af44106098a988bb30d690226841cf03b75da5a976",
+    "tests/test_recorder.c": "7084d11c732ee56d60631b389694ec40c4c695bf1a2a6ecca0359923b8550908",
+    "tests/test_storage.c": "d26a0af83aeb9c7bcad75d823959a02f30f3ce68202167897236083b15f029e3",
+    "tests/test_storage_idf_mock.c": "c9eba1a43f49bf4208d1be7ea4c6ced2219feef428f5200e37f96cc59bb83b88",
+    "tests/test_storage_stubs/esp_err.h": "042b984cbcaf019629eb931fc78b75c12f283bb99bfb19667674b1239afc8291",
+    "tests/test_storage_stubs/esp_partition.h": "76d613d1e1f8c356da3d2bf2428217a37d5f0bc17573d9da44c4ba49c9bde6c5",
+    "tests/test_storage_stubs/nvs.h": "2a78124b1a4b541e01d734ea2a4023fe647787f34c027ea016944453a32c5f0f",
+    "tests/test_storage_stubs/nvs_flash.h": "1bd2584730f9bc1533b94e7144df5900b4f00ff216abd7a0a7cefe543fe35cb7"
+  },
+  "frame_sha256": "0d3d83c38d3520f23444b0f938ebb43a765d7457afc1217bb7702aaa3d207f36",
+  "dependency_discovery": {
+    "cv2": false,
+    "numpy": true,
+    "fastapi": true,
+    "httpx": true,
+    "uvicorn": true,
+    "bleak": false
+  },
+  "elapsed_seconds": 47.948,
+  "scope": "Focused existing host regressions, exhaustive boolean bytes, signed maintenance and ACK security boundaries, real IDF adapter with host doubles only. Not full host gate, target compile, physical Flash, GPIO, USB, camera, sleep or power test."
+}

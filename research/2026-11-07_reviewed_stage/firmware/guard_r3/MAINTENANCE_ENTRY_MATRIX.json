@@ -1,0 +1,44 @@
+{
+  "scope": "HOST_ONLY_NOT_ADOPTED_NOFAB_NOPOWER",
+  "entries": [
+    {
+      "entry": "actor replay-only maintenance_idle_guard",
+      "grant": "Exactly 1 after transport quiescence and no pending writes; store must also have no unACK records.",
+      "zero": "Resume transport and cancel maintenance before the durable stop barrier.",
+      "negative_or_above_one": "Terminate actor with existing actor_error=-100; no maintenance report, erase or new session.",
+      "change": "R2 now rejects positive values greater than 1. Negative fatal and zero race behavior preserved."
+    },
+    {
+      "entry": "actor normal sleep-prepared maintenance_idle_guard",
+      "grant": "Exactly 1, full log with no pending replay records.",
+      "other": "Existing actor_error=-104; no erase and no resume of the already stopped session.",
+      "change": "None. Original and candidate tests confirm this entry was already strict."
+    },
+    {
+      "entry": "pen_app_reclaim",
+      "grant": "Only replay-only or sleep-prepared mode; pressure=1, IRQ=1, pending=0, quiet=1; healthy store and no contact fault.",
+      "other": "Negative pending/quiet is fault; other nonmatching gates defer; unACK data remains rejected by storage.",
+      "change": "None. Original and candidate signed-boundary tests verify the existing exact-domain checks."
+    },
+    {
+      "entry": "pen_store_reclaim",
+      "grant": "safe_idle exactly 1; recording/offering/fault clear; all required callbacks available; every committed record ACKed.",
+      "other": "Return -3 before changing durable intent or bytes when safe_idle is not 1.",
+      "change": "R2 replaces truthiness with exact 1. Original negative reproduction uses a fully ACKed fixture."
+    },
+    {
+      "entry": "pen_store_open durable erase-intent recovery",
+      "grant": "get_erase_intent succeeds and returns exactly 1: resume previously authorized erase and clear intent.",
+      "zero": "No recovery erase.",
+      "invalid": "Return -1, stop recording and leave log faulted; retain all media and intent unchanged.",
+      "change": "R2 enforces 0/1 at generic adapter boundary. It does not require a new idle grant for a valid previously persisted erase intent."
+    },
+    {
+      "entry": "actual storage_idf.c recovery adapter",
+      "grant": "Existing NVS get_intent already rejects values above 1 before generic pen_store_open recovery.",
+      "change": "None. Host API-double test verifies intent=0, intent=1 and all 2..255; this is not an ESP-IDF target build or actual NVS test."
+    }
+  ],
+  "integer_probe_scope": "Each signed gate tested over -255..255 plus INT_MIN, INT_MAX, -65536 and 65536. This is not exhaustive over all representable int values.",
+  "limitations": "These tests do not prove real IRQ/capture hold atomicity, physical Flash persistence, hardware sleep or race freedom."
+}

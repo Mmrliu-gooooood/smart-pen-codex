@@ -1,0 +1,93 @@
+--- a/firmware/runtime/contact_power.c
++++ b/firmware/runtime/contact_power.c
+@@ -22,6 +22,9 @@
+ int pen_cp_step(pen_cp *s,const pen_cp_input *i,const pen_sample *p,pen_cp_output *o){
+  if(!s||!i||!p||!o||p->timestamp_us!=i->now_us||!p->session||p->confidence>1000||(p->flags&~7u))return -1;
+  memset(o,0,sizeof(*o));
++ /* Unknown/invalid provider facts must not become truthy sleep or ink permission. */
++ if(i->raw_contact>1||i->pickup_irq_low>1||i->camera_ready>1||i->storage_pending>1||
++    i->usb_sleep_allowed>1||i->calibrated>1||i->has_observation>1||i->recover_fault>1)return -1;
+  if(s->started&&i->now_us<s->last_us)fault(s,o,p,PEN_CP_CLOCK);
+  if(!s->started){s->started=1;s->last_us=i->now_us;s->activity_us=i->now_us;}
+  if(s->phase==PEN_CP_FAULT){
+--- a/firmware/application/pipeline.c
++++ b/firmware/application/pipeline.c
+@@ -45,6 +45,12 @@
+  if(!a||!a->initialized||a->sleep_prepared||a->replay_only)return -1;
+  if(!i||!r){a->last_error=-1;a->recorder.faulted=1;pen_store_stop(a->recorder.store);return -1;}
+  memset(r,0,sizeof(*r));r->decode_status=PEN_ROI_ARGUMENT;
++ /* Validate before readiness/storage normalization or any frame consumption. */
++ if(i->raw_contact>1||i->pickup_irq_low>1||i->camera_ready>1||
++    i->storage_pending>1||i->usb_sleep_allowed>1){
++  r->recorder.input_error=-1;a->last_error=-1;a->recorder.faulted=1;
++  pen_store_stop(a->recorder.store);return -1;
++ }
+  pen_sample p={.timestamp_us=i->now_us};
+  const pen_app_frame*f=i->frame;
+  int qualified=a->config.camera_qualified==1;
+--- a/firmware/application_idf/main/application_main.c
++++ b/firmware/application_idf/main/application_main.c
+@@ -51,7 +51,13 @@
+  for(;;){
+   pen_app_input next={0};int e=b->poll(b->ctx,&next);
+   if(e<0)break;
+-  if(e==0)input=next;
++  if(e==0){
++   /* Replay bypasses pen_app_step: reject malformed facts before either branch,
++    * and before pending_transactions can overwrite a malformed input byte. */
++   if(next.raw_contact>1||next.pickup_irq_low>1||next.camera_ready>1||
++      next.storage_pending>1||next.usb_sleep_allowed>1){fault_code=-110;break;}
++   input=next;
++  }
+   else {input.frame=NULL;input.now_us=(uint64_t)esp_timer_get_time();}
+   /* Synchronous recorder commits before return; provider reports only other
+    * genuine uncommitted transactions, NEVER durable offline backlog. */
+@@ -96,7 +102,7 @@
+     if(quiet<0||dirty<0||end<start||end-start>=b->max_sleep_quiesce_us)break;
+     if(!quiet&&!dirty){
+      int guard=b->maintenance_idle_guard(b->ctx);
+-     if(guard<0)break;
++     if(guard<0||guard>1)break; /* Only exact 1 grants maintenance. */
+      if(!guard){if(b->resume_transport(b->ctx))break;sleep_pending=0;replay_idle=0;goto replay_transport;}
+      report(b,-109); /* maintenance busy: recording already stopped */
+      end=(uint64_t)esp_timer_get_time();
+--- a/firmware/storage/store.c
++++ b/firmware/storage/store.c
+@@ -14,7 +14,7 @@
+  s->log.faulted=1;
+  s->recording=s->offering=s->sequence_exhausted=0;s->recording_session=0;
+  s->device=device;s->session_count=0;s->replay_slot=0;
+- if(s->get_erase_intent){int intent=0;if(s->get_erase_intent(s->meta_ctx,&intent))return -1;
++ if(s->get_erase_intent){int intent=0;if(s->get_erase_intent(s->meta_ctx,&intent)||intent<0||intent>1)return -1;
+   if(intent){if(!s->erase_all||!s->set_erase_intent||s->erase_all(s->meta_ctx)||s->set_erase_intent(s->meta_ctx,0))return -1;}}
+  if(pen_log_open(&s->log))return -1;
+  for(size_t i=0;i<s->log.next;i++){
+@@ -51,7 +51,7 @@
+  }return 1;
+ }
+ int pen_store_ack(pen_store*s,uint64_t session,uint32_t seq,int authenticated){
+- if(!authenticated||!s->offering||session!=s->offered.session||seq!=s->offered.seq)return -3;
++ if(authenticated!=1||!s->offering||session!=s->offered.session||seq!=s->offered.seq)return -3;
+  if(s->log.faulted)return -1;
+  uint8_t packet[48],body[8];if(pen_encode(packet,&s->offered))return -1;
+  memcpy(body,"PAK1",4);wr32(body+4,pen_crc32(packet,44));size_t offset=s->offered_slot*64;
+@@ -60,7 +60,7 @@
+  s->offering=0;s->replay_slot=s->offered_slot+1;return 0;
+ }
+ int pen_store_reclaim(pen_store*s,int safe){
+- if(!safe||s->recording||s->offering||s->log.faulted||!s->get_erase_intent||!s->set_erase_intent||!s->erase_all)return -3;
++ if(safe!=1||s->recording||s->offering||s->log.faulted||!s->get_erase_intent||!s->set_erase_intent||!s->erase_all)return -3;
+  for(size_t i=0;i<s->log.next;i++){pen_sample p;int acked;int result=slot(s,i,&p,&acked);if(result<0)return -1;if(!result&&!acked)return -3;}
+  s->log.faulted=1;
+  if(s->set_erase_intent(s->meta_ctx,1)||s->erase_all(s->meta_ctx)||s->set_erase_intent(s->meta_ctx,0))return -1;
+--- a/firmware/storage/storage_idf.c
++++ b/firmware/storage/storage_idf.c
+@@ -54,7 +54,7 @@
+ void pen_storage_idf_close(pen_storage_idf*c){if(!c)return;c->enabled=0;if(c->nvs_opened)nvs_close(c->nvs);c->nvs_opened=0;c->store.log.faulted=1;c->store.recording=0;}
+ static uint64_t get(const uint8_t*p,unsigned n){uint64_t v=0;for(unsigned i=0;i<n;i++)v|=(uint64_t)p[i]<<(i*8);return v;}
+ int pen_storage_idf_ack(pen_storage_idf*c,const uint8_t*b,size_t n,int encrypted,int authenticated,int bonded,int approved){
+- if(!c||!b||!c->enabled||!encrypted||!authenticated||!bonded||!approved||n!=20)return -3;
++ if(!c||!b||!c->enabled||encrypted!=1||authenticated!=1||bonded!=1||approved!=1||n!=20)return -3;
+  if(b[0]!='A'||b[1]!='K'||b[2]!=1||b[3]||get(b+16,4)!=pen_crc32(b,16))return -3;
+  return pen_store_ack(&c->store,get(b+4,8),(uint32_t)get(b+12,4),1);
+ }
